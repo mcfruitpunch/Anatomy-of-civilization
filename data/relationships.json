@@ -1,15 +1,158 @@
 [
-  {"id":"rel-001","from":"ent-clive","to":"ent-eic","type":"employed_by","note":"Military and administrative officer.","sources":["src-dalrymple-2019"]},
-  {"id":"rel-002","from":"ent-eic","to":"ent-mir-jafar","type":"installed","note":"Company installed Mir Jafar as Nawab after Plassey.","sources":["src-dalrymple-2019"]},
-  {"id":"rel-003","from":"ent-hastings","to":"ent-eic","type":"employed_by","note":"Governor-General of Bengal.","sources":["src-robins-2006"]},
-  {"id":"rel-004","from":"ent-parliament","to":"ent-eic","type":"regulated","note":"Regulating Act 1773 and later charter acts.","sources":["src-regulating-act-1773"]},
-  {"id":"rel-005","from":"ent-crown","to":"ent-eic","type":"absorbed","note":"Territories and armies transferred in 1858.","sources":["src-gov-india-act-1858"]},
-  {"id":"rel-006","from":"ent-iran-govt","to":"ent-aioc","type":"nationalized","note":"1951 nationalization.","sources":["src-abrahamian-2013"]},
-  {"id":"rel-007","from":"ent-mossadegh","to":"ent-iran-govt","type":"led","note":"Prime Minister 1951-1953.","sources":["src-gasiorowski-2004"]},
-  {"id":"rel-008","from":"ent-cia","to":"ent-mossadegh","type":"covertly_opposed","note":"Operation Ajax.","sources":["src-nsa-ebb435","src-wilber-1954"]},
-  {"id":"rel-009","from":"ent-mi6","to":"ent-mossadegh","type":"covertly_opposed","note":"Operation Boot; cooperated with the CIA.","sources":["src-abrahamian-2013"]},
-  {"id":"rel-010","from":"ent-roosevelt","to":"ent-cia","type":"employed_by","note":"Led the Tehran field operation.","sources":["src-wilber-1954"]},
-  {"id":"rel-011","from":"ent-cia","to":"ent-shah","type":"supported","note":"Backed the Shah's return to power.","sources":["src-nsa-ebb435"]},
-  {"id":"rel-012","from":"ent-zahedi","to":"ent-iran-govt","type":"led","note":"Prime minister from 19 August 1953.","sources":["src-abrahamian-2013"]},
-  {"id":"rel-013","from":"ent-aioc","to":"ent-mi6","type":"interests_aligned_with","note":"British government held a majority stake in AIOC and sought to reverse nationalization.","sources":["src-abrahamian-2013"]}
+  {
+    "id": "rel-001",
+    "from": "ent-clive",
+    "to": "ent-eic",
+    "type": "employed_by",
+    "note": "Military and administrative officer.",
+    "sources": [
+      "src-nam-plassey"
+    ],
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-002",
+    "from": "ent-eic",
+    "to": "ent-mir-jafar",
+    "type": "installed",
+    "note": "Company installed Mir Jafar as Nawab after Plassey.",
+    "sources": [
+      "src-nam-plassey"
+    ],
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-003",
+    "from": "ent-hastings",
+    "to": "ent-eic",
+    "type": "employed_by",
+    "note": "Governor-General of Bengal.",
+    "sources": [
+      "src-nam-eic"
+    ],
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-004",
+    "from": "ent-parliament",
+    "to": "ent-eic",
+    "type": "regulated",
+    "note": "Regulating Act 1773 and later charter acts.",
+    "sources": [
+      "src-bl-parliament"
+    ],
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-005",
+    "from": "ent-crown",
+    "to": "ent-eic",
+    "type": "absorbed",
+    "note": "Territories and armies transferred in 1858.",
+    "sources": [
+      "src-uk-india-1858"
+    ],
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-006",
+    "from": "ent-iran-govt",
+    "to": "ent-aioc",
+    "type": "nationalized",
+    "note": "1951 nationalization.",
+    "sources": [
+      "src-frus-nationalization"
+    ],
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-007",
+    "from": "ent-mossadegh",
+    "to": "ent-iran-govt",
+    "type": "led",
+    "note": "Prime Minister 1951-1953.",
+    "sources": [
+      "src-frus-nationalization"
+    ],
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-008",
+    "from": "ent-cia",
+    "to": "ent-mossadegh",
+    "type": "covertly_opposed",
+    "note": "Operation Ajax.",
+    "sources": [
+      "src-nsa-ebb435"
+    ],
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-009",
+    "from": "ent-mi6",
+    "to": "ent-mossadegh",
+    "type": "covertly_opposed",
+    "note": "Operation Boot; cooperated with the CIA.",
+    "sources": [
+      "src-nsa-uk-planning"
+    ],
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-010",
+    "from": "ent-roosevelt",
+    "to": "ent-cia",
+    "type": "employed_by",
+    "note": "Led the Tehran field operation.",
+    "sources": [
+      "src-nsa-ebb435"
+    ],
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-011",
+    "from": "ent-cia",
+    "to": "ent-shah",
+    "type": "supported",
+    "note": "Backed the Shah's return to power.",
+    "sources": [
+      "src-nsa-ebb435"
+    ],
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-012",
+    "from": "ent-zahedi",
+    "to": "ent-iran-govt",
+    "type": "led",
+    "note": "Prime minister from 19 August 1953.",
+    "sources": [
+      "src-nsa-ebb435"
+    ],
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-013",
+    "from": "ent-aioc",
+    "to": "ent-mi6",
+    "type": "interests_aligned_with",
+    "note": "Hypothesis about overlapping institutional interests; no direct AIOC-to-MI6 coordination established by this relationship record.",
+    "sources": [
+      "src-abrahamian-2013"
+    ],
+    "status": "interpretation",
+    "verification": "pending"
+  }
 ]
