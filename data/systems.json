@@ -1,5 +1,41 @@
 [
-  {"id":"sys-regulatory-capture","title":"Commercial interests shaping state policy","description":"Firms with concentrated stakes lobby governments to use state power to protect their assets.","cases":["beic","iran1953"],"status":"supported interpretation","sources":["src-robins-2006","src-abrahamian-2013"]},
-  {"id":"sys-moral-hazard","title":"Privatized gains, socialized risk","description":"The Company's 1773 financial distress led to government intervention rather than failure.","cases":["beic"],"status":"supported interpretation","sources":["src-regulating-act-1773","src-robins-2006"]},
-  {"id":"sys-covert-intervention","title":"Covert intervention and long-term blowback","description":"Covert regime change can bring short-term goals but shape long-term political legitimacy.","cases":["iran1953"],"status":"unresolved","sources":["src-gasiorowski-2004"]}
+  {
+    "id": "sys-regulatory-capture",
+    "title": "Commercial interests shaping state policy",
+    "description": "Commercial actors and governments can have overlapping interests; the two cases show different documented channels, not a universal causal rule.",
+    "cases": [
+      "beic",
+      "iran1953"
+    ],
+    "status": "supported interpretation",
+    "sources": [
+      "src-nam-eic",
+      "src-nsa-uk-planning"
+    ]
+  },
+  {
+    "id": "sys-moral-hazard",
+    "title": "Privatized gains, socialized risk",
+    "description": "British parliamentary intervention followed the East India Company's financial crisis, providing a case for investigating risk allocation and accountability.",
+    "cases": [
+      "beic"
+    ],
+    "status": "supported interpretation",
+    "sources": [
+      "src-bl-parliament"
+    ]
+  },
+  {
+    "id": "sys-covert-intervention",
+    "title": "Covert intervention and long-term blowback",
+    "description": "The 1953 Iranian coup allows the long-term political consequences of covert intervention to be investigated; specific causal effects remain under review.",
+    "cases": [
+      "iran1953"
+    ],
+    "status": "unresolved",
+    "sources": [
+      "src-nsa-ebb435",
+      "src-gasiorowski-2004"
+    ]
+  }
 ]
