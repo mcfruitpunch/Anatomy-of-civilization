@@ -1,0 +1,23 @@
+[
+  {"id":"beic","title":"The British East India Company","period":"1600-1874",
+   "summary":"How a chartered trading monopoly became a territorial power governing millions, and how the state ultimately absorbed it.",
+   "decision_making":"Charter privileges, revenue rights (the diwani), private armies and parliamentary lobbying all shaped Company policy; Parliament intervened only after financial crisis in 1773.",
+   "interpretations":[
+     {"label":"Corporate conquest","claim":"Company violence and revenue extraction, driven by shareholder and private profit, drove Indian impoverishment.","status":"supported interpretation","sources":["src-dalrymple-2019","src-robins-2006"]},
+     {"label":"Complex political history","claim":"Expansion also depended on Indian allies, financiers and regional rivalries; outcomes were not purely imposed from London.","status":"supported interpretation","sources":["src-dalrymple-2019"]}],
+   "consequences":"Precedent for the limited-liability multinational; the colonial state in India; debates over accountability of corporate power.",
+   "open_questions":["Mortality and economic impact estimates for the 1770 famine remain contested."],
+   "events":["evt-1600-eic-charter","evt-1757-plassey","evt-1765-diwani","evt-1770-bengal-famine","evt-1773-regulating-act","evt-1858-crown-rule"],
+   "entities":["ent-eic","ent-clive","ent-hastings","ent-mir-jafar","ent-parliament","ent-crown"]},
+  {"id":"iran1953","title":"The 1953 Iranian Coup","period":"1951-1954",
+   "summary":"The overthrow of Prime Minister Mossadegh after Iran nationalized its oil, a joint US-UK covert operation.",
+   "decision_making":"British government and AIOC sought to reverse nationalization; after embargo failed, Britain persuaded the US to act, and the CIA and MI6 planned the operation.",
+   "interpretations":[
+     {"label":"Oil interests","claim":"Control of oil and AIOC's concession were the primary motive.","status":"supported interpretation","sources":["src-abrahamian-2013"]},
+     {"label":"Cold War anticommunism","claim":"US officials were chiefly motivated by fear of Tudeh Party influence and Soviet gains.","status":"supported interpretation","sources":["src-gasiorowski-2004"]},
+     {"label":"Domestic factors","claim":"Iranian political divisions and the Shah's and clergy's roles also mattered; the degree to which the coup alone determined the outcome is debated.","status":"unresolved","sources":["src-gasiorowski-2004"]}],
+   "consequences":"Consolidated the Shah's rule and the 1954 oil consortium; shaped later Iranian views of foreign intervention.",
+   "open_questions":["Relative weight of covert action versus Iranian domestic dynamics."],
+   "events":["evt-1951-nationalization","evt-1953-coup","evt-1954-consortium","evt-2013-cia-acknowledges"],
+   "entities":["ent-aioc","ent-mossadegh","ent-shah","ent-cia","ent-mi6","ent-roosevelt","ent-zahedi","ent-iran-govt"]}
+]
