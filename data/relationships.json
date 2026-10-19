@@ -154,5 +154,58 @@
     ],
     "status": "interpretation",
     "verification": "pending"
+  },
+  {
+    "id": "rel-014",
+    "from": "ent-allen-dulles",
+    "to": "ent-john-foster-dulles",
+    "type": "sibling_of",
+    "note": "Brothers; family relationship alone does not establish coordinated wrongdoing.",
+    "sources": [
+      "src-state-dulles-bio",
+      "src-frus-dulles-1953"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1953"
+  },
+  {
+    "id": "rel-015",
+    "from": "ent-allen-dulles",
+    "to": "ent-cia",
+    "type": "directed",
+    "note": "Director of Central Intelligence from 1953 to 1961.",
+    "sources": [
+      "src-cia-allen-bio"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1953"
+  },
+  {
+    "id": "rel-016",
+    "from": "ent-john-foster-dulles",
+    "to": "ent-us-state",
+    "type": "led",
+    "note": "Secretary of State from 1953 to 1959.",
+    "sources": [
+      "src-state-dulles-bio"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1953"
+  },
+  {
+    "id": "rel-017",
+    "from": "ent-john-foster-dulles",
+    "to": "ent-allen-dulles",
+    "type": "communicated_with",
+    "note": "July 28, 1953: discussed wording for a US public statement concerning Iran and further aid. The memorandum does not by itself document planning of the coup.",
+    "sources": [
+      "src-frus-dulles-1953"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1953-07-28"
   }
 ]
