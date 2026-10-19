@@ -1,0 +1,11 @@
+[
+  {"id":"src-robins-2006","type":"scholarly","title":"The Corporation That Changed the World: How the East India Company Shaped the Modern Multinational","author":"Nick Robins","year":2006,"publisher":"Pluto Press","url":null},
+  {"id":"src-dalrymple-2019","type":"scholarly","title":"The Anarchy: The East India Company, Corporate Violence, and the Pillage of an Empire","author":"William Dalrymple","year":2019,"publisher":"Bloomsbury","url":null},
+  {"id":"src-regulating-act-1773","type":"primary","title":"East India Company Act 1773 (Regulating Act)","author":"Parliament of Great Britain","year":1773,"publisher":null,"url":null},
+  {"id":"src-gov-india-act-1858","type":"primary","title":"Government of India Act 1858","author":"Parliament of the United Kingdom","year":1858,"publisher":null,"url":null},
+  {"id":"src-nsa-ebb435","type":"primary","title":"CIA Acknowledges Role in 1953 Iranian Coup (National Security Archive Electronic Briefing Book 435)","author":"National Security Archive, George Washington University","year":2013,"publisher":"National Security Archive","url":"https://nsarchive2.gwu.edu/NSAEBB/NSAEBB435/"},
+  {"id":"src-wilber-1954","type":"primary","title":"Clandestine Service History: Overthrow of Premier Mossadeq of Iran, November 1952-August 1953","author":"Donald N. Wilber (CIA)","year":1954,"publisher":"CIA","url":null},
+  {"id":"src-abrahamian-2013","type":"scholarly","title":"The Coup: 1953, the CIA, and the Roots of Modern U.S.-Iranian Relations","author":"Ervand Abrahamian","year":2013,"publisher":"The New Press","url":null},
+  {"id":"src-gasiorowski-2004","type":"scholarly","title":"Mohammad Mosaddeq and the 1953 Coup in Iran","author":"Mark J. Gasiorowski and Malcolm Byrne (eds.)","year":2004,"publisher":"Syracuse University Press","url":null},
+  {"id":"src-kinzer-2003","type":"scholarly","title":"All the Shah's Men: An American Coup and the Roots of Middle East Terror","author":"Stephen Kinzer","year":2003,"publisher":"John Wiley & Sons","url":null}
+]

@@ -1,0 +1,12 @@
+body{font-family:system-ui,sans-serif;margin:0;line-height:1.5;color:#1b1b1b;background:#fafaf7}
+header,main,footer{max-width:60rem;margin:auto;padding:1rem}
+header{border-bottom:2px solid #8a6d3b}
+h1{margin:0}nav a{margin-right:1rem}label{margin-right:1rem}
+.skip{position:absolute;left:-999px}.skip:focus{left:0;background:#fff;padding:.5rem}
+a{color:#0b5394}a:focus,input:focus,select:focus{outline:3px solid #f90}
+section{margin:2rem 0}li{margin:.4rem 0}
+.tag{font-size:.8rem;border:1px solid #8a6d3b;border-radius:4px;padding:0 .3rem;margin-left:.3rem}
+.card{background:#fff;border:1px solid #ddd;border-radius:6px;padding:1rem;margin:1rem 0}
+svg{width:100%;height:auto;background:#fff;border:1px solid #ddd}
+svg text{font-size:11px}
+.hidden{display:none}

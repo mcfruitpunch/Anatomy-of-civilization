@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anatomy of Civilization — Global Power &amp; Historical Systems Atlas</title>
+<link rel="stylesheet" href="site/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <h1>Anatomy of Civilization</h1>
+  <p>Global Power &amp; Historical Systems Atlas</p>
+  <nav aria-label="Sections">
+    <a href="#timeline">Timeline</a><a href="#network">Power network</a><a href="#cases">Case studies</a>
+    <a href="#systems">Systems</a><a href="#evidence">Evidence library</a><a href="#principles">Principles</a>
+  </nav>
+  <label>Search <input id="search" type="search" placeholder="Search events, entities, sources"></label>
+  <label>Case <select id="case-filter"><option value="">All</option></select></label>
+</header>
+<main id="main">
+  <section id="timeline"><h2>Interactive timeline</h2><ol id="timeline-list"></ol></section>
+  <section id="network"><h2>Power network</h2>
+    <p>Documented relationships only. A connection is not evidence of wrongdoing.</p>
+    <svg id="graph" role="img" aria-label="Network graph of documented relationships" viewBox="0 0 800 520"></svg>
+    <ul id="network-list"></ul></section>
+  <section id="cases"><h2>Case studies</h2><div id="case-list"></div></section>
+  <section id="systems"><h2>Systems analysis</h2><div id="system-list"></div></section>
+  <section id="evidence"><h2>Evidence library</h2><ul id="source-list"></ul></section>
+  <section id="principles"><h2>Research principles</h2>
+    <ul>
+      <li>Every claim links to sources; each carries a status: <em>documented</em>, <em>supported interpretation</em>, <em>unresolved</em> or <em>speculation</em>.</li>
+      <li>We never infer culpability from ancestry, ethnicity, religion, or membership alone.</li>
+      <li>Powerful relationships are not assumed to be wrongdoing; covert coordination is reported only where documented.</li>
+    </ul></section>
+</main>
+<footer>Open source. Data lives in <code>data/</code> as versioned JSON; contributions welcome.</footer>
+<script src="site/app.js"></script>
+</body>
+</html>

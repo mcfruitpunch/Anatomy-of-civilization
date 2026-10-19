@@ -1,0 +1,16 @@
+[
+  {"id":"ent-eic","type":"corporation","name":"East India Company","years":"1600-1874","description":"English joint-stock company that became a territorial power in India."},
+  {"id":"ent-clive","type":"person","name":"Robert Clive","years":"1725-1774","description":"Company officer and victor at Plassey; later Governor of Bengal."},
+  {"id":"ent-hastings","type":"person","name":"Warren Hastings","years":"1732-1818","description":"First Governor-General of Bengal; impeached 1787 and acquitted 1795."},
+  {"id":"ent-mir-jafar","type":"person","name":"Mir Jafar","years":"c.1691-1765","description":"Commander who aided the Company at Plassey and became Nawab of Bengal."},
+  {"id":"ent-parliament","type":"government","name":"British Parliament","years":"","description":"Legislature that regulated and eventually absorbed the Company."},
+  {"id":"ent-crown","type":"government","name":"British Crown","years":"","description":"Assumed direct rule of India in 1858."},
+  {"id":"ent-aioc","type":"corporation","name":"Anglo-Iranian Oil Company (later BP)","years":"1935-1954 (as AIOC)","description":"British oil company whose Iranian concession was nationalized in 1951."},
+  {"id":"ent-mossadegh","type":"person","name":"Mohammad Mossadegh","years":"1882-1967","description":"Prime Minister of Iran 1951-1953."},
+  {"id":"ent-shah","type":"person","name":"Mohammad Reza Pahlavi","years":"1919-1980","description":"Shah of Iran, restored to full power after the 1953 coup."},
+  {"id":"ent-cia","type":"government","name":"Central Intelligence Agency","years":"1947-","description":"US agency that planned and directed Operation Ajax."},
+  {"id":"ent-mi6","type":"government","name":"MI6 (Secret Intelligence Service)","years":"","description":"British agency that co-planned the coup (Operation Boot)."},
+  {"id":"ent-roosevelt","type":"person","name":"Kermit Roosevelt Jr.","years":"1916-2000","description":"CIA officer who led the field operation in Tehran."},
+  {"id":"ent-zahedi","type":"person","name":"Fazlollah Zahedi","years":"1897-1963","description":"General installed as prime minister after the coup."},
+  {"id":"ent-iran-govt","type":"government","name":"Government of Iran","years":"","description":"Nationalized the oil industry in 1951."}
+]

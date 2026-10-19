@@ -1,0 +1,5 @@
+[
+  {"id":"sys-regulatory-capture","title":"Commercial interests shaping state policy","description":"Firms with concentrated stakes lobby governments to use state power to protect their assets.","cases":["beic","iran1953"],"status":"supported interpretation","sources":["src-robins-2006","src-abrahamian-2013"]},
+  {"id":"sys-moral-hazard","title":"Privatized gains, socialized risk","description":"The Company's 1773 financial distress led to government intervention rather than failure.","cases":["beic"],"status":"supported interpretation","sources":["src-regulating-act-1773","src-robins-2006"]},
+  {"id":"sys-covert-intervention","title":"Covert intervention and long-term blowback","description":"Covert regime change can bring short-term goals but shape long-term political legitimacy.","cases":["iran1953"],"status":"unresolved","sources":["src-gasiorowski-2004"]}
+]
