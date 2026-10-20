@@ -1,0 +1,145 @@
+[
+  {
+    "id": "extract-001",
+    "title": "Dutch report describes South Sea share prices during February trading",
+    "date": "1720-02-26",
+    "date_role": "reported_market_date",
+    "place": "London reported via Dutch-language periodical",
+    "record_kind": "newspaper_report",
+    "reading_level": "curated_modern_translation",
+    "language_original": "nl",
+    "paraphrase": "In Yale's published translation, a Dutch newspaper discusses unusually active speculation in South Sea Company shares, recording successive quoted figures of 177 and 184, plus a forecast that prices could climb to 200. These are newspaper price claims rather than verified individual purchases.",
+    "reported_numbers": [
+      {
+        "value": 177,
+        "unit": "quotation_unspecified",
+        "meaning": "Earlier South Sea share quotation as reported"
+      },
+      {
+        "value": 184,
+        "unit": "quotation_unspecified",
+        "meaning": "Subsequent share quotation as reported"
+      },
+      {
+        "value": 200,
+        "unit": "forecast_not_transaction",
+        "meaning": "Price expected by unnamed market participants, not a realized price"
+      }
+    ],
+    "limitations": "Original Dutch spelling not independently transcribed in this dataset. Yale's translation is not reproduced verbatim. News dates, quotation basis and settlement prices require checking against original editions and exchange ledgers.",
+    "sources": [
+      "src-yale-leydse-1720-feb26"
+    ],
+    "event": "evt-1720-dutch-feb-prices",
+    "case": "archives1720"
+  },
+  {
+    "id": "extract-002",
+    "title": "Dutch Paris dispatch reports halted cash redemption and alleged opposition",
+    "date": "1720-04-22",
+    "date_role": "reported_dispatch_date",
+    "place": "Paris, reported in Dutch-language periodical",
+    "record_kind": "newspaper_report",
+    "reading_level": "curated_modern_translation",
+    "language_original": "nl",
+    "paraphrase": "The French dispatch reports a halt in cash payments for bank bills the preceding day and fears about depletion of the bank's treasury. It also relays suspicion that people were deliberately undermining the bank: this is a contemporaneous rumor, not established wrongdoing. A separate passage describes expensive food and restrictions on animal slaughter.",
+    "reported_numbers": [],
+    "limitations": "Reporting of rumored deliberate obstruction is not independent evidence of a plot. Yale's 22 April newspaper reference is a report/edition date as presented by Yale; the French administrative order must be checked independently for precise legal and implementation chronology.",
+    "sources": [
+      "src-yale-leydse-1720-apr22",
+      "src-hnoc-law-primary"
+    ],
+    "event": "evt-1720-dutch-apr-paris",
+    "case": "archives1720"
+  },
+  {
+    "id": "extract-003",
+    "title": "Dutch paper reproduces London committee account of unauthorized share schemes",
+    "date": "1720-06-14",
+    "date_role": "london_dispatch_date_not_dutch_print_date",
+    "place": "London dispatch appearing in Dutch-language newspaper",
+    "record_kind": "newspaper_report",
+    "reading_level": "curated_modern_translation_and_image",
+    "language_original": "nl",
+    "paraphrase": "A London-dated dispatch says a parliamentary committee believed it had found 70 dubious promotional projects and expected legislation to suppress them. This is a contemporary report of claims about parliamentary intentions, not proof each of the purported 70 was illegal or eventually closed.",
+    "reported_numbers": [
+      {
+        "value": 70,
+        "unit": "schemes_reportedly_identified",
+        "meaning": "Contemporary newspaper assertion about committee findings, not audited enacted closures"
+      }
+    ],
+    "limitations": "14 June is the date in the London dispatch, not independently the Dutch issue publication date. Original visible in Yale's clipping, modern English translation used as guide. No verified international news transit duration.",
+    "sources": [
+      "src-yale-leydse-1720-jun14"
+    ],
+    "event": "evt-1720-dutch-jun-london",
+    "case": "archives1720"
+  },
+  {
+    "id": "extract-004",
+    "title": "A historical reading of enslaved populations in 1721 New Orleans and vicinity",
+    "date": "1721-11-24",
+    "date_role": "underlying_census_date",
+    "place": "New Orleans and vicinity",
+    "record_kind": "colonial_population_aggregate",
+    "reading_level": "historical_secondary_transcription_not_verified_against_original",
+    "language_original": "fr",
+    "paraphrase": "Historian J. Hanno Deiler reproduces figures attributed to Diron's November 1721 census: 177 people classified as African and held in slavery, 21 Indigenous people held in slavery, and 28 European contracted laborers (engagés). These are categories recorded or repeated by colonial observers, not natural identities or comprehensive community histories.",
+    "reported_numbers": [
+      {
+        "value": 177,
+        "unit": "people_reported_by_deiler",
+        "meaning": "African-descended people recorded as enslaved, historical reproduction only"
+      },
+      {
+        "value": 21,
+        "unit": "people_reported_by_deiler",
+        "meaning": "Indigenous people recorded as enslaved, historical reproduction only"
+      },
+      {
+        "value": 28,
+        "unit": "people_reported_by_deiler",
+        "meaning": "European laborers classified as engagés, historical reproduction only"
+      }
+    ],
+    "limitations": "Reproduced in 1910, not independently verified against 1721 handwritten folios. Scope is New Orleans and nearby areas, not all Louisiana. Spellings and exact categories may differ; some people were omitted or anonymized. The figures should not be combined into an overall population total until definitions and other publications are reconciled.",
+    "sources": [
+      "src-deiler-german-coast-1910",
+      "src-genealogytrails-no-1721",
+      "src-anom-census-no-1721"
+    ],
+    "event": "evt-1721-no-census",
+    "case": "archives1720"
+  },
+  {
+    "id": "extract-005",
+    "title": "1917 historian reports different population summary from the 1721 census",
+    "date": "1721-11-24",
+    "date_role": "underlying_census_date",
+    "place": "New Orleans (town; excludes some outlying concessions)",
+    "record_kind": "colonial_population_aggregate",
+    "reading_level": "historical_secondary_transcription_not_verified_against_original",
+    "language_original": "fr",
+    "paraphrase": "Historian Marc de Villiers du Terrage's historical account presents a New Orleans total of 470 inhabitants with 277 Europeans from a November 24, 1721 census. The work also gives separate figures for surrounding settlements; its digitized table contains imperfect text extraction.",
+    "reported_numbers": [
+      {
+        "value": 470,
+        "unit": "people_reported_by_villiers",
+        "meaning": "Author's summary count for New Orleans town"
+      },
+      {
+        "value": 277,
+        "unit": "people_reported_by_villiers",
+        "meaning": "Europeans within the author's town count"
+      }
+    ],
+    "limitations": "Figures and geographic boundaries must be verified against original census. Different published transcriptions may partition town, concessions, households, or statuses differently; do not add separate enslaved figures from another edition to infer a shared denominator.",
+    "sources": [
+      "src-villiers-neworleans-1917",
+      "src-anom-census-no-1721"
+    ],
+    "event": "evt-1721-no-census",
+    "case": "archives1720"
+  }
+]
