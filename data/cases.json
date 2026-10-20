@@ -600,7 +600,7 @@
     "id": "archives1720",
     "title": "Paris–London–Amsterdam: What the Surviving Records Actually Show",
     "period": "1716–1721",
-    "summary": "Specific original royal banking orders, contemporary financial criticism, Dutch market and print archives, and French Louisiana colonial lists survive. They document public laws, reports, and market channels, but do not yet establish a named private investor exchanging instructions between Paris, London and Amsterdam. A newly located 23 December 1719 signed manuscript acknowledgment records delivery of 20 shares from a named court servant to an unidentified bearer, supplying one bounded financial relationship. Three specific Dutch newspaper items from February, April and June 1720 have now been examined in Yale's modern curated translation; secondary printed reproductions of the November 1721 colonial census give provisional population figures with unresolved category differences.",
+    "summary": "Specific original royal banking orders, contemporary financial criticism, Dutch market and print archives, and French Louisiana colonial lists survive. They document public laws, reports, and market channels, but do not yet establish a named private investor exchanging instructions between Paris, London and Amsterdam. A newly located 23 December 1719 signed manuscript acknowledgment records delivery of 20 shares from a named court servant to an unidentified bearer, supplying one bounded financial relationship. Three specific Dutch newspaper items from February, April and June 1720 have now been examined in Yale's modern curated translation; secondary printed reproductions of the November 1721 colonial census give provisional population figures with unresolved category differences. Additional 1721 census versions are catalogued, including an apparent extended copy with 29 images; five source-version entries now document divergent historical numeric readings rather than a falsely reconciled population.",
     "summary_sources": [
       "src-hnoc-law-primary",
       "src-yale-1720-ledger",
@@ -611,7 +611,10 @@
       "src-yale-leydse-1720-apr22",
       "src-yale-leydse-1720-jun14",
       "src-deiler-german-coast-1910",
-      "src-villiers-neworleans-1917"
+      "src-villiers-neworleans-1917",
+      "src-anom-alt-1721-census",
+      "src-vidal-2019-book",
+      "src-anthology-villiers-english"
     ],
     "decision_making": "The French regent and Law used royal orders to regulate banknotes and specie exchange; British pamphleteers publicly questioned South Sea values; Dutch newspapers, trading venues and company ledgers registered the 1720 market events. In Louisiana, colonial officials counted populations and tracked movements within systems of coerced settlement and enslavement. These forms of evidence have different creators, audiences and limits.",
     "decision_sources": [
@@ -684,6 +687,16 @@
           "src-villiers-neworleans-1917",
           "src-anom-census-no-1721"
         ]
+      },
+      {
+        "label": "Disagreement in historical population totals",
+        "claim": "Older historians and modern scholarship give differing New Orleans town figures around 1721 (de Villiers 470/277; Vidal 472/278 with alternative enslaved totals). The original 12-image census, expanded 29-image copy and published category definitions must be examined before claiming a transcription error or a definitive population.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-anom-alt-1721-census",
+          "src-anthology-villiers-english",
+          "src-vidal-2019-book"
+        ]
       }
     ],
     "open_questions": [
@@ -695,7 +708,9 @@
       "How many banknotes were actually destroyed under the August 30 edict, and what receipt or audit proves the operation?",
       "Can HNOC MSS606 Folder 4 (2010.0158.20) be consulted to transcribe the equity certificate, confirm its exact share class, identity of the bearer, endorsement, and whether Imbert received payment?",
       "What is the original Leydse Courant publication date for London dispatch dated June 14, 1720, and how many days after the relevant London legal step did it appear?",
-      "Reconcile the New Orleans population totals and the enslaved/non-enslaved categories in Deiler and de Villiers against all twelve original ANOM census images, without extrapolating figures to the whole Louisiana colony."
+      "Reconcile the New Orleans population totals and the enslaved/non-enslaved categories in Deiler and de Villiers against all twelve original ANOM census images, without extrapolating figures to the whole Louisiana colony.",
+      "Compare the 12-image ANOM item 31235 and 29-image expanded item 31236 line by line, and determine whether their final totals are identical or differently scoped; an archive calls the latter an apparent copy.",
+      "Verify original demographic column headings and distinguish urban town, concessions, and wider colony across Deiler (1910), de Villiers (1917) and Vidal (2019) before calculating any totals."
     ],
     "events": [
       "evt-1716-law-charter-archive",
