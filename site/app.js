@@ -1,7 +1,7 @@
 (async function () {
   'use strict';
   const $ = id => document.getElementById(id);
-  const collectionNames = ['sources', 'events', 'entities', 'relationships', 'cases', 'systems', 'dominoes', 'financial_flows', 'ownership_overlap', 'comparisons', 'archival_documents', 'information_routes', 'source_extracts'];
+  const collectionNames = ['sources', 'events', 'entities', 'relationships', 'cases', 'systems', 'dominoes', 'financial_flows', 'ownership_overlap', 'comparisons', 'archival_documents', 'information_routes', 'source_extracts', 'census_evidence_audit'];
   const D = {};
   const make = (tag, props = {}, ...contents) => {
     const node = document.createElement(tag);
@@ -80,7 +80,7 @@
   D.cases.forEach(c => caseSelect.append(make('option', { value: c.id, textContent: c.title })));
   sortedEntities.forEach(e => entitySelect.append(make('option', { value: e.id, textContent: e.name })));
   $('stats').replaceChildren(
-    ...[['Events', D.events.length], ['Entities', D.entities.length], ['Connections', D.relationships.length], ['Sources', D.sources.length], ['Investigations', D.cases.length], ['Dominoes', D.dominoes.length], ['Financial records', D.financial_flows.length], ['Ownership studies', D.ownership_overlap.length], ['Cross-border comparisons', D.comparisons.length], ['Archival records', D.archival_documents.length], ['Information routes', D.information_routes.length], ['Source readings', D.source_extracts.length]]
+    ...[['Events', D.events.length], ['Entities', D.entities.length], ['Connections', D.relationships.length], ['Sources', D.sources.length], ['Investigations', D.cases.length], ['Dominoes', D.dominoes.length], ['Financial records', D.financial_flows.length], ['Ownership studies', D.ownership_overlap.length], ['Cross-border comparisons', D.comparisons.length], ['Archival records', D.archival_documents.length], ['Information routes', D.information_routes.length], ['Source readings', D.source_extracts.length], ['Census audit versions', D.census_evidence_audit.length]]
       .map(([name, count]) => make('span', {}, make('strong', {}, String(count)), name))
   );
   $('load-status').textContent = 'Research dataset loaded · Source review is ongoing';
@@ -470,6 +470,31 @@
     }) : [empty('These source readings currently cover the 1720–1721 international finance and Louisiana case.')]));
   }
 
+  function renderCensusAudit() {
+    const scope = !state.caseId || ['archives1720','choctawdiplomacy1721'].includes(state.caseId);
+    const entries = scope ? D.census_evidence_audit.filter(x =>
+      matches(x.source_label,x.scope,x.provenance,x.limit,x.access_level,
+        ...(x.figures || []).map(f=>f.category))) : [];
+    $('census-audit-count').textContent = entries.length + ' distinct source versions';
+    $('census-audit-list').replaceChildren(...(entries.length ? entries.map(x =>
+      make('article',{className:'card census-audit-card'},
+        make('p',{className:'eyebrow'},x.date+' · '+readableType(x.source_type)),
+        make('h3',{},x.source_label),
+        make('p',{},pill(readableType(x.access_level),'pending')),
+        make('p',{className:'small'},make('strong',{},'Geographic scope: '),x.scope),
+        x.total_reported===null ?
+          make('p',{className:'small quiet'},'Total: not independently counted from original folios') :
+          make('p',{},make('strong',{},x.total_reported.toLocaleString('en-GB')+' residents '),
+            make('span',{className:'quiet small'},'reported by this author — not verified independently')),
+        x.figures.length ? make('ul',{className:'census-values'},x.figures.map(f =>
+            make('li',{},make('strong',{},f.value.toLocaleString('en-GB')+' '),readableType(f.category)))) :
+            make('p',{className:'small quiet'},'Original folios not transcribed; no figures inferred.'),
+        make('p',{className:'small'},x.provenance),
+        make('p',{className:'small quiet'},make('strong',{},'Unresolved: '),x.limit),
+        citations(x.sources)
+      )) : [empty('This census audit currently covers the 1721 New Orleans historical records.')]));
+  }
+
   function renderSources() {
     const list = D.sources.filter(s => matches(s.title, s.author, s.locator));
     $('source-list').replaceChildren(...(list.length ? list.map(s => make('li', { id: 'src-' + s.id },
@@ -481,7 +506,7 @@
       s.locator ? make('p', { className: 'source-locator' }, 'Locator: ' + s.locator) : empty('Exact passage not yet reviewed.')
     )) : [make('li', {}, empty('No sources match the search.'))]));
   }
-  function render() { renderTimeline(); renderDominoes(); renderFinance(); renderOwnership(); renderComparisons(); renderArchives(); renderExcerpts(); renderNetwork(); renderCases(); renderSystems(); renderSources(); }
+  function render() { renderTimeline(); renderDominoes(); renderFinance(); renderOwnership(); renderComparisons(); renderArchives(); renderExcerpts(); renderCensusAudit(); renderNetwork(); renderCases(); renderSystems(); renderSources(); }
   function updateFilters() {
     state.query = clean($('search').value.trim());
     state.caseId = caseSelect.value;
