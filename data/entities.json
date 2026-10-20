@@ -497,5 +497,60 @@
       "src-boe-ssc-archive"
     ],
     "verification": "reviewed"
+  },
+  {
+    "id": "ent-robert-walpole",
+    "type": "person",
+    "name": "Robert Walpole",
+    "years": "1676–1745",
+    "description": "British minister who advanced proposed redistribution of South Sea debt across the Bank of England and East India Company following the 1720 collapse; the planned engraftment was not carried out.",
+    "sources": [
+      "src-swingen-2024"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-weavers-1719",
+    "type": "organization",
+    "name": "British silk and wool weavers protesting calico imports",
+    "years": "1719–1721",
+    "description": "Diverse London and regional craft groups protesting competition from imported Indian calico; some demonstrations included assaults against women wearing calico. Not a single centrally directed organization.",
+    "sources": [
+      "src-swingen-2024"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-board-trade",
+    "type": "government",
+    "name": "British Board of Trade",
+    "years": "1696–1782",
+    "description": "British state body that considered the East India Company's requests for compensating privileges during the 1721 calico controversy.",
+    "sources": [
+      "src-swingen-2024"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-michael-godfrey",
+    "type": "person",
+    "name": "Michael Godfrey",
+    "years": "1658–1695",
+    "description": "Bank of England's first Deputy Governor, elected in July 1694 according to annual director lists; not identified as an East India or South Sea investor here.",
+    "sources": [
+      "src-boe-directors-list"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-henry-furnese",
+    "type": "person",
+    "name": "Sir Henry Furnese",
+    "years": "1658–1712",
+    "description": "Named as among the Bank of England's first directors in July 1694; cross-company investment participation remains unverified.",
+    "sources": [
+      "src-boe-directors-list"
+    ],
+    "verification": "reviewed"
   }
 ]
