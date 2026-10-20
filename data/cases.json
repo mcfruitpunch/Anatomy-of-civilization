@@ -323,5 +323,102 @@
       "ent-henry-crabb-boulton",
       "ent-john-burgoyne"
     ]
+  },
+  {
+    "id": "publicdebt1720",
+    "title": "Charters, War Debt and the South Sea Bubble",
+    "period": "1661–1722",
+    "summary": "Following warfare and state finance through the formation of the Bank of England, a rival East India Company backed by public borrowing, and the South Sea Company's debt-conversion boom and crisis. The institutions competed as well as cooperated.",
+    "summary_sources": [
+      "src-boe-founder-1694",
+      "src-bl-eic-1698",
+      "src-boe-ssc-archive"
+    ],
+    "decision_making": "The Crown and Parliament needed financing, and subscribed capital became entwined with charters and government-debt contracts. The Bank raised £1.2m for wartime finance in 1694; the 1698 East India trading arrangement offered trading access around £2m of proposed Crown borrowing; the South Sea Company competed for government-debt refinancing in 1720.",
+    "decision_sources": [
+      "src-boe-loan-foi",
+      "src-boe-tax-security",
+      "src-bl-eic-1698",
+      "src-boe-ssc-competition"
+    ],
+    "consequences": "Old and new East India companies were united after negotiated stock and trading settlements. The South Sea Bubble destabilized investors and prompted political scrutiny, while the debt-conversion mechanism and trading side of the South Sea Company endured in altered forms; the Bank entered documented restructuring agreements in 1722. The Company's role in the trade in enslaved people was a major human consequence that must not be obscured by its financial organization.",
+    "consequences_sources": [
+      "src-bl-eic-1698",
+      "src-bl-eic-union-1708",
+      "src-boe-ssc-archive",
+      "src-boe-ssc-agreement-1722",
+      "src-uk-na-asiento"
+    ],
+    "interpretations": [
+      {
+        "label": "Government borrowing and corporate privileges",
+        "claim": "The 1694 and 1698 arrangements demonstrate that the Crown could attract long-term private capital using interest-bearing public debt and chartered institutional privileges. These were negotiated public/legal arrangements, not proof of one secret group designing later wars.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-boe-founder-1694",
+          "src-boe-tax-security",
+          "src-bl-eic-1698"
+        ]
+      },
+      {
+        "label": "Competition among financial corporations",
+        "claim": "The Bank and South Sea Company submitted competing proposals for debt management; the old and new East India companies initially competed before merging. Overlapping political access did not eliminate their conflicting interests.",
+        "status": "documented",
+        "sources": [
+          "src-boe-ssc-competition",
+          "src-bl-eic-1698"
+        ]
+      },
+      {
+        "label": "Political corruption in the South Sea episode",
+        "claim": "A Bank archive historical account identifies bribery of political officials, including John Aislabie, during the South Sea Bubble. Individual transactions and exact culpability should be established from parliamentary inquiry records rather than generalized to all shareholders.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-boe-ssc-archive"
+        ]
+      },
+      {
+        "label": "Enslavement as a distinct human system",
+        "claim": "The South Sea Company's trading activities included the transatlantic trade in enslaved Africans, evidenced through government licensing and archival records. Human harm must be researched separately from debt and stock-market outcomes.",
+        "status": "documented",
+        "sources": [
+          "src-uk-na-asiento",
+          "src-boe-ssc-archive"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Which Bank founding subscribers, East India debt subscribers and South Sea shareholders were the *same verified individuals*, and how did their roles change across decades?",
+      "Do the 1698 subscription rolls and Court Minutes establish actual cash advanced and repayment against the £2 million borrowing arrangement?",
+      "Which 1720 legislators and Company directors exchanged documented payments, options or preferential share allocations?",
+      "What do the Bank's original 1722 transaction ledgers establish about cash movements under the stock-purchase agreement?",
+      "How did annual taxes securing public debt shift costs among communities and occupations?",
+      "What are the primary archival records for the South Sea Company's trade in enslaved people and the perspectives of affected Africans and descendants?",
+      "How did contemporaries critique the political privileges of chartered corporations, and what alternative proposals were seriously debated?"
+    ],
+    "events": [
+      "evt-1661-eic-powers",
+      "evt-1694-boe-founding",
+      "evt-1698-eic-rival-charter",
+      "evt-1709-eic-united",
+      "evt-1711-south-sea-formed",
+      "evt-1720-south-sea-scheme",
+      "evt-1720-south-sea-collapse",
+      "evt-1722-bank-south-sea-agreement"
+    ],
+    "entities": [
+      "ent-crown",
+      "ent-parliament",
+      "ent-eic",
+      "ent-bank-england",
+      "ent-english-company-1698",
+      "ent-general-society-1698",
+      "ent-south-sea",
+      "ent-william-iii",
+      "ent-mary-ii",
+      "ent-john-houblon",
+      "ent-lord-montagu",
+      "ent-john-aislabie"
+    ]
   }
 ]
