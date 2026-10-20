@@ -387,16 +387,18 @@
   },
   {
     "id": "doc-022",
-    "date": "1731",
+    "date": "1731-01-23",
     "place": "France",
     "title": "Council of State decree concerning the retrocession of Louisiana and Illinois",
     "document_kind": "royal_retrocession_decree",
-    "access_level": "catalogue_metadata_only",
-    "reference": "BnF, Arrêt du Conseil d'État, 1731, 'rétrocession ... Louisiane et pays des Illinois'; curated list of digitized primary decrees",
-    "established": "BnF catalogues an original 1731 royal decree concerning Company's return of governing concession in Louisiana and Illinois.",
-    "limitations": "The date, original articles on property and Company debts, and actual implementation cannot be determined from the curator's linked document title alone.",
+    "access_level": "curator_summary_with_images",
+    "reference": "BnF, Arrêt du Conseil d'État, 1731, 'rétrocession ... Louisiane et pays des Illinois'; curated list of digitized primary decrees; original printed title-page facsimile shown by UMSL",
+    "established": "An original printed royal decree title page explicitly dates the retrocession of Louisiana and Illinois to January 23, 1731. A modern archival scholarly footnote cites ANOM F3 242 fol.187 for the decree.",
+    "limitations": "Title page inspected, not the full text. It records formal Council action and must not be mistaken for completion of all local transfers, payments, or dispossession.",
     "sources": [
-      "src-bnf-retrocession-edict-1731"
+      "src-bnf-retrocession-edict-1731",
+      "src-umsl-1731-decree-image",
+      "src-unilim-1731-retrocession"
     ],
     "entities": [
       "ent-french-crown",
@@ -424,20 +426,40 @@
   },
   {
     "id": "doc-024",
-    "date": "1733",
+    "date": "1731-02-24",
     "place": "France",
-    "title": "Royal decree on payment of Compagnie des Indes Louisiana debts",
+    "title": "Company's Louisiana debt decree dated February 24, 1731 (printed in 1733)",
     "document_kind": "royal_company_debt_decree",
     "access_level": "catalogue_metadata_only",
-    "reference": "BnF 'Arrêt du Conseil d'Etat concernant le paiement des dettes de la Compagnie des Indes à la Louisiane', 1733",
-    "established": "An original historical decree addressing debt payment for the Company's Louisiana undertakings was issued under royal authority.",
-    "limitations": "No debt amount, payment receipt, creditor identity, article language, or Crown assumption of all debts has been verified from BnF's decree catalogue alone.",
+    "reference": "BnF 'Arrêt du Conseil d'Etat concernant le paiement des dettes de la Compagnie des Indes à la Louisiane', 1733; Columbia Law Library rare book record 1505745, 1733 printed edition of decree dated 1731-02-24",
+    "established": "A two-page original royal debt-related decree explicitly bears February 24, 1731 as its legislative date in Columbia Law's bibliographic description; the available printed pamphlet was published in 1733.",
+    "limitations": "Original two-page clauses and actual disbursements not read. 1733 is a PRINTING date, not a demonstrated new decree; no retroactive debt payment can be inferred.",
     "sources": [
-      "src-bnf-1733-company-debts"
+      "src-bnf-1733-company-debts",
+      "src-columbia-1731-debt-printed-1733"
     ],
     "entities": [
       "ent-french-crown",
       "ent-compagnie-indes-france"
+    ]
+  },
+  {
+    "id": "doc-025",
+    "date": "1731-05-22",
+    "place": "French Crown / Louisiana Superior Council",
+    "title": "Royal decree reforms Louisiana Superior Council, excluding Company directors",
+    "document_kind": "royal_judicial_reorganization_decree",
+    "access_level": "catalogue_metadata_only",
+    "reference": "ANOM COL F3 242 fol.190, 22 May 1731; described in University of Limoges research",
+    "established": "Scholarly archival footnote identifies a dated royal decree reestablishing composition of the Superior Council under arrangements from 1716 while excluding Company directors.",
+    "limitations": "An exact original page transcription and vote/appointment rosters have not been inspected, so implementation specifics and power distribution require follow-up.",
+    "sources": [
+      "src-unilim-1731-retrocession"
+    ],
+    "entities": [
+      "ent-french-crown",
+      "ent-compagnie-indes-france",
+      "ent-french-superior-council-la"
     ]
   }
 ]
