@@ -8,7 +8,7 @@
   const el = (tag, props, ...kids) => {
     const e = document.createElement(tag);
     Object.assign(e, props || {});
-    kids.flat().forEach((k) => e.append(k));
+    kids.flat(Infinity).forEach((k) => e.append(k));
     return e;
   };
   const srcLinks = (ids) => el('span', {}, ' [', ids.map((id, i) => {
