@@ -342,7 +342,7 @@
       matches(f.title, f.description, entitiesById[f.from]?.name,
         ...(f.to || []).map(id => entitiesById[id]?.name), f.flow_state, f.kind));
     $('finance-count').textContent = list.length + ' records';
-    const valueLabel = record => record.flow_state === 'authorized_no_transfer' ? 'Transfer NOT executed' : record.flow_state === 'policy_target_not_cash_flow' ? (record.value.toLocaleString('en-GB') + ' French livres · proposed refinancing target, not paid') : record.value === null ? 'Amount not stated' :
+    const valueLabel = record => record.flow_state === 'authorized_no_transfer' ? 'Transfer NOT executed' : record.flow_state === 'policy_target_not_cash_flow' ? (record.value.toLocaleString('en-GB') + ' French livres · proposed refinancing target, not paid') : record.flow_state === 'legal_award_not_disbursement' ? (record.value.toLocaleString('en-GB') + ' French livres · legal award, payment not verified') : record.value === null ? 'Amount not stated' :
       record.unit === 'GBP' ? ('£' + record.value.toLocaleString('en-GB') + ' historical') :
       record.unit === 'percent_of_sales' ? (record.value + '% of sales, conditional') :
       record.unit === 'shares' ? (record.value + ' share units · price unknown') :
@@ -351,12 +351,12 @@
       { className: 'card money-card' },
       make('p', { className: 'eyebrow' }, f.date + ' · ' + readableType(f.kind)),
       make('h3', {}, f.title),
-      make('p', {}, pill(valueLabel(f), ['documented_historical_loan','archival_share_receipt_no_cash_value'].includes(f.flow_state) ? 'documented' : 'pending')),
+      make('p', {}, pill(valueLabel(f), ['documented_historical_loan','archival_share_receipt_no_cash_value','legal_award_not_disbursement'].includes(f.flow_state) ? 'documented' : 'pending')),
       make('p', { className: 'money-flow' }, actorButton(f.from), ' → ', f.to.map(actorButton)),
       make('p', { className: 'small' }, make('strong', {}, 'Evidence status: '), readableType(f.flow_state)),
       make('p', {}, f.description),
       citations(f.sources)
-    )) : [empty('No financial traces match this search or case. These records currently focus on the 1773 Company case.')]));
+    )) : [empty('No financial traces match this search or case. Select another case or clear the search.')]));
   }
 
 
