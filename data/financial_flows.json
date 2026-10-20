@@ -154,5 +154,25 @@
       "src-boe-ssc-agreement-1722"
     ],
     "verification": "reviewed"
+  },
+  {
+    "id": "fin-009",
+    "date": "1721",
+    "title": "Engraftment Act: proposed South Sea debt transfer NOT executed",
+    "from": "ent-south-sea",
+    "to": [
+      "ent-bank-england",
+      "ent-eic"
+    ],
+    "value": null,
+    "unit": "not_recorded",
+    "kind": "statutory_debt_engraftment_plan",
+    "flow_state": "authorized_no_transfer",
+    "description": "Engraftment legislation received royal assent on 23 March 1721, but according to archival scholarship neither Bank of England nor East India Company actually assumed South Sea Company debt under this plan. No principal or cash flow is asserted; later 1722 arrangements are separate.",
+    "case": "engraftment1721",
+    "sources": [
+      "src-swingen-2024"
+    ],
+    "verification": "reviewed"
   }
 ]
