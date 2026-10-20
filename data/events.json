@@ -1209,5 +1209,72 @@
       "src-hnoc-1732-minister-abstract",
       "src-musco-ellis-spring-2025"
     ]
+  },
+  {
+    "id": "evt-1731-louisiana-retrocession",
+    "date": "1731",
+    "title": "French Company of the Indies gives Louisiana governing concession back to Crown",
+    "summary": "BnF indexes the 1731 Council of State decree for retrocession of Louisiana and Illinois; Louisiana State Museums confirm the Company relinquished colonial administration to the French Crown after financial and colonial difficulties. The timing of distinct signatures, approval, effective handover and retention of private land grants requires original decree review.",
+    "case": "retrocession1731",
+    "entities": [
+      "ent-compagnie-indes-france",
+      "ent-french-crown"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-retrocession-edict-1731",
+      "src-louisiana-museum-retrocession"
+    ]
+  },
+  {
+    "id": "evt-1731-jan-retrocession-document",
+    "date": "1731-01-24",
+    "title": "New Orleans Superior Council records document connected to Louisiana retrocession",
+    "summary": "Louisiana Historical Center digitizes a 24-page original French administrative item dated January 24, 1731 and catalogued under the retrocession of Louisiana, indexing the Company and named local parties. The handwriting remains untranscribed here; the document date is not asserted to be the operative date when the Company surrendered Louisiana.",
+    "case": "retrocession1731",
+    "entities": [
+      "ent-compagnie-indes-france",
+      "ent-french-superior-council-la",
+      "ent-french-crown"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-lcd-retrocession-1731"
+    ]
+  },
+  {
+    "id": "evt-1732-salmon-possession",
+    "date": "1732-01-19",
+    "title": "Royal fiscal officer reports taking possession of former Company assets",
+    "summary": "HNOC's catalogue of a January 19, 1732 letter says Edme Gatien Salmon reported taking possession for the king of certain forts, buildings and artillery, with explicit exceptions for Illinois, Natchitoches and a site labeled 'Youanis (Yazoo)'. The term must NOT automatically be equated with the Choctaw Haiyowvni post. A dispute over remaining Company merchandise was also noted.",
+    "case": "retrocession1731",
+    "entities": [
+      "ent-salmon-edme-gatien",
+      "ent-french-crown",
+      "ent-compagnie-indes-france"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-hnoc-salmon-possession-1732"
+    ]
+  },
+  {
+    "id": "evt-1733-french-company-debt-decree",
+    "date": "1733",
+    "title": "Royal decree addresses outstanding Company of Indies debts in Louisiana",
+    "summary": "BnF identifies a 1733 Council of State decree concerning payment of Company of Indies debts relating to Louisiana. No original clauses, creditor list, repayment amount or completed transfers are asserted from the catalogue alone.",
+    "case": "retrocession1731",
+    "entities": [
+      "ent-french-crown",
+      "ent-compagnie-indes-france"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-1733-company-debts"
+    ]
   }
 ]
