@@ -1010,5 +1010,126 @@
     "url": "https://heritage.bnf.fr/france-ameriques/en/new-orleans",
     "locator": "BnF curated New Orleans item 'Recensement de la Nouvelle-Orléans 1721', linked to Gallica ark:/12148/btv1b101054200; full scan returned access-denied to our document-fetch request and has NOT been inspected or transcribed.",
     "reviewed": true
+  },
+  {
+    "id": "src-musco-ellis-spring-2025",
+    "type": "peer_reviewed_scholarship_with_tribal_authors",
+    "title": "Sovereignty, Nations, and Diplomacy: the French and Native American Alliances in Louisiana",
+    "author": "Jonas Musco, Elizabeth Ellis, and Ryan Spring",
+    "year": 2025,
+    "publisher": "Gradhiva 40, Musée du quai Branly–Jacques Chirac",
+    "url": "https://journals.openedition.org/gradhiva/9785",
+    "locator": "2025 article §§27–35, particularly 1721 Choctaw request and acceptance (ANOM C13A vol.6 fol.146), 1725 petitions (C13A vol.9 fols.65v/129v), 1729 delegations and Youanis post of 1730; the English text elsewhere cites Feb 8 but bibliography cites Feb 28 1721, so exact day unresolved pending original minutes.",
+    "reviewed": true
+  },
+  {
+    "id": "src-choctaw-fort-tombecbe-2023",
+    "type": "indigenous_nation_published_history",
+    "title": "Fort Tombecbe and Early Choctaw Treaties",
+    "author": "Iti Fabvssa, Choctaw Nation of Oklahoma Historic Preservation",
+    "year": 2023,
+    "publisher": "Choctaw Nation of Oklahoma",
+    "url": "https://www.choctawnation.com/news/iti-fabvssa/fort-tombecbe-and-early-choctaw-treaties/",
+    "locator": "Choctaw Nation's account of diplomatic practice, chiefs' trade demands and protective kinship protocols; notes 1729 requests for four trading posts and 1736 Fort Tombecbe. Distinguish Tombecbe from Youanis 1730.",
+    "reviewed": true
+  },
+  {
+    "id": "src-choctaw-economics-2019",
+    "type": "indigenous_nation_published_history",
+    "title": "Commerce department continues long legacy of economic adaption",
+    "author": "Iti Fabvssa, Choctaw Nation of Oklahoma",
+    "year": 2019,
+    "publisher": "Choctaw Nation of Oklahoma",
+    "url": "https://www.choctawnation.com/news/iti-fabvssa/commerce-department-continues-long-legacy-of-economic-adaption/",
+    "locator": "Accounts of Choctaw pre-European trade and redistribution, gifts/commerce and reasons for French diplomacy. Community historical interpretation, not a document proving any specific 1721 royal payment.",
+    "reviewed": true
+  },
+  {
+    "id": "src-choctaw-haiyowvni-2025",
+    "type": "indigenous_nation_published_history",
+    "title": "The History of Choctaws in Texas",
+    "author": "Iti Fabvssa, Choctaw Nation of Oklahoma",
+    "year": 2025,
+    "publisher": "Choctaw Nation of Oklahoma",
+    "url": "https://www.choctawnation.com/news/iti-fabvssa/the-history-of-choctaws-in-texas/",
+    "locator": "Reports Haiyowvni village near French Mobile and trading post in 1720s; later migrations. This is community history and should not be conflated with the 1721 council minute without additional archival matching.",
+    "reviewed": true
+  },
+  {
+    "id": "src-anom-alt-1721-census",
+    "type": "original_archival_catalogue",
+    "title": "Recensement des habitans de la Nouvelle Orléans et lieux circonvoisin — probable expanded copy",
+    "author": "Archives nationales d'outre-mer (indexed by New France Archives)",
+    "year": 1721,
+    "publisher": "ANOM, COL G1 464",
+    "url": "https://nouvelle-france.org/eng/item/details?id=31236",
+    "locator": "Record 31236, 24 Nov 1721, COL G1 464/17p., CABAC_PIAF_6928, 29 images. Archive explicitly says apparently a copy of preceding record 31235 with more concession and colony details. Not yet transcribed or counted.",
+    "reviewed": true
+  },
+  {
+    "id": "src-anom-law-concession-excerpt",
+    "type": "original_archival_catalogue",
+    "title": "Concession Law: excerpt from New Orleans settlers' census",
+    "author": "Archives nationales d'outre-mer (indexed by New France Archives)",
+    "year": null,
+    "publisher": "ANOM, COL G1 465",
+    "url": "https://nouvelle-france.org/eng/item/details?id=31415",
+    "locator": "Record 31415, COL G1 465/2p., CABAC_PIAF_7107, census excerpt specifically naming Law concession; undated in archive. Does not establish Law's personal presence or ownership interest on any particular day.",
+    "reviewed": true
+  },
+  {
+    "id": "src-lac-1721-census",
+    "type": "original_archival_catalogue",
+    "title": "Recensement des habitans et concessionnaires de La Nouvelle Orléans et lieux circonvoisins",
+    "author": "Library and Archives Canada (microfilm of ANOM COL G1 464)",
+    "year": 1721,
+    "publisher": "Library and Archives Canada",
+    "url": "https://recherche-collection-search.bac-lac.gc.ca/eng/home/record?app=fonandcol&idnumber=2319131",
+    "locator": "Item ID 2319131, MG1-G1 microfilm F-804, 12 digital objects referenced in public census search index; full viewer could not be accessed in this session; no folio numbers or sums verified.",
+    "reviewed": true
+  },
+  {
+    "id": "src-le-gac-1721-memo",
+    "type": "original_archival_catalogue",
+    "title": "Le Gac's five-part memoir on French Louisiana, 1718–1721",
+    "author": "Archives nationales d'outre-mer (indexed by New France Archives)",
+    "year": 1721,
+    "publisher": "ANOM, FR CAOM 4DFC8",
+    "url": "https://nouvelle-france.org/eng/item/details?id=40699",
+    "locator": "Record 40699, 101-page memoir/99 archive images; fifth section indexes names of French and Indigenous villages along Mississippi and tributaries. Undated exact day, broad date 1721; full manuscript text not read.",
+    "reviewed": true
+  },
+  {
+    "id": "src-natchez-1722-colonial-letters",
+    "type": "original_archival_catalogue",
+    "title": "French colonial concession correspondence and armed conflict with Natchez, March 1722",
+    "author": "Archives nationales d'outre-mer (indexed by New France Archives)",
+    "year": 1722,
+    "publisher": "ANOM COL G1 465",
+    "url": "https://nouvelle-france.org/fra/item/details?id=31377",
+    "locator": "Record 31377, COL G1 465/4p., March 9–10 1722, four images, letters on Sainte-Catherine concession, Natchez attack, armed aid proposal, Bienville instructions. Archive catalogue records French perspectives, not direct Natchez testimony; full letters not transcribed.",
+    "reviewed": true
+  },
+  {
+    "id": "src-vidal-2019-book",
+    "type": "peer_reviewed_historical_monograph",
+    "title": "Caribbean New Orleans: Empire, Race, and the Making of a Slave Society",
+    "author": "Cécile Vidal",
+    "year": 2019,
+    "publisher": "University of North Carolina Press / Omohundro Institute",
+    "url": "https://uncpress.org/9781469645186/caribbean-new-orleans/",
+    "locator": "Table 1 p.121 and chapter on census methods and categories: documented bibliography via publisher, independent transcribed full printed table unavailable from licensed official site in this session. Comparative numerical reading from publicly indexed text remains unverified against publisher print.",
+    "reviewed": true
+  },
+  {
+    "id": "src-anthology-villiers-english",
+    "type": "historical_secondary_translation",
+    "title": "A History of the Foundation of New Orleans (English translation)",
+    "author": "Marc de Villiers du Terrage; translator of historic excerpt unspecified",
+    "year": null,
+    "publisher": "Louisiana Anthology digitized historical translation",
+    "url": "https://louisiana-anthology.org/texts/de_villiers/de_villiers--new_orleans_founding.html",
+    "locator": "Translation section describing 24 Nov 1721 census: 470 residents including 277 Europeans; reproduces French printed 1917 volume. Census table in French digitization appears corrupted; no audited original folio.",
+    "reviewed": true
   }
 ]
