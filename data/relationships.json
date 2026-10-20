@@ -299,5 +299,230 @@
     "status": "supported interpretation",
     "verification": "reviewed",
     "date": "1763"
+  },
+  {
+    "id": "rel-025",
+    "from": "ent-hutchinson",
+    "to": "ent-thomas-hutchinson-jr",
+    "type": "parent_of",
+    "note": "Thomas Hutchinson Jr. was the colonial governor's son; a family connection is not evidence of control over appointment.",
+    "sources": [
+      "src-colonial-hutchinson-1773",
+      "src-ma-consignees-1773"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773"
+  },
+  {
+    "id": "rel-026",
+    "from": "ent-hutchinson",
+    "to": "ent-elisha-hutchinson",
+    "type": "parent_of",
+    "note": "Elisha Hutchinson was the colonial governor's son; the son's prospective commission is not proof the father received it.",
+    "sources": [
+      "src-colonial-hutchinson-1773",
+      "src-ma-consignees-1773"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773"
+  },
+  {
+    "id": "rel-027",
+    "from": "ent-eic",
+    "to": "ent-thomas-hutchinson-jr",
+    "type": "designated_consignee",
+    "note": "Named Boston consignee expected to receive tea and a reported 6% commission on sales if completed; not proof of actual payment.",
+    "sources": [
+      "src-ma-consignees-1773"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773"
+  },
+  {
+    "id": "rel-028",
+    "from": "ent-eic",
+    "to": "ent-elisha-hutchinson",
+    "type": "designated_consignee",
+    "note": "Named Boston consignee expected to receive tea and a reported 6% commission on sales if completed; not proof of actual payment.",
+    "sources": [
+      "src-ma-consignees-1773"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773"
+  },
+  {
+    "id": "rel-029",
+    "from": "ent-richard-clarke",
+    "to": "ent-clarke-sons",
+    "type": "operated",
+    "note": "Richard Clarke was associated with mercantile firm Richard Clarke & Sons in Boston.",
+    "sources": [
+      "src-colonial-tea-petition-1773"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773"
+  },
+  {
+    "id": "rel-030",
+    "from": "ent-eic",
+    "to": "ent-clarke-sons",
+    "type": "designated_consignee",
+    "note": "Company designated the Clarke family's business to receive tea in Boston.",
+    "sources": [
+      "src-colonial-hutchinson-1773"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773"
+  },
+  {
+    "id": "rel-031",
+    "from": "ent-eic",
+    "to": "ent-joshua-winslow",
+    "type": "designated_consignee",
+    "note": "Joshua Winslow wrote directly about his appointment as a Company agent and expected commission.",
+    "sources": [
+      "src-hingham-winslow-letter-1773"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773"
+  },
+  {
+    "id": "rel-032",
+    "from": "ent-eic",
+    "to": "ent-benjamin-faneuil-jr",
+    "type": "designated_consignee",
+    "note": "Benjamin Faneuil Jr. was a tea consignee in the merchant partnership with Joshua Winslow.",
+    "sources": [
+      "src-colonial-hutchinson-1773",
+      "src-ma-consignees-1773"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773"
+  },
+  {
+    "id": "rel-033",
+    "from": "ent-brook-watson",
+    "to": "ent-joshua-winslow",
+    "type": "recommended_as_consignee",
+    "note": "Commonwealth Museum identifies Brook Watson as a London merchant who recommended Joshua Winslow.",
+    "sources": [
+      "src-ma-consignees-1773"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773"
+  },
+  {
+    "id": "rel-034",
+    "from": "ent-brook-watson",
+    "to": "ent-benjamin-faneuil-jr",
+    "type": "recommended_as_consignee",
+    "note": "Commonwealth Museum identifies Brook Watson as recommending Benjamin Faneuil Jr. and business partner Winslow.",
+    "sources": [
+      "src-ma-consignees-1773"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773"
+  },
+  {
+    "id": "rel-035",
+    "from": "ent-joshua-winslow",
+    "to": "ent-benjamin-faneuil-jr",
+    "type": "business_partner_of",
+    "note": "Contemporary research edition identifies these men as partners in a Boston tea-consignee firm.",
+    "sources": [
+      "src-colonial-hutchinson-1773"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773"
+  },
+  {
+    "id": "rel-036",
+    "from": "ent-joshua-winslow",
+    "to": "ent-jotham-gay",
+    "type": "corresponded_with",
+    "note": "November 18 1773 letter from Winslow to Gay describes the tea appointment and prospect of commission.",
+    "sources": [
+      "src-hingham-winslow-letter-1773"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773-11-18"
+  },
+  {
+    "id": "rel-037",
+    "from": "ent-bank-england",
+    "to": "ent-eic",
+    "type": "existing_loan_extension_record",
+    "note": "Bank of England archive records a note about prolonging an existing £50,000 Company loan; not evidence of a fresh £50,000 disbursement.",
+    "sources": [
+      "src-bank-1766-loan"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1766-03-20"
+  },
+  {
+    "id": "rel-038",
+    "from": "ent-henry-crabb-boulton",
+    "to": "ent-eic",
+    "type": "chaired",
+    "note": "The 1766 banking archive identifies Henry Crabb Boulton as East India Company chairman/director.",
+    "sources": [
+      "src-bank-1766-loan"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1766"
+  },
+  {
+    "id": "rel-039",
+    "from": "ent-john-burgoyne",
+    "to": "ent-clive",
+    "type": "parliamentary_scrutiny_of",
+    "note": "Burgoyne chaired a parliamentary committee whose inquiries led to May 1773 debate on Clive's administration in India.",
+    "sources": [
+      "src-uk-parliament-eic-public"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773-05"
+  },
+  {
+    "id": "rel-040",
+    "from": "ent-parliament",
+    "to": "ent-eic",
+    "type": "authorized_public_lending",
+    "note": "After Company financial crisis, Parliament enacted 1773 legislation enabling lending; an 1813 account discusses £1.4 million.",
+    "sources": [
+      "src-uk-parliament-eic-finance",
+      "src-uk-hansard-1813"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773"
+  },
+  {
+    "id": "rel-041",
+    "from": "ent-lord-north",
+    "to": "ent-eic",
+    "type": "oversaw_relief_policy",
+    "note": "Lord North was prime minister when government undertook 1773 financial and regulatory responses to the Company's crisis.",
+    "sources": [
+      "src-uk-parliament-eic-finance"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773"
   }
 ]
