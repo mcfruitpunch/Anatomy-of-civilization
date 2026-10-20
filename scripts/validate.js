@@ -80,7 +80,7 @@ dominoes.forEach(d => {
     errors.push(d.id + ': documented link requires review');
 });
 const acceptableUnits = new Set(['GBP', 'percent_of_sales', 'not_recorded']);
-const acceptableStates = new Set(['existing_credit_extension', 'historical_account_not_transaction_ledger', 'prospective_not_documented_paid']);
+const acceptableStates = new Set(['existing_credit_extension', 'historical_account_not_transaction_ledger', 'prospective_not_documented_paid', 'documented_historical_loan', 'scheme_subscription_not_disbursement', 'shareholding_not_cash_transfer', 'agreement_not_disbursement']);
 financial.forEach(f => {
   validDate(f.date, f.id);
   if (!f.title || !f.kind || !f.description || !f.flow_state) errors.push(f.id + ': missing financial metadata');
