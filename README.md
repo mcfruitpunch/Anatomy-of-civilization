@@ -6,7 +6,7 @@ An open-source, evidence-driven historical atlas of people, families, institutio
 
 The static website is at `index.html`. Its V0.9 explorer includes:
 
-- **Original records & routes:** eleven dated/archive-identified source items and four evidence-classified Paris–London–Amsterdam information channels; every entry states whether original text, an institutional summary or only a catalogue was inspected.
+- **Original records & routes:** thirteen dated/archive-identified source items and four evidence-classified Paris–London–Amsterdam information channels; every entry states whether original text, an institutional summary or only a catalogue was inspected.
 - **Across borders:** French and British public-debt/banknote experiments compared side by side with citations and a strict distinction between intellectual influence and proven coordination.
 - **Shared ownership:** separately displays published aggregate numbers of historical stock accounts in both the Bank and East India Company; accounts are not silently converted into named individuals or families.
 - **Financial traces:** inspect financial records with explicit status labels (documented government loan, shareholding, subscription target, proposed agreement, existing-credit extension, French-livre policy target, or anticipated commission); link named beneficiaries and sources without converting a percentage offer into a payment.
@@ -71,3 +71,4 @@ Current case studies: **archival information networks and Louisiana records (171
 ### Archival use and licensing
 
 Source-review labels describe review of accessible citations and archive descriptions, not that all handwritten folios, account transactions or correspondence have been transcribed. Original holdings may require in-person access. Yale's South Sea Bubble data is linked under its academic-use restrictions and is **not copied** into this repository. No named personal Paris–London–Amsterdam letter or cross-national insider trade has been verified. See the V0.9 research memo.
+\n
