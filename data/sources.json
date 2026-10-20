@@ -460,5 +460,148 @@
     "url": "https://www.sec.state.ma.us/divisions/commonwealth-museum/exhibits/online/the_boston_tea_party/the_boston_tea_party_2.htm",
     "locator": "'Globalization' and 'Troubled and Troublesome' narrative on Company activities in Bengal and collapse; broad claims about Bengal famine remain subject to independent review",
     "reviewed": true
+  },
+  {
+    "id": "src-boe-founder-1694",
+    "type": "institutional_history",
+    "title": "Why was the Bank of England founded?",
+    "author": "Bank of England Museum",
+    "year": 2021,
+    "publisher": "Bank of England",
+    "url": "https://www.bankofengland.co.uk/museum/online-collections/blog/why-was-the-bank-of-england-founded",
+    "locator": "Founding story: William III's wartime borrowing; 1694 £1.2m subscription in eleven days; 8% government interest; Royal Charter July 27.",
+    "reviewed": true
+  },
+  {
+    "id": "src-boe-loan-foi",
+    "type": "institutional_financial_disclosure",
+    "title": "Details of the Bank of England loan to the government in 1694",
+    "author": "Bank of England",
+    "year": 2020,
+    "publisher": "Freedom of Information",
+    "url": "https://www.bankofengland.co.uk/freedom-of-information/2020/details-of-the-bank-of-england-loan-to-the-government-in-1694",
+    "locator": "Disclosure: initial £1.2m loan and 8% interest; repayment of consolidated original obligation by 1994.",
+    "reviewed": true
+  },
+  {
+    "id": "src-boe-tax-security",
+    "type": "institutional_financial_disclosure",
+    "title": "Securities backing the original £1.2m government loan",
+    "author": "Bank of England",
+    "year": 2015,
+    "publisher": "Freedom of Information",
+    "url": "https://www.bankofengland.co.uk/freedom-of-information/2015/28-august-2015-2",
+    "locator": "Disclosure: secured by Tonnage and Excise taxes, with annual £100,000 payment for interest and £40,000 for separate life annuities.",
+    "reviewed": true
+  },
+  {
+    "id": "src-boe-1694-archive",
+    "type": "archival_catalog",
+    "title": "Bank of England founding documents and shareholder ledgers",
+    "author": "Bank of England Museum",
+    "year": null,
+    "publisher": "Bank of England Archive",
+    "url": "https://www.bankofengland.co.uk/museum/online-collections/archive-gallery/founding-documents",
+    "locator": "M6/48 charter; M1/1 subscribers; AC27/382 original capital subscribers; AC27/414 first stock ledger and royal £10,000 subscription; G4/1 first directors' minutes.",
+    "reviewed": true
+  },
+  {
+    "id": "src-boe-history-1694-1720",
+    "type": "institutional_history",
+    "title": "Bank of England history: 1694 foundation and 1720 South Sea Bubble",
+    "author": "Bank of England",
+    "year": null,
+    "publisher": "About the Bank",
+    "url": "https://www.bankofengland.co.uk/about/history",
+    "locator": "Timeline entries for July 27 1694 charter, John Houblon first governor, 1711 South Sea Company, 1720 government-debt swap and speculative collapse.",
+    "reviewed": true
+  },
+  {
+    "id": "src-bl-eic-1698",
+    "type": "archival_catalog",
+    "title": "East India Company charters, subscription records and 1698 rival corporation",
+    "author": "British Library",
+    "year": null,
+    "publisher": "India Office Records IOR/A/1",
+    "url": "https://searcharchives.bl.uk/catalog/036-000178601",
+    "locator": "Administrative Context paragraphs: 1661 Company powers; 1660–84 £324,150 loans to Crown; 1698 £2m government borrowing scheme and new English Company; old Company's £315k stake; 1702 coalition, 1708–09 union.",
+    "reviewed": true
+  },
+  {
+    "id": "src-bl-eic-union-1708",
+    "type": "archival_catalog",
+    "title": "Old and new East India Companies union: court minutes and shareholder schedule",
+    "author": "British Library",
+    "year": null,
+    "publisher": "India Office Records IOR/B/50",
+    "url": "https://searcharchives.bl.uk/catalog/040-000164913",
+    "locator": "IOR/B/50 p.59: named adventurers' shareholding schedule c.1708; £1,581,599 15s 7d old-company portion of united capital.",
+    "reviewed": true
+  },
+  {
+    "id": "src-boe-ssc-archive",
+    "type": "archival_reference",
+    "title": "South Sea Company historical record DS/UK/633",
+    "author": "Bank of England Archive (research note by Helen Paul)",
+    "year": null,
+    "publisher": "Bank of England",
+    "url": "https://www.bankofengland.co.uk/CalmView/Record.aspx?id=DS%2FUK%2F633&pos=7&src=CalmView.Persons",
+    "locator": "History and activity: 1711 debt conversion; 1720 bubble; Aislabie political bribery findings; Bank rescue role; caution that myth of universal economic ruin overstates scholarship.",
+    "reviewed": true
+  },
+  {
+    "id": "src-boe-ssc-competition",
+    "type": "archival_catalog",
+    "title": "Bank proposal competing for public debt purchase with South Sea Company",
+    "author": "Bank of England Archive",
+    "year": null,
+    "publisher": "Bank of England",
+    "url": "https://www.bankofengland.co.uk/CalmView/Record.aspx?id=M5%2F673&src=CalmView.Catalog",
+    "locator": "M5/673 item title and 1719–1720 date; competition in proposals to Parliament; catalogue does not show detailed bidding amounts.",
+    "reviewed": true
+  },
+  {
+    "id": "src-boe-ssc-proposals-1722",
+    "type": "archival_catalog",
+    "title": "South Sea Company proposals for agreement with the Bank of England, circa 1722",
+    "author": "Bank of England Archive",
+    "year": null,
+    "publisher": "Bank of England",
+    "url": "https://www.bankofengland.co.uk/CalmView/Record.aspx?id=M6%2F109&src=CalmView.Catalog",
+    "locator": "M6/109: proposals from company courts of directors; £4.2m payment contemplated; catalogue date approximate, not proof of cash disbursement.",
+    "reviewed": true
+  },
+  {
+    "id": "src-boe-ssc-agreement-1722",
+    "type": "archival_catalog",
+    "title": "Agreement for Bank to purchase South Sea Company stock, October 23, 1722",
+    "author": "Bank of England Archive",
+    "year": null,
+    "publisher": "Bank of England",
+    "url": "https://www.bankofengland.co.uk/CalmView/Record.aspx?id=M6%2F110&src=CalmView.Catalog",
+    "locator": "M6/110: dated October 23, 1722; agreement to purchase South Sea Company stock. Catalogue does not itself provide a transaction ledger.",
+    "reviewed": true
+  },
+  {
+    "id": "src-uk-na-asiento",
+    "type": "archival_research_guide",
+    "title": "British transatlantic slave trade records and South Sea Company licence",
+    "author": "The National Archives (UK)",
+    "year": null,
+    "publisher": "UK National Archives",
+    "url": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/british-transatlantic-slave-trade-records/",
+    "locator": "Suggested documents table: description of licence granted to South Sea Company in Treasury T 52/26 pp.196–206; guide's distinction between trade and enslaved peoples' experiences.",
+    "reviewed": true
+  },
+  {
+    "id": "src-boe-ssc-bubble-act",
+    "type": "scholarly_abstract",
+    "title": "The Bubble Act: Its Passage and Its Effects on Business Organization",
+    "author": "Ron Harris",
+    "year": 2009,
+    "publisher": "Journal of Economic History / Cambridge University Press",
+    "url": "https://www.cambridge.org/core/journals/journal-of-economic-history/article/abs/bubble-act-its-passage-and-its-effects-on-business-organization/F483F91364A09C37166DC2BD63497223",
+    "locator": "Abstract: South Sea Company involvement in Bubble Act and special-interest interpretation; entire article has not been read and therefore narrower status applies.",
+    "reviewed": true
   }
 ]
