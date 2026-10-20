@@ -4,8 +4,9 @@ An open-source, evidence-driven historical atlas of people, families, institutio
 
 ## Explore the atlas
 
-The static website is at `index.html`. Its V0.3 explorer includes:
+The static website is at `index.html`. Its V0.4 explorer includes:
 
+- **Historical dominoes:** source-linked event-to-event connections with explicit policy response vs context vs interpretation labels. Cross-case links can be followed back to underlying documents.
 - **Timeline:** case, text and year filters; select an event to open sources and its **explicitly linked** historical actors.
 - **Power networks:** click or keyboard-focus nodes; inspect an entity and its sourced connections. Filter for kinship, institutional roles or other connections.
 - **Evidence transparency:** documented/source-reviewed records are distinct from proposed or bibliographic-only material. By default, only source-reviewed documented links appear in the interactive graph; uncheck the filter to inspect labeled pending connections.
@@ -41,7 +42,7 @@ The workflow validates records and browser JS, uploads only `index.html`, `site/
 
 ## Data model
 
-Research data lives in `data/`: `sources`, `events`, `entities`, `relationships`, `cases`, `systems`. Stable IDs are required.
+Research data lives in `data/`: `sources`, `events`, `entities`, `relationships`, `cases`, `systems`, `dominoes`. Stable IDs are required.
 
 - Documented records must cite a reviewed source with a URL and locator.
 - Epistemic status and source-review status are kept separate.
@@ -56,4 +57,4 @@ Research data lives in `data/`: `sources`, `events`, `entities`, `relationships`
 - [Historical evidence audit](research/audit-2026-10-19.md)
 - [Research expansion and representation plan](research/ROADMAP.md)
 
-Current case studies: the British East India Company and the 1953 Iranian coup. This is an evolving research interface, **not** a completed or peer-reviewed history of either event. We invite corrections and perspectives from affected communities, and will not infer guilt from ancestry, ethnicity, religion or membership.
+Current case studies: the British East India Company; **imperial finance, East India Company tea relief, and North American resistance (1757–1775)**; and the 1953 Iranian coup. The [imperial finance and revolution research brief](research/imperial-finance-and-revolution-1757-1775.md) records corroborated links and contested questions. This is an evolving research interface, **not** a completed or peer-reviewed history of either event. We invite corrections and perspectives from affected communities, and will not infer guilt from ancestry, ethnicity, religion or membership.
