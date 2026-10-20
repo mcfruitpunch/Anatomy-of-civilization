@@ -732,5 +732,88 @@
       "ent-unidentified-bearer-1719",
       "ent-parliament"
     ]
+  },
+  {
+    "id": "choctawdiplomacy1721",
+    "title": "Choctaw Sovereignty, Trade Demands and French Colonial Debt",
+    "period": "1721–1730",
+    "summary": "Choctaw communities used diplomacy and the possibility of switching European trade partners to seek an establishment on their land. A French council agreed in 1721, but construction was delayed until 1730. Scholarship suggests disruptions following John Law's financial collapse helped explain delays, but original public account ledgers do not yet demonstrate the direct financing pathway.",
+    "summary_sources": [
+      "src-musco-ellis-spring-2025",
+      "src-choctaw-fort-tombecbe-2023",
+      "src-choctaw-economics-2019"
+    ],
+    "decision_making": "Choctaw representatives initiated requests for better trade access and negotiated within their own diplomatic and territorial systems. Colonial council members accepted the request, while governor Périer and officers later renegotiated location and French security dependence. An ANOM folio is cited for 1721, but the publication lists February 8 in narrative and February 28 in its bibliography: the original day is unresolved.",
+    "decision_sources": [
+      "src-musco-ellis-spring-2025",
+      "src-choctaw-fort-tombecbe-2023"
+    ],
+    "consequences": "The 1721 proposal was not immediately implemented. Correspondence in 1725 shows further demands with the possibility of British trade, and 1729 delegations participated in further negotiation. The Youanis trading post was built in February–March 1730 in Choctaw territory. It was not the separate Fort Tombecbe completed in 1736. Indigenous sovereignty was actively exercised through negotiation, provisioning and protection—not merely overridden by European company charters.",
+    "consequences_sources": [
+      "src-musco-ellis-spring-2025",
+      "src-choctaw-fort-tombecbe-2023"
+    ],
+    "interpretations": [
+      {
+        "label": "Indigenous sovereignty exercised through trade negotiation",
+        "claim": "Published scholarship coauthored by a Choctaw Nation historic preservation researcher shows that Choctaw leaders initiated the post's construction, negotiated its location and continued to control conditions affecting French operations.",
+        "status": "documented",
+        "sources": [
+          "src-musco-ellis-spring-2025",
+          "src-choctaw-fort-tombecbe-2023"
+        ]
+      },
+      {
+        "label": "State finance and colonial promises",
+        "claim": "The authors consider economic difficulties after John Law's collapse a likely factor in the delay, but no audited 1721–1725 line-item finance ledger has established that this specific post was denied funding on that basis.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-musco-ellis-spring-2025"
+        ]
+      },
+      {
+        "label": "Competing European buyers as diplomatic leverage",
+        "claim": "Choctaw leaders and allies could trade with British interests and invoked alternatives to negotiate with French officials; this is evidence of their strategic agency, not proof that a uniform Choctaw bloc held one preference.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-musco-ellis-spring-2025",
+          "src-choctaw-economics-2019"
+        ]
+      },
+      {
+        "label": "Separate institutions and distinct trading posts",
+        "claim": "The Youanis post that emerged in 1730 and Fort Tombecbe built in 1736 have distinct sites, administrative chronology and history; treating them as one 1721 completed project would be a false connection.",
+        "status": "documented",
+        "sources": [
+          "src-musco-ellis-spring-2025",
+          "src-choctaw-fort-tombecbe-2023"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Retrieve ANOM C13A volume 6 folio 146 to resolve whether the Biloxi trade council date was 8 or 28 February 1721; do not choose one without checking.",
+      "Obtain 1721–1725 colonial accounts showing actual funding or administrative constraints and compare them with historiographical attribution to Law's failure.",
+      "Identify the named 1721 Choctaw delegations and their own diplomatic narratives if community-approved records exist, rather than inventing leader identities.",
+      "What precise conditions of trade and territory did individual Choctaw districts and towns negotiate, and how did local British trade alternatives differ?",
+      "Locate 1725 Council letters at ANOM C13A vol.9 fol.65v and 129v and 1729–1730 construction and trade records to test what actually happened."
+    ],
+    "events": [
+      "evt-1721-choctaw-trade-request",
+      "evt-1725-choctaw-renewal",
+      "evt-1729-choctaw-delegation",
+      "evt-1730-youanis-built"
+    ],
+    "entities": [
+      "ent-choctaw-nation",
+      "ent-choctaw-diplomatic-delegates",
+      "ent-biloxi-trade-council",
+      "ent-french-superior-council-la",
+      "ent-compagnie-indes-france",
+      "ent-french-crown",
+      "ent-youanis-post",
+      "ent-perier-governor",
+      "ent-regis-du-roullet",
+      "ent-bienville"
+    ]
   }
 ]
