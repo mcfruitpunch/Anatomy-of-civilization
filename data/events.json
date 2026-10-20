@@ -630,13 +630,12 @@
     "id": "evt-1720-intercompany-meeting",
     "date": "1720-09",
     "title": "East India, Bank and South Sea financial representatives discuss rescue",
-    "summary": "The East India Company appointed a committee to meet with representatives of the Bank of England and South Sea Company as credit conditions tightened after the Bubble. Proposals did not equal completed payments.",
+    "summary": "The East India Company appointed a committee to meet representatives of the Bank of England and South Sea Company as liquidity tightened after the Bubble. Robert Walpole separately advocated an engraftment proposal, but his attendance at this committee meeting is not established here.",
     "case": "engraftment1721",
     "entities": [
       "ent-eic",
       "ent-bank-england",
-      "ent-south-sea",
-      "ent-robert-walpole"
+      "ent-south-sea"
     ],
     "status": "documented",
     "verification": "reviewed",
