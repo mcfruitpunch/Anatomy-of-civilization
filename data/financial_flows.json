@@ -212,5 +212,25 @@
       "src-hnoc-mss606-findingaid"
     ],
     "verification": "reviewed"
+  },
+  {
+    "id": "fin-012",
+    "date": "1732",
+    "title": "Diron d'Artaguiette awarded 29,000 French livres after trade monopoly conflict",
+    "from": "ent-french-superior-council-la",
+    "to": [
+      "ent-bernard-diron-dartaguiette"
+    ],
+    "value": 29000,
+    "unit": "livres_tournois",
+    "kind": "colonial_commercial_monopoly_legal_compensation",
+    "flow_state": "legal_award_not_disbursement",
+    "description": "Musco, Ellis and Spring (2025), citing ANOM C13A 1732 fols.33–33v, report that a Superior Council awarded Bernard Diron d'Artaguiette 29,000 French livres because the new Choctaw-requested post affected his Mobile trade monopoly. This is a judicial compensation AWARD by a council, not proof the council was payer, the Company disbursed cash, the whole sum was collected, or Choctaw people paid the indemnity. Separate 2 September 1732 ministerial approval abstract does not state an amount.",
+    "case": "choctawdiplomacy1721",
+    "sources": [
+      "src-musco-ellis-spring-2025",
+      "src-hnoc-1732-minister-abstract"
+    ],
+    "verification": "reviewed"
   }
 ]
