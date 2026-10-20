@@ -1,41 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Anatomy of Civilization — Global Power &amp; Historical Systems Atlas</title>
-<link rel="stylesheet" href="site/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#142334">
+  <meta name="description" content="An evidence-aware atlas of historical power: timelines, families, organizations and the records behind their connections.">
+  <title>Anatomy of Civilization — Historical Power Atlas</title>
+  <link rel="stylesheet" href="site/style.css">
+  <script src="site/app.js" defer></script>
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
-<header>
-  <h1>Anatomy of Civilization</h1>
-  <p>Global Power &amp; Historical Systems Atlas</p>
-  <nav aria-label="Sections">
-    <a href="#timeline">Timeline</a><a href="#network">Power network</a><a href="#cases">Case studies</a>
-    <a href="#systems">Systems</a><a href="#evidence">Evidence library</a><a href="#principles">Principles</a>
-  </nav>
-  <label>Search <input id="search" type="search" placeholder="Search events, entities, sources"></label>
-  <label>Case <select id="case-filter"><option value="">All</option></select></label>
+<a class="skip" href="#main">Skip to research</a>
+<header class="masthead">
+  <div class="shell">
+    <div class="brandline"><span class="monogram" aria-hidden="true">AC</span><span>PUBLIC RESEARCH ATLAS <span class="version">V0.3</span></span></div>
+    <h1>Anatomy of Civilization</h1>
+    <p class="intro">Follow power across centuries. Examine the records behind every connection.</p>
+    <nav aria-label="Main sections">
+      <a href="#timeline">Timeline</a>
+      <a href="#network">Power networks</a>
+      <a href="#cases">Investigations</a>
+      <a href="#systems">Systems</a>
+      <a href="#evidence">Sources</a>
+      <a href="#principles">Method</a>
+    </nav>
+  </div>
 </header>
-<main id="main">
-  <section id="timeline"><h2>Interactive timeline</h2><ol id="timeline-list"></ol></section>
-  <section id="network"><h2>Power network</h2>
-    <p>The graph displays source-reviewed documented relationships only; the list may include labeled interpretations or pending connections. Family ties never establish wrongdoing.</p>
-    <svg id="graph" role="img" aria-label="Network graph of documented relationships" viewBox="0 0 800 520"></svg>
-    <ul id="network-list"></ul></section>
-  <section id="cases"><h2>Case studies</h2><div id="case-list"></div></section>
-  <section id="systems"><h2>Systems analysis</h2><div id="system-list"></div></section>
-  <section id="evidence"><h2>Evidence library</h2><ul id="source-list"></ul></section>
-  <section id="principles"><h2>Research principles</h2>
-    <ul>
-      <li>Claims link to a source with an identifiable document and locator wherever possible. Epistemic status is separate from source-review status. Statuses include: <em>documented</em>, <em>supported interpretation</em>, <em>unresolved</em> or <em>speculation</em>.</li>
-      <li>We never infer culpability from ancestry, ethnicity, religion, or membership alone.</li>
-      <li>Powerful relationships are not assumed to be wrongdoing; covert coordination is reported only where documented.</li>
-      <li>Dates reflect only the precision supported by the reviewed record. Bibliographic-only sources remain visibly pending review.</li>
-    </ul></section>
+<main class="shell" id="main">
+  <section class="filters" aria-labelledby="explore-title">
+    <div class="section-heading">
+      <div><p class="eyebrow">RESEARCH EXPLORER</p><h2 id="explore-title">Explore the archive</h2></div>
+      <p id="load-status" class="quiet" aria-live="polite">Loading records…</p>
+    </div>
+    <div class="filter-grid">
+      <label>Search research <input type="search" id="search" placeholder="e.g., Dulles, Bengal, oil" autocomplete="off"></label>
+      <label>Investigation <select id="case-filter"><option value="">All investigations</option></select></label>
+      <label>From year <input type="number" id="year-from" min="1" max="2100" value="1600"></label>
+      <label>To year <input type="number" id="year-to" min="1" max="2100" value="2026"></label>
+    </div>
+    <p class="quiet small">Year limits filter the timeline; a relationship without a supported date is not excluded from the network.</p>
+    <div id="stats" class="stats" aria-label="Research record counts"></div>
+  </section>
+  <section id="timeline" class="research-section" aria-labelledby="timeline-title">
+    <div class="section-heading"><div><p class="eyebrow">01 · THROUGH TIME</p><h2 id="timeline-title">Historical timeline</h2></div><span class="quiet" id="timeline-count"></span></div>
+    <p class="section-note">Dates are shown at the precision supported by the record. Select an event to see its sources and linked historical actors.</p>
+    <ol id="timeline-list" class="timeline"></ol>
+    <div id="event-detail" class="detail-panel" aria-live="polite"><p class="quiet">Select a historical event to inspect its linked records.</p></div>
+  </section>
+  <section id="network" class="research-section" aria-labelledby="network-title">
+    <div class="section-heading"><div><p class="eyebrow">02 · PEOPLE & INSTITUTIONS</p><h2 id="network-title">Documented connections</h2></div><span class="quiet" id="network-count"></span></div>
+    <p class="section-note">Family ties, employment, official communication and coordinated actions are separate relationship types. A connection is never itself proof of wrongdoing.</p>
+    <div class="network-controls">
+      <label>Connection type
+        <select id="rel-filter">
+          <option value="all">All relationship types</option>
+          <option value="family">Family and genealogy</option>
+          <option value="office">Institutional roles</option>
+          <option value="institutional">Other institutional links</option>
+        </select>
+      </label>
+      <label>Focus person or institution <select id="entity-filter"><option value="">All connected entities</option></select></label>
+      <label class="toggle"><input type="checkbox" id="verified-only" checked> Source-reviewed documented links only</label>
+      <button type="button" id="clear-focus" class="button-minor">Clear focus</button>
+    </div>
+    <div class="network-layout">
+      <div class="graph-wrap">
+        <svg id="graph" viewBox="0 0 960 520" role="group" aria-label="Interactive graph of relationships; use the accessible connection list below if needed.">
+          <text x="30" y="40">Network loading…</text>
+        </svg>
+        <div class="graph-legend" aria-hidden="true"><span><i class="legend-dot person"></i> People</span><span><i class="legend-dot corporation"></i> Organizations</span><span><i class="legend-dot government"></i> Governments</span><span><i class="legend-line"></i> Documented</span><span><i class="legend-line pending"></i> Interpretive / pending</span></div>
+      </div>
+      <aside id="entity-detail" class="detail-panel entity-panel" aria-live="polite"><p class="quiet">Select a node or choose an entity to trace its connections.</p></aside>
+    </div>
+    <details class="relationships-list"><summary>Accessible list of connections <span class="quiet" id="relationship-count"></span></summary><ul id="network-list"></ul></details>
+  </section>
+  <section id="cases" class="research-section" aria-labelledby="cases-title">
+    <div class="section-heading"><div><p class="eyebrow">03 · INVESTIGATIONS</p><h2 id="cases-title">Case studies</h2></div></div>
+    <div class="cards" id="case-list"></div>
+  </section>
+  <section id="systems" class="research-section" aria-labelledby="systems-title">
+    <div class="section-heading"><div><p class="eyebrow">04 · PATTERNS</p><h2 id="systems-title">Systems analysis</h2></div></div>
+    <div id="system-list" class="cards"></div>
+  </section>
+  <section id="evidence" class="research-section" aria-labelledby="evidence-title">
+    <div class="section-heading"><div><p class="eyebrow">05 · DOCUMENTATION</p><h2 id="evidence-title">Evidence library</h2></div></div>
+    <p class="section-note">“Source-reviewed” means a document link and locator were checked; it does not mean every assertion is independently confirmed. Bibliography-only entries remain pending.</p>
+    <ul id="source-list" class="sources"></ul>
+  </section>
+  <section id="principles" class="research-section" aria-labelledby="principles-title">
+    <div class="section-heading"><div><p class="eyebrow">06 · INTEGRITY</p><h2 id="principles-title">Research principles</h2></div></div>
+    <div class="principles">
+      <p><strong>Evidence before explanation.</strong> Every documented event and relationship links to an identifiable source with a locator. Unresolved questions stay unresolved.</p>
+      <p><strong>Relationships are not allegations.</strong> Ancestry, belief, shared memberships or attendance at a meeting do not prove intent, coordination or culpability.</p>
+      <p><strong>History is revisable.</strong> We invite corrections, independent scholarship and historical perspectives underrepresented in official archives.</p>
+      <p><a href="https://github.com/mcfruitpunch/Anatomy-of-civilization/blob/main/methodology/EVIDENCE_STANDARD.md" target="_blank" rel="noopener noreferrer">Read the evidence standard ↗</a></p>
+    </div>
+  </section>
 </main>
-<footer>Open source. Data lives in <code>data/</code> as versioned JSON; contributions welcome.</footer>
-<script src="site/app.js"></script>
+<footer class="footer"><div class="shell"><strong>Anatomy of Civilization</strong> · An open-source atlas, not a final verdict. <a href="https://github.com/mcfruitpunch/Anatomy-of-civilization">View source & propose corrections</a>.</div></footer>
 </body>
 </html>
