@@ -79,8 +79,8 @@ dominoes.forEach(d => {
   if (d.status === 'documented' && d.verification !== 'reviewed')
     errors.push(d.id + ': documented link requires review');
 });
-const acceptableUnits = new Set(['GBP', 'percent_of_sales', 'not_recorded', 'livres_tournois']);
-const acceptableStates = new Set(['existing_credit_extension', 'historical_account_not_transaction_ledger', 'prospective_not_documented_paid', 'documented_historical_loan', 'scheme_subscription_not_disbursement', 'shareholding_not_cash_transfer', 'agreement_not_disbursement', 'authorized_no_transfer', 'policy_target_not_cash_flow']);
+const acceptableUnits = new Set(['GBP', 'percent_of_sales', 'not_recorded', 'livres_tournois', 'shares']);
+const acceptableStates = new Set(['existing_credit_extension', 'historical_account_not_transaction_ledger', 'prospective_not_documented_paid', 'documented_historical_loan', 'scheme_subscription_not_disbursement', 'shareholding_not_cash_transfer', 'agreement_not_disbursement', 'authorized_no_transfer', 'policy_target_not_cash_flow', 'archival_share_receipt_no_cash_value']);
 financial.forEach(f => {
   validDate(f.date, f.id);
   if (!f.title || !f.kind || !f.description || !f.flow_state) errors.push(f.id + ': missing financial metadata');
@@ -110,6 +110,10 @@ ownership.forEach(o => {
   cite(o, o.id, true);
   if (o.verification !== 'reviewed') errors.push(o.id + ': source review missing');
 });
+financial.filter(f=>f.flow_state === 'archival_share_receipt_no_cash_value').forEach(f=>{
+  if (f.unit !== 'shares' || !Number.isInteger(f.value) || f.value < 1) errors.push(f.id + ': share receipt needs recorded share units');
+  if (!/no cash|NOT a cash|not.*cash|cash.*not|price/i.test(f.description)) errors.push(f.id + ': share receipt needs no-cash-price warning');
+});
 financial.filter(f=>f.flow_state === 'authorized_no_transfer').forEach(f=>{
   if (f.value !== null || f.unit !== 'not_recorded') errors.push(f.id + ': unauthorized invented non-transfer amount');
   if (!/not (executed|implemented)|never (executed|carried out)|neither .* (assumed|engrafted)/i.test(f.description)) errors.push(f.id + ': unexecuted transfer must be explicit');
@@ -127,7 +131,7 @@ financial.filter(f=>f.flow_state==='policy_target_not_cash_flow').forEach(f=>{
   if (!/not evidence|NOT evidence|not a payment|not proof/i.test(f.description))
     errors.push(f.id+': fiscal target needs explicit nonpayment warning');
 });
-const archiveLevels = new Set(['curator_summary_with_images','bibliographic_record_only','museum_catalogue_description','indexed_issues_not_transcribed','ledger_series_index_only','catalogue_metadata_only']);
+const archiveLevels = new Set(['curator_summary_with_images','bibliographic_record_only','museum_catalogue_description','indexed_issues_not_transcribed','ledger_series_index_only','catalogue_metadata_only','archival_finding_aid_only']);
 documents.forEach(d => {
   validDate(d.date,d.id);
   if (!d.title || !d.place || !d.document_kind || !d.reference || !d.established || !d.limitations) errors.push(d.id + ': missing archive metadata');
