@@ -1005,5 +1005,45 @@
     "status": "documented",
     "verification": "reviewed",
     "date": "1717"
+  },
+  {
+    "id": "rel-078",
+    "from": "ent-archibald-hutcheson",
+    "to": "ent-south-sea",
+    "type": "published_valuation_critique",
+    "note": "Hutcheson's 1720 public pamphlet contests the published value calculations for South Sea shares; full numerical analysis not yet transcribed.",
+    "sources": [
+      "src-hutcheson-stock-letter"
+    ],
+    "date": "1720",
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-079",
+    "from": "ent-french-crown",
+    "to": "ent-banque-royale",
+    "type": "ordered_monetary_restrictions",
+    "note": "The April 20 order restricted large-silver coin exchange, and August 30 edict addressed inventory and destruction of specified banknotes; not a record of completed exchanges or destruction.",
+    "sources": [
+      "src-hnoc-law-primary"
+    ],
+    "date": "1720",
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-080",
+    "from": "ent-inspector-diron",
+    "to": "ent-french-crown",
+    "type": "authored_colonial_census_records",
+    "note": "A French colonial official identified as Diron signed Louisiana enumerations in 1721 and wrote a related January 1722 report. This is administrative reporting, not evidence of individual people's consent.",
+    "sources": [
+      "src-anom-census-no-1721",
+      "src-anom-census-mobile-1721"
+    ],
+    "date": "1721",
+    "status": "documented",
+    "verification": "reviewed"
   }
 ]
