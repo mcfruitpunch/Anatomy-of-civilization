@@ -1,7 +1,7 @@
 (async function () {
   'use strict';
   const $ = id => document.getElementById(id);
-  const collectionNames = ['sources', 'events', 'entities', 'relationships', 'cases', 'systems', 'dominoes', 'financial_flows'];
+  const collectionNames = ['sources', 'events', 'entities', 'relationships', 'cases', 'systems', 'dominoes', 'financial_flows', 'ownership_overlap'];
   const D = {};
   const make = (tag, props = {}, ...contents) => {
     const node = document.createElement(tag);
@@ -80,7 +80,7 @@
   D.cases.forEach(c => caseSelect.append(make('option', { value: c.id, textContent: c.title })));
   sortedEntities.forEach(e => entitySelect.append(make('option', { value: e.id, textContent: e.name })));
   $('stats').replaceChildren(
-    ...[['Events', D.events.length], ['Entities', D.entities.length], ['Connections', D.relationships.length], ['Sources', D.sources.length], ['Investigations', D.cases.length], ['Dominoes', D.dominoes.length], ['Financial records', D.financial_flows.length]]
+    ...[['Events', D.events.length], ['Entities', D.entities.length], ['Connections', D.relationships.length], ['Sources', D.sources.length], ['Investigations', D.cases.length], ['Dominoes', D.dominoes.length], ['Financial records', D.financial_flows.length], ['Ownership studies', D.ownership_overlap.length]]
       .map(([name, count]) => make('span', {}, make('strong', {}, String(count)), name))
   );
   $('load-status').textContent = 'Research dataset loaded · Source review is ongoing';
@@ -342,7 +342,7 @@
       matches(f.title, f.description, entitiesById[f.from]?.name,
         ...(f.to || []).map(id => entitiesById[id]?.name), f.flow_state, f.kind));
     $('finance-count').textContent = list.length + ' records';
-    const valueLabel = record => record.value === null ? 'Amount not stated' :
+    const valueLabel = record => record.flow_state === 'authorized_no_transfer' ? 'Transfer NOT executed' : record.value === null ? 'Amount not stated' :
       record.unit === 'GBP' ? ('£' + record.value.toLocaleString('en-GB') + ' historical') :
       record.unit === 'percent_of_sales' ? (record.value + '% of sales, conditional') :
       (record.value + ' ' + record.unit);
@@ -358,6 +358,26 @@
     )) : [empty('No financial traces match this search or case. These records currently focus on the 1773 Company case.')]));
   }
 
+
+  function renderOwnership() {
+    const knownCases = new Set(['engraftment1721', 'publicdebt1720']);
+    const visible = D.ownership_overlap.filter(record =>
+      (!state.caseId || knownCases.has(state.caseId)) &&
+      matches(String(record.year), record.measurement, record.methods,
+        ...(record.company_ids || []).map(id => entitiesById[id]?.name)));
+    $('ownership-count').textContent = visible.length + ' historical estimates';
+    $('ownership-list').replaceChildren(...(visible.length ? visible.map(record =>
+      make('article', { className: 'card' },
+        make('p', { className: 'eyebrow' }, record.year + ' · PUBLISHED LEDGER STUDY'),
+        make('h3', {}, 'Approximately ' + record.matched_accounts_approx.toLocaleString('en-GB') + ' overlapping accounts'),
+        make('p', {}, record.company_ids.map(actorButton)),
+        make('p', {}, record.measurement),
+        pill('Named individuals NOT verified', 'pending'),
+        make('p', { className: 'small quiet' }, record.methods),
+        citations(record.sources)
+      )) : [empty('Ownership account comparisons are available in the 1719–1721 research case.')]));
+  }
+
   function renderSources() {
     const list = D.sources.filter(s => matches(s.title, s.author, s.locator));
     $('source-list').replaceChildren(...(list.length ? list.map(s => make('li', { id: 'src-' + s.id },
@@ -369,7 +389,7 @@
       s.locator ? make('p', { className: 'source-locator' }, 'Locator: ' + s.locator) : empty('Exact passage not yet reviewed.')
     )) : [make('li', {}, empty('No sources match the search.'))]));
   }
-  function render() { renderTimeline(); renderDominoes(); renderFinance(); renderNetwork(); renderCases(); renderSystems(); renderSources(); }
+  function render() { renderTimeline(); renderDominoes(); renderFinance(); renderOwnership(); renderNetwork(); renderCases(); renderSystems(); renderSources(); }
   function updateFilters() {
     state.query = clean($('search').value.trim());
     state.caseId = caseSelect.value;
