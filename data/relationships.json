@@ -710,5 +710,108 @@
     "status": "documented",
     "verification": "reviewed",
     "date": "1722-10-23"
+  },
+  {
+    "id": "rel-056",
+    "from": "ent-bank-england",
+    "to": "ent-eic",
+    "type": "shared_shareholder_accounts",
+    "note": "Mays and Shea's 2011 ledger comparison estimates approximately 700 account owners in both institutions in 1719 and 760 by 1721. These are aggregate accounts, not proof of centrally coordinated investors, related families, or verified distinct persons.",
+    "sources": [
+      "src-mays-shea-2011"
+    ],
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-057",
+    "from": "ent-eic",
+    "to": "ent-bank-england",
+    "type": "met_for_crisis_negotiations",
+    "note": "East India Company directors appointed representatives to meet Bank and South Sea Company representatives in September 1720 amid a credit crisis.",
+    "sources": [
+      "src-swingen-2024"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1720-09"
+  },
+  {
+    "id": "rel-058",
+    "from": "ent-eic",
+    "to": "ent-south-sea",
+    "type": "discussed_proposed_engraftment",
+    "note": "East India Company representatives considered proposals to help manage South Sea debts after the collapse, but did not carry out the proposed 1721 engraftment.",
+    "sources": [
+      "src-swingen-2024"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1720"
+  },
+  {
+    "id": "rel-059",
+    "from": "ent-robert-walpole",
+    "to": "ent-parliament",
+    "type": "promoted_debt_restructuring",
+    "note": "Walpole proposed redistributing South Sea capital across major financial companies; an authorizing act followed in 1721 but the contemplated engraftment did not take place.",
+    "sources": [
+      "src-swingen-2024"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1721"
+  },
+  {
+    "id": "rel-060",
+    "from": "ent-weavers-1719",
+    "to": "ent-parliament",
+    "type": "petitioned_for_protection",
+    "note": "Weavers and manufacturing interests sought legislation restricting imports and use of Indian cotton calicoes, with petitions and protests differing by locality.",
+    "sources": [
+      "src-swingen-2024"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1719"
+  },
+  {
+    "id": "rel-061",
+    "from": "ent-parliament",
+    "to": "ent-eic",
+    "type": "restricted_rival_colonial_imports",
+    "note": "A June 1721 law restricted foreign-routed East India goods into British colonies, strengthening the Company's imperial commercial privileges.",
+    "sources": [
+      "src-swingen-2024"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1721"
+  },
+  {
+    "id": "rel-062",
+    "from": "ent-michael-godfrey",
+    "to": "ent-bank-england",
+    "type": "served_as_deputy_governor",
+    "note": "Bank archival director lists name Michael Godfrey the first Deputy Governor in July 1694.",
+    "sources": [
+      "src-boe-directors-list"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1694"
+  },
+  {
+    "id": "rel-063",
+    "from": "ent-henry-furnese",
+    "to": "ent-bank-england",
+    "type": "served_as_director",
+    "note": "Bank archives name Henry Furnese among the first directors in 1694. This does not establish any holdings in rival companies.",
+    "sources": [
+      "src-boe-directors-list"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1694"
   }
 ]
