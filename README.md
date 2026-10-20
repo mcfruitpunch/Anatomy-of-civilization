@@ -4,8 +4,9 @@ An open-source, evidence-driven historical atlas of people, families, institutio
 
 ## Explore the atlas
 
-The static website is at `index.html`. Its V1.2 explorer includes:
+The static website is at `index.html`. Its V1.3 explorer includes:
 
+- **Corporate retrocession & public debt:** distinguish a 23 January 1731 legal concession return, 24 February 1731 debt decree printed in 1733, May Council restructuring, and January 1732 royal asset handover; distinguish court award issuer from an unverified payer.
 - **Colonial monopoly compensation:** a sourced 1732 29,000-French-livre legal award after the Choctaw-requested Youanis post challenged a French trade monopoly; the data model explicitly warns **the amount is not verified as paid**.
 - **Census evidence audit:** distinguish two surviving copies of the 1721 New Orleans census and attributed published tabulations that disagree; no forced demographic total or unverified primary manuscript reading.
 - **Indigenous-led diplomacy:** new Choctaw case tracing 1721–1730 negotiations, including French trading promises, Indigenous leverage and the distinction between Youanis and Fort Tombecbe.
@@ -71,9 +72,10 @@ Research data lives in `data/`: `sources`, `events`, `entities`, `relationships`
 - [V1.0 — Dated Dutch press reports and mediated readings of 1721 Louisiana census](research/v1-0-dutch-news-and-louisiana-source-readings.md)
 - [V1.1 — Choctaw sovereign diplomacy, the Youanis post and 1721 New Orleans census source discrepancies](research/v1-1-choctaw-sovereignty-and-census-versions.md)
 - [V1.2 — Choctaw trade, Mobile monopoly conflict, and 29,000-livre award](research/v1-2-choctaw-trade-monopoly-29000-livres.md)
+- [V1.3 — Louisiana's corporate retrocession: royal decrees, courts, assets and creditor claims](research/v1-3-louisiana-retrocession-governance-debt-dates.md)
 - [Research expansion and representation plan](research/ROADMAP.md)
 
-Current case studies: **Choctaw sovereign trade diplomacy and monopoly compensation (1721–1732)**; **archival information networks and Louisiana records (1716–1721)**; **John Law and the French Mississippi Bubble (1715–1720)**; **charters, public debt, and the South Sea Bubble (1661–1722)**; **shareholder account overlap and the unimplemented 1721 Engraftment Act**; the British East India Company; **imperial finance, East India Company tea relief, and North American resistance (1757–1775)**; **1773 Tea Act money, merchant appointments and family networks**; and the 1953 Iranian coup. The [imperial finance and revolution research brief](research/imperial-finance-and-revolution-1757-1775.md) records corroborated links and contested questions. This is an evolving research interface, **not** a completed or peer-reviewed history of the events. We invite corrections and perspectives from affected communities, and will not infer guilt from ancestry, ethnicity, religion or membership.
+Current case studies: **Louisiana's Compagnie des Indes retrocession and royal debt/court changes (1731–1733)**; **Choctaw sovereign trade diplomacy and monopoly compensation (1721–1732)**; **archival information networks and Louisiana records (1716–1721)**; **John Law and the French Mississippi Bubble (1715–1720)**; **charters, public debt, and the South Sea Bubble (1661–1722)**; **shareholder account overlap and the unimplemented 1721 Engraftment Act**; the British East India Company; **imperial finance, East India Company tea relief, and North American resistance (1757–1775)**; **1773 Tea Act money, merchant appointments and family networks**; and the 1953 Iranian coup. The [imperial finance and revolution research brief](research/imperial-finance-and-revolution-1757-1775.md) records corroborated links and contested questions. This is an evolving research interface, **not** a completed or peer-reviewed history of the events. We invite corrections and perspectives from affected communities, and will not infer guilt from ancestry, ethnicity, religion or membership.
 
 ### Archival use and licensing
 
@@ -84,3 +86,5 @@ Source-review labels describe review of accessible citations and archive descrip
 **V1.1 evidence note:** The 1721 Choctaw council action's exact February day conflicts within one modern scholarly paper; original ANOM folio check is pending. The New Orleans census has an original 12-image entry and apparent extended 29-image variant; neither has been audited line by line. Deiler (1910), de Villiers (1917) and modern Vidal (2019) figures are separately scoped attributed readings, not one synthesized historical population. Public colonial inventories do not represent Indigenous nations' experiences or enslaved people's histories equally.
 
 **V1.2 money-source warning:** A cited 1732 Superior Council award of 29,000 French livres is a legal decision, **not a proved treasury disbursement**. The September 2 1732 ministry letter is separately indexed and must be compared directly with the judgment before those two records can be treated as one transaction history. The 1721 census signer called Diron has not been formally matched to Bernard Diron d'Artaguiette through signature comparison.
+
+**V1.3 date and visual-evidence correction:** the Louisiana Company debt decree is *dated 24 February 1731*, although one copy was *printed in 1733*. The royal retrocession title page is dated *23 January 1731*. Financial Cards show payment arrows only for documented loan/share movements, **never** for awards, subscriptions, equity positions, proposals or legislative authorizations. The 1732 Diron award lists adjudicator, beneficiary, unverified payer and unverified paid amount as separate roles. Original legal clauses and payment ledgers remain unread; see V1.3 research memo.
