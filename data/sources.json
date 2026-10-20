@@ -336,8 +336,8 @@
     "author": "Boston town meeting, reproduced by Library of Congress",
     "year": 1773,
     "publisher": "Library of Congress Broadside Collection",
-    "url": "https://www.loc.gov/resource/rbpe.03702300/",
-    "locator": "Contemporary printed resolves of Boston and nearby towns opposing East India Company tea, dated Dec 1, 1773",
+    "url": "https://www.loc.gov/item/rbpe.03702300/",
+    "locator": "Library of Congress Printed Ephemera Collection, Portfolio 37 Folder 23; Boston Dec 1 1773 meeting resolves dated Nov 29–30",
     "reviewed": true
   },
   {
@@ -349,6 +349,17 @@
     "publisher": "Minute Man National Historical Park",
     "url": "https://www.nps.gov/mima/learn/historyculture/april-19-1775.htm",
     "locator": "Overview, prelude to war, Gage's military orders, and opening fighting on April 19",
+    "reviewed": true
+  },
+  {
+    "id": "src-loc-ny-broadside1773",
+    "type": "primary",
+    "title": "The Association of the Sons of Liberty, of New-York (November 29, 1773)",
+    "author": "Association of the Sons of Liberty of New York",
+    "year": 1773,
+    "publisher": "Library of Congress, Printed Ephemera Collection",
+    "url": "https://www.loc.gov/resource/rbpe.10501300/?sp=2&st=text",
+    "locator": "Image/text page 2, letter to Friends of Liberty and Trade: rhetoric explicitly comparing East India Company actions in India and America; famine allegation is not independently verified here.",
     "reviewed": true
   }
 ]
