@@ -350,9 +350,9 @@
       { className: 'card money-card' },
       make('p', { className: 'eyebrow' }, f.date + ' · ' + readableType(f.kind)),
       make('h3', {}, f.title),
-      make('p', {}, pill(valueLabel(f), f.flow_state.startsWith('prospective') ? 'pending' : 'documented')),
+      make('p', {}, pill(valueLabel(f), f.flow_state === 'documented_historical_loan' ? 'documented' : 'pending')),
       make('p', { className: 'money-flow' }, actorButton(f.from), ' → ', f.to.map(actorButton)),
-      make('p', { className: 'small' }, make('strong', {}, 'Record type: '), readableType(f.flow_state)),
+      make('p', { className: 'small' }, make('strong', {}, 'Evidence status: '), readableType(f.flow_state)),
       make('p', {}, f.description),
       citations(f.sources)
     )) : [empty('No financial traces match this search or case. These records currently focus on the 1773 Company case.')]));
