@@ -1,3 +1,3 @@
 # Exhibit catalogue
 
-The Louisiana Historical Society 1903 exhibition catalogue identifies royal decrees from January and February 1731 on printed page 18, numbered 342 and 345.
+Items 342 and 345 appear on printed page 18 of the 1903 exhibition catalogue. Both were in a private collection at the time.
