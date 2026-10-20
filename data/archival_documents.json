@@ -365,5 +365,79 @@
       "ent-french-superior-council-la",
       "ent-french-trade-monopoly-mobile"
     ]
+  },
+  {
+    "id": "doc-021",
+    "date": "1731-01-24",
+    "place": "New Orleans",
+    "title": "Local 24-page French Superior Council retrocession dossier",
+    "document_kind": "digitized_council_retrocession_document",
+    "access_level": "catalogue_metadata_only",
+    "reference": "Louisiana Historical Center document 1731-01-24-03 (24 original page images), https://lacolonialdocs.org/document/2003",
+    "established": "A dated original-document series is publicly digitized and catalogued as administrative acts concerning Louisiana's corporate retrocession, involving named local officials and the Company of Indies.",
+    "limitations": "Full French pages have not been transcribed in this atlas. The local document's January 24 date is NOT established as the final Crown retrocession or official effective date.",
+    "sources": [
+      "src-lcd-retrocession-1731"
+    ],
+    "entities": [
+      "ent-compagnie-indes-france",
+      "ent-french-superior-council-la",
+      "ent-french-crown"
+    ]
+  },
+  {
+    "id": "doc-022",
+    "date": "1731",
+    "place": "France",
+    "title": "Council of State decree concerning the retrocession of Louisiana and Illinois",
+    "document_kind": "royal_retrocession_decree",
+    "access_level": "catalogue_metadata_only",
+    "reference": "BnF, Arrêt du Conseil d'État, 1731, 'rétrocession ... Louisiane et pays des Illinois'; curated list of digitized primary decrees",
+    "established": "BnF catalogues an original 1731 royal decree concerning Company's return of governing concession in Louisiana and Illinois.",
+    "limitations": "The date, original articles on property and Company debts, and actual implementation cannot be determined from the curator's linked document title alone.",
+    "sources": [
+      "src-bnf-retrocession-edict-1731"
+    ],
+    "entities": [
+      "ent-french-crown",
+      "ent-compagnie-indes-france"
+    ]
+  },
+  {
+    "id": "doc-023",
+    "date": "1732-01-19",
+    "place": "New Orleans",
+    "title": "Salmon reports royal possession of former Company forts, buildings, artillery",
+    "document_kind": "archival_asset_possession_letter",
+    "access_level": "catalogue_metadata_only",
+    "reference": "HNOC Guide to French Louisiana Manuscripts item 7287; ANOM C13,15:31; two pages; dated January 19, 1732",
+    "established": "Salmon's indexed letter reports taking physical possession of specified Company assets for the King, with exceptions at Illinois, Natchitoches and site written 'Youanis (Yazoo)', plus dispute over stores.",
+    "limitations": "The original letter has not been read; 'Youanis (Yazoo)' is not verified as the Haiyowvni/Youanis Choctaw post, and the index does not prove that every asset was transferred or debts settled.",
+    "sources": [
+      "src-hnoc-salmon-possession-1732"
+    ],
+    "entities": [
+      "ent-salmon-edme-gatien",
+      "ent-french-crown",
+      "ent-compagnie-indes-france"
+    ]
+  },
+  {
+    "id": "doc-024",
+    "date": "1733",
+    "place": "France",
+    "title": "Royal decree on payment of Compagnie des Indes Louisiana debts",
+    "document_kind": "royal_company_debt_decree",
+    "access_level": "catalogue_metadata_only",
+    "reference": "BnF 'Arrêt du Conseil d'Etat concernant le paiement des dettes de la Compagnie des Indes à la Louisiane', 1733",
+    "established": "An original historical decree addressing debt payment for the Company's Louisiana undertakings was issued under royal authority.",
+    "limitations": "No debt amount, payment receipt, creditor identity, article language, or Crown assumption of all debts has been verified from BnF's decree catalogue alone.",
+    "sources": [
+      "src-bnf-1733-company-debts"
+    ],
+    "entities": [
+      "ent-french-crown",
+      "ent-compagnie-indes-france"
+    ]
   }
 ]
