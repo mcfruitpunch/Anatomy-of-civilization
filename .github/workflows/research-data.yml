@@ -1,0 +1,22 @@
+name: Validate research data
+on:
+  push:
+    branches: [main]
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'scripts/validate.js'
+      - 'site/**'
+      - '.github/workflows/research-data.yml'
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify research record integrity and source locations
+        run: node scripts/validate.js
+      - name: Check browser JavaScript syntax
+        run: node --check site/app.js

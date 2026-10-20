@@ -10,3 +10,6 @@ section{margin:2rem 0}li{margin:.4rem 0}
 svg{width:100%;height:auto;background:#fff;border:1px solid #ddd}
 svg text{font-size:11px}
 .hidden{display:none}
+
+.source-locator{font-size:.86rem;color:#505050;margin:.2rem 0 .7rem 1rem}
+#network-list li{overflow-wrap:anywhere}

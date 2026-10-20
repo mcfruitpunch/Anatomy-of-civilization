@@ -8,14 +8,15 @@
   const el = (tag, props, ...kids) => {
     const e = document.createElement(tag);
     Object.assign(e, props || {});
-    kids.flat().forEach((k) => e.append(k));
+    kids.flat(Infinity).forEach((k) => e.append(k));
     return e;
   };
   const srcLinks = (ids) => el('span', {}, ' [', ids.map((id, i) => {
     const s = src[id];
-    return [i ? ', ' : '', el('a', { href: '#src-' + id, title: s.title }, s.author.split(' ').pop() + ' ' + s.year)];
+    return [i ? ', ' : '', el('a', { href: s.url || '#src-' + id, title: s.title + (s.locator ? ' — ' + s.locator : ''), target: s.url ? '_blank' : '', rel: s.url ? 'noopener noreferrer' : '' }, s.author.split(' ').pop() + ' ' + (s.year || 'n.d.'))];
   }), ']');
   const tag = (t) => el('span', { className: 'tag' }, t);
+  const reviewTag = (o) => tag(o.verification === 'reviewed' ? 'source-reviewed' : 'review pending');
 
   const caseSel = $('case-filter');
   D.cases.forEach((c) => caseSel.append(el('option', { value: c.id, textContent: c.title })));
@@ -27,23 +28,23 @@
     $('timeline-list').replaceChildren(...D.events
       .filter((e) => (!cf || e.case === cf) && match(e.title, e.summary))
       .sort((a, b) => a.date.localeCompare(b.date))
-      .map((e) => el('li', { id: e.id }, el('strong', { textContent: e.date.slice(0, 4) + ' — ' + e.title }), tag(e.status),
+      .map((e) => el('li', { id: e.id }, el('strong', { textContent: e.date.slice(0, 4) + ' — ' + e.title }), tag(e.status), reviewTag(e),
         el('br'), e.summary, srcLinks(e.sources))));
 
     const caseEnts = cf ? new Set(cs[cf].entities) : null;
     const rels = D.relationships.filter((r) => (!caseEnts || caseEnts.has(r.from) || caseEnts.has(r.to)) &&
       match(ent[r.from].name, ent[r.to].name, r.type, r.note));
     $('network-list').replaceChildren(...rels.map((r) => el('li', {},
-      ent[r.from].name + ' → ' + r.type.replace(/_/g, ' ') + ' → ' + ent[r.to].name + '. ' + r.note, srcLinks(r.sources))));
-    drawGraph(rels);
+      ent[r.from].name + ' → ' + r.type.replace(/_/g, ' ') + ' → ' + ent[r.to].name + '. ' + r.note, tag(r.status || 'unclassified'), reviewTag(r), srcLinks(r.sources))));
+    drawGraph(rels.filter(r => r.status === 'documented' && r.verification === 'reviewed'));
 
     $('case-list').replaceChildren(...D.cases.filter((c) => (!cf || c.id === cf) && match(c.title, c.summary)).map((c) =>
       el('article', { className: 'card', id: 'case-' + c.id },
-        el('h3', { textContent: c.title + ' (' + c.period + ')' }), el('p', { textContent: c.summary }),
-        el('p', {}, el('strong', { textContent: 'Decision-making: ' }), c.decision_making),
+        el('h3', { textContent: c.title + ' (' + c.period + ')' }), el('p', {}, c.summary, srcLinks(c.summary_sources)),
+        el('p', {}, el('strong', { textContent: 'Decision-making: ' }), c.decision_making, srcLinks(c.decision_sources)),
         el('h4', { textContent: 'Competing interpretations' }),
         el('ul', {}, c.interpretations.map((i) => el('li', {}, el('strong', { textContent: i.label }), tag(i.status), ': ' + i.claim, srcLinks(i.sources)))),
-        el('p', {}, el('strong', { textContent: 'Consequences: ' }), c.consequences),
+        el('p', {}, el('strong', { textContent: 'Consequences: ' }), c.consequences, srcLinks(c.consequences_sources)),
         el('h4', { textContent: 'Open questions' }), el('ul', {}, c.open_questions.map((o) => el('li', { textContent: o }))))));
 
     $('system-list').replaceChildren(...D.systems.filter((s) => (!cf || s.cases.includes(cf)) && match(s.title, s.description)).map((s) =>
@@ -51,8 +52,8 @@
         el('p', {}, 'Cases: ', s.cases.map((c) => cs[c].title).join(', '), srcLinks(s.sources)))));
 
     $('source-list').replaceChildren(...D.sources.filter((s) => match(s.title, s.author)).map((s) =>
-      el('li', { id: 'src-' + s.id }, tag(s.type), ' ', s.url ? el('a', { href: s.url, textContent: s.title }) : s.title,
-        ' — ' + s.author + ' (' + s.year + ')')));
+      el('li', { id: 'src-' + s.id }, tag(s.type), ' ', tag(s.reviewed ? 'link + locator reviewed' : 'bibliographic — pending'), ' ', s.url ? el('a', { href: s.url, textContent: s.title, target:'_blank', rel:'noopener noreferrer' }) : s.title,
+        ' — ' + s.author + ' (' + (s.year || 'n.d.') + ')', s.locator ? el('div', { className: 'source-locator' }, 'Locator: ' + s.locator) : '')));
   }
 
   function drawGraph(rels) {

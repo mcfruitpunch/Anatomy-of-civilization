@@ -1,12 +1,124 @@
 [
-  {"id":"evt-1600-eic-charter","date":"1600-12-31","title":"Royal charter granted to the East India Company","summary":"Elizabeth I grants a charter giving the Company a monopoly on English trade east of the Cape of Good Hope.","case":"beic","status":"documented","sources":["src-robins-2006"]},
-  {"id":"evt-1757-plassey","date":"1757-06-23","title":"Battle of Plassey","summary":"Company forces under Robert Clive defeat the Nawab of Bengal, Siraj ud-Daulah, aided by defections arranged with Mir Jafar, who became Nawab.","case":"beic","status":"documented","sources":["src-dalrymple-2019","src-robins-2006"]},
-  {"id":"evt-1765-diwani","date":"1765-08-12","title":"Company receives the diwani of Bengal","summary":"The Mughal emperor Shah Alam II grants the Company the right to collect revenue in Bengal, Bihar and Orissa.","case":"beic","status":"documented","sources":["src-dalrymple-2019"]},
-  {"id":"evt-1770-bengal-famine","date":"1770-01-01","title":"Great Bengal famine","summary":"Severe famine in Bengal under Company revenue administration. Mortality estimates are contested; contemporary figures of roughly a third of the population are debated by historians.","case":"beic","status":"interpretation","sources":["src-dalrymple-2019"]},
-  {"id":"evt-1773-regulating-act","date":"1773-06-01","title":"Regulating Act","summary":"Parliament begins asserting oversight over the Company amid its financial crisis, creating a Governor-General of Bengal.","case":"beic","status":"documented","sources":["src-regulating-act-1773"]},
-  {"id":"evt-1858-crown-rule","date":"1858-08-02","title":"Company rule ends; Crown assumes control of India","summary":"Following the 1857 rebellion, the Government of India Act transfers the Company's territories and armies to the Crown.","case":"beic","status":"documented","sources":["src-gov-india-act-1858"]},
-  {"id":"evt-1951-nationalization","date":"1951-05-01","title":"Iran nationalizes its oil industry","summary":"Under Prime Minister Mohammad Mossadegh, Iran nationalizes the Anglo-Iranian Oil Company's holdings; Britain responds with an embargo and legal action.","case":"iran1953","status":"documented","sources":["src-abrahamian-2013","src-gasiorowski-2004"]},
-  {"id":"evt-1953-coup","date":"1953-08-19","title":"Coup removes Mossadegh","summary":"After an earlier failed attempt, a coup backed by the CIA and British MI6 removes Mossadegh and strengthens the rule of Shah Mohammad Reza Pahlavi.","case":"iran1953","status":"documented","sources":["src-nsa-ebb435","src-wilber-1954","src-abrahamian-2013"]},
-  {"id":"evt-1954-consortium","date":"1954-10-29","title":"Oil consortium agreement","summary":"A multinational consortium, including British and US companies, takes over Iranian oil operations; Anglo-Iranian is renamed British Petroleum.","case":"iran1953","status":"documented","sources":["src-abrahamian-2013"]},
-  {"id":"evt-2013-cia-acknowledges","date":"2013-08-19","title":"CIA publicly acknowledges its role","summary":"Declassified CIA material released via the National Security Archive describes the 1953 operation as carried out under CIA direction.","case":"iran1953","status":"documented","sources":["src-nsa-ebb435"]}
+  {
+    "id": "evt-1600-eic-charter",
+    "date": "1600",
+    "title": "Royal charter granted to the East India Company",
+    "summary": "Elizabeth I granted a charter to the Company in late 1600. The British Library's archival description and some printed charter compilations differ on the day.",
+    "case": "beic",
+    "status": "documented",
+    "sources": [
+      "src-bl-charter"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "evt-1757-plassey",
+    "date": "1757-06-23",
+    "title": "Battle of Plassey",
+    "summary": "Company forces under Robert Clive defeat the Nawab of Bengal, Siraj ud-Daulah, aided by defections arranged with Mir Jafar, who became Nawab.",
+    "case": "beic",
+    "status": "documented",
+    "sources": [
+      "src-nam-plassey"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "evt-1765-diwani",
+    "date": "1765",
+    "title": "Company receives the diwani of Bengal",
+    "summary": "In 1765 Mughal emperor Shah Alam II granted the Company diwani revenue-collection authority for Bengal, Bihar and Orissa; exact day is not asserted here.",
+    "case": "beic",
+    "status": "documented",
+    "sources": [
+      "src-nam-plassey"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "evt-1770-bengal-famine",
+    "date": "1770",
+    "title": "Great Bengal famine",
+    "summary": "Severe famine occurred in Bengal in 1770. The British Library catalogues parliamentary reports on the famine and revenue collection. Mortality and relative responsibility of climate, markets, and Company policies require detailed review.",
+    "case": "beic",
+    "status": "documented",
+    "sources": [
+      "src-bl-famine"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "evt-1773-regulating-act",
+    "date": "1773",
+    "title": "Regulating Act",
+    "summary": "Parliament enacted the Regulating Act amid the Company's financial crisis, changing governance and oversight. Day-level dating has not been established from the reviewed archival catalogue.",
+    "case": "beic",
+    "status": "documented",
+    "sources": [
+      "src-bl-parliament"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "evt-1858-crown-rule",
+    "date": "1858-08-02",
+    "title": "Company rule ends; Crown assumes control of India",
+    "summary": "Following the 1857 rebellion, the Government of India Act transfers the Company's territories and armies to the Crown.",
+    "case": "beic",
+    "status": "documented",
+    "sources": [
+      "src-uk-india-1858"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "evt-1951-nationalization",
+    "date": "1951-05-01",
+    "title": "Iran nationalizes its oil industry",
+    "summary": "Iran's oil nationalization legislation was adopted in spring 1951; the Shah promulgated an implementation law on May 1 while Mossadegh was prime minister.",
+    "case": "iran1953",
+    "status": "documented",
+    "sources": [
+      "src-frus-nationalization"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "evt-1953-coup",
+    "date": "1953-08-19",
+    "title": "Coup removes Mossadegh",
+    "summary": "An August 19 coup overthrew Prime Minister Mohammad Mosaddegh. Declassified American records document CIA direction, British cooperation, and Iranian political participation; relative contributions remain debated.",
+    "case": "iran1953",
+    "status": "documented",
+    "sources": [
+      "src-nsa-ebb435",
+      "src-nsa-wilber",
+      "src-frus-cia-aug18"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "evt-1954-consortium",
+    "date": "1954-09-19",
+    "title": "Iranian oil consortium agreement signed",
+    "summary": "Iran and an international oil consortium signed an agreement in September 1954; parliamentary and royal approvals followed in October. Iranian ownership and foreign operating rights were distinct.",
+    "case": "iran1953",
+    "status": "documented",
+    "sources": [
+      "src-iranica-oil-1954"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "evt-2013-cia-acknowledges",
+    "date": "2013-08-19",
+    "title": "CIA publicly acknowledges its role",
+    "summary": "The National Security Archive published declassified CIA excerpts acknowledging the agency's planning and direction of the 1953 coup. This was not the first public disclosure of U.S. involvement.",
+    "case": "iran1953",
+    "status": "documented",
+    "sources": [
+      "src-nsa-ebb435"
+    ],
+    "verification": "reviewed"
+  }
 ]
