@@ -1,0 +1,77 @@
+[
+  {
+    "id": "compare-001",
+    "dimension": "Public-debt financing",
+    "france": "Law's company issued subscriptions to exchange French government-debt claims into company shares under a much wider financial reform.",
+    "britain": "The South Sea Company proposed debt-for-share conversions, competing with the Bank of England for rights to finance British government debt.",
+    "interpretation": "The designs are historically comparable and later British plans followed the French example in some respects. Investor identity and individual decision-making remain to be established.",
+    "epistemic_status": "supported interpretation",
+    "france_case": "francemississippi1720",
+    "britain_case": "publicdebt1720",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-cambridge-quinn-turner-2020",
+      "src-boe-ssc-archive"
+    ]
+  },
+  {
+    "id": "compare-002",
+    "dimension": "Paper money and central authority",
+    "france": "Banque Générale and later Banque Royale were integrated with Law's debt and share scheme; changes in paper-note issue and convertibility destabilized confidence in 1720.",
+    "britain": "The Bank of England was a distinct chartered institution participating in government finance and competing for debt management, while South Sea share conversions did not give the Company Law-style control of British banknote policy.",
+    "interpretation": "Different institutional control of banking and monetary issuance is a major difference, not a superficial duplication of the same national system.",
+    "epistemic_status": "supported interpretation",
+    "france_case": "francemississippi1720",
+    "britain_case": "publicdebt1720",
+    "sources": [
+      "src-nyfed-law",
+      "src-cambridge-quinn-turner-2020",
+      "src-boe-history-1694-1720"
+    ]
+  },
+  {
+    "id": "compare-003",
+    "dimension": "Commercial privileges and colonial impact",
+    "france": "The Compagnie d'Occident promoted Louisiana settlement, absorbed French overseas trade businesses and employed a colonial economy rooted partly in slavery.",
+    "britain": "South Sea commercial privileges included the transatlantic slave trade, and the British East India Company exercised power over trade and settlement in South Asia.",
+    "interpretation": "In both cases, colonial exploitation shaped financial ambitions; the exact experiences of Indigenous and enslaved people, and the role of particular actors, require more detailed records.",
+    "epistemic_status": "supported interpretation",
+    "france_case": "francemississippi1720",
+    "britain_case": "publicdebt1720",
+    "sources": [
+      "src-bnf-vidal-no",
+      "src-bnf-law-colonies",
+      "src-uk-na-asiento",
+      "src-bl-eic-1698"
+    ]
+  },
+  {
+    "id": "compare-004",
+    "dimension": "Who coordinated across borders?",
+    "france": "International markets carried capital, news and investors, according to scholarly research. No verified cross-national named-investor dataset has yet been added.",
+    "britain": "South Sea directors' designs resembled Law's public-debt refinancing plans, but that resemblance alone does not document a private international command structure.",
+    "interpretation": "Documented intellectual influence, connected markets, and coordinated wrongdoing are different hypotheses with different evidentiary thresholds.",
+    "epistemic_status": "supported interpretation",
+    "france_case": "francemississippi1720",
+    "britain_case": "publicdebt1720",
+    "sources": [
+      "src-cambridge-jackson-2022",
+      "src-cambridge-quinn-turner-2020"
+    ]
+  },
+  {
+    "id": "compare-005",
+    "dimension": "Crisis outcomes",
+    "france": "The 1720 collapse undermined Law's note and share program; Law left France, while the French trading company remained active in altered form.",
+    "britain": "South Sea share values also collapsed in 1720; the Bank, Parliament, and companies negotiated multiple rescue plans, including a 1721 debt-engraftment law that was not implemented.",
+    "interpretation": "The two governments pursued different recoveries. Simplistic claims that one country permanently succeeded and the other permanently failed exceed the evidence in this comparison.",
+    "epistemic_status": "supported interpretation",
+    "france_case": "francemississippi1720",
+    "britain_case": "publicdebt1720",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-swingen-2024",
+      "src-cambridge-velde-2010"
+    ]
+  }
+]
