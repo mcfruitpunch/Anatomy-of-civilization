@@ -859,16 +859,17 @@
   },
   {
     "id": "dom-064",
-    "from": "evt-1732-salmon-possession",
-    "to": "evt-1733-french-company-debt-decree",
-    "mechanism": "Property handover does not extinguish former corporate liabilities",
-    "claim": "After the asset handover, a royal decree in 1733 addressed outstanding Company of Indies debts associated with Louisiana. Do not infer Crown guarantee or payment from decree title alone.",
+    "from": "evt-1731-french-company-debt-decree",
+    "to": "evt-1732-salmon-possession",
+    "mechanism": "Royal debt rules preceded physical asset handover",
+    "claim": "The Company-debt Council decree is dated 24 February 1731 (printed 1733), preceding Salmon's January 1732 report of Crown possession of forts and stores. The decree's creditor payments and responsible debtor still require full original text; chronological order is not proof of actual payments.",
     "kind": "debt_liability_not_cleared",
     "status": "supported interpretation",
     "verification": "reviewed",
     "sources": [
       "src-hnoc-salmon-possession-1732",
-      "src-bnf-1733-company-debts"
+      "src-bnf-1733-company-debts",
+      "src-columbia-1731-debt-printed-1733"
     ]
   },
   {
@@ -887,16 +888,44 @@
   },
   {
     "id": "dom-066",
-    "from": "evt-1732-29k-compensation",
-    "to": "evt-1733-french-company-debt-decree",
-    "mechanism": "Specific award and general debt regulation demand comparison",
-    "claim": "A case-specific historical award is reported for Diron in 1732 and a 1733 royal decree concerns Company Louisiana debts. No direct evidence yet shows the decree paid or modified Diron's award.",
+    "from": "evt-1731-french-company-debt-decree",
+    "to": "evt-1732-29k-compensation",
+    "mechanism": "General debt law preceded specific later monopoly claim",
+    "claim": "A February 1731 Company debt decree preceded the 1732 Diron trade-monopoly award. No read original court or finance record yet demonstrates that the earlier general decree governed this particular award or funded its payout.",
     "kind": "open_legal_causation_question",
     "status": "supported interpretation",
     "verification": "reviewed",
     "sources": [
       "src-musco-ellis-spring-2025",
-      "src-bnf-1733-company-debts"
+      "src-bnf-1733-company-debts",
+      "src-columbia-1731-debt-printed-1733"
+    ]
+  },
+  {
+    "id": "dom-067",
+    "from": "evt-1731-louisiana-retrocession",
+    "to": "evt-1731-french-company-debt-decree",
+    "mechanism": "Royal administrative retrocession followed by corporate debt regulation",
+    "claim": "The 23 January 1731 retrocession decree and the 24 February 1731 Company debt decree were distinct government actions, both attested by legal bibliographic records. Nothing establishes actual repayment solely by their legal titles.",
+    "kind": "distinct_decrees",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-umsl-1731-decree-image",
+      "src-columbia-1731-debt-printed-1733"
+    ]
+  },
+  {
+    "id": "dom-068",
+    "from": "evt-1731-louisiana-retrocession",
+    "to": "evt-1731-superior-council-reorganization",
+    "mechanism": "Corporate directors lose official judicial seats",
+    "claim": "A dated royal act of May 22 1731 removed Company directors from the Louisiana Superior Council, a documented redistribution of institutional authority associated with the return of royal government. Actual practices and colonial power relations still require study.",
+    "kind": "institutional_authority_transfer",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-unilim-1731-retrocession"
     ]
   }
 ]
