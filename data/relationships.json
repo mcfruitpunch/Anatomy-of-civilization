@@ -813,5 +813,197 @@
     "status": "documented",
     "verification": "reviewed",
     "date": "1694"
+  },
+  {
+    "id": "rel-064",
+    "from": "ent-john-law",
+    "to": "ent-banque-generale",
+    "type": "founded",
+    "note": "John Law created Banque Générale in 1716 with regency permission to issue paper notes.",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-bnf-gallica-law"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1716"
+  },
+  {
+    "id": "rel-065",
+    "from": "ent-banque-generale",
+    "to": "ent-banque-royale",
+    "type": "transitioned_to_royal_bank",
+    "note": "Law's private banking enterprise shifted into royal control during 1718–1719; different historical summaries vary in transition details, so no exact day is asserted.",
+    "sources": [
+      "src-bnf-law-catalog",
+      "src-miss-state-law"
+    ],
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-066",
+    "from": "ent-philippe-orleans",
+    "to": "ent-john-law",
+    "type": "authorized_financial_experiment",
+    "note": "The French regent backed Law's bank and trading privileges as part of postwar fiscal reform.",
+    "sources": [
+      "src-bnf-law-colonies"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1716"
+  },
+  {
+    "id": "rel-067",
+    "from": "ent-john-law",
+    "to": "ent-compagnie-occident",
+    "type": "organized",
+    "note": "John Law created Compagnie d'Occident in 1717 to pursue Louisiana commerce and French public-debt restructuring.",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-bnf-gallica-law"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1717"
+  },
+  {
+    "id": "rel-068",
+    "from": "ent-french-crown",
+    "to": "ent-compagnie-occident",
+    "type": "granted_colonial_trade_privileges",
+    "note": "French regency authorities entrusted Louisiana trading monopoly rights to the Compagnie d'Occident in 1717.",
+    "sources": [
+      "src-bnf-vidal-no",
+      "src-bnf-law-colonies"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1717"
+  },
+  {
+    "id": "rel-069",
+    "from": "ent-compagnie-occident",
+    "to": "ent-compagnie-indes-france",
+    "type": "consolidated_into",
+    "note": "The Company of the West and other French overseas commercial interests were grouped into the Compagnie des Indes by May 1719.",
+    "sources": [
+      "src-bnf-law-colonies"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1719-05"
+  },
+  {
+    "id": "rel-070",
+    "from": "ent-compagnie-indes-france",
+    "to": "ent-french-crown",
+    "type": "held_government_debt_conversion_roles",
+    "note": "The French Company was used to issue shares against public debt and gained quasi-governmental monetary and fiscal privileges.",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-nyfed-law"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1719"
+  },
+  {
+    "id": "rel-071",
+    "from": "ent-john-law",
+    "to": "ent-french-crown",
+    "type": "served_as_controller_general",
+    "note": "John Law became Controller General of Finances in January 1720 during the French debt-conversion experiment.",
+    "sources": [
+      "src-bnf-law-colonies"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1720-01"
+  },
+  {
+    "id": "rel-072",
+    "from": "ent-compagnie-occident",
+    "to": "ent-louisiana-indigenous-communities",
+    "type": "expanded_into_indigenous_territories",
+    "note": "Company settlement and Louisiana resource claims affected many distinct Indigenous communities. This umbrella population label is not evidence that the communities acted with one unified voice.",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-bnf-vidal-no"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1717"
+  },
+  {
+    "id": "rel-073",
+    "from": "ent-compagnie-indes-france",
+    "to": "ent-enslaved-africans-french-louisiana",
+    "type": "operated_colonial_enslavement_economy",
+    "note": "French Company colonial projects involved plantations and labor extracted from enslaved Africans; documenting this harm is not an ownership claim over free agents.",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-bnf-vidal-no",
+      "src-miss-state-law"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1719"
+  },
+  {
+    "id": "rel-074",
+    "from": "ent-bienville",
+    "to": "ent-louisiana-indigenous-communities",
+    "type": "received_site_advice",
+    "note": "BnF historian Cécile Vidal describes Bienville selecting the New Orleans site with assistance from Indigenous advisors; individual advisers are not identified in this account.",
+    "sources": [
+      "src-bnf-vidal-no"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1718"
+  },
+  {
+    "id": "rel-075",
+    "from": "ent-john-blunt",
+    "to": "ent-south-sea",
+    "type": "served_as_director",
+    "note": "Historical Federal Reserve commentary identifies John Blunt as South Sea Company director, but does not establish Law and Blunt personally coordinated.",
+    "sources": [
+      "src-nyfed-law",
+      "src-loc-bubbles-2026"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1720"
+  },
+  {
+    "id": "rel-076",
+    "from": "ent-south-sea",
+    "to": "ent-compagnie-indes-france",
+    "type": "similar_debt_conversion_approach",
+    "note": "Quinn and Turner argue South Sea directors followed Law's example in proposing broad government debt conversion. This is scholarly interpretation of influence, not a claim of joint management.",
+    "sources": [
+      "src-cambridge-quinn-turner-2020",
+      "src-cambridge-jackson-2022"
+    ],
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "date": "1720"
+  },
+  {
+    "id": "rel-077",
+    "from": "ent-antoine-crozat",
+    "to": "ent-compagnie-occident",
+    "type": "preceding_louisiana_concession_holder",
+    "note": "Antoine Crozat held earlier Louisiana commercial privileges before the 1717 Law company's charter; no transfer fee or personal investment is inferred.",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-hnoc-law-2026"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1717"
   }
 ]
