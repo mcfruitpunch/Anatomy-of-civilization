@@ -600,12 +600,13 @@
     "id": "archives1720",
     "title": "Paris–London–Amsterdam: What the Surviving Records Actually Show",
     "period": "1716–1721",
-    "summary": "Specific original royal banking orders, contemporary financial criticism, Dutch market and print archives, and French Louisiana colonial lists survive. They document public laws, reports, and market channels, but do not yet establish a named private investor exchanging instructions between Paris, London and Amsterdam.",
+    "summary": "Specific original royal banking orders, contemporary financial criticism, Dutch market and print archives, and French Louisiana colonial lists survive. They document public laws, reports, and market channels, but do not yet establish a named private investor exchanging instructions between Paris, London and Amsterdam. A newly located 23 December 1719 signed manuscript acknowledgment records delivery of 20 shares from a named court servant to an unidentified bearer, supplying one bounded financial relationship.",
     "summary_sources": [
       "src-hnoc-law-primary",
       "src-yale-1720-ledger",
       "src-wellcome-amsterdam-coffeehouse",
-      "src-anom-census-no-1721"
+      "src-anom-census-no-1721",
+      "src-hnoc-mss606-findingaid"
     ],
     "decision_making": "The French regent and Law used royal orders to regulate banknotes and specie exchange; British pamphleteers publicly questioned South Sea values; Dutch newspapers, trading venues and company ledgers registered the 1720 market events. In Louisiana, colonial officials counted populations and tracked movements within systems of coerced settlement and enslavement. These forms of evidence have different creators, audiences and limits.",
     "decision_sources": [
@@ -666,7 +667,8 @@
       "Which original Stad Rotterdam ledgers record actual share-backed loans or trades, and were the counterparties acting for French or British principals?",
       "What do all 68 passenger-list folios and 12 New Orleans census images reveal about named people, and who is uncounted or classified in dehumanizing colonial terms?",
       "Can the New Orleans census be read with Indigenous diplomatic records and histories written by descendants, rather than treating officials' categories as neutral facts?",
-      "How many banknotes were actually destroyed under the August 30 edict, and what receipt or audit proves the operation?"
+      "How many banknotes were actually destroyed under the August 30 edict, and what receipt or audit proves the operation?",
+      "Can HNOC MSS606 Folder 4 (2010.0158.20) be consulted to transcribe the equity certificate, confirm its exact share class, identity of the bearer, endorsement, and whether Imbert received payment?"
     ],
     "events": [
       "evt-1716-law-charter-archive",
@@ -676,7 +678,8 @@
       "evt-1720-french-aug-edict",
       "evt-1721-jan-passenger-list",
       "evt-1721-mobile-census",
-      "evt-1721-no-census"
+      "evt-1721-no-census",
+      "evt-1719-20shares-receipt"
     ],
     "entities": [
       "ent-john-law",
@@ -693,7 +696,10 @@
       "ent-louisiana-indigenous-communities",
       "ent-enslaved-africans-french-louisiana",
       "ent-inspector-diron",
-      "ent-bienville"
+      "ent-bienville",
+      "ent-imbert-valet",
+      "ent-frenier-signatory",
+      "ent-unidentified-bearer-1719"
     ]
   }
 ]
