@@ -1,0 +1,151 @@
+[
+  {
+    "id": "dom-001",
+    "from": "evt-1757-plassey",
+    "to": "evt-1763-paris-treaty",
+    "mechanism": "Shared imperial war theater",
+    "claim": "British victories in India occurred within the same worldwide British-French rivalry that culminated in the 1763 Treaty of Paris; Plassey did not alone determine that treaty.",
+    "kind": "context",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-state-paris1763"
+    ]
+  },
+  {
+    "id": "dom-002",
+    "from": "evt-1763-paris-treaty",
+    "to": "evt-1765-stamp-act",
+    "mechanism": "War debt and revenue policy",
+    "claim": "Postwar British debt was among the fiscal pressures that led ministers to seek additional colonial revenue. The Stamp Act also involved constitutional disputes over representation.",
+    "kind": "policy_context",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-state-tax1763",
+      "src-state-paris1763"
+    ]
+  },
+  {
+    "id": "dom-003",
+    "from": "evt-1763-paris-treaty",
+    "to": "evt-1763-royal-proclamation",
+    "mechanism": "Territorial governance after war",
+    "claim": "The territorial settlement created new governance problems; British authorities issued a proclamation restricting settlement beyond the Appalachians.",
+    "kind": "policy_response",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-state-frontier1763"
+    ]
+  },
+  {
+    "id": "dom-004",
+    "from": "evt-1763-pontiac-resistance",
+    "to": "evt-1763-royal-proclamation",
+    "mechanism": "Indigenous resistance and frontier policy",
+    "claim": "Indigenous armed resistance and settler encroachment shaped the environment in which Britain created the proclamation; neither was the sole cause.",
+    "kind": "policy_context",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-state-frontier1763"
+    ]
+  },
+  {
+    "id": "dom-005",
+    "from": "evt-1765-stamp-act",
+    "to": "evt-1767-townshend",
+    "mechanism": "Continuing taxation dispute",
+    "claim": "The Stamp Act's repeal did not resolve competing positions about Parliament's taxing authority; Townshend duties renewed conflict.",
+    "kind": "political_continuity",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-state-tax1763"
+    ]
+  },
+  {
+    "id": "dom-006",
+    "from": "evt-1767-townshend",
+    "to": "evt-1773-tea-act",
+    "mechanism": "Existing tea duty remains contested",
+    "claim": "The 1773 tea plan retained a duty from earlier parliamentary taxation policies rather than creating a new tea tax.",
+    "kind": "political_continuity",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-loc-tea1773",
+      "src-state-tax1763"
+    ]
+  },
+  {
+    "id": "dom-007",
+    "from": "evt-1773-regulating-act",
+    "to": "evt-1773-tea-act",
+    "mechanism": "Parallel responses to Company finances",
+    "claim": "Regulation of the Company and the Tea Act emerged amid its financial difficulties. The two 1773 laws should be studied as parallel policy responses, not as proof one caused the other.",
+    "kind": "shared_institutional_pressure",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-bl-parliament",
+      "src-loc-tea1773"
+    ]
+  },
+  {
+    "id": "dom-008",
+    "from": "evt-1773-tea-act",
+    "to": "evt-1773-boston-tea-party",
+    "mechanism": "Commercial privilege provokes protest",
+    "claim": "The Tea Act's advantages for the East India Company, combined with unresolved tax and representation disputes, contributed to protests culminating in destruction of its tea.",
+    "kind": "policy_response",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-loc-tea1773",
+      "src-nps-tea1773"
+    ]
+  },
+  {
+    "id": "dom-009",
+    "from": "evt-1773-boston-tea-party",
+    "to": "evt-1774-coercive-acts",
+    "mechanism": "Parliamentary retaliation",
+    "claim": "Parliament adopted punitive measures, including closing Boston's port, in response to the destruction of tea and colonial resistance.",
+    "kind": "policy_response",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-loc-1773-1774",
+      "src-state-tax1763"
+    ]
+  },
+  {
+    "id": "dom-010",
+    "from": "evt-1774-coercive-acts",
+    "to": "evt-1774-first-congress",
+    "mechanism": "Intercolonial political coordination",
+    "claim": "Colonial grievances over the Coercive Acts and other British policies helped prompt the First Continental Congress and its coordinated boycott.",
+    "kind": "political_response",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-state-tax1763"
+    ]
+  },
+  {
+    "id": "dom-011",
+    "from": "evt-1774-first-congress",
+    "to": "evt-1775-lexington-concord",
+    "mechanism": "Escalating imperial crisis",
+    "claim": "The Congress was part of wider political mobilization before armed conflict; a direct claim that the meeting alone caused the battles would overstate the evidence.",
+    "kind": "political_context",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-state-tax1763",
+      "src-nps-lexington1775"
+    ]
+  }
+]
