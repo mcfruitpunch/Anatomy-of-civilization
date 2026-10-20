@@ -1131,5 +1131,71 @@
     "url": "https://louisiana-anthology.org/texts/de_villiers/de_villiers--new_orleans_founding.html",
     "locator": "Translation section describing 24 Nov 1721 census: 470 residents including 277 Europeans; reproduces French printed 1917 volume. Census table in French digitization appears corrupted; no audited original folio.",
     "reviewed": true
+  },
+  {
+    "id": "src-hnoc-1725-council-abstract",
+    "type": "primary_correspondence_archival_abstract",
+    "title": "27 February 1725 Louisiana Superior Council correspondence mentioning Choctaw trade",
+    "author": "Historic New Orleans Collection, A Guide to French Louisiana Manuscripts",
+    "year": null,
+    "publisher": "Historic New Orleans Collection",
+    "url": "https://surrey.hnoc.org/result_keyword.php?keyword=slavery&page_number=37",
+    "locator": "Guide abstract: February 27, 1725, New Orleans, Council to Company/Council of the Indies; 47-page original copy AC C13 vol.9 p.51 (guide notation), subject includes 'Choctaw trade', shortages, enslaved people, official commerce. Not the same as a direct transcription of the specific C13A fol.65v passage cited by Musco et al.",
+    "reviewed": true
+  },
+  {
+    "id": "src-hnoc-diron-1730-abstract",
+    "type": "primary_correspondence_archival_abstract",
+    "title": "9–10 February 1730 letter from Diron d'Artaguiette on Périer and Régis du Roullet's Choctaw mission",
+    "author": "Historic New Orleans Collection, A Guide to French Louisiana Manuscripts",
+    "year": null,
+    "publisher": "Historic New Orleans Collection",
+    "url": "https://surrey.hnoc.org/result_keyword.php?keyword=military+posts&page_number=36",
+    "locator": "Guide summary: dated Feb. 9–10 1730 at Mobile; Diron d'Artaguiette to Comptroller General, 9 pages, AC C13 vol.12 p.362; on Natchez conflict, disputed Régis du Roullet Choctaw trip and garrisons. Only descriptive abstract read, not original 9 pages.",
+    "reviewed": true
+  },
+  {
+    "id": "src-hnoc-1732-minister-abstract",
+    "type": "primary_correspondence_archival_abstract",
+    "title": "2 September 1732 French ministry approves Superior Council decision in Diron vs Company of Indies",
+    "author": "Historic New Orleans Collection, A Guide to French Louisiana Manuscripts",
+    "year": null,
+    "publisher": "Historic New Orleans Collection",
+    "url": "https://surrey.hnoc.org/result_keyword.php?keyword=botany&page_number=5",
+    "locator": "Guide summary: September 2 1732, Marly, minister to Salmon, AC B57 p.815; approves Superior Council decision in case of Diron and Company of Indies. Abstract gives no money amount and does not itself prove cash settlement. Link to 29,000-livre award rests on 2025 historical reconstruction, pending matching folios.",
+    "reviewed": true
+  },
+  {
+    "id": "src-hnoc-1732-choctaw-trade-abstract",
+    "type": "primary_correspondence_archival_abstract",
+    "title": "15 January 1732 Salmon report on Choctaw fur trade, goods and unjust metalwork pricing",
+    "author": "Historic New Orleans Collection, A Guide to French Louisiana Manuscripts",
+    "year": null,
+    "publisher": "Historic New Orleans Collection",
+    "url": "https://surrey.hnoc.org/result_keyword.php?keyword=fur+trade&page_number=21",
+    "locator": "Guide summary: January 15 1732, New Orleans, Salmon to minister; Choctaw fur trade, guns, European presents, complaints about smiths overcharging Indigenous customers, Mobile supplies; archive reference AC C13 vol.15 p.7. Primary correspondence not fully read.",
+    "reviewed": true
+  },
+  {
+    "id": "src-loc-diron-journal-edition",
+    "type": "historic_edited_primary_journal",
+    "title": "Journal of Diron d'Artaguiette (1722–1723), published in Travels in the American Colonies",
+    "author": "Newton D. Mereness (editor); original by Diron d'Artaguiette",
+    "year": 1916,
+    "publisher": "Macmillan; digitized by Library of Congress",
+    "url": "https://www.loc.gov/resource/lhbtn.09410/",
+    "locator": "Editor introduction identifies Diron d'Artaguiette as Louisiana inspector-general and locates a French archived manuscript C13C vol.2 Z fols.18–269; edition's introduction is editorial secondary context. Full original manuscript has not been compared against the English edition.",
+    "reviewed": true
+  },
+  {
+    "id": "src-choctaw-trade-english-1730",
+    "type": "independent_research_webessay",
+    "title": "French sources for the Choctaw villages and the 1730 trade post",
+    "author": "Stephen R. Cook",
+    "year": null,
+    "publisher": "The Choctaw Villages historical research site",
+    "url": "https://thechoctawvillages.com/french-sources.html",
+    "locator": "Narrative based on translated original instructions for 1730 Régis du Roullet mission; notes about 800 livres' presents and nine instructions. This interpretive website has not been source-audited against the actual signed 1729 instructions; figures not added as transaction proof.",
+    "reviewed": true
   }
 ]
