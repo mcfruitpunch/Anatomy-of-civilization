@@ -242,5 +242,130 @@
       "src-hingham-winslow-letter-1773",
       "src-nps-tea1773"
     ]
+  },
+  {
+    "id": "dom-019",
+    "from": "evt-1661-eic-powers",
+    "to": "evt-1698-eic-rival-charter",
+    "mechanism": "Chartered monopoly and public borrowing",
+    "claim": "Old Company privileges and royal lending preceded a 1698 public-finance and competing trading-charter arrangement. Repetition of a mechanism is not proof of one continuous secret strategy.",
+    "kind": "institutional_context",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-bl-eic-1698"
+    ]
+  },
+  {
+    "id": "dom-020",
+    "from": "evt-1694-boe-founding",
+    "to": "evt-1698-eic-rival-charter",
+    "mechanism": "Parallel public-debt finance arrangements",
+    "claim": "The government drew on privately subscribed capital for a bank loan in 1694 and for East India trading privileges in 1698. Different institutions participated; overlap among individual subscribers remains untested.",
+    "kind": "comparative_mechanism",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-boe-loan-foi",
+      "src-bl-eic-1698"
+    ]
+  },
+  {
+    "id": "dom-021",
+    "from": "evt-1698-eic-rival-charter",
+    "to": "evt-1709-eic-united",
+    "mechanism": "Trading rivalry followed by union",
+    "claim": "The rival East India companies' arrangements evolved through negotiated stock and trade integration, finalized by 1709.",
+    "kind": "corporate_union",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bl-eic-1698",
+      "src-bl-eic-union-1708"
+    ]
+  },
+  {
+    "id": "dom-022",
+    "from": "evt-1694-boe-founding",
+    "to": "evt-1711-south-sea-formed",
+    "mechanism": "Expansion of public-debt institutions",
+    "claim": "The South Sea Company later challenged the Bank's role in financing government debt. Institutional succession does not imply the Bank founded the rival.",
+    "kind": "institutional_context",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-boe-history-1694-1720",
+      "src-boe-ssc-archive"
+    ]
+  },
+  {
+    "id": "dom-023",
+    "from": "evt-1711-south-sea-formed",
+    "to": "evt-1720-south-sea-scheme",
+    "mechanism": "Scaling government-debt conversion",
+    "claim": "The South Sea Company's debt-finance role expanded into the contested and legislated 1720 conversion scheme.",
+    "kind": "debt_restructuring",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-boe-history-1694-1720",
+      "src-boe-ssc-archive"
+    ]
+  },
+  {
+    "id": "dom-024",
+    "from": "evt-1720-south-sea-scheme",
+    "to": "evt-1720-south-sea-collapse",
+    "mechanism": "Speculation and collapse",
+    "claim": "South Sea share prices rose rapidly amid debt conversion and later crashed. Individual gains and losses varied.",
+    "kind": "market_event",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-boe-history-1694-1720",
+      "src-boe-ssc-archive"
+    ]
+  },
+  {
+    "id": "dom-025",
+    "from": "evt-1720-south-sea-collapse",
+    "to": "evt-1722-bank-south-sea-agreement",
+    "mechanism": "Restructuring after the Bubble",
+    "claim": "Bank and South Sea records describe 1722 stock-purchase arrangements after the bubble; the catalogue is not a cash receipt.",
+    "kind": "financial_restructuring",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-boe-ssc-agreement-1722",
+      "src-boe-ssc-proposals-1722"
+    ]
+  },
+  {
+    "id": "dom-026",
+    "from": "evt-1709-eic-united",
+    "to": "evt-1757-plassey",
+    "mechanism": "Corporate continuity into Indian territorial power",
+    "claim": "The united Company later exercised military and political power at Plassey; the earlier union did not determine every later decision.",
+    "kind": "institutional_context",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-bl-eic-1698",
+      "src-nam-plassey"
+    ]
+  },
+  {
+    "id": "dom-027",
+    "from": "evt-1694-boe-founding",
+    "to": "evt-1766-eic-bank-extension",
+    "mechanism": "Early banking institution and later commercial lending",
+    "claim": "The Bank that began as a government lender in 1694 was also involved in a 1766 East India Company loan-extension record. Chronological continuity is not a claim of direct causation.",
+    "kind": "institutional_context",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-boe-1694-archive",
+      "src-bank-1766-loan"
+    ]
   }
 ]
