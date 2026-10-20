@@ -1253,5 +1253,71 @@
     "status": "documented",
     "verification": "reviewed",
     "date": "1726"
+  },
+  {
+    "id": "rel-097",
+    "from": "ent-compagnie-indes-france",
+    "to": "ent-french-crown",
+    "type": "retroceded_colonial_administration",
+    "note": "Royal decree indexes the Company's 1731 relinquishment of administrative concession for Louisiana and Illinois back to Crown; legal articles and effective date pending direct reading.",
+    "sources": [
+      "src-bnf-retrocession-edict-1731",
+      "src-louisiana-museum-retrocession"
+    ],
+    "date": "1731",
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-098",
+    "from": "ent-salmon-edme-gatien",
+    "to": "ent-french-crown",
+    "type": "reported_asset_possession_for_crown",
+    "note": "Jan 19 1732 official report catalogued by HNOC: Salmon took possession of certain Company fortifications and other assets for king, with exceptions. An officer's report does not prove a comprehensive inventory.",
+    "sources": [
+      "src-hnoc-salmon-possession-1732"
+    ],
+    "date": "1732-01-19",
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-099",
+    "from": "ent-french-crown",
+    "to": "ent-compagnie-indes-france",
+    "type": "promulgated_company_debt_rules",
+    "note": "BnF catalogues royal 1733 Council of State decree regulating debt payment for the Company's former Louisiana undertakings; catalog is not specific financial settlement.",
+    "sources": [
+      "src-bnf-1733-company-debts"
+    ],
+    "date": "1733",
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-100",
+    "from": "ent-salmon-edme-gatien",
+    "to": "ent-compagnie-indes-france",
+    "type": "reported_merchandise_custody_dispute",
+    "note": "Official Jan 1732 letter indexed by HNOC mentions Salmon–MacMahon disagreement about Company merchandise and brick remaining amid Crown transfer.",
+    "sources": [
+      "src-hnoc-salmon-possession-1732"
+    ],
+    "date": "1732-01-19",
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-101",
+    "from": "ent-french-crown",
+    "to": "ent-salmon-edme-gatien",
+    "type": "communicated_diron_company_ruling",
+    "note": "Sep 2 1732 ministerial letter to Salmon references approval of a Council decision involving Diron and Company; the 29,000-livre amount not mentioned by archival catalogue.",
+    "sources": [
+      "src-hnoc-diron-1732-letter-specific"
+    ],
+    "date": "1732-09-02",
+    "status": "documented",
+    "verification": "reviewed"
   }
 ]
