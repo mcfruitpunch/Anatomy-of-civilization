@@ -813,5 +813,90 @@
     "sources": [
       "src-musco-ellis-spring-2025"
     ]
+  },
+  {
+    "id": "dom-061",
+    "from": "evt-1717-compagnie-occident",
+    "to": "evt-1731-louisiana-retrocession",
+    "mechanism": "Chartered corporate administration ultimately returns to royal government",
+    "claim": "France's 1717 Louisiana concession to a chartered Company evolved into the 1731 reversal in which the Company of the Indies relinquished the colonial governing concession. This was a political and legal change, not a completed audit of liabilities.",
+    "kind": "corporate_state_transition",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-bnf-retrocession-edict-1731",
+      "src-louisiana-museum-retrocession"
+    ]
+  },
+  {
+    "id": "dom-062",
+    "from": "evt-1731-jan-retrocession-document",
+    "to": "evt-1731-louisiana-retrocession",
+    "mechanism": "A dated early document belongs to a longer retrocession process",
+    "claim": "A 24-page French 1731-01-24 colonial record is tagged 'retrocession of Louisiana'; its date predates or accompanies 1731 legal settlement and cannot automatically be considered the formal effective handover.",
+    "kind": "same_research_question_distinct_dates",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-lcd-retrocession-1731",
+      "src-bnf-retrocession-edict-1731"
+    ]
+  },
+  {
+    "id": "dom-063",
+    "from": "evt-1731-louisiana-retrocession",
+    "to": "evt-1732-salmon-possession",
+    "mechanism": "Legal return of concession followed by physical asset inventories",
+    "claim": "The Crown's legal resumption of administration preceded Salmon's January 1732 report on physical forts, buildings and artillery taken for king, with explicit exceptions and ownership disputes.",
+    "kind": "handover_administration_vs_assets",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-retrocession-edict-1731",
+      "src-hnoc-salmon-possession-1732"
+    ]
+  },
+  {
+    "id": "dom-064",
+    "from": "evt-1732-salmon-possession",
+    "to": "evt-1733-french-company-debt-decree",
+    "mechanism": "Property handover does not extinguish former corporate liabilities",
+    "claim": "After the asset handover, a royal decree in 1733 addressed outstanding Company of Indies debts associated with Louisiana. Do not infer Crown guarantee or payment from decree title alone.",
+    "kind": "debt_liability_not_cleared",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-hnoc-salmon-possession-1732",
+      "src-bnf-1733-company-debts"
+    ]
+  },
+  {
+    "id": "dom-065",
+    "from": "evt-1731-louisiana-retrocession",
+    "to": "evt-1732-29k-compensation",
+    "mechanism": "Corporate retreat and monopoly litigation coexist",
+    "claim": "French Company retrocession and Diron's 1732 compensation award occurred in the same governance transition. The record does not establish which party was legally liable or that the Crown had paid the award.",
+    "kind": "chronological_governance_context",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-retrocession-edict-1731",
+      "src-musco-ellis-spring-2025"
+    ]
+  },
+  {
+    "id": "dom-066",
+    "from": "evt-1732-29k-compensation",
+    "to": "evt-1733-french-company-debt-decree",
+    "mechanism": "Specific award and general debt regulation demand comparison",
+    "claim": "A case-specific historical award is reported for Diron in 1732 and a 1733 royal decree concerns Company Louisiana debts. No direct evidence yet shows the decree paid or modified Diron's award.",
+    "kind": "open_legal_causation_question",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-musco-ellis-spring-2025",
+      "src-bnf-1733-company-debts"
+    ]
   }
 ]
