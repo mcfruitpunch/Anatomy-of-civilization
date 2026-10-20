@@ -76,5 +76,83 @@
       "src-hingham-winslow-letter-1773"
     ],
     "verification": "reviewed"
+  },
+  {
+    "id": "fin-005",
+    "date": "1694",
+    "title": "Bank of England's original loan to the Crown",
+    "from": "ent-bank-england",
+    "to": [
+      "ent-crown"
+    ],
+    "value": 1200000,
+    "unit": "GBP",
+    "kind": "wartime_state_loan",
+    "flow_state": "documented_historical_loan",
+    "description": "Original Bank subscribers raised £1.2m, which the Bank lent to government to support war against France. Annual interest of 8% was secured by Tonnage and Excise taxes. Not a personal payment to William III.",
+    "case": "publicdebt1720",
+    "sources": [
+      "src-boe-loan-foi",
+      "src-boe-tax-security"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "fin-006",
+    "date": "1698",
+    "title": "£2 million East India trade-access public borrowing scheme",
+    "from": "ent-general-society-1698",
+    "to": [
+      "ent-crown"
+    ],
+    "value": 2000000,
+    "unit": "GBP",
+    "kind": "government_finance_subscription_program",
+    "flow_state": "scheme_subscription_not_disbursement",
+    "description": "British Library describes the £2m public borrowing arrangement tied to trade privileges and the incorporation of new East India companies. This figure describes the borrowing/subscription scheme, not a verified list of installments received by the Crown.",
+    "case": "publicdebt1720",
+    "sources": [
+      "src-bl-eic-1698"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "fin-007",
+    "date": "1698",
+    "title": "Old East India Company's stake in the rival English Company",
+    "from": "ent-eic",
+    "to": [
+      "ent-english-company-1698"
+    ],
+    "value": 315000,
+    "unit": "GBP",
+    "kind": "recorded_nominal_equity_position",
+    "flow_state": "shareholding_not_cash_transfer",
+    "description": "The British Library records a £315k stake held by the old East India Company via its treasurer. The amount is a financial interest, not proof that £315k changed hands on a single date.",
+    "case": "publicdebt1720",
+    "sources": [
+      "src-bl-eic-1698"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "fin-008",
+    "date": "1722",
+    "title": "Proposed £4.2m Bank–South Sea restructuring arrangement",
+    "from": "ent-bank-england",
+    "to": [
+      "ent-south-sea"
+    ],
+    "value": 4200000,
+    "unit": "GBP",
+    "kind": "archived_payment_proposal_and_stock_agreement",
+    "flow_state": "agreement_not_disbursement",
+    "description": "A circa-1722 Bank archive item describes proposals for a £4.2m payment and a separate October 1722 document records an agreement to purchase South Sea Company stock. Neither catalogue entry alone verifies that the full sum was paid as cash on a specified date.",
+    "case": "publicdebt1720",
+    "sources": [
+      "src-boe-ssc-proposals-1722",
+      "src-boe-ssc-agreement-1722"
+    ],
+    "verification": "reviewed"
   }
 ]

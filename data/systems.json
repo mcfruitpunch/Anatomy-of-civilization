@@ -52,5 +52,36 @@
       "src-loc-tea1773",
       "src-bl-parliament"
     ]
+  },
+  {
+    "id": "sys-chartered-war-finance",
+    "title": "Public borrowing backed by charters, taxes, and corporate capital",
+    "description": "Britain's late seventeenth- and early eighteenth-century rulers financed wartime and other public obligations through subscribed company capital, tax-backed interest, and charters. The Bank, rival East India firms, and South Sea Company had distinct purposes and sometimes competed. The documented arrangement is a repeatable institutional mechanism, not proof that any one family directed centuries of outcomes.",
+    "cases": [
+      "publicdebt1720",
+      "beic",
+      "finance1773"
+    ],
+    "status": "supported interpretation",
+    "sources": [
+      "src-boe-tax-security",
+      "src-bl-eic-1698",
+      "src-boe-ssc-archive",
+      "src-uk-parliament-eic-finance"
+    ]
+  },
+  {
+    "id": "sys-debt-equity-political-risk",
+    "title": "Debt-to-equity conversion, political privilege and investment risk",
+    "description": "South Sea Company debt conversion illustrates how public financing schemes can create market incentives, lobbying contests, investor gains and losses, and political-accountability questions. Financial and parliamentary archives must be consulted before attributing misconduct to named individuals.",
+    "cases": [
+      "publicdebt1720"
+    ],
+    "status": "supported interpretation",
+    "sources": [
+      "src-boe-ssc-archive",
+      "src-boe-ssc-competition",
+      "src-boe-ssc-bubble-act"
+    ]
   }
 ]

@@ -461,5 +461,153 @@
     "sources": [
       "src-colonial-tea-petition-1773"
     ]
+  },
+  {
+    "id": "evt-1661-eic-powers",
+    "date": "1661",
+    "title": "East India Company's royal charter expands governing and military powers",
+    "summary": "Charles II authorized the Company to govern its settlements, raise forces, coin money and act against unauthorized traders. British Library notes that Company lending to the Crown during 1660–1684 helped explain growth in privileges; do not treat this as a one-for-one purchase of specific powers.",
+    "case": "publicdebt1720",
+    "entities": [
+      "ent-eic",
+      "ent-crown"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bl-eic-1698"
+    ]
+  },
+  {
+    "id": "evt-1694-boe-founding",
+    "date": "1694-07-27",
+    "title": "Bank of England chartered to finance war with France",
+    "summary": "Subscribers raised £1.2 million to fund a government loan at 8% interest, secured by specified taxation. A joint-stock bank was chartered; it was not yet the modern nationalized central bank.",
+    "case": "publicdebt1720",
+    "entities": [
+      "ent-bank-england",
+      "ent-william-iii",
+      "ent-mary-ii",
+      "ent-john-houblon",
+      "ent-crown"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-boe-founder-1694",
+      "src-boe-loan-foi",
+      "src-boe-tax-security",
+      "src-boe-1694-archive"
+    ]
+  },
+  {
+    "id": "evt-1698-eic-rival-charter",
+    "date": "1698",
+    "title": "Public borrowing arrangement establishes rival East India trading organizations",
+    "summary": "A planned £2 million government borrowing program was coupled to East India trading privileges. The General Society and new English Company were chartered, while the old Company held a £315,000 stake in the new one; original subscriber and payment ledgers require follow-up.",
+    "case": "publicdebt1720",
+    "entities": [
+      "ent-english-company-1698",
+      "ent-general-society-1698",
+      "ent-eic",
+      "ent-crown",
+      "ent-lord-montagu"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bl-eic-1698"
+    ]
+  },
+  {
+    "id": "evt-1709-eic-united",
+    "date": "1709",
+    "title": "Old and new East India companies unite under one corporation",
+    "summary": "After a 1702 coalition and 1708 financial reconciliation, the old East India Company surrendered its charter in 1709 and the united corporation operated under the new company's 1698 legal charter.",
+    "case": "publicdebt1720",
+    "entities": [
+      "ent-eic",
+      "ent-english-company-1698",
+      "ent-general-society-1698"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bl-eic-1698",
+      "src-bl-eic-union-1708"
+    ]
+  },
+  {
+    "id": "evt-1711-south-sea-formed",
+    "date": "1711",
+    "title": "South Sea Company founded around public-debt and trading privileges",
+    "summary": "The South Sea Company was established in connection with restructuring British government debts and prospective Atlantic trade rights. The company later operated voyages involving enslaved Africans; traded people were not simply financial abstractions.",
+    "case": "publicdebt1720",
+    "entities": [
+      "ent-south-sea",
+      "ent-crown"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-boe-history-1694-1720",
+      "src-boe-ssc-archive",
+      "src-uk-na-asiento"
+    ]
+  },
+  {
+    "id": "evt-1720-south-sea-scheme",
+    "date": "1720",
+    "title": "South Sea debt-conversion scheme prevails against competing Bank proposal",
+    "summary": "The South Sea Company competed with the Bank of England to acquire government debt; a major debt-to-equity program was approved and Company stock prices rose sharply. Precise competing bid terms require the full archival documents.",
+    "case": "publicdebt1720",
+    "entities": [
+      "ent-south-sea",
+      "ent-bank-england",
+      "ent-parliament"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-boe-ssc-competition",
+      "src-boe-history-1694-1720",
+      "src-boe-ssc-archive"
+    ]
+  },
+  {
+    "id": "evt-1720-south-sea-collapse",
+    "date": "1720",
+    "title": "South Sea share bubble collapses and political corruption is investigated",
+    "summary": "After rapid appreciation, South Sea stock prices fell. A Bank archive historical note documents political bribery concerns, including Chancellor John Aislabie. Financial losses and longer-run national effects were uneven; narratives of universal ruin exaggerate the record.",
+    "case": "publicdebt1720",
+    "entities": [
+      "ent-south-sea",
+      "ent-parliament",
+      "ent-john-aislabie",
+      "ent-bank-england"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-boe-ssc-archive",
+      "src-boe-history-1694-1720"
+    ]
+  },
+  {
+    "id": "evt-1722-bank-south-sea-agreement",
+    "date": "1722-10-23",
+    "title": "Bank of England signs agreement to acquire South Sea Company stock",
+    "summary": "A Bank of England archive catalogue describes the 23 October 1722 agreement for a stock purchase. A separate circa-1722 proposal discusses £4.2 million; the catalogue alone does not establish disbursement dates or executed cash transfers.",
+    "case": "publicdebt1720",
+    "entities": [
+      "ent-bank-england",
+      "ent-south-sea"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-boe-ssc-agreement-1722",
+      "src-boe-ssc-proposals-1722"
+    ]
   }
 ]

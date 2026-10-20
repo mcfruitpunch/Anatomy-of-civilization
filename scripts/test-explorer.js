@@ -52,9 +52,12 @@ for (const d of dominoes) {
 }
 assert(html.includes('href="#finance"'), 'Finance navigation link missing');
 assert(js.includes('renderFinance()'), 'Finance cards are not rendered');
-assert(financial.length >= 4, 'No financial traces provided');
+assert(financial.length >= 8, 'No financial traces provided');
 assert(financial.some(f => f.value === null && f.flow_state === 'prospective_not_documented_paid'), 'Missing honest unknown-amount record');
 assert(financial.some(f => f.unit === 'percent_of_sales' && f.flow_state === 'prospective_not_documented_paid'), 'Missing explicit conditional commission');
+assert(financial.some(f => f.flow_state === 'documented_historical_loan' && f.value === 1200000), '1694 documented government loan missing');
+assert(financial.some(f => f.flow_state === 'shareholding_not_cash_transfer' && f.value === 315000), '1698 recorded equity holding incorrectly characterized');
+assert(financial.some(f => f.flow_state === 'agreement_not_disbursement' && f.value === 4200000), '1722 agreement should not be called a payment');
 const financesById = new Set(financial.map(f => f.id));
 assert(financesById.size === financial.length, 'Duplicate financial IDs');
 for (const f of financial) {

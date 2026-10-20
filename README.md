@@ -4,9 +4,9 @@ An open-source, evidence-driven historical atlas of people, families, institutio
 
 ## Explore the atlas
 
-The static website is at `index.html`. Its V0.5 explorer includes:
+The static website is at `index.html`. Its V0.6 explorer includes:
 
-- **Financial traces:** inspect financial records with explicit status labels (historical loan, existing-credit extension, or anticipated commission); link named beneficiaries and sources without converting a percentage offer into a payment.
+- **Financial traces:** inspect financial records with explicit status labels (documented government loan, shareholding, subscription target, proposed agreement, existing-credit extension, or anticipated commission); link named beneficiaries and sources without converting a percentage offer into a payment.
 - **Historical dominoes:** source-linked event-to-event connections with explicit policy response vs context vs interpretation labels. Cross-case links can be followed back to underlying documents.
 - **Timeline:** case, text and year filters; select an event to open sources and its **explicitly linked** historical actors.
 - **Power networks:** click or keyboard-focus nodes; inspect an entity and its sourced connections. Filter for kinship, institutional roles or other connections.
@@ -57,6 +57,7 @@ Research data lives in `data/`: `sources`, `events`, `entities`, `relationships`
 - [Family and intergenerational network rules](methodology/FAMILY_NETWORKS.md)
 - [Historical evidence audit](research/audit-2026-10-19.md)
 - [V0.5 — Tea Act money, merchant patronage and Hutchinson family links](research/tea-act-money-and-family-networks-1766-1773.md)
+- [V0.6 — Chartered finance, early Bank of England, rival East India firms and South Sea Bubble](research/chartered-capital-and-public-debt-1661-1722.md)
 - [Research expansion and representation plan](research/ROADMAP.md)
 
-Current case studies: the British East India Company; **imperial finance, East India Company tea relief, and North American resistance (1757–1775)**; **1773 Tea Act money, merchant appointments and family networks**; and the 1953 Iranian coup. The [imperial finance and revolution research brief](research/imperial-finance-and-revolution-1757-1775.md) records corroborated links and contested questions. This is an evolving research interface, **not** a completed or peer-reviewed history of either event. We invite corrections and perspectives from affected communities, and will not infer guilt from ancestry, ethnicity, religion or membership.
+Current case studies: **charters, public debt, and the South Sea Bubble (1661–1722)**; the British East India Company; **imperial finance, East India Company tea relief, and North American resistance (1757–1775)**; **1773 Tea Act money, merchant appointments and family networks**; and the 1953 Iranian coup. The [imperial finance and revolution research brief](research/imperial-finance-and-revolution-1757-1775.md) records corroborated links and contested questions. This is an evolving research interface, **not** a completed or peer-reviewed history of the events. We invite corrections and perspectives from affected communities, and will not infer guilt from ancestry, ethnicity, religion or membership.
