@@ -552,5 +552,147 @@
       "src-boe-directors-list"
     ],
     "verification": "reviewed"
+  },
+  {
+    "id": "ent-john-law",
+    "type": "person",
+    "name": "John Law",
+    "years": "1671–1729",
+    "description": "Scottish financier who founded Banque Générale in France in 1716 and organized the Compagnie d'Occident; he became Controller General of Finances in 1720. His policy combined monetary innovation, government debt conversion and colonial-commercial privileges.",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-hnoc-law-2026"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-philippe-orleans",
+    "type": "person",
+    "name": "Philippe II, Duke of Orléans",
+    "years": "1674–1723",
+    "description": "Regent of France from 1715 who supported John Law's bank and chartered companies in attempts to reorganize French public finances.",
+    "sources": [
+      "src-bnf-law-colonies"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-french-crown",
+    "type": "government",
+    "name": "French Crown under the Regency",
+    "years": "",
+    "description": "French monarchy and regency authorities whose borrowing and colonial policies were intertwined with John Law's banking and trading arrangements.",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-bnf-vidal-no"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-banque-generale",
+    "type": "corporation",
+    "name": "Banque Générale",
+    "years": "1716–1718",
+    "description": "Privately established bank associated with John Law and circulating paper notes, later converted to royal control; it must not be conflated with a modern central bank.",
+    "sources": [
+      "src-bnf-gallica-law",
+      "src-bnf-law-colonies"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-banque-royale",
+    "type": "government",
+    "name": "Banque Royale",
+    "years": "1718–1720",
+    "description": "Successor phase of John Law's bank operating under royal authority and paper-note promises, associated with the monetary breakdown of 1720.",
+    "sources": [
+      "src-bnf-law-catalog",
+      "src-nyfed-law"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-compagnie-occident",
+    "type": "corporation",
+    "name": "Compagnie d'Occident (Company of the West)",
+    "years": "1717–1719",
+    "description": "John Law's chartered French colonial trading corporation for Louisiana, later absorbed into the consolidated Compagnie des Indes.",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-bnf-vidal-no"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-compagnie-indes-france",
+    "type": "corporation",
+    "name": "Compagnie des Indes (French)",
+    "years": "1719 onward",
+    "description": "Consolidated French trading company under the Law system, with commercial, revenue and minting privileges that changed after the 1720 collapse. Distinct from the British East India Company.",
+    "sources": [
+      "src-bnf-law-colonies"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-louisiana-indigenous-communities",
+    "type": "population",
+    "name": "Indigenous nations and communities of French Louisiana",
+    "years": "",
+    "description": "Diverse Indigenous societies inhabiting the Mississippi watershed and neighboring lands before, during and after French colonization; this is a research category, not a single governing actor.",
+    "sources": [
+      "src-bnf-vidal-no",
+      "src-bnf-law-colonies"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-enslaved-africans-french-louisiana",
+    "type": "population",
+    "name": "Enslaved Africans in French Louisiana",
+    "years": "",
+    "description": "People trafficked and held in bondage as French colonial settlement and plantation schemes expanded; their experiences must not be reduced to projected company profits.",
+    "sources": [
+      "src-bnf-vidal-no",
+      "src-bnf-law-colonies",
+      "src-miss-state-law"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-bienville",
+    "type": "person",
+    "name": "Jean-Baptiste Le Moyne de Bienville",
+    "years": "1680–1767",
+    "description": "French colonial officer involved in the choice of New Orleans' site in 1718, with help from Indigenous advisers.",
+    "sources": [
+      "src-bnf-vidal-no"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-antoine-crozat",
+    "type": "person",
+    "name": "Antoine Crozat",
+    "years": "1655–1738",
+    "description": "French financier who previously held Louisiana colonial trading rights before the Compagnie d'Occident; no role is inferred in later Law-era investor networks.",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-hnoc-law-2026"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-john-blunt",
+    "type": "person",
+    "name": "John Blunt",
+    "years": "1665–1733",
+    "description": "South Sea Company director and financier whose proposals for British public-debt conversion are discussed by economic historians; specific personal connections with John Law are not established.",
+    "sources": [
+      "src-cambridge-quinn-turner-2020",
+      "src-loc-bubbles-2026"
+    ],
+    "verification": "reviewed"
   }
 ]

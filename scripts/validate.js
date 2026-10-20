@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const load = (n) => JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', n + '.json'), 'utf8'));
 const sources = load('sources'), events = load('events'), entities = load('entities');
-const rels = load('relationships'), cases = load('cases'), systems = load('systems'), dominoes = load('dominoes'), financial = load('financial_flows'), ownership = load('ownership_overlap');
+const rels = load('relationships'), cases = load('cases'), systems = load('systems'), dominoes = load('dominoes'), financial = load('financial_flows'), ownership = load('ownership_overlap'), comparisons = load('comparisons');
 const STATUS = ['documented', 'interpretation', 'supported interpretation', 'unresolved', 'speculation'];
 const errors = [];
 const ids = (arr, name) => {
@@ -13,7 +13,7 @@ const ids = (arr, name) => {
   return s;
 };
 const S = ids(sources, 'sources'), E = ids(events, 'events'), N = ids(entities, 'entities');
-const C = ids(cases, 'cases'); ids(rels, 'relationships'); ids(systems, 'systems'); ids(dominoes, 'dominoes'); ids(financial, 'financial'); ids(ownership, 'ownership_overlap');
+const C = ids(cases, 'cases'); ids(rels, 'relationships'); ids(systems, 'systems'); ids(dominoes, 'dominoes'); ids(financial, 'financial'); ids(ownership, 'ownership_overlap'); ids(comparisons, 'comparisons');
 const bySource = Object.fromEntries(sources.map(s => [s.id, s]));
 const need = (list, set, ctx) => (list || []).forEach(i => { if (!set.has(i)) errors.push(ctx + ': unknown reference ' + i); });
 const validStatus = (obj, ctx) => { if (!STATUS.includes(obj.status)) errors.push(ctx + ': bad/missing status ' + obj.status); };
@@ -79,8 +79,8 @@ dominoes.forEach(d => {
   if (d.status === 'documented' && d.verification !== 'reviewed')
     errors.push(d.id + ': documented link requires review');
 });
-const acceptableUnits = new Set(['GBP', 'percent_of_sales', 'not_recorded']);
-const acceptableStates = new Set(['existing_credit_extension', 'historical_account_not_transaction_ledger', 'prospective_not_documented_paid', 'documented_historical_loan', 'scheme_subscription_not_disbursement', 'shareholding_not_cash_transfer', 'agreement_not_disbursement', 'authorized_no_transfer']);
+const acceptableUnits = new Set(['GBP', 'percent_of_sales', 'not_recorded', 'livres_tournois']);
+const acceptableStates = new Set(['existing_credit_extension', 'historical_account_not_transaction_ledger', 'prospective_not_documented_paid', 'documented_historical_loan', 'scheme_subscription_not_disbursement', 'shareholding_not_cash_transfer', 'agreement_not_disbursement', 'authorized_no_transfer', 'policy_target_not_cash_flow']);
 financial.forEach(f => {
   validDate(f.date, f.id);
   if (!f.title || !f.kind || !f.description || !f.flow_state) errors.push(f.id + ': missing financial metadata');
@@ -114,5 +114,18 @@ financial.filter(f=>f.flow_state === 'authorized_no_transfer').forEach(f=>{
   if (f.value !== null || f.unit !== 'not_recorded') errors.push(f.id + ': unauthorized invented non-transfer amount');
   if (!/not (executed|implemented)|never (executed|carried out)|neither .* (assumed|engrafted)/i.test(f.description)) errors.push(f.id + ': unexecuted transfer must be explicit');
 });
+const fieldList = ['dimension','france','britain','interpretation','france_case','britain_case','epistemic_status'];
+comparisons.forEach(c => {
+  for (const field of fieldList) if (!c[field]) errors.push(c.id + ': missing ' + field);
+  need([c.france_case,c.britain_case], C, c.id);
+  if (c.france_case === c.britain_case) errors.push(c.id + ': comparison needs two distinct cases');
+  if (!STATUS.includes(c.epistemic_status)) errors.push(c.id + ': invalid epistemic status');
+  cite(c,c.id,true);
+});
+financial.filter(f=>f.flow_state==='policy_target_not_cash_flow').forEach(f=>{
+  if (f.unit!=='livres_tournois') errors.push(f.id+': state finance target must preserve original livre unit');
+  if (!/not evidence|NOT evidence|not a payment|not proof/i.test(f.description))
+    errors.push(f.id+': fiscal target needs explicit nonpayment warning');
+});
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
-console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records, ' + ownership.length + ' ownership aggregates');
+console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records, ' + ownership.length + ' ownership aggregates, ' + comparisons.length + ' country comparisons');

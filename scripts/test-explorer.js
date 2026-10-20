@@ -13,9 +13,10 @@ const entities = readJson('entities'), relationships = readJson('relationships')
 const dominoes = readJson('dominoes');
 const financial = readJson('financial_flows');
 const ownership = readJson('ownership_overlap');
+const comparisons = readJson('comparisons');
 const ids = ['search', 'case-filter', 'year-from', 'year-to', 'timeline-list',
   'event-detail', 'rel-filter', 'entity-filter', 'verified-only', 'clear-focus',
-  'graph', 'entity-detail', 'network-list', 'case-list', 'system-list', 'source-list', 'domino-list', 'domino-count', 'finance-list', 'finance-count', 'ownership-list', 'ownership-count'];
+  'graph', 'entity-detail', 'network-list', 'case-list', 'system-list', 'source-list', 'domino-list', 'domino-count', 'finance-list', 'finance-count', 'ownership-list', 'ownership-count', 'comparison-list', 'comparison-count'];
 for (const id of ids) {
   assert(new RegExp('id="' + id + '"').test(html), 'Missing UI control or target: ' + id);
   assert(js.includes("'"+id+"'"), 'Explorer does not reference control: ' + id);
@@ -73,4 +74,9 @@ assert(ownership.some(o=>o.year === 1719 && o.matched_accounts_approx === 700), 
 assert(ownership.some(o=>o.year === 1721 && o.matched_accounts_approx === 760), '1721 ledger comparison missing');
 assert(financial.some(f=>f.flow_state === 'authorized_no_transfer' && f.value === null), 'Missing explicit unexecuted 1721 transfer');
 assert(js.includes('renderOwnership()'), 'Ownership overlap interface missing');
-console.log('OK: explorer, historical ownership aggregates, and safeguards against false financial transfers');
+assert(html.includes('href="#comparison"') && js.includes('renderComparisons()'), 'Country comparison interface missing');
+assert(comparisons.length >= 4, 'Country comparison records missing');
+assert(comparisons.every(c => c.sources?.length && c.france_case !== c.britain_case), 'Invalid comparative research evidence');
+assert(financial.some(f => f.flow_state === 'policy_target_not_cash_flow' && f.unit === 'livres_tournois'), 'France monetary target not distinguished');
+assert(!comparisons.some(c=>/joint secret organization|centralized family conspiracy/i.test(c.interpretation)), 'Cross-border hypothesis overstatement');
+console.log('OK: explorer, country comparisons, source citations and non-cash financial data');

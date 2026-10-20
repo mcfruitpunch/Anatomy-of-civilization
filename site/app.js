@@ -1,7 +1,7 @@
 (async function () {
   'use strict';
   const $ = id => document.getElementById(id);
-  const collectionNames = ['sources', 'events', 'entities', 'relationships', 'cases', 'systems', 'dominoes', 'financial_flows', 'ownership_overlap'];
+  const collectionNames = ['sources', 'events', 'entities', 'relationships', 'cases', 'systems', 'dominoes', 'financial_flows', 'ownership_overlap', 'comparisons'];
   const D = {};
   const make = (tag, props = {}, ...contents) => {
     const node = document.createElement(tag);
@@ -80,7 +80,7 @@
   D.cases.forEach(c => caseSelect.append(make('option', { value: c.id, textContent: c.title })));
   sortedEntities.forEach(e => entitySelect.append(make('option', { value: e.id, textContent: e.name })));
   $('stats').replaceChildren(
-    ...[['Events', D.events.length], ['Entities', D.entities.length], ['Connections', D.relationships.length], ['Sources', D.sources.length], ['Investigations', D.cases.length], ['Dominoes', D.dominoes.length], ['Financial records', D.financial_flows.length], ['Ownership studies', D.ownership_overlap.length]]
+    ...[['Events', D.events.length], ['Entities', D.entities.length], ['Connections', D.relationships.length], ['Sources', D.sources.length], ['Investigations', D.cases.length], ['Dominoes', D.dominoes.length], ['Financial records', D.financial_flows.length], ['Ownership studies', D.ownership_overlap.length], ['Cross-border comparisons', D.comparisons.length]]
       .map(([name, count]) => make('span', {}, make('strong', {}, String(count)), name))
   );
   $('load-status').textContent = 'Research dataset loaded · Source review is ongoing';
@@ -342,7 +342,7 @@
       matches(f.title, f.description, entitiesById[f.from]?.name,
         ...(f.to || []).map(id => entitiesById[id]?.name), f.flow_state, f.kind));
     $('finance-count').textContent = list.length + ' records';
-    const valueLabel = record => record.flow_state === 'authorized_no_transfer' ? 'Transfer NOT executed' : record.value === null ? 'Amount not stated' :
+    const valueLabel = record => record.flow_state === 'authorized_no_transfer' ? 'Transfer NOT executed' : record.flow_state === 'policy_target_not_cash_flow' ? (record.value.toLocaleString('en-GB') + ' French livres · proposed refinancing target, not paid') : record.value === null ? 'Amount not stated' :
       record.unit === 'GBP' ? ('£' + record.value.toLocaleString('en-GB') + ' historical') :
       record.unit === 'percent_of_sales' ? (record.value + '% of sales, conditional') :
       (record.value + ' ' + record.unit);
@@ -378,6 +378,37 @@
       )) : [empty('Ownership account comparisons are available in the 1719–1721 research case.')]));
   }
 
+  function renderComparisons() {
+    const accepted = D.comparisons.filter(c =>
+      (!state.caseId || c.france_case === state.caseId || c.britain_case === state.caseId) &&
+      matches(c.dimension,c.france,c.britain,c.interpretation));
+    $('comparison-count').textContent = accepted.length + ' comparisons';
+    const makeSide = (country, text, id) => {
+      const focus = make('button', { type: 'button', className:'inline-button' }, 'Explore '+country+' case ↗');
+      focus.addEventListener('click', () => {
+        state.caseId = id;
+        caseSelect.value = id;
+        state.query = '';
+        $('search').value = '';
+        render();
+        $('cases').scrollIntoView({behavior:'smooth',block:'start'});
+      });
+      return make('div', {className:'comparison-side'},
+        make('p',{className:'eyebrow'},country),
+        make('p',{},text),
+        focus);
+    };
+    $('comparison-list').replaceChildren(...(accepted.length ? accepted.map(c =>
+      make('article',{className:'card comparison-card'},
+        make('h3',{},c.dimension),
+        make('div',{className:'comparison-grid'},
+          makeSide('France',c.france,c.france_case),
+          makeSide('Britain',c.britain,c.britain_case)),
+        make('p',{},pill(c.epistemic_status,'pending'),c.interpretation),
+        citations(c.sources)
+      )) : [empty('The current comparison records concern the French and British 1720 financial systems.')]));
+  }
+
   function renderSources() {
     const list = D.sources.filter(s => matches(s.title, s.author, s.locator));
     $('source-list').replaceChildren(...(list.length ? list.map(s => make('li', { id: 'src-' + s.id },
@@ -389,7 +420,7 @@
       s.locator ? make('p', { className: 'source-locator' }, 'Locator: ' + s.locator) : empty('Exact passage not yet reviewed.')
     )) : [make('li', {}, empty('No sources match the search.'))]));
   }
-  function render() { renderTimeline(); renderDominoes(); renderFinance(); renderOwnership(); renderNetwork(); renderCases(); renderSystems(); renderSources(); }
+  function render() { renderTimeline(); renderDominoes(); renderFinance(); renderOwnership(); renderComparisons(); renderNetwork(); renderCases(); renderSystems(); renderSources(); }
   function updateFilters() {
     state.query = clean($('search').value.trim());
     state.caseId = caseSelect.value;

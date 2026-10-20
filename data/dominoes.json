@@ -446,5 +446,140 @@
       "src-swingen-2024",
       "src-boe-ssc-agreement-1722"
     ]
+  },
+  {
+    "id": "dom-034",
+    "from": "evt-1715-france-regency",
+    "to": "evt-1716-banque-generale",
+    "mechanism": "Postwar government debt motivates monetary experimentation",
+    "claim": "The Regency's inherited debt and trade difficulties created conditions for Law's bank project. This is a supported context, not evidence that the bank was the only possible solution.",
+    "kind": "fiscal_context",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-law-colonies"
+    ]
+  },
+  {
+    "id": "dom-035",
+    "from": "evt-1716-banque-generale",
+    "to": "evt-1717-compagnie-occident",
+    "mechanism": "Bank credit and colonial-company design",
+    "claim": "Law founded a bank in 1716 then organized a Louisiana trading company in 1717; historical scholarship treats these as growing parts of a debt-finance experiment.",
+    "kind": "institutional_expansion",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-gallica-law",
+      "src-bnf-law-colonies"
+    ]
+  },
+  {
+    "id": "dom-036",
+    "from": "evt-1717-compagnie-occident",
+    "to": "evt-1718-new-orleans-founding",
+    "mechanism": "Chartered colonial development plans",
+    "claim": "Compagnie d'Occident's Louisiana trade monopoly preceded New Orleans' founding in 1718. Indigenous communities and enslaved people were not simply beneficiaries of the charter.",
+    "kind": "colonial_expansion",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-vidal-no",
+      "src-bnf-law-colonies"
+    ]
+  },
+  {
+    "id": "dom-037",
+    "from": "evt-1717-compagnie-occident",
+    "to": "evt-1719-france-compagnie-indes",
+    "mechanism": "French colonial company consolidation",
+    "claim": "Company of the West combined with other French overseas enterprises and became Compagnie des Indes by 1719.",
+    "kind": "corporate_consolidation",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-law-colonies"
+    ]
+  },
+  {
+    "id": "dom-038",
+    "from": "evt-1719-france-compagnie-indes",
+    "to": "evt-1719-french-debt-exchange",
+    "mechanism": "Chartered monopoly and debt subscriptions",
+    "claim": "The French consolidated Company pursued expanded shares in exchange for public-debt claims, linking trading privileges to sovereign debt restructuring.",
+    "kind": "financial_mechanism",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-nyfed-law"
+    ]
+  },
+  {
+    "id": "dom-039",
+    "from": "evt-1719-french-debt-exchange",
+    "to": "evt-1720-south-sea-scheme",
+    "mechanism": "South Sea proposal follows Law's debt-conversion precedent",
+    "claim": "Quinn and Turner argue the British South Sea Company directors followed Law's similar state-debt refinancing approach; no named messenger or joint secret agreement is identified in this source.",
+    "kind": "scholarly_comparative_influence",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-cambridge-quinn-turner-2020"
+    ]
+  },
+  {
+    "id": "dom-040",
+    "from": "evt-1719-french-debt-exchange",
+    "to": "evt-1720-french-bubble-collapse",
+    "mechanism": "Speculative financing pressures and monetary interventions",
+    "claim": "Debt-to-company-stock subscriptions and widening banknote issuance preceded the 1720 French share and money crisis; historians disagree about the main mechanisms and the reform's counterfactual success.",
+    "kind": "contested_financial_causation",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-nyfed-law",
+      "src-cambridge-velde-2010"
+    ]
+  },
+  {
+    "id": "dom-041",
+    "from": "evt-1720-french-bubble-collapse",
+    "to": "evt-1720-law-leaves-france",
+    "mechanism": "Financial collapse and loss of political backing",
+    "claim": "After the scheme unraveled and political opposition intensified, John Law left France in December 1720.",
+    "kind": "documented_consequence",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-law-colonies"
+    ]
+  },
+  {
+    "id": "dom-042",
+    "from": "evt-1720-french-bubble-collapse",
+    "to": "evt-1720-south-sea-collapse",
+    "mechanism": "Contemporaneous international financial instability",
+    "claim": "The French and British schemes rose and collapsed in approximately the same period amid transnational capital and information exchange. This comparison does not establish that one crash mechanically caused the other.",
+    "kind": "comparative_context",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-cambridge-jackson-2022",
+      "src-loc-bubbles-2026"
+    ]
+  },
+  {
+    "id": "dom-043",
+    "from": "evt-1720-french-bubble-collapse",
+    "to": "evt-1720-south-sea-collapse",
+    "mechanism": "Contemporary print commentary linked both speculative manias",
+    "claim": "Wellcome's catalogue describes an early 1720s engraving whose Dutch verses refer to Mississippi and South Sea speculative winds. This attests to contemporary cultural comparisons, not a proven executed financial transfer between the companies.",
+    "kind": "contemporary_public_perception",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-wellcome-humblot-1720"
+    ]
   }
 ]

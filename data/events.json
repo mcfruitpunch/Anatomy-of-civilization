@@ -697,5 +697,171 @@
     "sources": [
       "src-swingen-2024"
     ]
+  },
+  {
+    "id": "evt-1715-france-regency",
+    "date": "1715",
+    "title": "French Regency inherits large postwar financial liabilities",
+    "summary": "After Louis XIV's death, the regent Philippe d'Orléans faced war-related debt and pressure to revive French commerce and colonial investment; this context helped attract John Law's monetary proposals.",
+    "case": "francemississippi1720",
+    "entities": [
+      "ent-french-crown",
+      "ent-philippe-orleans"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-hnoc-law-2026"
+    ]
+  },
+  {
+    "id": "evt-1716-banque-generale",
+    "date": "1716",
+    "title": "John Law establishes Banque Générale",
+    "summary": "Law founded a French bank issuing paper notes in 1716, with backing and permissions under the regency; the later Banque Royale phase was a distinct legal change.",
+    "case": "francemississippi1720",
+    "entities": [
+      "ent-john-law",
+      "ent-banque-generale",
+      "ent-philippe-orleans"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-bnf-gallica-law"
+    ]
+  },
+  {
+    "id": "evt-1717-compagnie-occident",
+    "date": "1717",
+    "title": "Compagnie d'Occident assumes Louisiana monopoly privileges",
+    "summary": "Law organized a colonial trading company and received French Louisiana trade privileges, linking projected colonial revenues with government-debt conversion ideas. Colonial territory was not uninhabited.",
+    "case": "francemississippi1720",
+    "entities": [
+      "ent-john-law",
+      "ent-compagnie-occident",
+      "ent-french-crown",
+      "ent-louisiana-indigenous-communities"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-miss-state-law"
+    ]
+  },
+  {
+    "id": "evt-1718-new-orleans-founding",
+    "date": "1718",
+    "title": "New Orleans is founded in French Louisiana",
+    "summary": "Bienville selected the settlement site with assistance from Indigenous advisers. The city developed through coerced and indentured labor, including enslaved African builders.",
+    "case": "francemississippi1720",
+    "entities": [
+      "ent-bienville",
+      "ent-compagnie-occident",
+      "ent-louisiana-indigenous-communities",
+      "ent-enslaved-africans-french-louisiana"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-vidal-no"
+    ]
+  },
+  {
+    "id": "evt-1719-france-compagnie-indes",
+    "date": "1719-05",
+    "title": "French trading companies consolidate as Compagnie des Indes",
+    "summary": "The colonial enterprise absorbed further trading companies and was consolidated under the name Compagnie des Indes, with subsequent state-associated minting and revenue privileges.",
+    "case": "francemississippi1720",
+    "entities": [
+      "ent-compagnie-occident",
+      "ent-compagnie-indes-france",
+      "ent-john-law",
+      "ent-french-crown"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-miss-state-law"
+    ]
+  },
+  {
+    "id": "evt-1719-french-debt-exchange",
+    "date": "1719",
+    "title": "French state debt exchanged or targeted for Company stock",
+    "summary": "Law promoted debt conversion through subscriptions to new Company shares. A New York Fed historical commentary describes a plan addressing 1.5 billion livres of public debt, but this target is not evidence that this entire amount was retired.",
+    "case": "francemississippi1720",
+    "entities": [
+      "ent-compagnie-indes-france",
+      "ent-john-law",
+      "ent-french-crown",
+      "ent-banque-royale"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-nyfed-law",
+      "src-bnf-law-colonies"
+    ]
+  },
+  {
+    "id": "evt-1720-john-law-controller",
+    "date": "1720-01",
+    "title": "John Law becomes Controller General of French Finances",
+    "summary": "The financier formally assumed senior fiscal office while associated banks and trading companies occupied central roles in public finance and colonial policy.",
+    "case": "francemississippi1720",
+    "entities": [
+      "ent-john-law",
+      "ent-french-crown",
+      "ent-banque-royale",
+      "ent-compagnie-indes-france"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-nyfed-law"
+    ]
+  },
+  {
+    "id": "evt-1720-french-bubble-collapse",
+    "date": "1720",
+    "title": "Mississippi Company and paper-note system collapse",
+    "summary": "Stock price supports, monetary restrictions and speculative pressures failed; shares fell sharply, paper money lost credibility and Law's system unraveled. The relative responsibilities and long-term macroeconomic effects are historically debated.",
+    "case": "francemississippi1720",
+    "entities": [
+      "ent-compagnie-indes-france",
+      "ent-john-law",
+      "ent-banque-royale",
+      "ent-french-crown"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-nyfed-law",
+      "src-cambridge-velde-2010"
+    ]
+  },
+  {
+    "id": "evt-1720-law-leaves-france",
+    "date": "1720-12",
+    "title": "John Law departs France after collapse",
+    "summary": "John Law left France in December 1720 following financial collapse and political opposition. The French Company and Louisiana colony continued thereafter in altered form.",
+    "case": "francemississippi1720",
+    "entities": [
+      "ent-john-law",
+      "ent-french-crown",
+      "ent-compagnie-indes-france"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-law-colonies"
+    ]
   }
 ]

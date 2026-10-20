@@ -4,10 +4,11 @@ An open-source, evidence-driven historical atlas of people, families, institutio
 
 ## Explore the atlas
 
-The static website is at `index.html`. Its V0.7 explorer includes:
+The static website is at `index.html`. Its V0.8 explorer includes:
 
+- **Across borders:** French and British public-debt/banknote experiments compared side by side with citations and a strict distinction between intellectual influence and proven coordination.
 - **Shared ownership:** separately displays published aggregate numbers of historical stock accounts in both the Bank and East India Company; accounts are not silently converted into named individuals or families.
-- **Financial traces:** inspect financial records with explicit status labels (documented government loan, shareholding, subscription target, proposed agreement, existing-credit extension, or anticipated commission); link named beneficiaries and sources without converting a percentage offer into a payment.
+- **Financial traces:** inspect financial records with explicit status labels (documented government loan, shareholding, subscription target, proposed agreement, existing-credit extension, French-livre policy target, or anticipated commission); link named beneficiaries and sources without converting a percentage offer into a payment.
 - **Historical dominoes:** source-linked event-to-event connections with explicit policy response vs context vs interpretation labels. Cross-case links can be followed back to underlying documents.
 - **Timeline:** case, text and year filters; select an event to open sources and its **explicitly linked** historical actors.
 - **Power networks:** click or keyboard-focus nodes; inspect an entity and its sourced connections. Filter for kinship, institutional roles or other connections.
@@ -44,7 +45,7 @@ The workflow validates records and browser JS, uploads only `index.html`, `site/
 
 ## Data model
 
-Research data lives in `data/`: `sources`, `events`, `entities`, `relationships`, `cases`, `systems`, `dominoes`, `financial_flows`, `ownership_overlap`. Stable IDs are required.
+Research data lives in `data/`: `sources`, `events`, `entities`, `relationships`, `cases`, `systems`, `dominoes`, `financial_flows`, `ownership_overlap`, `comparisons`. Stable IDs are required.
 
 - Documented records must cite a reviewed source with a URL and locator.
 - Epistemic status and source-review status are kept separate.
@@ -60,6 +61,7 @@ Research data lives in `data/`: `sources`, `events`, `entities`, `relationships`
 - [V0.5 — Tea Act money, merchant patronage and Hutchinson family links](research/tea-act-money-and-family-networks-1766-1773.md)
 - [V0.6 — Chartered finance, early Bank of England, rival East India firms and South Sea Bubble](research/chartered-capital-and-public-debt-1661-1722.md)
 - [V0.7 — Shared ownership, the calico controversy, and unexecuted 1721 engraftment](research/shareholder-overlap-calico-engraftment-1719-1722.md)
+- [V0.8 — John Law, Mississippi Bubble, French Louisiana and South Sea comparison](research/france-mississippi-bubble-cross-channel-1715-1720.md)
 - [Research expansion and representation plan](research/ROADMAP.md)
 
-Current case studies: **charters, public debt, and the South Sea Bubble (1661–1722)**; **shareholder account overlap and the unimplemented 1721 Engraftment Act**; the British East India Company; **imperial finance, East India Company tea relief, and North American resistance (1757–1775)**; **1773 Tea Act money, merchant appointments and family networks**; and the 1953 Iranian coup. The [imperial finance and revolution research brief](research/imperial-finance-and-revolution-1757-1775.md) records corroborated links and contested questions. This is an evolving research interface, **not** a completed or peer-reviewed history of the events. We invite corrections and perspectives from affected communities, and will not infer guilt from ancestry, ethnicity, religion or membership.
+Current case studies: **John Law and the French Mississippi Bubble (1715–1720)**; **charters, public debt, and the South Sea Bubble (1661–1722)**; **shareholder account overlap and the unimplemented 1721 Engraftment Act**; the British East India Company; **imperial finance, East India Company tea relief, and North American resistance (1757–1775)**; **1773 Tea Act money, merchant appointments and family networks**; and the 1953 Iranian coup. The [imperial finance and revolution research brief](research/imperial-finance-and-revolution-1757-1775.md) records corroborated links and contested questions. This is an evolving research interface, **not** a completed or peer-reviewed history of the events. We invite corrections and perspectives from affected communities, and will not infer guilt from ancestry, ethnicity, religion or membership.

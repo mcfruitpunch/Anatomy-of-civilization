@@ -658,5 +658,137 @@
     "url": "https://www.bankofengland.co.uk/CalmView/Record.aspx?id=AC27%2F382&src=CalmView.Catalog",
     "locator": "AC27/382: subscriber identities and nominal subscriptions for 1694/1697; archival catalogue notes multiple entries per investor, and 1697 capital subscribed in tallies and bills, not cash.",
     "reviewed": true
+  },
+  {
+    "id": "src-bnf-law-colonies",
+    "type": "institutional_scholarly_history",
+    "title": "John Law and the Compagnie d'Occident",
+    "author": "Arnaud Orain",
+    "year": 2021,
+    "publisher": "Bibliothèque nationale de France — Shared Heritage France-Americas",
+    "url": "https://heritage.bnf.fr/france-ameriques/en/john-law-and-compagnie-doccident",
+    "locator": "Paragraphs 1–7, Louisiana promotional maps and debt-share exchange; Economic Leviathan section on 1718 tobacco monopoly and May/August 1719 consolidation and public debt; Final collapse and enslaved plantation labor.",
+    "reviewed": true
+  },
+  {
+    "id": "src-bnf-vidal-no",
+    "type": "institutional_scholarly_history",
+    "title": "New Orleans from 1718 to 1769",
+    "author": "Cécile Vidal",
+    "year": 2021,
+    "publisher": "Bibliothèque nationale de France — Shared Heritage France-Americas",
+    "url": "https://heritage.bnf.fr/france-ameriques/en/new-orleans-1718-1769",
+    "locator": "Introduction and paragraphs on 1718 city founding, Compagnie d'Occident/1719 des Indes, Indigenous advisers, indentured labor and enslaved African builders; includes 1721 city census catalogue.",
+    "reviewed": true
+  },
+  {
+    "id": "src-bnf-gallica-law",
+    "type": "institutional_bibliography",
+    "title": "John Law in eighteenth-century economic thought",
+    "author": "Bibliothèque nationale de France",
+    "year": null,
+    "publisher": "Gallica curated selection",
+    "url": "https://gallica.bnf.fr/selections/fr/html/droit-economie/grands-auteurs-de-la-pensee-economique-au-xviiie-siecle",
+    "locator": "Entry 'Law, John (1671–1729)': 1716 Banque générale; 1717 Compagnie d'Occident; company shares at 500 livres initially payable by government notes.",
+    "reviewed": true
+  },
+  {
+    "id": "src-bnf-law-catalog",
+    "type": "archival_catalog",
+    "title": "Catalogue record: Système de Law",
+    "author": "Bibliothèque nationale de France",
+    "year": null,
+    "publisher": "BnF Catalogue général / RAMEAU",
+    "url": "https://catalogue.bnf.fr/ark:/12148/cb180021330",
+    "locator": "Subject authority record summary: progressive creation 1716; Banque royale paper-note experiment by 1718; Mississippi Company 1717, speculative crash 1720.",
+    "reviewed": true
+  },
+  {
+    "id": "src-nyfed-law",
+    "type": "federal_reserve_research_commentary",
+    "title": "Crisis Chronicles: The Mississippi Bubble of 1720 and the European Debt Crisis",
+    "author": "James Narron and David Skeie",
+    "year": 2014,
+    "publisher": "Federal Reserve Bank of New York, Liberty Street Economics",
+    "url": "https://libertystreeteconomics.newyorkfed.org/2014/01/crisis-chronicles-the-mississippi-bubble-of-1720-and-the-european-debt-crisis/",
+    "locator": "Sections Who Wants to Be a Millionaire? / The Trickle Becomes a Flood: 1719 proposed 300,000 shares and 1.5-billion-livre public debt, installment financing, 1720 banknote intervention and collapse; author's interpretations not Fed policy.",
+    "reviewed": true
+  },
+  {
+    "id": "src-cambridge-quinn-turner-2020",
+    "type": "peer_reviewed_scholarly_summary",
+    "title": "1720 and the Invention of the Bubble (in Boom and Bust)",
+    "author": "William Quinn and John D. Turner",
+    "year": 2020,
+    "publisher": "Cambridge University Press",
+    "url": "https://www.cambridge.org/core/books/abs/boom-and-bust/1720-and-the-invention-of-the-bubble/3F45C87947B216514BE4F3AC9A1266D6",
+    "locator": "Public chapter summary: South Sea directors' similar proposal follows Law; both public-debt conversions and speculative collapses; not proof of direct cross-border instructions.",
+    "reviewed": true
+  },
+  {
+    "id": "src-cambridge-velde-2010",
+    "type": "peer_reviewed_scholarly_summary",
+    "title": "Was John Law's System a bubble? The Mississippi Bubble revisited",
+    "author": "François R. Velde",
+    "year": 2010,
+    "publisher": "Cambridge University Press",
+    "url": "https://www.cambridge.org/core/books/abs/origins-and-development-of-financial-markets-and-institutions/was-john-laws-system-a-bubble-the-mississippi-bubble-revisited/ABF3777E7BECD716068A1BD5D7069282",
+    "locator": "Public chapter summary: Law's monetary, bank and debt experiments viewed as a wide reform program beyond share mania; plan and management debated.",
+    "reviewed": true
+  },
+  {
+    "id": "src-cambridge-jackson-2022",
+    "type": "peer_reviewed_scholarly_summary",
+    "title": "The Crisis of 1720 and the Invention of Discredit (in Impunity and Capitalism)",
+    "author": "Trevor Jackson",
+    "year": 2022,
+    "publisher": "Cambridge University Press",
+    "url": "https://www.cambridge.org/core/books/abs/impunity-and-capitalism/crisis-of-1720-and-the-invention-of-discredit/82AE19A790C8CEB8743DB19BD59FBF0F",
+    "locator": "Public chapter abstract: early international crisis involving flows of people, information and capital and speculation of James Brydges; detailed transactions not independently read.",
+    "reviewed": true
+  },
+  {
+    "id": "src-hnoc-law-2026",
+    "type": "museum_research",
+    "title": "The Rise and Fall of John Law",
+    "author": "Erin M. Greenwald",
+    "year": 2026,
+    "publisher": "The Historic New Orleans Collection",
+    "url": "https://hnoc.org/publishing/first-draft/the-rise-and-fall-of-john-law",
+    "locator": "Narrative of Law's 1705 monetary treatise, Paris arrival, banker/merchant Antoine Crozat's 1717 Louisiana concessions; museum collection leads to hundreds of surviving Law edicts and correspondence.",
+    "reviewed": true
+  },
+  {
+    "id": "src-miss-state-law",
+    "type": "state_historical_education",
+    "title": "John Law and the Mississippi Bubble, 1718–1720",
+    "author": "Jon Moen",
+    "year": 2001,
+    "publisher": "Mississippi Department of Archives and History, Mississippi History Now",
+    "url": "https://www.mshistorynow.mdah.ms.gov/issue/john-law-and-the-mississippi-bubble-1718-1720",
+    "locator": "Sections 1717 charter obligations to transport 6,000 settlers and 3,000 enslaved people; 1719 merger and 1720 share-and-note price crisis; contrasts interpretations.",
+    "reviewed": true
+  },
+  {
+    "id": "src-loc-bubbles-2026",
+    "type": "institutional_research_guide",
+    "title": "Mississippi Company & the South Sea Bubble",
+    "author": "Library of Congress",
+    "year": 2026,
+    "publisher": "Business Booms, Busts, & Bubbles research guide",
+    "url": "https://guides.loc.gov/business-booms-busts/mississippi-company",
+    "locator": "Opening company comparisons, Library of Congress bibliographic leads; links to HNOC John Law primary-document collection and other research portals.",
+    "reviewed": true
+  },
+  {
+    "id": "src-wellcome-humblot-1720",
+    "type": "primary_image_catalog",
+    "title": "Rue Quinquempoix en l'année 1720: satirical trading scene and verses",
+    "author": "After Antoine Humblot (catalogue description by Wellcome Collection)",
+    "year": 1720,
+    "publisher": "Wellcome Collection, catalogue object 3783i",
+    "url": "https://wellcomecollection.org/works/yuszyw25",
+    "locator": "Catalogue 'Lettering' and 'Description': Dutch verses refer to both the Mississippi and South Sea speculative winds. Print attributed to circa 1720; catalogue indicates uncertainty about whether depicted street is Paris or Amsterdam.",
+    "reviewed": true
   }
 ]

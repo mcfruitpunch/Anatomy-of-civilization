@@ -499,5 +499,101 @@
       "ent-board-trade",
       "ent-john-aislabie"
     ]
+  },
+  {
+    "id": "francemississippi1720",
+    "title": "John Law's French Mississippi System and the International Bubble of 1720",
+    "period": "1715–1720",
+    "summary": "France attempted to restructure sovereign debt through bank-issued paper money, subscriptions to colonial trading shares and chartered monopolies. The scheme became linked to France's imperial ambitions in Louisiana and coincided with Britain's South Sea Bubble; historians identify financial imitation and cross-border influences but not one globally coordinated management team.",
+    "summary_sources": [
+      "src-bnf-law-colonies",
+      "src-nyfed-law",
+      "src-cambridge-quinn-turner-2020",
+      "src-cambridge-jackson-2022"
+    ],
+    "decision_making": "The regent Philippe d'Orléans supported the Scottish financier John Law, whose Banque Générale issued paper notes from 1716. His Compagnie d'Occident took over Louisiana trading rights in 1717 and was consolidated into the Compagnie des Indes by May 1719. Debt claims were exchanged into company shares as trading and public-finance powers converged. British directors proposed a related South Sea public-debt conversion model but specific personnel links require independent transaction or correspondence records.",
+    "decision_sources": [
+      "src-bnf-law-colonies",
+      "src-bnf-gallica-law",
+      "src-cambridge-quinn-turner-2020",
+      "src-cambridge-velde-2010"
+    ],
+    "consequences": "Shares rose dramatically and crashed in 1720 while paper-money and coin redemption policy broke down; Law left France in December 1720. Colonial operations nevertheless altered Louisiana settlement, incorporated Indigenous lands into French commercial plans, and involved coerced labor and slavery. The long-term trajectory of French banking and the precise distribution of financial losses remain debated.",
+    "consequences_sources": [
+      "src-bnf-law-colonies",
+      "src-bnf-vidal-no",
+      "src-nyfed-law",
+      "src-cambridge-velde-2010"
+    ],
+    "interpretations": [
+      {
+        "label": "Similar debt-conversion schemes with historical diffusion",
+        "claim": "Quinn and Turner identify the British South Sea Company's large 1720 public-debt refinancing proposal as following Law's example; that is scholarly evidence of policy resemblance and intellectual influence, not proof of direct covert collaboration.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-cambridge-quinn-turner-2020"
+        ]
+      },
+      {
+        "label": "More than a speculative share bubble",
+        "claim": "Velde argues the Mississippi price boom was a part of a broader and in some respects rational attempt at monetary and sovereign-debt restructuring; the relative significance of intended reform, monetary miscalculation and speculation is contested.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-cambridge-velde-2010"
+        ]
+      },
+      {
+        "label": "Investment publicity versus conditions in Louisiana",
+        "claim": "BnF research identifies idealized maps and promotional propaganda encouraging investors while colonial ambitions expanded settlement, plantations and enslavement. French colonial claims of empty or bountiful land did not erase existing Indigenous societies.",
+        "status": "documented",
+        "sources": [
+          "src-bnf-law-colonies",
+          "src-bnf-vidal-no"
+        ]
+      },
+      {
+        "label": "International finance was connected but not unified",
+        "claim": "Jackson's historical study identifies flows of capital, people and information across 1720 markets. Evidence of interconnected markets does not identify a universal cartel, one family, or the specific same shareholder accounts between France and Britain.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-cambridge-jackson-2022"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Which dated London and Paris letters, newspapers, or South Sea Company minutes explicitly mention John Law and tie named policy designers together?",
+      "Can named investors be verified as participants in both French Compagnie des Indes shares and British South Sea, Bank, or East India shareholder ledgers?",
+      "Which French edicts and original accounting tables establish exact debt amounts retired, new notes issued, and payments actually made during 1719–1720?",
+      "How did the system affect different types of French holders of public debt, bank notes, and company shares?",
+      "What do Louisiana Indigenous oral histories and French colonial correspondence establish about dispossession, alliance, conflict and settlement during the Company's rule?",
+      "What do censuses, voyages, labor records and testimony reveal about the lives and resistance of enslaved Africans brought to Louisiana?",
+      "How much was Britain's South Sea scheme directly inspired by Law, and what records support independent rather than derivative design?"
+    ],
+    "events": [
+      "evt-1715-france-regency",
+      "evt-1716-banque-generale",
+      "evt-1717-compagnie-occident",
+      "evt-1718-new-orleans-founding",
+      "evt-1719-france-compagnie-indes",
+      "evt-1719-french-debt-exchange",
+      "evt-1720-john-law-controller",
+      "evt-1720-french-bubble-collapse",
+      "evt-1720-law-leaves-france"
+    ],
+    "entities": [
+      "ent-john-law",
+      "ent-philippe-orleans",
+      "ent-french-crown",
+      "ent-banque-generale",
+      "ent-banque-royale",
+      "ent-compagnie-occident",
+      "ent-compagnie-indes-france",
+      "ent-louisiana-indigenous-communities",
+      "ent-enslaved-africans-french-louisiana",
+      "ent-bienville",
+      "ent-antoine-crozat",
+      "ent-john-blunt",
+      "ent-south-sea"
+    ]
   }
 ]
