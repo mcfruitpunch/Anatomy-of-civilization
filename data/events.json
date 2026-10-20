@@ -9,7 +9,10 @@
     "sources": [
       "src-bl-charter"
     ],
-    "verification": "reviewed"
+    "verification": "reviewed",
+    "entities": [
+      "ent-eic"
+    ]
   },
   {
     "id": "evt-1757-plassey",
@@ -21,7 +24,12 @@
     "sources": [
       "src-nam-plassey"
     ],
-    "verification": "reviewed"
+    "verification": "reviewed",
+    "entities": [
+      "ent-eic",
+      "ent-clive",
+      "ent-mir-jafar"
+    ]
   },
   {
     "id": "evt-1765-diwani",
@@ -33,7 +41,10 @@
     "sources": [
       "src-nam-plassey"
     ],
-    "verification": "reviewed"
+    "verification": "reviewed",
+    "entities": [
+      "ent-eic"
+    ]
   },
   {
     "id": "evt-1770-bengal-famine",
@@ -45,7 +56,10 @@
     "sources": [
       "src-bl-famine"
     ],
-    "verification": "reviewed"
+    "verification": "reviewed",
+    "entities": [
+      "ent-eic"
+    ]
   },
   {
     "id": "evt-1773-regulating-act",
@@ -57,7 +71,11 @@
     "sources": [
       "src-bl-parliament"
     ],
-    "verification": "reviewed"
+    "verification": "reviewed",
+    "entities": [
+      "ent-parliament",
+      "ent-eic"
+    ]
   },
   {
     "id": "evt-1858-crown-rule",
@@ -69,7 +87,11 @@
     "sources": [
       "src-uk-india-1858"
     ],
-    "verification": "reviewed"
+    "verification": "reviewed",
+    "entities": [
+      "ent-crown",
+      "ent-eic"
+    ]
   },
   {
     "id": "evt-1951-nationalization",
@@ -81,7 +103,12 @@
     "sources": [
       "src-frus-nationalization"
     ],
-    "verification": "reviewed"
+    "verification": "reviewed",
+    "entities": [
+      "ent-mossadegh",
+      "ent-iran-govt",
+      "ent-aioc"
+    ]
   },
   {
     "id": "evt-1953-coup",
@@ -95,7 +122,16 @@
       "src-nsa-wilber",
       "src-frus-cia-aug18"
     ],
-    "verification": "reviewed"
+    "verification": "reviewed",
+    "entities": [
+      "ent-mossadegh",
+      "ent-shah",
+      "ent-cia",
+      "ent-mi6",
+      "ent-roosevelt",
+      "ent-zahedi",
+      "ent-iran-govt"
+    ]
   },
   {
     "id": "evt-1954-consortium",
@@ -107,7 +143,11 @@
     "sources": [
       "src-iranica-oil-1954"
     ],
-    "verification": "reviewed"
+    "verification": "reviewed",
+    "entities": [
+      "ent-iran-govt",
+      "ent-aioc"
+    ]
   },
   {
     "id": "evt-2013-cia-acknowledges",
@@ -119,6 +159,9 @@
     "sources": [
       "src-nsa-ebb435"
     ],
-    "verification": "reviewed"
+    "verification": "reviewed",
+    "entities": [
+      "ent-cia"
+    ]
   }
 ]

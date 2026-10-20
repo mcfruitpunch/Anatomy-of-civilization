@@ -7,6 +7,8 @@ on:
       - 'data/**'
       - 'scripts/validate.js'
       - 'site/**'
+      - 'index.html'
+      - 'scripts/test-explorer.js'
       - '.github/workflows/research-data.yml'
 jobs:
   validate:
@@ -20,3 +22,5 @@ jobs:
         run: node scripts/validate.js
       - name: Check browser JavaScript syntax
         run: node --check site/app.js
+      - name: Check explorer hooks and record navigation
+        run: node scripts/test-explorer.js

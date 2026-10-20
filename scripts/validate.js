@@ -40,6 +40,12 @@ sources.forEach(s => {
 });
 events.forEach(e => {
   validDate(e.date, e.id); need([e.case], C, e.id);
+  if (!Array.isArray(e.entities) || !e.entities.length) errors.push(e.id + ': no event-linked entities');
+  need(e.entities, N, e.id);
+  const matchCase = cases.find(record => record.id === e.case);
+  if (matchCase) (e.entities || []).forEach(entityId => {
+    if (!matchCase.entities.includes(entityId)) errors.push(e.id + ': linked entity outside case: ' + entityId);
+  });
   validStatus(e, e.id); cite(e, e.id, e.status === 'documented');
   if (e.status === 'documented' && e.verification !== 'reviewed') errors.push(e.id + ': requires review');
 });

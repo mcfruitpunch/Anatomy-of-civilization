@@ -1,0 +1,53 @@
+name: Publish research atlas
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Validate and package static site
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate research and explorer
+        run: |
+          node scripts/validate.js
+          node --check site/app.js
+          node scripts/test-explorer.js
+      - name: Prepare deployable site
+        run: |
+          mkdir -p dist
+          cp index.html dist/
+          cp -R site data dist/
+          touch dist/.nojekyll
+          test -f dist/site/app.js && test -f dist/data/events.json
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy site
+        id: deployment
+        uses: actions/deploy-pages@v4
