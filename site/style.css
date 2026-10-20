@@ -106,3 +106,9 @@ input,select,button{font:inherit}input[type=search],input[type=number],select{ba
 .excerpt-card .excerpt-values{margin:.65rem 0 1rem;list-style:none;padding:0;display:grid;gap:.3rem}
 .excerpt-values li{background:#f3f8f6;border-radius:6px;padding:.4rem .6rem}
 .excerpt-card .pill.pending{white-space:normal}
+
+.census-audit-cards{grid-template-columns:repeat(auto-fit,minmax(min(100%,345px),1fr));align-items:stretch}
+.census-audit-card{border-left:4px solid #8a725c;overflow-wrap:anywhere}
+.census-audit-card .census-values{padding:0;list-style:none;display:grid;gap:.3rem}
+.census-values li{background:#f2f6f4;padding:.45rem .65rem;border-radius:6px;font-size:.9rem}
+.census-audit-card .pill.pending{white-space:normal}

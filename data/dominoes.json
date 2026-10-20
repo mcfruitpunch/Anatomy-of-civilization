@@ -678,5 +678,73 @@
       "src-hnoc-mss606-findingaid",
       "src-bnf-law-colonies"
     ]
+  },
+  {
+    "id": "dom-051",
+    "from": "evt-1720-french-bubble-collapse",
+    "to": "evt-1721-choctaw-trade-request",
+    "mechanism": "Colonial financial crisis and Choctaw request coexist",
+    "claim": "Historians have proposed that financial disruption after John Law's collapse contributed to delay implementing a Choctaw-requested post. No original disbursement or refusal ledger has been examined to prove direct causality.",
+    "kind": "tentative_financial_context",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-musco-ellis-spring-2025",
+      "src-bnf-law-colonies"
+    ]
+  },
+  {
+    "id": "dom-052",
+    "from": "evt-1721-choctaw-trade-request",
+    "to": "evt-1725-choctaw-renewal",
+    "mechanism": "Unfulfilled 1721 agreement leads to continued diplomacy",
+    "claim": "The original post agreement was not promptly executed; Choctaw leaders continued requesting a functioning trading store and French correspondence in 1725 cited the risk of British trade competition.",
+    "kind": "unfulfilled_policy_followup",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ]
+  },
+  {
+    "id": "dom-053",
+    "from": "evt-1725-choctaw-renewal",
+    "to": "evt-1729-choctaw-delegation",
+    "mechanism": "Trade leverage sustains diplomatic pressure",
+    "claim": "Repeated Choctaw initiatives and alternatives to French merchandise informed further negotiations in 1729. There were shifts within and among Choctaw districts, not a single unchanging preference.",
+    "kind": "political_continuity",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-musco-ellis-spring-2025",
+      "src-choctaw-fort-tombecbe-2023"
+    ]
+  },
+  {
+    "id": "dom-054",
+    "from": "evt-1729-choctaw-delegation",
+    "to": "evt-1730-youanis-built",
+    "mechanism": "Negotiated Choctaw territorial approval precedes construction",
+    "claim": "A new French trade post was constructed at Youanis/Haiyowvni in 1730 following negotiations in which Choctaw representatives sought the post and French officials depended on their security.",
+    "kind": "diplomatic_outcome",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ]
+  },
+  {
+    "id": "dom-055",
+    "from": "evt-1717-compagnie-occident",
+    "to": "evt-1721-choctaw-trade-request",
+    "mechanism": "Colonial corporate privilege intersects with Indigenous trade sovereignty",
+    "claim": "Chartered French commercial claims developed in a region where Choctaw nations negotiated their own trade access and territorial conditions. Corporate charters did not erase Choctaw political decision-making; no direct Company order for the 1721 council vote is asserted.",
+    "kind": "structural_intersection",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-musco-ellis-spring-2025"
+    ]
   }
 ]

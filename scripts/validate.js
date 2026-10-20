@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const load = (n) => JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', n + '.json'), 'utf8'));
 const sources = load('sources'), events = load('events'), entities = load('entities');
-const rels = load('relationships'), cases = load('cases'), systems = load('systems'), dominoes = load('dominoes'), financial = load('financial_flows'), ownership = load('ownership_overlap'), comparisons = load('comparisons'), documents = load('archival_documents'), routes = load('information_routes'), extracts = load('source_extracts');
+const rels = load('relationships'), cases = load('cases'), systems = load('systems'), dominoes = load('dominoes'), financial = load('financial_flows'), ownership = load('ownership_overlap'), comparisons = load('comparisons'), documents = load('archival_documents'), routes = load('information_routes'), extracts = load('source_extracts'), censusVersions = load('census_evidence_audit');
 const STATUS = ['documented', 'interpretation', 'supported interpretation', 'unresolved', 'speculation'];
 const errors = [];
 const ids = (arr, name) => {
@@ -13,7 +13,7 @@ const ids = (arr, name) => {
   return s;
 };
 const S = ids(sources, 'sources'), E = ids(events, 'events'), N = ids(entities, 'entities');
-const C = ids(cases, 'cases'); ids(rels, 'relationships'); ids(systems, 'systems'); ids(dominoes, 'dominoes'); ids(financial, 'financial'); ids(ownership, 'ownership_overlap'); ids(comparisons, 'comparisons'); ids(documents, 'archival_documents'); ids(routes, 'information_routes'); ids(extracts, 'source_extracts');
+const C = ids(cases, 'cases'); ids(rels, 'relationships'); ids(systems, 'systems'); ids(dominoes, 'dominoes'); ids(financial, 'financial'); ids(ownership, 'ownership_overlap'); ids(comparisons, 'comparisons'); ids(documents, 'archival_documents'); ids(routes, 'information_routes'); ids(extracts, 'source_extracts'); ids(censusVersions, 'census_evidence_audit');
 const bySource = Object.fromEntries(sources.map(s => [s.id, s]));
 const need = (list, set, ctx) => (list || []).forEach(i => { if (!set.has(i)) errors.push(ctx + ': unknown reference ' + i); });
 const validStatus = (obj, ctx) => { if (!STATUS.includes(obj.status)) errors.push(ctx + ': bad/missing status ' + obj.status); };
@@ -169,5 +169,20 @@ extracts.forEach(x => {
   if (x.reading_level === 'historical_secondary_transcription_not_verified_against_original' && !/original|folio/i.test(x.limitations)) errors.push(x.id + ': state explicit primary-folio limitation');
   if (x.date_role === 'london_dispatch_date_not_dutch_print_date' && !/not.*publication|not.*printing|not.*issue|not.*date/i.test(x.limitations)) errors.push(x.id + ': do not equate dispatch and newspaper publication');
 });
+const censusEvidenceLevels = new Set(['catalogue_only_original_images_not_audited','digitized_historical_secondary_edition','indexed_table_excerpt_not_checked_against_publisher_original']);
+const censusScopes = new Set(['enslaved_people_of_african_descent','enslaved_indigenous_people','european_indentured_workers','europeans_as_author_defined','whites_as_historian_tabulated']);
+censusVersions.forEach(c=>{
+  validDate(c.date,c.id);
+  if (!c.source_label || !c.source_type || !c.scope || !c.provenance || !c.limit) errors.push(c.id+': incomplete census edition provenance');
+  if (!censusEvidenceLevels.has(c.access_level)) errors.push(c.id+': invalid or overstated census review level');
+  if (!Array.isArray(c.figures)) errors.push(c.id+': missing census figure array');
+  else c.figures.forEach(x=>{
+    if (!censusScopes.has(x.category) || !Number.isInteger(x.value) || x.value<0) errors.push(c.id+': invalid census category or number');
+  });
+  if (c.total_reported!==null && (!Number.isInteger(c.total_reported) || c.total_reported<0)) errors.push(c.id+': total must be null or reported integer');
+  if (c.access_level==='catalogue_only_original_images_not_audited' && ((c.figures||[]).length || c.total_reported!==null)) errors.push(c.id+': original catalogues cannot assert counted census values');
+  if (!/original|folio|archiv|manuscript/i.test(c.limit)) errors.push(c.id+': explicit original-document caution required');
+  cite(c,c.id,true);
+});
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
-console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records, ' + ownership.length + ' ownership aggregates, ' + comparisons.length + ' country comparisons, ' + documents.length + ' original records, ' + routes.length + ' information channels, ' + extracts.length + ' attributed readings');
+console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records, ' + ownership.length + ' ownership aggregates, ' + comparisons.length + ' country comparisons, ' + documents.length + ' original records, ' + routes.length + ' information channels, ' + extracts.length + ' attributed readings, ' + censusVersions.length + ' census source versions');

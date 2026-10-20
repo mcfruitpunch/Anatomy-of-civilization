@@ -600,7 +600,7 @@
     "id": "archives1720",
     "title": "Paris–London–Amsterdam: What the Surviving Records Actually Show",
     "period": "1716–1721",
-    "summary": "Specific original royal banking orders, contemporary financial criticism, Dutch market and print archives, and French Louisiana colonial lists survive. They document public laws, reports, and market channels, but do not yet establish a named private investor exchanging instructions between Paris, London and Amsterdam. A newly located 23 December 1719 signed manuscript acknowledgment records delivery of 20 shares from a named court servant to an unidentified bearer, supplying one bounded financial relationship. Three specific Dutch newspaper items from February, April and June 1720 have now been examined in Yale's modern curated translation; secondary printed reproductions of the November 1721 colonial census give provisional population figures with unresolved category differences.",
+    "summary": "Specific original royal banking orders, contemporary financial criticism, Dutch market and print archives, and French Louisiana colonial lists survive. They document public laws, reports, and market channels, but do not yet establish a named private investor exchanging instructions between Paris, London and Amsterdam. A newly located 23 December 1719 signed manuscript acknowledgment records delivery of 20 shares from a named court servant to an unidentified bearer, supplying one bounded financial relationship. Three specific Dutch newspaper items from February, April and June 1720 have now been examined in Yale's modern curated translation; secondary printed reproductions of the November 1721 colonial census give provisional population figures with unresolved category differences. Additional 1721 census versions are catalogued, including an apparent extended copy with 29 images; five source-version entries now document divergent historical numeric readings rather than a falsely reconciled population.",
     "summary_sources": [
       "src-hnoc-law-primary",
       "src-yale-1720-ledger",
@@ -611,7 +611,10 @@
       "src-yale-leydse-1720-apr22",
       "src-yale-leydse-1720-jun14",
       "src-deiler-german-coast-1910",
-      "src-villiers-neworleans-1917"
+      "src-villiers-neworleans-1917",
+      "src-anom-alt-1721-census",
+      "src-vidal-2019-book",
+      "src-anthology-villiers-english"
     ],
     "decision_making": "The French regent and Law used royal orders to regulate banknotes and specie exchange; British pamphleteers publicly questioned South Sea values; Dutch newspapers, trading venues and company ledgers registered the 1720 market events. In Louisiana, colonial officials counted populations and tracked movements within systems of coerced settlement and enslavement. These forms of evidence have different creators, audiences and limits.",
     "decision_sources": [
@@ -684,6 +687,16 @@
           "src-villiers-neworleans-1917",
           "src-anom-census-no-1721"
         ]
+      },
+      {
+        "label": "Disagreement in historical population totals",
+        "claim": "Older historians and modern scholarship give differing New Orleans town figures around 1721 (de Villiers 470/277; Vidal 472/278 with alternative enslaved totals). The original 12-image census, expanded 29-image copy and published category definitions must be examined before claiming a transcription error or a definitive population.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-anom-alt-1721-census",
+          "src-anthology-villiers-english",
+          "src-vidal-2019-book"
+        ]
       }
     ],
     "open_questions": [
@@ -695,7 +708,9 @@
       "How many banknotes were actually destroyed under the August 30 edict, and what receipt or audit proves the operation?",
       "Can HNOC MSS606 Folder 4 (2010.0158.20) be consulted to transcribe the equity certificate, confirm its exact share class, identity of the bearer, endorsement, and whether Imbert received payment?",
       "What is the original Leydse Courant publication date for London dispatch dated June 14, 1720, and how many days after the relevant London legal step did it appear?",
-      "Reconcile the New Orleans population totals and the enslaved/non-enslaved categories in Deiler and de Villiers against all twelve original ANOM census images, without extrapolating figures to the whole Louisiana colony."
+      "Reconcile the New Orleans population totals and the enslaved/non-enslaved categories in Deiler and de Villiers against all twelve original ANOM census images, without extrapolating figures to the whole Louisiana colony.",
+      "Compare the 12-image ANOM item 31235 and 29-image expanded item 31236 line by line, and determine whether their final totals are identical or differently scoped; an archive calls the latter an apparent copy.",
+      "Verify original demographic column headings and distinguish urban town, concessions, and wider colony across Deiler (1910), de Villiers (1917) and Vidal (2019) before calculating any totals."
     ],
     "events": [
       "evt-1716-law-charter-archive",
@@ -731,6 +746,89 @@
       "ent-frenier-signatory",
       "ent-unidentified-bearer-1719",
       "ent-parliament"
+    ]
+  },
+  {
+    "id": "choctawdiplomacy1721",
+    "title": "Choctaw Sovereignty, Trade Demands and French Colonial Debt",
+    "period": "1721–1730",
+    "summary": "Choctaw communities used diplomacy and the possibility of switching European trade partners to seek an establishment on their land. A French council agreed in 1721, but construction was delayed until 1730. Scholarship suggests disruptions following John Law's financial collapse helped explain delays, but original public account ledgers do not yet demonstrate the direct financing pathway.",
+    "summary_sources": [
+      "src-musco-ellis-spring-2025",
+      "src-choctaw-fort-tombecbe-2023",
+      "src-choctaw-economics-2019"
+    ],
+    "decision_making": "Choctaw representatives initiated requests for better trade access and negotiated within their own diplomatic and territorial systems. Colonial council members accepted the request, while governor Périer and officers later renegotiated location and French security dependence. An ANOM folio is cited for 1721, but the publication lists February 8 in narrative and February 28 in its bibliography: the original day is unresolved.",
+    "decision_sources": [
+      "src-musco-ellis-spring-2025",
+      "src-choctaw-fort-tombecbe-2023"
+    ],
+    "consequences": "The 1721 proposal was not immediately implemented. Correspondence in 1725 shows further demands with the possibility of British trade, and 1729 delegations participated in further negotiation. The Youanis trading post was built in February–March 1730 in Choctaw territory. It was not the separate Fort Tombecbe completed in 1736. Indigenous sovereignty was actively exercised through negotiation, provisioning and protection—not merely overridden by European company charters.",
+    "consequences_sources": [
+      "src-musco-ellis-spring-2025",
+      "src-choctaw-fort-tombecbe-2023"
+    ],
+    "interpretations": [
+      {
+        "label": "Indigenous sovereignty exercised through trade negotiation",
+        "claim": "Published scholarship coauthored by a Choctaw Nation historic preservation researcher shows that Choctaw leaders initiated the post's construction, negotiated its location and continued to control conditions affecting French operations.",
+        "status": "documented",
+        "sources": [
+          "src-musco-ellis-spring-2025",
+          "src-choctaw-fort-tombecbe-2023"
+        ]
+      },
+      {
+        "label": "State finance and colonial promises",
+        "claim": "The authors consider economic difficulties after John Law's collapse a likely factor in the delay, but no audited 1721–1725 line-item finance ledger has established that this specific post was denied funding on that basis.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-musco-ellis-spring-2025"
+        ]
+      },
+      {
+        "label": "Competing European buyers as diplomatic leverage",
+        "claim": "Choctaw leaders and allies could trade with British interests and invoked alternatives to negotiate with French officials; this is evidence of their strategic agency, not proof that a uniform Choctaw bloc held one preference.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-musco-ellis-spring-2025",
+          "src-choctaw-economics-2019"
+        ]
+      },
+      {
+        "label": "Separate institutions and distinct trading posts",
+        "claim": "The Youanis post that emerged in 1730 and Fort Tombecbe built in 1736 have distinct sites, administrative chronology and history; treating them as one 1721 completed project would be a false connection.",
+        "status": "documented",
+        "sources": [
+          "src-musco-ellis-spring-2025",
+          "src-choctaw-fort-tombecbe-2023"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Retrieve ANOM C13A volume 6 folio 146 to resolve whether the Biloxi trade council date was 8 or 28 February 1721; do not choose one without checking.",
+      "Obtain 1721–1725 colonial accounts showing actual funding or administrative constraints and compare them with historiographical attribution to Law's failure.",
+      "Identify the named 1721 Choctaw delegations and their own diplomatic narratives if community-approved records exist, rather than inventing leader identities.",
+      "What precise conditions of trade and territory did individual Choctaw districts and towns negotiate, and how did local British trade alternatives differ?",
+      "Locate 1725 Council letters at ANOM C13A vol.9 fol.65v and 129v and 1729–1730 construction and trade records to test what actually happened."
+    ],
+    "events": [
+      "evt-1721-choctaw-trade-request",
+      "evt-1725-choctaw-renewal",
+      "evt-1729-choctaw-delegation",
+      "evt-1730-youanis-built"
+    ],
+    "entities": [
+      "ent-choctaw-nation",
+      "ent-choctaw-diplomatic-delegates",
+      "ent-biloxi-trade-council",
+      "ent-french-superior-council-la",
+      "ent-compagnie-indes-france",
+      "ent-french-crown",
+      "ent-youanis-post",
+      "ent-perier-governor",
+      "ent-regis-du-roullet",
+      "ent-bienville"
     ]
   }
 ]

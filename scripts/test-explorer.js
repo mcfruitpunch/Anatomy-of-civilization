@@ -17,9 +17,10 @@ const comparisons = readJson('comparisons');
 const archiveDocs = readJson('archival_documents');
 const routes = readJson('information_routes');
 const extracts = readJson('source_extracts');
+const censusAudit = readJson('census_evidence_audit');
 const ids = ['search', 'case-filter', 'year-from', 'year-to', 'timeline-list',
   'event-detail', 'rel-filter', 'entity-filter', 'verified-only', 'clear-focus',
-  'graph', 'entity-detail', 'network-list', 'case-list', 'system-list', 'source-list', 'domino-list', 'domino-count', 'finance-list', 'finance-count', 'ownership-list', 'ownership-count', 'comparison-list', 'comparison-count', 'archive-list', 'archive-count', 'route-list', 'excerpt-list', 'excerpt-count'];
+  'graph', 'entity-detail', 'network-list', 'case-list', 'system-list', 'source-list', 'domino-list', 'domino-count', 'finance-list', 'finance-count', 'ownership-list', 'ownership-count', 'comparison-list', 'comparison-count', 'archive-list', 'archive-count', 'route-list', 'excerpt-list', 'excerpt-count', 'census-audit-list', 'census-audit-count'];
 for (const id of ids) {
   assert(new RegExp('id="' + id + '"').test(html), 'Missing UI control or target: ' + id);
   assert(js.includes("'"+id+"'"), 'Explorer does not reference control: ' + id);
@@ -103,4 +104,11 @@ assert(extracts.some(x=>x.date_role === 'london_dispatch_date_not_dutch_print_da
 assert(extracts.some(x=>x.reported_numbers.some(n=>n.unit === 'forecast_not_transaction')),'Speculation must not appear as settled trade');
 assert(extracts.some(x=>x.reported_numbers.some(n=>n.unit === 'people_reported_by_deiler')),'Historian census categories absent');
 assert(routes.some(x=>x.from==='Paris'&&x.to==='Leiden')&&routes.some(x=>x.from==='London'&&x.to==='Leiden'),'Dated Dutch public news channels missing');
-console.log('OK: source readings, qualified newspaper dates, colonial census caveats, archive and finance explorer');
+assert(html.includes('href="#census-audit"') && js.includes('renderCensusAudit()'), 'Census audit not integrated into explorer');
+assert(censusAudit.length>=5,'Insufficient conflicting census source versions');
+assert(censusAudit.filter(x=>x.access_level==='catalogue_only_original_images_not_audited').length>=2,'Original census variants not distinguished');
+assert(censusAudit.some(x=>x.total_reported===470)&&censusAudit.some(x=>x.total_reported===472),'Historic discrepancy lost');
+assert(censusAudit.every(x=>x.limit.includes('original') || x.limit.includes('folio') || x.limit.includes('archive') || x.limit.includes('manuscript')),'Missing census caveats');
+assert(censusAudit.some(x=>x.source_label.includes('Vidal')&&x.access_level.includes('not_checked')),'Modern tabulation may not be promoted to inspected print without review');
+assert(events.some(e=>e.id==='evt-1721-choctaw-trade-request')&&events.some(e=>e.id==='evt-1730-youanis-built'),'Choctaw initiative and post construction not linked');
+console.log('OK: V1.1 Indigenous trade sovereignty, census version audit, research provenance and historical explorer');

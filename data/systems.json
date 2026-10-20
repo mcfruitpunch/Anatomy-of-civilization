@@ -99,5 +99,36 @@
       "src-bnf-vidal-no",
       "src-cambridge-jackson-2022"
     ]
+  },
+  {
+    "id": "sys-indigenous-trade-sovereignty",
+    "title": "Indigenous diplomatic sovereignty shapes European trade institutions",
+    "description": "Choctaw communities negotiated the location, security and goods supplied by French trading posts. Choctaw Nation-authored accounts and collaborative scholarship show nation-specific agency and governance: European government charters or fiscal crises cannot be treated as unilateral controllers of Indigenous economic decisions.",
+    "cases": [
+      "choctawdiplomacy1721",
+      "francemississippi1720"
+    ],
+    "status": "supported interpretation",
+    "sources": [
+      "src-musco-ellis-spring-2025",
+      "src-choctaw-fort-tombecbe-2023",
+      "src-choctaw-economics-2019"
+    ]
+  },
+  {
+    "id": "sys-colonial-statistical-invisibility",
+    "title": "Colonial censuses as governance tools, not neutral records of society",
+    "description": "1721 New Orleans population figures differ across editions and manuscript copies; official lists categorize people held in slavery under the names of owners and may exclude Indigenous communities outside settlements. Research must preserve discrepancies and invite descendant-community perspectives, rather than constructing a deceptively exact combined total.",
+    "cases": [
+      "archives1720",
+      "choctawdiplomacy1721"
+    ],
+    "status": "supported interpretation",
+    "sources": [
+      "src-anom-census-no-1721",
+      "src-anom-alt-1721-census",
+      "src-vidal-2019-book",
+      "src-musco-ellis-spring-2025"
+    ]
   }
 ]

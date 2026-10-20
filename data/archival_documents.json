@@ -231,5 +231,59 @@
       "ent-banque-generale",
       "ent-french-crown"
     ]
+  },
+  {
+    "id": "doc-014",
+    "date": "1721-11-24",
+    "place": "New Orleans",
+    "title": "Second, expanded 1721 New Orleans census copy — ANOM 31236",
+    "document_kind": "colonial_census_duplicate_version",
+    "access_level": "catalogue_metadata_only",
+    "reference": "ANOM COL G1 464, 17-page catalogued document / 29 digital images; CABAC_PIAF_6928; item 31236",
+    "established": "Archival catalogue explicitly labels this as apparently a copy of the previous 1721 New Orleans census, followed by more extensive information on land concessions and colony status.",
+    "limitations": "No handwritten original folio, totals or population categories checked; this is a likely duplicate or extended companion and must not be counted as a second independent 1721 census.",
+    "sources": [
+      "src-anom-alt-1721-census"
+    ],
+    "entities": [
+      "ent-inspector-diron",
+      "ent-enslaved-africans-french-louisiana"
+    ]
+  },
+  {
+    "id": "doc-015",
+    "date": "1721",
+    "place": "French Louisiana",
+    "title": "Le Gac memoir: five parts including Indigenous and French village names",
+    "document_kind": "archival_colonial_memoir",
+    "access_level": "catalogue_metadata_only",
+    "reference": "ANOM FR CAOM 4DFC8, item 40699, 101-page memoir / 99 digital images",
+    "established": "The colonial Company official Le Gac's memoir describes Louisiana at his arrival in 1718, his activities to 1721 and lists French and Indigenous villages on the Mississippi and tributaries.",
+    "limitations": "The memoir's actual village names and descriptions are not independently extracted from the French manuscript. The official's reporting is not equivalent to Indigenous self-description or community-approved knowledge.",
+    "sources": [
+      "src-le-gac-1721-memo"
+    ],
+    "entities": [
+      "ent-french-crown",
+      "ent-louisiana-indigenous-communities"
+    ]
+  },
+  {
+    "id": "doc-016",
+    "date": "1722-03-09",
+    "place": "Natchez district, colonial Louisiana",
+    "title": "French letters describing Sainte-Catherine concession conflict with Natchez",
+    "document_kind": "archival_colonial_conflict_letters",
+    "access_level": "catalogue_metadata_only",
+    "reference": "ANOM COL G1 465, item 31377, four digitized images, letters March 9–10 1722",
+    "established": "Archival catalogue describes letters from French officers concerning an attack on the Sainte-Catherine concession by Natchez people and French armed-response discussions.",
+    "limitations": "Only French administrative and settler perspectives in the catalogue have been inspected; no Natchez perspective, exact casualty numbers, or guilt conclusions can be established from this title.",
+    "sources": [
+      "src-natchez-1722-colonial-letters"
+    ],
+    "entities": [
+      "ent-french-crown",
+      "ent-bienville"
+    ]
   }
 ]

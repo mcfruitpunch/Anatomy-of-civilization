@@ -1084,5 +1084,96 @@
     "date": "1719",
     "status": "documented",
     "verification": "reviewed"
+  },
+  {
+    "id": "rel-084",
+    "from": "ent-choctaw-diplomatic-delegates",
+    "to": "ent-biloxi-trade-council",
+    "type": "requested_trade_post_in_own_territory",
+    "note": "Choctaw representatives initiated a 1721 request for French trade access on Choctaw lands; Biloxi's colonial council accepted in principle but did not immediately build the facility. Exact February council meeting day is unresolved.",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1721"
+  },
+  {
+    "id": "rel-085",
+    "from": "ent-choctaw-nation",
+    "to": "ent-french-superior-council-la",
+    "type": "pressed_for_trade_alternatives",
+    "note": "Continued Choctaw diplomatic requests in 1725 brought the French Superior Council to transmit the request to Company authorities amid British trade competition.",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1725"
+  },
+  {
+    "id": "rel-086",
+    "from": "ent-french-superior-council-la",
+    "to": "ent-compagnie-indes-france",
+    "type": "conveyed_indigenous_diplomatic_requests",
+    "note": "The French Council conveyed Choctaw representatives' demand for a stock of trade goods in 1725; council correspondence cites ANOM C13A vol.9 fol.65v.",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1725"
+  },
+  {
+    "id": "rel-087",
+    "from": "ent-choctaw-diplomatic-delegates",
+    "to": "ent-perier-governor",
+    "type": "negotiated_post_location_and_protection",
+    "note": "Choctaw leaders met French governor Périer in 1729 to negotiate a trading establishment and the circumstances of French military protection in Choctaw territory.",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1729"
+  },
+  {
+    "id": "rel-088",
+    "from": "ent-choctaw-nation",
+    "to": "ent-youanis-post",
+    "type": "requested_and_enabled_trading_site",
+    "note": "Choctaw political leaders' sustained diplomatic initiative led to the Youanis post's establishment around 1730, while French officers depended on Choctaw security and local acceptance.",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1730"
+  },
+  {
+    "id": "rel-089",
+    "from": "ent-regis-du-roullet",
+    "to": "ent-youanis-post",
+    "type": "supervised_post_construction",
+    "note": "French officer Régis du Roullet supervised construction of the trading post at Haiyowvni/Youanis in February–March 1730.",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1730-03"
+  },
+  {
+    "id": "rel-090",
+    "from": "ent-choctaw-nation",
+    "to": "ent-french-crown",
+    "type": "negotiated_alliance_and_trade",
+    "note": "Choctaw leaders maintained formal diplomacy and trade relations with French officials; the Choctaw Nation's historical accounts describe gifts, boundaries and community governance, not unilateral French ownership.",
+    "sources": [
+      "src-choctaw-fort-tombecbe-2023",
+      "src-choctaw-economics-2019"
+    ],
+    "status": "documented",
+    "verification": "reviewed"
   }
 ]
