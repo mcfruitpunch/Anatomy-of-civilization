@@ -568,5 +568,18 @@
       "src-cambridge-jackson-2022",
       "src-loc-bubbles-2026"
     ]
+  },
+  {
+    "id": "dom-043",
+    "from": "evt-1720-french-bubble-collapse",
+    "to": "evt-1720-south-sea-collapse",
+    "mechanism": "Contemporary print commentary linked both speculative manias",
+    "claim": "Wellcome's catalogue describes an early 1720s engraving whose Dutch verses refer to Mississippi and South Sea speculative winds. This attests to contemporary cultural comparisons, not a proven executed financial transfer between the companies.",
+    "kind": "contemporary_public_perception",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-wellcome-humblot-1720"
+    ]
   }
 ]
