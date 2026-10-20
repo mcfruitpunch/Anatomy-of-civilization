@@ -999,5 +999,16 @@
     "url": "https://genealogytrails.com/lou/orleans/1721census.html",
     "locator": "Opening census overview and names list: 177 Africans held in slavery, 21 Indigenous people held in slavery, 28 European engagés, names of some colonists and staff including Bonnaud and Roussard; transcribed spellings and scope are not checked against original ANOM folios.",
     "reviewed": true
+  },
+  {
+    "id": "src-bnf-no-census-original-scan",
+    "type": "original_image_catalog_link_not_inspected",
+    "title": "Recensement de la Nouvelle-Orléans (1721) — original manuscript scan",
+    "author": "Bibliothèque nationale de France, Gallica / Patrimoines Partagés",
+    "year": 1721,
+    "publisher": "BnF Gallica",
+    "url": "https://heritage.bnf.fr/france-ameriques/en/new-orleans",
+    "locator": "BnF curated New Orleans item 'Recensement de la Nouvelle-Orléans 1721', linked to Gallica ark:/12148/btv1b101054200; full scan returned access-denied to our document-fetch request and has NOT been inspected or transcribed.",
+    "reviewed": true
   }
 ]
