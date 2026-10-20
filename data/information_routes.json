@@ -6,9 +6,9 @@
     "date": "1720",
     "channel": "English-language pamphlet about Law's French Mississippi Company",
     "evidence_kind": "primary_publication_catalog",
-    "confidence": "documented_circulation_of_subject_only",
-    "interpretation": "A 1720 English-language pamphlet about the French Mississippi Company is catalogued by BnF; it demonstrates English-language public discussion of the French scheme. The print run, London publication location and any reading by South Sea directors have NOT been confirmed.",
-    "status": "documented",
+    "confidence": "english_language_print_location_and_readership_unverified",
+    "interpretation": "The BnF curates an English-language 1720 pamphlet specifically about Law's French company. This demonstrates an English-language account existed but does NOT independently establish London publication, a named traveler, or reception by South Sea directors. Paris→London is an investigative hypothesis pending bibliographic and correspondence review.",
+    "status": "supported interpretation",
     "verification": "reviewed",
     "sources": [
       "src-bnf-english-law-1720"
