@@ -911,5 +911,16 @@
     "url": "https://heritage.bnf.fr/france-ameriques/en/commercial-companies",
     "locator": "Orain: 1717 Compagnie d'Occident, incorporation of trade rights including companies involved in slave trade, failed colonial recruitment and sharply unequal mortality; relies on BnF scholarship, not an itemized vessel register.",
     "reviewed": true
+  },
+  {
+    "id": "src-bnf-english-law-1720",
+    "type": "primary_print_catalog",
+    "title": "A full and impartial account of the company of Mississipi, projected and settled by Mr Law (1720)",
+    "author": "Anonymous English-language 1720 pamphlet, BnF Gallica catalogue",
+    "year": 1720,
+    "publisher": "Bibliothèque nationale de France",
+    "url": "https://heritage.bnf.fr/france-ameriques/en/john-law",
+    "locator": "John Law curated primary items, entry 1720 English text titled 'A full and impartial account of the company of Mississipi'; Gallica ark:/12148/bpt6k109867v is linked but access to full scan was blocked at time of this research. Existence and title only independently verified.",
+    "reviewed": true
   }
 ]
