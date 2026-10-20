@@ -1,0 +1,198 @@
+[
+  {
+    "id": "doc-001",
+    "date": "1716-05-02",
+    "place": "Paris",
+    "title": "Royal letters patent for Law's bank",
+    "document_kind": "manuscript_regulation",
+    "access_level": "curator_summary_with_images",
+    "reference": "HNOC 2010.0158.1",
+    "established": "Manuscript letters patent authorized Banque Générale. The museum identifies signing by Louis XV and Regent Philippe d'Orléans. Full French clauses require manuscript examination.",
+    "limitations": "The charter's existence and institutional purpose are supported; loan disbursements, personal investors and full wording are not verified.",
+    "sources": [
+      "src-hnoc-law-primary"
+    ],
+    "entities": [
+      "ent-john-law",
+      "ent-french-crown",
+      "ent-banque-generale"
+    ]
+  },
+  {
+    "id": "doc-002",
+    "date": "1720-04-20",
+    "place": "Paris",
+    "title": "Order restricting paper-for-large-silver-coin exchange",
+    "document_kind": "royal_monetary_order",
+    "access_level": "curator_summary_with_images",
+    "reference": "HNOC 2023.0082.2",
+    "established": "The Council of State order restricted exchange of banknotes for large silver coins during Law's crisis.",
+    "limitations": "An order is not a record of how many coins were actually exchanged, nor proof of any particular counterparty.",
+    "sources": [
+      "src-hnoc-law-primary"
+    ],
+    "entities": [
+      "ent-french-crown",
+      "ent-banque-royale"
+    ]
+  },
+  {
+    "id": "doc-003",
+    "date": "1720-08-30",
+    "place": "Paris",
+    "title": "Royal order to inventory and burn designated banknotes",
+    "document_kind": "royal_monetary_order",
+    "access_level": "curator_summary_with_images",
+    "reference": "HNOC 2021.0237.21",
+    "established": "The edict names Baussan and Bertin as officials tasked with reporting on specified notes and ensuring their destruction.",
+    "limitations": "No banknote destruction totals or completed burning certificates extracted from the original manuscript.",
+    "sources": [
+      "src-hnoc-law-primary"
+    ],
+    "entities": [
+      "ent-french-crown",
+      "ent-banque-royale"
+    ]
+  },
+  {
+    "id": "doc-004",
+    "date": "1720",
+    "place": "London",
+    "title": "Hutcheson public letter challenging South Sea stock calculations",
+    "document_kind": "printed_criticism",
+    "access_level": "bibliographic_record_only",
+    "reference": "Wellcome work yy3prd74; ECCO edition",
+    "established": "A pamphlet by Archibald Hutcheson responds to share valuation printed in the White-Hall Evening-Post.",
+    "limitations": "The bibliographic record identifies a public discussion, but no original numerical calculation or private recipient communication has been transcribed.",
+    "sources": [
+      "src-hutcheson-stock-letter"
+    ],
+    "entities": [
+      "ent-archibald-hutcheson",
+      "ent-south-sea"
+    ]
+  },
+  {
+    "id": "doc-005",
+    "date": "1720",
+    "place": "Amsterdam",
+    "title": "Satire showing John Law and Amsterdam's English coffee house",
+    "document_kind": "printed_market_satire",
+    "access_level": "museum_catalogue_description",
+    "reference": "Wellcome 811589i",
+    "established": "An etching depicts share traders in an English coffee house in Amsterdam and includes a bust of John Law and the Parisian Quincampoix street reference.",
+    "limitations": "Images satirize market life; depicted individuals or transactions must not be treated as verified actual trades.",
+    "sources": [
+      "src-wellcome-amsterdam-coffeehouse"
+    ],
+    "entities": [
+      "ent-john-law",
+      "ent-amsterdam-share-traders"
+    ]
+  },
+  {
+    "id": "doc-006",
+    "date": "1720",
+    "place": "Leiden",
+    "title": "Surviving Dutch Leydse Courant market coverage, 1719–1720",
+    "document_kind": "newspaper_image_series",
+    "access_level": "indexed_issues_not_transcribed",
+    "reference": "Yale ICF 1720 Project, Leydse Courant image archive",
+    "established": "Digitized issues cover 20 November 1719 through 30 December 1720, offering a dated source to test when news was printed in Dutch markets.",
+    "limitations": "This atlas has not extracted any issue's specific quoted prices or communications; no information-lag estimate is claimed.",
+    "sources": [
+      "src-yale-1720-ledger"
+    ],
+    "entities": [
+      "ent-leydse-courant"
+    ]
+  },
+  {
+    "id": "doc-007",
+    "date": "1720-07",
+    "place": "Rotterdam",
+    "title": "Stad Rotterdam transaction book begins recording financial activity",
+    "document_kind": "financial_transaction_ledger",
+    "access_level": "ledger_series_index_only",
+    "reference": "Yale ICF, Stad Rotterdam Transaction Book, pp.1–300, July 16–24 1720",
+    "established": "Yale indexes original Rotterdam discount-company transactions starting July 16, 1720 and books extending to 1723, which offer a route for reconstructing counterparties.",
+    "limitations": "No named counterparty, transaction value or British/French security purchase is asserted without reading the ledger page.",
+    "sources": [
+      "src-yale-1720-ledger"
+    ],
+    "entities": [
+      "ent-stad-rotterdam-1720"
+    ]
+  },
+  {
+    "id": "doc-008",
+    "date": "1721-01-24",
+    "place": "Lorient",
+    "title": "Passenger list for Louisiana, January 1720–January 1721",
+    "document_kind": "archival_passenger_list",
+    "access_level": "catalogue_metadata_only",
+    "reference": "ANOM COL G1 464, 68 images, record 31224",
+    "established": "Archive listing identifies a list of people registered for Louisiana voyages from Lorient over January 1720–January 1721.",
+    "limitations": "The listing itself does not prove that each individual embarked, survived, was free or enslaved, arrived, or settled. Do not derive demographic totals.",
+    "sources": [
+      "src-anom-passengers-1721"
+    ],
+    "entities": [
+      "ent-french-crown"
+    ]
+  },
+  {
+    "id": "doc-009",
+    "date": "1721-06-28",
+    "place": "Biloxi (Fort Louis de la Mobile vicinity)",
+    "title": "Diron census of Mobile and surrounding settlements",
+    "document_kind": "archival_colonial_census",
+    "access_level": "catalogue_metadata_only",
+    "reference": "ANOM COL G1 464, 7 images, record 31234",
+    "established": "Archive catalogue identifies a census organized by households, people categorized as servants/enslaved, and livestock.",
+    "limitations": "The colonial categories dehumanized enslaved people and do not convey their names or experiences equally. Totals remain unverified.",
+    "sources": [
+      "src-anom-census-mobile-1721"
+    ],
+    "entities": [
+      "ent-inspector-diron",
+      "ent-enslaved-africans-french-louisiana"
+    ]
+  },
+  {
+    "id": "doc-010",
+    "date": "1721-11-24",
+    "place": "New Orleans",
+    "title": "Census of New Orleans and nearby concessions, appended to Diron's letter",
+    "document_kind": "archival_colonial_census",
+    "access_level": "catalogue_metadata_only",
+    "reference": "ANOM COL G1 464, 12 images, record 31235; attached letter dated 1722-01-02",
+    "established": "A signed census reports people, French servants, enslaved laborers, and agricultural conditions; metadata identifies Diron and co-signers.",
+    "limitations": "Neither demographic totals nor individual identity matches have been extracted, and colonial counts may exclude independent Indigenous communities.",
+    "sources": [
+      "src-anom-census-no-1721"
+    ],
+    "entities": [
+      "ent-inspector-diron",
+      "ent-enslaved-africans-french-louisiana"
+    ]
+  },
+  {
+    "id": "doc-011",
+    "date": "1720",
+    "place": "London",
+    "title": "English-language printed account explicitly describing Mr Law's Mississippi Company",
+    "document_kind": "cross_channel_pamphlet",
+    "access_level": "bibliographic_record_only",
+    "reference": "BnF Gallica ark:/12148/bpt6k109867v (scan fetch denied)",
+    "established": "The BnF curated list identifies a 1720 English-language account of the French Mississippi Company, direct evidence that an English-language explanation circulated in print.",
+    "limitations": "Publication place, author, readership, full argument, and involvement of South Sea directors remain unverified in this research pass.",
+    "sources": [
+      "src-bnf-english-law-1720"
+    ],
+    "entities": [
+      "ent-john-law",
+      "ent-compagnie-indes-france"
+    ]
+  }
+]
