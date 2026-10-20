@@ -600,13 +600,18 @@
     "id": "archives1720",
     "title": "Paris–London–Amsterdam: What the Surviving Records Actually Show",
     "period": "1716–1721",
-    "summary": "Specific original royal banking orders, contemporary financial criticism, Dutch market and print archives, and French Louisiana colonial lists survive. They document public laws, reports, and market channels, but do not yet establish a named private investor exchanging instructions between Paris, London and Amsterdam. A newly located 23 December 1719 signed manuscript acknowledgment records delivery of 20 shares from a named court servant to an unidentified bearer, supplying one bounded financial relationship.",
+    "summary": "Specific original royal banking orders, contemporary financial criticism, Dutch market and print archives, and French Louisiana colonial lists survive. They document public laws, reports, and market channels, but do not yet establish a named private investor exchanging instructions between Paris, London and Amsterdam. A newly located 23 December 1719 signed manuscript acknowledgment records delivery of 20 shares from a named court servant to an unidentified bearer, supplying one bounded financial relationship. Three specific Dutch newspaper items from February, April and June 1720 have now been examined in Yale's modern curated translation; secondary printed reproductions of the November 1721 colonial census give provisional population figures with unresolved category differences.",
     "summary_sources": [
       "src-hnoc-law-primary",
       "src-yale-1720-ledger",
       "src-wellcome-amsterdam-coffeehouse",
       "src-anom-census-no-1721",
-      "src-hnoc-mss606-findingaid"
+      "src-hnoc-mss606-findingaid",
+      "src-yale-leydse-1720-feb26",
+      "src-yale-leydse-1720-apr22",
+      "src-yale-leydse-1720-jun14",
+      "src-deiler-german-coast-1910",
+      "src-villiers-neworleans-1917"
     ],
     "decision_making": "The French regent and Law used royal orders to regulate banknotes and specie exchange; British pamphleteers publicly questioned South Sea values; Dutch newspapers, trading venues and company ledgers registered the 1720 market events. In Louisiana, colonial officials counted populations and tracked movements within systems of coerced settlement and enslavement. These forms of evidence have different creators, audiences and limits.",
     "decision_sources": [
@@ -659,6 +664,26 @@
           "src-bnf-indigenous-knowledge",
           "src-bnf-vidal-no"
         ]
+      },
+      {
+        "label": "Dated newspaper reporting is real but precise transmission speed remains unproven",
+        "claim": "Dutch newspaper items explicitly described February South Sea share quotations, April Paris monetary conditions and a June London political dispatch. Their authors and editors transmitted information in public print, but the source date and final Dutch issue date must not be confused, and no specific personal trading instruction is proven.",
+        "status": "documented",
+        "sources": [
+          "src-yale-leydse-1720-feb26",
+          "src-yale-leydse-1720-apr22",
+          "src-yale-leydse-1720-jun14"
+        ]
+      },
+      {
+        "label": "Secondhand census summaries require reconciliation",
+        "claim": "Deiler's early twentieth-century reproduction gives 177 African and 21 Indigenous enslaved people in 1721 New Orleans, while de Villiers reports 470 town inhabitants including 277 Europeans. Scope and category differences mean these values cannot safely be combined into one audited count before folio review.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-deiler-german-coast-1910",
+          "src-villiers-neworleans-1917",
+          "src-anom-census-no-1721"
+        ]
       }
     ],
     "open_questions": [
@@ -668,7 +693,9 @@
       "What do all 68 passenger-list folios and 12 New Orleans census images reveal about named people, and who is uncounted or classified in dehumanizing colonial terms?",
       "Can the New Orleans census be read with Indigenous diplomatic records and histories written by descendants, rather than treating officials' categories as neutral facts?",
       "How many banknotes were actually destroyed under the August 30 edict, and what receipt or audit proves the operation?",
-      "Can HNOC MSS606 Folder 4 (2010.0158.20) be consulted to transcribe the equity certificate, confirm its exact share class, identity of the bearer, endorsement, and whether Imbert received payment?"
+      "Can HNOC MSS606 Folder 4 (2010.0158.20) be consulted to transcribe the equity certificate, confirm its exact share class, identity of the bearer, endorsement, and whether Imbert received payment?",
+      "What is the original Leydse Courant publication date for London dispatch dated June 14, 1720, and how many days after the relevant London legal step did it appear?",
+      "Reconcile the New Orleans population totals and the enslaved/non-enslaved categories in Deiler and de Villiers against all twelve original ANOM census images, without extrapolating figures to the whole Louisiana colony."
     ],
     "events": [
       "evt-1716-law-charter-archive",
@@ -679,7 +706,10 @@
       "evt-1721-jan-passenger-list",
       "evt-1721-mobile-census",
       "evt-1721-no-census",
-      "evt-1719-20shares-receipt"
+      "evt-1719-20shares-receipt",
+      "evt-1720-dutch-feb-prices",
+      "evt-1720-dutch-apr-paris",
+      "evt-1720-dutch-jun-london"
     ],
     "entities": [
       "ent-john-law",
