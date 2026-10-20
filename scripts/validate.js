@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const load = (n) => JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', n + '.json'), 'utf8'));
 const sources = load('sources'), events = load('events'), entities = load('entities');
-const rels = load('relationships'), cases = load('cases'), systems = load('systems'), dominoes = load('dominoes'), financial = load('financial_flows'), ownership = load('ownership_overlap'), comparisons = load('comparisons'), documents = load('archival_documents'), routes = load('information_routes');
+const rels = load('relationships'), cases = load('cases'), systems = load('systems'), dominoes = load('dominoes'), financial = load('financial_flows'), ownership = load('ownership_overlap'), comparisons = load('comparisons'), documents = load('archival_documents'), routes = load('information_routes'), extracts = load('source_extracts');
 const STATUS = ['documented', 'interpretation', 'supported interpretation', 'unresolved', 'speculation'];
 const errors = [];
 const ids = (arr, name) => {
@@ -13,7 +13,7 @@ const ids = (arr, name) => {
   return s;
 };
 const S = ids(sources, 'sources'), E = ids(events, 'events'), N = ids(entities, 'entities');
-const C = ids(cases, 'cases'); ids(rels, 'relationships'); ids(systems, 'systems'); ids(dominoes, 'dominoes'); ids(financial, 'financial'); ids(ownership, 'ownership_overlap'); ids(comparisons, 'comparisons'); ids(documents, 'archival_documents'); ids(routes, 'information_routes');
+const C = ids(cases, 'cases'); ids(rels, 'relationships'); ids(systems, 'systems'); ids(dominoes, 'dominoes'); ids(financial, 'financial'); ids(ownership, 'ownership_overlap'); ids(comparisons, 'comparisons'); ids(documents, 'archival_documents'); ids(routes, 'information_routes'); ids(extracts, 'source_extracts');
 const bySource = Object.fromEntries(sources.map(s => [s.id, s]));
 const need = (list, set, ctx) => (list || []).forEach(i => { if (!set.has(i)) errors.push(ctx + ': unknown reference ' + i); });
 const validStatus = (obj, ctx) => { if (!STATUS.includes(obj.status)) errors.push(ctx + ': bad/missing status ' + obj.status); };
@@ -148,5 +148,26 @@ routes.forEach(r => {
   else r.documents.forEach(id=>{if(!archiveIds.has(id)) errors.push(r.id+': unknown document '+id)});
   validStatus(r,r.id); cite(r,r.id,r.status==='documented');
 });
+const readingLevels = new Set(['curated_modern_translation','curated_modern_translation_and_image','historical_secondary_transcription_not_verified_against_original']);
+const allowedNumUnits = new Set(['quotation_unspecified','forecast_not_transaction','schemes_reportedly_identified','people_reported_by_deiler','people_reported_by_villiers']);
+extracts.forEach(x => {
+  validDate(x.date,x.id);
+  if (!x.title || !x.date_role || !x.place || !x.record_kind || !x.paraphrase || !x.limitations || !x.language_original) errors.push(x.id + ': incomplete source reading');
+  if (!readingLevels.has(x.reading_level)) errors.push(x.id + ': do not promote mediated material to direct original transcription');
+  if (!['nl','fr'].includes(x.language_original)) errors.push(x.id + ': unidentified original language');
+  need([x.event],E,x.id);
+  need([x.case],C,x.id);
+  const event = events.find(e => e.id===x.event);
+  const study = cases.find(c => c.id===x.case);
+  if (event && event.case !== x.case) errors.push(x.id + ': linked event must belong to case');
+  if (study && !study.events.includes(x.event)) errors.push(x.id + ': event not listed in case');
+  if (!Array.isArray(x.reported_numbers)) errors.push(x.id + ': reported numbers array missing');
+  else x.reported_numbers.forEach(n => {
+    if (!Number.isFinite(n.value) || n.value < 0 || !n.meaning || !allowedNumUnits.has(n.unit)) errors.push(x.id + ': unsupported numeric claim without interpretation');
+  });
+  cite(x,x.id,true);
+  if (x.reading_level === 'historical_secondary_transcription_not_verified_against_original' && !/original|folio/i.test(x.limitations)) errors.push(x.id + ': state explicit primary-folio limitation');
+  if (x.date_role === 'london_dispatch_date_not_dutch_print_date' && !/not.*publication|not.*printing|not.*issue|not.*date/i.test(x.limitations)) errors.push(x.id + ': do not equate dispatch and newspaper publication');
+});
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
-console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records, ' + ownership.length + ' ownership aggregates, ' + comparisons.length + ' country comparisons, ' + documents.length + ' original records, ' + routes.length + ' information channels');
+console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records, ' + ownership.length + ' ownership aggregates, ' + comparisons.length + ' country comparisons, ' + documents.length + ' original records, ' + routes.length + ' information channels, ' + extracts.length + ' attributed readings');

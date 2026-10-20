@@ -74,5 +74,43 @@
     ],
     "documents": [],
     "named_correspondent_verified": false
+  },
+  {
+    "id": "route-005",
+    "from": "Paris",
+    "to": "Leiden",
+    "date": "1720-04-22",
+    "channel": "Dutch newspaper report with a Paris dateline on stopped banknote cash payments",
+    "evidence_kind": "curated_translated_periodical",
+    "confidence": "report_text_verified_edition_date_not_a_transit_measure",
+    "interpretation": "Yale supplies a translated Leydse Courant report headed Paris, 22 April 1720 describing suspension of cash payments for French bank bills. This documents that Paris financial news entered a Dutch newspaper; without issue dating and editorial transit evidence, no numerical communication delay or individual messenger is established.",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-yale-leydse-1720-apr22"
+    ],
+    "documents": [
+      "doc-006"
+    ],
+    "named_correspondent_verified": false
+  },
+  {
+    "id": "route-006",
+    "from": "London",
+    "to": "Leiden",
+    "date": "1720-06-14",
+    "channel": "Dutch newspaper clipping reproducing a London-dated parliamentary report",
+    "evidence_kind": "curated_translated_periodical",
+    "confidence": "london_dispatch_date_verified_publication_delay_unknown",
+    "interpretation": "Yale publishes the Dutch clipping headed London 14 June 1720 reporting a British parliamentary committee's scrutiny of financial promotions. The London dateline is not automatically the Dutch publication date; no named personal correspondent or private financial order is authenticated.",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-yale-leydse-1720-jun14"
+    ],
+    "documents": [
+      "doc-006"
+    ],
+    "named_correspondent_verified": false
   }
 ]

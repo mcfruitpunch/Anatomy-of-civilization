@@ -16,9 +16,10 @@ const ownership = readJson('ownership_overlap');
 const comparisons = readJson('comparisons');
 const archiveDocs = readJson('archival_documents');
 const routes = readJson('information_routes');
+const extracts = readJson('source_extracts');
 const ids = ['search', 'case-filter', 'year-from', 'year-to', 'timeline-list',
   'event-detail', 'rel-filter', 'entity-filter', 'verified-only', 'clear-focus',
-  'graph', 'entity-detail', 'network-list', 'case-list', 'system-list', 'source-list', 'domino-list', 'domino-count', 'finance-list', 'finance-count', 'ownership-list', 'ownership-count', 'comparison-list', 'comparison-count', 'archive-list', 'archive-count', 'route-list'];
+  'graph', 'entity-detail', 'network-list', 'case-list', 'system-list', 'source-list', 'domino-list', 'domino-count', 'finance-list', 'finance-count', 'ownership-list', 'ownership-count', 'comparison-list', 'comparison-count', 'archive-list', 'archive-count', 'route-list', 'excerpt-list', 'excerpt-count'];
 for (const id of ids) {
   assert(new RegExp('id="' + id + '"').test(html), 'Missing UI control or target: ' + id);
   assert(js.includes("'"+id+"'"), 'Explorer does not reference control: ' + id);
@@ -94,4 +95,12 @@ for (const r of routes) {
   assert(r.documents.every(id=>archiveIds.has(id)),'Route contains broken archive link');
   assert(r.sources?.length,'Cross-border route requires a cited source');
 }
-console.log('OK: country comparisons, archive evidence layers, named correspondence safeguards and financial states');
+assert(html.includes('href="#excerpts"') && js.includes('renderExcerpts()'), 'Source readings are not publicly navigable');
+assert(extracts.length >= 5,'No historically attributed source readings');
+assert(extracts.every(x=>x.sources?.length && x.limitations && x.event),'Readings need event, locator and caveats');
+assert(extracts.every(x=>!x.reading_level.includes('original_folio_verified')),'No unverified direct archival transcription');
+assert(extracts.some(x=>x.date_role === 'london_dispatch_date_not_dutch_print_date'),'News dateline qualification missing');
+assert(extracts.some(x=>x.reported_numbers.some(n=>n.unit === 'forecast_not_transaction')),'Speculation must not appear as settled trade');
+assert(extracts.some(x=>x.reported_numbers.some(n=>n.unit === 'people_reported_by_deiler')),'Historian census categories absent');
+assert(routes.some(x=>x.from==='Paris'&&x.to==='Leiden')&&routes.some(x=>x.from==='London'&&x.to==='Leiden'),'Dated Dutch public news channels missing');
+console.log('OK: source readings, qualified newspaper dates, colonial census caveats, archive and finance explorer');

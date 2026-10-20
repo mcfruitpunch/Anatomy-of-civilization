@@ -1011,5 +1011,54 @@
     "sources": [
       "src-hnoc-mss606-findingaid"
     ]
+  },
+  {
+    "id": "evt-1720-dutch-feb-prices",
+    "date": "1720-02-26",
+    "title": "Dutch newspaper reports South Sea share quotations and speculative expectations",
+    "summary": "A February 26 item presented by Yale from the Leydse Courant reports successive South Sea share figures of 177 and 184, with traders predicting 200. The quoted figures are not confirmed exchange-ledger transactions and their units require verification.",
+    "case": "archives1720",
+    "entities": [
+      "ent-leydse-courant",
+      "ent-south-sea"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-yale-leydse-1720-feb26"
+    ]
+  },
+  {
+    "id": "evt-1720-dutch-apr-paris",
+    "date": "1720-04-22",
+    "title": "Dutch report from Paris describes a halt to banknote cash redemption",
+    "summary": "Yale's translated 22 April 1720 Leydse Courant item reports that cash payments on French bank bills had ceased the previous day. Its suggestion of deliberate market obstruction is an unverified contemporary suspicion.",
+    "case": "archives1720",
+    "entities": [
+      "ent-leydse-courant",
+      "ent-banque-royale",
+      "ent-john-law"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-yale-leydse-1720-apr22"
+    ]
+  },
+  {
+    "id": "evt-1720-dutch-jun-london",
+    "date": "1720-06-14",
+    "title": "London dispatch reproduced in Dutch press reports committee scrutiny of promotion schemes",
+    "summary": "A London-dated Dutch clipping translated by Yale reports parliamentary examination of some 70 proposed or irregular company schemes and an expected legislative response. The date is the London dispatch date, not independently the Dutch printing date.",
+    "case": "archives1720",
+    "entities": [
+      "ent-leydse-courant",
+      "ent-parliament"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-yale-leydse-1720-jun14"
+    ]
   }
 ]
