@@ -345,12 +345,13 @@
     const valueLabel = record => record.flow_state === 'authorized_no_transfer' ? 'Transfer NOT executed' : record.flow_state === 'policy_target_not_cash_flow' ? (record.value.toLocaleString('en-GB') + ' French livres · proposed refinancing target, not paid') : record.value === null ? 'Amount not stated' :
       record.unit === 'GBP' ? ('£' + record.value.toLocaleString('en-GB') + ' historical') :
       record.unit === 'percent_of_sales' ? (record.value + '% of sales, conditional') :
+      record.unit === 'shares' ? (record.value + ' share units · price unknown') :
       (record.value + ' ' + record.unit);
     $('finance-list').replaceChildren(...(list.length ? list.map(f => make('article',
       { className: 'card money-card' },
       make('p', { className: 'eyebrow' }, f.date + ' · ' + readableType(f.kind)),
       make('h3', {}, f.title),
-      make('p', {}, pill(valueLabel(f), f.flow_state === 'documented_historical_loan' ? 'documented' : 'pending')),
+      make('p', {}, pill(valueLabel(f), ['documented_historical_loan','archival_share_receipt_no_cash_value'].includes(f.flow_state) ? 'documented' : 'pending')),
       make('p', { className: 'money-flow' }, actorButton(f.from), ' → ', f.to.map(actorButton)),
       make('p', { className: 'small' }, make('strong', {}, 'Evidence status: '), readableType(f.flow_state)),
       make('p', {}, f.description),
