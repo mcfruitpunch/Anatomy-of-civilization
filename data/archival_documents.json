@@ -194,5 +194,42 @@
       "ent-john-law",
       "ent-compagnie-indes-france"
     ]
+  },
+  {
+    "id": "doc-012",
+    "date": "1719-12-23",
+    "place": "Paris",
+    "title": "Signed one-page manuscript acknowledging 20 bank-equity shares",
+    "document_kind": "signed_financial_receipt",
+    "access_level": "archival_finding_aid_only",
+    "reference": "HNOC MSS 606 Folder 4, accession 2010.0158.20, PDF finding aid printed p. 2",
+    "established": "Frenier signed a document certifying an unidentified bearer received twenty shares from Mr. Imbert, the Duke of Orléans's first valet. This is a verified archive description of a distinct 1719 financial instrument.",
+    "limitations": "Full French note, price paid, previous holder's ownership and identity of the bearer were not independently read or established. Not evidence of an illicit coordinated network.",
+    "sources": [
+      "src-hnoc-mss606-findingaid"
+    ],
+    "entities": [
+      "ent-imbert-valet",
+      "ent-frenier-signatory",
+      "ent-unidentified-bearer-1719"
+    ]
+  },
+  {
+    "id": "doc-013",
+    "date": "1720-09-02",
+    "place": "Paris",
+    "title": "Original 50-livre Banque Générale bearer banknote",
+    "document_kind": "banknote_original",
+    "access_level": "archival_finding_aid_only",
+    "reference": "HNOC MSS 606 Folder 3, accession 2010.0158.19, PDF finding aid printed p. 2",
+    "established": "The archive lists an original banknote for fifty livres tournois, serial number handwritten, signed in print at Paris on September 2, 1720 by five named officials and promising payment to bearer.",
+    "limitations": "Face value and promised redemption are not a record that any bearer redeemed the note. Names of actual holders, cash exchanged and later valuation have not been checked.",
+    "sources": [
+      "src-hnoc-mss606-findingaid"
+    ],
+    "entities": [
+      "ent-banque-generale",
+      "ent-french-crown"
+    ]
   }
 ]
