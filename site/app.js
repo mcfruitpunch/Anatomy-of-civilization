@@ -1,7 +1,7 @@
 (async function () {
   'use strict';
   const $ = id => document.getElementById(id);
-  const collectionNames = ['sources', 'events', 'entities', 'relationships', 'cases', 'systems'];
+  const collectionNames = ['sources', 'events', 'entities', 'relationships', 'cases', 'systems', 'dominoes'];
   const D = {};
   const make = (tag, props = {}, ...contents) => {
     const node = document.createElement(tag);
@@ -80,7 +80,7 @@
   D.cases.forEach(c => caseSelect.append(make('option', { value: c.id, textContent: c.title })));
   sortedEntities.forEach(e => entitySelect.append(make('option', { value: e.id, textContent: e.name })));
   $('stats').replaceChildren(
-    ...[['Events', D.events.length], ['Entities', D.entities.length], ['Connections', D.relationships.length], ['Sources', D.sources.length], ['Investigations', D.cases.length]]
+    ...[['Events', D.events.length], ['Entities', D.entities.length], ['Connections', D.relationships.length], ['Sources', D.sources.length], ['Investigations', D.cases.length], ['Dominoes', D.dominoes.length]]
       .map(([name, count]) => make('span', {}, make('strong', {}, String(count)), name))
   );
   $('load-status').textContent = 'Research dataset loaded · Source review is ongoing';
@@ -159,6 +159,51 @@
     }
   }
 
+
+  function goToEvent(id) {
+    const event = eventsById[id];
+    if (!event) return;
+    state.eventId = id;
+    state.caseId = event.case;
+    caseSelect.value = event.case;
+    state.query = '';
+    $('search').value = '';
+    const year = dateYear(event.date);
+    if (state.yearFrom > year || !Number.isFinite(state.yearFrom)) {
+      state.yearFrom = year;
+      $('year-from').value = year;
+    }
+    if (state.yearTo < year || !Number.isFinite(state.yearTo)) {
+      state.yearTo = year;
+      $('year-to').value = year;
+    }
+    render();
+    $('timeline').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+  function renderDominoes() {
+    const caseEvents = state.caseId ? new Set(casesById[state.caseId].events) : null;
+    const list = D.dominoes.filter(d => (!caseEvents || caseEvents.has(d.from) || caseEvents.has(d.to)) &&
+      matches(d.mechanism, d.claim, eventsById[d.from]?.title, eventsById[d.to]?.title));
+    $('domino-count').textContent = list.length + ' connections';
+    $('domino-list').replaceChildren(...(list.length ? list.map(d => {
+      const previous = eventsById[d.from], next = eventsById[d.to];
+      const from = make('button', { type: 'button', className: 'domino-event' },
+        make('span', { className: 'domino-year' }, previous.date),
+        make('strong', {}, previous.title));
+      const to = make('button', { type: 'button', className: 'domino-event' },
+        make('span', { className: 'domino-year' }, next.date),
+        make('strong', {}, next.title));
+      from.addEventListener('click', () => goToEvent(previous.id));
+      to.addEventListener('click', () => goToEvent(next.id));
+      return make('li', { className: 'domino-card' },
+        make('div', { className: 'domino-events' }, from,
+          make('span', { className: 'domino-arrow', 'aria-hidden': 'true' }, '→'), to),
+        make('p', {}, pill(d.mechanism), statusPill(d), reviewPill(d)),
+        make('p', {}, d.claim),
+        citations(d.sources));
+    }) : [make('li', {}, empty('No event-to-event connections match these filters.'))]));
+  }
+
   function shownRelationships() {
     return D.relationships.filter(rel =>
       sameCase(rel, state.caseId) &&
@@ -219,14 +264,7 @@
     if (state.focusId && ids.includes(state.focusId)) {
       positions[state.focusId] = [480, 260];
       polar(ids.filter(id => id !== state.focusId), 480, 260, 175);
-    } else if (!state.caseId) {
-      const left = ids.filter(id => casesById.beic?.entities.includes(id));
-      const right = ids.filter(id => !left.includes(id));
-      polar(left, 238, 260, 170);
-      polar(right, 722, 260, 178);
-      svg.append(svgNode('text', { x: 238, y: 27, 'text-anchor': 'middle', class: 'node-caption' }, 'East India Company'));
-      svg.append(svgNode('text', { x: 722, y: 27, 'text-anchor': 'middle', class: 'node-caption' }, 'Iran 1953'));
-    } else polar(ids, 480, 260, 176);
+    } else polar(ids, 480, 260, 192);
     visibleRels.forEach(rel => {
       const a = positions[rel.from], b = positions[rel.to];
       if (!a || !b) return;
@@ -310,7 +348,7 @@
       s.locator ? make('p', { className: 'source-locator' }, 'Locator: ' + s.locator) : empty('Exact passage not yet reviewed.')
     )) : [make('li', {}, empty('No sources match the search.'))]));
   }
-  function render() { renderTimeline(); renderNetwork(); renderCases(); renderSystems(); renderSources(); }
+  function render() { renderTimeline(); renderDominoes(); renderNetwork(); renderCases(); renderSystems(); renderSources(); }
   function updateFilters() {
     state.query = clean($('search').value.trim());
     state.caseId = caseSelect.value;
