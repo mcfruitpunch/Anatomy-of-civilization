@@ -784,5 +784,86 @@
       "src-hnoc-mss606-findingaid"
     ],
     "verification": "reviewed"
+  },
+  {
+    "id": "ent-choctaw-nation",
+    "type": "indigenous_nation",
+    "name": "Choctaw Nation (Chahta) and constituent communities",
+    "years": "continuing",
+    "description": "Sovereign Indigenous nation with politically active leaders, towns and diplomatic traditions. The 1721 demand for a trading post was advanced by Choctaw representatives; communities' interests and choices varied. Modern Choctaw Nation historical accounts are prioritized alongside colonial documents.",
+    "sources": [
+      "src-musco-ellis-spring-2025",
+      "src-choctaw-fort-tombecbe-2023",
+      "src-choctaw-economics-2019"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-biloxi-trade-council",
+    "type": "government",
+    "name": "French Council of Commerce at Biloxi (1721)",
+    "years": "1721",
+    "description": "French colonial council that, according to published scholarship citing ANOM C13A vol.6 fol.146, agreed in February 1721 to Choctaw requests for a trading establishment. Exact day differs within the cited scholarly edition and original folio has not been consulted.",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-youanis-post",
+    "type": "commercial_post",
+    "name": "Youanis (Haiyowvni) trading post",
+    "years": "1730 onward",
+    "description": "French trading installation established in 1730 within Choctaw country following sustained Choctaw diplomatic requests; distinct from Fort Tombecbe, built in 1736. Colonial operations depended on Choctaw political consent and support.",
+    "sources": [
+      "src-musco-ellis-spring-2025",
+      "src-choctaw-haiyowvni-2025"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-choctaw-diplomatic-delegates",
+    "type": "organization",
+    "name": "Choctaw diplomatic representatives in 1720s",
+    "years": "1721–1730",
+    "description": "Collective designation for distinct Choctaw chiefs and diplomatic delegations seeking control over trade access and alliances; specific attendees vary by visit and are not identified from an individual 1721 petition in current files.",
+    "sources": [
+      "src-musco-ellis-spring-2025",
+      "src-choctaw-fort-tombecbe-2023"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-french-superior-council-la",
+    "type": "government",
+    "name": "French Superior Council of Louisiana",
+    "years": "18th century",
+    "description": "French colonial administrative council transmitting 1725 Choctaw demands to Compagnie des Indes and French officials. Source is a published scholarly reading of archival correspondence, not a verified local financial transaction.",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-perier-governor",
+    "type": "person",
+    "name": "Étienne Périer (Louisiana governor)",
+    "years": "c. 1687–1766",
+    "description": "French colonial governor who was part of 1729 negotiations over a Choctaw-country trading post; scholarship documents complex motives and dependence on Choctaw protection. Individual financial payments not inferred.",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-regis-du-roullet",
+    "type": "person",
+    "name": "Louis Joseph Guillaume Régis du Roullet",
+    "years": "18th century",
+    "description": "French officer tasked with Choctaw-country post negotiations and supervision of 1730 Youanis establishment according to 2025 archival historical research.",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ],
+    "verification": "reviewed"
   }
 ]
