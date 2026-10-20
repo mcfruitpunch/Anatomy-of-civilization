@@ -1045,5 +1045,44 @@
     "date": "1721",
     "status": "documented",
     "verification": "reviewed"
+  },
+  {
+    "id": "rel-081",
+    "from": "ent-imbert-valet",
+    "to": "ent-unidentified-bearer-1719",
+    "type": "recorded_delivery_of_20_shares",
+    "note": "A Paris note dated 23 Dec 1719 certifies the bearer received twenty bank-equity shares from Mr. Imbert; signatory Frenier. No cash sale price, personal profit or recipient identity is established.",
+    "sources": [
+      "src-hnoc-mss606-findingaid"
+    ],
+    "date": "1719-12-23",
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-082",
+    "from": "ent-frenier-signatory",
+    "to": "ent-unidentified-bearer-1719",
+    "type": "signed_share_receipt_certificate",
+    "note": "Frenier signed the manuscript acknowledging the bearer received shares from Imbert. Frenier is the signatory, not necessarily the share recipient or transferor, and no personal meeting is proven.",
+    "sources": [
+      "src-hnoc-mss606-findingaid"
+    ],
+    "date": "1719-12-23",
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-083",
+    "from": "ent-imbert-valet",
+    "to": "ent-philippe-orleans",
+    "type": "served_as_first_valet",
+    "note": "MSS606 finding aid identifies Mr. Imbert as first valet of Duke Philippe d'Orléans, creating a documented court-office connection but not proving the Regent arranged the recorded share release.",
+    "sources": [
+      "src-hnoc-mss606-findingaid"
+    ],
+    "date": "1719",
+    "status": "documented",
+    "verification": "reviewed"
   }
 ]
