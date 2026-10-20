@@ -901,5 +901,17 @@
       "src-musco-ellis-spring-2025"
     ],
     "verification": "reviewed"
+  },
+  {
+    "id": "ent-salmon-edme-gatien",
+    "type": "person",
+    "name": "Edme Gatien Salmon",
+    "years": "active in Louisiana 1720s–1730s",
+    "description": "French commissaire-ordonnateur of Louisiana who reported physical state possession of certain Company of Indies property on January 19, 1732, and received a minister's September 2 letter concerning a separate Diron–Company legal case. Original letters must be read to establish all details and personal agency.",
+    "sources": [
+      "src-hnoc-salmon-possession-1732",
+      "src-hnoc-diron-1732-letter-specific"
+    ],
+    "verification": "reviewed"
   }
 ]

@@ -854,5 +854,115 @@
       "ent-french-trade-monopoly-mobile",
       "ent-charles-frederic-merveilleux"
     ]
+  },
+  {
+    "id": "retrocession1731",
+    "title": "Company Withdrawal, Royal Administration and Louisiana's Outstanding Debts (1731–1732)",
+    "period": "1717–1733",
+    "summary": "The French Council issued a retrocession decree on 23 January 1731 and a separate Louisiana Company-debt decree on 24 February 1731 (the debt decree was PRINTED in 1733). A May 1731 law reorganized Louisiana's Superior Council without Company directors. In January 1732, Salmon reported taking possession of certain physical assets for the king. Legal concession, regulatory liabilities, institutional appointments and asset custody are distinct.",
+    "summary_sources": [
+      "src-bnf-retrocession-edict-1731",
+      "src-louisiana-museum-retrocession",
+      "src-hnoc-salmon-possession-1732",
+      "src-bnf-1733-company-debts",
+      "src-umsl-1731-decree-image",
+      "src-columbia-1731-debt-printed-1733",
+      "src-unilim-1731-retrocession"
+    ],
+    "decision_making": "The Company of the Indies had governed Louisiana under a concession following John Law's Company of the West in 1717. After colonial conflict and commercial losses, the Company ceded its administrative concession back to the French Crown in 1731. The surviving government decrees and 1732 Salmon letter show a process of legal withdrawal and asset handover that needed further decisions over exceptions and creditor debts. Distinct Choctaw diplomatic initiatives and contested Mobile trade rights continued across the handover. The royal retrocession document is dated 23 January 1731; an archival catalogue of a separate original debt law shows decree dated 24 February 1731 even though it was printed in a 1733 edition. A royal edict of 22 May 1731 excluded Company directors from the Superior Council.",
+    "decision_sources": [
+      "src-louisiana-museum-retrocession",
+      "src-bnf-retrocession-edict-1731",
+      "src-hnoc-salmon-possession-1732",
+      "src-musco-ellis-spring-2025",
+      "src-columbia-1731-debt-printed-1733",
+      "src-unilim-1731-retrocession"
+    ],
+    "consequences": "A May 1731 royal edict excluded Company directors from the Louisiana Superior Council, helping distinguish public judicial governance from former Company management. In January 1732 Salmon separately reported taking physical possession of forts, buildings and artillery for the king, with exceptions and disputes about Company merchandise. The 1731 debt decree is known from a 1733 printed edition; its text does not establish that all liabilities became Crown obligations, or that the 1732 Diron judgment was paid. People enslaved or living in sovereign Indigenous nations must not be reduced to transferable assets.",
+    "consequences_sources": [
+      "src-hnoc-salmon-possession-1732",
+      "src-bnf-1733-company-debts",
+      "src-hnoc-louisiana-pathfinder",
+      "src-unilim-1731-retrocession",
+      "src-columbia-1731-debt-printed-1733"
+    ],
+    "interpretations": [
+      {
+        "label": "State power resumes after corporate management",
+        "claim": "The Crown took the Company's colonial administrative concession back in 1731; this was a legal and political change, but it was not the disappearance of all private land claims, trade privileges, liabilities or Indigenous nations' sovereignty.",
+        "status": "documented",
+        "sources": [
+          "src-bnf-retrocession-edict-1731",
+          "src-louisiana-museum-retrocession"
+        ]
+      },
+      {
+        "label": "Physical custody is distinguishable from public ownership and assumption of debts",
+        "claim": "The 24 February 1731 debt-regulation decree is a distinct legal act (printed in 1733), preceding Salmon's January 1732 report of physical possession of forts and buildings. Neither fact establishes actual payment to creditors or automatic assumption of all Company liabilities.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-hnoc-salmon-possession-1732",
+          "src-bnf-1733-company-debts",
+          "src-columbia-1731-debt-printed-1733"
+        ]
+      },
+      {
+        "label": "Geographical name collision must not create a false link",
+        "claim": "The 1732 archive index labels an exempt asset site 'Youanis (Yazoo)'; the Choctaw diplomatic study concerns the Haiyowvni/Youanis trade post. These name references are NOT verified as the same place. They must be disambiguated before any relationship is added.",
+        "status": "documented",
+        "sources": [
+          "src-hnoc-salmon-possession-1732",
+          "src-musco-ellis-spring-2025"
+        ]
+      },
+      {
+        "label": "Financial dispute occurred during a wider governance transition",
+        "claim": "A 1732 compensation judgment involving Diron and a Company monopoly was reported amid royal assumption of colonial administration. Whether the judgment's legal debtor was the Crown, Company or another party—and whether money was paid—requires the original court and finance records.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-musco-ellis-spring-2025",
+          "src-hnoc-diron-1732-letter-specific"
+        ]
+      },
+      {
+        "label": "Dates of laws versus dates of later printed editions",
+        "claim": "The 23 January 1731 retrocession decision precedes a 24 February 1731 debt-related decree, whose available print was issued in 1733. A timeline that orders the latter as a 1733 law would be misleading.",
+        "status": "documented",
+        "sources": [
+          "src-umsl-1731-decree-image",
+          "src-columbia-1731-debt-printed-1733"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Read the original French 1731 Council of State retrocession decree and identify which powers, properties, exclusive trading rights and obligations transferred to the Crown on which effective date.",
+      "Compare the 24-page Louisiana Historical Center item 1731-01-24-03 with the final 1731 royal act: document chronology must not be conflated with transfer completion.",
+      "Read Salmon's January 19, 1732 original letter (ANOM C13 15:31) and itemize transferred buildings, forts and artillery and reasons for the exclusions.",
+      "Resolve whether 'Youanis (Yazoo)' in the Salmon abstract can refer to the same location as Choctaw Haiyowvni/Youanis or is a distinct post.",
+      "Read the 1733 Company of Indies debt decree article by article: identify how legal debtors, former directors, creditors and Crown obligations are specified; no liabilities should be guessed.",
+      "Determine who actually owed the 29,000-livre Diron judgment under the 1732 court decree, distinguishing adjudicator from liable entity and actual payer.",
+      "Center Choctaw, Natchez and African-descended people's histories to explain how colonial changes affected safety, territory, forced labor, and trade autonomy.",
+      "Compare the 23 January 1731 retrocession decree's clauses directly with the French legal print; the title page is inspected but operative terms remain unchecked.",
+      "Read the two-page debt decree dated 24 February 1731 (printed 1733), identify rules and liable parties, and assess whether any later 1733 amendment exists separately.",
+      "Inspect the May 22 1731 Superior Council composition decree at ANOM F3 242 fol.190 and identify offices reassigned from Company directors to royal officials."
+    ],
+    "events": [
+      "evt-1717-compagnie-occident",
+      "evt-1731-jan-retrocession-document",
+      "evt-1731-louisiana-retrocession",
+      "evt-1732-salmon-possession",
+      "evt-1731-french-company-debt-decree",
+      "evt-1731-superior-council-reorganization"
+    ],
+    "entities": [
+      "ent-french-crown",
+      "ent-compagnie-occident",
+      "ent-compagnie-indes-france",
+      "ent-salmon-edme-gatien",
+      "ent-french-superior-council-la",
+      "ent-choctaw-nation",
+      "ent-enslaved-africans-french-louisiana",
+      "ent-bernard-diron-dartaguiette"
+    ]
   }
 ]

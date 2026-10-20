@@ -111,6 +111,9 @@ ownership.forEach(o => {
   if (o.verification !== 'reviewed') errors.push(o.id + ': source review missing');
 });
 financial.filter(f=>f.flow_state==='legal_award_not_disbursement').forEach(f=>{
+  if (f.decision_issuer!==f.from || f.award_beneficiary!==f.to[0]) errors.push(f.id+': award parties must be authority and beneficiary, not payer');
+  if (f.payer_verified!==false || f.payer_entity!==null || f.amount_paid_verified!==null || f.payee_receipt_verified!==false) errors.push(f.id+': no identified payer, amount paid or receipt supported');
+  if(f.source_review_level!=='historical_scholarship_citing_original_folio_plus_separate_archive_summary') errors.push(f.id+': original judgment not transcribed, must preserve source review level');
   if(f.unit!=='livres_tournois'||!Number.isFinite(f.value)||f.value<1) errors.push(f.id+': compensation award must retain exact historical livres');
   if(!/not proof|not.*cash|not.*paid|disburs/i.test(f.description)) errors.push(f.id+': compensation must never be presented as verified disbursement');
   if(f.from !== 'ent-french-superior-council-la') errors.push(f.id+': award issuer must be Council, not guessed payer');

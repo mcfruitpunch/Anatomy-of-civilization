@@ -144,5 +144,23 @@
       "src-hnoc-1732-minister-abstract",
       "src-hnoc-diron-1730-abstract"
     ]
+  },
+  {
+    "id": "sys-corporate-retrocession-accountability",
+    "title": "Corporate administrative exit: public powers, remaining assets and private obligations",
+    "description": "French Louisiana reveals that transferring a colonial governing concession from a chartered corporation back to a monarchy is not a single financial payment: formal decrees in January/February 1731, a May 1731 change excluding company directors from the colonial Superior Council, January 1732 asset-possession reports, and unresolved creditors or monopoly compensation must be studied separately. The human rights of enslaved persons and Indigenous nations cannot be reduced to assets.",
+    "cases": [
+      "retrocession1731",
+      "choctawdiplomacy1721",
+      "francemississippi1720"
+    ],
+    "status": "supported interpretation",
+    "sources": [
+      "src-umsl-1731-decree-image",
+      "src-columbia-1731-debt-printed-1733",
+      "src-unilim-1731-retrocession",
+      "src-hnoc-salmon-possession-1732",
+      "src-musco-ellis-spring-2025"
+    ]
   }
 ]

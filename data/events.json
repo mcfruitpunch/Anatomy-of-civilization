@@ -1209,5 +1209,92 @@
       "src-hnoc-1732-minister-abstract",
       "src-musco-ellis-spring-2025"
     ]
+  },
+  {
+    "id": "evt-1731-louisiana-retrocession",
+    "date": "1731-01-23",
+    "title": "French royal decree formally addresses Company's return of Louisiana and Illinois",
+    "summary": "The original 23 January 1731 printed royal Council decree concerns the Company's return of Louisiana and Illinois. The title page is preserved in a university collection; the detailed clauses and exact local effective handover remain unexamined. January 24 is the date of a separate 24-page Louisiana Superior Council document, not the royal decree.",
+    "case": "retrocession1731",
+    "entities": [
+      "ent-compagnie-indes-france",
+      "ent-french-crown"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-retrocession-edict-1731",
+      "src-louisiana-museum-retrocession",
+      "src-unilim-1731-retrocession",
+      "src-umsl-1731-decree-image"
+    ]
+  },
+  {
+    "id": "evt-1731-jan-retrocession-document",
+    "date": "1731-01-24",
+    "title": "New Orleans Superior Council records document connected to Louisiana retrocession",
+    "summary": "Louisiana Historical Center digitizes a 24-page original French administrative item dated January 24, 1731 and catalogued under the retrocession of Louisiana, indexing the Company and named local parties. The handwriting remains untranscribed here; the document date is not asserted to be the operative date when the Company surrendered Louisiana.",
+    "case": "retrocession1731",
+    "entities": [
+      "ent-compagnie-indes-france",
+      "ent-french-superior-council-la",
+      "ent-french-crown"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-lcd-retrocession-1731"
+    ]
+  },
+  {
+    "id": "evt-1732-salmon-possession",
+    "date": "1732-01-19",
+    "title": "Royal fiscal officer reports taking possession of former Company assets",
+    "summary": "HNOC's catalogue of a January 19, 1732 letter says Edme Gatien Salmon reported taking possession for the king of certain forts, buildings and artillery, with explicit exceptions for Illinois, Natchitoches and a site labeled 'Youanis (Yazoo)'. The term must NOT automatically be equated with the Choctaw Haiyowvni post. A dispute over remaining Company merchandise was also noted.",
+    "case": "retrocession1731",
+    "entities": [
+      "ent-salmon-edme-gatien",
+      "ent-french-crown",
+      "ent-compagnie-indes-france"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-hnoc-salmon-possession-1732"
+    ]
+  },
+  {
+    "id": "evt-1731-french-company-debt-decree",
+    "date": "1731-02-24",
+    "title": "French Council of State orders rules concerning former Company's Louisiana debts",
+    "summary": "Columbia Law Library's catalogue gives the legal act date as 24 February 1731 in the title, while the surviving two-page printed edition is dated 1733. No original debt clauses or creditor payment totals have been independently read. Date of enactment and print edition year must not be conflated.",
+    "case": "retrocession1731",
+    "entities": [
+      "ent-french-crown",
+      "ent-compagnie-indes-france"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-1733-company-debts",
+      "src-columbia-1731-debt-printed-1733"
+    ]
+  },
+  {
+    "id": "evt-1731-superior-council-reorganization",
+    "date": "1731-05-22",
+    "title": "Royal edict reforms Louisiana Superior Council and excludes Company directors",
+    "summary": "University of Limoges research cites ANOM COL F3 242 fol.190, a 22 May 1731 royal edict reverting the Superior Council's composition to arrangements from 1716 and excluding Compagnie des Indes directors. This is a documented secondary scholarly reading of a specifically cited original law, not a full direct transcription.",
+    "case": "retrocession1731",
+    "entities": [
+      "ent-french-superior-council-la",
+      "ent-compagnie-indes-france",
+      "ent-french-crown"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-unilim-1731-retrocession"
+    ]
   }
 ]

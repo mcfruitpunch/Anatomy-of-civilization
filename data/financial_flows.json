@@ -225,12 +225,19 @@
     "unit": "livres_tournois",
     "kind": "colonial_commercial_monopoly_legal_compensation",
     "flow_state": "legal_award_not_disbursement",
-    "description": "Musco, Ellis and Spring (2025), citing ANOM C13A 1732 fols.33–33v, report that a Superior Council awarded Bernard Diron d'Artaguiette 29,000 French livres because the new Choctaw-requested post affected his Mobile trade monopoly. This is a judicial compensation AWARD by a council, not proof the council was payer, the Company disbursed cash, the whole sum was collected, or Choctaw people paid the indemnity. Separate 2 September 1732 ministerial approval abstract does not state an amount.",
+    "description": "Musco, Ellis and Spring (2025), citing ANOM C13A 1732 fols.33–33v, report that a Superior Council awarded Bernard Diron d'Artaguiette 29,000 French livres because the new Choctaw-requested post affected his Mobile trade monopoly. This is a judicial compensation AWARD by a council, not proof the council was payer, the Company disbursed cash, the whole sum was collected, or Choctaw people paid the indemnity. Separate 2 September 1732 ministerial approval abstract does not state an amount. No identified party is assigned liability from the available secondary text; the 1733 general company debt decree must not be assumed to cover this award.",
     "case": "choctawdiplomacy1721",
     "sources": [
       "src-musco-ellis-spring-2025",
       "src-hnoc-1732-minister-abstract"
     ],
-    "verification": "reviewed"
+    "verification": "reviewed",
+    "decision_issuer": "ent-french-superior-council-la",
+    "award_beneficiary": "ent-bernard-diron-dartaguiette",
+    "payer_verified": false,
+    "payer_entity": null,
+    "amount_paid_verified": null,
+    "payee_receipt_verified": false,
+    "source_review_level": "historical_scholarship_citing_original_folio_plus_separate_archive_summary"
   }
 ]

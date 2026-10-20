@@ -347,12 +347,24 @@
       record.unit === 'percent_of_sales' ? (record.value + '% of sales, conditional') :
       record.unit === 'shares' ? (record.value + ' share units · price unknown') :
       (record.value + ' ' + record.unit);
+    const confirmedMovement = new Set(['documented_historical_loan','archival_share_receipt_no_cash_value']);
+    const roles = f => f.flow_state === 'legal_award_not_disbursement'
+      ? make('p', { className: 'money-flow legal-decision' },
+          make('strong', {}, 'Decision issued by: '), actorButton(f.decision_issuer),
+          ' · ', make('strong', {}, 'Award beneficiary: '), actorButton(f.award_beneficiary),
+          ' · ', make('strong', {}, 'Payer: '), 'not identified',
+          ' · ', make('strong', {}, 'Paid amount: '), 'not verified')
+      : confirmedMovement.has(f.flow_state)
+        ? make('p', { className: 'money-flow' }, actorButton(f.from), ' → ', f.to.map(actorButton))
+        : make('p', { className: 'money-flow record-parties' },
+            make('strong', {}, 'Record parties (not a confirmed transfer): '),
+            actorButton(f.from), ' / ', f.to.map(actorButton));
     $('finance-list').replaceChildren(...(list.length ? list.map(f => make('article',
       { className: 'card money-card' },
       make('p', { className: 'eyebrow' }, f.date + ' · ' + readableType(f.kind)),
       make('h3', {}, f.title),
       make('p', {}, pill(valueLabel(f), ['documented_historical_loan','archival_share_receipt_no_cash_value','legal_award_not_disbursement'].includes(f.flow_state) ? 'documented' : 'pending')),
-      make('p', { className: 'money-flow' }, actorButton(f.from), ' → ', f.to.map(actorButton)),
+      roles(f),
       make('p', { className: 'small' }, make('strong', {}, 'Evidence status: '), readableType(f.flow_state)),
       make('p', {}, f.description),
       citations(f.sources)
