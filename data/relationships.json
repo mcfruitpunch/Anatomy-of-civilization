@@ -524,5 +524,191 @@
     "status": "documented",
     "verification": "reviewed",
     "date": "1773"
+  },
+  {
+    "id": "rel-042",
+    "from": "ent-william-iii",
+    "to": "ent-bank-england",
+    "type": "chartered",
+    "note": "William III, with Mary II, granted the 1694 charter to a new bank designed to fund government war borrowing.",
+    "sources": [
+      "src-boe-1694-archive",
+      "src-boe-history-1694-1720"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1694"
+  },
+  {
+    "id": "rel-043",
+    "from": "ent-mary-ii",
+    "to": "ent-bank-england",
+    "type": "founding_stockholder",
+    "note": "Mary II and William III were among original Bank stockholders; archive details a combined royal £10,000 Bank-stock investment.",
+    "sources": [
+      "src-boe-1694-archive"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1694"
+  },
+  {
+    "id": "rel-044",
+    "from": "ent-william-iii",
+    "to": "ent-bank-england",
+    "type": "founding_stockholder",
+    "note": "William III and Mary II invested in original Bank stock according to first stock ledger.",
+    "sources": [
+      "src-boe-1694-archive"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1694"
+  },
+  {
+    "id": "rel-045",
+    "from": "ent-john-houblon",
+    "to": "ent-bank-england",
+    "type": "led",
+    "note": "John Houblon was appointed the Bank's first governor.",
+    "sources": [
+      "src-boe-history-1694-1720"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1694"
+  },
+  {
+    "id": "rel-046",
+    "from": "ent-bank-england",
+    "to": "ent-crown",
+    "type": "documented_government_loan",
+    "note": "The Bank's founding £1.2m capital financed a government loan at 8% interest, secured by specified taxation.",
+    "sources": [
+      "src-boe-loan-foi",
+      "src-boe-tax-security"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1694"
+  },
+  {
+    "id": "rel-047",
+    "from": "ent-crown",
+    "to": "ent-eic",
+    "type": "granted_chartered_powers",
+    "note": "1661 charter expanded the Company's authority to govern settlements and maintain armed forces.",
+    "sources": [
+      "src-bl-eic-1698"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1661"
+  },
+  {
+    "id": "rel-048",
+    "from": "ent-eic",
+    "to": "ent-crown",
+    "type": "documented_historical_lending",
+    "note": "British Library records £324,150 in aggregate loans from old East India Company to monarch between 1660–1684; this edge covers a period and is not dated as one transfer.",
+    "sources": [
+      "src-bl-eic-1698"
+    ],
+    "status": "documented",
+    "verification": "reviewed"
+  },
+  {
+    "id": "rel-049",
+    "from": "ent-lord-montagu",
+    "to": "ent-general-society-1698",
+    "type": "designed_public_finance_scheme",
+    "note": "Chancellor Charles Montagu prepared a 1698 £2m public-borrowing scheme offering trade privileges to subscribers.",
+    "sources": [
+      "src-bl-eic-1698"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1698"
+  },
+  {
+    "id": "rel-050",
+    "from": "ent-general-society-1698",
+    "to": "ent-english-company-1698",
+    "type": "incorporated_joint_stock_venture",
+    "note": "Most of the public-debt subscribers were incorporated as a joint-stock East India trading company.",
+    "sources": [
+      "src-bl-eic-1698"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1698"
+  },
+  {
+    "id": "rel-051",
+    "from": "ent-eic",
+    "to": "ent-english-company-1698",
+    "type": "recorded_shareholding",
+    "note": "The old East India Company held £315,000 of stock in the rival English Company via treasurer John Du Bois. Record is a stake, not evidence of a new 1698 cash transfer.",
+    "sources": [
+      "src-bl-eic-1698"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1698"
+  },
+  {
+    "id": "rel-052",
+    "from": "ent-eic",
+    "to": "ent-english-company-1698",
+    "type": "corporate_union",
+    "note": "Competing East India companies' stocks and trading were united, with the old company's charter surrendered by 1709.",
+    "sources": [
+      "src-bl-eic-1698",
+      "src-bl-eic-union-1708"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1709"
+  },
+  {
+    "id": "rel-053",
+    "from": "ent-south-sea",
+    "to": "ent-crown",
+    "type": "government_debt_conversion",
+    "note": "South Sea Company issued stock in exchange for government debts as part of the early eighteenth-century debt restructuring system.",
+    "sources": [
+      "src-boe-history-1694-1720",
+      "src-boe-ssc-archive"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1711"
+  },
+  {
+    "id": "rel-054",
+    "from": "ent-south-sea",
+    "to": "ent-bank-england",
+    "type": "competed_for_government_debt",
+    "note": "Contemporary bank archive catalogue identifies competing proposals to Parliament in 1719–1720.",
+    "sources": [
+      "src-boe-ssc-competition"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1720"
+  },
+  {
+    "id": "rel-055",
+    "from": "ent-bank-england",
+    "to": "ent-south-sea",
+    "type": "agreed_stock_purchase",
+    "note": "A Bank archival agreement dated October 23 1722 concerns buying South Sea stock; execution and exact cash transfers require ledger records.",
+    "sources": [
+      "src-boe-ssc-agreement-1722",
+      "src-boe-ssc-proposals-1722"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1722-10-23"
   }
 ]
