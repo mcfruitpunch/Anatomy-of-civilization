@@ -751,22 +751,26 @@
   {
     "id": "choctawdiplomacy1721",
     "title": "Choctaw Sovereignty, Trade Demands and French Colonial Debt",
-    "period": "1721–1730",
-    "summary": "Choctaw communities used diplomacy and the possibility of switching European trade partners to seek an establishment on their land. A French council agreed in 1721, but construction was delayed until 1730. Scholarship suggests disruptions following John Law's financial collapse helped explain delays, but original public account ledgers do not yet demonstrate the direct financing pathway.",
+    "period": "1721–1732",
+    "summary": "Choctaw communities used diplomacy and the possibility of switching European trade partners to seek an establishment on their land. A French council agreed in 1721, but construction was delayed until 1730. Scholarship suggests disruptions following John Law's financial collapse helped explain delays, but original public account ledgers do not yet demonstrate the direct financing pathway. Further research identifies a regulated Mobile trading monopoly whose displacement by the Choctaw-demanded post resulted in a reported 1732 Superior Council compensation award of 29,000 French livres. Actual payment and financing remain unverified.",
     "summary_sources": [
       "src-musco-ellis-spring-2025",
       "src-choctaw-fort-tombecbe-2023",
-      "src-choctaw-economics-2019"
+      "src-choctaw-economics-2019",
+      "src-hnoc-1732-minister-abstract",
+      "src-hnoc-diron-1730-abstract"
     ],
-    "decision_making": "Choctaw representatives initiated requests for better trade access and negotiated within their own diplomatic and territorial systems. Colonial council members accepted the request, while governor Périer and officers later renegotiated location and French security dependence. An ANOM folio is cited for 1721, but the publication lists February 8 in narrative and February 28 in its bibliography: the original day is unresolved.",
+    "decision_making": "Choctaw representatives initiated requests for better trade access and negotiated within their own diplomatic and territorial systems. Colonial council members accepted the request, while governor Périer and officers later renegotiated location and French security dependence. An ANOM folio is cited for 1721, but the publication lists February 8 in narrative and February 28 in its bibliography: the original day is unresolved. A new post also challenged an existing exclusive trade privilege held by Bernard Diron d'Artaguiette, who objected. The Company's preference for avoiding new colonial expenditures was not decisive: Governor Périer proceeded with the post.",
     "decision_sources": [
       "src-musco-ellis-spring-2025",
-      "src-choctaw-fort-tombecbe-2023"
+      "src-choctaw-fort-tombecbe-2023",
+      "src-hnoc-diron-1730-abstract"
     ],
-    "consequences": "The 1721 proposal was not immediately implemented. Correspondence in 1725 shows further demands with the possibility of British trade, and 1729 delegations participated in further negotiation. The Youanis trading post was built in February–March 1730 in Choctaw territory. It was not the separate Fort Tombecbe completed in 1736. Indigenous sovereignty was actively exercised through negotiation, provisioning and protection—not merely overridden by European company charters.",
+    "consequences": "The 1721 proposal was not immediately implemented. Correspondence in 1725 shows further demands with the possibility of British trade, and 1729 delegations participated in further negotiation. The Youanis trading post was built in February–March 1730 in Choctaw territory. It was not the separate Fort Tombecbe completed in 1736. Indigenous sovereignty was actively exercised through negotiation, provisioning and protection—not merely overridden by European company charters. Subsequent research identifies a 1732 award of 29,000 livres to the monopoly holder, with a separate ministry confirmation note catalogued on 2 September 1732. Neither item proves a treasury payment.",
     "consequences_sources": [
       "src-musco-ellis-spring-2025",
-      "src-choctaw-fort-tombecbe-2023"
+      "src-choctaw-fort-tombecbe-2023",
+      "src-hnoc-1732-minister-abstract"
     ],
     "interpretations": [
       {
@@ -803,6 +807,15 @@
           "src-musco-ellis-spring-2025",
           "src-choctaw-fort-tombecbe-2023"
         ]
+      },
+      {
+        "label": "An authorized compensation award does not establish money paid",
+        "claim": "A 2025 scholarly interpretation of ANOM fols.33–33v reports a 1732 Superior Council award of 29,000 French livres to Diron after his exclusive trade rights were disrupted. The archive guide catalogs a September 2 confirmation of a Diron–Company ruling, but cash settlement and exact matching of these original documents require verification.",
+        "status": "documented",
+        "sources": [
+          "src-musco-ellis-spring-2025",
+          "src-hnoc-1732-minister-abstract"
+        ]
       }
     ],
     "open_questions": [
@@ -810,13 +823,21 @@
       "Obtain 1721–1725 colonial accounts showing actual funding or administrative constraints and compare them with historiographical attribution to Law's failure.",
       "Identify the named 1721 Choctaw delegations and their own diplomatic narratives if community-approved records exist, rather than inventing leader identities.",
       "What precise conditions of trade and territory did individual Choctaw districts and towns negotiate, and how did local British trade alternatives differ?",
-      "Locate 1725 Council letters at ANOM C13A vol.9 fol.65v and 129v and 1729–1730 construction and trade records to test what actually happened."
+      "Locate 1725 Council letters at ANOM C13A vol.9 fol.65v and 129v and 1729–1730 construction and trade records to test what actually happened.",
+      "Examine ANOM C13A 1732 fols.33–33v and the 2 September 1732 ministerial letter (B57 p.815) together to determine whether they refer to the same 29,000-livre judgment.",
+      "Does a receipts ledger demonstrate that the 29,000-livre indemnity was disbursed, to whom, on what date and in which currency/instruments?",
+      "What was the original legal term of Diron d'Artaguiette's exclusivity and whether its cancellation involved earlier renewal fees or contract rights?",
+      "Do the February 1730 letter and January 1732 correspondence explain how Choctaw trade needs shaped French material spending and monopolistic prices?"
     ],
     "events": [
       "evt-1721-choctaw-trade-request",
       "evt-1725-choctaw-renewal",
       "evt-1729-choctaw-delegation",
-      "evt-1730-youanis-built"
+      "evt-1730-youanis-built",
+      "evt-1726-merveilleux-proposal",
+      "evt-1729-mobile-monopoly-conflict",
+      "evt-1732-29k-compensation",
+      "evt-1732-sep-ministry-dirons-case"
     ],
     "entities": [
       "ent-choctaw-nation",
@@ -828,7 +849,10 @@
       "ent-youanis-post",
       "ent-perier-governor",
       "ent-regis-du-roullet",
-      "ent-bienville"
+      "ent-bienville",
+      "ent-bernard-diron-dartaguiette",
+      "ent-french-trade-monopoly-mobile",
+      "ent-charles-frederic-merveilleux"
     ]
   }
 ]
