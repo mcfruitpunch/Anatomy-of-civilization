@@ -1175,5 +1175,83 @@
     ],
     "status": "documented",
     "verification": "reviewed"
+  },
+  {
+    "id": "rel-091",
+    "from": "ent-bernard-diron-dartaguiette",
+    "to": "ent-french-trade-monopoly-mobile",
+    "type": "held_exclusive_trading_privilege",
+    "note": "Diron d'Artaguiette held a colonial-authorized exclusive privilege over French trade affecting Choctaw territory in the late 1720s; this did not confer sovereignty over the Choctaw people.",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1729"
+  },
+  {
+    "id": "rel-092",
+    "from": "ent-perier-governor",
+    "to": "ent-french-trade-monopoly-mobile",
+    "type": "challenged_exclusive_privilege",
+    "note": "Périer proceeded with a Choctaw-requested trading post despite existing Diron commercial privileges and Company reluctance about expense.",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1729"
+  },
+  {
+    "id": "rel-093",
+    "from": "ent-french-superior-council-la",
+    "to": "ent-bernard-diron-dartaguiette",
+    "type": "awarded_legal_compensation",
+    "note": "Study citing ANOM C13A 1732 fols.33–33v reports Superior Council awarded Diron 29,000 French livres for loss of exclusive trade interests; not proof of actual funds paid.",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1732"
+  },
+  {
+    "id": "rel-094",
+    "from": "ent-french-crown",
+    "to": "ent-french-superior-council-la",
+    "type": "confirmed_diron_company_ruling",
+    "note": "HNOC archival guide indexes a September 2 1732 ministerial letter approving the Superior Council decision involving Diron and Company of Indies, amount not specified in abstract.",
+    "sources": [
+      "src-hnoc-1732-minister-abstract"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1732-09-02"
+  },
+  {
+    "id": "rel-095",
+    "from": "ent-bernard-diron-dartaguiette",
+    "to": "ent-regis-du-roullet",
+    "type": "disputed_choctaw_post_mission",
+    "note": "Original February 9–10 1730 correspondence is catalogued as mentioning the Diron–Périer conflict over Régis du Roullet's Choctaw visit. This is not evidence that Diron or Roullet conspired financially.",
+    "sources": [
+      "src-hnoc-diron-1730-abstract"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1730-02-09"
+  },
+  {
+    "id": "rel-096",
+    "from": "ent-charles-frederic-merveilleux",
+    "to": "ent-choctaw-nation",
+    "type": "proposed_unadopted_trading_post",
+    "note": "Merveilleux offered a French trade post proposal involving Choctaw territory in 1726, but the proposal was not adopted. He cannot be treated as founding the eventual 1730 post.",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1726"
   }
 ]
