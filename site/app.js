@@ -1,7 +1,7 @@
 (async function () {
   'use strict';
   const $ = id => document.getElementById(id);
-  const collectionNames = ['sources', 'events', 'entities', 'relationships', 'cases', 'systems', 'dominoes', 'financial_flows', 'ownership_overlap', 'comparisons', 'archival_documents', 'information_routes'];
+  const collectionNames = ['sources', 'events', 'entities', 'relationships', 'cases', 'systems', 'dominoes', 'financial_flows', 'ownership_overlap', 'comparisons', 'archival_documents', 'information_routes', 'source_extracts'];
   const D = {};
   const make = (tag, props = {}, ...contents) => {
     const node = document.createElement(tag);
@@ -80,7 +80,7 @@
   D.cases.forEach(c => caseSelect.append(make('option', { value: c.id, textContent: c.title })));
   sortedEntities.forEach(e => entitySelect.append(make('option', { value: e.id, textContent: e.name })));
   $('stats').replaceChildren(
-    ...[['Events', D.events.length], ['Entities', D.entities.length], ['Connections', D.relationships.length], ['Sources', D.sources.length], ['Investigations', D.cases.length], ['Dominoes', D.dominoes.length], ['Financial records', D.financial_flows.length], ['Ownership studies', D.ownership_overlap.length], ['Cross-border comparisons', D.comparisons.length], ['Archival records', D.archival_documents.length], ['Information routes', D.information_routes.length]]
+    ...[['Events', D.events.length], ['Entities', D.entities.length], ['Connections', D.relationships.length], ['Sources', D.sources.length], ['Investigations', D.cases.length], ['Dominoes', D.dominoes.length], ['Financial records', D.financial_flows.length], ['Ownership studies', D.ownership_overlap.length], ['Cross-border comparisons', D.comparisons.length], ['Archival records', D.archival_documents.length], ['Information routes', D.information_routes.length], ['Source readings', D.source_extracts.length]]
       .map(([name, count]) => make('span', {}, make('strong', {}, String(count)), name))
   );
   $('load-status').textContent = 'Research dataset loaded · Source review is ongoing';
@@ -443,6 +443,33 @@
       )) : [empty('Cross-border documentary channels appear in the 1720 finance cases.')]));
   }
 
+  function renderExcerpts() {
+    const relevant = !state.caseId || ['archives1720','francemississippi1720','publicdebt1720'].includes(state.caseId);
+    const entries = relevant ? D.source_extracts.filter(x =>
+      matches(x.title,x.paraphrase,x.place,x.record_kind,x.limitations,
+        ...(x.reported_numbers||[]).map(n=>n.meaning))) : [];
+    $('excerpt-count').textContent = entries.length + ' readings';
+    $('excerpt-list').replaceChildren(...(entries.length ? entries.map(x => {
+      const jump = make('button',{type:'button',className:'inline-button'},'View timeline event ↗');
+      jump.addEventListener('click',()=>goToEvent(x.event));
+      const readings = x.reported_numbers.length
+        ? make('ul',{className:'excerpt-values'},x.reported_numbers.map(n =>
+            make('li',{},make('strong',{},n.value.toLocaleString('en-GB')+' '),
+              make('span',{className:'small quiet'},n.meaning))))
+        : make('p',{className:'small quiet'},'No numeric claim extracted from this report.');
+      return make('article',{className:'card excerpt-card'},
+        make('p',{className:'eyebrow'},x.date+' · '+x.place),
+        make('h3',{},x.title),
+        make('p',{},pill(readableType(x.record_kind)),
+          pill(readableType(x.reading_level),'pending')),
+        make('p',{},x.paraphrase),
+        readings,
+        make('p',{className:'small quiet'},make('strong',{},'Evidence limits: '),x.limitations),
+        citations(x.sources),jump
+      );
+    }) : [empty('These source readings currently cover the 1720–1721 international finance and Louisiana case.')]));
+  }
+
   function renderSources() {
     const list = D.sources.filter(s => matches(s.title, s.author, s.locator));
     $('source-list').replaceChildren(...(list.length ? list.map(s => make('li', { id: 'src-' + s.id },
@@ -454,7 +481,7 @@
       s.locator ? make('p', { className: 'source-locator' }, 'Locator: ' + s.locator) : empty('Exact passage not yet reviewed.')
     )) : [make('li', {}, empty('No sources match the search.'))]));
   }
-  function render() { renderTimeline(); renderDominoes(); renderFinance(); renderOwnership(); renderComparisons(); renderArchives(); renderNetwork(); renderCases(); renderSystems(); renderSources(); }
+  function render() { renderTimeline(); renderDominoes(); renderFinance(); renderOwnership(); renderComparisons(); renderArchives(); renderExcerpts(); renderNetwork(); renderCases(); renderSystems(); renderSources(); }
   function updateFilters() {
     state.query = clean($('search').value.trim());
     state.caseId = caseSelect.value;
