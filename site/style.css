@@ -101,3 +101,8 @@ input,select,button{font:inherit}input[type=search],input[type=number],select{ba
 .archive-card .source-links,.route-card .source-links{margin:.3rem 0}
 .route-card{border-left-color:#a58a58}
 .archive-card .pill.pending,.route-card .pill.pending{white-space:normal}
+
+.excerpt-card{border-left:4px solid #237e75;overflow-wrap:anywhere}
+.excerpt-card .excerpt-values{margin:.65rem 0 1rem;list-style:none;padding:0;display:grid;gap:.3rem}
+.excerpt-values li{background:#f3f8f6;border-radius:6px;padding:.4rem .6rem}
+.excerpt-card .pill.pending{white-space:normal}
