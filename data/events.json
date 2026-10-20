@@ -609,5 +609,94 @@
       "src-boe-ssc-agreement-1722",
       "src-boe-ssc-proposals-1722"
     ]
+  },
+  {
+    "id": "evt-1719-weaver-protests",
+    "date": "1719",
+    "title": "Weavers protest Indian cotton imports amid economic anxieties",
+    "summary": "English silk and wool weavers protested imported Indian calico in London and other towns; some rioters assaulted women wearing calico. Distinct groups and participants had differing actions and demands.",
+    "case": "engraftment1721",
+    "entities": [
+      "ent-weavers-1719",
+      "ent-eic"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-swingen-2024"
+    ]
+  },
+  {
+    "id": "evt-1720-intercompany-meeting",
+    "date": "1720-09",
+    "title": "East India, Bank and South Sea financial representatives discuss rescue",
+    "summary": "The East India Company appointed a committee to meet with representatives of the Bank of England and South Sea Company as credit conditions tightened after the Bubble. Proposals did not equal completed payments.",
+    "case": "engraftment1721",
+    "entities": [
+      "ent-eic",
+      "ent-bank-england",
+      "ent-south-sea",
+      "ent-robert-walpole"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-swingen-2024"
+    ]
+  },
+  {
+    "id": "evt-1721-calico-engraftment",
+    "date": "1721-03-23",
+    "title": "Calico restriction and South Sea Engraftment legislation gain royal assent",
+    "summary": "Two laws became effective as legislation on the same date: one restricted Indian calico in Britain, the other authorized an approach to transferring South Sea Company debt onto Bank and East India Company books. Legal authorization alone did not constitute a transfer.",
+    "case": "engraftment1721",
+    "entities": [
+      "ent-eic",
+      "ent-bank-england",
+      "ent-south-sea",
+      "ent-parliament",
+      "ent-weavers-1719"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-swingen-2024"
+    ]
+  },
+  {
+    "id": "evt-1721-colonial-reexport",
+    "date": "1721-06",
+    "title": "East India Company gains restrictions on rival imports into British colonies",
+    "summary": "New legal rules strengthened East India Company access to imperial markets by restricting British colonial imports of East India goods routed through foreign European suppliers. A debated proposal to permit slave trading from Madagascar was not enacted.",
+    "case": "engraftment1721",
+    "entities": [
+      "ent-eic",
+      "ent-parliament",
+      "ent-board-trade"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-swingen-2024"
+    ]
+  },
+  {
+    "id": "evt-1721-engraftment-unimplemented",
+    "date": "1721",
+    "title": "Debt-engraftment authorization never produces planned transfers",
+    "summary": "The 1721 Engraftment Act lacked compulsion, and neither the Bank of England nor the East India Company actually took over South Sea debt under its scheme. Subsequent plans and 1722 agreements must be investigated independently.",
+    "case": "engraftment1721",
+    "entities": [
+      "ent-bank-england",
+      "ent-eic",
+      "ent-south-sea",
+      "ent-parliament",
+      "ent-robert-walpole"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-swingen-2024"
+    ]
   }
 ]
