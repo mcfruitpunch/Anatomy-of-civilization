@@ -147,5 +147,18 @@
       "src-state-tax1763",
       "src-nps-lexington1775"
     ]
+  },
+  {
+    "id": "dom-012",
+    "from": "evt-1770-bengal-famine",
+    "to": "evt-1773-tea-act",
+    "mechanism": "Contemporary cross-colonial rhetoric",
+    "claim": "In 1773 a New York broadside opposing the tea scheme cited alleged Company oppression and famine in India. This documents the argument made by critics, not the accuracy of their casualty estimates or direct causation of the Tea Act.",
+    "kind": "historical_narrative",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-loc-ny-broadside1773"
+    ]
   }
 ]
