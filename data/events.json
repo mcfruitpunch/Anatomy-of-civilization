@@ -331,5 +331,135 @@
       "src-nps-lexington1775",
       "src-state-tax1763"
     ]
+  },
+  {
+    "id": "evt-1766-eic-bank-extension",
+    "date": "1766-03-20",
+    "title": "Bank of England record concerns extension of an East India Company loan",
+    "summary": "An archival note to East India Company chairman Henry Crabb Boulton concerns prolonging an existing £50,000 Bank of England loan. The catalogue does not establish a new disbursement on this date.",
+    "case": "finance1773",
+    "entities": [
+      "ent-eic",
+      "ent-bank-england",
+      "ent-henry-crabb-boulton"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-bank-1766-loan"
+    ]
+  },
+  {
+    "id": "evt-1772-eic-financial-crisis",
+    "date": "1772",
+    "title": "East India Company faces a financial crisis",
+    "summary": "Financial difficulties after Company expansion prompted British parliamentary investigation and government consideration of relief and oversight.",
+    "case": "finance1773",
+    "entities": [
+      "ent-eic",
+      "ent-parliament"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-uk-parliament-eic-finance",
+      "src-uk-parliament-eic-public"
+    ]
+  },
+  {
+    "id": "evt-1773-eic-loan",
+    "date": "1773",
+    "title": "Parliament authorizes a loan for the East India Company",
+    "summary": "Parliament addressed the Company's crisis through legislation permitting public financial assistance. An 1813 parliamentary review describes a £1.4 million government loan; payment terms and disbursement require direct statutory/account review.",
+    "case": "finance1773",
+    "entities": [
+      "ent-parliament",
+      "ent-eic",
+      "ent-lord-north"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-uk-parliament-eic-finance",
+      "src-uk-hansard-1813"
+    ]
+  },
+  {
+    "id": "evt-1773-clive-burgoyne",
+    "date": "1773-05",
+    "title": "Robert Clive defends his Bengal record before Parliament",
+    "summary": "MP Robert Clive defended himself during several days of Commons debate over a committee investigation chaired by John Burgoyne into East India Company practices in India.",
+    "case": "finance1773",
+    "entities": [
+      "ent-clive",
+      "ent-john-burgoyne",
+      "ent-parliament",
+      "ent-eic"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-uk-parliament-eic-public"
+    ]
+  },
+  {
+    "id": "evt-1773-consignees",
+    "date": "1773-10",
+    "title": "Boston tea consignee appointments become public",
+    "summary": "The Boston Gazette identified Richard Clarke, Benjamin Faneuil and two sons of Governor Hutchinson among expected recipients of East India Company tea; consignments involved prospective commercial commissions.",
+    "case": "finance1773",
+    "entities": [
+      "ent-eic",
+      "ent-clarke-sons",
+      "ent-richard-clarke",
+      "ent-thomas-hutchinson-jr",
+      "ent-elisha-hutchinson",
+      "ent-hutchinson",
+      "ent-benjamin-faneuil-jr",
+      "ent-joshua-winslow",
+      "ent-brook-watson"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-ma-consignees-1773",
+      "src-colonial-hutchinson-1773"
+    ]
+  },
+  {
+    "id": "evt-1773-winslow-letter",
+    "date": "1773-11-18",
+    "title": "Joshua Winslow privately describes anticipated tea commission",
+    "summary": "Tea consignee Joshua Winslow wrote Jotham Gay about the Company's tea scheme, its price advantages and a potentially handsome commission; the letter does not establish that any commission was paid.",
+    "case": "finance1773",
+    "entities": [
+      "ent-joshua-winslow",
+      "ent-jotham-gay",
+      "ent-eic"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-hingham-winslow-letter-1773"
+    ]
+  },
+  {
+    "id": "evt-1773-consignees-petition",
+    "date": "1773-11-19",
+    "title": "Boston tea consignees petition the governor and council",
+    "summary": "Council records cited in a scholarly edition identify a November 19 petition from Richard Clarke, Benjamin Faneuil, Thomas Hutchinson Jr. and Elisha Hutchinson during the tea crisis.",
+    "case": "finance1773",
+    "entities": [
+      "ent-richard-clarke",
+      "ent-benjamin-faneuil-jr",
+      "ent-thomas-hutchinson-jr",
+      "ent-elisha-hutchinson",
+      "ent-hutchinson"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-colonial-tea-petition-1773"
+    ]
   }
 ]
