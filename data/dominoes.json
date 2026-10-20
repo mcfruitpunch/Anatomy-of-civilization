@@ -664,5 +664,19 @@
       "src-anom-passengers-1721",
       "src-bnf-law-colonies"
     ]
+  },
+  {
+    "id": "dom-050",
+    "from": "evt-1719-french-debt-exchange",
+    "to": "evt-1719-20shares-receipt",
+    "mechanism": "A specifically dated share transaction amid 1719 financial expansion",
+    "claim": "The 23 December 1719 Frenier-signed document is a surviving receipt for twenty bank equity shares transferred from a named court servant to an unidentified bearer. Its occurrence amid Law's larger financial boom does not establish participation in any particular public-debt conversion or a bribe.",
+    "kind": "contemporaneous_financial_document",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-hnoc-mss606-findingaid",
+      "src-bnf-law-colonies"
+    ]
   }
 ]
