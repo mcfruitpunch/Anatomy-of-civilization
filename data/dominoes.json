@@ -831,16 +831,17 @@
   },
   {
     "id": "dom-062",
-    "from": "evt-1731-jan-retrocession-document",
-    "to": "evt-1731-louisiana-retrocession",
-    "mechanism": "A dated early document belongs to a longer retrocession process",
-    "claim": "A 24-page French 1731-01-24 colonial record is tagged 'retrocession of Louisiana'; its date predates or accompanies 1731 legal settlement and cannot automatically be considered the formal effective handover.",
+    "from": "evt-1731-louisiana-retrocession",
+    "to": "evt-1731-jan-retrocession-document",
+    "mechanism": "Royal decree and next-day local documentary follow-up",
+    "claim": "The royal printed decree was dated January 23, 1731. A separate 24-page Superior Council record in Louisiana is dated January 24 and catalogued under retrocession. The second is NOT proof of legal execution one day later; the contents remain untranscribed.",
     "kind": "same_research_question_distinct_dates",
     "status": "supported interpretation",
     "verification": "reviewed",
     "sources": [
       "src-lcd-retrocession-1731",
-      "src-bnf-retrocession-edict-1731"
+      "src-bnf-retrocession-edict-1731",
+      "src-umsl-1731-decree-image"
     ]
   },
   {
