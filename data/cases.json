@@ -854,5 +854,94 @@
       "ent-french-trade-monopoly-mobile",
       "ent-charles-frederic-merveilleux"
     ]
+  },
+  {
+    "id": "retrocession1731",
+    "title": "Louisiana's Corporate Retrocession and the Unsettled Debts of Empire",
+    "period": "1717–1733",
+    "summary": "French colonial administration shifted from a royal concession to the Compagnie d'Occident/Compagnie des Indes and back to the Crown in 1731. A 1732 letter confirms that the Crown's officer reported possession of some Company physical assets, while a 1733 royal decree dealt with Company liabilities. These are separate legal, physical and financial processes, not one completed settlement.",
+    "summary_sources": [
+      "src-bnf-retrocession-edict-1731",
+      "src-louisiana-museum-retrocession",
+      "src-hnoc-salmon-possession-1732",
+      "src-bnf-1733-company-debts"
+    ],
+    "decision_making": "The Company of the Indies had governed Louisiana under a concession following John Law's Company of the West in 1717. After colonial conflict and commercial losses, the Company ceded its administrative concession back to the French Crown in 1731. The surviving government decrees and 1732 Salmon letter show a process of legal withdrawal and asset handover that needed further decisions over exceptions and creditor debts. Distinct Choctaw diplomatic initiatives and contested Mobile trade rights continued across the handover.",
+    "decision_sources": [
+      "src-louisiana-museum-retrocession",
+      "src-bnf-retrocession-edict-1731",
+      "src-hnoc-salmon-possession-1732",
+      "src-musco-ellis-spring-2025"
+    ],
+    "consequences": "Salmon's letter describes royal possession of buildings, forts and artillery with stated exceptions and lingering disputes over the Company's stores. The 1733 Council of State debt decree shows the need for ongoing liability rules after corporate administration ended; the decree's text and records of specific actual payments remain unexamined. Enslaved Africans, Indigenous nations and colonial laborers cannot be treated as assets whose transfer resolves their human experience.",
+    "consequences_sources": [
+      "src-hnoc-salmon-possession-1732",
+      "src-bnf-1733-company-debts",
+      "src-hnoc-louisiana-pathfinder"
+    ],
+    "interpretations": [
+      {
+        "label": "State power resumes after corporate management",
+        "claim": "The Crown took the Company's colonial administrative concession back in 1731; this was a legal and political change, but it was not the disappearance of all private land claims, trade privileges, liabilities or Indigenous nations' sovereignty.",
+        "status": "documented",
+        "sources": [
+          "src-bnf-retrocession-edict-1731",
+          "src-louisiana-museum-retrocession"
+        ]
+      },
+      {
+        "label": "Physical custody is distinguishable from public ownership and assumption of debts",
+        "claim": "Salmon separately reported possession of particular Company forts, buildings and artillery in 1732, with explicit exceptions, while a 1733 decree addressed the Company's debts. Neither catalogue proves a full audit, the exact debt allocation, or that all creditors were paid.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-hnoc-salmon-possession-1732",
+          "src-bnf-1733-company-debts"
+        ]
+      },
+      {
+        "label": "Geographical name collision must not create a false link",
+        "claim": "The 1732 archive index labels an exempt asset site 'Youanis (Yazoo)'; the Choctaw diplomatic study concerns the Haiyowvni/Youanis trade post. These name references are NOT verified as the same place. They must be disambiguated before any relationship is added.",
+        "status": "documented",
+        "sources": [
+          "src-hnoc-salmon-possession-1732",
+          "src-musco-ellis-spring-2025"
+        ]
+      },
+      {
+        "label": "Financial dispute occurred during a wider governance transition",
+        "claim": "A 1732 compensation judgment involving Diron and a Company monopoly was reported amid royal assumption of colonial administration. Whether the judgment's legal debtor was the Crown, Company or another party—and whether money was paid—requires the original court and finance records.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-musco-ellis-spring-2025",
+          "src-hnoc-diron-1732-letter-specific"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Read the original French 1731 Council of State retrocession decree and identify which powers, properties, exclusive trading rights and obligations transferred to the Crown on which effective date.",
+      "Compare the 24-page Louisiana Historical Center item 1731-01-24-03 with the final 1731 royal act: document chronology must not be conflated with transfer completion.",
+      "Read Salmon's January 19, 1732 original letter (ANOM C13 15:31) and itemize transferred buildings, forts and artillery and reasons for the exclusions.",
+      "Resolve whether 'Youanis (Yazoo)' in the Salmon abstract can refer to the same location as Choctaw Haiyowvni/Youanis or is a distinct post.",
+      "Read the 1733 Company of Indies debt decree article by article: identify how legal debtors, former directors, creditors and Crown obligations are specified; no liabilities should be guessed.",
+      "Determine who actually owed the 29,000-livre Diron judgment under the 1732 court decree, distinguishing adjudicator from liable entity and actual payer.",
+      "Center Choctaw, Natchez and African-descended people's histories to explain how colonial changes affected safety, territory, forced labor, and trade autonomy."
+    ],
+    "events": [
+      "evt-1717-compagnie-occident",
+      "evt-1731-jan-retrocession-document",
+      "evt-1731-louisiana-retrocession",
+      "evt-1732-salmon-possession",
+      "evt-1733-french-company-debt-decree"
+    ],
+    "entities": [
+      "ent-french-crown",
+      "ent-compagnie-occident",
+      "ent-compagnie-indes-france",
+      "ent-salmon-edme-gatien",
+      "ent-french-superior-council-la",
+      "ent-choctaw-nation",
+      "ent-enslaved-africans-french-louisiana",
+      "ent-bernard-diron-dartaguiette"
+    ]
   }
 ]
