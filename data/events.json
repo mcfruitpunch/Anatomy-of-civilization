@@ -952,12 +952,10 @@
     "id": "evt-1721-jan-passenger-list",
     "date": "1721-01-24",
     "title": "Lorient archival passenger list covers voyages to Louisiana",
-    "summary": "An Archives nationales d'outre-mer record dated January 24, 1721 indexes a 68-page list covering passenger embarkations from January 4, 1720. Actual departures, arrivals and voluntary/forced status require individual folio review.",
+    "summary": "An Archives nationales d'outre-mer record dated January 24, 1721 indexes a 68-page list compiled at Lorient covering embarkations from January 4, 1720. The catalogue does not identify all passengers or establish whether individuals sailed voluntarily, reached Louisiana or were enslaved.",
     "case": "archives1720",
     "entities": [
-      "ent-compagnie-indes-france",
-      "ent-enslaved-africans-french-louisiana",
-      "ent-louisiana-indigenous-communities"
+      "ent-french-crown"
     ],
     "status": "documented",
     "verification": "reviewed",
@@ -985,12 +983,11 @@
     "id": "evt-1721-no-census",
     "date": "1721-11-24",
     "title": "French officials complete a New Orleans and vicinity census",
-    "summary": "The surviving twelve-image New Orleans census (COL G1 464) is dated November 24, 1721 and attached to a January 2, 1722 letter from Diron. It categorizes households and enslaved populations, but raw individual values have not yet been verified from folios.",
+    "summary": "The surviving twelve-image New Orleans census (COL G1 464) is dated November 24, 1721 and attached to a January 2, 1722 letter from Diron. Its catalogue lists households, French servants and enslaved people, but does not provide independently checked individual names or totals.",
     "case": "archives1720",
     "entities": [
       "ent-inspector-diron",
-      "ent-enslaved-africans-french-louisiana",
-      "ent-louisiana-indigenous-communities"
+      "ent-enslaved-africans-french-louisiana"
     ],
     "status": "documented",
     "verification": "reviewed",
