@@ -8,6 +8,16 @@
 
 There are independently locatable original laws, public-market prints, contemporary British criticism, Dutch price/transaction ledgers, passenger lists and colonial censuses for these years. They support specific historical **channels** through which financial ideas and commerce were discussed and recorded. None of the currently inspected records establishes a **named private instruction or direct personal letter among John Law, John Blunt and an Amsterdam investor**. This is an important negative research result: the question remains open, not silently converted into a verified connection.
 
+## Newly located: a specific signed 1719 share receipt
+
+The [Historic New Orleans Collection's original 43-page finding aid for MSS 606](https://cdn.craft.cloud/97cd51c5-b816-4a93-aea9-fd7e2c5e47da/assets/downloads/MSS606.pdf) was opened and its **Series I manuscripts, Folder 4 (PDF page 2 / printed page 2)** inspected. It identifies a **one-page note dated 23 December 1719 in Paris**, **accession 2010.0158.20**, **signed by Frenier**, certifying that an **unidentified bearer received twenty shares of bank equity from Mr. Imbert**. The finding aid describes Imbert as the Duke of Orléans's first valet. The document is a genuine named archival transaction lead and provides an actual share-unit amount—not just a publisher's prospectus.
+
+**Limitations:** the actual handwritten note has not been independently transcribed or authenticated beyond the institution's finding aid. The specific series/class and market value of shares, cost, recipient's identity, whether payment was made, and purpose are **unknown**. Frenier is a signatory, not an identified share recipient. Imbert's employment does not imply the Duke arranged a benefit or wrongdoing.
+
+Atlas data: `fin-011` records **20 shares**, not livres or cash, as `archival_share_receipt_no_cash_value`. `doc-012` records its accession. Persons/roles are separately linked as `rel-081` through `rel-083`.
+
+The same finding aid, **Folder 3, accession 2010.0158.19**, identifies a physical **50-livre tournois** bearer note with handwritten serial number and printed signatures, dated **2 September 1720**. This survives as an original banknote (`doc-013`) but does not prove redemption, and therefore no cash-flow record was created for its face value.
+
 ## 1. France: original manuscript rules and administrative acts
 
 The [Historic New Orleans Collection's John Law manuscript and edict collection](https://hnoc.org/research-collections/collection-highlights/john-law-collection) documents these *specific* originals, with object numbers:
@@ -52,7 +62,7 @@ Primary census quantities from third-party volunteer transcriptions **were not e
 
 ## 5. Technical representation
 
-- `data/archival_documents.json`: eleven original documents or dated historical source series, each with its holding institution, exact identifier, evidentiary proposition, explicit limitation, and source IDs. Different `access_level` labels distinguish curator-verified images from museum catalogues and inaccessible text.
+- `data/archival_documents.json`: thirteen original documents or dated historical source series, each with its holding institution, exact identifier, evidentiary proposition, explicit limitation, and source IDs. Different `access_level` labels distinguish curator-verified images from museum catalogues and inaccessible text.
 - `data/information_routes.json`: four source-specific Paris–London–Amsterdam routes tagged with `evidence_kind`, `confidence`, and `named_correspondent_verified:false`. This flag is enforced by automated validation until individually authenticated evidence supports changing it through a documented schema upgrade.
 - `data/events.json`: eight new events, limited to supportable date precision.
 - `data/relationships.json` and `data/dominoes.json`: links for the 1720 edicts, British public criticism and archival chronology, not proof of a criminal conspiracy.
