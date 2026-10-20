@@ -1197,5 +1197,82 @@
     "url": "https://thechoctawvillages.com/french-sources.html",
     "locator": "Narrative based on translated original instructions for 1730 Régis du Roullet mission; notes about 800 livres' presents and nine instructions. This interpretive website has not been source-audited against the actual signed 1729 instructions; figures not added as transaction proof.",
     "reviewed": true
+  },
+  {
+    "id": "src-lcd-retrocession-1731",
+    "type": "digitized_primary_record_catalog",
+    "title": "Louisiana Retrocession — original French document dated January 24, 1731",
+    "author": "Louisiana Historical Center, Louisiana Colonial Documents Digitization Project",
+    "year": 1731,
+    "publisher": "Louisiana Historical Center",
+    "url": "https://lacolonialdocs.org/document/2003",
+    "locator": "Document 1731-01-24-03, New Orleans, French Superior Council, 24 page public image series; tagged 'Retrocession of Louisiana', people index Coligny, Company of Indies, Le Redde, Orry. Full handwriting not transcribed, and this is NOT the date of legal completion.",
+    "reviewed": true
+  },
+  {
+    "id": "src-bnf-retrocession-edict-1731",
+    "type": "primary_royal_decree_catalog",
+    "title": "Arrêt du Conseil d'État concernant la rétrocession de la concession de la Louisiane et du pays des Illinois",
+    "author": "French Council of State, catalogued by Bibliothèque nationale de France",
+    "year": 1731,
+    "publisher": "BnF Gallica / Patrimoines partagés France-Amériques",
+    "url": "https://heritage.bnf.fr/france-ameriques/en/compagnie-indes",
+    "locator": "BnF item 'Arrêt du conseil d'Etat concernant la rétrocession faite à S. M. par la Compagnie des Indes de la concession de la Louisiane et du pays des Illinois', 1731. Specific decree articles/full scan NOT read; catalogue confirms legal act exists.",
+    "reviewed": true
+  },
+  {
+    "id": "src-bnf-1733-company-debts",
+    "type": "primary_royal_decree_catalog",
+    "title": "Arrêt du Conseil d'État concernant le paiement des dettes de la Compagnie des Indes à la Louisiane",
+    "author": "French Council of State, catalogued by Bibliothèque nationale de France",
+    "year": 1733,
+    "publisher": "BnF Gallica / Patrimoines partagés France-Amériques",
+    "url": "https://heritage.bnf.fr/france-ameriques/en/compagnie-indes",
+    "locator": "BnF entry 'Arrêt du conseil d'Etat concernant le paiement des dettes de la Compagnie des Indes à la Louisiane', 1733; full decree clauses, liabilities, and settlement ledger not read.",
+    "reviewed": true
+  },
+  {
+    "id": "src-louisiana-museum-retrocession",
+    "type": "institutional_history",
+    "title": "Louisiana History: Colonial Louisiana",
+    "author": "Louisiana State Museums",
+    "year": null,
+    "publisher": "Louisiana State Museums",
+    "url": "https://louisianastatemuseum.org/louisiana-history-colonial-louisiana",
+    "locator": "Narrative of Company of West/Indies administering Louisiana and returning colony to French Crown after setbacks, with French royal government continuing to 1763. Condensed summary, not legal text.",
+    "reviewed": true
+  },
+  {
+    "id": "src-hnoc-salmon-possession-1732",
+    "type": "primary_letter_archival_abstract",
+    "title": "Edme Gatien Salmon to minister, taking possession of Company forts for the king, 19 January 1732",
+    "author": "Historic New Orleans Collection, Guide to French Louisiana Manuscripts",
+    "year": null,
+    "publisher": "Historic New Orleans Collection",
+    "url": "https://surrey.hnoc.org/full_notice.php?id_document=7287",
+    "locator": "HNOC Surrey Calendar item 7287: Jan 19 1732, Salmon (commissaire-ordonnateur) to minister, ANOM C13 15:31, two pages; claims possession of forts, buildings and artillery except Illinois, Natchitoches, and 'Youanis (Yazoo)' and dispute with MacMahon over company merchandise. Description not original letter text. 'Youanis (Yazoo)' must not automatically be equated with Choctaw Haiyowvni trading post.",
+    "reviewed": true
+  },
+  {
+    "id": "src-hnoc-diron-1732-letter-specific",
+    "type": "primary_letter_archival_abstract",
+    "title": "Minister of Marine to Edme Gatien Salmon, 2 September 1732 (Diron–Company dispute)",
+    "author": "Historic New Orleans Collection, Guide to French Louisiana Manuscripts",
+    "year": null,
+    "publisher": "Historic New Orleans Collection",
+    "url": "https://surrey.hnoc.org/full_notice.php?id_document=7620",
+    "locator": "HNOC Surrey item 7620, Sep 2 1732, ANOM B57:815; two-page ministerial letter from Marly to Salmon, among topics approves Superior Council decision in case of Diron and Company of the Indies. Original text and sum not reproduced in abstract.",
+    "reviewed": true
+  },
+  {
+    "id": "src-hnoc-louisiana-pathfinder",
+    "type": "institutional_archival_guide",
+    "title": "North American Indigenous Societies Research Pathfinder: Manuscripts and Microfilms",
+    "author": "Historic New Orleans Collection",
+    "year": null,
+    "publisher": "Historic New Orleans Collection",
+    "url": "https://hnoc.org/research-collections/research-tools/research-pathfinders/north-american-indigenous-societies-research-pathfinder/manuscript-collections-microfilms",
+    "locator": "MSS 596 Caillot 1729–1731 Company clerk's illustrated account; MSS 717 1720–21 travel journal; MF17 Archives Nationales microfilms. Curatorial synopsis includes Indigenous diplomacy and colonial encounters. Original manuscript images/text have not been fully read.",
+    "reviewed": true
   }
 ]
