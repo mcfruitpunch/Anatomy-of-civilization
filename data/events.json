@@ -994,5 +994,22 @@
     "sources": [
       "src-anom-census-no-1721"
     ]
+  },
+  {
+    "id": "evt-1719-20shares-receipt",
+    "date": "1719-12-23",
+    "title": "Paris manuscript acknowledges delivery of 20 shares from Mr. Imbert",
+    "summary": "HNOC's MSS 606 finding aid, Folder 4, identifies a one-page Paris note signed by Frenier on December 23, 1719. It certifies that the bearer received 20 shares from a Mr. Imbert, the Duke of Orléans's first valet. The original note itself has not been transcribed, and no money price or recipient's identity has been established.",
+    "case": "archives1720",
+    "entities": [
+      "ent-imbert-valet",
+      "ent-frenier-signatory",
+      "ent-unidentified-bearer-1719"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-hnoc-mss606-findingaid"
+    ]
   }
 ]
