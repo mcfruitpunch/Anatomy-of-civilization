@@ -403,5 +403,99 @@
       "src-uk-parliament-eic-public"
     ],
     "verification": "reviewed"
+  },
+  {
+    "id": "ent-english-company-1698",
+    "type": "corporation",
+    "name": "English Company Trading to the East Indies",
+    "years": "1698–1709 (separate company)",
+    "description": "New chartered corporation organized from government-debt subscribers in 1698; eventually united with the old East India Company. Not identical to the old Company before union.",
+    "sources": [
+      "src-bl-eic-1698",
+      "src-bl-eic-union-1708"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-general-society-1698",
+    "type": "corporation",
+    "name": "General Society of East India subscribers",
+    "years": "1698–",
+    "description": "Chartered association of contributors to the Crown's 1698 two-million-pound public loan scheme, from which a new joint-stock East India trading company was formed.",
+    "sources": [
+      "src-bl-eic-1698"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-south-sea",
+    "type": "corporation",
+    "name": "South Sea Company",
+    "years": "1711–",
+    "description": "Chartered British company involved in government-debt financing and transatlantic trading rights, including commerce in enslaved Africans; subject of the 1720 speculative collapse.",
+    "sources": [
+      "src-boe-history-1694-1720",
+      "src-boe-ssc-archive",
+      "src-uk-na-asiento"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-william-iii",
+    "type": "person",
+    "name": "William III of England",
+    "years": "1650–1702",
+    "description": "King whose government backed the 1694 Bank of England charter and pursued 1698 loans tied to East India trading privileges; original Bank stockholder.",
+    "sources": [
+      "src-boe-1694-archive",
+      "src-boe-founder-1694",
+      "src-bl-eic-1698"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-mary-ii",
+    "type": "person",
+    "name": "Mary II of England",
+    "years": "1662–1694",
+    "description": "Queen and original Bank of England shareholder in 1694, with William III.",
+    "sources": [
+      "src-boe-1694-archive",
+      "src-boe-history-1694-1720"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-john-houblon",
+    "type": "person",
+    "name": "John Houblon",
+    "years": "1632–1712",
+    "description": "First Governor of the Bank of England when it was chartered in 1694.",
+    "sources": [
+      "src-boe-history-1694-1720"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-lord-montagu",
+    "type": "person",
+    "name": "Charles Montagu (Lord Halifax)",
+    "years": "1661–1715",
+    "description": "Chancellor of the Exchequer associated with the 1698 plan to raise £2 million in return for East India trade access.",
+    "sources": [
+      "src-bl-eic-1698"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-john-aislabie",
+    "type": "person",
+    "name": "John Aislabie",
+    "years": "1670–1742",
+    "description": "Chancellor of the Exchequer implicated in South Sea Company political corruption inquiries after the 1720 Bubble; precise personal transactions need archival examination.",
+    "sources": [
+      "src-boe-ssc-archive"
+    ],
+    "verification": "reviewed"
   }
 ]
