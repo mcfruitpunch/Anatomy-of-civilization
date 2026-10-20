@@ -184,13 +184,22 @@
           "src-state-frontier1763",
           "src-state-paris1763"
         ]
+      },
+      {
+        "label": "A transatlantic critique in 1773",
+        "claim": "A New York political broadside drew a contemporaneous comparison between alleged East India Company misconduct in India and contested tea privileges in America; the author's claims about India require independent corroboration.",
+        "status": "documented",
+        "sources": [
+          "src-loc-ny-broadside1773"
+        ]
       }
     ],
     "open_questions": [
       "Which specific members of Parliament had financial ties to the Company when debating 1773 relief, and what do voting records and share ledgers establish?",
       "What evidence connects policy actors across the Bengal, London and Massachusetts theaters beyond participation in the same imperial system?",
       "How did Indigenous and enslaved peoples assess the competing colonial and imperial claims to liberty and sovereignty?",
-      "How much of the 1773 Tea Act's design arose from lobbying versus broader fiscal and imperial decisions?"
+      "How much of the 1773 Tea Act's design arose from lobbying versus broader fiscal and imperial decisions?",
+      "How widely did pamphlets citing the Company's conduct in India circulate among Boston organizers, and what evidence exists of direct influence?"
     ],
     "events": [
       "evt-1763-paris-treaty",
