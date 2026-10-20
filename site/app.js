@@ -5,7 +5,10 @@
   const D = {};
   const make = (tag, props = {}, ...contents) => {
     const node = document.createElement(tag);
-    Object.assign(node, props);
+    Object.entries(props).forEach(([key, value]) => {
+      if (key.startsWith('aria-') || key === 'role') node.setAttribute(key, value);
+      else node[key] = value;
+    });
     contents.flat(Infinity).forEach(content => {
       if (content !== null && content !== undefined) node.append(content);
     });
