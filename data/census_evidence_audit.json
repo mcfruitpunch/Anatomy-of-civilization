@@ -1,0 +1,109 @@
+[
+  {
+    "id": "census-001",
+    "date": "1721-11-24",
+    "source_label": "Original ANOM New Orleans census — version indexed as 31235",
+    "source_type": "original_archive_catalog",
+    "scope": "New Orleans and environs as indexed by colonial officials",
+    "access_level": "catalogue_only_original_images_not_audited",
+    "total_reported": null,
+    "figures": [],
+    "provenance": "ANOM COL G1 464, item 31235, 12 images, November 24 1721; colonial officials' register includes separate demographic classifications.",
+    "limit": "The original folios and sums have not been independently transcribed in the atlas; classification categories and geographic subdivisions cannot yet be assumed identical to later editors' usage.",
+    "sources": [
+      "src-anom-census-no-1721"
+    ]
+  },
+  {
+    "id": "census-002",
+    "date": "1721-11-24",
+    "source_label": "Expanded or duplicate colonial census — version indexed as 31236",
+    "source_type": "original_archive_catalog",
+    "scope": "New Orleans and environs, possibly additional concession records",
+    "access_level": "catalogue_only_original_images_not_audited",
+    "total_reported": null,
+    "figures": [],
+    "provenance": "ANOM COL G1 464, item 31236, 29 images. The archive identifies it as apparently a copy of 31235 followed by more detailed concession and colony information.",
+    "limit": "Apparent duplicate/expansion must be tested by comparing folio openings, final summary and concession definitions; do not treat as an independent population census yet.",
+    "sources": [
+      "src-anom-alt-1721-census"
+    ]
+  },
+  {
+    "id": "census-003",
+    "date": "1721-11-24",
+    "source_label": "Deiler (1910), secondary historical reproduction",
+    "source_type": "secondary_historical_summary",
+    "scope": "New Orleans and nearby concessions; exact boundary and division between town versus vicinity must be checked",
+    "access_level": "digitized_historical_secondary_edition",
+    "total_reported": null,
+    "figures": [
+      {
+        "category": "enslaved_people_of_african_descent",
+        "value": 177
+      },
+      {
+        "category": "enslaved_indigenous_people",
+        "value": 21
+      },
+      {
+        "category": "european_indentured_workers",
+        "value": 28
+      }
+    ],
+    "provenance": "J. Hanno Deiler, The Settlement of the German Coast of Louisiana, printed pp. 66–68, draws from the November 1721 census.",
+    "limit": "Do not combine these three counts with another author's European total. Deiler's geographic boundary, categories and original manuscript sums require independent folio-level verification.",
+    "sources": [
+      "src-deiler-german-coast-1910"
+    ]
+  },
+  {
+    "id": "census-004",
+    "date": "1721-11-24",
+    "source_label": "de Villiers (1917), translated historical census summary",
+    "source_type": "secondary_historical_summary",
+    "scope": "Author's figures for New Orleans town, separated from surrounding concessions",
+    "access_level": "digitized_historical_secondary_edition",
+    "total_reported": 470,
+    "figures": [
+      {
+        "category": "europeans_as_author_defined",
+        "value": 277
+      }
+    ],
+    "provenance": "Marc de Villiers du Terrage, A History of the Foundation of New Orleans, 1917 original/English historical translation, paragraph accompanying 24 November 1721 census.",
+    "limit": "Printed table in digitized French reproduction is garbled. Cannot verify author's 470/277 directly against manuscript, and 277 must not be combined with Deiler's 177/21 without matching boundaries and conventions.",
+    "sources": [
+      "src-anthology-villiers-english",
+      "src-villiers-neworleans-1917"
+    ]
+  },
+  {
+    "id": "census-005",
+    "date": "1721-11-24",
+    "source_label": "Vidal (2019), modern scholarly census tabulation — provisional reading",
+    "source_type": "modern_scholarly_secondary_tabulation",
+    "scope": "New Orleans urban settlement for 1721–1723, distinct from whole Lower Mississippi Valley",
+    "access_level": "indexed_table_excerpt_not_checked_against_publisher_original",
+    "total_reported": 472,
+    "figures": [
+      {
+        "category": "whites_as_historian_tabulated",
+        "value": 278
+      },
+      {
+        "category": "enslaved_people_of_african_descent",
+        "value": 173
+      },
+      {
+        "category": "enslaved_indigenous_people",
+        "value": 21
+      }
+    ],
+    "provenance": "Cécile Vidal, Caribbean New Orleans (UNC Press 2019), Table 1 on p.121, as indexed in an external searchable excerpt. Publisher confirms the monograph but the exact printed page was not available to audit in this session.",
+    "limit": "2019 tabulation is not original 1721 archival evidence, and the source page is not independently inspected from the licensed publisher's edition. Values are provisional; 278+173+21=472 as presented, but differing inclusions may explain other historians' totals.",
+    "sources": [
+      "src-vidal-2019-book"
+    ]
+  }
+]
