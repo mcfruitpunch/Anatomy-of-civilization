@@ -80,9 +80,11 @@ assert(html.includes('href="#comparison"') && js.includes('renderComparisons()')
 assert(comparisons.length >= 4, 'Country comparison records missing');
 assert(comparisons.every(c => c.sources?.length && c.france_case !== c.britain_case), 'Invalid comparative research evidence');
 assert(financial.some(f => f.flow_state === 'policy_target_not_cash_flow' && f.unit === 'livres_tournois'), 'France monetary target not distinguished');
+assert(financial.some(f=>f.id === 'fin-011' && f.value === 20 && f.unit === 'shares' && f.flow_state === 'archival_share_receipt_no_cash_value'), 'Specific 1719 twenty-share receipt not preserved correctly');
+assert(archiveDocs.some(d=>d.id === 'doc-012' && d.reference.includes('2010.0158.20')), 'Original 1719 manuscript archival ID missing');
 assert(!comparisons.some(c=>/joint secret organization|centralized family conspiracy/i.test(c.interpretation)), 'Cross-border hypothesis overstatement');
 assert(html.includes('href="#archives"') && js.includes('renderArchives()'), 'Archive explorer not hooked up');
-assert(archiveDocs.length >= 10 && routes.length >= 3,'Insufficient documentary records/routes');
+assert(archiveDocs.length >= 13 && routes.length >= 3,'Insufficient documentary records/routes');
 const archiveIds = new Set(archiveDocs.map(d=>d.id));
 for (const d of archiveDocs) {
   assert(d.reference && d.limitations && d.sources?.length,'Archival item lacks provenance/limitations '+d.id);
