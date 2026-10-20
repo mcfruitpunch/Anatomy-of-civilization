@@ -933,5 +933,71 @@
     "url": "https://cdn.craft.cloud/97cd51c5-b816-4a93-aea9-fd7e2c5e47da/assets/downloads/MSS606.pdf",
     "locator": "PDF page 2 (printed page 2), Series I manuscript folders 1–4: accession 2010.0158.20, 1719-12-23 receipt signed Frenier for bearer who received 20 shares from Mr Imbert (first valet to Duke of Orleans); accession 2010.0158.19 original 50-livre note dated 1720-09-02; original documents not transcribed.",
     "reviewed": true
+  },
+  {
+    "id": "src-yale-leydse-1720-feb26",
+    "type": "curated_primary_translation",
+    "title": "The South Sea Bubble: 26 February 1720 — translated Leydse Courant report",
+    "author": "Yale International Center for Finance; translation by Geert Rouwenhorst",
+    "year": 2020,
+    "publisher": "Yale School of Management",
+    "url": "https://som.yale.edu/blog/the-south-sea-bubble-26-february-1720",
+    "locator": "Contemporary Dutch item reproduced/translated by Yale, 26 Feb 1720; South Sea share quotations previously 177, then 184, and expectation 200; unit basis and actual trades not separately established.",
+    "reviewed": true
+  },
+  {
+    "id": "src-yale-leydse-1720-apr22",
+    "type": "curated_primary_translation",
+    "title": "Financial History Repeats Itself: 22 April 1720 Paris news from Leydse Courant",
+    "author": "Yale International Center for Finance; translation by Geert Rouwenhorst",
+    "year": 2020,
+    "publisher": "Yale School of Management",
+    "url": "https://som.yale.edu/blog/financial-history-repeats-itself-the-south-sea-bubble-22-april-1720",
+    "locator": "Yale image and attributed translation, section 'On this date 300 years ago: 22 April 1720': Paris report of the previous day's halt to banknote cash redemption, alleged coordinated opposition (a rumor, not independently substantiated) and rising food prices.",
+    "reviewed": true
+  },
+  {
+    "id": "src-yale-leydse-1720-jun14",
+    "type": "curated_primary_translation",
+    "title": "The South Sea Bubble: 14 June 1720 — London dispatch and Bubble Act report in Leydse Courant",
+    "author": "Yale International Center for Finance; translation by Geert Rouwenhorst",
+    "year": 2020,
+    "publisher": "Yale School of Management",
+    "url": "https://som.yale.edu/blog/the-south-sea-bubble-14-june-1720",
+    "locator": "Displayed Dutch newspaper image and translation of a 'Londen den 14 Juny' report concerning a House of Commons committee and 70 schemes reportedly identified, plus expected legal suppression. Report date 14 June is not necessarily the Dutch issue publication date; Yale blog released June 26 2020.",
+    "reviewed": true
+  },
+  {
+    "id": "src-deiler-german-coast-1910",
+    "type": "historic_secondary_transcription",
+    "title": "The Settlement of the German Coast of Louisiana and the Creoles of German Descent",
+    "author": "J. Hanno Deiler",
+    "year": 1910,
+    "publisher": "Louisiana Anthology digitized historical monograph / Louisiana Historical Society",
+    "url": "https://louisiana-anthology.org/303_download/texts/01--deiler--german_coast--English/back/settlementofgerm01deil/OEBPS/part0000.html",
+    "locator": "Discussion headed 'The Census of 1721', printed pp. 66–68: Deiler describes 1721 New Orleans/vicinity census as limited to local area, gives 177 persons categorized as African enslaved and 21 categorized as Indigenous enslaved, plus 28 engagés; these are secondary historical readings, not revalidated folio counts.",
+    "reviewed": true
+  },
+  {
+    "id": "src-villiers-neworleans-1917",
+    "type": "historic_secondary_transcription",
+    "title": "La fondation de la Nouvelle-Orléans (1717–1722)",
+    "author": "Baron Marc de Villiers du Terrage",
+    "year": 1917,
+    "publisher": "Louisiana Anthology digitized historic French monograph",
+    "url": "https://louisiana-anthology.org/303_download/texts/00--de_villiers--nouvelle-orleans_founding/villiers--nouvelle-orleans_founding.html",
+    "locator": "Printed p.94 near November 24, 1721 census table: historic writer reports 470 inhabitants in town, of whom 277 Europeans, and separate greater-area figures; text/table reproduction has garbled OCR; totals have not been independently recalculated from original census.",
+    "reviewed": true
+  },
+  {
+    "id": "src-genealogytrails-no-1721",
+    "type": "volunteer_historical_transcription",
+    "title": "1721 Census of New Orleans — volunteer transcription",
+    "author": "Genealogy Trails Louisiana volunteers",
+    "year": null,
+    "publisher": "Genealogy Trails",
+    "url": "https://genealogytrails.com/lou/orleans/1721census.html",
+    "locator": "Opening census overview and names list: 177 Africans held in slavery, 21 Indigenous people held in slavery, 28 European engagés, names of some colonists and staff including Bonnaud and Roussard; transcribed spellings and scope are not checked against original ANOM folios.",
+    "reviewed": true
   }
 ]
