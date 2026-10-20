@@ -116,4 +116,14 @@ assert(js.includes('legal award, payment not verified'),'UI must avoid false pay
 assert(events.some(e=>e.id==='evt-1732-29k-compensation'),'Dated damages award event missing');
 assert(archiveDocs.some(d=>d.id==='doc-019' && d.reference.includes('B57')),'Ministry confirmation source missing');
 assert(archiveDocs.some(d=>d.id==='doc-020' && d.reference.includes('33')),'Original 1732 claim folios not identified');
-console.log('OK: V1.2 Choctaw-requested post, challenged French trade monopoly and compensated legal claim');
+const award = financial.find(f=>f.id==='fin-012');
+assert(award.decision_issuer === 'ent-french-superior-council-la' && award.award_beneficiary === 'ent-bernard-diron-dartaguiette','Award issuer and beneficiary must be identified roles');
+assert(award.payer_verified===false && award.payer_entity===null && award.amount_paid_verified===null,'Unknown payer must not be invented');
+assert(js.includes("Decision issued by: ") && js.includes("Award beneficiary: ") && js.includes("Payer: ") && js.includes("Paid amount: "),'Award must display legal roles rather than payout arrow');
+assert(js.includes("confirmedMovement.has(f.flow_state)"),'Only evidenced asset movements should render transfer arrows');
+assert(events.some(e=>e.id==='evt-1731-louisiana-retrocession' && e.date==='1731-01-23'),'Royal retrocession enactment date missing');
+assert(events.some(e=>e.id==='evt-1731-french-company-debt-decree' && e.date==='1731-02-24'),'Do not confuse debt law date with 1733 printing');
+assert(events.some(e=>e.id==='evt-1731-superior-council-reorganization' && e.date==='1731-05-22'),'Royal court administrative reform missing');
+assert(archiveDocs.some(d=>d.id==='doc-024' && d.date==='1731-02-24'),'Bibliographic debt date conflict not corrected');
+assert(archiveDocs.some(d=>d.id==='doc-023' && d.established.includes('Youanis')),'Archival handover exceptions must be explicit');
+console.log('OK: V1.3 royal legal timeline, legacy Company debt dates and financially honest issuer/payer roles');
