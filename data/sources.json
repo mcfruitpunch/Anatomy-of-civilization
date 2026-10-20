@@ -922,5 +922,16 @@
     "url": "https://heritage.bnf.fr/france-ameriques/en/john-law",
     "locator": "John Law curated primary items, entry 1720 English text titled 'A full and impartial account of the company of Mississipi'; Gallica ark:/12148/bpt6k109867v is linked but access to full scan was blocked at time of this research. Existence and title only independently verified.",
     "reviewed": true
+  },
+  {
+    "id": "src-hnoc-mss606-findingaid",
+    "type": "original_archival_finding_aid",
+    "title": "John Law Collection MSS 606: Manuscript and Printed Holdings Inventory",
+    "author": "Historic New Orleans Collection, Williams Research Center",
+    "year": null,
+    "publisher": "Historic New Orleans Collection",
+    "url": "https://cdn.craft.cloud/97cd51c5-b816-4a93-aea9-fd7e2c5e47da/assets/downloads/MSS606.pdf",
+    "locator": "PDF page 2 (printed page 2), Series I manuscript folders 1–4: accession 2010.0158.20, 1719-12-23 receipt signed Frenier for bearer who received 20 shares from Mr Imbert (first valet to Duke of Orleans); accession 2010.0158.19 original 50-livre note dated 1720-09-02; original documents not transcribed.",
+    "reviewed": true
   }
 ]
