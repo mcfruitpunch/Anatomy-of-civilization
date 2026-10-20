@@ -207,5 +207,97 @@
     "status": "documented",
     "verification": "reviewed",
     "date": "1953-07-28"
+  },
+  {
+    "id": "rel-018",
+    "from": "ent-grenville",
+    "to": "ent-parliament",
+    "type": "proposed_legislation",
+    "note": "George Grenville's ministry proposed the Stamp Act in Britain's postwar revenue program.",
+    "sources": [
+      "src-state-tax1763"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1765"
+  },
+  {
+    "id": "rel-019",
+    "from": "ent-parliament",
+    "to": "ent-eic",
+    "type": "provided_trade_relief",
+    "note": "The 1773 Tea Act changed tea trade privileges to help the financially troubled Company; the existing colonial tea duty was not repealed.",
+    "sources": [
+      "src-loc-tea1773"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773"
+  },
+  {
+    "id": "rel-020",
+    "from": "ent-colonial-protesters",
+    "to": "ent-eic",
+    "type": "protested_commercial_privilege",
+    "note": "Boston protest organizers objected to shipments of East India Company tea and some participants destroyed the cargo.",
+    "sources": [
+      "src-loc-boston-protest1773",
+      "src-nps-tea1773"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773"
+  },
+  {
+    "id": "rel-021",
+    "from": "ent-hutchinson",
+    "to": "ent-colonial-protesters",
+    "type": "contested_tea_shipments",
+    "note": "The royal governor opposed protesters' demands to return tea ships without fulfilling customs obligations.",
+    "sources": [
+      "src-nps-tea1773"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1773"
+  },
+  {
+    "id": "rel-022",
+    "from": "ent-continental-congress",
+    "to": "ent-parliament",
+    "type": "challenged_policies",
+    "note": "First Continental Congress organized colonial objections to parliamentary acts and coordinated a boycott in 1774.",
+    "sources": [
+      "src-state-tax1763"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1774"
+  },
+  {
+    "id": "rel-023",
+    "from": "ent-pontiac",
+    "to": "ent-crown",
+    "type": "resisted_rule",
+    "note": "Pontiac helped organize Indigenous resistance to British military posts in the Great Lakes region after the war; this does not make all Indigenous nations one political organization.",
+    "sources": [
+      "src-state-frontier1763"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "date": "1763"
+  },
+  {
+    "id": "rel-024",
+    "from": "ent-colonial-speculators",
+    "to": "ent-crown",
+    "type": "contested_frontier_restrictions",
+    "note": "Western land investors opposed or sought changes to British policies restricting settlement and territorial claims.",
+    "sources": [
+      "src-state-frontier1763"
+    ],
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "date": "1763"
   }
 ]
