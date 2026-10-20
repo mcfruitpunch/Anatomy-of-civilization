@@ -174,5 +174,24 @@
       "src-swingen-2024"
     ],
     "verification": "reviewed"
+  },
+  {
+    "id": "fin-010",
+    "date": "1719",
+    "title": "Law's proposed French public-debt conversion program",
+    "from": "ent-french-crown",
+    "to": [
+      "ent-compagnie-indes-france"
+    ],
+    "value": 1500000000,
+    "unit": "livres_tournois",
+    "kind": "public_debt_refinancing_target",
+    "flow_state": "policy_target_not_cash_flow",
+    "description": "A Federal Reserve historical commentary describes a proposed refinancing of 1.5 billion livres in French public debt through shares issued under the Law system. This is a program target, NOT evidence that the full sum was paid, redeemed, transferred or retired. Livre amounts are not comparable to eighteenth-century British pounds without a researched exchange and valuation method.",
+    "case": "francemississippi1720",
+    "sources": [
+      "src-nyfed-law"
+    ],
+    "verification": "reviewed"
   }
 ]
