@@ -285,5 +285,85 @@
       "ent-french-crown",
       "ent-bienville"
     ]
+  },
+  {
+    "id": "doc-017",
+    "date": "1725-02-27",
+    "place": "New Orleans",
+    "title": "Superior Council sends Choctaw trade concerns to Company of Indies",
+    "document_kind": "archival_colonial_correspondence_abstract",
+    "access_level": "catalogue_metadata_only",
+    "reference": "Historic New Orleans Collection manuscript guide; AC C13, vol.9 p.51, 47-page copy, dated 1725-02-27; see separate C13A vol.9 fol.65v in Musco et al. (2025)",
+    "established": "An archival guide describes a letter from the Louisiana Superior Council covering Choctaw trade alongside other colonial issues. Specific text and folios have not been inspected; relation to scholarship's French translation should be checked.",
+    "limitations": "The 47-page original is not transcribed or quoted here. No original 1725 Choctaw petitions have been directly accessed and no Company decision or treasury disbursement is implied.",
+    "sources": [
+      "src-hnoc-1725-council-abstract",
+      "src-musco-ellis-spring-2025"
+    ],
+    "entities": [
+      "ent-french-superior-council-la",
+      "ent-compagnie-indes-france",
+      "ent-choctaw-nation"
+    ]
+  },
+  {
+    "id": "doc-018",
+    "date": "1730-02-09",
+    "place": "Mobile",
+    "title": "Diron d'Artaguiette correspondence on Périer and the Choctaw mission",
+    "document_kind": "archival_colonial_correspondence_abstract",
+    "access_level": "catalogue_metadata_only",
+    "reference": "HNOC manuscript guide, AC C13 vol.12 p.362, nine-page original dated February 9–10 1730",
+    "established": "The archive guide describes Diron's letter to the Controller General discussing Régis du Roullet's Choctaw visit, related conflict with Périer, and regional conditions. The date range is preserved.",
+    "limitations": "The full original French nine pages have not been read, and the abstract does not verify financial award, local trade prices or actual compensation.",
+    "sources": [
+      "src-hnoc-diron-1730-abstract"
+    ],
+    "entities": [
+      "ent-bernard-diron-dartaguiette",
+      "ent-perier-governor",
+      "ent-regis-du-roullet",
+      "ent-choctaw-nation"
+    ]
+  },
+  {
+    "id": "doc-019",
+    "date": "1732-09-02",
+    "place": "Marly, France",
+    "title": "Ministry approves decision in Diron–Company dispute",
+    "document_kind": "archival_colonial_correspondence_abstract",
+    "access_level": "catalogue_metadata_only",
+    "reference": "HNOC manuscript guide, AC B57 p.815, minister to Salmon, 2 September 1732, two-page original",
+    "established": "A royal ministry letter approved a Superior Council decision regarding Diron and the Company of the Indies, according to the original correspondence inventory. It is a direct archival lead to legal confirmation.",
+    "limitations": "The archive summary provides no monetary amount, payee receipt, payment instrument or identification of exact court judgment. Match to the 29,000-livre folios requires original examination.",
+    "sources": [
+      "src-hnoc-1732-minister-abstract",
+      "src-musco-ellis-spring-2025"
+    ],
+    "entities": [
+      "ent-french-crown",
+      "ent-french-superior-council-la",
+      "ent-bernard-diron-dartaguiette",
+      "ent-compagnie-indes-france"
+    ]
+  },
+  {
+    "id": "doc-020",
+    "date": "1732",
+    "place": "French Louisiana",
+    "title": "Council folios cited for 29,000-livre monopoly compensation award",
+    "document_kind": "archival_folio_citation_not_directly_examined",
+    "access_level": "catalogue_metadata_only",
+    "reference": "ANOM C13A, 1732, folios 33–33v as cited by Musco, Ellis & Spring (2025) — original image not independently opened",
+    "established": "A peer-reviewed study explicitly refers to the archival folios and describes a 29,000 French-livre compensation judgment for Bernard Diron d'Artaguiette after a challenged trade monopoly.",
+    "limitations": "Only modern scholarly description of the archival folios inspected. The archival hand itself, judgment language, date and actual payment are all unverified.",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ],
+    "entities": [
+      "ent-bernard-diron-dartaguiette",
+      "ent-french-superior-council-la",
+      "ent-french-trade-monopoly-mobile"
+    ]
   }
 ]

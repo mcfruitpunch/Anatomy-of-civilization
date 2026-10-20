@@ -111,4 +111,9 @@ assert(censusAudit.some(x=>x.total_reported===470)&&censusAudit.some(x=>x.total_
 assert(censusAudit.every(x=>x.limit.includes('original') || x.limit.includes('folio') || x.limit.includes('archive') || x.limit.includes('manuscript')),'Missing census caveats');
 assert(censusAudit.some(x=>x.source_label.includes('Vidal')&&x.access_level.includes('not_checked')),'Modern tabulation may not be promoted to inspected print without review');
 assert(events.some(e=>e.id==='evt-1721-choctaw-trade-request')&&events.some(e=>e.id==='evt-1730-youanis-built'),'Choctaw initiative and post construction not linked');
-console.log('OK: V1.1 Indigenous trade sovereignty, census version audit, research provenance and historical explorer');
+assert(financial.some(f=>f.id==='fin-012' && f.value===29000 && f.unit==='livres_tournois' && f.flow_state==='legal_award_not_disbursement'),'Monopoly damages must be a French legal award, not cash receipt');
+assert(js.includes('legal award, payment not verified'),'UI must avoid false payment conclusion');
+assert(events.some(e=>e.id==='evt-1732-29k-compensation'),'Dated damages award event missing');
+assert(archiveDocs.some(d=>d.id==='doc-019' && d.reference.includes('B57')),'Ministry confirmation source missing');
+assert(archiveDocs.some(d=>d.id==='doc-020' && d.reference.includes('33')),'Original 1732 claim folios not identified');
+console.log('OK: V1.2 Choctaw-requested post, challenged French trade monopoly and compensated legal claim');

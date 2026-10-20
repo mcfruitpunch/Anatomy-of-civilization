@@ -1133,5 +1133,81 @@
       "src-musco-ellis-spring-2025",
       "src-choctaw-fort-tombecbe-2023"
     ]
+  },
+  {
+    "id": "evt-1726-merveilleux-proposal",
+    "date": "1726",
+    "title": "Merveilleux proposes a trading station in Choctaw territory",
+    "summary": "Captain Charles-Frédéric de Merveilleux submitted a proposal for a new trading post and cited navigability and French insecurity without Choctaw protection. A 2025 study cites ANOM C13A 1726 fol.159. The proposal was not adopted; it does not establish any new station was built in 1726.",
+    "case": "choctawdiplomacy1721",
+    "entities": [
+      "ent-charles-frederic-merveilleux",
+      "ent-choctaw-nation",
+      "ent-french-crown"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ]
+  },
+  {
+    "id": "evt-1729-mobile-monopoly-conflict",
+    "date": "1729",
+    "title": "Périer's planned Choctaw post conflicts with Diron's trade monopoly",
+    "summary": "Research based on French colonial records explains that Diron d'Artaguiette's trading monopoly stood in the way of a new post requested by Choctaw chiefs. Governor Périer resisted the Company's reluctance to fund a new installation. A dated Diron letter from February 1730 discusses conflict surrounding the Régis du Roullet mission.",
+    "case": "choctawdiplomacy1721",
+    "entities": [
+      "ent-choctaw-nation",
+      "ent-bernard-diron-dartaguiette",
+      "ent-french-trade-monopoly-mobile",
+      "ent-perier-governor",
+      "ent-compagnie-indes-france",
+      "ent-regis-du-roullet"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-musco-ellis-spring-2025",
+      "src-hnoc-diron-1730-abstract"
+    ]
+  },
+  {
+    "id": "evt-1732-29k-compensation",
+    "date": "1732",
+    "title": "Superior Council reportedly awards 29,000 French livres to monopoly holder",
+    "summary": "Musco, Ellis and Spring (2025), citing ANOM C13A (1732) fols.33–33v, state that Diron d'Artaguiette was awarded 29,000 French livres in compensation for a commercial monopoly disrupted by the Youanis trading post. This is a documented historical reconstruction of a legal award, NOT a payment receipt, dividend or newly examined original judgment.",
+    "case": "choctawdiplomacy1721",
+    "entities": [
+      "ent-bernard-diron-dartaguiette",
+      "ent-french-trade-monopoly-mobile",
+      "ent-french-superior-council-la",
+      "ent-compagnie-indes-france",
+      "ent-choctaw-nation"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ]
+  },
+  {
+    "id": "evt-1732-sep-ministry-dirons-case",
+    "date": "1732-09-02",
+    "title": "French ministry approves Council ruling in case involving Diron and Company",
+    "summary": "The Historic New Orleans Collection's archival guide indexes a September 2, 1732 ministry letter to Salmon approving the Superior Council decision in the Diron–Company of the Indies case (B57 p.815). Its abstract does not give the award amount or prove disbursement. Connection to the 29,000-livre ruling is plausible but requires confirmation in the original letters.",
+    "case": "choctawdiplomacy1721",
+    "entities": [
+      "ent-bernard-diron-dartaguiette",
+      "ent-french-superior-council-la",
+      "ent-compagnie-indes-france",
+      "ent-french-crown"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-hnoc-1732-minister-abstract",
+      "src-musco-ellis-spring-2025"
+    ]
   }
 ]

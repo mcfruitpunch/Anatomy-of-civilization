@@ -80,7 +80,7 @@ dominoes.forEach(d => {
     errors.push(d.id + ': documented link requires review');
 });
 const acceptableUnits = new Set(['GBP', 'percent_of_sales', 'not_recorded', 'livres_tournois', 'shares']);
-const acceptableStates = new Set(['existing_credit_extension', 'historical_account_not_transaction_ledger', 'prospective_not_documented_paid', 'documented_historical_loan', 'scheme_subscription_not_disbursement', 'shareholding_not_cash_transfer', 'agreement_not_disbursement', 'authorized_no_transfer', 'policy_target_not_cash_flow', 'archival_share_receipt_no_cash_value']);
+const acceptableStates = new Set(['existing_credit_extension', 'historical_account_not_transaction_ledger', 'prospective_not_documented_paid', 'documented_historical_loan', 'scheme_subscription_not_disbursement', 'shareholding_not_cash_transfer', 'agreement_not_disbursement', 'authorized_no_transfer', 'policy_target_not_cash_flow', 'archival_share_receipt_no_cash_value', 'legal_award_not_disbursement']);
 financial.forEach(f => {
   validDate(f.date, f.id);
   if (!f.title || !f.kind || !f.description || !f.flow_state) errors.push(f.id + ': missing financial metadata');
@@ -109,6 +109,11 @@ ownership.forEach(o => {
   if (!o.measurement || !o.methods) errors.push(o.id + ': missing measurement/method details');
   cite(o, o.id, true);
   if (o.verification !== 'reviewed') errors.push(o.id + ': source review missing');
+});
+financial.filter(f=>f.flow_state==='legal_award_not_disbursement').forEach(f=>{
+  if(f.unit!=='livres_tournois'||!Number.isFinite(f.value)||f.value<1) errors.push(f.id+': compensation award must retain exact historical livres');
+  if(!/not proof|not.*cash|not.*paid|disburs/i.test(f.description)) errors.push(f.id+': compensation must never be presented as verified disbursement');
+  if(f.from !== 'ent-french-superior-council-la') errors.push(f.id+': award issuer must be Council, not guessed payer');
 });
 financial.filter(f=>f.flow_state === 'archival_share_receipt_no_cash_value').forEach(f=>{
   if (f.unit !== 'shares' || !Number.isInteger(f.value) || f.value < 1) errors.push(f.id + ': share receipt needs recorded share units');

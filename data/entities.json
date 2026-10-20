@@ -865,5 +865,41 @@
       "src-musco-ellis-spring-2025"
     ],
     "verification": "reviewed"
+  },
+  {
+    "id": "ent-bernard-diron-dartaguiette",
+    "type": "person",
+    "name": "Bernard Diron d'Artaguiette",
+    "years": "active 1720s–1730s",
+    "description": "French Louisiana inspector-general and later commander at Mobile who held a regulated monopoly on trade with Choctaw communities in the late 1720s. Infringement by a new, Choctaw-requested post led to a Superior Council judgment awarding 29,000 French livres in compensation, per scholarship citing ANOM C13A 1732 fols.33–33v. The award is NOT proof of completed cash payment. His precise relation to the 1721 census signatory listed elsewhere as Diron needs original-name verification.",
+    "sources": [
+      "src-musco-ellis-spring-2025",
+      "src-hnoc-diron-1730-abstract",
+      "src-loc-diron-journal-edition"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-french-trade-monopoly-mobile",
+    "type": "commercial_privilege",
+    "name": "Mobile-based French trade monopoly affecting Choctaw country",
+    "years": "late 1720s–1730",
+    "description": "Exclusive colonial commercial privilege controlled by Diron d'Artaguiette, with official authority reportedly renewed around 1728. French governor's eventual choice to allow a new Choctaw-requested post challenged the privilege, creating a compensation dispute.",
+    "sources": [
+      "src-musco-ellis-spring-2025",
+      "src-hnoc-diron-1730-abstract"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-charles-frederic-merveilleux",
+    "type": "person",
+    "name": "Charles-Frédéric de Merveilleux",
+    "years": "active 1720s",
+    "description": "Swiss officer who proposed establishing a trading station in Choctaw country in 1726, discussing defensive and commercial concerns. The plan was not adopted; this person is not a proven 1730 post constructor.",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ],
+    "verification": "reviewed"
   }
 ]

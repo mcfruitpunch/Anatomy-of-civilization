@@ -746,5 +746,72 @@
       "src-bnf-law-colonies",
       "src-musco-ellis-spring-2025"
     ]
+  },
+  {
+    "id": "dom-056",
+    "from": "evt-1725-choctaw-renewal",
+    "to": "evt-1726-merveilleux-proposal",
+    "mechanism": "European trading plans respond to renewed Choctaw access demands",
+    "claim": "Following requests for trade access, Merveilleux formulated a 1726 post scheme. It was not adopted and must not be conflated with the 1730 Choctaw-requested Youanis station.",
+    "kind": "proposed_not_executed",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ]
+  },
+  {
+    "id": "dom-057",
+    "from": "evt-1729-choctaw-delegation",
+    "to": "evt-1729-mobile-monopoly-conflict",
+    "mechanism": "Choctaw requests force colonial choice between protected monopoly and a new post",
+    "claim": "Governor Périer's response to sustained Choctaw negotiations disrupted an exclusive French commercial arrangement held by Diron. This is a supported interpretation of colonial decision-making, not a claim that all Choctaw leaders agreed.",
+    "kind": "monopoly_policy_conflict",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-musco-ellis-spring-2025",
+      "src-hnoc-diron-1730-abstract"
+    ]
+  },
+  {
+    "id": "dom-058",
+    "from": "evt-1730-youanis-built",
+    "to": "evt-1732-29k-compensation",
+    "mechanism": "A new Choctaw trade post generates commercial indemnity dispute",
+    "claim": "A French Superior Council award of 29,000 French livres to the displaced monopolist is reported in historical research citing original 1732 folios; the original judgment has not been read here and the actual payout is unknown.",
+    "kind": "legal_compensation_award_not_payment",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ]
+  },
+  {
+    "id": "dom-059",
+    "from": "evt-1732-29k-compensation",
+    "to": "evt-1732-sep-ministry-dirons-case",
+    "mechanism": "Minister reviews litigation between Diron and the Company",
+    "claim": "A September 2 letter approving a Diron–Company Council decision is indexed in an HNOC archival guide. Connecting its operative language to the 29,000-livre award requires both originals; the indexed abstract contains no amount.",
+    "kind": "possible_document_link_needs_folio",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-hnoc-1732-minister-abstract",
+      "src-musco-ellis-spring-2025"
+    ]
+  },
+  {
+    "id": "dom-060",
+    "from": "evt-1729-mobile-monopoly-conflict",
+    "to": "evt-1730-youanis-built",
+    "mechanism": "Périer's decision overrides commercial resistance to build Choctaw-requested post",
+    "claim": "The official challenge to a French trade monopoly was followed by construction of the Haiyowvni/Youanis station under Régis du Roullet, on land where Choctaw leaders were decisive.",
+    "kind": "governance_trade_outcome",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-musco-ellis-spring-2025"
+    ]
   }
 ]
