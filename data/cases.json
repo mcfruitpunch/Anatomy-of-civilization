@@ -225,5 +225,103 @@
       "ent-colonial-speculators",
       "ent-british-colonial-militia"
     ]
+  },
+  {
+    "id": "finance1773",
+    "title": "Following the Money: East India Company Relief and Boston Tea Consignees",
+    "period": "1766–1773",
+    "summary": "A traceable path runs from Company borrowing and parliamentary financial relief to 1773 colonial tea consignments. Records identify named merchants, business recommendations, a governor's sons, and proposed commissions; documented appointments must be separated from realized payments.",
+    "summary_sources": [
+      "src-bank-1766-loan",
+      "src-uk-parliament-eic-finance",
+      "src-ma-consignees-1773",
+      "src-hingham-winslow-letter-1773"
+    ],
+    "decision_making": "Britain faced a Company financial crisis; Parliament provided loan and governance legislation, while the East India Company appointed commercial consignees to market tea. Boston actors' business networks and family relationships shaped who stood to gain from selling it, but individual appointment motives require more documentary evidence.",
+    "decision_sources": [
+      "src-uk-parliament-eic-finance",
+      "src-uk-hansard-1813",
+      "src-ma-consignees-1773",
+      "src-colonial-hutchinson-1773"
+    ],
+    "consequences": "Colonial residents opposed the Company's tea plan, tea consignees faced public pressure, and a November 1773 private letter anticipated potential commission earnings. Neither an actual 6% commission payment nor a personal financial kickback has been established by the records in this case.",
+    "consequences_sources": [
+      "src-hingham-winslow-letter-1773",
+      "src-colonial-tea-petition-1773",
+      "src-ma-consignees-1773"
+    ],
+    "interpretations": [
+      {
+        "label": "Public rescue and private enterprise",
+        "claim": "Parliamentary loan legislation and reforms responded to the East India Company's financial crisis. The decision also preserved commercial operations and has prompted debates about public liability for private corporate risk.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-uk-parliament-eic-finance",
+          "src-uk-hansard-1813"
+        ]
+      },
+      {
+        "label": "Family access to profitable roles",
+        "claim": "Massachusetts Governor Hutchinson's two sons were named as tea consignees, with a reported 6% commission rate on prospective sales. This documents a family economic interest but does not establish that the governor personally selected them, took commissions, or secretly orchestrated the tea trade.",
+        "status": "documented",
+        "sources": [
+          "src-ma-consignees-1773",
+          "src-colonial-hutchinson-1773"
+        ]
+      },
+      {
+        "label": "Commercial patronage beyond kinship",
+        "claim": "The Commonwealth Museum reports Brook Watson recommended Joshua Winslow and Benjamin Faneuil Jr.; Winslow's own letter describes appointment through friends. These sources document recommendation and patronage, not an illicit exchange.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-ma-consignees-1773",
+          "src-hingham-winslow-letter-1773"
+        ]
+      },
+      {
+        "label": "Domestic institutional scrutiny",
+        "claim": "Parliament simultaneously scrutinized Robert Clive's administration in Bengal. Criticism of Company management coexisted with financial assistance; simultaneous actions by parliamentarians do not establish a unified secret plan.",
+        "status": "documented",
+        "sources": [
+          "src-uk-parliament-eic-public",
+          "src-uk-parliament-eic-finance"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Did archival ledger entries show any commissions were actually paid to Hutchinson's sons, Winslow, Faneuil or Clarke? If so, in what amounts and when?",
+      "What does the original 1773 Loan Act and Treasury ledger establish about £1.4 million authorization versus eventual disbursement, repayment and subsidy conditions?",
+      "Who specifically nominated the Hutchinson sons and what contemporaneous correspondence establishes the decision?",
+      "What directorship, share ownership and parliamentary voting records connect identifiable officials to the Company in 1772–1773?",
+      "How did protests, threats and economic boycotts alter the actual finances of the consignees, including losses?",
+      "What perspectives on Company financing and imperial exploitation appear in surviving Bengali sources and scholarship?"
+    ],
+    "events": [
+      "evt-1766-eic-bank-extension",
+      "evt-1772-eic-financial-crisis",
+      "evt-1773-eic-loan",
+      "evt-1773-clive-burgoyne",
+      "evt-1773-consignees",
+      "evt-1773-winslow-letter",
+      "evt-1773-consignees-petition"
+    ],
+    "entities": [
+      "ent-eic",
+      "ent-parliament",
+      "ent-clive",
+      "ent-hutchinson",
+      "ent-lord-north",
+      "ent-richard-clarke",
+      "ent-clarke-sons",
+      "ent-thomas-hutchinson-jr",
+      "ent-elisha-hutchinson",
+      "ent-joshua-winslow",
+      "ent-benjamin-faneuil-jr",
+      "ent-brook-watson",
+      "ent-jotham-gay",
+      "ent-bank-england",
+      "ent-henry-crabb-boulton",
+      "ent-john-burgoyne"
+    ]
   }
 ]
