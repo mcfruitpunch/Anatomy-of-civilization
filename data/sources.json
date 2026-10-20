@@ -779,5 +779,16 @@
     "url": "https://guides.loc.gov/business-booms-busts/mississippi-company",
     "locator": "Opening company comparisons, Library of Congress bibliographic leads; links to HNOC John Law primary-document collection and other research portals.",
     "reviewed": true
+  },
+  {
+    "id": "src-wellcome-humblot-1720",
+    "type": "primary_image_catalog",
+    "title": "Rue Quinquempoix en l'année 1720: satirical trading scene and verses",
+    "author": "After Antoine Humblot (catalogue description by Wellcome Collection)",
+    "year": 1720,
+    "publisher": "Wellcome Collection, catalogue object 3783i",
+    "url": "https://wellcomecollection.org/works/yuszyw25",
+    "locator": "Catalogue 'Lettering' and 'Description': Dutch verses refer to both the Mississippi and South Sea speculative winds. Print attributed to circa 1720; catalogue indicates uncertainty about whether depicted street is Paris or Amsterdam.",
+    "reviewed": true
   }
 ]
