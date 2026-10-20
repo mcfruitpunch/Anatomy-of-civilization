@@ -1,3 +1,3 @@
 # Exhibit catalogue
 
-Items 342 and 345 appear on printed page 18 of the 1903 exhibition catalogue. Both were in a private collection at the time.
+1903 catalogue, printed page 18: item 342 identifies the January 23 retrocession act; item 345 identifies the February 24 debt act. Current physical custody remains unverified.
