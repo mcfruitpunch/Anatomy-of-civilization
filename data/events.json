@@ -163,5 +163,173 @@
     "entities": [
       "ent-cia"
     ]
+  },
+  {
+    "id": "evt-1763-paris-treaty",
+    "date": "1763-02-10",
+    "title": "Treaty of Paris concludes the global Seven Years' War",
+    "summary": "Britain gained substantial territory, while wartime debt and new frontier governance problems complicated relations with North American colonies and Indigenous nations. British victories also occurred in India.",
+    "case": "imperial1773",
+    "entities": [
+      "ent-crown",
+      "ent-parliament"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-state-paris1763",
+      "src-state-seven-years"
+    ]
+  },
+  {
+    "id": "evt-1763-pontiac-resistance",
+    "date": "1763",
+    "title": "Pontiac's resistance challenges British frontier rule",
+    "summary": "Indigenous communities resisted British control and settler encroachment in the Great Lakes and Ohio Valley; alliances and aims differed among communities.",
+    "case": "imperial1773",
+    "entities": [
+      "ent-pontiac",
+      "ent-crown"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-state-frontier1763"
+    ]
+  },
+  {
+    "id": "evt-1763-royal-proclamation",
+    "date": "1763",
+    "title": "Royal Proclamation restricts settlement beyond the Appalachians",
+    "summary": "The British Crown sought to restrict colonial settlement beyond a proclamation boundary, challenging land speculation while Indigenous territories remained contested and settlement continued.",
+    "case": "imperial1773",
+    "entities": [
+      "ent-crown",
+      "ent-colonial-speculators"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-state-frontier1763"
+    ]
+  },
+  {
+    "id": "evt-1765-stamp-act",
+    "date": "1765",
+    "title": "Parliament passes the Stamp Act",
+    "summary": "Colonial revenue legislation proposed under Prime Minister George Grenville provoked protests and political mobilization in Britain's North American colonies.",
+    "case": "imperial1773",
+    "entities": [
+      "ent-grenville",
+      "ent-parliament"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-state-tax1763"
+    ]
+  },
+  {
+    "id": "evt-1767-townshend",
+    "date": "1767",
+    "title": "Townshend duties renew colonial taxation disputes",
+    "summary": "After the Stamp Act's repeal, Parliament introduced new import duties, including the tea duty that remained relevant to the protests of 1773.",
+    "case": "imperial1773",
+    "entities": [
+      "ent-parliament"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-state-tax1763",
+      "src-loc-tea1773"
+    ]
+  },
+  {
+    "id": "evt-1773-tea-act",
+    "date": "1773-05",
+    "title": "Tea Act benefits the financially troubled East India Company",
+    "summary": "Parliament eased the East India Company's tea sales into North American colonies without repealing the existing tea duty, alarming merchants and opponents of taxation without representation.",
+    "case": "imperial1773",
+    "entities": [
+      "ent-eic",
+      "ent-parliament"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-loc-tea1773",
+      "src-nps-tea1773"
+    ]
+  },
+  {
+    "id": "evt-1773-boston-tea-party",
+    "date": "1773-12-16",
+    "title": "Boston protesters destroy East India Company tea",
+    "summary": "A colonial protest group boarded three vessels carrying East India Company tea and destroyed the cargo after controversy over parliamentary taxation and monopoly privileges.",
+    "case": "imperial1773",
+    "entities": [
+      "ent-eic",
+      "ent-colonial-protesters",
+      "ent-hutchinson"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-nps-tea1773",
+      "src-loc-1773-1774",
+      "src-loc-boston-protest1773"
+    ]
+  },
+  {
+    "id": "evt-1774-coercive-acts",
+    "date": "1774",
+    "title": "Parliament responds with Coercive Acts",
+    "summary": "British legislation closed Boston's port and curtailed Massachusetts self-government in response to resistance and the destroyed East India Company tea.",
+    "case": "imperial1773",
+    "entities": [
+      "ent-parliament",
+      "ent-crown",
+      "ent-colonial-protesters"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-loc-1773-1774",
+      "src-state-tax1763"
+    ]
+  },
+  {
+    "id": "evt-1774-first-congress",
+    "date": "1774-09",
+    "title": "First Continental Congress meets in Philadelphia",
+    "summary": "Colonial delegates coordinated responses to British policy, culminating in an association calling for an economic boycott, amid disagreement over how far to resist.",
+    "case": "imperial1773",
+    "entities": [
+      "ent-continental-congress",
+      "ent-parliament"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-state-tax1763"
+    ]
+  },
+  {
+    "id": "evt-1775-lexington-concord",
+    "date": "1775-04-19",
+    "title": "Armed fighting begins at Lexington and Concord",
+    "summary": "British regular troops and Massachusetts militia engaged in combat as royal authorities tried to seize colonial military supplies amid escalating disputes.",
+    "case": "imperial1773",
+    "entities": [
+      "ent-crown",
+      "ent-british-colonial-militia"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-nps-lexington1775",
+      "src-state-tax1763"
+    ]
   }
 ]
