@@ -1319,5 +1319,18 @@
     "date": "1732-09-02",
     "status": "documented",
     "verification": "reviewed"
+  },
+  {
+    "id": "rel-102",
+    "from": "ent-compagnie-indes-france",
+    "to": "ent-french-superior-council-la",
+    "type": "directors_excluded_from_council",
+    "note": "University of Limoges historical legal research cites ANOM F3 242 fol.190: royal 22 May 1731 reorganization of Superior Council excluded former Company of Indies directors; original roster and detailed articles still need verification.",
+    "sources": [
+      "src-unilim-1731-retrocession"
+    ],
+    "date": "1731-05-22",
+    "status": "documented",
+    "verification": "reviewed"
   }
 ]
