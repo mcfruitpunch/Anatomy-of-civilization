@@ -96,3 +96,8 @@ input,select,button{font:inherit}input[type=search],input[type=number],select{ba
 .comparison-side p{margin:.5rem 0}
 .comparison-side .inline-button{background:#fff;margin-top:.7rem}
 @media(max-width:640px){.comparison-grid{grid-template-columns:1fr}}
+
+.archive-card,.route-card{border-left:4px solid #8d9caf;overflow-wrap:anywhere}
+.archive-card .source-links,.route-card .source-links{margin:.3rem 0}
+.route-card{border-left-color:#a58a58}
+.archive-card .pill.pending,.route-card .pill.pending{white-space:normal}
