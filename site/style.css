@@ -84,3 +84,7 @@ input,select,button{font:inherit}input[type=search],input[type=number],select{ba
 .domino-year{display:block;font-weight:800;font-size:.72rem;color:#20776d;margin-bottom:.35rem}
 .domino-arrow{text-align:center;font-size:1.35rem;color:#237e75}
 @media(max-width:520px){.domino-events{grid-template-columns:minmax(0,1fr) 20px minmax(0,1fr);gap:.35rem}.domino-event{padding:.5rem;min-height:100px}}
+
+.money-card{border-left:4px solid #c29b59}
+.money-card .money-flow{display:flex;align-items:center;flex-wrap:wrap;gap:.25rem;background:#f5f8f6;padding:.6rem;border-radius:7px}
+.money-card .pill.pending{font-weight:750}

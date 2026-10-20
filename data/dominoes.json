@@ -160,5 +160,87 @@
     "sources": [
       "src-loc-ny-broadside1773"
     ]
+  },
+  {
+    "id": "dom-013",
+    "from": "evt-1772-eic-financial-crisis",
+    "to": "evt-1773-eic-loan",
+    "mechanism": "Corporate financial distress prompts parliamentary relief",
+    "claim": "UK parliamentary history connects the Company's financial crisis to loan and regulatory legislation in 1773. A later Commons account gives the £1.4 million loan figure, not the individual disbursements.",
+    "kind": "policy_response",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-uk-parliament-eic-finance",
+      "src-uk-hansard-1813"
+    ]
+  },
+  {
+    "id": "dom-014",
+    "from": "evt-1772-eic-financial-crisis",
+    "to": "evt-1773-tea-act",
+    "mechanism": "Corporate distress and wider imperial legislation",
+    "claim": "The Tea Act was designed partly to assist the financially troubled Company through colonial marketing; it was one response among several to its crisis.",
+    "kind": "policy_response",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-ma-tea-policy",
+      "src-loc-tea1773"
+    ]
+  },
+  {
+    "id": "dom-015",
+    "from": "evt-1773-tea-act",
+    "to": "evt-1773-consignees",
+    "mechanism": "Trade legislation enables colonial consignee appointments",
+    "claim": "The Company's tea marketing plan under the 1773 law included selected Boston merchants and the governor's sons as consignees.",
+    "kind": "commercial_implementation",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-ma-consignees-1773",
+      "src-colonial-hutchinson-1773"
+    ]
+  },
+  {
+    "id": "dom-016",
+    "from": "evt-1773-consignees",
+    "to": "evt-1773-winslow-letter",
+    "mechanism": "An appointed merchant records his financial expectations",
+    "claim": "Winslow's private November 18 correspondence describes his earlier appointment, proposed Company tea sales, and anticipated commission; it does not document a realized payment.",
+    "kind": "contemporary_testimony",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-hingham-winslow-letter-1773"
+    ]
+  },
+  {
+    "id": "dom-017",
+    "from": "evt-1773-consignees",
+    "to": "evt-1773-consignees-petition",
+    "mechanism": "Consignee conflict moves into government petition",
+    "claim": "A 1773 council record identifies petitions by named tea consignees as colonial opposition increased.",
+    "kind": "documented_response",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-colonial-tea-petition-1773"
+    ]
+  },
+  {
+    "id": "dom-018",
+    "from": "evt-1773-winslow-letter",
+    "to": "evt-1773-boston-tea-party",
+    "mechanism": "Documented anticipation of resistance before cargo destruction",
+    "claim": "Winslow's letter demonstrates that one tea consignee understood the depth of opposition weeks before the Boston Tea Party. It does not establish that the letter itself influenced the protest.",
+    "kind": "historical_context",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-hingham-winslow-letter-1773",
+      "src-nps-tea1773"
+    ]
   }
 ]

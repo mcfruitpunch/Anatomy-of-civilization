@@ -1,7 +1,7 @@
 (async function () {
   'use strict';
   const $ = id => document.getElementById(id);
-  const collectionNames = ['sources', 'events', 'entities', 'relationships', 'cases', 'systems', 'dominoes'];
+  const collectionNames = ['sources', 'events', 'entities', 'relationships', 'cases', 'systems', 'dominoes', 'financial_flows'];
   const D = {};
   const make = (tag, props = {}, ...contents) => {
     const node = document.createElement(tag);
@@ -80,7 +80,7 @@
   D.cases.forEach(c => caseSelect.append(make('option', { value: c.id, textContent: c.title })));
   sortedEntities.forEach(e => entitySelect.append(make('option', { value: e.id, textContent: e.name })));
   $('stats').replaceChildren(
-    ...[['Events', D.events.length], ['Entities', D.entities.length], ['Connections', D.relationships.length], ['Sources', D.sources.length], ['Investigations', D.cases.length], ['Dominoes', D.dominoes.length]]
+    ...[['Events', D.events.length], ['Entities', D.entities.length], ['Connections', D.relationships.length], ['Sources', D.sources.length], ['Investigations', D.cases.length], ['Dominoes', D.dominoes.length], ['Financial records', D.financial_flows.length]]
       .map(([name, count]) => make('span', {}, make('strong', {}, String(count)), name))
   );
   $('load-status').textContent = 'Research dataset loaded · Source review is ongoing';
@@ -337,6 +337,27 @@
       citations(s.sources)
     )) : [empty('No system patterns match.')]));
   }
+  function renderFinance() {
+    const list = D.financial_flows.filter(f => (!state.caseId || f.case === state.caseId) &&
+      matches(f.title, f.description, entitiesById[f.from]?.name,
+        ...(f.to || []).map(id => entitiesById[id]?.name), f.flow_state, f.kind));
+    $('finance-count').textContent = list.length + ' records';
+    const valueLabel = record => record.value === null ? 'Amount not stated' :
+      record.unit === 'GBP' ? ('£' + record.value.toLocaleString('en-GB') + ' historical') :
+      record.unit === 'percent_of_sales' ? (record.value + '% of sales, conditional') :
+      (record.value + ' ' + record.unit);
+    $('finance-list').replaceChildren(...(list.length ? list.map(f => make('article',
+      { className: 'card money-card' },
+      make('p', { className: 'eyebrow' }, f.date + ' · ' + readableType(f.kind)),
+      make('h3', {}, f.title),
+      make('p', {}, pill(valueLabel(f), f.flow_state.startsWith('prospective') ? 'pending' : 'documented')),
+      make('p', { className: 'money-flow' }, actorButton(f.from), ' → ', f.to.map(actorButton)),
+      make('p', { className: 'small' }, make('strong', {}, 'Record type: '), readableType(f.flow_state)),
+      make('p', {}, f.description),
+      citations(f.sources)
+    )) : [empty('No financial traces match this search or case. These records currently focus on the 1773 Company case.')]));
+  }
+
   function renderSources() {
     const list = D.sources.filter(s => matches(s.title, s.author, s.locator));
     $('source-list').replaceChildren(...(list.length ? list.map(s => make('li', { id: 'src-' + s.id },
@@ -348,7 +369,7 @@
       s.locator ? make('p', { className: 'source-locator' }, 'Locator: ' + s.locator) : empty('Exact passage not yet reviewed.')
     )) : [make('li', {}, empty('No sources match the search.'))]));
   }
-  function render() { renderTimeline(); renderDominoes(); renderNetwork(); renderCases(); renderSystems(); renderSources(); }
+  function render() { renderTimeline(); renderDominoes(); renderFinance(); renderNetwork(); renderCases(); renderSystems(); renderSources(); }
   function updateFilters() {
     state.query = clean($('search').value.trim());
     state.caseId = caseSelect.value;

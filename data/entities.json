@@ -203,9 +203,10 @@
     "type": "person",
     "name": "Thomas Hutchinson",
     "years": "1711–1780",
-    "description": "Royal governor of Massachusetts who refused to allow East India Company tea ships to depart Boston in 1773 without meeting customs requirements.",
+    "description": "Royal governor of Massachusetts; his two sons were designated tea consignees. The family tie alone does not establish that he arranged their appointment.",
     "sources": [
-      "src-nps-tea1773"
+      "src-nps-tea1773",
+      "src-ma-consignees-1773"
     ],
     "verification": "reviewed"
   },
@@ -262,6 +263,144 @@
     "description": "Locally organized militia companies that opposed British regular troops at Lexington and Concord in April 1775.",
     "sources": [
       "src-nps-lexington1775"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-lord-north",
+    "type": "person",
+    "name": "Frederick North (Lord North)",
+    "years": "1732–1792",
+    "description": "British prime minister during the Tea Act and East India Company's 1773 financial crisis.",
+    "sources": [
+      "src-uk-parliament-eic-finance",
+      "src-uk-parliament-eic-public"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-richard-clarke",
+    "type": "person",
+    "name": "Richard Clarke",
+    "years": "1711–1795",
+    "description": "Boston merchant and senior member of Richard Clarke & Sons, a 1773 tea-consignee firm.",
+    "sources": [
+      "src-colonial-tea-petition-1773"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-clarke-sons",
+    "type": "corporation",
+    "name": "Richard Clarke & Sons",
+    "years": "",
+    "description": "Boston mercantile firm selected to receive East India Company tea; a commercial role, not itself evidence of payment realized.",
+    "sources": [
+      "src-colonial-hutchinson-1773",
+      "src-colonial-tea-petition-1773"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-thomas-hutchinson-jr",
+    "type": "person",
+    "name": "Thomas Hutchinson Jr.",
+    "years": "",
+    "description": "Son of Governor Thomas Hutchinson; selected as a Boston tea consignee in 1773.",
+    "sources": [
+      "src-ma-consignees-1773",
+      "src-colonial-hutchinson-1773"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-elisha-hutchinson",
+    "type": "person",
+    "name": "Elisha Hutchinson",
+    "years": "",
+    "description": "Son of Governor Thomas Hutchinson; selected as a Boston tea consignee in 1773.",
+    "sources": [
+      "src-ma-consignees-1773",
+      "src-colonial-hutchinson-1773"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-joshua-winslow",
+    "type": "person",
+    "name": "Joshua Winslow",
+    "years": "1727–1801",
+    "description": "Massachusetts merchant and East India Company tea consignee whose November 18 1773 letter discussed a prospective commission.",
+    "sources": [
+      "src-hingham-winslow-letter-1773",
+      "src-colonial-hutchinson-1773"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-benjamin-faneuil-jr",
+    "type": "person",
+    "name": "Benjamin Faneuil Jr.",
+    "years": "1701–1785",
+    "description": "Partner of Joshua Winslow in a Boston firm selected to receive East India Company tea.",
+    "sources": [
+      "src-ma-consignees-1773",
+      "src-colonial-hutchinson-1773"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-brook-watson",
+    "type": "person",
+    "name": "Brook Watson",
+    "years": "",
+    "description": "London merchant who recommended Joshua Winslow and Benjamin Faneuil Jr. as tea consignees, according to Massachusetts Commonwealth Museum.",
+    "sources": [
+      "src-ma-consignees-1773"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-jotham-gay",
+    "type": "person",
+    "name": "Jotham Gay",
+    "years": "",
+    "description": "Merchant and correspondent who received Joshua Winslow's November 18 1773 letter about tea consignment.",
+    "sources": [
+      "src-hingham-winslow-letter-1773"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-bank-england",
+    "type": "corporation",
+    "name": "Bank of England",
+    "years": "1694–",
+    "description": "Banking institution whose archive preserves a March 1766 note concerning an existing £50,000 loan to the East India Company.",
+    "sources": [
+      "src-bank-1766-loan"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-henry-crabb-boulton",
+    "type": "person",
+    "name": "Henry Crabb Boulton",
+    "years": "",
+    "description": "East India Company director/chairman and British MP, named in the Bank of England's 1766 loan-extension record.",
+    "sources": [
+      "src-bank-1766-loan"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-john-burgoyne",
+    "type": "person",
+    "name": "John Burgoyne",
+    "years": "",
+    "description": "British MP who chaired a committee investigating Robert Clive's administration of the East India Company's affairs in India.",
+    "sources": [
+      "src-uk-parliament-eic-public"
     ],
     "verification": "reviewed"
   }

@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const load = (n) => JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', n + '.json'), 'utf8'));
 const sources = load('sources'), events = load('events'), entities = load('entities');
-const rels = load('relationships'), cases = load('cases'), systems = load('systems'), dominoes = load('dominoes');
+const rels = load('relationships'), cases = load('cases'), systems = load('systems'), dominoes = load('dominoes'), financial = load('financial_flows');
 const STATUS = ['documented', 'interpretation', 'supported interpretation', 'unresolved', 'speculation'];
 const errors = [];
 const ids = (arr, name) => {
@@ -13,7 +13,7 @@ const ids = (arr, name) => {
   return s;
 };
 const S = ids(sources, 'sources'), E = ids(events, 'events'), N = ids(entities, 'entities');
-const C = ids(cases, 'cases'); ids(rels, 'relationships'); ids(systems, 'systems'); ids(dominoes, 'dominoes');
+const C = ids(cases, 'cases'); ids(rels, 'relationships'); ids(systems, 'systems'); ids(dominoes, 'dominoes'); ids(financial, 'financial');
 const bySource = Object.fromEntries(sources.map(s => [s.id, s]));
 const need = (list, set, ctx) => (list || []).forEach(i => { if (!set.has(i)) errors.push(ctx + ': unknown reference ' + i); });
 const validStatus = (obj, ctx) => { if (!STATUS.includes(obj.status)) errors.push(ctx + ': bad/missing status ' + obj.status); };
@@ -79,5 +79,26 @@ dominoes.forEach(d => {
   if (d.status === 'documented' && d.verification !== 'reviewed')
     errors.push(d.id + ': documented link requires review');
 });
+const acceptableUnits = new Set(['GBP', 'percent_of_sales', 'not_recorded']);
+const acceptableStates = new Set(['existing_credit_extension', 'historical_account_not_transaction_ledger', 'prospective_not_documented_paid']);
+financial.forEach(f => {
+  validDate(f.date, f.id);
+  if (!f.title || !f.kind || !f.description || !f.flow_state) errors.push(f.id + ': missing financial metadata');
+  if (!acceptableStates.has(f.flow_state)) errors.push(f.id + ': unknown money status (review before asserting payment)');
+  if (!acceptableUnits.has(f.unit)) errors.push(f.id + ': unknown currency or measure');
+  if (f.value !== null && (!Number.isFinite(f.value) || f.value < 0)) errors.push(f.id + ': amount must be a nonnegative number or null');
+  if (f.unit === 'not_recorded' && f.value !== null) errors.push(f.id + ': unknown amounts must not be invented');
+  if (f.unit !== 'not_recorded' && f.value === null) errors.push(f.id + ': stated currency or rate requires a number');
+  if (f.unit === 'percent_of_sales' && f.value > 100) errors.push(f.id + ': invalid commission percentage');
+  if (!Array.isArray(f.to) || !f.to.length) errors.push(f.id + ': no recipients');
+  need([f.from, ...(f.to || [])], N, f.id);
+  need([f.case], C, f.id);
+  const c = cases.find(record => record.id === f.case);
+  if (c) [f.from, ...(f.to || [])].forEach(id => {
+    if (!c.entities.includes(id)) errors.push(f.id + ': financial actor not in case: ' + id);
+  });
+  cite(f, f.id, true);
+  if (f.verification !== 'reviewed') errors.push(f.id + ': financial record must label review status');
+});
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
-console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes');
+console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records');

@@ -361,5 +361,104 @@
     "url": "https://www.loc.gov/resource/rbpe.10501300/?sp=2&st=text",
     "locator": "Image/text page 2, letter to Friends of Liberty and Trade: rhetoric explicitly comparing East India Company actions in India and America; famine allegation is not independently verified here.",
     "reviewed": true
+  },
+  {
+    "id": "src-ma-consignees-1773",
+    "type": "museum_research",
+    "title": "Road to Revolution: The Consignees",
+    "author": "Massachusetts Commonwealth Museum",
+    "year": null,
+    "publisher": "Office of the Massachusetts Secretary of the Commonwealth",
+    "url": "https://www.sec.state.ma.us/divisions/commonwealth-museum/exhibits/online/the_boston_tea_party/the_boston_tea_party_5.htm",
+    "locator": "Opening Boston Gazette October 18 quotation; Friends and Family; commission of 6% on sales; Watson recommendation",
+    "reviewed": true
+  },
+  {
+    "id": "src-colonial-hutchinson-1773",
+    "type": "scholarly_primary_edition",
+    "title": "The Correspondence of Thomas Hutchinson, Vol. 5: July 1772–May 1774 — The Boston Tea Party",
+    "author": "Colonial Society of Massachusetts",
+    "year": 2022,
+    "publisher": "Publications of the Colonial Society of Massachusetts",
+    "url": "https://www.colonialsociety.org/publications/4959/boston-tea-party",
+    "locator": "Editorial annotations identifying Hutchinson's sons Thomas Jr. and Elisha, Clarke & Sons, Joshua Winslow and Benjamin Faneuil Jr.; contemporary correspondence of 1773",
+    "reviewed": true
+  },
+  {
+    "id": "src-colonial-tea-petition-1773",
+    "type": "scholarly_primary_edition",
+    "title": "The Tea Consignees Petition and Council Proceedings (1773), annotated text",
+    "author": "Colonial Society of Massachusetts",
+    "year": null,
+    "publisher": "Colonial Society of Massachusetts",
+    "url": "https://www.colonialsociety.org/node/194",
+    "locator": "Commentary citing Massachusetts Archives Council Records XVI:741 and Boston News-Letter December 30 1773 on Richard Clarke, Benjamin Faneuil, Thomas and Elisha Hutchinson",
+    "reviewed": true
+  },
+  {
+    "id": "src-hingham-winslow-letter-1773",
+    "type": "primary_transcription",
+    "title": "Joshua Winslow to Jotham Gay, November 18, 1773",
+    "author": "Joshua Winslow (transcribed and introduced by Hingham Historical Society)",
+    "year": 1773,
+    "publisher": "Hingham Heritage Museum / Out of the Archives",
+    "url": "https://outofthearchives.org/tag/boston-tea-party/",
+    "locator": "November 18 2023 post reproduces Winslow's November 18 1773 letter describing tea plan, expected 'handsome commission,' and public resistance; original held by Hingham Historical Society",
+    "reviewed": true
+  },
+  {
+    "id": "src-uk-parliament-eic-finance",
+    "type": "institutional_history",
+    "title": "Parliament and the East India Company",
+    "author": "UK Parliament",
+    "year": null,
+    "publisher": "UK Parliament Living Heritage",
+    "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/parliament-and-the-east-india-company/",
+    "locator": "Financial crisis; Parliamentary committees; 1773 East India Company Loan Act and Regulating Act; Lord North's statements about Company misgovernment",
+    "reviewed": true
+  },
+  {
+    "id": "src-uk-parliament-eic-public",
+    "type": "institutional_history",
+    "title": "The East India Company and public opinion",
+    "author": "UK Parliament",
+    "year": null,
+    "publisher": "UK Parliament Living Heritage",
+    "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/the-east-india-company-and-public-opinion/",
+    "locator": "Nabobs, concern about parliamentary corruption, Company's 1772 financial collapse, Burgoyne's investigation of Clive in May 1773",
+    "reviewed": true
+  },
+  {
+    "id": "src-uk-hansard-1813",
+    "type": "primary_retrospective",
+    "title": "East India Company's Affairs — House of Commons, May 31 1813",
+    "author": "UK House of Commons (Hansard historical proceedings)",
+    "year": 1813,
+    "publisher": "Hansard / UK Parliament",
+    "url": "https://hansard.parliament.uk/commons/1813-05-31/debates/30d76ed5-51da-48b9-9500-1867135975cd/EastIndiaCompanySAffairs%E2%80%94",
+    "locator": "Historical survey: Company's 1773 request for £1,400,000 government loan and later account of repayment; source recorded forty years after 1773",
+    "reviewed": true
+  },
+  {
+    "id": "src-bank-1766-loan",
+    "type": "archival_catalog",
+    "title": "Note to Henry Crabb Boulton regarding prolongation of a £50,000 East India Company loan",
+    "author": "Bank of England Archive",
+    "year": 1766,
+    "publisher": "Bank of England",
+    "url": "https://www.bankofengland.co.uk/CalmView/Record.aspx?id=13A84%2F11%2F48&src=calmview.catalog",
+    "locator": "Item 13A84/11/48, dated 20 March 1766; note concerns prolongation of a £50,000 loan and identifies Henry Crabb Boulton as EIC chairman/director",
+    "reviewed": true
+  },
+  {
+    "id": "src-ma-tea-policy",
+    "type": "museum_research",
+    "title": "Too Big to Fail: The British East India Company",
+    "author": "Massachusetts Commonwealth Museum",
+    "year": null,
+    "publisher": "Office of the Massachusetts Secretary of the Commonwealth",
+    "url": "https://www.sec.state.ma.us/divisions/commonwealth-museum/exhibits/online/the_boston_tea_party/the_boston_tea_party_2.htm",
+    "locator": "'Globalization' and 'Troubled and Troublesome' narrative on Company activities in Bengal and collapse; broad claims about Bengal famine remain subject to independent review",
+    "reviewed": true
   }
 ]
