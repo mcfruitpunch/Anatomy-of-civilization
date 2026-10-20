@@ -1,0 +1,80 @@
+[
+  {
+    "id": "fin-001",
+    "date": "1766-03-20",
+    "title": "Bank of England's existing East India Company loan",
+    "from": "ent-bank-england",
+    "to": [
+      "ent-eic"
+    ],
+    "value": 50000,
+    "unit": "GBP",
+    "kind": "loan_extension_record",
+    "flow_state": "existing_credit_extension",
+    "description": "An archive catalogue identifies a note about prolongation of an existing £50,000 loan. The document does not establish new funds advanced on March 20.",
+    "case": "finance1773",
+    "sources": [
+      "src-bank-1766-loan"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "fin-002",
+    "date": "1773",
+    "title": "Government loan to relieve the East India Company",
+    "from": "ent-parliament",
+    "to": [
+      "ent-eic"
+    ],
+    "value": 1400000,
+    "unit": "GBP",
+    "kind": "government_loan",
+    "flow_state": "historical_account_not_transaction_ledger",
+    "description": "An 1813 Commons historical account describes a £1.4 million government loan arranged after the Company's 1773 appeal. Parliamentary history confirms enabling legislation; the specific installments and original receipts are not yet checked.",
+    "case": "finance1773",
+    "sources": [
+      "src-uk-hansard-1813",
+      "src-uk-parliament-eic-finance"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "fin-003",
+    "date": "1773",
+    "title": "Prospective commission for Hutchinson sons' tea-consignee firm",
+    "from": "ent-eic",
+    "to": [
+      "ent-thomas-hutchinson-jr",
+      "ent-elisha-hutchinson"
+    ],
+    "value": 6,
+    "unit": "percent_of_sales",
+    "kind": "consignment_commission",
+    "flow_state": "prospective_not_documented_paid",
+    "description": "Massachusetts Commonwealth Museum reports a 6% sales commission for the two sons' tea consignment. It would apply to completed sales, not automatically to the value of all tea shipped. No payment to the sons or their father has been verified.",
+    "case": "finance1773",
+    "sources": [
+      "src-ma-consignees-1773"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "fin-004",
+    "date": "1773-11-18",
+    "title": "Joshua Winslow anticipates commission from tea sales",
+    "from": "ent-eic",
+    "to": [
+      "ent-joshua-winslow"
+    ],
+    "value": null,
+    "unit": "not_recorded",
+    "kind": "anticipated_consignment_commission",
+    "flow_state": "prospective_not_documented_paid",
+    "description": "Winslow's November 18 private letter says a 'handsome commission' could be earned if the tea scheme worked. It states no monetary amount, rate, or completed disbursement.",
+    "case": "finance1773",
+    "sources": [
+      "src-hingham-winslow-letter-1773"
+    ],
+    "verification": "reviewed"
+  }
+]
