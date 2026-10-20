@@ -1,7 +1,7 @@
 (async function () {
   'use strict';
   const $ = id => document.getElementById(id);
-  const collectionNames = ['sources', 'events', 'entities', 'relationships', 'cases', 'systems', 'dominoes', 'financial_flows', 'ownership_overlap', 'comparisons'];
+  const collectionNames = ['sources', 'events', 'entities', 'relationships', 'cases', 'systems', 'dominoes', 'financial_flows', 'ownership_overlap', 'comparisons', 'archival_documents', 'information_routes'];
   const D = {};
   const make = (tag, props = {}, ...contents) => {
     const node = document.createElement(tag);
@@ -80,7 +80,7 @@
   D.cases.forEach(c => caseSelect.append(make('option', { value: c.id, textContent: c.title })));
   sortedEntities.forEach(e => entitySelect.append(make('option', { value: e.id, textContent: e.name })));
   $('stats').replaceChildren(
-    ...[['Events', D.events.length], ['Entities', D.entities.length], ['Connections', D.relationships.length], ['Sources', D.sources.length], ['Investigations', D.cases.length], ['Dominoes', D.dominoes.length], ['Financial records', D.financial_flows.length], ['Ownership studies', D.ownership_overlap.length], ['Cross-border comparisons', D.comparisons.length]]
+    ...[['Events', D.events.length], ['Entities', D.entities.length], ['Connections', D.relationships.length], ['Sources', D.sources.length], ['Investigations', D.cases.length], ['Dominoes', D.dominoes.length], ['Financial records', D.financial_flows.length], ['Ownership studies', D.ownership_overlap.length], ['Cross-border comparisons', D.comparisons.length], ['Archival records', D.archival_documents.length], ['Information routes', D.information_routes.length]]
       .map(([name, count]) => make('span', {}, make('strong', {}, String(count)), name))
   );
   $('load-status').textContent = 'Research dataset loaded · Source review is ongoing';
@@ -345,12 +345,13 @@
     const valueLabel = record => record.flow_state === 'authorized_no_transfer' ? 'Transfer NOT executed' : record.flow_state === 'policy_target_not_cash_flow' ? (record.value.toLocaleString('en-GB') + ' French livres · proposed refinancing target, not paid') : record.value === null ? 'Amount not stated' :
       record.unit === 'GBP' ? ('£' + record.value.toLocaleString('en-GB') + ' historical') :
       record.unit === 'percent_of_sales' ? (record.value + '% of sales, conditional') :
+      record.unit === 'shares' ? (record.value + ' share units · price unknown') :
       (record.value + ' ' + record.unit);
     $('finance-list').replaceChildren(...(list.length ? list.map(f => make('article',
       { className: 'card money-card' },
       make('p', { className: 'eyebrow' }, f.date + ' · ' + readableType(f.kind)),
       make('h3', {}, f.title),
-      make('p', {}, pill(valueLabel(f), f.flow_state === 'documented_historical_loan' ? 'documented' : 'pending')),
+      make('p', {}, pill(valueLabel(f), ['documented_historical_loan','archival_share_receipt_no_cash_value'].includes(f.flow_state) ? 'documented' : 'pending')),
       make('p', { className: 'money-flow' }, actorButton(f.from), ' → ', f.to.map(actorButton)),
       make('p', { className: 'small' }, make('strong', {}, 'Evidence status: '), readableType(f.flow_state)),
       make('p', {}, f.description),
@@ -409,6 +410,39 @@
       )) : [empty('The current comparison records concern the French and British 1720 financial systems.')]));
   }
 
+  function renderArchives() {
+    const archiveScope = !state.caseId || ['archives1720','francemississippi1720','publicdebt1720'].includes(state.caseId);
+    const records = archiveScope ? D.archival_documents.filter(d =>
+      matches(d.title,d.place,d.reference,d.established,d.limitations,d.document_kind,
+        ...(d.entities||[]).map(id => entitiesById[id]?.name))) : [];
+    $('archive-count').textContent = records.length + ' records';
+    $('archive-list').replaceChildren(...(records.length ? records.map(d =>
+      make('article',{className:'card archive-card',id:d.id},
+        make('p',{className:'eyebrow'},d.date + ' · ' + d.place),
+        make('h3',{},d.title),
+        make('p',{},pill(readableType(d.document_kind)),pill(readableType(d.access_level),'pending')),
+        make('p',{className:'small quiet'},'Archive: ' + d.reference),
+        make('p',{},d.established),
+        make('p',{className:'small quiet'},make('strong',{},'Not yet established: '),d.limitations),
+        citations(d.sources),
+        make('p',{className:'small'},(d.entities||[]).map(actorButton))
+      )) : [empty('Original records are indexed for the 1716–1721 international and French archive studies.')]));
+    const routes = archiveScope ? D.information_routes.filter(r =>
+      matches(r.from,r.to,r.channel,r.evidence_kind,r.interpretation)) : [];
+    $('route-list').replaceChildren(...(routes.length ? routes.map(r =>
+      make('article',{className:'card route-card'},
+        make('p',{className:'eyebrow'},r.date+' · '+readableType(r.evidence_kind)),
+        make('h3',{},r.from+' → '+r.to),
+        make('p',{},pill(r.status,r.status==='documented'?'documented':'pending'),
+          pill(r.named_correspondent_verified ? 'Named correspondent verified' : 'No private correspondent verified','pending')),
+        make('h4',{},r.channel),
+        make('p',{},r.interpretation),
+        make('p',{className:'small'},'Record link(s): ',r.documents.length ?
+          r.documents.map(id=>make('a',{href:'#'+id},id+' ↗ ')) : 'No individual primary correspondence linked.'),
+        citations(r.sources)
+      )) : [empty('Cross-border documentary channels appear in the 1720 finance cases.')]));
+  }
+
   function renderSources() {
     const list = D.sources.filter(s => matches(s.title, s.author, s.locator));
     $('source-list').replaceChildren(...(list.length ? list.map(s => make('li', { id: 'src-' + s.id },
@@ -420,7 +454,7 @@
       s.locator ? make('p', { className: 'source-locator' }, 'Locator: ' + s.locator) : empty('Exact passage not yet reviewed.')
     )) : [make('li', {}, empty('No sources match the search.'))]));
   }
-  function render() { renderTimeline(); renderDominoes(); renderFinance(); renderOwnership(); renderComparisons(); renderNetwork(); renderCases(); renderSystems(); renderSources(); }
+  function render() { renderTimeline(); renderDominoes(); renderFinance(); renderOwnership(); renderComparisons(); renderArchives(); renderNetwork(); renderCases(); renderSystems(); renderSources(); }
   function updateFilters() {
     state.query = clean($('search').value.trim());
     state.caseId = caseSelect.value;

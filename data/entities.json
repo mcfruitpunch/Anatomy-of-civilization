@@ -694,5 +694,95 @@
       "src-loc-bubbles-2026"
     ],
     "verification": "reviewed"
+  },
+  {
+    "id": "ent-leydse-courant",
+    "type": "organization",
+    "name": "Leydse Courant (Dutch newspaper)",
+    "years": "1719–1721 (records examined)",
+    "description": "Dutch newspaper whose surviving 1719–1721 images are made available in Yale's financial history project; do not infer a specific article's contents without reading that issue.",
+    "sources": [
+      "src-yale-1720-ledger"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-amsterdam-share-traders",
+    "type": "organization",
+    "name": "Share traders in Amsterdam, 1720",
+    "years": "1720",
+    "description": "Descriptive category for financiers, brokers and investors, including an English coffee house depicted in contemporaneous satire. The category is not a uniform organization or a list of verified individuals.",
+    "sources": [
+      "src-wellcome-amsterdam-coffeehouse",
+      "src-wellcome-amsterdam-english-house"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-stad-rotterdam-1720",
+    "type": "corporation",
+    "name": "Stad Rotterdam discount and lending company",
+    "years": "1720 onward",
+    "description": "Dutch Rotterdam discounting and lending institution whose original 1720–1723 journal, general ledger and transaction books are indexed by Yale's South Sea Bubble project.",
+    "sources": [
+      "src-yale-1720-ledger"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-archibald-hutcheson",
+    "type": "person",
+    "name": "Archibald Hutcheson",
+    "years": "c. 1659–1740",
+    "description": "British parliamentarian and author of pamphlets questioning South Sea share valuations in 1720; a printed public letter is catalogued, but not proof of private correspondence with Law.",
+    "sources": [
+      "src-hutcheson-stock-letter"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-inspector-diron",
+    "type": "person",
+    "name": "Diron (Louisiana colonial inspector)",
+    "years": "early 1720s",
+    "description": "Colonial administrative figure named as signer of the 1721 New Orleans census and author of a related letter dated January 2, 1722. First name and biography not established by this record.",
+    "sources": [
+      "src-anom-census-no-1721",
+      "src-anom-census-mobile-1721"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-imbert-valet",
+    "type": "person",
+    "name": "Mr. Imbert (first valet to the Duke of Orléans)",
+    "years": "active 1719",
+    "description": "Individual surnamed Imbert named by HNOC's MSS 606 finding aid as the source of 20 equity shares acknowledged in a 23 December 1719 Paris receipt. First name, source of shares and later holdings are unverified.",
+    "sources": [
+      "src-hnoc-mss606-findingaid"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-frenier-signatory",
+    "type": "person",
+    "name": "Frenier (signatory on 1719 share receipt)",
+    "years": "active 1719",
+    "description": "Individual identified only as Frenier, who signed a 23 December 1719 Paris document certifying delivery of 20 shares from Mr. Imbert to an unidentified bearer. This does not make Frenier the recipient or share owner.",
+    "sources": [
+      "src-hnoc-mss606-findingaid"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-unidentified-bearer-1719",
+    "type": "person",
+    "name": "Unidentified bearer on 1719 share receipt",
+    "years": "recorded 1719",
+    "description": "A deliberately unnamed participant who received 20 shares according to HNOC's inventory; this is a placeholder for an unidentified historical bearer, not a newly identified person or family.",
+    "sources": [
+      "src-hnoc-mss606-findingaid"
+    ],
+    "verification": "reviewed"
   }
 ]

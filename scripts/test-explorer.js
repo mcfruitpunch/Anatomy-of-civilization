@@ -14,9 +14,11 @@ const dominoes = readJson('dominoes');
 const financial = readJson('financial_flows');
 const ownership = readJson('ownership_overlap');
 const comparisons = readJson('comparisons');
+const archiveDocs = readJson('archival_documents');
+const routes = readJson('information_routes');
 const ids = ['search', 'case-filter', 'year-from', 'year-to', 'timeline-list',
   'event-detail', 'rel-filter', 'entity-filter', 'verified-only', 'clear-focus',
-  'graph', 'entity-detail', 'network-list', 'case-list', 'system-list', 'source-list', 'domino-list', 'domino-count', 'finance-list', 'finance-count', 'ownership-list', 'ownership-count', 'comparison-list', 'comparison-count'];
+  'graph', 'entity-detail', 'network-list', 'case-list', 'system-list', 'source-list', 'domino-list', 'domino-count', 'finance-list', 'finance-count', 'ownership-list', 'ownership-count', 'comparison-list', 'comparison-count', 'archive-list', 'archive-count', 'route-list'];
 for (const id of ids) {
   assert(new RegExp('id="' + id + '"').test(html), 'Missing UI control or target: ' + id);
   assert(js.includes("'"+id+"'"), 'Explorer does not reference control: ' + id);
@@ -78,5 +80,18 @@ assert(html.includes('href="#comparison"') && js.includes('renderComparisons()')
 assert(comparisons.length >= 4, 'Country comparison records missing');
 assert(comparisons.every(c => c.sources?.length && c.france_case !== c.britain_case), 'Invalid comparative research evidence');
 assert(financial.some(f => f.flow_state === 'policy_target_not_cash_flow' && f.unit === 'livres_tournois'), 'France monetary target not distinguished');
+assert(financial.some(f=>f.id === 'fin-011' && f.value === 20 && f.unit === 'shares' && f.flow_state === 'archival_share_receipt_no_cash_value'), 'Specific 1719 twenty-share receipt not preserved correctly');
+assert(archiveDocs.some(d=>d.id === 'doc-012' && d.reference.includes('2010.0158.20')), 'Original 1719 manuscript archival ID missing');
 assert(!comparisons.some(c=>/joint secret organization|centralized family conspiracy/i.test(c.interpretation)), 'Cross-border hypothesis overstatement');
-console.log('OK: explorer, country comparisons, source citations and non-cash financial data');
+assert(html.includes('href="#archives"') && js.includes('renderArchives()'), 'Archive explorer not hooked up');
+assert(archiveDocs.length >= 13 && routes.length >= 3,'Insufficient documentary records/routes');
+const archiveIds = new Set(archiveDocs.map(d=>d.id));
+for (const d of archiveDocs) {
+  assert(d.reference && d.limitations && d.sources?.length,'Archival item lacks provenance/limitations '+d.id);
+}
+for (const r of routes) {
+  assert(r.named_correspondent_verified === false,'Do not invent personal international correspondence');
+  assert(r.documents.every(id=>archiveIds.has(id)),'Route contains broken archive link');
+  assert(r.sources?.length,'Cross-border route requires a cited source');
+}
+console.log('OK: country comparisons, archive evidence layers, named correspondence safeguards and financial states');

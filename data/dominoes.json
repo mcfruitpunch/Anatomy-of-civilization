@@ -581,5 +581,102 @@
     "sources": [
       "src-wellcome-humblot-1720"
     ]
+  },
+  {
+    "id": "dom-044",
+    "from": "evt-1716-banque-generale",
+    "to": "evt-1716-law-charter-archive",
+    "mechanism": "Founding bank and surviving original royal patent",
+    "claim": "The Bank's creation is anchored to a May 2, 1716 set of letters patent preserved by HNOC. The institutional account and original manuscript are separate source forms.",
+    "kind": "primary_document_attestation",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-hnoc-law-primary",
+      "src-bnf-gallica-law"
+    ]
+  },
+  {
+    "id": "dom-045",
+    "from": "evt-1719-french-debt-exchange",
+    "to": "evt-1720-amsterdam-coffeehouse-print",
+    "mechanism": "Continental reception of Law's speculative system",
+    "claim": "Amsterdam satire referring to John Law and Quincampoix appeared during the bubble year. It records cross-border awareness, not evidence that identifiable Paris investors gave orders to Amsterdam traders.",
+    "kind": "public_discourse",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-wellcome-amsterdam-coffeehouse",
+      "src-bnf-law-colonies"
+    ]
+  },
+  {
+    "id": "dom-046",
+    "from": "evt-1720-french-april-edict",
+    "to": "evt-1720-french-aug-edict",
+    "mechanism": "Government revises banknote controls through 1720",
+    "claim": "French government orders in April and August restricted conversion and addressed note destruction as the monetary system unraveled. Whether specific notes were redeemed or destroyed requires ledgers.",
+    "kind": "documented_policy_sequence",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-hnoc-law-primary"
+    ]
+  },
+  {
+    "id": "dom-047",
+    "from": "evt-1720-south-sea-scheme",
+    "to": "evt-1720-hutcheson-pamphlet",
+    "mechanism": "British public valuation critique responds to debt conversion",
+    "claim": "The 1720 South Sea scheme and Hutcheson's pamphlet fall in the same year; the pamphlet critiques public stock calculations rather than indicating a private conversation with John Law.",
+    "kind": "public_financial_criticism",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-hutcheson-stock-letter",
+      "src-boe-ssc-archive"
+    ]
+  },
+  {
+    "id": "dom-048",
+    "from": "evt-1718-new-orleans-founding",
+    "to": "evt-1721-no-census",
+    "mechanism": "Colonial urban growth becomes recorded in state enumerations",
+    "claim": "A 1721 census of New Orleans and nearby settlements survives, with categories for enslaved people and colonial households. The existence of census records does not mean colonial voices are evenly represented.",
+    "kind": "archival_continuity",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-anom-census-no-1721",
+      "src-bnf-vidal-no"
+    ]
+  },
+  {
+    "id": "dom-049",
+    "from": "evt-1717-compagnie-occident",
+    "to": "evt-1721-jan-passenger-list",
+    "mechanism": "Colonial shipping and passenger records survive",
+    "claim": "After the Louisiana charter, the French state kept records of voyages in 1720–1721. The indexed list alone does not verify forced versus voluntary passage, individual arrival, or mortality.",
+    "kind": "archival_context",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-anom-passengers-1721",
+      "src-bnf-law-colonies"
+    ]
+  },
+  {
+    "id": "dom-050",
+    "from": "evt-1719-french-debt-exchange",
+    "to": "evt-1719-20shares-receipt",
+    "mechanism": "A specifically dated share transaction amid 1719 financial expansion",
+    "claim": "The 23 December 1719 Frenier-signed document is a surviving receipt for twenty bank equity shares transferred from a named court servant to an unidentified bearer. Its occurrence amid Law's larger financial boom does not establish participation in any particular public-debt conversion or a bribe.",
+    "kind": "contemporaneous_financial_document",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-hnoc-mss606-findingaid",
+      "src-bnf-law-colonies"
+    ]
   }
 ]

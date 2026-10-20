@@ -790,5 +790,148 @@
     "url": "https://wellcomecollection.org/works/yuszyw25",
     "locator": "Catalogue 'Lettering' and 'Description': Dutch verses refer to both the Mississippi and South Sea speculative winds. Print attributed to circa 1720; catalogue indicates uncertainty about whether depicted street is Paris or Amsterdam.",
     "reviewed": true
+  },
+  {
+    "id": "src-hnoc-law-primary",
+    "type": "primary_collection_with_curator_summary",
+    "title": "Historic New Orleans Collection: John Law Collection — charter, 1720 monetary orders, correspondence",
+    "author": "Historic New Orleans Collection",
+    "year": null,
+    "publisher": "Historic New Orleans Collection",
+    "url": "https://hnoc.org/research-collections/collection-highlights/john-law-collection",
+    "locator": "Object 2010.0158.1 dated 1716-05-02; object 2023.0082.2 dated 1720-04-20; 2021.0237.21 dated 1720-08-30. The website reproduces images and curator descriptions; complete French manuscript transcription not independently verified.",
+    "reviewed": true
+  },
+  {
+    "id": "src-yale-1720-ledger",
+    "type": "archival_dataset_guide",
+    "title": "South Sea Bubble 1720 Project: share prices, Dutch newspapers and Rotterdam ledgers",
+    "author": "Yale School of Management, International Center for Finance",
+    "year": 2024,
+    "publisher": "Yale School of Management, International Center for Finance",
+    "url": "https://som.yale.edu/centers/international-center-for-finance/data/historical-financial-research-data/south-seas-bubble-1720",
+    "locator": "Dataset guide: Dutch and British quoted securities, international exchange rates, Bank of Amsterdam agio; Leydse Courant images from 1719-11-20 to 1720-12-30; Stad Rotterdam journal and transaction books from July 1720. Raw rows not transcribed; restrictions on redistribution.",
+    "reviewed": true
+  },
+  {
+    "id": "src-wellcome-amsterdam-coffeehouse",
+    "type": "primary_image_catalog",
+    "title": "The English coffee house in Amsterdam: printed commentary on the 1720 share boom",
+    "author": "Wellcome Collection",
+    "year": 1720,
+    "publisher": "Wellcome Collection",
+    "url": "https://wellcomecollection.org/works/gvz5tu3g",
+    "locator": "Wellcome catalogue reference 811589i: Dutch etching circa 1720 showing Amsterdam's 'English coffee house' with bust of John Law and French street name Quincampoix; cultural depiction, not an independent trade ledger.",
+    "reviewed": true
+  },
+  {
+    "id": "src-wellcome-amsterdam-english-house",
+    "type": "primary_image_catalog",
+    "title": "The English coffee house in Amsterdam, with share traders and the rise/fall of speculation",
+    "author": "Wellcome Collection",
+    "year": 1720,
+    "publisher": "Wellcome Collection",
+    "url": "https://wellcomecollection.org/works/e32vdtk5",
+    "locator": "Reference 812076i, circa 1720, Groote Tafereel der Dwaasheid; English coffee house nickname Quinquenpoix and staged trading vignettes; artwork does not establish who traded there.",
+    "reviewed": true
+  },
+  {
+    "id": "src-hutcheson-stock-letter",
+    "type": "primary_print_catalog",
+    "title": "Archibald Hutcheson, Letter to White-Hall Evening-Post on the Value of South-Sea Stock",
+    "author": "Wellcome Collection / Eighteenth Century Collections Online",
+    "year": 1720,
+    "publisher": "Wellcome Collection / Eighteenth Century Collections Online",
+    "url": "https://wellcomecollection.org/works/yy3prd74",
+    "locator": "Catalogue: attributed to Archibald Hutcheson, 1720 London pamphlet responding to White-Hall Evening-Post calculations. Full pamphlet contents not independently transcribed in this project.",
+    "reviewed": true
+  },
+  {
+    "id": "src-anom-passengers-1721",
+    "type": "primary_archival_catalog",
+    "title": "Liste de tous les passagers pour la Louisiane depuis le 4 janvier 1720 au 24 janvier 1721",
+    "author": "Archives nationales d'outre-mer (France)",
+    "year": 1721,
+    "publisher": "Archives nationales d'outre-mer (France)",
+    "url": "https://nouvelle-france.org/eng/item/details?id=31224",
+    "locator": "COL G1 464, 68 pages/images, compiled at Lorient and dated 1721-01-24; catalogue index only consulted, not complete individual passenger-name or arrival analysis.",
+    "reviewed": true
+  },
+  {
+    "id": "src-anom-census-no-1721",
+    "type": "primary_archival_catalog",
+    "title": "Recensement des habitans et concessionnaires de La Nouvelle Orléans et lieux circonvoisins",
+    "author": "Archives nationales d'outre-mer (France)",
+    "year": 1721,
+    "publisher": "Archives nationales d'outre-mer (France)",
+    "url": "https://nouvelle-france.org/eng/item/details?id=31235",
+    "locator": "COL G1 464, 12 images, dated 1721-11-24. Catalogue: named and aggregate men, women, children, French servants, enslaved people, livestock, cultivation; signed Diron/Le Blond de la Tour/Duvergier/Cormet, attached to Diron letter of 1722-01-02. No counts inferred from catalog.",
+    "reviewed": true
+  },
+  {
+    "id": "src-anom-census-mobile-1721",
+    "type": "primary_archival_catalog",
+    "title": "Recensement des habitants du Fort Louis de la Mobile et villages circonvoisins",
+    "author": "Archives nationales d'outre-mer (France)",
+    "year": 1721,
+    "publisher": "Archives nationales d'outre-mer (France)",
+    "url": "https://nouvelle-france.org/eng/item/details?id=31234",
+    "locator": "COL G1 464, 7 images, census written at Biloxi 1721-06-28, attributed to Diron, distinguishes families, French servants, enslaved people, livestock; transcription not yet reviewed.",
+    "reviewed": true
+  },
+  {
+    "id": "src-bnf-indigenous-knowledge",
+    "type": "scholarly_archive_guide",
+    "title": "French Knowledge of the Indigenous Peoples",
+    "author": "Bibliothèque nationale de France",
+    "year": 2021,
+    "publisher": "Bibliothèque nationale de France",
+    "url": "https://heritage.bnf.fr/france-ameriques/en/french-knowledge-indigenous-peoples",
+    "locator": "Discusses colonial reports of Indigenous villages enumerated by war-capable men or 'huts/fires' and later reports on Natchez; highlights that colonial categories and ethnographies are partial and biased.",
+    "reviewed": true
+  },
+  {
+    "id": "src-bnf-river-cartography",
+    "type": "scholarly_archive_guide",
+    "title": "French cartography of the Mississippi River",
+    "author": "Bibliothèque nationale de France",
+    "year": 2021,
+    "publisher": "Bibliothèque nationale de France",
+    "url": "https://heritage.bnf.fr/france-ameriques/en/french-cartography-mississippi-river",
+    "locator": "Details Indigenous geographic knowledge in French maps and promotional mapping by Guillaume Delisle and Compagnie d'Occident; mapmakers must not be assumed sole origin of the information.",
+    "reviewed": true
+  },
+  {
+    "id": "src-bnf-commercial-company-slavery",
+    "type": "scholarly_archive_guide",
+    "title": "Commercial Companies — French colonial enterprises and forced labor",
+    "author": "Bibliothèque nationale de France",
+    "year": 2021,
+    "publisher": "Bibliothèque nationale de France",
+    "url": "https://heritage.bnf.fr/france-ameriques/en/commercial-companies",
+    "locator": "Orain: 1717 Compagnie d'Occident, incorporation of trade rights including companies involved in slave trade, failed colonial recruitment and sharply unequal mortality; relies on BnF scholarship, not an itemized vessel register.",
+    "reviewed": true
+  },
+  {
+    "id": "src-bnf-english-law-1720",
+    "type": "primary_print_catalog",
+    "title": "A full and impartial account of the company of Mississipi, projected and settled by Mr Law (1720)",
+    "author": "Anonymous English-language 1720 pamphlet, BnF Gallica catalogue",
+    "year": 1720,
+    "publisher": "Bibliothèque nationale de France",
+    "url": "https://heritage.bnf.fr/france-ameriques/en/john-law",
+    "locator": "John Law curated primary items, entry 1720 English text titled 'A full and impartial account of the company of Mississipi'; Gallica ark:/12148/bpt6k109867v is linked but access to full scan was blocked at time of this research. Existence and title only independently verified.",
+    "reviewed": true
+  },
+  {
+    "id": "src-hnoc-mss606-findingaid",
+    "type": "original_archival_finding_aid",
+    "title": "John Law Collection MSS 606: Manuscript and Printed Holdings Inventory",
+    "author": "Historic New Orleans Collection, Williams Research Center",
+    "year": null,
+    "publisher": "Historic New Orleans Collection",
+    "url": "https://cdn.craft.cloud/97cd51c5-b816-4a93-aea9-fd7e2c5e47da/assets/downloads/MSS606.pdf",
+    "locator": "PDF page 2 (printed page 2), Series I manuscript folders 1–4: accession 2010.0158.20, 1719-12-23 receipt signed Frenier for bearer who received 20 shares from Mr Imbert (first valet to Duke of Orleans); accession 2010.0158.19 original 50-livre note dated 1720-09-02; original documents not transcribed.",
+    "reviewed": true
   }
 ]

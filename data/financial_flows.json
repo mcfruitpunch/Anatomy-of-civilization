@@ -193,5 +193,24 @@
       "src-nyfed-law"
     ],
     "verification": "reviewed"
+  },
+  {
+    "id": "fin-011",
+    "date": "1719-12-23",
+    "title": "Manuscript certificate of 20 shares received from Mr. Imbert",
+    "from": "ent-imbert-valet",
+    "to": [
+      "ent-unidentified-bearer-1719"
+    ],
+    "value": 20,
+    "unit": "shares",
+    "kind": "bank_equity_certificate_receipt",
+    "flow_state": "archival_share_receipt_no_cash_value",
+    "description": "HNOC MSS606 Folder 4, accession 2010.0158.20: a document signed in Paris by Frenier certifies the bearer received twenty shares of bank equity from Mr. Imbert, first valet to the Duke of Orléans. The archive finding aid verifies the described share receipt, NOT a cash price, profit, compensation, illicit favor, or the bearer's identity. Full manuscript transcription remains pending.",
+    "case": "archives1720",
+    "sources": [
+      "src-hnoc-mss606-findingaid"
+    ],
+    "verification": "reviewed"
   }
 ]

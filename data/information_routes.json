@@ -1,0 +1,78 @@
+[
+  {
+    "id": "route-001",
+    "from": "Paris",
+    "to": "London",
+    "date": "1720",
+    "channel": "English-language pamphlet about Law's French Mississippi Company",
+    "evidence_kind": "primary_publication_catalog",
+    "confidence": "english_language_print_location_and_readership_unverified",
+    "interpretation": "The BnF curates an English-language 1720 pamphlet specifically about Law's French company. This demonstrates an English-language account existed but does NOT independently establish London publication, a named traveler, or reception by South Sea directors. Paris→London is an investigative hypothesis pending bibliographic and correspondence review.",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-bnf-english-law-1720"
+    ],
+    "documents": [
+      "doc-011"
+    ],
+    "named_correspondent_verified": false
+  },
+  {
+    "id": "route-002",
+    "from": "Paris",
+    "to": "Amsterdam",
+    "date": "1720",
+    "channel": "Dutch satire referencing John Law and Paris' Quincampoix market",
+    "evidence_kind": "primary_print_catalog",
+    "confidence": "documented_public_perception_not_trade",
+    "interpretation": "Amsterdam prints depict an English coffee house and borrow the Parisian Quincampoix name while featuring John Law. This is evidence of circulating public financial imagery and criticism, not evidence of named personal meetings.",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-wellcome-amsterdam-coffeehouse",
+      "src-wellcome-amsterdam-english-house"
+    ],
+    "documents": [
+      "doc-005"
+    ],
+    "named_correspondent_verified": false
+  },
+  {
+    "id": "route-003",
+    "from": "London",
+    "to": "Amsterdam",
+    "date": "1719",
+    "channel": "British securities quoted in Dutch stock markets",
+    "evidence_kind": "historical_finance_data_index",
+    "confidence": "market_series_documented_transactions_unread",
+    "interpretation": "Yale's stock-price and foreign-exchange dataset indexes British securities quoted in the Netherlands and a 1720 Dutch newspaper series. A specific investor transfer or exact price series has NOT been verified from individual rows in this research pass.",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-yale-1720-ledger"
+    ],
+    "documents": [
+      "doc-006",
+      "doc-007"
+    ],
+    "named_correspondent_verified": false
+  },
+  {
+    "id": "route-004",
+    "from": "Paris",
+    "to": "London",
+    "date": "1720",
+    "channel": "French debt-conversion ideas discussed in British South Sea histories",
+    "evidence_kind": "scholarly_influence_interpretation",
+    "confidence": "interpretation_not_direct_correspondence",
+    "interpretation": "Quinn and Turner describe South Sea directors' proposal as following Law's example. The cited chapter summary does not supply a verified named letter or private instruction from John Law to John Blunt.",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-cambridge-quinn-turner-2020"
+    ],
+    "documents": [],
+    "named_correspondent_verified": false
+  }
+]

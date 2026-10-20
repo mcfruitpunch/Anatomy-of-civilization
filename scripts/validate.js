@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const load = (n) => JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', n + '.json'), 'utf8'));
 const sources = load('sources'), events = load('events'), entities = load('entities');
-const rels = load('relationships'), cases = load('cases'), systems = load('systems'), dominoes = load('dominoes'), financial = load('financial_flows'), ownership = load('ownership_overlap'), comparisons = load('comparisons');
+const rels = load('relationships'), cases = load('cases'), systems = load('systems'), dominoes = load('dominoes'), financial = load('financial_flows'), ownership = load('ownership_overlap'), comparisons = load('comparisons'), documents = load('archival_documents'), routes = load('information_routes');
 const STATUS = ['documented', 'interpretation', 'supported interpretation', 'unresolved', 'speculation'];
 const errors = [];
 const ids = (arr, name) => {
@@ -13,7 +13,7 @@ const ids = (arr, name) => {
   return s;
 };
 const S = ids(sources, 'sources'), E = ids(events, 'events'), N = ids(entities, 'entities');
-const C = ids(cases, 'cases'); ids(rels, 'relationships'); ids(systems, 'systems'); ids(dominoes, 'dominoes'); ids(financial, 'financial'); ids(ownership, 'ownership_overlap'); ids(comparisons, 'comparisons');
+const C = ids(cases, 'cases'); ids(rels, 'relationships'); ids(systems, 'systems'); ids(dominoes, 'dominoes'); ids(financial, 'financial'); ids(ownership, 'ownership_overlap'); ids(comparisons, 'comparisons'); ids(documents, 'archival_documents'); ids(routes, 'information_routes');
 const bySource = Object.fromEntries(sources.map(s => [s.id, s]));
 const need = (list, set, ctx) => (list || []).forEach(i => { if (!set.has(i)) errors.push(ctx + ': unknown reference ' + i); });
 const validStatus = (obj, ctx) => { if (!STATUS.includes(obj.status)) errors.push(ctx + ': bad/missing status ' + obj.status); };
@@ -79,8 +79,8 @@ dominoes.forEach(d => {
   if (d.status === 'documented' && d.verification !== 'reviewed')
     errors.push(d.id + ': documented link requires review');
 });
-const acceptableUnits = new Set(['GBP', 'percent_of_sales', 'not_recorded', 'livres_tournois']);
-const acceptableStates = new Set(['existing_credit_extension', 'historical_account_not_transaction_ledger', 'prospective_not_documented_paid', 'documented_historical_loan', 'scheme_subscription_not_disbursement', 'shareholding_not_cash_transfer', 'agreement_not_disbursement', 'authorized_no_transfer', 'policy_target_not_cash_flow']);
+const acceptableUnits = new Set(['GBP', 'percent_of_sales', 'not_recorded', 'livres_tournois', 'shares']);
+const acceptableStates = new Set(['existing_credit_extension', 'historical_account_not_transaction_ledger', 'prospective_not_documented_paid', 'documented_historical_loan', 'scheme_subscription_not_disbursement', 'shareholding_not_cash_transfer', 'agreement_not_disbursement', 'authorized_no_transfer', 'policy_target_not_cash_flow', 'archival_share_receipt_no_cash_value']);
 financial.forEach(f => {
   validDate(f.date, f.id);
   if (!f.title || !f.kind || !f.description || !f.flow_state) errors.push(f.id + ': missing financial metadata');
@@ -110,6 +110,10 @@ ownership.forEach(o => {
   cite(o, o.id, true);
   if (o.verification !== 'reviewed') errors.push(o.id + ': source review missing');
 });
+financial.filter(f=>f.flow_state === 'archival_share_receipt_no_cash_value').forEach(f=>{
+  if (f.unit !== 'shares' || !Number.isInteger(f.value) || f.value < 1) errors.push(f.id + ': share receipt needs recorded share units');
+  if (!/no cash|NOT a cash|not.*cash|cash.*not|price/i.test(f.description)) errors.push(f.id + ': share receipt needs no-cash-price warning');
+});
 financial.filter(f=>f.flow_state === 'authorized_no_transfer').forEach(f=>{
   if (f.value !== null || f.unit !== 'not_recorded') errors.push(f.id + ': unauthorized invented non-transfer amount');
   if (!/not (executed|implemented)|never (executed|carried out)|neither .* (assumed|engrafted)/i.test(f.description)) errors.push(f.id + ': unexecuted transfer must be explicit');
@@ -127,5 +131,22 @@ financial.filter(f=>f.flow_state==='policy_target_not_cash_flow').forEach(f=>{
   if (!/not evidence|NOT evidence|not a payment|not proof/i.test(f.description))
     errors.push(f.id+': fiscal target needs explicit nonpayment warning');
 });
+const archiveLevels = new Set(['curator_summary_with_images','bibliographic_record_only','museum_catalogue_description','indexed_issues_not_transcribed','ledger_series_index_only','catalogue_metadata_only','archival_finding_aid_only']);
+documents.forEach(d => {
+  validDate(d.date,d.id);
+  if (!d.title || !d.place || !d.document_kind || !d.reference || !d.established || !d.limitations) errors.push(d.id + ': missing archive metadata');
+  if (!archiveLevels.has(d.access_level)) errors.push(d.id + ': unsupported archive inspection status');
+  if (!Array.isArray(d.entities) || !d.entities.length) errors.push(d.id + ': no explicitly linked subjects');
+  need(d.entities,N,d.id); cite(d,d.id,true);
+});
+const archiveIds = new Set(documents.map(d=>d.id));
+routes.forEach(r => {
+  validDate(r.date,r.id);
+  if (!r.from || !r.to || r.from===r.to || !r.channel || !r.interpretation || !r.evidence_kind || !r.confidence) errors.push(r.id + ': route missing provenance');
+  if (r.named_correspondent_verified !== false) errors.push(r.id + ': cannot invent verified personal correspondence');
+  if (!Array.isArray(r.documents)) errors.push(r.id + ': related-document array missing');
+  else r.documents.forEach(id=>{if(!archiveIds.has(id)) errors.push(r.id+': unknown document '+id)});
+  validStatus(r,r.id); cite(r,r.id,r.status==='documented');
+});
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
-console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records, ' + ownership.length + ' ownership aggregates, ' + comparisons.length + ' country comparisons');
+console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records, ' + ownership.length + ' ownership aggregates, ' + comparisons.length + ' country comparisons, ' + documents.length + ' original records, ' + routes.length + ' information channels');
