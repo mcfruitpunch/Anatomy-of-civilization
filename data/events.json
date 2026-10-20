@@ -863,5 +863,139 @@
     "sources": [
       "src-bnf-law-colonies"
     ]
+  },
+  {
+    "id": "evt-1716-law-charter-archive",
+    "date": "1716-05-02",
+    "title": "Original letters patent establish John Law's Banque Générale",
+    "summary": "The Historic New Orleans Collection holds the May 2, 1716 manuscript letters patent (2010.0158.1) establishing a General Bank. The collection displays the document and curator summary; its full French text has not been transcribed in the atlas.",
+    "case": "archives1720",
+    "entities": [
+      "ent-french-crown",
+      "ent-philippe-orleans",
+      "ent-john-law",
+      "ent-banque-generale"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-hnoc-law-primary"
+    ]
+  },
+  {
+    "id": "evt-1720-french-april-edict",
+    "date": "1720-04-20",
+    "title": "French order restricts exchanging banknotes for large silver coins",
+    "summary": "A surviving Order of the Council of State (HNOC 2023.0082.2) restricted bank exchanges of paper notes for large silver coins. This is evidence of a promulgated policy, not a ledger of redemptions.",
+    "case": "archives1720",
+    "entities": [
+      "ent-john-law",
+      "ent-banque-royale",
+      "ent-french-crown"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-hnoc-law-primary"
+    ]
+  },
+  {
+    "id": "evt-1720-amsterdam-coffeehouse-print",
+    "date": "1720",
+    "title": "Amsterdam satirical prints depict traders and refer to John Law",
+    "summary": "Dutch satirical prints in Het Groote Tafereel der Dwaasheid depict Amsterdam's English coffee house and its resemblance to Paris' Quincampoix share market. The prints are evidence of public commentary, not records of named trades.",
+    "case": "archives1720",
+    "entities": [
+      "ent-amsterdam-share-traders",
+      "ent-john-law"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-wellcome-amsterdam-coffeehouse",
+      "src-wellcome-amsterdam-english-house"
+    ]
+  },
+  {
+    "id": "evt-1720-hutcheson-pamphlet",
+    "date": "1720",
+    "title": "Archibald Hutcheson publishes South Sea valuation criticism",
+    "summary": "A London pamphlet catalogued under Archibald Hutcheson responds to share-value calculations published in the White-Hall Evening-Post. The catalogue identifies a public intervention but specific mathematical arguments require reading the full pamphlet.",
+    "case": "archives1720",
+    "entities": [
+      "ent-archibald-hutcheson",
+      "ent-south-sea"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-hutcheson-stock-letter"
+    ]
+  },
+  {
+    "id": "evt-1720-french-aug-edict",
+    "date": "1720-08-30",
+    "title": "French Crown issues order concerning destruction of banknotes",
+    "summary": "HNOC's August 30, 1720 edict (2021.0237.21) instructs named officials to inventory and burn specified banknotes. It is not evidence that a given total value of notes was in fact destroyed.",
+    "case": "archives1720",
+    "entities": [
+      "ent-banque-royale",
+      "ent-french-crown"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-hnoc-law-primary"
+    ]
+  },
+  {
+    "id": "evt-1721-jan-passenger-list",
+    "date": "1721-01-24",
+    "title": "Lorient archival passenger list covers voyages to Louisiana",
+    "summary": "An Archives nationales d'outre-mer record dated January 24, 1721 indexes a 68-page list covering passenger embarkations from January 4, 1720. Actual departures, arrivals and voluntary/forced status require individual folio review.",
+    "case": "archives1720",
+    "entities": [
+      "ent-compagnie-indes-france",
+      "ent-enslaved-africans-french-louisiana",
+      "ent-louisiana-indigenous-communities"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-anom-passengers-1721"
+    ]
+  },
+  {
+    "id": "evt-1721-mobile-census",
+    "date": "1721-06-28",
+    "title": "French officials compile Mobile and surrounding settlement census",
+    "summary": "A Diron-associated seven-page colonial census records categories of settlers, servants, enslaved people and livestock around Fort Louis de la Mobile; catalogue does not identify every person or produce verified totals.",
+    "case": "archives1720",
+    "entities": [
+      "ent-inspector-diron",
+      "ent-enslaved-africans-french-louisiana"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-anom-census-mobile-1721"
+    ]
+  },
+  {
+    "id": "evt-1721-no-census",
+    "date": "1721-11-24",
+    "title": "French officials complete a New Orleans and vicinity census",
+    "summary": "The surviving twelve-image New Orleans census (COL G1 464) is dated November 24, 1721 and attached to a January 2, 1722 letter from Diron. It categorizes households and enslaved populations, but raw individual values have not yet been verified from folios.",
+    "case": "archives1720",
+    "entities": [
+      "ent-inspector-diron",
+      "ent-enslaved-africans-french-louisiana",
+      "ent-louisiana-indigenous-communities"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-anom-census-no-1721"
+    ]
   }
 ]
