@@ -1274,5 +1274,38 @@
     "url": "https://hnoc.org/research-collections/research-tools/research-pathfinders/north-american-indigenous-societies-research-pathfinder/manuscript-collections-microfilms",
     "locator": "MSS 596 Caillot 1729–1731 Company clerk's illustrated account; MSS 717 1720–21 travel journal; MF17 Archives Nationales microfilms. Curatorial synopsis includes Indigenous diplomacy and colonial encounters. Original manuscript images/text have not been fully read.",
     "reviewed": true
+  },
+  {
+    "id": "src-columbia-1731-debt-printed-1733",
+    "type": "legal_rare_book_bibliographic_record",
+    "title": "Arrest du Conseil d'Estat du roy concernant le payement des dettes de la Compagnie des Indes à la Louisiane",
+    "author": "French Council of State",
+    "year": 1733,
+    "publisher": "Columbia Law Library catalogue; printed Paris 1733",
+    "url": "https://pegasus.law.columbia.edu/record/1505745",
+    "locator": "Columbia record 1505745: original edict title explicitly 'Du 24 février 1731', 2 pages, PRINTED at Paris in 1733. Date of royal decree 1731-02-24; 1733 is printed edition date. Full legal articles and payments not read.",
+    "reviewed": true
+  },
+  {
+    "id": "src-unilim-1731-retrocession",
+    "type": "scholarly_article_referencing_original_royal_folio",
+    "title": "Homicide, impérialisme et vengeance en Louisiane française entre 1738–1740",
+    "author": "Conflictualité research journal (University of Limoges)",
+    "year": 2026,
+    "publisher": "Université de Limoges",
+    "url": "https://www.unilim.fr/conflictualite/806",
+    "locator": "Footnotes 38–39: original 1731-01-23 retrocession decision indexed ANOM COL F3 242 fol.187; follow-up 1731-05-22 Council legal-composition decree at F3 242 fol.190 excluding Company directors from Superior Council. Research article interpreted; original folios not read.",
+    "reviewed": true
+  },
+  {
+    "id": "src-umsl-1731-decree-image",
+    "type": "university_exhibit_primary_decree_image",
+    "title": "1731 Arrest du Conseil d'Estat du Roy — Louisiana retrocession original printed decree",
+    "author": "French Royal Council; University of Missouri–St. Louis Mercantile Library archival exhibition",
+    "year": 1731,
+    "publisher": "University of Missouri–St. Louis Mercantile Library",
+    "url": "https://www.umsl.edu/mercantile/exhibitions/online-exhibits/lewis_and_clark_maps/MAPS_online_images/LP%20arrest%20du%20conseil%20OBJECT.jpg",
+    "locator": "Visible original printed title page: 'du 23. Janvier 1731' and concession 'Louisianne & du pays des Illinois'. Title/front page inspected; full decree clauses not inspected. Surrounding exhibition webpage has a demonstrably erroneous generic caption about transfer to Spain; rely on ORIGINAL TITLE PAGE, not that caption.",
+    "reviewed": true
   }
 ]
