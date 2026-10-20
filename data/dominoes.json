@@ -367,5 +367,84 @@
       "src-boe-1694-archive",
       "src-bank-1766-loan"
     ]
+  },
+  {
+    "id": "dom-028",
+    "from": "evt-1719-weaver-protests",
+    "to": "evt-1721-calico-engraftment",
+    "mechanism": "Weaver petitions, violence and calico law",
+    "claim": "Textile manufacturers mobilized against imports, and the Calico Act gained assent in March 1721. The act arose through legislative debate and crisis politics, not protest alone.",
+    "kind": "legislative_response",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-swingen-2024"
+    ]
+  },
+  {
+    "id": "dom-029",
+    "from": "evt-1720-south-sea-collapse",
+    "to": "evt-1720-intercompany-meeting",
+    "mechanism": "Credit crisis prompts financial negotiations",
+    "claim": "The collapse and liquidity crisis brought representatives of the East India Company, Bank of England and South Sea Company into discussions; no specific deal or cash flow is inferred from attendance.",
+    "kind": "documented_negotiation",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-swingen-2024"
+    ]
+  },
+  {
+    "id": "dom-030",
+    "from": "evt-1720-intercompany-meeting",
+    "to": "evt-1721-calico-engraftment",
+    "mechanism": "Negotiations and statutory debt-redistribution plan",
+    "claim": "Engraftment legislation followed negotiations among major companies and the government. A law authorizing a plan is not the actual transfer.",
+    "kind": "legislation_not_execution",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-swingen-2024"
+    ]
+  },
+  {
+    "id": "dom-031",
+    "from": "evt-1721-calico-engraftment",
+    "to": "evt-1721-engraftment-unimplemented",
+    "mechanism": "Legal permission does not imply execution",
+    "claim": "The 1721 Engraftment Act lacked power to compel the companies; neither Bank nor East India Company carried out the contemplated South Sea debt acquisition under it.",
+    "kind": "authorized_but_unexecuted",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-swingen-2024"
+    ]
+  },
+  {
+    "id": "dom-032",
+    "from": "evt-1721-calico-engraftment",
+    "to": "evt-1721-colonial-reexport",
+    "mechanism": "Compensatory commercial concessions",
+    "claim": "Following negotiations over restrictions on calicoes, a June 1721 law strengthened East India Company protections in colonial imports, while proposals for Madagascar slave-trading rights were not enacted.",
+    "kind": "policy_compensation",
+    "status": "supported interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-swingen-2024"
+    ]
+  },
+  {
+    "id": "dom-033",
+    "from": "evt-1721-engraftment-unimplemented",
+    "to": "evt-1722-bank-south-sea-agreement",
+    "mechanism": "Later agreements are separate transactions",
+    "claim": "Bank archives document a distinct October 1722 stock-purchase agreement after the original 1721 Engraftment Act was not implemented; do not equate the two.",
+    "kind": "restructured_separately",
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-swingen-2024",
+      "src-boe-ssc-agreement-1722"
+    ]
   }
 ]

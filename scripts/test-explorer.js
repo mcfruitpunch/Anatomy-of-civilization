@@ -12,9 +12,10 @@ const events = readJson('events'), cases = readJson('cases');
 const entities = readJson('entities'), relationships = readJson('relationships');
 const dominoes = readJson('dominoes');
 const financial = readJson('financial_flows');
+const ownership = readJson('ownership_overlap');
 const ids = ['search', 'case-filter', 'year-from', 'year-to', 'timeline-list',
   'event-detail', 'rel-filter', 'entity-filter', 'verified-only', 'clear-focus',
-  'graph', 'entity-detail', 'network-list', 'case-list', 'system-list', 'source-list', 'domino-list', 'domino-count', 'finance-list', 'finance-count'];
+  'graph', 'entity-detail', 'network-list', 'case-list', 'system-list', 'source-list', 'domino-list', 'domino-count', 'finance-list', 'finance-count', 'ownership-list', 'ownership-count'];
 for (const id of ids) {
   assert(new RegExp('id="' + id + '"').test(html), 'Missing UI control or target: ' + id);
   assert(js.includes("'"+id+"'"), 'Explorer does not reference control: ' + id);
@@ -66,4 +67,10 @@ for (const f of financial) {
   assert(f.to.every(id => entityMap.has(id)), 'Unknown financial recipient: ' + f.id);
   assert(f.sources.length > 0, 'Financial record missing citations: ' + f.id);
 }
-console.log('OK: explorer, cited event dominoes, family networks and financial-flow status protections');
+assert(ownership.length >= 2, 'Historic ownership overlap dataset absent');
+assert(ownership.every(o => o.distinct_individuals_verified === false), 'Aggregate accounts must not be converted to people');
+assert(ownership.some(o=>o.year === 1719 && o.matched_accounts_approx === 700), '1719 ledger comparison missing');
+assert(ownership.some(o=>o.year === 1721 && o.matched_accounts_approx === 760), '1721 ledger comparison missing');
+assert(financial.some(f=>f.flow_state === 'authorized_no_transfer' && f.value === null), 'Missing explicit unexecuted 1721 transfer');
+assert(js.includes('renderOwnership()'), 'Ownership overlap interface missing');
+console.log('OK: explorer, historical ownership aggregates, and safeguards against false financial transfers');

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "own-1719-overlap",
+    "year": 1719,
+    "company_ids": [
+      "ent-bank-england",
+      "ent-eic"
+    ],
+    "matched_accounts_approx": 700,
+    "measurement": "Accounts appearing in both companies' ledgers, as estimated by Mays and Shea; account identities are not individually represented in the atlas.",
+    "distinct_individuals_verified": false,
+    "methods": "Comparative reconstruction of historical East India stock ledger IOR/L/AG/14/5/4 and Bank stock and transfer ledgers AC27, with account-level joins performed by the original researchers.",
+    "sources": [
+      "src-mays-shea-2011"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "own-1721-overlap",
+    "year": 1721,
+    "company_ids": [
+      "ent-bank-england",
+      "ent-eic"
+    ],
+    "matched_accounts_approx": 760,
+    "measurement": "Accounts appearing in both companies' ledgers, as estimated by Mays and Shea. Increased overlap does not establish one group buying in coordination.",
+    "distinct_individuals_verified": false,
+    "methods": "Longitudinal stock-account comparison reported in Mays & Shea 2011, printed p.22. Trust and jointly held accounts complicate interpretations as unique persons.",
+    "sources": [
+      "src-mays-shea-2011"
+    ],
+    "verification": "reviewed"
+  }
+]

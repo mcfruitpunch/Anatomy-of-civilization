@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const load = (n) => JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', n + '.json'), 'utf8'));
 const sources = load('sources'), events = load('events'), entities = load('entities');
-const rels = load('relationships'), cases = load('cases'), systems = load('systems'), dominoes = load('dominoes'), financial = load('financial_flows');
+const rels = load('relationships'), cases = load('cases'), systems = load('systems'), dominoes = load('dominoes'), financial = load('financial_flows'), ownership = load('ownership_overlap');
 const STATUS = ['documented', 'interpretation', 'supported interpretation', 'unresolved', 'speculation'];
 const errors = [];
 const ids = (arr, name) => {
@@ -13,7 +13,7 @@ const ids = (arr, name) => {
   return s;
 };
 const S = ids(sources, 'sources'), E = ids(events, 'events'), N = ids(entities, 'entities');
-const C = ids(cases, 'cases'); ids(rels, 'relationships'); ids(systems, 'systems'); ids(dominoes, 'dominoes'); ids(financial, 'financial');
+const C = ids(cases, 'cases'); ids(rels, 'relationships'); ids(systems, 'systems'); ids(dominoes, 'dominoes'); ids(financial, 'financial'); ids(ownership, 'ownership_overlap');
 const bySource = Object.fromEntries(sources.map(s => [s.id, s]));
 const need = (list, set, ctx) => (list || []).forEach(i => { if (!set.has(i)) errors.push(ctx + ': unknown reference ' + i); });
 const validStatus = (obj, ctx) => { if (!STATUS.includes(obj.status)) errors.push(ctx + ': bad/missing status ' + obj.status); };
@@ -80,7 +80,7 @@ dominoes.forEach(d => {
     errors.push(d.id + ': documented link requires review');
 });
 const acceptableUnits = new Set(['GBP', 'percent_of_sales', 'not_recorded']);
-const acceptableStates = new Set(['existing_credit_extension', 'historical_account_not_transaction_ledger', 'prospective_not_documented_paid', 'documented_historical_loan', 'scheme_subscription_not_disbursement', 'shareholding_not_cash_transfer', 'agreement_not_disbursement']);
+const acceptableStates = new Set(['existing_credit_extension', 'historical_account_not_transaction_ledger', 'prospective_not_documented_paid', 'documented_historical_loan', 'scheme_subscription_not_disbursement', 'shareholding_not_cash_transfer', 'agreement_not_disbursement', 'authorized_no_transfer']);
 financial.forEach(f => {
   validDate(f.date, f.id);
   if (!f.title || !f.kind || !f.description || !f.flow_state) errors.push(f.id + ': missing financial metadata');
@@ -100,5 +100,19 @@ financial.forEach(f => {
   cite(f, f.id, true);
   if (f.verification !== 'reviewed') errors.push(f.id + ': financial record must label review status');
 });
+ownership.forEach(o => {
+  if (!Number.isInteger(o.year) || o.year < 1600 || o.year > 2026) errors.push(o.id + ': invalid researched year');
+  if (!Number.isInteger(o.matched_accounts_approx) || o.matched_accounts_approx < 0) errors.push(o.id + ': missing account estimate');
+  if (!Array.isArray(o.company_ids) || o.company_ids.length !== 2) errors.push(o.id + ': expected a pair of companies');
+  need(o.company_ids, N, o.id);
+  if (o.distinct_individuals_verified !== false) errors.push(o.id + ': aggregate research must not claim distinct individuals identified');
+  if (!o.measurement || !o.methods) errors.push(o.id + ': missing measurement/method details');
+  cite(o, o.id, true);
+  if (o.verification !== 'reviewed') errors.push(o.id + ': source review missing');
+});
+financial.filter(f=>f.flow_state === 'authorized_no_transfer').forEach(f=>{
+  if (f.value !== null || f.unit !== 'not_recorded') errors.push(f.id + ': unauthorized invented non-transfer amount');
+  if (!/not (executed|implemented)|never (executed|carried out)|neither .* (assumed|engrafted)/i.test(f.description)) errors.push(f.id + ': unexecuted transfer must be explicit');
+});
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
-console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records');
+console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records, ' + ownership.length + ' ownership aggregates');

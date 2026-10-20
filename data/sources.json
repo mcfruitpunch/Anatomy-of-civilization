@@ -603,5 +603,60 @@
     "url": "https://www.cambridge.org/core/journals/journal-of-economic-history/article/abs/bubble-act-its-passage-and-its-effects-on-business-organization/F483F91364A09C37166DC2BD63497223",
     "locator": "Abstract: South Sea Company involvement in Bubble Act and special-interest interpretation; entire article has not been read and therefore narrower status applies.",
     "reviewed": true
+  },
+  {
+    "id": "src-mays-shea-2011",
+    "type": "scholarly_working_paper",
+    "title": "East India Company and Bank of England Shareholders during the South Sea Bubble: Partitions, Components and Connectivity in a Dynamic Trading Network",
+    "author": "Andrew Mays and Gary S. Shea",
+    "year": 2011,
+    "publisher": "University of St Andrews, CDMA Working Paper 11/09",
+    "url": "https://www.st-andrews.ac.uk/~wwwecon/CDMA/papers/wp1109.pdf",
+    "locator": "Printed p.22 (PDF page 23): approx. 700 accounts in both ledgers in 1719 and 760 in 1721; pp.58–60 Appendix A identifies IOR/L/AG/14/5/4 and AC27 ledger books; this study does not give a verified roster of 1694 founding investors who held shares in 1720.",
+    "reviewed": true
+  },
+  {
+    "id": "src-swingen-2024",
+    "type": "peer_reviewed_scholarly",
+    "title": "Calico Madams and South Sea Cheats: Global Trade, Finance, and Popular Protest in Early Hanoverian England",
+    "author": "Abigail L. Swingen",
+    "year": 2024,
+    "publisher": "Journal of British Studies 63(1), pp.114–138, doi:10.1017/jbr.2023.74",
+    "url": "https://www.cambridge.org/core/journals/journal-of-british-studies/article/calico-madams-and-south-sea-cheats-global-trade-finance-and-popular-protest-in-early-hanoverian-england/A42541469AC2D07D56DB379D6B34EFAA",
+    "locator": "Sections The Weavers' Riots and the Calico Crisis / The South Sea Bubble; 23 March 1721 royal assent for Calico and Engraftment Acts; text states neither Bank nor East India Company actually engrafted the debt; primary references and footnotes 74–106.",
+    "reviewed": true
+  },
+  {
+    "id": "src-boe-bank-stock-index-1694",
+    "type": "archival_index",
+    "title": "Index to Original Subscribers to Bank Stock 1694",
+    "author": "Bank of England Archive",
+    "year": 2023,
+    "publisher": "Bank of England",
+    "url": "https://www.bankofengland.co.uk/archive/index-to-original-subscribers-to-bank-stock-1694",
+    "locator": "Index introduction: 1,520 recorded names/entries; alphabetical names, addresses, occupations and agents; this 1694 source alone does not establish 1720 holdings.",
+    "reviewed": true
+  },
+  {
+    "id": "src-boe-directors-list",
+    "type": "archival_index",
+    "title": "Directors' Annual Lists 1694–1950",
+    "author": "Bank of England Archive",
+    "year": 2023,
+    "publisher": "Bank of England",
+    "url": "https://www.bankofengland.co.uk/archive/directors-annual-lists-1694-1950",
+    "locator": "Introduction: first July 11 1694 directors include Sir John Houblon, Michael Godfrey, Sir John Huband, Sir James Houblon, Sir Henry Furnese and William Paterson; ongoing annual director lists; no EIC membership inferred.",
+    "reviewed": true
+  },
+  {
+    "id": "src-boe-stock-ledger-382",
+    "type": "archival_catalog",
+    "title": "Bank Stock subscribers to capital issues of 1694 and 1697, AC27/382",
+    "author": "Bank of England Archive",
+    "year": null,
+    "publisher": "Bank of England",
+    "url": "https://www.bankofengland.co.uk/CalmView/Record.aspx?id=AC27%2F382&src=CalmView.Catalog",
+    "locator": "AC27/382: subscriber identities and nominal subscriptions for 1694/1697; archival catalogue notes multiple entries per investor, and 1697 capital subscribed in tallies and bills, not cash.",
+    "reviewed": true
   }
 ]

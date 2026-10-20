@@ -420,5 +420,84 @@
       "ent-lord-montagu",
       "ent-john-aislabie"
     ]
+  },
+  {
+    "id": "engraftment1721",
+    "title": "Shared Investors, Calico Protests and the Unexecuted 1721 Rescue Plan",
+    "period": "1719–1722",
+    "summary": "Economic research finds around 700 stock accounts held both Bank of England and East India Company equity in 1719, increasing to about 760 by 1721. Meanwhile the 1720 market crisis prompted real negotiations between those companies and the South Sea Company. A 1721 engraftment law authorized a debt transfer but was not implemented.",
+    "summary_sources": [
+      "src-mays-shea-2011",
+      "src-swingen-2024"
+    ],
+    "decision_making": "East India Company directors were drawn into negotiations after the South Sea crash. Walpole promoted proposed distribution of South Sea debt among the Bank and East India Company. Government policy also responded to textile-weaver protests against Indian cotton fabrics and to the Company's demand for commercial concessions. Contemporaries argued about company power, domestic employment, public credit and political stability.",
+    "decision_sources": [
+      "src-swingen-2024",
+      "src-mays-shea-2011"
+    ],
+    "consequences": "On 23 March 1721, both a Calico Act and an Engraftment Act received royal assent; the debt-engraftment part did not actually occur. Later 1721 rules strengthened Company access to colonial import markets, while imported Indian calico use was restricted in Britain. Some protests involved attacks on women consumers, illustrating the human consequences of market disputes.",
+    "consequences_sources": [
+      "src-swingen-2024"
+    ],
+    "interpretations": [
+      {
+        "label": "Overlapping investment is documented",
+        "claim": "Mays and Shea's original-ledger study estimates roughly 700 accounts in both companies in 1719 and 760 in 1721. Accounts are not proof of one family's control, conspiratorial coordination, or continuity from 1694 original subscribers.",
+        "status": "documented",
+        "sources": [
+          "src-mays-shea-2011"
+        ]
+      },
+      {
+        "label": "Cooperation after competition",
+        "claim": "The Bank and East India Company participated in rescue negotiations after the Bubble, despite earlier competition between the Bank and South Sea Company. The 1721 legal plan did not lead to executed transfers.",
+        "status": "documented",
+        "sources": [
+          "src-swingen-2024"
+        ]
+      },
+      {
+        "label": "Calico policy and gendered popular violence",
+        "claim": "British weavers' grievances about Indian textiles were linked to employment and political anxiety; some assaults targeted women wearing calico, whose autonomy as consumers also became contested.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-swingen-2024"
+        ]
+      },
+      {
+        "label": "Different meanings of financial connectedness",
+        "claim": "Common stock ownership, directors' negotiation, legislative authority, an executed financial transfer and a criminal conspiracy are analytically distinct. The records establish the first three in specific ways, but not that the 1721 engraftment transfer occurred.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-mays-shea-2011",
+          "src-swingen-2024"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Can the Mays–Shea research data or original East India stock ledger IOR/L/AG/14/5/4 and Bank books AC27/1539–1558 be accessed to identify and document named common shareholders rather than aggregate stock accounts?",
+      "Does any named member of the original 1694 bank subscriber index appear in the 1719–1721 common-ownership cohort after a proper identity match?",
+      "What were individual Board of Trade recommendations and parliamentary amendments connecting calico restrictions to the charter privileges enacted in June 1721?",
+      "Which named representatives attended 1720 tripartite meetings, what did they recommend, and what proposals did they reject?",
+      "How did Indian textile producers and traders experience British protective restrictions and changes to colonial re-export routes?",
+      "Did investors' politics and company allegiances explain trading behavior, or were diversification, credit needs and market-making the major drivers?"
+    ],
+    "events": [
+      "evt-1719-weaver-protests",
+      "evt-1720-intercompany-meeting",
+      "evt-1721-calico-engraftment",
+      "evt-1721-colonial-reexport",
+      "evt-1721-engraftment-unimplemented"
+    ],
+    "entities": [
+      "ent-bank-england",
+      "ent-eic",
+      "ent-south-sea",
+      "ent-parliament",
+      "ent-robert-walpole",
+      "ent-weavers-1719",
+      "ent-board-trade",
+      "ent-john-aislabie"
+    ]
   }
 ]
