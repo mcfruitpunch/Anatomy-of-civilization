@@ -83,5 +83,21 @@
       "src-boe-ssc-competition",
       "src-boe-ssc-bubble-act"
     ]
+  },
+  {
+    "id": "sys-debt-charter-colonial-narratives",
+    "title": "Debt refinancing, chartered monopolies and colonial promotional narratives",
+    "description": "French and British governments pursued different but comparable public-debt refinancing models using chartered trading companies, share issues and privileges. Promotional claims about colonial riches circulated alongside coerced labor and Indigenous dispossession. Historical connections across markets are documented, while single-group command is not established.",
+    "cases": [
+      "francemississippi1720",
+      "publicdebt1720"
+    ],
+    "status": "supported interpretation",
+    "sources": [
+      "src-bnf-law-colonies",
+      "src-cambridge-quinn-turner-2020",
+      "src-bnf-vidal-no",
+      "src-cambridge-jackson-2022"
+    ]
   }
 ]
