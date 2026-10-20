@@ -751,5 +751,38 @@
       "src-anom-census-mobile-1721"
     ],
     "verification": "reviewed"
+  },
+  {
+    "id": "ent-imbert-valet",
+    "type": "person",
+    "name": "Mr. Imbert (first valet to the Duke of Orléans)",
+    "years": "active 1719",
+    "description": "Individual surnamed Imbert named by HNOC's MSS 606 finding aid as the source of 20 equity shares acknowledged in a 23 December 1719 Paris receipt. First name, source of shares and later holdings are unverified.",
+    "sources": [
+      "src-hnoc-mss606-findingaid"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-frenier-signatory",
+    "type": "person",
+    "name": "Frenier (signatory on 1719 share receipt)",
+    "years": "active 1719",
+    "description": "Individual identified only as Frenier, who signed a 23 December 1719 Paris document certifying delivery of 20 shares from Mr. Imbert to an unidentified bearer. This does not make Frenier the recipient or share owner.",
+    "sources": [
+      "src-hnoc-mss606-findingaid"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-unidentified-bearer-1719",
+    "type": "person",
+    "name": "Unidentified bearer on 1719 share receipt",
+    "years": "recorded 1719",
+    "description": "A deliberately unnamed participant who received 20 shares according to HNOC's inventory; this is a placeholder for an unidentified historical bearer, not a newly identified person or family.",
+    "sources": [
+      "src-hnoc-mss606-findingaid"
+    ],
+    "verification": "reviewed"
   }
 ]
