@@ -37,5 +37,20 @@
       "src-nsa-ebb435",
       "src-gasiorowski-2004"
     ]
+  },
+  {
+    "id": "sys-interlocking-imperial-policy",
+    "title": "Imperial fiscal stress, corporate relief and contested legitimacy",
+    "description": "The same empire faced state debt, colonial taxation disputes and an East India Company financial crisis. Overlapping policies affected different groups differently, without requiring one unified secret plan.",
+    "cases": [
+      "beic",
+      "imperial1773"
+    ],
+    "status": "supported interpretation",
+    "sources": [
+      "src-state-tax1763",
+      "src-loc-tea1773",
+      "src-bl-parliament"
+    ]
   }
 ]

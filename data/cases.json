@@ -133,5 +133,97 @@
       "src-iranica-oil-1954",
       "src-nsa-ebb435"
     ]
+  },
+  {
+    "id": "imperial1773",
+    "title": "One Empire, Three Frontiers: War Debt, Company Power and Colonial Resistance",
+    "period": "1757–1775",
+    "summary": "British wartime expansion linked European imperial conflict, victories in India, North American frontier disputes and mounting government debt. Parliament's 1773 tea policy to support the financially troubled East India Company became a flashpoint in British North American resistance.",
+    "summary_sources": [
+      "src-state-paris1763",
+      "src-state-tax1763",
+      "src-loc-tea1773"
+    ],
+    "decision_making": "British ministries and Parliament sought revenue, imperial stability and commercial recovery; the Crown restricted western settlement while colonists, Indigenous nations and regional commercial interests pursued conflicting goals. The Tea Act's East India Company benefits contributed to a much wider political confrontation.",
+    "decision_sources": [
+      "src-state-frontier1763",
+      "src-state-tax1763",
+      "src-loc-tea1773",
+      "src-loc-boston-protest1773"
+    ],
+    "consequences": "The Boston Tea Party was followed by punitive legislation and coordinated intercolonial responses, then fighting at Lexington and Concord in April 1775. These events had multiple causes; East India Company policy did not single-handedly cause the American Revolution.",
+    "consequences_sources": [
+      "src-loc-1773-1774",
+      "src-state-tax1763",
+      "src-nps-lexington1775"
+    ],
+    "interpretations": [
+      {
+        "label": "Imperial war finance",
+        "claim": "The scale of Britain's postwar debt influenced revenue-seeking policies that intensified disputes with its North American colonies, alongside constitutional and security concerns.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-state-paris1763",
+          "src-state-tax1763"
+        ]
+      },
+      {
+        "label": "Corporate privilege and colonial resistance",
+        "claim": "Tea Act advantages for the East India Company helped provoke merchants and colonists, although disputes about taxation and legislative representation were independent and older.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-loc-tea1773",
+          "src-loc-boston-protest1773"
+        ]
+      },
+      {
+        "label": "Indigenous sovereignty and settler land interests",
+        "claim": "Imperial frontier policies had different consequences for Indigenous nations, land speculators and colonial governments; their interests cannot be folded into a single 'American' perspective.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-state-frontier1763",
+          "src-state-paris1763"
+        ]
+      },
+      {
+        "label": "A transatlantic critique in 1773",
+        "claim": "A New York political broadside drew a contemporaneous comparison between alleged East India Company misconduct in India and contested tea privileges in America; the author's claims about India require independent corroboration.",
+        "status": "documented",
+        "sources": [
+          "src-loc-ny-broadside1773"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Which specific members of Parliament had financial ties to the Company when debating 1773 relief, and what do voting records and share ledgers establish?",
+      "What evidence connects policy actors across the Bengal, London and Massachusetts theaters beyond participation in the same imperial system?",
+      "How did Indigenous and enslaved peoples assess the competing colonial and imperial claims to liberty and sovereignty?",
+      "How much of the 1773 Tea Act's design arose from lobbying versus broader fiscal and imperial decisions?",
+      "How widely did pamphlets citing the Company's conduct in India circulate among Boston organizers, and what evidence exists of direct influence?"
+    ],
+    "events": [
+      "evt-1763-paris-treaty",
+      "evt-1763-pontiac-resistance",
+      "evt-1763-royal-proclamation",
+      "evt-1765-stamp-act",
+      "evt-1767-townshend",
+      "evt-1773-tea-act",
+      "evt-1773-boston-tea-party",
+      "evt-1774-coercive-acts",
+      "evt-1774-first-congress",
+      "evt-1775-lexington-concord"
+    ],
+    "entities": [
+      "ent-eic",
+      "ent-parliament",
+      "ent-crown",
+      "ent-grenville",
+      "ent-hutchinson",
+      "ent-continental-congress",
+      "ent-colonial-protesters",
+      "ent-pontiac",
+      "ent-colonial-speculators",
+      "ent-british-colonial-militia"
+    ]
   }
 ]

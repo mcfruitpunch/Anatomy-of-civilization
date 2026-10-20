@@ -251,5 +251,115 @@
     "url": "https://www.cia.gov/legacy/museum/artifact/identification-card-of-allen-w-dulles/",
     "locator": "Artifact Details: appointed Director of Central Intelligence in 1953; service 1953–1961",
     "reviewed": true
+  },
+  {
+    "id": "src-state-seven-years",
+    "type": "institutional_history",
+    "title": "French and Indian War / Seven Years' War, 1754–1763",
+    "author": "U.S. Department of State, Office of the Historian",
+    "year": null,
+    "publisher": "Milestones in U.S. Foreign Relations",
+    "url": "https://history.state.gov/milestones/1750-1775/french-indian-war",
+    "locator": "Overview, postwar debt, colonial taxation, and wartime French-British rivalry",
+    "reviewed": true
+  },
+  {
+    "id": "src-state-paris1763",
+    "type": "institutional_history",
+    "title": "Treaty of Paris, 1763",
+    "author": "U.S. Department of State, Office of the Historian",
+    "year": null,
+    "publisher": "Milestones in U.S. Foreign Relations",
+    "url": "https://history.state.gov/milestones/1750-1775/treaty-of-paris",
+    "locator": "Treaty of Paris (1763); British India victories, wartime debt, territorial settlement, Indigenous consequences",
+    "reviewed": true
+  },
+  {
+    "id": "src-state-tax1763",
+    "type": "institutional_history",
+    "title": "Parliamentary taxation of colonies, international trade and the American Revolution, 1763–1775",
+    "author": "U.S. Department of State, Office of the Historian",
+    "year": null,
+    "publisher": "Milestones in U.S. Foreign Relations",
+    "url": "https://history.state.gov/milestones/1750-1775/parliamentary-taxation",
+    "locator": "Paragraphs on Grenville taxation, Stamp Act, East India Company tea imports, Coercive Acts, First Continental Congress, and April 1775 fighting",
+    "reviewed": true
+  },
+  {
+    "id": "src-state-frontier1763",
+    "type": "institutional_history",
+    "title": "Proclamation Line of 1763, Quebec Act of 1774 and Westward Expansion",
+    "author": "U.S. Department of State, Office of the Historian",
+    "year": null,
+    "publisher": "Milestones in U.S. Foreign Relations",
+    "url": "https://history.state.gov/milestones/1750-1775/proclamation-line-1763",
+    "locator": "Paragraphs on Native land claims, Virginia speculation, Pontiac's resistance, Royal Proclamation and colonial grievances",
+    "reviewed": true
+  },
+  {
+    "id": "src-loc-tea1773",
+    "type": "institutional_history",
+    "title": "The Colonies Move Toward Open Rebellion, 1773 to 1774",
+    "author": "Library of Congress",
+    "year": null,
+    "publisher": "U.S. History Primary Source Timeline",
+    "url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/american-revolution-1763-1783/colonies-rebellion-1773-1774/",
+    "locator": "Opening discussion of Tea Act relief for East India Company, Tea Party and Parliament's four retaliatory acts",
+    "reviewed": true
+  },
+  {
+    "id": "src-nps-tea1773",
+    "type": "institutional_history",
+    "title": "Boston Tea Party Timeline",
+    "author": "U.S. National Park Service",
+    "year": null,
+    "publisher": "National Park Service",
+    "url": "https://home.nps.gov/articles/000/boston-tea-party-in-real-time.htm",
+    "locator": "Overview, Tea Act discussion, Nov 28 ship arrival, and Dec 16 destruction of tea",
+    "reviewed": true
+  },
+  {
+    "id": "src-loc-1773-1774",
+    "type": "institutional_history",
+    "title": "1773 to 1774 — Continental Congress Documents Timeline",
+    "author": "Library of Congress",
+    "year": null,
+    "publisher": "Library of Congress Digital Collections",
+    "url": "https://www.loc.gov/collections/continental-congress-and-constitutional-convention-from-1774-to-1789/articles-and-essays/timeline/1773-to-1774/",
+    "locator": "1773 Tea Act and Boston Tea Party; 1774 Coercive Acts entries",
+    "reviewed": true
+  },
+  {
+    "id": "src-loc-boston-protest1773",
+    "type": "primary",
+    "title": "Boston public meeting proceedings, November 29–30, 1773",
+    "author": "Boston town meeting, reproduced by Library of Congress",
+    "year": 1773,
+    "publisher": "Library of Congress Broadside Collection",
+    "url": "https://www.loc.gov/item/rbpe.03702300/",
+    "locator": "Library of Congress Printed Ephemera Collection, Portfolio 37 Folder 23; Boston Dec 1 1773 meeting resolves dated Nov 29–30",
+    "reviewed": true
+  },
+  {
+    "id": "src-nps-lexington1775",
+    "type": "institutional_history",
+    "title": "April 19, 1775 — Lexington and Concord",
+    "author": "U.S. National Park Service",
+    "year": null,
+    "publisher": "Minute Man National Historical Park",
+    "url": "https://www.nps.gov/mima/learn/historyculture/april-19-1775.htm",
+    "locator": "Overview, prelude to war, Gage's military orders, and opening fighting on April 19",
+    "reviewed": true
+  },
+  {
+    "id": "src-loc-ny-broadside1773",
+    "type": "primary",
+    "title": "The Association of the Sons of Liberty, of New-York (November 29, 1773)",
+    "author": "Association of the Sons of Liberty of New York",
+    "year": 1773,
+    "publisher": "Library of Congress, Printed Ephemera Collection",
+    "url": "https://www.loc.gov/resource/rbpe.10501300/?sp=2&st=text",
+    "locator": "Image/text page 2, letter to Friends of Liberty and Trade: rhetoric explicitly comparing East India Company actions in India and America; famine allegation is not independently verified here.",
+    "reviewed": true
   }
 ]

@@ -186,5 +186,83 @@
       "src-state-dulles-bio"
     ],
     "verification": "reviewed"
+  },
+  {
+    "id": "ent-grenville",
+    "type": "person",
+    "name": "George Grenville",
+    "years": "1712–1770",
+    "description": "British prime minister whose ministry pursued postwar colonial revenue and the 1765 Stamp Act.",
+    "sources": [
+      "src-state-tax1763"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-hutchinson",
+    "type": "person",
+    "name": "Thomas Hutchinson",
+    "years": "1711–1780",
+    "description": "Royal governor of Massachusetts who refused to allow East India Company tea ships to depart Boston in 1773 without meeting customs requirements.",
+    "sources": [
+      "src-nps-tea1773"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-continental-congress",
+    "type": "government",
+    "name": "First Continental Congress",
+    "years": "1774",
+    "description": "Assembly of representatives from British mainland North American colonies convened in Philadelphia in September 1774 to coordinate grievances and responses to British policy.",
+    "sources": [
+      "src-state-tax1763"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-colonial-protesters",
+    "type": "organization",
+    "name": "Boston tea protest movement",
+    "years": "1773",
+    "description": "Colonial organizers and participants opposing tea policy in Boston; not a single uniform organization or ideology.",
+    "sources": [
+      "src-loc-boston-protest1773",
+      "src-loc-tea1773"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-pontiac",
+    "type": "person",
+    "name": "Pontiac",
+    "years": "c. 1720–1769",
+    "description": "Ottawa leader associated with a coordinated Indigenous resistance movement against British military posts and settler expansion after the Seven Years' War.",
+    "sources": [
+      "src-state-frontier1763"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-colonial-speculators",
+    "type": "organization",
+    "name": "Virginia colonial land investors",
+    "years": "18th century",
+    "description": "A category of land speculators and companies seeking western territorial claims, rather than a single coordinated body.",
+    "sources": [
+      "src-state-frontier1763"
+    ],
+    "verification": "reviewed"
+  },
+  {
+    "id": "ent-british-colonial-militia",
+    "type": "organization",
+    "name": "Massachusetts colonial militias",
+    "years": "1774–1775",
+    "description": "Locally organized militia companies that opposed British regular troops at Lexington and Concord in April 1775.",
+    "sources": [
+      "src-nps-lexington1775"
+    ],
+    "verification": "reviewed"
   }
 ]

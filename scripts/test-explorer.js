@@ -10,9 +10,10 @@ const html = read('index.html');
 const js = read('site/app.js');
 const events = readJson('events'), cases = readJson('cases');
 const entities = readJson('entities'), relationships = readJson('relationships');
+const dominoes = readJson('dominoes');
 const ids = ['search', 'case-filter', 'year-from', 'year-to', 'timeline-list',
   'event-detail', 'rel-filter', 'entity-filter', 'verified-only', 'clear-focus',
-  'graph', 'entity-detail', 'network-list', 'case-list', 'system-list', 'source-list'];
+  'graph', 'entity-detail', 'network-list', 'case-list', 'system-list', 'source-list', 'domino-list', 'domino-count'];
 for (const id of ids) {
   assert(new RegExp('id="' + id + '"').test(html), 'Missing UI control or target: ' + id);
   assert(js.includes("'"+id+"'"), 'Explorer does not reference control: ' + id);
@@ -40,4 +41,12 @@ const siblings = relationships.filter(r => r.type === 'sibling_of');
 assert(siblings.length >= 1, 'Family-only explorer requires at least one sourced family link');
 assert(siblings.every(r => r.status === 'documented' && r.verification === 'reviewed'),
   'Family demo cannot use unreviewed links');
-console.log('OK: explorer hooks, accessible scaffolding and event-to-entity crosslinks');
+assert(dominoes.length > 0, 'No event-to-event records');
+assert(js.includes('renderDominoes()') && js.includes('goToEvent(id)'), 'Domino explorer controls missing');
+assert(html.includes('href="#dominoes"'), 'Missing domino navigation');
+const eventIds = new Set(events.map(e => e.id));
+for (const d of dominoes) {
+  assert(eventIds.has(d.from) && eventIds.has(d.to), 'Domino has unresolved event');
+  assert(d.sources && d.sources.length, 'Domino missing citations');
+}
+console.log('OK: explorer hooks, accessible scaffolding, event actors and historical dominoes');
