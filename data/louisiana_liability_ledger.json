@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": "la-1731-debt",
+    "date": "1731-02-24",
+    "archive_document": "doc-024",
+    "evidence_level": "bibliographic_metadata_only",
+    "instrument": "royal_debt_decree",
+    "legal_debtor": null,
+    "claimant": null,
+    "award_beneficiary": null,
+    "decision_issuer": "ent-french-crown",
+    "claim_amount": null,
+    "verified_payment_amount": null,
+    "receipt": null,
+    "cash_transfer_verified": false,
+    "visualization_edge": "none",
+    "sources": [
+      "src-columbia-1731-debt-printed-1733"
+    ],
+    "claim": "Royal debt act dated 24 February 1731; 1733 is the known printing date, not a verified new act.",
+    "next_check": "Read two original printed pages; identify parties, deadlines and proof of settlement."
+  }
+]
