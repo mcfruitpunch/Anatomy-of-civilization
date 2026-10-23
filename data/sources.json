@@ -1318,5 +1318,16 @@
     "url": "https://catalogue.bnf.fr/affiner.do?afficheRegroup=false&critereRecherche=&index=&listeAffinages=FacPays_fr%3BFacNatDoc_a%3BFacLan_fre%3BAUT3_12495798&motRecherche=&nbResultParPage=100&numNotice=&triResultParPage=0&trouveDansFiltre=NoticePUB&typeNotice=",
     "locator": "BnF filtered catalogue results, entry 39: '[Acte. 1731-02-24. Versailles] Arrest du Conseil... concernant le payement des dettes de la compagnie des Indes à la Louisiane... Impr. royale', publication year 1731. This is a catalogue-search result, not a stable item permalink or examination of operative text; confirm the individual BnF record and original copy.",
     "reviewed": true
+  },
+  {
+    "id": "src-lhs-1903-cusachs-decree-exhibit",
+    "type": "contemporary_exhibition_catalogue",
+    "title": "A Catalogue of the Colonial Exhibit of the Louisiana Historical Society and Loan Exhibit of Members and Friends",
+    "author": "Louisiana Historical Society",
+    "year": 1903,
+    "publisher": "Louisiana Historical Society, New Orleans, 20 December 1903; public scan via Wikimedia Commons / Internet Archive",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/A_catalogue_of_the_colonial_exhibit_of_the_Louisiana_historical_society_and_loan_exhibit_of_members_and_friends_%28IA_catalogueofcolon00loui%29.pdf",
+    "locator": "Printed page 17 (PDF page 19, zero-indexed page 18), items 342 and 345: lists a 23 January 1731 retrocession decree and a 24 February 1731 Company-debt decree, both credited in the 1903 loan exhibit to Mr. Cusachs. Original catalogue page visually inspected 23 October 2026. Establishes reported exhibit possession in 1903, not present custody, legal clauses or actual payment.",
+    "reviewed": true
   }
 ]
