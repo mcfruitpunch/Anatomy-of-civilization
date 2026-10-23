@@ -193,4 +193,5 @@ censusVersions.forEach(c=>{
   cite(c,c.id,true);
 });
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
+require('./validate-louisiana-liabilities.js');
 console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records, ' + ownership.length + ' ownership aggregates, ' + comparisons.length + ' country comparisons, ' + documents.length + ' original records, ' + routes.length + ' information channels, ' + extracts.length + ' attributed readings, ' + censusVersions.length + ' census source versions');

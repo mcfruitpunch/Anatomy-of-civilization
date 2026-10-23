@@ -394,11 +394,12 @@
     "access_level": "curator_summary_with_images",
     "reference": "BnF, Arrêt du Conseil d'État, 1731, 'rétrocession ... Louisiane et pays des Illinois'; curated list of digitized primary decrees; original printed title-page facsimile shown by UMSL",
     "established": "An original printed royal decree title page explicitly dates the retrocession of Louisiana and Illinois to January 23, 1731. A modern archival scholarly footnote cites ANOM F3 242 fol.187 for the decree.",
-    "limitations": "Title page inspected, not the full text. It records formal Council action and must not be mistaken for completion of all local transfers, payments, or dispossession.",
+    "limitations": "Title page inspected, not the full text. It records formal Council action and must not be mistaken for completion of all local transfers, payments, or dispossession. A 1903 exhibition listing demonstrates historical catalogued custody only; present location unverified.",
     "sources": [
       "src-bnf-retrocession-edict-1731",
       "src-umsl-1731-decree-image",
-      "src-unilim-1731-retrocession"
+      "src-unilim-1731-retrocession",
+      "src-lhs-1903-cusachs-decree-exhibit"
     ],
     "entities": [
       "ent-french-crown",
@@ -431,12 +432,14 @@
     "title": "Company's Louisiana debt decree dated February 24, 1731 (printed in 1733)",
     "document_kind": "royal_company_debt_decree",
     "access_level": "catalogue_metadata_only",
-    "reference": "BnF 'Arrêt du Conseil d'Etat concernant le paiement des dettes de la Compagnie des Indes à la Louisiane', 1733; Columbia Law Library rare book record 1505745, 1733 printed edition of decree dated 1731-02-24",
-    "established": "A two-page original royal debt-related decree explicitly bears February 24, 1731 as its legislative date in Columbia Law's bibliographic description; the available printed pamphlet was published in 1733.",
-    "limitations": "Original two-page clauses and actual disbursements not read. 1733 is a PRINTING date, not a demonstrated new decree; no retroactive debt payment can be inferred.",
+    "reference": "BnF Catalogue général: 1731 Imprimerie royale printing (entry 39, Acte 1731-02-24 Versailles); BnF Gallica ark:/12148/btv1b8602624n: 1733 printing; Columbia Law rare book 1505745: 1733 Paris Saugrain–Prault edition of the same 1731-02-24 act.",
+    "established": "Two bibliographically distinct printings are indexed for the same royal debt decree dated 24 February 1731: BnF lists a 1731 Imprimerie royale edition and a Gallica-linked 1733 edition, while Columbia Law catalogues a two-page 1733 Saugrain–Prault printing. This does not imply two separate laws.",
+    "limitations": "Original operative clauses of either printing were not read; Gallica scan access was denied during this pass and the 1731 catalogue result has no stable individual record link yet. No identified legal debtor, Crown assumption of corporate liabilities, debt amount, payment, or actual disbursement is proven. A 1903 exhibition listing demonstrates historical catalogued custody only; present location unverified.",
     "sources": [
       "src-bnf-1733-company-debts",
-      "src-columbia-1731-debt-printed-1733"
+      "src-columbia-1731-debt-printed-1733",
+      "src-bnf-1731-company-debts-royal-print",
+      "src-lhs-1903-cusachs-decree-exhibit"
     ],
     "entities": [
       "ent-french-crown",
