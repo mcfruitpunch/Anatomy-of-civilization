@@ -1227,8 +1227,8 @@
     "author": "French Council of State, catalogued by Bibliothèque nationale de France",
     "year": 1733,
     "publisher": "BnF Gallica / Patrimoines partagés France-Amériques",
-    "url": "https://heritage.bnf.fr/france-ameriques/en/compagnie-indes",
-    "locator": "BnF curated item dated 1733 by publication; Columbia Law catalogue 1505745 clarifies original royal act title 'Du 24 février 1731' and 1733 is printed edition date. The original 2-page clauses, allocations, creditor payments and effective implementation are unexamined.",
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b8602624n",
+    "locator": "Gallica ark:/12148/btv1b8602624n, linked under 'Compagnie des Indes' in BnF France-Amériques, 1733 printed edition. Columbia Law catalogue 1505745 dates the underlying decree to 24 February 1731. Gallica image fetch returned 403 in this research environment: clauses NOT read, no liability allocation or payment proven.",
     "reviewed": true
   },
   {
@@ -1306,6 +1306,17 @@
     "publisher": "University of Missouri–St. Louis Mercantile Library",
     "url": "https://www.umsl.edu/mercantile/exhibitions/online-exhibits/lewis_and_clark_maps/MAPS_online_images/LP%20arrest%20du%20conseil%20OBJECT.jpg",
     "locator": "Visible original printed title page: 'du 23. Janvier 1731' and concession 'Louisianne & du pays des Illinois'. Title/front page inspected; full decree clauses not inspected. Surrounding exhibition webpage has a demonstrably erroneous generic caption about transfer to Spain; rely on ORIGINAL TITLE PAGE, not that caption.",
+    "reviewed": true
+  },
+  {
+    "id": "src-bnf-1731-company-debts-royal-print",
+    "type": "primary_royal_decree_catalog",
+    "title": "1731 Imprimerie royale printing of the 24 February Louisiana Company-debt decree (BnF catalogue entry)",
+    "author": "France. Conseil d'État (13..–1791), as indexed by Bibliothèque nationale de France",
+    "year": 1731,
+    "publisher": "Paris: Imprimerie royale; BnF Catalogue général",
+    "url": "https://catalogue.bnf.fr/affiner.do?afficheRegroup=false&critereRecherche=&index=&listeAffinages=FacPays_fr%3BFacNatDoc_a%3BFacLan_fre%3BAUT3_12495798&motRecherche=&nbResultParPage=100&numNotice=&triResultParPage=0&trouveDansFiltre=NoticePUB&typeNotice=",
+    "locator": "BnF filtered catalogue results, entry 39: '[Acte. 1731-02-24. Versailles] Arrest du Conseil... concernant le payement des dettes de la compagnie des Indes à la Louisiane... Impr. royale', publication year 1731. This is a catalogue-search result, not a stable item permalink or examination of operative text; confirm the individual BnF record and original copy.",
     "reviewed": true
   }
 ]
