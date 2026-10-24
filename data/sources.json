@@ -1329,5 +1329,27 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/A_catalogue_of_the_colonial_exhibit_of_the_Louisiana_historical_society_and_loan_exhibit_of_members_and_friends_%28IA_catalogueofcolon00loui%29.pdf",
     "locator": "Printed page 17 (PDF page 19, zero-indexed page 18), items 342 and 345: lists a 23 January 1731 retrocession decree and a 24 February 1731 Company-debt decree, both credited in the 1903 loan exhibit to Mr. Cusachs. Original catalogue page visually inspected 23 October 2026. Establishes reported exhibit possession in 1903, not present custody, legal clauses or actual payment.",
     "reviewed": true
+  },
+  {
+    "id": "src-lcd-company-1735-1737-index",
+    "type": "institutional_primary_manuscript_index_not_transcription",
+    "title": "Company of Indies: indexed French Superior Council and private documents, 1735–1737",
+    "author": "Louisiana Historical Center / Louisiana Colonial Documents Digitization Project",
+    "year": null,
+    "publisher": "Louisiana State Museum",
+    "url": "https://lacolonialdocs.org/person/9183/for/documents/14113",
+    "locator": "Company of Indies person/document index, rows 1735-10-19-02 (Private Documents, Agreement with Creditors); 1736-08-20-04 (Private Documents, Receipt); 1737-05-11-01 (Private Documents, Receipt). Linked item URLs /document/2450, /document/2689 and /document/3041 respectively. Categories and indexed participants inspected 24 Oct 2026; original French clauses and transactions NOT transcribed.",
+    "reviewed": true
+  },
+  {
+    "id": "src-lcd-indexing-method-and-wpa",
+    "type": "archival_digitization_and_indexing_method",
+    "title": "Louisiana Colonial Documents Digitization Project: indexing and translation process",
+    "author": "Louisiana Historical Center / Louisiana State Museum",
+    "year": null,
+    "publisher": "Louisiana State Museum",
+    "url": "https://www.lacolonialdocs.org/post/8/the-process",
+    "locator": "Digitization and Indexing paragraphs; Translation/Transcription paragraphs: initial index derived from 1930s WPA abstracts; names of enslaved people and women significantly omitted, with spelling and numbering errors. WPA abstracts are not full transcriptions; checked 24 Oct 2026.",
+    "reviewed": true
   }
 ]
