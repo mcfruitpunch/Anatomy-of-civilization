@@ -18,6 +18,9 @@ const reviewByDocument = new Map([
   ['doc-023', 'abstract'],   // Jan 19 1732 Salmon letter
   ['doc-020', 'scholarship'],// Diron award: modern reading of folios
   ['doc-019', 'abstract'],   // Sep 2 1732 ministerial letter
+  ['doc-026', 'catalogue'],  // Oct 19 1735 indexed creditors' agreement; no clauses read
+  ['doc-027', 'catalogue'],  // Aug 20 1736 indexed receipt; payer/payee unknown
+  ['doc-028', 'catalogue'],  // May 11 1737 indexed receipt; payer/payee unknown
 ]);
 const allowedKeys = ['date', 'document', 'review', 'paid', 'transfer', 'liable'].sort();
 
@@ -37,7 +40,7 @@ function verify(row) {
 }
 
 assert(Array.isArray(rows), 'Liability ledger must be an array');
-assert.equal(rows.length, reviewByDocument.size, 'All six audited leads must be present');
+assert.equal(rows.length, reviewByDocument.size, 'All nine audited leads must be present');
 assert.equal(new Set(rows.map(row => row.document)).size, rows.length, 'Duplicate archival item');
 rows.forEach(verify);
 
@@ -52,4 +55,16 @@ assert.throws(() => verify({...rows[0], payer: 'French Crown'}));
 assert.throws(() => verify({...rows[0], payment_amount: 29000}));
 assert.throws(() => verify({...rows[0], review: 'original_decree_transcribed'}));
 assert.throws(() => verify({...rows[2], review: 'title_page'}));
-console.log('OK: six Louisiana archival leads, exact review levels and negative payment fixtures');
+// An archival index's label "Receipt" does not establish who paid whom.
+for (const docId of ['doc-027', 'doc-028']) {
+  const row = rows.find(r => r.document === docId);
+  assert(row, 'Indexed receipt lead missing: ' + docId);
+  assert.equal(row.review, 'catalogue');
+  for (const field of ['paid', 'transfer', 'liable']) {
+    assert.throws(() => verify({...row, [field]: 'Company of Indies'}));
+  }
+  assert.throws(() => verify({...row, payer: 'French Crown'}));
+  assert.throws(() => verify({...row, payment_amount: 1}));
+  assert.throws(() => verify({...row, review: 'original_receipt_transcribed'}));
+}
+console.log('OK: nine Louisiana archival leads, including untranscribed receipts, with strict negative payment fixtures');
