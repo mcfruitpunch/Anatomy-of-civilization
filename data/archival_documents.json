@@ -464,5 +464,59 @@
       "ent-compagnie-indes-france",
       "ent-french-superior-council-la"
     ]
+  },
+  {
+    "id": "doc-026",
+    "date": "1735-10-19",
+    "place": "New Orleans, French Louisiana (archive's collection context)",
+    "title": "Company of Indies appears in indexed agreement with creditors, October 1735",
+    "document_kind": "indexed_private_creditor_agreement",
+    "access_level": "catalogue_metadata_only",
+    "reference": "Louisiana Historical Center, French Superior Council collection, 1735-10-19-02, https://lacolonialdocs.org/document/2450",
+    "established": "The Louisiana Colonial Documents index labels record 1735-10-19-02 'Private Documents, Agreement with Creditors' and indexes the Company of Indies alongside Lamy, Bruslé, Hugault, Prevost, Henry, Salmon and Rivard names. This establishes an indexed document lead, not the agreement's contents.",
+    "limitations": "No original clause, signature, debtor, creditor, asset, settlement amount or payment has been transcribed. Indexed persons are not assigned roles or presumed to share an agreement across other documents. Compare the original French with WPA Black Book 23 (1735 July–December) only after obtaining the exact WPA page.",
+    "sources": [
+      "src-lcd-company-1735-1737-index",
+      "src-lcd-indexing-method-and-wpa"
+    ],
+    "entities": [
+      "ent-compagnie-indes-france"
+    ]
+  },
+  {
+    "id": "doc-027",
+    "date": "1736-08-20",
+    "place": "New Orleans, French Louisiana (archive's collection context)",
+    "title": "Company of Indies appears in indexed private receipt, August 1736",
+    "document_kind": "indexed_private_receipt",
+    "access_level": "catalogue_metadata_only",
+    "reference": "Louisiana Historical Center, French Superior Council collection, 1736-08-20-04, https://lacolonialdocs.org/document/2689",
+    "established": "The Louisiana Colonial Documents index labels record 1736-08-20-04 'Private Documents, Receipt' and indexes Guillon, Company of Indies, Hugault, Picquery, Henry and Labbe/Labe among its referenced people.",
+    "limitations": "Receipt is the archive's DOCUMENT-TYPE LABEL only. No original manuscript content or WPA text read: unknown payer, payee, currency, consideration, date of any underlying transfer, whether money changed hands, and whether this pertains to the 1731 decree. Compare WPA Black Book 26 (1736 August), but do not treat the catalogue as a verified disbursement.",
+    "sources": [
+      "src-lcd-company-1735-1737-index",
+      "src-lcd-indexing-method-and-wpa"
+    ],
+    "entities": [
+      "ent-compagnie-indes-france"
+    ]
+  },
+  {
+    "id": "doc-028",
+    "date": "1737-05-11",
+    "place": "New Orleans, French Louisiana (archive's collection context)",
+    "title": "Company of Indies appears in indexed private receipt, May 1737",
+    "document_kind": "indexed_private_receipt",
+    "access_level": "catalogue_metadata_only",
+    "reference": "Louisiana Historical Center, French Superior Council collection, 1737-05-11-01, https://lacolonialdocs.org/document/3041",
+    "established": "The Louisiana Colonial Documents index labels record 1737-05-11-01 'Private Documents, Receipt' and indexes de Livaudais, Baldic, de Chaumont Concession, Company of Indies, Amyault d'Ausseville and Faucon Dumanoir among its referenced people.",
+    "limitations": "A named receipt category does not prove the Company paid or received funds. Original text, signatories, creditor roles, amounts, property descriptions and relation to 1731 liabilities remain unverified. Compare WPA Black Book 29 (1737 March–May), preserving missing-name caveats.",
+    "sources": [
+      "src-lcd-company-1735-1737-index",
+      "src-lcd-indexing-method-and-wpa"
+    ],
+    "entities": [
+      "ent-compagnie-indes-france"
+    ]
   }
 ]

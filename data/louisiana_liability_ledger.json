@@ -46,5 +46,29 @@
     "paid": null,
     "transfer": null,
     "liable": null
+  },
+  {
+    "date": "1735-10-19",
+    "document": "doc-026",
+    "review": "catalogue",
+    "paid": null,
+    "transfer": null,
+    "liable": null
+  },
+  {
+    "date": "1736-08-20",
+    "document": "doc-027",
+    "review": "catalogue",
+    "paid": null,
+    "transfer": null,
+    "liable": null
+  },
+  {
+    "date": "1737-05-11",
+    "document": "doc-028",
+    "review": "catalogue",
+    "paid": null,
+    "transfer": null,
+    "liable": null
   }
 ]
