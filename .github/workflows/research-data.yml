@@ -5,6 +5,7 @@ on:
   pull_request:
     paths:
       - 'data/**'
+      - 'research/**'
       - 'scripts/validate.js'
       - 'site/**'
       - 'index.html'
