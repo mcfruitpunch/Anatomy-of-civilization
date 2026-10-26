@@ -1,6 +1,6 @@
 # V1.4: Louisiana liabilities, 1731–1732
 
-Six dated documentary leads are catalogued in `data/louisiana_liability_ledger.json`. The original debt decree clauses and Diron judgment remain unread. No named legal debtor or actual payment has been verified.
+Ten dated documentary leads are currently catalogued in `data/louisiana_liability_ledger.json` (as of 26 October 2026). The original debt decree clauses and Diron judgment remain unread. No named legal debtor or actual payment has been verified.
 
 ## July 15, 1732 archival lead
 
@@ -47,3 +47,13 @@ The V1.4 liability ledger retains **six document leads** and leaves `paid`, `tra
 **Evidence gate:** `data/louisiana_liability_ledger.json` now contains **nine** explicitly reviewed document leads, all with `paid`, `transfer` and `liable` set to null. The validator requires catalogue-only status for the two newly indexed receipts and rejects invented payers, amounts, transfers, liability assignments and extra unreviewed fields. This milestone adds **research targets and guardrails**, not a verified disbursement or interpretation of the 1731 act.
 
 **Priority after this pass:** (1) read the 24 February 1731 debt decree's operative clauses (1731 and 1733 printings); (2) transcribe the 1735 creditors' agreement and two later receipts, verifying whether any truly refer to the same obligation; (3) reconcile the 1732 Duval succession manuscript with WPA Black Book 21. No Crown assumption, Company settlement, receipted transfer or beneficiary amount should be asserted without original evidence.
+
+## 26 October 2026: close the missing Duval-account provenance link
+
+The V1.4 notes had discussed the **15 July 1732 Duval succession account**, but the structured archival documents and liability ledger omitted it. This was a **data coverage gap**, not new evidence of payment. The [Louisiana Historical Center item 1732-07-15-01](https://lacolonialdocs.org/document/2148) was checked directly at its museum index page: it is catalogued under **15 July 1732**, in the French Superior Council collection at New Orleans, with **five original manuscript pages** and indexed references to **Antoine Bruslé, Prévost, Company of Indies and François Duval's succession**. These are indexed subjects, not independently verified transaction parties. The page images were not transcribed.
+
+The earlier English index-card reference to **15 January 1736** remains unresolved: do not replace the archive's 1732 date with 1736, or treat the two dates as separate payments. The record is now **doc-029** with a source-specific catalogue locator, and a **null-valued** row in the ten-entry Louisiana liability ledger. The validator enforces catalogue review level and rejects invented liability, transfer or payment values for this lead, as for all the others. This change does **not** establish that the account falls under the 24 February 1731 debt decree.
+
+**Reproduction/transcription route:** compare each of the five French manuscript faces with the [Louisiana State Museum WPA Black Book 21 (1732–1734)](https://louisianastatemuseum.org/louisiana-historical-center-colonial-documents) and verify what the 1736 reference means. The WPA book was not examined in this milestone and is an imperfect later translation/index, not a substitute for the original. The museum warns that historical summaries can omit women's and enslaved people's names; do not use an index's silence as evidence that they were uninvolved. Independently examine Choctaw and other Indigenous histories rather than inferring colonial title or consent from French accounts.
+
+**Highest-priority blocker unchanged:** obtain the operative clauses of the 24 February 1731 Company debt decree (1731/1733 printings) and check who owed whom, any authorized process, and whether subsequent signed receipts document actual performance. Gallica image access remains unavailable here; Columbia Law's bibliographic record identifies the 1733 two-page edition but does not expose its text in the catalogue. No invented debtor, investor, total, payment or Crown assumption is added.
