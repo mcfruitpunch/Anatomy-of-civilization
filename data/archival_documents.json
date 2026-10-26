@@ -518,5 +518,23 @@
     "entities": [
       "ent-compagnie-indes-france"
     ]
+  },
+  {
+    "id": "doc-029",
+    "date": "1732-07-15",
+    "place": "New Orleans, French Louisiana (archive's collection context)",
+    "title": "Indexed statement of account involving François Duval succession and Company of Indies, 1732",
+    "document_kind": "indexed_succession_statement_of_account",
+    "access_level": "catalogue_metadata_only",
+    "reference": "Louisiana Historical Center, French Superior Council collection, record 1732-07-15-01, five manuscript page images, https://lacolonialdocs.org/document/2148",
+    "established": "The museum catalogues a five-page French Superior Council record dated 15 July 1732 and indexes Antoine Bruslé, Prévost, the Company of Indies and the succession of François Duval. The catalogue is evidence of an archival record and indexed names only.",
+    "limitations": "The earlier English index card also refers to 15 January 1736; its relationship to the catalogued 1732 date is unresolved. Neither original handwritten account entries nor WPA Black Book 21 were transcribed. Do not infer a 1732 or 1736 payment, creditor, debtor, succession beneficiary, Crown debt assumption, or relationship to the February 1731 decree. Names omitted from colonial/WPA indexes, especially women and enslaved people, require attention.",
+    "sources": [
+      "src-lcd-duval-account-1732",
+      "src-lcd-indexing-method-and-wpa"
+    ],
+    "entities": [
+      "ent-compagnie-indes-france"
+    ]
   }
 ]
