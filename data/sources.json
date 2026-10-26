@@ -1351,5 +1351,16 @@
     "url": "https://www.lacolonialdocs.org/post/8/the-process",
     "locator": "Digitization and Indexing paragraphs; Translation/Transcription paragraphs: initial index derived from 1930s WPA abstracts; names of enslaved people and women significantly omitted, with spelling and numbering errors. WPA abstracts are not full transcriptions; checked 24 Oct 2026.",
     "reviewed": true
+  },
+  {
+    "id": "src-lcd-duval-account-1732",
+    "type": "institutional_primary_manuscript_index_not_transcription",
+    "title": "Louisiana Historical Center record 1732-07-15-01: indexed Duval succession statement of account",
+    "author": "Louisiana Historical Center / Louisiana Colonial Documents Digitization Project",
+    "year": null,
+    "publisher": "Louisiana State Museum",
+    "url": "https://lacolonialdocs.org/document/2148",
+    "locator": "French Superior Council document 1732-07-15-01, catalogued 15 July 1732, five manuscript pages, New Orleans; indexed participants Antoine Bruslé, Prévost, Company of Indies, François Duval succession. The modern record and image inventory were inspected 26 October 2026; original French account entries and the separately reported 15 January 1736 reference were NOT transcribed.",
+    "reviewed": true
   }
 ]

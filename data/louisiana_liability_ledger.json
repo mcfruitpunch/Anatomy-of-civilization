@@ -24,6 +24,14 @@
     "liable": null
   },
   {
+    "date": "1732",
+    "document": "doc-020",
+    "review": "scholarship",
+    "paid": null,
+    "transfer": null,
+    "liable": null
+  },
+  {
     "date": "1732-01-19",
     "document": "doc-023",
     "review": "abstract",
@@ -32,9 +40,9 @@
     "liable": null
   },
   {
-    "date": "1732",
-    "document": "doc-020",
-    "review": "scholarship",
+    "date": "1732-07-15",
+    "document": "doc-029",
+    "review": "catalogue",
     "paid": null,
     "transfer": null,
     "liable": null
