@@ -17,6 +17,7 @@ const reviewByDocument = new Map([
   ['doc-024', 'catalogue'],  // Feb 24 debt decree: edition catalogues only
   ['doc-023', 'abstract'],   // Jan 19 1732 Salmon letter
   ['doc-020', 'scholarship'],// Diron award: modern reading of folios
+  ['doc-029', 'catalogue'],  // July 15 1732 Duval account: indexed only; 1736 internal date unresolved
   ['doc-019', 'abstract'],   // Sep 2 1732 ministerial letter
   ['doc-026', 'catalogue'],  // Oct 19 1735 indexed creditors' agreement; no clauses read
   ['doc-027', 'catalogue'],  // Aug 20 1736 indexed receipt; payer/payee unknown
@@ -40,7 +41,7 @@ function verify(row) {
 }
 
 assert(Array.isArray(rows), 'Liability ledger must be an array');
-assert.equal(rows.length, reviewByDocument.size, 'All nine audited leads must be present');
+assert.equal(rows.length, reviewByDocument.size, 'All ten audited leads must be present');
 assert.equal(new Set(rows.map(row => row.document)).size, rows.length, 'Duplicate archival item');
 rows.forEach(verify);
 
@@ -67,4 +68,4 @@ for (const docId of ['doc-027', 'doc-028']) {
   assert.throws(() => verify({...row, payment_amount: 1}));
   assert.throws(() => verify({...row, review: 'original_receipt_transcribed'}));
 }
-console.log('OK: nine Louisiana archival leads, including untranscribed receipts, with strict negative payment fixtures');
+console.log('OK: ten Louisiana archival leads, including untranscribed succession account and receipts, with strict negative payment fixtures');
