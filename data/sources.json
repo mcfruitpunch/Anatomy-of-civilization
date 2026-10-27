@@ -1362,5 +1362,27 @@
     "url": "https://lacolonialdocs.org/document/2148",
     "locator": "French Superior Council document 1732-07-15-01, catalogued 15 July 1732, five manuscript pages, New Orleans; indexed participants Antoine Bruslé, Prévost, Company of Indies, François Duval succession. The modern record and image inventory were inspected 26 October 2026; original French account entries and the separately reported 15 January 1736 reference were NOT transcribed.",
     "reviewed": true
+  },
+  {
+    "id": "src-hnoc-1735-company-debts-commodities",
+    "type": "primary_colonial_ordinance_archival_abstract",
+    "title": "Superior Council ordinance concerning debts to the Company of the Indies and prices for colonial produce, 30 March 1735",
+    "author": "Superior Council of Louisiana (catalogued by Historic New Orleans Collection)",
+    "year": 1735,
+    "publisher": "Historic New Orleans Collection, Guide to French Louisiana Manuscripts",
+    "url": "https://surrey.hnoc.org/full_notice.php?id_document=8949",
+    "locator": "Surrey Calendar item 8949; New Orleans ordinance, 30 March 1735, 3 pages; ANOM A 23:118 (earlier AC A 23:118). Guide abstract checked 27 October 2026; original French ordinance not examined.",
+    "reviewed": true
+  },
+  {
+    "id": "src-surrey-1916-louisiana-commerce-1735",
+    "type": "historical_secondary_archival_study",
+    "title": "The Commerce of Louisiana During the French Régime, 1699–1763",
+    "author": "Nancy Maria Miller Surrey",
+    "year": 1916,
+    "publisher": "Columbia University Press",
+    "url": "https://commons.wikimedia.org/wiki/File:The_commerce_of_Louisiana_during_the_French_r%C3%A9gime,_1699-1763_(IA_commerceoflouisi00millrich).pdf",
+    "locator": "Chapter XIII, printed pp. 185–186; historian reports commodity prices at the royal storehouse as of 30 March 1735 and cites ANOM C13 vol.20 fols.208–212 and A vol.23, 30 March 1735. Secondary text inspected in digitized searchable reproduction, not the original ANOM manuscript; do not convert prices to paid amounts.",
+    "reviewed": true
   }
 ]
