@@ -536,5 +536,24 @@
     "entities": [
       "ent-compagnie-indes-france"
     ]
+  },
+  {
+    "id": "doc-030",
+    "date": "1735-03-30",
+    "place": "New Orleans, French Louisiana",
+    "title": "Superior Council ordinance on debts owed to the Company and commodity acceptance prices, March 1735",
+    "document_kind": "colonial_company_creditor_commodity_ordinance_archival_abstract",
+    "access_level": "catalogue_metadata_only",
+    "reference": "HNOC Guide to French Louisiana Manuscripts item 8949; ANOM A 23:118; 3-page ordinance dated 30 March 1735, https://surrey.hnoc.org/full_notice.php?id_document=8949",
+    "established": "The archival calendar identifies a 30 March 1735 Superior Council ordinance concerning payment of debts TO the Company of the Indies and rates for accepting furs, indigo, tobacco, cotton, pitch, tar and rice. A 1916 archival historian separately discusses dated colonial-produce prices at the royal storehouse and cites the 30 March ordinance.",
+    "limitations": "Calendar abstract and secondary historian's account, NOT a transcription of the three French ordinance pages. Exact legal language, rate schedule, currency/measure details and application to any named debtor remain unverified. This is a Company-as-creditor lead, not proof the Crown assumed Company liabilities, that produce was actually delivered, or that any person paid. No demonstrated connection to the 24 February 1731 decree or 1735 October creditors' agreement. Colonial accounts omit Indigenous and enslaved people's agency and must be interpreted critically.",
+    "sources": [
+      "src-hnoc-1735-company-debts-commodities",
+      "src-surrey-1916-louisiana-commerce-1735"
+    ],
+    "entities": [
+      "ent-compagnie-indes-france",
+      "ent-french-superior-council-la"
+    ]
   }
 ]
