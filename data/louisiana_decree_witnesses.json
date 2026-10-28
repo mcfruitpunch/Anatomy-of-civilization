@@ -1,0 +1,51 @@
+[
+  {
+    "id": "witness-retrocession-1731-title",
+    "act_date": "1731-01-23",
+    "document": "doc-022",
+    "printing_year": 1731,
+    "witness_scope": "printed_title_page",
+    "review_level": "original_title_page_only",
+    "operative_clauses_read": false,
+    "legal_debtor_verified": false,
+    "payment_verified": false,
+    "source_ids": [
+      "src-umsl-1731-decree-image"
+    ],
+    "locator": "UMSL Mercantile Library exhibition image, printed royal title page dated 23 January 1731",
+    "access_limitation": "Title page inspected; operative royal clauses not inspected."
+  },
+  {
+    "id": "witness-company-debt-1731-royal-print",
+    "act_date": "1731-02-24",
+    "document": "doc-024",
+    "printing_year": 1731,
+    "witness_scope": "edition_catalogue",
+    "review_level": "bibliographic_metadata_only",
+    "operative_clauses_read": false,
+    "legal_debtor_verified": false,
+    "payment_verified": false,
+    "source_ids": [
+      "src-bnf-1731-company-debts-royal-print"
+    ],
+    "locator": "BnF Catalogue général, filtered France Conseil d'État list, result 39: [Acte. 1731-02-24. Versailles], Impr. royale (1731)",
+    "access_limitation": "Search result only; stable item notice and printed pages not obtained."
+  },
+  {
+    "id": "witness-company-debt-1733-saugrain-prault",
+    "act_date": "1731-02-24",
+    "document": "doc-024",
+    "printing_year": 1733,
+    "witness_scope": "edition_catalogue",
+    "review_level": "bibliographic_metadata_only",
+    "operative_clauses_read": false,
+    "legal_debtor_verified": false,
+    "payment_verified": false,
+    "source_ids": [
+      "src-bnf-1733-company-debts",
+      "src-columbia-1731-debt-printed-1733"
+    ],
+    "locator": "BnF Gallica ark:/12148/btv1b8602624n; Columbia Law Library record 1505745, Paris Veuve Saugrain and Pierre Prault, 1733, 2 pp.",
+    "access_limitation": "Gallica original-page fetch returned HTTP 403; Columbia catalogue describes the two-page item but its clauses were not read."
+  }
+]
