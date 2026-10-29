@@ -1,6 +1,6 @@
 # V1.4: Louisiana liabilities, 1731–1732
 
-Eleven dated documentary leads are currently catalogued in `data/louisiana_liability_ledger.json` (as of 27 October 2026). The original debt decree clauses and Diron judgment remain unread. No named legal debtor or actual payment has been verified.
+Thirteen dated documentary leads are currently catalogued in `data/louisiana_liability_ledger.json` (as of 29 October 2026). The original debt decree clauses and Diron judgment remain unread. No named legal debtor or actual payment has been verified.
 
 ## July 15, 1732 archival lead
 
@@ -69,3 +69,13 @@ The earlier English index-card reference to **15 January 1736** remains unresolv
 **Human context:** the royal documents describe French colonial claims; they do not establish Indigenous consent or legitimate transfer of Indigenous territory. Continue to use [Choctaw Nation's Iti Fabvssa](https://www.choctawnation.com/news/iti-fabvssa/fort-tombecbe-and-early-choctaw-treaties/) and community-affiliated research to restore Indigenous diplomatic agency, and account for the [Louisiana museum's warning](https://www.lacolonialdocs.org/post/8/the-process) about omitted enslaved people's and women's names in WPA summaries. No legal creditor record alone describes those people's lived experiences.
 
 **Next concrete retrieval:** request or access a lawful high-resolution reproduction of the 1731 Imprimerie royale or 1733 Saugrain–Prault two-page debt decree, record page-specific French clauses, check edition variants and only then consider a sourced role-based liability ledger. A catalogue is not a transcript and a decree is not a receipt.
+
+## 29 October 2026: two 1735 indexed promissory notes, not verified debts or payments
+
+The Louisiana Historical Center's [Company of Indies index](https://lacolonialdocs.org/person/9183/for/documents/14113) separately classifies [1735-08-06-01](https://lacolonialdocs.org/document/2403) (6 August 1735) and [1735-09-01-02](https://lacolonialdocs.org/document/2420) (1 September 1735) as **Private Documents, IOU/Promissory Note**. The item pages confirm dates, French Superior Council collection context and original-language French. The August index lists Company of Indies, Maglelaine L'Eveque and Nicolas Pierron; the September index lists Company of Indies, Claude Boisson and Magdelaine Chesne. **These are modern indexed name strings, not firsthand verified signatures, genders, family links, debtors or creditors.** The original manuscript pages were **not read**: linked thumbnail access failed in this run. The records are now `doc-031` and `doc-032` with distinct source IDs and null-valued liability-ledger rows; the strict validator rejects fictitious promisor fields, amounts, payments and elevated review status.
+
+**Interpretive possibility, not established:** These instruments might help test how corporate creditor claims persisted after the 1731 administrative retrocession, and whether they relate to the 30 March 1735 commodity ordinance. No such linkage has been shown. An IOU may memorialize a promise, not a completed disbursement; a catalogue category cannot establish even its contractual direction. Nor do indexed names prove that the two notes concern the same debt or the October 1735 creditor agreement.
+
+**Representation:** The museum's [indexing-method statement](https://www.lacolonialdocs.org/post/8/the-process) explicitly warns of WPA omissions of women and enslaved people's names. Preserve their possible presence without fabricating identities or roles. Colonial credit instruments also cannot represent Indigenous sovereignty or consent; pair broader interpretation with [Choctaw Nation Iti Fabvssa](https://www.choctawnation.com/news/iti-fabvssa/fort-tombecbe-and-early-choctaw-treaties/) and other community-authored histories.
+
+**Next task:** Obtain and read the actual 24 February 1731 debt decree's two pages, then transcribe these two original 1735 promissory notes and compare named obligations and any commodity provisions. No Crown liability, money movement, amount, or settlement is asserted by this update.
