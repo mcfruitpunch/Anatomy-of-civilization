@@ -1384,5 +1384,27 @@
     "url": "https://commons.wikimedia.org/wiki/File:The_commerce_of_Louisiana_during_the_French_r%C3%A9gime,_1699-1763_(IA_commerceoflouisi00millrich).pdf",
     "locator": "Chapter XIII, printed pp. 185–186; historian reports commodity prices at the royal storehouse as of 30 March 1735 and cites ANOM C13 vol.20 fols.208–212 and A vol.23, 30 March 1735. Secondary text inspected in digitized searchable reproduction, not the original ANOM manuscript; do not convert prices to paid amounts.",
     "reviewed": true
+  },
+  {
+    "id": "src-lcd-1735-aug-promissory-index",
+    "type": "institutional_primary_manuscript_index_not_transcription",
+    "title": "Louisiana Historical Center indexed promissory-note lead 1735-08-06-01",
+    "author": "Louisiana Historical Center / Louisiana Colonial Documents Digitization Project",
+    "year": null,
+    "publisher": "Louisiana State Museum",
+    "url": "https://lacolonialdocs.org/document/2403",
+    "locator": "French Superior Council collection, New Orleans, 1735-08-06-01, dated 1735-08-06; indexed as Private Documents, IOU/Promissory Note on the Company of Indies document index. Item page names Company of Indies, Maglelaine L'Eveque, and Nicolas Pierron. Catalogue page and index inspected 29 October 2026; French manuscript text and signatures not read.",
+    "reviewed": true
+  },
+  {
+    "id": "src-lcd-1735-sep-promissory-index",
+    "type": "institutional_primary_manuscript_index_not_transcription",
+    "title": "Louisiana Historical Center indexed promissory-note lead 1735-09-01-02",
+    "author": "Louisiana Historical Center / Louisiana Colonial Documents Digitization Project",
+    "year": null,
+    "publisher": "Louisiana State Museum",
+    "url": "https://lacolonialdocs.org/document/2420",
+    "locator": "French Superior Council collection, New Orleans, 1735-09-01-02, dated 1735-09-01; indexed as Private Documents, IOU/Promissory Note on the Company of Indies document index. Item page names Company of Indies, Claude Boisson, and Magdelaine Chesne. Catalogue page and index inspected 29 October 2026; French manuscript text and signatures not read.",
+    "reviewed": true
   }
 ]

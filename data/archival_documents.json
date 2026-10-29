@@ -555,5 +555,41 @@
       "ent-compagnie-indes-france",
       "ent-french-superior-council-la"
     ]
+  },
+  {
+    "id": "doc-031",
+    "date": "1735-08-06",
+    "place": "New Orleans, French Louisiana (museum catalogue origin)",
+    "title": "Indexed Company of Indies promissory-note lead, 1735-08-06",
+    "document_kind": "indexed_private_iou_promissory_note",
+    "access_level": "catalogue_metadata_only",
+    "reference": "Louisiana Historical Center, French Superior Council collection, 1735-08-06-01, https://lacolonialdocs.org/document/2403",
+    "established": "The museum's Company of Indies index classifies 1735-08-06-01 as 'Private Documents, IOU/Promissory Note'. The item page dates it 1735-08-06 and indexes Company of Indies, Maglelaine L'Eveque, and Nicolas Pierron. These are catalogue references, not verified signatories or contractual roles.",
+    "limitations": "The original French pages and any signatures were not transcribed. No promisor, promisee, amount, due date, settlement, Crown assumption, consideration, debtor identity, gender inference, or link to the February 1731 debt decree has been verified. Index omissions of women and enslaved people are documented by the museum. A promissory-note category does not establish payment.",
+    "sources": [
+      "src-lcd-1735-aug-promissory-index",
+      "src-lcd-indexing-method-and-wpa"
+    ],
+    "entities": [
+      "ent-compagnie-indes-france"
+    ]
+  },
+  {
+    "id": "doc-032",
+    "date": "1735-09-01",
+    "place": "New Orleans, French Louisiana (museum catalogue origin)",
+    "title": "Indexed Company of Indies promissory-note lead, 1735-09-01",
+    "document_kind": "indexed_private_iou_promissory_note",
+    "access_level": "catalogue_metadata_only",
+    "reference": "Louisiana Historical Center, French Superior Council collection, 1735-09-01-02, https://lacolonialdocs.org/document/2420",
+    "established": "The museum's Company of Indies index classifies 1735-09-01-02 as 'Private Documents, IOU/Promissory Note'. The item page dates it 1735-09-01 and indexes Company of Indies, Claude Boisson, and Magdelaine Chesne. These are catalogue references, not verified signatories or contractual roles.",
+    "limitations": "The original French pages and any signatures were not transcribed. No promisor, promisee, amount, due date, settlement, Crown assumption, consideration, debtor identity, gender inference, or link to the February 1731 debt decree has been verified. Index omissions of women and enslaved people are documented by the museum. A promissory-note category does not establish payment.",
+    "sources": [
+      "src-lcd-1735-sep-promissory-index",
+      "src-lcd-indexing-method-and-wpa"
+    ],
+    "entities": [
+      "ent-compagnie-indes-france"
+    ]
   }
 ]

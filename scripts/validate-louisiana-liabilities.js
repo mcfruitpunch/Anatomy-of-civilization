@@ -20,6 +20,8 @@ const reviewByDocument = new Map([
   ['doc-029', 'catalogue'],  // July 15 1732 Duval account: indexed only; 1736 internal date unresolved
   ['doc-019', 'abstract'],   // Sep 2 1732 ministerial letter
   ['doc-030', 'abstract'],   // Mar 30 1735 Council ordinance: Company-as-creditor; original clauses unread
+  ['doc-031', 'catalogue'],  // Aug 6 1735 indexed promissory note; contractual roles unread
+  ['doc-032', 'catalogue'],  // Sep 1 1735 indexed promissory note; contractual roles unread
   ['doc-026', 'catalogue'],  // Oct 19 1735 indexed creditors' agreement; no clauses read
   ['doc-027', 'catalogue'],  // Aug 20 1736 indexed receipt; payer/payee unknown
   ['doc-028', 'catalogue'],  // May 11 1737 indexed receipt; payer/payee unknown
@@ -42,7 +44,7 @@ function verify(row) {
 }
 
 assert(Array.isArray(rows), 'Liability ledger must be an array');
-assert.equal(rows.length, reviewByDocument.size, 'All eleven audited leads must be present');
+assert.equal(rows.length, reviewByDocument.size, 'All thirteen audited leads must be present');
 assert.equal(new Set(rows.map(row => row.document)).size, rows.length, 'Duplicate archival item');
 rows.forEach(verify);
 
@@ -80,4 +82,16 @@ for (const docId of ['doc-027', 'doc-028']) {
   assert.throws(() => verify({...row, payment_amount: 1}));
   assert.throws(() => verify({...row, review: 'original_receipt_transcribed'}));
 }
-console.log('OK: eleven Louisiana archival leads, including creditor ordinance, untranscribed succession account and receipts, with strict negative payment fixtures');
+// An index label "IOU/Promissory Note" cannot establish a debtor, payee or paid amount.
+for (const docId of ['doc-031', 'doc-032']) {
+  const row = rows.find(r => r.document === docId);
+  assert(row, 'Indexed promissory-note lead missing: ' + docId);
+  assert.equal(row.review, 'catalogue');
+  for (const field of ['paid', 'transfer', 'liable']) {
+    assert.throws(() => verify({...row, [field]: 'Company of Indies'}));
+  }
+  assert.throws(() => verify({...row, promisor: 'Company of Indies'}));
+  assert.throws(() => verify({...row, payment_amount: 1}));
+  assert.throws(() => verify({...row, review: 'original_note_transcribed'}));
+}
+console.log('OK: thirteen Louisiana archival leads, including creditor ordinance, untranscribed succession account and receipts, with strict negative payment fixtures');
