@@ -1406,5 +1406,27 @@
     "url": "https://lacolonialdocs.org/document/2420",
     "locator": "French Superior Council collection, New Orleans, 1735-09-01-02, dated 1735-09-01; indexed as Private Documents, IOU/Promissory Note on the Company of Indies document index. Item page names Company of Indies, Claude Boisson, and Magdelaine Chesne. Catalogue page and index inspected 29 October 2026; French manuscript text and signatures not read.",
     "reviewed": true
+  },
+  {
+    "id": "src-hnoc-1733-paper-credit-letter",
+    "type": "primary_correspondence_archival_calendar_only",
+    "title": "Superior Council to minister, account of disputes over Company notes and bills of exchange, 30 September 1733",
+    "author": "Superior Council of Louisiana (archival calendar prepared by Historic New Orleans Collection)",
+    "year": 1733,
+    "publisher": "Historic New Orleans Collection, Guide to French Louisiana Manuscripts",
+    "url": "https://surrey.hnoc.org/full_notice.php?id_document=8350",
+    "locator": "Surrey Calendar notice 8350; letter dated New Orleans, 30 September 1733; 12 pages; ANOM C13 vol.16 fol./page 166 (catalogue notation 'C 13, 16:166'); sender Superior Council of Louisiana, recipient minister. Direct institutional catalogue inspected 30 October 2026; French original NOT examined.",
+    "reviewed": true
+  },
+  {
+    "id": "src-surrey-1916-company-paper-credit-1731-33",
+    "type": "historical_secondary_archival_study",
+    "title": "The Commerce of Louisiana During the French Régime, 1699–1763",
+    "author": "Nancy Maria Miller Surrey",
+    "year": 1916,
+    "publisher": "Columbia University Press",
+    "url": "https://books.google.com/books?id=5RJwAAAAIAAJ",
+    "locator": "Chapter X, printed pp. 122–123, 'Paper Money and Credit'; 1916 historical account of 15 and 30 October 1731 notes ordinances and 30 September 1733 reduction; footnote points to ANOM colonial series A vol.23 for October 1731. Read in a searchable digitized historical edition on 30 October 2026; original 1731/1733 French instruments NOT inspected.",
+    "reviewed": true
   }
 ]

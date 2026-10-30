@@ -591,5 +591,24 @@
     "entities": [
       "ent-compagnie-indes-france"
     ]
+  },
+  {
+    "id": "doc-033",
+    "date": "1733-09-30",
+    "place": "New Orleans, French Louisiana (archival calendar)",
+    "title": "Superior Council letter to minister concerning disputes over Company notes and bills of exchange",
+    "document_kind": "colonial_company_paper_credit_correspondence_archival_abstract",
+    "access_level": "catalogue_metadata_only",
+    "reference": "Historic New Orleans Collection Surrey Calendar item 8350; ANOM C13 vol.16:166; 12 pages, 30 September 1733, https://surrey.hnoc.org/full_notice.php?id_document=8350",
+    "established": "The institutional archival calendar describes a 12-page Superior Council letter to the minister dated 30 September 1733 concerning trouble caused by notes and bills of exchange drawn by the Company. This establishes the catalogue's date, correspondents, broad subject and archival locator, not any specific ruling or settlement.",
+    "limitations": "Original French letter and folio images NOT examined. Do not equate this outgoing letter with the separate 30 September 1733 Superior Council ordinance reported by Nancy Maria Miller Surrey (1916, pp.122–123) without comparing originals. No note holder, legal debtor, Crown assumption, paper-money redemption, actual payment, value adjustment or connection to the February 1731 debt decree is verified by this abstract. Colonial correspondence does not document Indigenous consent or the full lives of enslaved people.",
+    "sources": [
+      "src-hnoc-1733-paper-credit-letter",
+      "src-surrey-1916-company-paper-credit-1731-33"
+    ],
+    "entities": [
+      "ent-compagnie-indes-france",
+      "ent-french-superior-council-la"
+    ]
   }
 ]

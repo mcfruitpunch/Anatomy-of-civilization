@@ -19,6 +19,7 @@ const reviewByDocument = new Map([
   ['doc-020', 'scholarship'],// Diron award: modern reading of folios
   ['doc-029', 'catalogue'],  // July 15 1732 Duval account: indexed only; 1736 internal date unresolved
   ['doc-019', 'abstract'],   // Sep 2 1732 ministerial letter
+  ['doc-033', 'abstract'],   // Sep 30 1733 Council letter about Company notes; NOT the alleged same-day ordinance
   ['doc-030', 'abstract'],   // Mar 30 1735 Council ordinance: Company-as-creditor; original clauses unread
   ['doc-031', 'catalogue'],  // Aug 6 1735 indexed promissory note; contractual roles unread
   ['doc-032', 'catalogue'],  // Sep 1 1735 indexed promissory note; contractual roles unread
@@ -44,7 +45,7 @@ function verify(row) {
 }
 
 assert(Array.isArray(rows), 'Liability ledger must be an array');
-assert.equal(rows.length, reviewByDocument.size, 'All thirteen audited leads must be present');
+assert.equal(rows.length, reviewByDocument.size, 'All fourteen audited leads must be present');
 assert.equal(new Set(rows.map(row => row.document)).size, rows.length, 'Duplicate archival item');
 rows.forEach(verify);
 
@@ -70,6 +71,18 @@ for (const field of ['paid', 'transfer', 'liable']) {
 assert.throws(() => verify({...commodityRow, payment_amount: 1}));
 assert.throws(() => verify({...commodityRow, commodity_delivered: 'rice'}));
 assert.throws(() => verify({...commodityRow, review: 'original_ordinance_transcribed'}));
+// A calendar abstract for a Council letter about notes cannot establish a ruling,
+// reduction in value, or a disbursement. The separate ordinance remains unread.
+const creditLetter = rows.find(r => r.document === 'doc-033');
+assert(creditLetter, '1733 credit-dispute letter missing');
+assert.equal(creditLetter.review, 'abstract');
+for (const field of ['paid', 'transfer', 'liable']) {
+  assert.throws(() => verify({...creditLetter, [field]: 'French Crown'}));
+}
+assert.throws(() => verify({...creditLetter, face_value_reduced: 0.5}));
+assert.throws(() => verify({...creditLetter, council_ruling: 'redeemed'}));
+assert.throws(() => verify({...creditLetter, payment_amount: 1}));
+assert.throws(() => verify({...creditLetter, review: 'original_letter_transcribed'}));
 // An archival index's label "Receipt" does not establish who paid whom.
 for (const docId of ['doc-027', 'doc-028']) {
   const row = rows.find(r => r.document === docId);
@@ -94,4 +107,4 @@ for (const docId of ['doc-031', 'doc-032']) {
   assert.throws(() => verify({...row, payment_amount: 1}));
   assert.throws(() => verify({...row, review: 'original_note_transcribed'}));
 }
-console.log('OK: thirteen Louisiana archival leads, including creditor ordinance, untranscribed succession account and receipts, with strict negative payment fixtures');
+console.log('OK: fourteen Louisiana archival leads, including creditor ordinance, untranscribed succession account and receipts, with strict negative payment fixtures');
