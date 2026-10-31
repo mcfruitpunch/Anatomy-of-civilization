@@ -56,7 +56,7 @@
       "src-columbia-1731-debt-printed-1733"
     ],
     "locator": "BnF Gallica ark:/12148/btv1b8602624n; Columbia Law Library record 1505745, Paris Veuve Saugrain and Pierre Prault, 1733, 2 pp. Columbia record also lists LLMC1338688796, OCLC 27416388, and Wroth & Annan no. 1214.",
-    "access_limitation": "Gallica ark original-page fetch returned HTTP 403 on 31 October 2026; Columbia and LLMC bibliographic record consulted, but no operative text was read.",
+    "access_limitation": "Gallica ark original-page fetch returned HTTP 403 on 31 October 2026; Columbia bibliographic record consulted (which identifies an LLMC resource); the LLMC item itself and all operative text were not examined.",
     "retrieval_identifiers": [
       "Gallica ark:/12148/btv1b8602624n",
       "Columbia Law Library record 1505745",
