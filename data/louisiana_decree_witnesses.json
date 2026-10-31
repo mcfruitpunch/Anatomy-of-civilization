@@ -13,7 +13,12 @@
       "src-umsl-1731-decree-image"
     ],
     "locator": "UMSL Mercantile Library exhibition image, printed royal title page dated 23 January 1731",
-    "access_limitation": "Title page inspected; operative royal clauses not inspected."
+    "access_limitation": "Title page inspected; operative royal clauses not inspected.",
+    "retrieval_identifiers": [
+      "UMSL Mercantile Library original printed title-page image",
+      "ANOM COL F3 242 fol.187 (issue #24 locator; manuscript not inspected)"
+    ],
+    "next_access_action": "Obtain and inspect all operative pages of the 23 January 1731 act; compare them against the contemporary Mercure de France report, pp. 610–611."
   },
   {
     "id": "witness-company-debt-1731-royal-print",
@@ -29,7 +34,12 @@
       "src-bnf-1731-company-debts-royal-print"
     ],
     "locator": "BnF Catalogue général, filtered France Conseil d'État list, result 39: [Acte. 1731-02-24. Versailles], Impr. royale (1731)",
-    "access_limitation": "Search result only; stable item notice and printed pages not obtained."
+    "access_limitation": "Search result only; stable item notice and printed pages not obtained.",
+    "retrieval_identifiers": [
+      "BnF Catalogue général filtered France Conseil d'État results, entry 39",
+      "1731 Imprimerie royale printing, act dated 24 February 1731"
+    ],
+    "next_access_action": "Resolve entry 39 to a stable BnF item-level catalogue identifier; request images of every page of the 1731 Imprimerie royale printing and note pagination."
   },
   {
     "id": "witness-company-debt-1733-saugrain-prault",
@@ -45,7 +55,15 @@
       "src-bnf-1733-company-debts",
       "src-columbia-1731-debt-printed-1733"
     ],
-    "locator": "BnF Gallica ark:/12148/btv1b8602624n; Columbia Law Library record 1505745, Paris Veuve Saugrain and Pierre Prault, 1733, 2 pp.",
-    "access_limitation": "Gallica original-page fetch returned HTTP 403; Columbia catalogue describes the two-page item but its clauses were not read."
+    "locator": "BnF Gallica ark:/12148/btv1b8602624n; Columbia Law Library record 1505745, Paris Veuve Saugrain and Pierre Prault, 1733, 2 pp. Columbia record also lists LLMC1338688796, OCLC 27416388, and Wroth & Annan no. 1214.",
+    "access_limitation": "Gallica ark original-page fetch returned HTTP 403 on 31 October 2026; Columbia and LLMC bibliographic record consulted, but no operative text was read.",
+    "retrieval_identifiers": [
+      "Gallica ark:/12148/btv1b8602624n",
+      "Columbia Law Library record 1505745",
+      "LLMC1338688796",
+      "OCLC 27416388",
+      "Wroth & Annan, Acts of French Royal Administration, no. 1214"
+    ],
+    "next_access_action": "Request a legible reproduction of both pages of the 1733 Saugrain–Prault printing through BnF/Gallica or Columbia Law/LLMC; transcribe operative clauses with page and edition; compare with the 1731 royal printing."
   }
 ]
