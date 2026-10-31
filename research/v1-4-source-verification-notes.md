@@ -1,6 +1,6 @@
 # V1.4: Louisiana liabilities, 1731–1732
 
-Thirteen dated documentary leads are currently catalogued in `data/louisiana_liability_ledger.json` (as of 29 October 2026). The original debt decree clauses and Diron judgment remain unread. No named legal debtor or actual payment has been verified.
+Fourteen dated documentary leads are currently catalogued in `data/louisiana_liability_ledger.json` (as of 30 October 2026). The original debt decree clauses and Diron judgment remain unread. No named legal debtor or actual payment has been verified. The [31 October 2026 original-decree reproduction dossier](v1-4-decree-reproduction-dossier-2026-10-31.md) adds Columbia/LLMC/OCLC retrieval keys and records renewed Gallica HTTP 403 without claiming an original-page reading.
 
 ## July 15, 1732 archival lead
 

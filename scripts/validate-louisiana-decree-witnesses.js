@@ -15,7 +15,7 @@ const expected = new Map([
 ]);
 const keys = ['id', 'act_date', 'document', 'printing_year', 'witness_scope', 'review_level',
   'operative_clauses_read', 'legal_debtor_verified', 'payment_verified',
-  'source_ids', 'locator', 'access_limitation'].sort();
+  'source_ids', 'locator', 'access_limitation', 'retrieval_identifiers', 'next_access_action'].sort();
 function verify(w) {
   assert(w && typeof w === 'object' && !Array.isArray(w), 'Witness must be an object');
   assert.deepEqual(Object.keys(w).sort(), keys, 'Unknown evidence field');
@@ -35,6 +35,11 @@ function verify(w) {
   }
   assert(typeof w.locator === 'string' && w.locator.trim(), 'Missing page/catalogue locator');
   assert(typeof w.access_limitation === 'string' && w.access_limitation.trim(), 'Missing access limitation');
+  assert(Array.isArray(w.retrieval_identifiers) && w.retrieval_identifiers.length >= 2, 'Missing exact reproduction identifiers');
+  assert(w.retrieval_identifiers.every(id => typeof id === 'string' && id.trim()), 'Empty reproduction identifier');
+  assert.equal(new Set(w.retrieval_identifiers).size, w.retrieval_identifiers.length, 'Duplicate reproduction identifier');
+  assert(typeof w.next_access_action === 'string' && /request|obtain|resolve/i.test(w.next_access_action), 'Missing actionable original-page retrieval step');
+  assert(!/payment (made|received|verified)|crown assumed|debt settled/i.test(w.next_access_action), 'Unverified outcome in access action');
   for (const field of ['operative_clauses_read', 'legal_debtor_verified', 'payment_verified']) {
     assert.equal(w[field], false, field + ' requires a new, directly inspected and cited original');
   }
@@ -53,4 +58,10 @@ assert.throws(() => verify({...debt[1], review_level: 'original_clauses_transcri
 assert.throws(() => verify({...debt[1], payer: 'French Crown'}));
 assert.throws(() => verify({...debt[1], payment_amount: 29000}));
 assert.throws(() => verify({...debt[0], source_ids: ['nonexistent-source']}));
+assert.throws(() => verify({...debt[0], retrieval_identifiers: []}));
+assert.throws(() => verify({...debt[1], retrieval_identifiers: ['LLMC1338688796', 'LLMC1338688796']}));
+assert.throws(() => verify({...debt[1], next_access_action: 'Crown assumed the debt'}));
+assert(debt[1].retrieval_identifiers.includes('LLMC1338688796'), 'LLMC reproduction key must remain tracked');
+assert(debt[1].retrieval_identifiers.includes('OCLC 27416388'), 'Print-copy search key must remain tracked');
+assert(debt[1].retrieval_identifiers.includes('Gallica ark:/12148/btv1b8602624n'), 'Digitized witness key must remain tracked');
 console.log('OK: three dated decree witnesses, two editions of one 1731 debt act, no unverified clauses or payments');
