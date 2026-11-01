@@ -10,15 +10,17 @@
     "legal_debtor_verified": false,
     "payment_verified": false,
     "source_ids": [
-      "src-umsl-1731-decree-image"
+      "src-umsl-1731-decree-image",
+      "src-ull-collection-329-reel-inventory"
     ],
     "locator": "UMSL Mercantile Library exhibition image, printed royal title page dated 23 January 1731",
-    "access_limitation": "Title page inspected; operative royal clauses not inspected.",
+    "access_limitation": "Only the UMSL printed title page was inspected; original royal operative clauses were not. UL Lafayette finding aid lists reel 580 as ANOM F3 242, but reel frames and fol.187 were not inspected (1 November 2026).",
     "retrieval_identifiers": [
       "UMSL Mercantile Library original printed title-page image",
-      "ANOM COL F3 242 fol.187 (issue #24 locator; manuscript not inspected)"
+      "ANOM COL F3 242 fol.187 (issue #24 locator; manuscript not inspected)",
+      "UL Lafayette Collection 329, reel 580: ANOM F3 242 (volume-level finding aid only; fol.187 frame unverified)"
     ],
-    "next_access_action": "Obtain and inspect all operative pages of the 23 January 1731 act; compare them against the contemporary Mercure de France report, pp. 610–611."
+    "next_access_action": "Request a targeted check or legible scan of ANOM F3 242 fol.187 (23 January 1731 act) via UL Lafayette Collection 329, reel 580; compare operative text with Mercure de France March 1731 pp.610–611. The finding aid does not verify a specific frame or the 24 February debt decree."
   },
   {
     "id": "witness-company-debt-1731-royal-print",
