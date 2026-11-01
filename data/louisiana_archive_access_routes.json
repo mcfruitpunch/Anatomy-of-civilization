@@ -1,0 +1,44 @@
+[
+  {
+    "id": "route-ull-329-reel580-f3-242",
+    "document": "doc-022",
+    "act_date": "1731-01-23",
+    "original_archive_locator": "ANOM COL F3 242 fol.187 (separately cited in scholarly record; frame not inspected)",
+    "microfilm_collection": "University of Louisiana at Lafayette, Collection 329",
+    "reel": 580,
+    "inventory_scope": "ANOM F3 242, Code Louisiane, Tome II, 1724–1746",
+    "source_ids": [
+      "src-ull-collection-329-reel-inventory",
+      "src-ull-special-collections-digitization-policy",
+      "src-unilim-1731-retrocession"
+    ],
+    "access_level": "reel_inventory_only",
+    "document_on_reel_verified": false,
+    "specific_frame_verified": false,
+    "original_text_read": false,
+    "potential_match_reason": "The university's inventory explicitly lists ANOM F3 242 on reel 580; a separate scholarly citation identifies fol.187 for the 23 January 1731 decree. The combination is a retrieval hypothesis, not a checked frame.",
+    "limitation": "Finding aid examined; microfilm not read. It is NOT established that the 24 February 1731 debt decree is on this reel, nor that fol.187 is complete/legible in the copy.",
+    "next_action": "Ask UL Lafayette Special Collections to locate ANOM F3 242 fol.187 on Collection 329 reel 580 and provide a targeted legible reproduction, or report absence/legibility and frame references."
+  },
+  {
+    "id": "route-ull-329-reel574-a23",
+    "document": "doc-030",
+    "act_date": "1735-03-30",
+    "original_archive_locator": "ANOM A 23:118 (HNOC archival-calendar notation; original not read)",
+    "microfilm_collection": "University of Louisiana at Lafayette, Collection 329",
+    "reel": 574,
+    "inventory_scope": "ANOM A 23, Actes du pouvoir souverain, 1712–1746",
+    "source_ids": [
+      "src-ull-collection-329-reel-inventory",
+      "src-ull-special-collections-digitization-policy",
+      "src-hnoc-1735-company-debts-commodities"
+    ],
+    "access_level": "reel_inventory_only",
+    "document_on_reel_verified": false,
+    "specific_frame_verified": false,
+    "original_text_read": false,
+    "potential_match_reason": "The university's inventory lists ANOM A 23 on reel 574; HNOC calendar identifies the 30 March 1735 ordinance as A 23:118. This is a candidate route, not a verified reel image.",
+    "limitation": "Finding aid and calendar inspected, not the original ordinance or microfilm. A catalogue's commodity price summary cannot establish actual payments, corporate liability or a link to the February 1731 decree.",
+    "next_action": "Ask UL Lafayette Special Collections to locate ANOM A 23:118 on Collection 329 reel 574 and provide only the three-page 30 March 1735 ordinance with frame/page references."
+  }
+]
