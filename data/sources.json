@@ -1428,5 +1428,27 @@
     "url": "https://books.google.com/books?id=5RJwAAAAIAAJ",
     "locator": "Chapter X, printed pp. 122–123, 'Paper Money and Credit'; 1916 historical account of 15 and 30 October 1731 notes ordinances and 30 September 1733 reduction; footnote points to ANOM colonial series A vol.23 for October 1731. Read in a searchable digitized historical edition on 30 October 2026; original 1731/1733 French instruments NOT inspected.",
     "reviewed": true
+  },
+  {
+    "id": "src-ull-collection-329-reel-inventory",
+    "type": "institutional_microfilm_finding_aid_not_original_document",
+    "title": "Colonial Louisiana Records Collection 329, microfilm reel inventory",
+    "author": "University Archives and Acadiana Manuscripts Collection",
+    "year": null,
+    "publisher": "Edith Garland Dupré Library, University of Louisiana at Lafayette",
+    "url": "https://library.louisiana.edu/sites/library/files/Colonial_Louisiana_Records_COLL329.pdf",
+    "locator": "Collection 329 finding aid, PDF inventory section II.L, printed p. 6: reel 574 includes ANOM A 23 (1712–1746); reel 580 includes ANOM F3 242, Code Louisiane vol. II (1724–1746). University finding aid examined 1 November 2026; neither microfilm reel nor specific folio/frame inspected.",
+    "reviewed": true
+  },
+  {
+    "id": "src-ull-special-collections-digitization-policy",
+    "type": "institutional_archive_access_policy_not_original_document",
+    "title": "University of Louisiana at Lafayette Special Collections digitization request instructions",
+    "author": "University of Louisiana at Lafayette, Special Collections",
+    "year": null,
+    "publisher": "Edith Garland Dupré Library",
+    "url": "https://library.louisiana.edu/collections/digital-archives/digitization-request-form",
+    "locator": "Digitization Request Form, 'Item(s) Description/Title(s)', 'Collection/Box/Folder Numbers', 'Copyright & Permissions'; institution says whole microfilm reels are not duplicated. Access instructions checked 1 November 2026; no reproduction requested or received.",
+    "reviewed": true
   }
 ]
