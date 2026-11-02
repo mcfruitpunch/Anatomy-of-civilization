@@ -1450,5 +1450,27 @@
     "url": "https://library.louisiana.edu/collections/digital-archives/digitization-request-form",
     "locator": "Digitization Request Form, 'Item(s) Description/Title(s)', 'Collection/Box/Folder Numbers', 'Copyright & Permissions'; institution says whole microfilm reels are not duplicated. Access instructions checked 1 November 2026; no reproduction requested or received.",
     "reviewed": true
+  },
+  {
+    "id": "src-esclavage-antilles-1731-saint-louis-mediated",
+    "type": "modern_secondary_synthesis_of_scholarship_not_primary_voyage_record",
+    "title": "Martinique — 1731 Saint-Louis captive-voyage episode (secondary source summary)",
+    "author": "Esclavage aux Antilles (online historical synthesis citing Robert Harms)",
+    "year": null,
+    "publisher": "Esclavage aux Antilles",
+    "url": "https://esclavage-antilles.fr/territoires/martinique.html",
+    "locator": "Section 'En 1731, le navire Saint-Louis de la Compagnie des Indes...' (Point 237 in inspected listing), citing Robert Harms, The Diligent (2002), pp. 335–336. Website text inspected 2 November 2026; Harms's book pages and original ship/administrative records NOT directly read. Its four reported counts do not reconcile arithmetically.",
+    "reviewed": true
+  },
+  {
+    "id": "src-hachette-harms-diligent-2002-publisher",
+    "type": "publisher_bibliography_not_examination_of_book_pages",
+    "title": "The Diligent: A Voyage Through the Worlds of the Slave Trade",
+    "author": "Robert Harms",
+    "year": 2002,
+    "publisher": "Basic Books / Hachette Book Group",
+    "url": "https://www.hachettebookgroup.com/titles/robert-harms/the-diligent/9780465028726/",
+    "locator": "Publisher title page metadata: author Robert Harms, Basic Books, 2002, ISBN 9780465028726; inspected 2 November 2026. Publisher synopsis confirms subject matter but does not reproduce pp.335–336 or original 1731 Saint-Louis records.",
+    "reviewed": true
   }
 ]
