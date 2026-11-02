@@ -1,0 +1,39 @@
+[
+  {
+    "id": "human-1731-saint-louis-mediated",
+    "case": "retrocession1731",
+    "date": "1731",
+    "vessel": "Saint-Louis (name as reported by secondary synthesis)",
+    "review_level": "modern_secondary_synthesis_only",
+    "source_ids": [
+      "src-esclavage-antilles-1731-saint-louis-mediated",
+      "src-hachette-harms-diligent-2002-publisher"
+    ],
+    "underlying_book_pages_examined": false,
+    "original_voyage_records_examined": false,
+    "reported_counts": [
+      {
+        "label": "captive people aboard, as reported",
+        "value": 340
+      },
+      {
+        "label": "first group ordered ashore, as reported",
+        "value": 92
+      },
+      {
+        "label": "additional group ordered ashore, as reported",
+        "value": 10
+      },
+      {
+        "label": "reported to continue aboard toward Louisiana",
+        "value": 229
+      }
+    ],
+    "reported_counts_reconcile": false,
+    "verified_individual_outcomes": false,
+    "verified_transfer_to_crown": false,
+    "verified_financial_payment": false,
+    "caveat": "Numbers are attributed to an online secondary synthesis citing Harms (2002, pp.335–336); they are NOT verified original voyage counts. 340 - 92 - 10 = 238, not 229. The numerical difference does not establish nine otherwise undocumented people, deaths or survivors. No exact identity, fate, settlement, Crown transfer or relation to the February 1731 debt decree is established.",
+    "next_action": "Read Harms (2002) pp.335–336 and its original archival citations; obtain voyage/port and Company correspondence, reconcile each reported quantity and dates without converting arithmetic differences into people."
+  }
+]
