@@ -932,6 +932,16 @@
           "src-umsl-1731-decree-image",
           "src-columbia-1731-debt-printed-1733"
         ]
+      },
+      {
+        "label": "Enslaved people's lives are not corporate transfer entries",
+        "claim": "A modern synthesis citing Robert Harms (2002, pp.335–336) reports that a Company of the Indies vessel, Saint-Louis, carried captive people via Martinique toward Louisiana in 1731. The secondary report's counts do not reconcile, and neither the cited book pages nor original voyage papers were directly examined for this atlas. The reported voyage is not proof that the Crown acquired people, paid a creditor, or assumed a Company debt. Distinct Choctaw diplomatic sovereignty and the experiences of people subjected to enslavement require their own evidence, not a corporate asset arrow.",
+        "status": "unresolved",
+        "sources": [
+          "src-esclavage-antilles-1731-saint-louis-mediated",
+          "src-hachette-harms-diligent-2002-publisher",
+          "src-choctaw-fort-tombecbe-2023"
+        ]
       }
     ],
     "open_questions": [
