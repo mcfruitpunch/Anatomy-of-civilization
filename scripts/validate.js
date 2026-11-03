@@ -139,7 +139,7 @@ financial.filter(f=>f.flow_state==='policy_target_not_cash_flow').forEach(f=>{
   if (!/not evidence|NOT evidence|not a payment|not proof/i.test(f.description))
     errors.push(f.id+': fiscal target needs explicit nonpayment warning');
 });
-const archiveLevels = new Set(['curator_summary_with_images','bibliographic_record_only','museum_catalogue_description','indexed_issues_not_transcribed','ledger_series_index_only','catalogue_metadata_only','archival_finding_aid_only']);
+const archiveLevels = new Set(['curator_summary_with_images','bibliographic_record_only','museum_catalogue_description','indexed_issues_not_transcribed','ledger_series_index_only','catalogue_metadata_only','archival_finding_aid_only','historical_edited_text_not_original']);
 documents.forEach(d => {
   validDate(d.date,d.id);
   if (!d.title || !d.place || !d.document_kind || !d.reference || !d.established || !d.limitations) errors.push(d.id + ': missing archive metadata');
