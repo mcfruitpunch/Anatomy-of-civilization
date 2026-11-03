@@ -1296,5 +1296,21 @@
     "sources": [
       "src-unilim-1731-retrocession"
     ]
+  },
+  {
+    "id": "evt-1735-louisiana-card-money-ordinance",
+    "date": "1735-09-14",
+    "title": "1735 royal ordinance authorizes Louisiana card-money ceiling after Company's withdrawal",
+    "summary": "An ordinance dated 14 September 1735, reproduced in Ernest Zay's 1892 legal-document compilation (printed pp.181–183), authorizes fabrication of up to 200,000 French livres nominal value in Louisiana card currency (arts. I and V). Articles IV and VI prescribe fabrication records, circulation, and acceptance at royal stores and for treasury bills. Its preamble claims specie previously sent by the Crown had returned to France; this is the Crown's explanation, not an independently audited flow. Neither printing, issuance, redemption, actual payments nor a settlement of Company debts is established by this authorization. The original 1735 ordinance was not independently inspected.",
+    "case": "retrocession1731",
+    "entities": [
+      "ent-french-crown",
+      "ent-salmon-edme-gatien"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-zay-1892-louisiana-card-money-1735"
+    ]
   }
 ]

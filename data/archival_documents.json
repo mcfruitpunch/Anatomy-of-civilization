@@ -610,5 +610,23 @@
       "ent-compagnie-indes-france",
       "ent-french-superior-council-la"
     ]
+  },
+  {
+    "id": "doc-034",
+    "date": "1735-09-14",
+    "place": "Versailles; applicable to Louisiana",
+    "title": "Louisiana card-money ordinance as reproduced in Zay (1892), not original 1735 folio",
+    "document_kind": "royal_monetary_ordinance_historical_reprint",
+    "access_level": "historical_edited_text_not_original",
+    "reference": "Ernest Zay, Histoire monétaire des colonies françaises (1892), printed pp.181–183, ordinance of 14 September 1735, articles I–VI",
+    "established": "The 1892 edition reproduces a royal order specifying a 200,000-livre nominal card-money fabrication ceiling, controls on official signatures and registers, and proposed acceptance at royal stores and for bills of exchange. This is a legal authorization as transmitted in a later publication.",
+    "limitations": "Original 1735 ordinance, registration, manufacturing procès-verbaux, issued notes, exchange bills and receipts not inspected. The Crown's assertions about specie leaving Louisiana and inhabitants' wishes are not independently verified. A BnF-derived OCR mirror misreads the heading as 260 m. while articles I, IV, V read 200 m.; check the printed page image. This record does not concern a verified payment of the Company's 1731 debts.",
+    "sources": [
+      "src-zay-1892-louisiana-card-money-1735"
+    ],
+    "entities": [
+      "ent-french-crown",
+      "ent-salmon-edme-gatien"
+    ]
   }
 ]

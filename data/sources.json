@@ -1472,5 +1472,16 @@
     "url": "https://www.hachettebookgroup.com/titles/robert-harms/the-diligent/9780465028726/",
     "locator": "Publisher title page metadata: author Robert Harms, Basic Books, 2002, ISBN 9780465028726; inspected 2 November 2026. Publisher synopsis confirms subject matter but does not reproduce pp.335–336 or original 1731 Saint-Louis records.",
     "reviewed": true
+  },
+  {
+    "id": "src-zay-1892-louisiana-card-money-1735",
+    "type": "historical_edited_primary_legal_reprint",
+    "title": "Histoire monétaire des colonies françaises, reprinting the 14 September 1735 Louisiana card-money ordinance",
+    "author": "Ernest Zay (editor/compiler); royal ordinance attributed to Louis XV",
+    "year": 1892,
+    "publisher": "Paris: Imprimerie nationale / Ernest Leroux; University of Toronto digitization via Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Histoire_mon%C3%A9taire_des_colonies_fran%C3%A7aises%2C_d%27apr%C3%A8s_les_documents_officiels_-_Ernest_Zay_-_%C3%89dition_1892.pdf",
+    "locator": "Printed pp. 181–183: 14 September 1735 Versailles Louisiana card-money ordinance, preamble and arts. I–VI; p. 184 begins separate 1744 declaration. Historical reprint read through digitized text extraction 3 November 2026; original 1735 signed/imprinted law not examined. BnF-derived mirror OCR at frenchbooksonindia.com reads '260 m.' in heading, while this digitization and articles I, IV, V give '200 m.'; verify original page images before diplomatic quotation.",
+    "reviewed": true
   }
 ]

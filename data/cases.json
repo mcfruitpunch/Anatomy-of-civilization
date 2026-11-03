@@ -857,8 +857,8 @@
   },
   {
     "id": "retrocession1731",
-    "title": "Company Withdrawal, Royal Administration and Louisiana's Outstanding Debts (1731–1732)",
-    "period": "1717–1733",
+    "title": "Company Withdrawal, Royal Administration and Louisiana's Outstanding Debts (1731–1735)",
+    "period": "1717–1735",
     "summary": "The French Council issued a retrocession decree on 23 January 1731 and a separate Louisiana Company-debt decree on 24 February 1731 (the debt decree was PRINTED in 1733). A May 1731 law reorganized Louisiana's Superior Council without Company directors. In January 1732, Salmon reported taking possession of certain physical assets for the king. Legal concession, regulatory liabilities, institutional appointments and asset custody are distinct.",
     "summary_sources": [
       "src-bnf-retrocession-edict-1731",
@@ -878,13 +878,14 @@
       "src-columbia-1731-debt-printed-1733",
       "src-unilim-1731-retrocession"
     ],
-    "consequences": "A May 1731 royal edict excluded Company directors from the Louisiana Superior Council, helping distinguish public judicial governance from former Company management. In January 1732 Salmon separately reported taking physical possession of forts, buildings and artillery for the king, with exceptions and disputes about Company merchandise. The 1731 debt decree is known from a 1733 printed edition; its text does not establish that all liabilities became Crown obligations, or that the 1732 Diron judgment was paid. People enslaved or living in sovereign Indigenous nations must not be reduced to transferable assets.",
+    "consequences": "A May 1731 royal edict excluded Company directors from the Louisiana Superior Council, helping distinguish public judicial governance from former Company management. In January 1732 Salmon separately reported taking physical possession of forts, buildings and artillery for the king, with exceptions and disputes about Company merchandise. The 1731 debt decree is known from a 1733 printed edition; its text does not establish that all liabilities became Crown obligations, or that the 1732 Diron judgment was paid. People enslaved or living in sovereign Indigenous nations must not be reduced to transferable assets. A separate 14 September 1735 ordinance, preserved as an 1892 historical reprint rather than an examined original, prescribed up to 200,000 livres of Louisiana card money and rules for official recording and acceptance. The authorized ceiling is not proof of issue, circulation, redemption, or payment of the Company's debts.",
     "consequences_sources": [
       "src-hnoc-salmon-possession-1732",
       "src-bnf-1733-company-debts",
       "src-hnoc-louisiana-pathfinder",
       "src-unilim-1731-retrocession",
-      "src-columbia-1731-debt-printed-1733"
+      "src-columbia-1731-debt-printed-1733",
+      "src-zay-1892-louisiana-card-money-1735"
     ],
     "interpretations": [
       {
@@ -942,6 +943,14 @@
           "src-hachette-harms-diligent-2002-publisher",
           "src-choctaw-fort-tombecbe-2023"
         ]
+      },
+      {
+        "label": "Post-retrocession royal currency authority is not debt settlement",
+        "claim": "A 1735 royal card-money ordinance as reproduced by Zay (1892, pp.181–183) addresses currency shortages and authorizes a maximum nominal fabrication amount with recordkeeping and acceptance rules. This is a later public monetary-policy instrument, not an execution ledger for the 24 February 1731 Company debt act. The royal preamble's claims about specie and the wishes of inhabitants are unverified state assertions.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-zay-1892-louisiana-card-money-1735"
+        ]
       }
     ],
     "open_questions": [
@@ -954,7 +963,8 @@
       "Center Choctaw, Natchez and African-descended people's histories to explain how colonial changes affected safety, territory, forced labor, and trade autonomy.",
       "Compare the 23 January 1731 retrocession decree's clauses directly with the French legal print; the title page is inspected but operative terms remain unchecked.",
       "Read the two-page debt decree dated 24 February 1731 (printed 1733), identify rules and liable parties, and assess whether any later 1733 amendment exists separately.",
-      "Inspect the May 22 1731 Superior Council composition decree at ANOM F3 242 fol.190 and identify offices reassigned from Company directors to royal officials."
+      "Inspect the May 22 1731 Superior Council composition decree at ANOM F3 242 fol.190 and identify offices reassigned from Company directors to royal officials.",
+      "Find the original 14 September 1735 card-money ordinance and signed fabrication procès-verbaux, and test the reprint's 200,000-livre ceiling and actual issuance separately from the 1731 Company debt decree."
     ],
     "events": [
       "evt-1717-compagnie-occident",
@@ -962,7 +972,8 @@
       "evt-1731-louisiana-retrocession",
       "evt-1732-salmon-possession",
       "evt-1731-french-company-debt-decree",
-      "evt-1731-superior-council-reorganization"
+      "evt-1731-superior-council-reorganization",
+      "evt-1735-louisiana-card-money-ordinance"
     ],
     "entities": [
       "ent-french-crown",
