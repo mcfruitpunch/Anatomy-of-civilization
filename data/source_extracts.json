@@ -141,5 +141,30 @@
     ],
     "event": "evt-1721-no-census",
     "case": "archives1720"
+  },
+  {
+    "id": "extract-006",
+    "title": "1735 Louisiana card-money ceiling in an 1892 reproduction of a royal ordinance",
+    "date": "1735-09-14",
+    "date_role": "underlying_ordinance_date_not_1892_publication",
+    "place": "Versailles (order); French-claimed Louisiana (intended jurisdiction)",
+    "record_kind": "royal_monetary_ordinance_reprinted_in_historical_compilation",
+    "reading_level": "historical_secondary_transcription_not_verified_against_original",
+    "language_original": "fr",
+    "paraphrase": "Zay's 1892 publication reproduces a September 1735 royal ordinance: article I prescribes fabrication of card money up to a 200,000-livre nominal ceiling; article IV requires four registers/records for each fabrication; article V forbids officials to authorize a higher sum; article VI provides for circulation and acceptance at royal stores and for bills of exchange. The preamble claims Crown specie sent after the 1731 retrocession flowed back to France. These are stated legal provisions and royal claims, not audited money movements, actual card issuance, creditor settlements, or evidence that Indigenous nations or enslaved people consented.",
+    "reported_numbers": [
+      {
+        "value": 200000,
+        "unit": "authorized_card_money_ceiling_livres_not_disbursed",
+        "meaning": "Maximum nominal card-money fabrication authorized by the 1735 text as reprinted in 1892; not verified issued, paid, redeemed, or transferred to Company creditors"
+      }
+    ],
+    "money_status": "authorization_only_no_issue_or_payment_verified",
+    "limitations": "Original 1735 royal ordinance and official register/folio were not inspected. This is a historical reprint read via digitized text extraction; BnF-derived mirror OCR renders the heading '260 m.' while the Wikimedia OCR and repeated articles I, IV, V read '200 m.'. The 1892 and BnF-derived scans are not independent eighteenth-century witnesses. Confirm printed image and original law before asserting textual variants or any observed circulation.",
+    "sources": [
+      "src-zay-1892-louisiana-card-money-1735"
+    ],
+    "event": "evt-1735-louisiana-card-money-ordinance",
+    "case": "retrocession1731"
   }
 ]
