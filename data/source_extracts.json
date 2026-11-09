@@ -166,5 +166,23 @@
     ],
     "event": "evt-1735-louisiana-card-money-ordinance",
     "case": "retrocession1731"
+  },
+  {
+    "id": "extract-007",
+    "title": "HNOC catalogue abstract mentions Macmahon sale of people enslaved by Company",
+    "date": "1732-09-02",
+    "date_role": "letter_date_not_sale_date",
+    "place": "Marly, France",
+    "record_kind": "archival_correspondence_catalogue_abstract",
+    "reading_level": "archival_catalogue_abstract_not_original_text",
+    "language_original": "unknown_not_examined",
+    "paraphrase": "The Historic New Orleans Collection's Surrey Calendar abstract for a two-page ministerial letter dated 2 September 1732 (Marly; Minister of Marine to Salmon; ANOM B57:815) lists Macmahon's sale of people enslaved by the Company and separately lists approval of a Superior Council decision in the Diron–Company of the Indies case. The abstract does not say that these two subjects were connected. Its historical racialized term is not adopted here as a description of the people.",
+    "reported_numbers": [],
+    "limitations": "Only the HNOC catalogue abstract was read; the two-page original letter was not examined. 2 September 1732 is the letter date, not a proven date of sale. The abstract supplies no names, number, purchaser, price, receipt, payment, transfer terms or legal basis. It does not connect the sale subject to the Diron decision or the 24 February 1731 debt decree. This is an imperial administrative summary and preserves no voice or consent of the enslaved people. Do not infer their identities or community affiliation from the catalogue wording.",
+    "sources": [
+      "src-hnoc-1732-minister-abstract"
+    ],
+    "event": "evt-1732-sep-ministry-dirons-case",
+    "case": "choctawdiplomacy1721"
   }
 ]

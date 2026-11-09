@@ -156,13 +156,15 @@ routes.forEach(r => {
   else r.documents.forEach(id=>{if(!archiveIds.has(id)) errors.push(r.id+': unknown document '+id)});
   validStatus(r,r.id); cite(r,r.id,r.status==='documented');
 });
-const readingLevels = new Set(['curated_modern_translation','curated_modern_translation_and_image','historical_secondary_transcription_not_verified_against_original']);
+const readingLevels = new Set(['curated_modern_translation','curated_modern_translation_and_image','historical_secondary_transcription_not_verified_against_original','archival_catalogue_abstract_not_original_text']);
 const allowedNumUnits = new Set(['quotation_unspecified','forecast_not_transaction','schemes_reportedly_identified','people_reported_by_deiler','people_reported_by_villiers','authorized_card_money_ceiling_livres_not_disbursed']);
 extracts.forEach(x => {
   validDate(x.date,x.id);
   if (!x.title || !x.date_role || !x.place || !x.record_kind || !x.paraphrase || !x.limitations || !x.language_original) errors.push(x.id + ': incomplete source reading');
   if (!readingLevels.has(x.reading_level)) errors.push(x.id + ': do not promote mediated material to direct original transcription');
-  if (!['nl','fr'].includes(x.language_original)) errors.push(x.id + ': unidentified original language');
+  if (!['nl','fr','unknown_not_examined'].includes(x.language_original)) errors.push(x.id + ': unidentified original language');
+  if (x.language_original === 'unknown_not_examined' && x.reading_level !== 'archival_catalogue_abstract_not_original_text') errors.push(x.id + ': unknown original language is allowed only for catalogue-level records');
+  if (x.reading_level === 'archival_catalogue_abstract_not_original_text' && !/catalogue|abstract|not.*original/i.test(x.limitations)) errors.push(x.id + ': catalogue-only reading must disclose that original text was not examined');
   need([x.event],E,x.id);
   need([x.case],C,x.id);
   const event = events.find(e => e.id===x.event);
@@ -176,6 +178,8 @@ extracts.forEach(x => {
   cite(x,x.id,true);
   if (x.reading_level === 'historical_secondary_transcription_not_verified_against_original' && !/original|folio/i.test(x.limitations)) errors.push(x.id + ': state explicit primary-folio limitation');
   if (x.date_role === 'london_dispatch_date_not_dutch_print_date' && !/not.*publication|not.*printing|not.*issue|not.*date/i.test(x.limitations)) errors.push(x.id + ': do not equate dispatch and newspaper publication');
+  if (x.date_role === 'letter_date_not_sale_date' && !/letter date.*not.*(proven|verified).*date of sale|not.*(proven|verified).*date of sale/i.test(x.limitations)) errors.push(x.id + ': do not equate letter date with sale date');
+  if (x.id === 'extract-007' && (x.reported_numbers.length !== 0 || x.language_original !== 'unknown_not_examined')) errors.push(x.id + ': catalogue-only sale lead cannot invent counts or claim an unexamined language');
 });
 const censusEvidenceLevels = new Set(['catalogue_only_original_images_not_audited','digitized_historical_secondary_edition','indexed_table_excerpt_not_checked_against_publisher_original']);
 const censusScopes = new Set(['enslaved_people_of_african_descent','enslaved_indigenous_people','european_indentured_workers','europeans_as_author_defined','whites_as_historian_tabulated']);
