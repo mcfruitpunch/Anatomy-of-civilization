@@ -103,6 +103,12 @@ assert(extracts.every(x=>!x.reading_level.includes('original_folio_verified')),'
 assert(extracts.some(x=>x.date_role === 'london_dispatch_date_not_dutch_print_date'),'News dateline qualification missing');
 assert(extracts.some(x=>x.reported_numbers.some(n=>n.unit === 'forecast_not_transaction')),'Speculation must not appear as settled trade');
 assert(extracts.some(x=>x.reported_numbers.some(n=>n.unit === 'people_reported_by_deiler')),'Historian census categories absent');
+const companySaleLead = extracts.find(x=>x.id==='extract-007');
+assert(companySaleLead && companySaleLead.reading_level==='archival_catalogue_abstract_not_original_text','HNOC 1732 letter must remain catalogue-level');
+assert(companySaleLead.date_role==='letter_date_not_sale_date' && companySaleLead.reported_numbers.length===0,'Do not date or quantify Macmahon sale from letter metadata');
+assert(companySaleLead.sources.includes('src-hnoc-1732-minister-abstract'),'HNOC catalogue reading missing direct source');
+assert(archiveDocs.some(d=>d.id==='doc-019' && d.access_level==='catalogue_metadata_only' && d.established.includes('Macmahon')),'Company-enslaved people sale must remain a catalogue-only archival lead');
+assert(!financial.some(f=>/Macmahon/i.test(f.title+' '+f.description)),'Do not create a financial transfer from an unexamined catalogue abstract');
 assert(routes.some(x=>x.from==='Paris'&&x.to==='Leiden')&&routes.some(x=>x.from==='London'&&x.to==='Leiden'),'Dated Dutch public news channels missing');
 assert(html.includes('href="#census-audit"') && js.includes('renderCensusAudit()'), 'Census audit not integrated into explorer');
 assert(censusAudit.length>=5,'Insufficient conflicting census source versions');
