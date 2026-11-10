@@ -51,7 +51,7 @@ function verify(w) {
   for (const a of w.access_attempts) {
     assert(a && typeof a === 'object' && !Array.isArray(a), 'Access attempt must be an object');
     assert.deepEqual(Object.keys(a).sort(), attemptKeys, 'Unknown access-attempt field');
-    assert(/^\\d{4}-\\d{2}-\\d{2}$/.test(a.attempted_on), 'Access attempt needs exact date');
+    assert(/^\d{4}-\d{2}-\d{2}$/.test(a.attempted_on), 'Access attempt needs exact date');
     assert(a.institution && a.institution.trim(), 'Access attempt needs institution');
     assert(/^https:\\/\\//.test(a.url), 'Access attempt needs a verified HTTPS URL');
     assert(allowedOutcomes.has(a.outcome), 'Unrecognized access outcome');
