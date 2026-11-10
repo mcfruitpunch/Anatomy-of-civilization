@@ -439,7 +439,8 @@
       "src-bnf-1733-company-debts",
       "src-columbia-1731-debt-printed-1733",
       "src-bnf-1731-company-debts-royal-print",
-      "src-lhs-1903-cusachs-decree-exhibit"
+      "src-lhs-1903-cusachs-decree-exhibit",
+      "src-bnf-company-indes-collection-context"
     ],
     "entities": [
       "ent-french-crown",
