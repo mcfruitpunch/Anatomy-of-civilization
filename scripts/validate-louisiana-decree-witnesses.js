@@ -53,7 +53,7 @@ function verify(w) {
     assert.deepEqual(Object.keys(a).sort(), attemptKeys, 'Unknown access-attempt field');
     assert(/^\d{4}-\d{2}-\d{2}$/.test(a.attempted_on), 'Access attempt needs exact date');
     assert(a.institution && a.institution.trim(), 'Access attempt needs institution');
-    assert(/^https:\\/\\//.test(a.url), 'Access attempt needs a verified HTTPS URL');
+    assert(/^https:\/\//.test(a.url), 'Access attempt needs a verified HTTPS URL');
     assert(allowedOutcomes.has(a.outcome), 'Unrecognized access outcome');
     assert(allowedLevels.has(a.content_level), 'Unrecognized access evidence level');
     assert.equal(a.text_examined, false, 'An access attempt cannot silently promote a catalogue to document-text examination');
