@@ -20,7 +20,8 @@
       "ANOM COL F3 242 fol.187 (issue #24 locator; manuscript not inspected)",
       "UL Lafayette Collection 329, reel 580: ANOM F3 242 (volume-level finding aid only; fol.187 frame unverified)"
     ],
-    "next_access_action": "Request a targeted check or legible scan of ANOM F3 242 fol.187 (23 January 1731 act) via UL Lafayette Collection 329, reel 580; compare operative text with Mercure de France March 1731 pp.610–611. The finding aid does not verify a specific frame or the 24 February debt decree."
+    "next_access_action": "Request a targeted check or legible scan of ANOM F3 242 fol.187 (23 January 1731 act) via UL Lafayette Collection 329, reel 580; compare operative text with Mercure de France March 1731 pp.610–611. The finding aid does not verify a specific frame or the 24 February debt decree.",
+    "access_attempts": []
   },
   {
     "id": "witness-company-debt-1731-royal-print",
@@ -41,7 +42,17 @@
       "BnF Catalogue général filtered France Conseil d'État results, entry 39",
       "1731 Imprimerie royale printing, act dated 24 February 1731"
     ],
-    "next_access_action": "Resolve entry 39 to a stable BnF item-level catalogue identifier; request images of every page of the 1731 Imprimerie royale printing and note pagination."
+    "next_access_action": "Resolve entry 39 to a stable BnF item-level catalogue identifier; request images of every page of the 1731 Imprimerie royale printing and note pagination.",
+    "access_attempts": [
+      {
+        "attempted_on": "2026-11-10",
+        "institution": "Bibliothèque nationale de France, Catalogue général",
+        "url": "https://catalogue.bnf.fr/affiner.do?afficheRegroup=false&critereRecherche=&index=&listeAffinages=FacPays_fr%3BFacNatDoc_a%3BFacLan_fre%3BAUT3_12495798&motRecherche=&nbResultParPage=100&numNotice=&triResultParPage=0&trouveDansFiltre=NoticePUB&typeNotice=",
+        "outcome": "catalogue_result_observed_no_stable_item_permalink",
+        "content_level": "catalogue_metadata_only",
+        "text_examined": false
+      }
+    ]
   },
   {
     "id": "witness-company-debt-1733-saugrain-prault",
@@ -55,7 +66,8 @@
     "payment_verified": false,
     "source_ids": [
       "src-bnf-1733-company-debts",
-      "src-columbia-1731-debt-printed-1733"
+      "src-columbia-1731-debt-printed-1733",
+      "src-bnf-company-indes-collection-context"
     ],
     "locator": "BnF Gallica ark:/12148/btv1b8602624n; Columbia Law Library record 1505745, Paris Veuve Saugrain and Pierre Prault, 1733, 2 pp. Columbia record also lists LLMC1338688796, OCLC 27416388, and Wroth & Annan no. 1214.",
     "access_limitation": "Gallica ark original-page fetch returned HTTP 403 on 31 October 2026; Columbia bibliographic record consulted (which identifies an LLMC resource); the LLMC item itself and all operative text were not examined.",
@@ -66,6 +78,32 @@
       "OCLC 27416388",
       "Wroth & Annan, Acts of French Royal Administration, no. 1214"
     ],
-    "next_access_action": "Request a legible reproduction of both pages of the 1733 Saugrain–Prault printing through BnF/Gallica or Columbia Law/LLMC; transcribe operative clauses with page and edition; compare with the 1731 royal printing."
+    "next_access_action": "Request a legible reproduction of both pages of the 1733 Saugrain–Prault printing through BnF/Gallica or Columbia Law/LLMC; transcribe operative clauses with page and edition; compare with the 1731 royal printing.",
+    "access_attempts": [
+      {
+        "attempted_on": "2026-11-10",
+        "institution": "Bibliothèque nationale de France, Patrimoines Partagés — France-Amériques",
+        "url": "https://heritage.bnf.fr/france-ameriques/en/compagnie-indes",
+        "outcome": "collection_page_opened_item_linked_to_gallica_ark",
+        "content_level": "catalogue_metadata_only",
+        "text_examined": false
+      },
+      {
+        "attempted_on": "2026-11-10",
+        "institution": "Bibliothèque nationale de France, Gallica",
+        "url": "https://gallica.bnf.fr/ark:/12148/btv1b8602624n",
+        "outcome": "http_403_forbidden",
+        "content_level": "access_error_no_document_text",
+        "text_examined": false
+      },
+      {
+        "attempted_on": "2026-11-10",
+        "institution": "Columbia Law Library",
+        "url": "https://pegasus.law.columbia.edu/record/1505745",
+        "outcome": "search_result_metadata_observed_direct_page_open_502",
+        "content_level": "catalogue_metadata_only",
+        "text_examined": false
+      }
+    ]
   }
 ]

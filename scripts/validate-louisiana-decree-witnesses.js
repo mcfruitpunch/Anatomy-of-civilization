@@ -15,7 +15,7 @@ const expected = new Map([
 ]);
 const keys = ['id', 'act_date', 'document', 'printing_year', 'witness_scope', 'review_level',
   'operative_clauses_read', 'legal_debtor_verified', 'payment_verified',
-  'source_ids', 'locator', 'access_limitation', 'retrieval_identifiers', 'next_access_action'].sort();
+  'source_ids', 'locator', 'access_limitation', 'retrieval_identifiers', 'next_access_action', 'access_attempts'].sort();
 function verify(w) {
   assert(w && typeof w === 'object' && !Array.isArray(w), 'Witness must be an object');
   assert.deepEqual(Object.keys(w).sort(), keys, 'Unknown evidence field');
@@ -39,6 +39,26 @@ function verify(w) {
   assert(w.retrieval_identifiers.every(id => typeof id === 'string' && id.trim()), 'Empty reproduction identifier');
   assert.equal(new Set(w.retrieval_identifiers).size, w.retrieval_identifiers.length, 'Duplicate reproduction identifier');
   assert(typeof w.next_access_action === 'string' && /request|obtain|resolve/i.test(w.next_access_action), 'Missing actionable original-page retrieval step');
+  assert(Array.isArray(w.access_attempts), 'Missing dated access-attempt history');
+  const attemptKeys = ['attempted_on', 'institution', 'url', 'outcome', 'content_level', 'text_examined'].sort();
+  const allowedOutcomes = new Set([
+    'catalogue_result_observed_no_stable_item_permalink',
+    'collection_page_opened_item_linked_to_gallica_ark',
+    'http_403_forbidden',
+    'search_result_metadata_observed_direct_page_open_502'
+  ]);
+  const allowedLevels = new Set(['catalogue_metadata_only', 'access_error_no_document_text']);
+  for (const a of w.access_attempts) {
+    assert(a && typeof a === 'object' && !Array.isArray(a), 'Access attempt must be an object');
+    assert.deepEqual(Object.keys(a).sort(), attemptKeys, 'Unknown access-attempt field');
+    assert(/^\d{4}-\d{2}-\d{2}$/.test(a.attempted_on), 'Access attempt needs exact date');
+    assert(a.institution && a.institution.trim(), 'Access attempt needs institution');
+    assert(/^https:\/\//.test(a.url), 'Access attempt needs a verified HTTPS URL');
+    assert(allowedOutcomes.has(a.outcome), 'Unrecognized access outcome');
+    assert(allowedLevels.has(a.content_level), 'Unrecognized access evidence level');
+    assert.equal(a.text_examined, false, 'An access attempt cannot silently promote a catalogue to document-text examination');
+    assert(w.source_ids.some(id => sources.get(id)?.url === a.url), 'Access attempt URL must be represented by a source record');
+  }
   assert(!/payment (made|received|verified)|crown assumed|debt settled/i.test(w.next_access_action), 'Unverified outcome in access action');
   for (const field of ['operative_clauses_read', 'legal_debtor_verified', 'payment_verified']) {
     assert.equal(w[field], false, field + ' requires a new, directly inspected and cited original');
@@ -50,6 +70,8 @@ witnesses.forEach(verify);
 const debt = witnesses.filter(w => w.document === 'doc-024');
 assert.deepEqual(debt.map(w => w.printing_year).sort(), [1731, 1733], 'Two printings of one 1731 debt act');
 assert(debt.every(w => w.act_date === '1731-02-24'), '1733 printing must not become a 1733 law');
+assert(debt.every(w => w.access_attempts.length > 0), 'Both debt-decree witnesses need dated access-attempt records');
+assert(debt[1].source_ids.includes('src-bnf-company-indes-collection-context'), 'BnF curated access route missing from 1733 witness provenance');
 for (const field of ['operative_clauses_read', 'legal_debtor_verified', 'payment_verified']) {
   assert.throws(() => verify({...debt[0], [field]: true}), 'Unsupported clause or financial claim must fail');
 }
@@ -61,6 +83,11 @@ assert.throws(() => verify({...debt[0], source_ids: ['nonexistent-source']}));
 assert.throws(() => verify({...debt[0], retrieval_identifiers: []}));
 assert.throws(() => verify({...debt[1], retrieval_identifiers: ['LLMC1338688796', 'LLMC1338688796']}));
 assert.throws(() => verify({...debt[1], next_access_action: 'Crown assumed the debt'}));
+const validAttempt = debt[1].access_attempts[0];
+assert.throws(() => verify({...debt[1], access_attempts: [{...validAttempt, text_examined: true}]}));
+assert.throws(() => verify({...debt[1], access_attempts: [{...validAttempt, url: 'http://example.org'}]}));
+assert.throws(() => verify({...debt[1], access_attempts: [{...validAttempt, content_level: 'original_text_examined'}]}));
+assert.throws(() => verify({...debt[1], access_attempts: [{...validAttempt, outcome: 'operative_clauses_read'}]}));
 assert(debt[1].retrieval_identifiers.includes('LLMC1338688796'), 'LLMC reproduction key must remain tracked');
 assert(debt[1].retrieval_identifiers.includes('OCLC 27416388'), 'Print-copy search key must remain tracked');
 assert(debt[1].retrieval_identifiers.includes('Gallica ark:/12148/btv1b8602624n'), 'Digitized witness key must remain tracked');
