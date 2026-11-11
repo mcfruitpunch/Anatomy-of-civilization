@@ -29,7 +29,7 @@ function verifyExtract(x) {
   assert(/not evidence of a Company liability/i.test(x.paraphrase), 'Creditor rights must be distinguished from Company liabilities');
   assert(/OCR/i.test(x.limitations) && /not.*original/i.test(x.limitations), 'OCR and unexamined-original limits must remain explicit');
   assert(/24 February 1731/i.test(x.limitations), 'Separate debt decree must remain distinct');
-  assert(!/(?:^|[.;]\\s*)(?:the Crown assumed|the Crown paid|debt settled|payment (?:made|received))/i.test(x.paraphrase), 'Unsupported settlement/payment claim');
+  assert(!/(?:^|[.;]\s*)(?:the Crown assumed|the Crown paid|debt settled|payment (?:made|received))/i.test(x.paraphrase), 'Unsupported settlement/payment claim');
 }
 function verifyDocument(d) {
   assert.equal(d.id, 'doc-022');
