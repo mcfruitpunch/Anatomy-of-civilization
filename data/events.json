@@ -1214,7 +1214,7 @@
     "id": "evt-1731-louisiana-retrocession",
     "date": "1731-01-23",
     "title": "French royal decree formally addresses Company's return of Louisiana and Illinois",
-    "summary": "The original 23 January 1731 printed royal Council decree concerns the Company's return of Louisiana and Illinois. The title page is preserved in a university collection; the detailed clauses and exact local effective handover remain unexamined. January 24 is the date of a separate 24-page Louisiana Superior Council document, not the royal decree.",
+    "summary": "The original printed royal title page dates the retrocession act to 23 January 1731. A contemporary Mercure de France extract (March 1731, pp.610–611; read through Bureau du Mercure OCR) reports that the Crown accepted the Company's return of the Louisiana/Illinois concession and exclusive-trade privilege, declared Louisiana commerce free to the King's subjects, and preserved the Company's rights against its debtors in the province. This indicates Company-side creditor claims/receivables were reserved in the periodical's text; it does not identify a debtor or amount, prove enforcement or payment, or show that the Crown assumed the Company's own liabilities. The periodical OCR is not the original royal impression or ANOM manuscript and still requires collation. The decree is a French imperial legal instrument, not evidence of Indigenous consent to territorial claims. The January 24 New Orleans Superior Council record is separate.",
     "case": "retrocession1731",
     "entities": [
       "ent-compagnie-indes-france",
@@ -1226,7 +1226,10 @@
       "src-bnf-retrocession-edict-1731",
       "src-louisiana-museum-retrocession",
       "src-unilim-1731-retrocession",
-      "src-umsl-1731-decree-image"
+      "src-umsl-1731-decree-image",
+      "src-mercure-1731-retrocession-extract",
+      "src-terrien-2020-dissertation",
+      "src-bnf-1731-retrocession-gallica"
     ]
   },
   {

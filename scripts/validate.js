@@ -139,7 +139,7 @@ financial.filter(f=>f.flow_state==='policy_target_not_cash_flow').forEach(f=>{
   if (!/not evidence|NOT evidence|not a payment|not proof/i.test(f.description))
     errors.push(f.id+': fiscal target needs explicit nonpayment warning');
 });
-const archiveLevels = new Set(['curator_summary_with_images','bibliographic_record_only','museum_catalogue_description','indexed_issues_not_transcribed','ledger_series_index_only','catalogue_metadata_only','archival_finding_aid_only','historical_edited_text_not_original']);
+const archiveLevels = new Set(['curator_summary_with_images','bibliographic_record_only','museum_catalogue_description','indexed_issues_not_transcribed','ledger_series_index_only','catalogue_metadata_only','archival_finding_aid_only','historical_edited_text_not_original','contemporary_periodical_extract']);
 documents.forEach(d => {
   validDate(d.date,d.id);
   if (!d.title || !d.place || !d.document_kind || !d.reference || !d.established || !d.limitations) errors.push(d.id + ': missing archive metadata');
@@ -156,7 +156,7 @@ routes.forEach(r => {
   else r.documents.forEach(id=>{if(!archiveIds.has(id)) errors.push(r.id+': unknown document '+id)});
   validStatus(r,r.id); cite(r,r.id,r.status==='documented');
 });
-const readingLevels = new Set(['curated_modern_translation','curated_modern_translation_and_image','historical_secondary_transcription_not_verified_against_original','archival_catalogue_abstract_not_original_text']);
+const readingLevels = new Set(['curated_modern_translation','curated_modern_translation_and_image','historical_secondary_transcription_not_verified_against_original','archival_catalogue_abstract_not_original_text','contemporary_periodical_extract_ocr']);
 const allowedNumUnits = new Set(['quotation_unspecified','forecast_not_transaction','schemes_reportedly_identified','people_reported_by_deiler','people_reported_by_villiers','authorized_card_money_ceiling_livres_not_disbursed']);
 extracts.forEach(x => {
   validDate(x.date,x.id);
@@ -165,6 +165,7 @@ extracts.forEach(x => {
   if (!['nl','fr','unknown_not_examined'].includes(x.language_original)) errors.push(x.id + ': unidentified original language');
   if (x.language_original === 'unknown_not_examined' && x.reading_level !== 'archival_catalogue_abstract_not_original_text') errors.push(x.id + ': unknown original language is allowed only for catalogue-level records');
   if (x.reading_level === 'archival_catalogue_abstract_not_original_text' && !/catalogue|abstract|not.*original/i.test(x.limitations)) errors.push(x.id + ': catalogue-only reading must disclose that original text was not examined');
+  if (x.reading_level === 'contemporary_periodical_extract_ocr' && (!/OCR/i.test(x.limitations) || !/not.*original/i.test(x.limitations))) errors.push(x.id + ': contemporary periodical OCR must disclose both OCR mediation and the unexamined original');
   need([x.event],E,x.id);
   need([x.case],C,x.id);
   const event = events.find(e => e.id===x.event);
@@ -202,4 +203,5 @@ require('./validate-louisiana-decree-witnesses.js');
 require('./validate-louisiana-archive-access-routes.js');
 require('./validate-louisiana-human-context.js');
 require('./validate-louisiana-card-money.js');
+require('./validate-louisiana-retrocession-clause.js');
 console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records, ' + ownership.length + ' ownership aggregates, ' + comparisons.length + ' country comparisons, ' + documents.length + ' original records, ' + routes.length + ' information channels, ' + extracts.length + ' attributed readings, ' + censusVersions.length + ' census source versions');
