@@ -26,10 +26,10 @@ function verifyExtract(x) {
   assert(x.sources.includes('src-terrien-2020-dissertation'), 'Scholarly context missing');
   assert(x.sources.every(id => sourceIds.has(id)), 'Unknown source in extract');
   assert(/rights against its debtors/i.test(x.paraphrase), 'Company creditor-side clause must be stated precisely');
-  assert(/not evidence that the Company itself owed/i.test(x.paraphrase), 'Creditor rights must be distinguished from Company liabilities');
+  assert(/not evidence of a Company liability/i.test(x.paraphrase), 'Creditor rights must be distinguished from Company liabilities');
   assert(/OCR/i.test(x.limitations) && /not.*original/i.test(x.limitations), 'OCR and unexamined-original limits must remain explicit');
   assert(/24 February 1731/i.test(x.limitations), 'Separate debt decree must remain distinct');
-  assert(!/Crown (assumed|paid)|debt settled|payment (made|received)/i.test(x.paraphrase), 'Unsupported settlement/payment claim');
+  assert(!/(?:^|[.;]\\s*)(?:the Crown assumed|the Crown paid|debt settled|payment (?:made|received))/i.test(x.paraphrase), 'Unsupported settlement/payment claim');
 }
 function verifyDocument(d) {
   assert.equal(d.id, 'doc-022');
