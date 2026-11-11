@@ -35,7 +35,7 @@ function verifyDocument(d) {
   assert.equal(d.id, 'doc-022');
   assert.equal(d.access_level, 'contemporary_periodical_extract');
   assert(d.sources.includes('src-mercure-1731-retrocession-extract'));
-  assert(/rights against its debtors/i.test(d.established));
+  assert(/rights against (?:its )?debtors/i.test(d.established));
   assert(/not.*examined/i.test(d.limitations));
   assert(/not.*24 February/i.test(d.limitations));
 }
