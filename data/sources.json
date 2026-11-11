@@ -1494,5 +1494,38 @@
     "url": "https://heritage.bnf.fr/france-ameriques/en/compagnie-indes",
     "locator": "Page opened 10 Nov 2026: links the 1731 Louisiana/Illinois retrocession decree, the 1733 Company-debt decree, and a 1755–1756 compilation. Clicking the 1733 debt entry resolves to Gallica ark:/12148/btv1b8602624n. This confirms a curated catalogue route only; it does not establish that the 1755–1756 compilation reproduces this decree or reveal operative clauses.",
     "reviewed": true
+  },
+  {
+    "id": "src-mercure-1731-retrocession-extract",
+    "type": "contemporary_periodical_extract_ocr",
+    "title": "Mercure de France, March 1731, extract of the 23 January Louisiana retrocession decree",
+    "author": "Mercure de France (periodical; individual compiler not identified)",
+    "year": 1731,
+    "publisher": "Mercure de France; digital OCR transcription by Bureau du Mercure",
+    "url": "https://bureaudumercure.org/mercure/term/recurring_article?title=18303",
+    "locator": "March 1731 issue, printed pp. 610–611; entry beginning “AUTRE du même jour, concernant la rétrocession...” follows an item dated 23 January. OCR text at lines 1582–1610 on the Bureau du Mercure page includes the Company's preserved rights against debtors in the province. The portal states that it is exploratory and that content is provisional/incomplete. OCR read 11 Nov 2026; periodical page image not examined.",
+    "reviewed": true
+  },
+  {
+    "id": "src-terrien-2020-dissertation",
+    "type": "scholarly_dissertation",
+    "title": "Exiles and Fugitives: Labor, Mobility and Power in French Colonial Louisiana, 1699–1769",
+    "author": "Erwan (Yevan) Terrien",
+    "year": 2020,
+    "publisher": "University of Pittsburgh, PhD dissertation",
+    "url": "https://d-scholarship.pitt.edu/40002/13/Terrien%20Final%20ETD.pdf",
+    "locator": "Printed pp. 144–145, especially footnotes 100–102: interprets Company and royal reasons for the 1731 retrocession, discusses the decree's free-trade wording and its implications for the slave trade, and cites the 23 Jan 1731 decree as BNF-M F-21114, Gallica ark:/12148/btv1b86025746. Scholarly interpretation, not a transcription of the whole decree.",
+    "reviewed": true
+  },
+  {
+    "id": "src-bnf-1731-retrocession-gallica",
+    "type": "archival_digital_item_locator",
+    "title": "Arrêt du Conseil d'État concerning retrocession of Louisiana and Illinois, 23 January 1731",
+    "author": "Conseil d'État (France)",
+    "year": 1731,
+    "publisher": "Bibliothèque nationale de France, Gallica",
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b86025746",
+    "locator": "Gallica ARK cited by Terrien 2020 dissertation, p.145 n.102, for the 23 January 1731 retrocession decree; direct item open returned HTTP 403 on 11 Nov 2026. This is a verified retrieval identifier, not an inspected image or transcription.",
+    "reviewed": true
   }
 ]
