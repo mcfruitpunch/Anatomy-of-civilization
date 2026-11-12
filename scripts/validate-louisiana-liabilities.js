@@ -27,6 +27,53 @@ const reviewByDocument = new Map([
   ['doc-027', 'catalogue'],  // Aug 20 1736 indexed receipt; payer/payee unknown
   ['doc-028', 'catalogue'],  // May 11 1737 indexed receipt; payer/payee unknown
 ]);
+
+const imageAudits = data('louisiana_image_access_audit');
+const localDossier = byDocument.get('doc-021');
+const localSource = sources.find(s => s.id === 'src-lcd-retrocession-1731');
+function verifyLocalImageAudit(a) {
+  assert(a && typeof a === 'object' && !Array.isArray(a), 'Local dossier access audit must be an object');
+  const keys = ['id','document','source_id','record_url','observed_on','record_date','repository','collection','language','origin','catalogue_category','page_count_displayed','image_link_count','sampled_image_links','indexed_people','text_examined','full_resolution_asset_verified','wpa_black_book_crosswalk_verified','next_action'].sort();
+  assert.deepEqual(Object.keys(a).sort(), keys, 'Unexpected local image-audit field');
+  assert.equal(a.id, 'access-lcd-1731-01-24-03');
+  assert.equal(a.document, 'doc-021');
+  assert.equal(a.source_id, 'src-lcd-retrocession-1731');
+  assert.equal(a.record_url, localSource?.url, 'Audit must cite the exact institutional record URL');
+  assert.equal(a.record_date, localDossier?.date, 'Local record date must remain distinct from the 23 January royal act');
+  assert.equal(a.repository, 'Louisiana Historical Center');
+  assert.equal(a.collection, 'French Superior Council');
+  assert.equal(a.language, 'French');
+  assert.equal(a.origin, 'New Orleans, Province of Louisiana');
+  assert.equal(a.catalogue_category, 'Administrative Acts, Retrocession of Louisiana');
+  assert.equal(a.page_count_displayed, 24);
+  assert.equal(a.image_link_count, 48);
+  assert(Array.isArray(a.sampled_image_links) && a.sampled_image_links.length === 3, 'Three sampled preview links must be recorded');
+  const sampleKeys = ['archive_link_id','url','asset_type','assessment'].sort();
+  for (const sample of a.sampled_image_links) {
+    assert.deepEqual(Object.keys(sample).sort(), sampleKeys, 'Unexpected preview-link field');
+    assert([3,4,26].includes(sample.archive_link_id), 'Unexpected archive link ID');
+    assert(/^https:\/\/lacolonialdocs-data\.s3\.amazonaws\.com\/station_thumbs_sm\/doc-img-\d+\.jpg$/.test(sample.url), 'Preview URL must match an observed thumbnail target');
+    assert.equal(sample.asset_type, 'thumbnail_preview');
+    assert(/no readable text transcription/i.test(sample.assessment), 'Thumbnail must not be treated as a transcription');
+  }
+  assert.deepEqual(a.indexed_people, ['Coligny','Company of Indies','Le Redde','Orry']);
+  assert.equal(a.text_examined, false, 'No original text was examined');
+  assert.equal(a.full_resolution_asset_verified, false, 'No full-resolution asset was verified');
+  assert.equal(a.wpa_black_book_crosswalk_verified, false, 'No WPA crosswalk was verified');
+  assert(typeof a.next_action === 'string' && /full-resolution|legible/i.test(a.next_action), 'Missing precise archive retrieval step');
+  assert.equal(localDossier?.access_level, 'thumbnail_preview_links_observed_text_unread');
+  assert(/thumbnail/i.test(localDossier?.limitations || ''), 'Document limitations must disclose thumbnail-only access');
+  assert(/48 separate Image links/i.test(localSource?.locator || ''), 'Source locator must preserve observed link inventory');
+}
+assert.equal(imageAudits.length, 1, 'Expected one audited 1731 local Council image-access record');
+const localImageAudit = imageAudits[0];
+verifyLocalImageAudit(localImageAudit);
+assert.throws(() => verifyLocalImageAudit({...localImageAudit, text_examined: true}), 'Thumbnail access cannot promote original text to examined');
+assert.throws(() => verifyLocalImageAudit({...localImageAudit, full_resolution_asset_verified: true}), 'Unobserved full-resolution access must fail');
+assert.throws(() => verifyLocalImageAudit({...localImageAudit, record_date: '1731-01-23'}), 'Do not conflate the local record with the royal decree date');
+assert.throws(() => verifyLocalImageAudit({...localImageAudit, page_count_displayed: 23}), 'Page count must match the archive record');
+assert.throws(() => verifyLocalImageAudit({...localImageAudit, sampled_image_links: localImageAudit.sampled_image_links.slice(1)}), 'All sampled image links must remain provenance-tracked');
+
 const allowedKeys = ['date', 'document', 'review', 'paid', 'transfer', 'liable'].sort();
 
 function verify(row) {
@@ -107,4 +154,4 @@ for (const docId of ['doc-031', 'doc-032']) {
   assert.throws(() => verify({...row, payment_amount: 1}));
   assert.throws(() => verify({...row, review: 'original_note_transcribed'}));
 }
-console.log('OK: fourteen Louisiana archival leads, including creditor ordinance, untranscribed succession account and receipts, with strict negative payment fixtures');
+console.log('OK: fourteen Louisiana archival leads, strict negative payment fixtures, and thumbnail-only access gate for the 1731 local Council dossier');
