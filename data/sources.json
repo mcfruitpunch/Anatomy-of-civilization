@@ -1200,13 +1200,13 @@
   },
   {
     "id": "src-lcd-retrocession-1731",
-    "type": "digitized_primary_record_catalog",
+    "type": "digitized_primary_record_catalog_with_thumbnail_preview_links",
     "title": "Louisiana Retrocession — original French document dated January 24, 1731",
     "author": "Louisiana Historical Center, Louisiana Colonial Documents Digitization Project",
     "year": 1731,
     "publisher": "Louisiana Historical Center",
     "url": "https://lacolonialdocs.org/document/2003",
-    "locator": "Document 1731-01-24-03, New Orleans, French Superior Council, 24 page public image series; tagged 'Retrocession of Louisiana', people index Coligny, Company of Indies, Le Redde, Orry. Full handwriting not transcribed, and this is NOT the date of legal completion.",
+    "locator": "Record 1731-01-24-03 opened 12 Nov 2026: French Superior Council, New Orleans, dated 24 Jan 1731; record page displays Pg. 1 / 24 and 48 separate Image links. Three sampled archive links (site link IDs 3, 4 and 26) resolve to small JPEG preview assets under station_thumbs_sm, not a legible full-resolution text image. Sample URLs: https://lacolonialdocs-data.s3.amazonaws.com/station_thumbs_sm/doc-img-125291.jpg ; https://lacolonialdocs-data.s3.amazonaws.com/station_thumbs_sm/doc-img-125292.jpg ; https://lacolonialdocs-data.s3.amazonaws.com/station_thumbs_sm/doc-img-125290.jpg . Metadata category: Administrative Acts, Retrocession of Louisiana; indexed names Coligny, Company of Indies, Le Redde and Orry. No operative text was transcribed; no page sequence, recto/verso structure, legal effect or final handover is inferred.",
     "reviewed": true
   },
   {

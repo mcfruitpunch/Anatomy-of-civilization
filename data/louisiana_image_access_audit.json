@@ -1,0 +1,47 @@
+[
+  {
+    "id": "access-lcd-1731-01-24-03",
+    "document": "doc-021",
+    "source_id": "src-lcd-retrocession-1731",
+    "record_url": "https://lacolonialdocs.org/document/2003",
+    "observed_on": "2026-11-12",
+    "record_date": "1731-01-24",
+    "repository": "Louisiana Historical Center",
+    "collection": "French Superior Council",
+    "language": "French",
+    "origin": "New Orleans, Province of Louisiana",
+    "catalogue_category": "Administrative Acts, Retrocession of Louisiana",
+    "page_count_displayed": 24,
+    "image_link_count": 48,
+    "sampled_image_links": [
+      {
+        "archive_link_id": 3,
+        "url": "https://lacolonialdocs-data.s3.amazonaws.com/station_thumbs_sm/doc-img-125291.jpg",
+        "asset_type": "thumbnail_preview",
+        "assessment": "Small preview returned; no readable text transcription obtained."
+      },
+      {
+        "archive_link_id": 4,
+        "url": "https://lacolonialdocs-data.s3.amazonaws.com/station_thumbs_sm/doc-img-125292.jpg",
+        "asset_type": "thumbnail_preview",
+        "assessment": "Small preview returned; no readable text transcription obtained."
+      },
+      {
+        "archive_link_id": 26,
+        "url": "https://lacolonialdocs-data.s3.amazonaws.com/station_thumbs_sm/doc-img-125290.jpg",
+        "asset_type": "thumbnail_preview",
+        "assessment": "Small preview returned; no readable text transcription obtained."
+      }
+    ],
+    "indexed_people": [
+      "Coligny",
+      "Company of Indies",
+      "Le Redde",
+      "Orry"
+    ],
+    "text_examined": false,
+    "full_resolution_asset_verified": false,
+    "wpa_black_book_crosswalk_verified": false,
+    "next_action": "Request legible full-resolution images of the 24-page French record and exact original folio/page sequence from the Louisiana Historical Center; separately locate the corresponding WPA Black Book 20 entry and compare it against the French pages. Do not transcribe or infer legal effect from thumbnails."
+  }
+]
