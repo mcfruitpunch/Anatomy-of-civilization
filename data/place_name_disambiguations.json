@@ -1,0 +1,115 @@
+{
+  "records": [
+    {
+      "id": "place-ref-choctaw-haiyowvni-youanis-post",
+      "label": "Haiyow ni / Youani / Éiouanné / Poste des Youanis",
+      "referent_type": "Choctaw-requested trading post",
+      "date_range": "1726–1730",
+      "location_scope": "Southern Choctaw country as described in the 2025 study; no coordinates assigned",
+      "documentary_references": [
+        {
+          "archive": "ANOM",
+          "reference": "COL C13A, 1721, fol.146",
+          "role": "Choctaw request for a post; accepted by the Trade Council on 8 February 1721 according to the study",
+          "original_folio_examined": false
+        },
+        {
+          "archive": "ANOM",
+          "reference": "COL C13A, 1725a, fol.65v; 1725b, fol.129v",
+          "role": "renewed Choctaw requests for a well-stocked store",
+          "original_folio_examined": false
+        },
+        {
+          "archive": "ANOM",
+          "reference": "COL C13A, 1726, fol.159",
+          "role": "Merveilleux proposal; first mention of Haiyow ni (Youani/Éiouanné) as a possible site",
+          "original_folio_examined": false
+        },
+        {
+          "archive": "ANOM",
+          "reference": "COL C13A, 1729d, fols.31–31v",
+          "role": "Choctaw delegation and negotiations; chiefs chose a trading store in their territory and negotiated terms",
+          "original_folio_examined": false
+        },
+        {
+          "archive": "ANOM",
+          "reference": "COL C13A, 1733, fol.202",
+          "role": "scholarly source cites construction at Haiyow ni in February–March 1730 under Régis du Roullet",
+          "original_folio_examined": false
+        }
+      ],
+      "source_ids": [
+        "src-musco-ellis-spring-2025"
+      ],
+      "evidence_level": "scholarly_article_with_archival_footnotes",
+      "original_archival_folios_examined": false,
+      "identity_status": "named_referent_in_scholarly_synthesis",
+      "interpretation": "The authors interpret the negotiations as evidence of Choctaw political agency and control over important terms of French settlement. Their suggestion that Haiyow ni was selected as the southernmost village near Mobile is explicitly speculative and is not encoded as a verified location."
+    },
+    {
+      "id": "place-ref-hnoc-youanis-yazoo-1732",
+      "label": "Youanis (Yazoo)",
+      "referent_type": "site named in HNOC catalogue abstract",
+      "date_range": "1732-01-19",
+      "location_scope": "Unresolved; the HNOC abstract supplies the parenthetical '(Yazoo)'",
+      "documentary_references": [
+        {
+          "archive": "ANOM",
+          "reference": "C13 15:31",
+          "role": "two-page Salmon letter; original text not examined",
+          "original_folio_examined": false
+        }
+      ],
+      "source_ids": [
+        "src-hnoc-salmon-possession-1732"
+      ],
+      "evidence_level": "archival_catalogue_abstract_only",
+      "original_archival_folios_examined": false,
+      "identity_status": "unresolved"
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "cmp-hnoc-youanis-yazoo-vs-choctaw-post",
+      "left_record": "place-ref-hnoc-youanis-yazoo-1732",
+      "right_record": "place-ref-choctaw-haiyowvni-youanis-post",
+      "identity_status": "unresolved",
+      "basis": "The HNOC parenthetical '(Yazoo)' is a modern catalogue gloss. The 2025 scholarly article documents a Haiyow ni/Youanis post in southern Choctaw country but does not identify it as the site in Salmon's 1732 letter. Shared spelling alone is insufficient.",
+      "prohibited_conclusions": [
+        "same_site",
+        "asset_transfer",
+        "asset_exemption_reason",
+        "precise_coordinates"
+      ]
+    }
+  ],
+  "map_date_audits": [
+    {
+      "id": "map-date-dumont-louisiana-cp-n-iii-1-3",
+      "map_title": "Carte de la Province de la Loüissianne autrefois dit le Missisipi",
+      "creator": "Jean-François-Benjamin Dumont de Montigny",
+      "archival_reference": "CP/N/III/Louisiane/1/3 (old reference); AE/II/1768/BIS (current reference in Archives nationales caption)",
+      "assertions": [
+        {
+          "date_assertion": "1736",
+          "source_id": "src-musco-ellis-spring-2025",
+          "locator": "Gradhiva 40 (2025), figure 6/7 captions, pp.102 and 104"
+        },
+        {
+          "date_assertion": "1746",
+          "source_id": "src-archives-nationales-map-caption-1746",
+          "locator": "Mémoire d'avenir no.61, Jan.–Mar. 2026, PDF lines 1835–1842"
+        },
+        {
+          "date_assertion": "after 1736",
+          "source_id": "src-versailles-1725-exhibition-map-caption",
+          "locator": "Exhibition press kit, p.18 / PDF lines 235–236"
+        }
+      ],
+      "same_map_identity": "probable_not_confirmed_by_original",
+      "resolved_date": null,
+      "original_map_examined": false,
+      "note": "Archives nationales' institutional caption dates the map at the same old shelf mark 1746; the Versailles press kit says 'after 1736'; Gradhiva's figure captions say 1736. The press kit does not print the shelfmark, and the map itself has not been examined. Preserve the conflict; do not assert a resolved date."
+    }
+  ]
+}
