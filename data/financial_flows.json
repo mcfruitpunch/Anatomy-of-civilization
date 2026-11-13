@@ -216,7 +216,7 @@
   {
     "id": "fin-012",
     "date": "1732",
-    "title": "Diron d'Artaguiette awarded 29,000 French livres after trade monopoly conflict",
+    "title": "Diron d'Artaguiette reportedly awarded 29,000 (provisional French-livre normalization) after trade monopoly conflict",
     "from": "ent-french-superior-council-la",
     "to": [
       "ent-bernard-diron-dartaguiette"
@@ -225,7 +225,7 @@
     "unit": "livres_tournois",
     "kind": "colonial_commercial_monopoly_legal_compensation",
     "flow_state": "legal_award_not_disbursement",
-    "description": "Musco, Ellis and Spring (2025), citing ANOM C13A 1732 fols.33–33v, report that a Superior Council awarded Bernard Diron d'Artaguiette 29,000 French livres because the new Choctaw-requested post affected his Mobile trade monopoly. This is a judicial compensation AWARD by a council, not proof the council was payer, the Company disbursed cash, the whole sum was collected, or Choctaw people paid the indemnity. Separate 2 September 1732 ministerial approval abstract does not state an amount. No identified party is assigned liability from the available secondary text; the 1733 general company debt decree must not be assumed to cover this award.",
+    "description": "The English-language version of Musco, Ellis and Spring (2025), p.105, renders the reported Superior Council award to Bernard Diron d'Artaguiette as '29,000 pounds', citing ANOM C13A 1732 fols.33–33v. The original French article and court folios have not been examined in this atlas; the existing livres_tournois normalization is therefore provisional, not a direct transcription of the original unit. This is a judicial compensation AWARD, not proof the Council was payer, the Company disbursed cash, the whole sum was collected, or Choctaw people paid the indemnity. The separate 2 September 1732 ministerial approval abstract does not state an amount. No identified party is assigned liability from the available secondary text; the 1733 general Company debt decree must not be assumed to cover this award.",
     "case": "choctawdiplomacy1721",
     "sources": [
       "src-musco-ellis-spring-2025",
