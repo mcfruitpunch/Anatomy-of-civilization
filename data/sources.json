@@ -1527,5 +1527,27 @@
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b86025746",
     "locator": "Gallica ARK cited by Terrien 2020 dissertation, p.145 n.102, for the 23 January 1731 retrocession decree; direct item open returned HTTP 403 on 11 Nov 2026. This is a verified retrieval identifier, not an inspected image or transcription.",
     "reviewed": true
+  },
+  {
+    "id": "src-archives-nationales-map-caption-1746",
+    "type": "institutional_archival_caption",
+    "title": "Carte de la province de la Louisiane (autrefois dite le Mississippi), captioned 1746",
+    "author": "Archives nationales de France",
+    "year": 2026,
+    "publisher": "Archives nationales de France",
+    "url": "https://cdip.bnf.fr/GEIDEFile/aRcHiVeS_NaT_mag61_WeB_pages.pdf?Archive=100874692805&File=aRcHiVeS_NaT_mag61_WeB_pages_pdf",
+    "locator": "Mémoire d'avenir, no. 61 (Jan.–Mar. 2026), 'Lire, écouter, voir', PDF text lines 1835–1842: caption dates the map 1746 and gives current reference AE/II/1768/BIS and original cote CP/N/III/Louisiane/1/3. Institutional caption examined; map image and original archival description not examined.",
+    "reviewed": true
+  },
+  {
+    "id": "src-versailles-1725-exhibition-map-caption",
+    "type": "institutional_exhibition_catalogue_with_indigenous_scientific_advisors",
+    "title": "1725. Native American Allies at the Court of Louis XV — Dumont de Montigny map caption",
+    "author": "Château de Versailles and musée du quai Branly–Jacques Chirac",
+    "year": 2025,
+    "publisher": "Château de Versailles",
+    "url": "https://en.chateauversailles.fr/sites/default/files/presse/documents/1725._des_allies_amerindiens_a_la_cour_de_louis_xv_en_basse_definition_0.pdf",
+    "locator": "Exhibition press kit dated Versailles, 21 Nov. 2025; p.18 / PDF lines 235–236 caption Dumont de Montigny's Louisiana map 'après 1736'. Scientific advisors listed at PDF lines 48–56 include Ryan Spring and Ian Thompson (Choctaw Nation of Oklahoma) and Elizabeth Ellis (Peoria Tribe of Indians of Oklahoma). Caption and advisor list examined; map itself not examined.",
+    "reviewed": true
   }
 ]
