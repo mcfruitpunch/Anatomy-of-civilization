@@ -342,7 +342,7 @@
       matches(f.title, f.description, entitiesById[f.from]?.name,
         ...(f.to || []).map(id => entitiesById[id]?.name), f.flow_state, f.kind));
     $('finance-count').textContent = list.length + ' records';
-    const valueLabel = record => record.flow_state === 'authorized_no_transfer' ? 'Transfer NOT executed' : record.flow_state === 'policy_target_not_cash_flow' ? (record.value.toLocaleString('en-GB') + ' French livres · proposed refinancing target, not paid') : record.flow_state === 'legal_award_not_disbursement' ? (record.value.toLocaleString('en-GB') + ' French livres · legal award, payment not verified') : record.value === null ? 'Amount not stated' :
+    const valueLabel = record => record.flow_state === 'authorized_no_transfer' ? 'Transfer NOT executed' : record.flow_state === 'policy_target_not_cash_flow' ? (record.value.toLocaleString('en-GB') + ' French livres · proposed refinancing target, not paid') : record.flow_state === 'legal_award_not_disbursement' ? (record.value.toLocaleString('en-GB') + ' · provisional French-livre normalization · legal award, payment not verified') : record.value === null ? 'Amount not stated' :
       record.unit === 'GBP' ? ('£' + record.value.toLocaleString('en-GB') + ' historical') :
       record.unit === 'percent_of_sales' ? (record.value + '% of sales, conditional') :
       record.unit === 'shares' ? (record.value + ' share units · price unknown') :
