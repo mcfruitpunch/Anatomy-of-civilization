@@ -1,4 +1,4 @@
-# V1.2 — Choctaw diplomatic bargaining, the Mobile trade monopoly, and 29,000-livre award
+# V1.2 — Choctaw diplomatic bargaining, the Mobile trade monopoly, and the reported 29,000 award
 
 **Research date:** 19 October 2026 · **Covered events:** 1725–1732, building on the Choctaw-led request of 1721  
 **Claim standard:** Confirm who petitioned, what state decision was reported, what sums were awarded, and what remains **unverified as paid**. Source quality is indexed separately from the originality of the historical documents.
@@ -7,9 +7,9 @@
 
 Musco, Ellis and Spring's 2025 peer-reviewed study, jointly developed with Indigenous historical expertise, reconstructs how **Choctaw leaders** sustained demands for a French trading post within their territory. The requests were made in **1721**, repeated in **1725**, renegotiated in **1729**, and realized as the **Youanis/Haiyowvni post in early 1730**. The new post competed with an exclusive trade privilege that French authorities had previously authorized to **Bernard Diron d'Artaguiette**, a commander at Mobile and colonial official.
 
-The scholars report that Diron took the dispute before the Louisiana **Superior Council**, which **awarded 29,000 French livres in compensation**, citing **ANOM C13A (1732), folios 33–33v**. This is the first source-supported specific monetary figure we have uncovered for that post's monopolistic displacement. The original court folio itself has **not** been read or re-transcribed in this investigation.
+The English-language version of the study reports that Diron took the dispute before the Louisiana **Superior Council**, which **awarded “29,000 pounds” in compensation**, citing **ANOM C13A (1732), folios 33–33v**. The original French article and original court folio have **not** been read or re-transcribed in this investigation. The atlas's existing `livres_tournois` normalization is therefore provisional, not a direct transcription of the original unit. This remains a reported legal award, not a proved cash payment.
 
-**Source 1:** [Musco, Ellis and Spring, *Sovereignty, Nations, and Diplomacy* (2025)](https://journals.openedition.org/gradhiva/9785), the section on Choctaw trade initiatives and original ANOM 1732 folios. Full French scholarly article and publisher material cited; archive folios pending.
+**Source 1:** [Musco, Ellis and Spring, *Sovereignty, Nations, and Diplomacy* (2025)](https://journals.openedition.org/gradhiva/9785), the section on Choctaw trade initiatives and original ANOM 1732 folios. English scholarly article directly examined; the French version and archive folios remain pending.
 
 ### A separately catalogued follow-on document
 
@@ -44,13 +44,13 @@ Our `data/financial_flows.json` entry `fin-012` has these properties:
 | Field | Meaning |
 | --- | --- |
 | `value: 29000` | Amount of *legal award*, not cash proven paid |
-| `unit: livres_tournois` | Historic French unit, **not British pounds** |
+| `unit: livres_tournois` | Provisional French-livre normalization; the English translation says “pounds,” and the original French wording has not been checked |
 | `flow_state: legal_award_not_disbursement` | This is explicitly not an observed transfer |
 | `from: ent-french-superior-council-la` | The institution issuing the ruling, **not an established payer** |
 | `to: [ent-bernard-diron-dartaguiette]` | Award's beneficiary; **not an evidenced recipient of funds** |
 | `sources` | Peer-reviewed reconstruction and ministry's separately indexed case reference |
 
-The web interface displays **“29,000 French livres · legal award, payment not verified.”** This protection matters because otherwise a money-flow diagram could falsely imply the Choctaw nation paid the indemnity or the French treasury disbursed it.
+The web interface displays **“29,000 · provisional French-livre normalization · legal award, payment not verified.”** This protection matters because otherwise a money-flow diagram could falsely imply the Choctaw nation paid the indemnity or the French treasury disbursed it.
 
 ## Identity issue: Diron the inspector and Diron the monopoly holder
 
