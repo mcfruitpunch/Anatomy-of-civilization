@@ -119,6 +119,7 @@ assert(censusAudit.some(x=>x.source_label.includes('Vidal')&&x.access_level.incl
 assert(events.some(e=>e.id==='evt-1721-choctaw-trade-request')&&events.some(e=>e.id==='evt-1730-youanis-built'),'Choctaw initiative and post construction not linked');
 assert(financial.some(f=>f.id==='fin-012' && f.value===29000 && f.unit==='livres_tournois' && f.flow_state==='legal_award_not_disbursement'),'Monopoly damages must be a French legal award, not cash receipt');
 assert(js.includes('legal award, payment not verified'),'UI must avoid false payment conclusion');
+assert(js.includes('provisional French-livre normalization'),'UI must disclose that the Diron award unit is not verified against the original French folio');
 assert(events.some(e=>e.id==='evt-1732-29k-compensation'),'Dated damages award event missing');
 assert(archiveDocs.some(d=>d.id==='doc-019' && d.reference.includes('B57')),'Ministry confirmation source missing');
 assert(archiveDocs.some(d=>d.id==='doc-020' && d.reference.includes('33')),'Original 1732 claim folios not identified');
