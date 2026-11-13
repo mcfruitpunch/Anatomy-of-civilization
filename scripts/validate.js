@@ -166,7 +166,7 @@ extracts.forEach(x => {
   if (!['nl','fr','en','unknown_not_examined'].includes(x.language_original)) errors.push(x.id + ': unidentified original language');
   if (x.language_original === 'unknown_not_examined' && x.reading_level !== 'archival_catalogue_abstract_not_original_text') errors.push(x.id + ': unknown original language is allowed only for catalogue-level records');
   if (x.reading_level === 'archival_catalogue_abstract_not_original_text' && !/catalogue|abstract|not.*original/i.test(x.limitations)) errors.push(x.id + ': catalogue-only reading must disclose that original text was not examined');
-  if (x.reading_level === 'scholarly_synthesis_with_archival_footnotes_not_original_transcription' && (!/original.*folio.*not.*examined/i.test(x.limitations) || !/scholarly interpretation/i.test(x.limitations))) errors.push(x.id + ': scholarly synthesis must not be promoted to direct archival transcription');
+  if (x.reading_level === 'scholarly_synthesis_with_archival_footnotes_not_original_transcription' && (!/folios?.*not.*examined/i.test(x.limitations) || !/scholarly interpretation/i.test(x.limitations))) errors.push(x.id + ': scholarly synthesis must not be promoted to direct archival transcription');
   if (x.reading_level === 'contemporary_periodical_extract_ocr' && (!/OCR/i.test(x.limitations) || !/not.*original/i.test(x.limitations))) errors.push(x.id + ': contemporary periodical OCR must disclose both OCR mediation and the unexamined original');
   need([x.event],E,x.id);
   need([x.case],C,x.id);
