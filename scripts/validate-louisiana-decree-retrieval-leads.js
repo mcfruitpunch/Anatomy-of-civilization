@@ -24,7 +24,7 @@ assert.equal(lead.gallica_thumbnail_url, 'https://gallica.bnf.fr/ark%3A/12148/bp
 assert.equal(lead.target_act_presence, 'not_verified');
 assert.equal(lead.volume_contents_examined, false);
 assert.equal(lead.target_page_locator, null);
-assert(Array.isArray(lead.source_ids) && lead.source_ids.length === 3, 'Expected BnF and bibliographic provenance');
+assert(Array.isArray(lead.source_ids) && lead.source_ids.length === 4, 'Expected BnF and bibliographic provenance');
 assert.equal(new Set(lead.source_ids).size, lead.source_ids.length, 'Duplicate source ID');
 for (const id of lead.source_ids) {
   const source = sources.get(id);
@@ -34,6 +34,7 @@ for (const id of lead.source_ids) {
 assert(lead.source_ids.includes('src-bnf-company-indes-collection-context'));
 assert(lead.source_ids.includes('src-bnf-recuel-volume1-gallica'));
 assert(lead.source_ids.includes('src-editions-du-net-recuel-t1'));
+assert(lead.source_ids.includes('src-french-books-india-recuel-1755-56'));
 assert(Array.isArray(lead.access_attempts) && lead.access_attempts.length === 1);
 const attempt = lead.access_attempts[0];
 assert.deepEqual(Object.keys(attempt).sort(),
