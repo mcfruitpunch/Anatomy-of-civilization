@@ -116,6 +116,7 @@ financial.filter(f=>f.flow_state==='legal_award_not_disbursement').forEach(f=>{
   if(f.source_review_level!=='historical_scholarship_citing_original_folio_plus_separate_archive_summary') errors.push(f.id+': original judgment not transcribed, must preserve source review level');
   if(f.unit!=='livres_tournois'||!Number.isFinite(f.value)||f.value<1) errors.push(f.id+': compensation award must retain exact historical livres');
   if(!/not proof|not.*cash|not.*paid|disburs/i.test(f.description)) errors.push(f.id+': compensation must never be presented as verified disbursement');
+  if(!/provisional/i.test(f.description)||!/29,000 pounds/i.test(f.description)) errors.push(f.id+': translated award unit must remain explicitly provisional until the French folio is read');
   if(f.from !== 'ent-french-superior-council-la') errors.push(f.id+': award issuer must be Council, not guessed payer');
 });
 financial.filter(f=>f.flow_state === 'archival_share_receipt_no_cash_value').forEach(f=>{
@@ -156,15 +157,16 @@ routes.forEach(r => {
   else r.documents.forEach(id=>{if(!archiveIds.has(id)) errors.push(r.id+': unknown document '+id)});
   validStatus(r,r.id); cite(r,r.id,r.status==='documented');
 });
-const readingLevels = new Set(['curated_modern_translation','curated_modern_translation_and_image','historical_secondary_transcription_not_verified_against_original','archival_catalogue_abstract_not_original_text','contemporary_periodical_extract_ocr']);
+const readingLevels = new Set(['curated_modern_translation','curated_modern_translation_and_image','historical_secondary_transcription_not_verified_against_original','archival_catalogue_abstract_not_original_text','contemporary_periodical_extract_ocr','scholarly_synthesis_with_archival_footnotes_not_original_transcription']);
 const allowedNumUnits = new Set(['quotation_unspecified','forecast_not_transaction','schemes_reportedly_identified','people_reported_by_deiler','people_reported_by_villiers','authorized_card_money_ceiling_livres_not_disbursed']);
 extracts.forEach(x => {
   validDate(x.date,x.id);
   if (!x.title || !x.date_role || !x.place || !x.record_kind || !x.paraphrase || !x.limitations || !x.language_original) errors.push(x.id + ': incomplete source reading');
   if (!readingLevels.has(x.reading_level)) errors.push(x.id + ': do not promote mediated material to direct original transcription');
-  if (!['nl','fr','unknown_not_examined'].includes(x.language_original)) errors.push(x.id + ': unidentified original language');
+  if (!['nl','fr','en','unknown_not_examined'].includes(x.language_original)) errors.push(x.id + ': unidentified original language');
   if (x.language_original === 'unknown_not_examined' && x.reading_level !== 'archival_catalogue_abstract_not_original_text') errors.push(x.id + ': unknown original language is allowed only for catalogue-level records');
   if (x.reading_level === 'archival_catalogue_abstract_not_original_text' && !/catalogue|abstract|not.*original/i.test(x.limitations)) errors.push(x.id + ': catalogue-only reading must disclose that original text was not examined');
+  if (x.reading_level === 'scholarly_synthesis_with_archival_footnotes_not_original_transcription' && (!/folios?.*not.*examined/i.test(x.limitations) || !/scholarly interpretation/i.test(x.limitations))) errors.push(x.id + ': scholarly synthesis must not be promoted to direct archival transcription');
   if (x.reading_level === 'contemporary_periodical_extract_ocr' && (!/OCR/i.test(x.limitations) || !/not.*original/i.test(x.limitations))) errors.push(x.id + ': contemporary periodical OCR must disclose both OCR mediation and the unexamined original');
   need([x.event],E,x.id);
   need([x.case],C,x.id);
@@ -204,4 +206,5 @@ require('./validate-louisiana-archive-access-routes.js');
 require('./validate-louisiana-human-context.js');
 require('./validate-louisiana-card-money.js');
 require('./validate-louisiana-retrocession-clause.js');
+require('./validate-place-name-disambiguations.js');
 console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records, ' + ownership.length + ' ownership aggregates, ' + comparisons.length + ' country comparisons, ' + documents.length + ' original records, ' + routes.length + ' information channels, ' + extracts.length + ' attributed readings, ' + censusVersions.length + ' census source versions');

@@ -205,5 +205,26 @@
     ],
     "event": "evt-1731-louisiana-retrocession",
     "case": "retrocession1731"
+  },
+  {
+    "id": "extract-009",
+    "title": "Choctaw-negotiated Youanis post and unresolved identity of the 1732 'Youanis (Yazoo)' exception",
+    "date": "1730",
+    "date_role": "year_of_post_construction_reported_by_2025_scholarly_article",
+    "place": "Haiyow ni / Youani / Éiouanné, southern Choctaw country",
+    "record_kind": "scholarly_article_with_archival_footnotes_and_indigenous_collaborator",
+    "reading_level": "scholarly_synthesis_with_archival_footnotes_not_original_transcription",
+    "language_original": "en",
+    "paraphrase": "Musco, Ellis and Spring, Gradhiva 40 (2025), pp.101–106, reconstruct the Choctaw-requested Youanis post from colonial archival citations. They cite ANOM C13A 1721 fol.146 for the Choctaw request accepted on 8 February 1721; C13A 1725a fol.65v and 1725b fol.129v for renewed requests; C13A 1726 fol.159 for Merveilleux's first mention of Haiyow ni (Youani/Éiouanné) as a possible site; C13A 1729d fols.31–31v for the Choctaw delegation and negotiations in which chiefs chose a trading store in their territory and negotiated prices; and C13A 1733 fol.202 for construction in February–March 1730 under Régis du Roullet. The authors interpret these negotiations as evidence that Choctaw leaders exercised political authority and controlled important terms of French settlement; they also report that French officials asked the chiefs to help protect the soldiers at the post. Ryan Spring is a co-author and Cultural Research Associate with the Choctaw Nation of Oklahoma. Separately, HNOC's abstract for Salmon's 19 January 1732 letter lists an exception called 'Youanis (Yazoo)'. The article does not identify that exception as the Haiyow ni/Youanis post; identity remains unresolved.",
+    "reported_numbers": [],
+    "limitations": "This is an English-language scholarly synthesis, not a transcription of the cited French archival folios; ANOM C13A fols.146, 65v, 129v, 159, 31–31v and 202 were not directly examined in this atlas. The authors' account of Choctaw agency is scholarly interpretation grounded in colonial records and Indigenous historical expertise, not a verbatim Choctaw oral testimony. The HNOC original two-page letter ANOM C13 15:31 was not examined; 'Youanis (Yazoo)' is the HNOC catalogue abstract's wording and is not verified as wording in Salmon's letter. Shared spelling does not establish same-site identity, asset transfer, reason for exception, or coordinates. The Gradhiva figure caption dates a Dumont de Montigny map 1736; Archives nationales' 2026 caption gives 1746 for the map at the same old cote, while Versailles' 2025 press kit says 'after 1736'. The map itself and its full archival record were not examined, so the map date remains unresolved. The English translation of the article reports the Diron award as '29,000 pounds' (p.105); the original French wording and cited ANOM C13A 1732 fols.33–33v were not examined, so the atlas's French-livre normalization remains provisional. The award is not evidence of payment.",
+    "sources": [
+      "src-musco-ellis-spring-2025",
+      "src-hnoc-salmon-possession-1732",
+      "src-archives-nationales-map-caption-1746",
+      "src-versailles-1725-exhibition-map-caption"
+    ],
+    "event": "evt-1730-youanis-built",
+    "case": "choctawdiplomacy1721"
   }
 ]
