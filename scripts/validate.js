@@ -207,4 +207,5 @@ require('./validate-louisiana-human-context.js');
 require('./validate-louisiana-card-money.js');
 require('./validate-louisiana-retrocession-clause.js');
 require('./validate-place-name-disambiguations.js');
+require('./validate-louisiana-decree-retrieval-leads.js');
 console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records, ' + ownership.length + ' ownership aggregates, ' + comparisons.length + ' country comparisons, ' + documents.length + ' original records, ' + routes.length + ' information channels, ' + extracts.length + ' attributed readings, ' + censusVersions.length + ' census source versions');
