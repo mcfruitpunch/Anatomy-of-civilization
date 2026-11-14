@@ -1571,5 +1571,16 @@
     "url": "https://www.leseditionsdunet.com/en/node/157532",
     "locator": "Bibliographic listing identifies the item as T. 1 of Germain Dernis's 1755–1756 Recueil and gives Gallica ARK bpt6k1102726. This is a secondary locator cross-reference, not the scanned book's content and not proof that the target debt decree appears in volume 1.",
     "reviewed": true
+  },
+  {
+    "id": "src-french-books-india-recuel-1755-56",
+    "type": "bibliographic_index",
+    "title": "1750–1759 bibliography: Germain Dernis's four-volume Recueil",
+    "author": "French Books on India project",
+    "year": 2025,
+    "publisher": "French Books on India",
+    "url": "https://frenchbooksonindia.com/2014/11/08/1750-1760/",
+    "locator": "Page updated 19 Feb 2025; the 1755 entry lists Germain Dernis's Recueil in four volumes, Paris: A. Boudet, 1755–1756, with separate Gallica links to volumes 1–4. Bibliographic index only; no volume contents examined.",
+    "reviewed": true
   }
 ]
