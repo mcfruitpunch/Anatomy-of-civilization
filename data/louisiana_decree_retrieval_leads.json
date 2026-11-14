@@ -12,7 +12,8 @@
       "source_ids": [
         "src-bnf-company-indes-collection-context",
         "src-bnf-recuel-volume1-gallica",
-        "src-editions-du-net-recuel-t1"
+        "src-editions-du-net-recuel-t1",
+        "src-french-books-india-recuel-1755-56"
       ],
       "target_act_presence": "not_verified",
       "volume_contents_examined": false,
