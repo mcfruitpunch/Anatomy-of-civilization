@@ -22,7 +22,7 @@ The BnF page's link for the later *Recueil* resolves to the Gallica digital-item
 
 ### Volume identification cross-check
 
-The *French Books on India* bibliography lists Germain Dernis's *Recueil* as a four-volume publication from Paris, A. Boudet, 1755–1756, and provides Gallica links for volumes 1–4. A separate *Les Éditions du Net* bibliographic page identifies the Gallica object `bpt6k1102726` as **T. 1**. These are bibliographic cross-references, not evidence of the compilation's contents.
+The [*French Books on India* bibliography](https://frenchbooksonindia.com/2014/11/08/1750-1760/) lists Germain Dernis's *Recueil* as a four-volume publication from Paris, A. Boudet, 1755–1756, and provides Gallica links for volumes 1–4. A separate *Les Éditions du Net* bibliographic page identifies the Gallica object `bpt6k1102726` as **T. 1**. These are bibliographic cross-references, not evidence of the compilation's contents.
 
 **Important limit:** I have not verified that volume 1—or any of the four volumes—actually reproduces the 24 February 1731 Louisiana debt arrêt. The BnF's separate catalogue entry for the 1733 printing remains the only located item-level identification of that standalone edition. The *Recueil* is recorded only as a candidate route for searching a later official compilation.
 
