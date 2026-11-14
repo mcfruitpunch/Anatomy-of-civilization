@@ -1,0 +1,34 @@
+{
+  "leads": [
+    {
+      "id": "lead-bnf-recuel-volume1-1755-56",
+      "target_document": "doc-024",
+      "lead_type": "later_compilation_retrieval_route",
+      "collection_title": "Recueil ou collection des titres, édits, déclarations, arrêts, règlemens et autres pièces concernant la Compagnie des Indes orientales établie au mois d’août 1664",
+      "publication_date": "1755-1756",
+      "volume_designation": "T. 1 (identified by secondary bibliographic cross-reference)",
+      "gallica_ark": "ark:/12148/bpt6k1102726",
+      "gallica_thumbnail_url": "https://gallica.bnf.fr/ark%3A/12148/bpt6k1102726.thumbnail",
+      "source_ids": [
+        "src-bnf-company-indes-collection-context",
+        "src-bnf-recuel-volume1-gallica",
+        "src-editions-du-net-recuel-t1",
+        "src-french-books-india-recuel-1755-56"
+      ],
+      "target_act_presence": "not_verified",
+      "volume_contents_examined": false,
+      "target_page_locator": null,
+      "access_attempts": [
+        {
+          "attempted_on": "2026-11-14",
+          "institution": "Bibliothèque nationale de France, Gallica",
+          "url": "https://gallica.bnf.fr/ark%3A/12148/bpt6k1102726.thumbnail",
+          "outcome": "http_403_forbidden",
+          "content_level": "access_error_no_document_text",
+          "text_examined": false
+        }
+      ],
+      "next_action": "Obtain a legible scan or table of contents for this volume and search for the exact title and date of the 24 February 1731 debt decree. Record page numbers only if the act is located; do not add this compilation as a decree witness until its contents are directly confirmed."
+    }
+  ]
+}
