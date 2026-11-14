@@ -157,7 +157,7 @@ routes.forEach(r => {
   else r.documents.forEach(id=>{if(!archiveIds.has(id)) errors.push(r.id+': unknown document '+id)});
   validStatus(r,r.id); cite(r,r.id,r.status==='documented');
 });
-const readingLevels = new Set(['curated_modern_translation','curated_modern_translation_and_image','historical_secondary_transcription_not_verified_against_original','archival_catalogue_abstract_not_original_text','contemporary_periodical_extract_ocr']);
+const readingLevels = new Set(['curated_modern_translation','curated_modern_translation_and_image','historical_secondary_transcription_not_verified_against_original','archival_catalogue_abstract_not_original_text','contemporary_periodical_extract_ocr','scholarly_synthesis_with_archival_footnotes_not_original_transcription']);
 const allowedNumUnits = new Set(['quotation_unspecified','forecast_not_transaction','schemes_reportedly_identified','people_reported_by_deiler','people_reported_by_villiers','authorized_card_money_ceiling_livres_not_disbursed']);
 extracts.forEach(x => {
   validDate(x.date,x.id);
