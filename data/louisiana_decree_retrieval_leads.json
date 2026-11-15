@@ -6,10 +6,50 @@
       "lead_type": "later_compilation_retrieval_route",
       "collection_title": "Recueil ou collection des titres, édits, déclarations, arrêts, règlemens et autres pièces concernant la Compagnie des Indes orientales établie au mois d’août 1664",
       "publication_date": "1755-1756",
-      "volume_designation": "T. 1 (identified by secondary bibliographic cross-reference)",
-      "gallica_ark": "ark:/12148/bpt6k1102726",
-      "gallica_thumbnail_url": "https://gallica.bnf.fr/ark%3A/12148/bpt6k1102726.thumbnail",
+      "publisher": "Paris: impr. Boudet",
+      "bnf_catalogue_ark": "ark:/12148/cb338513279",
+      "bnf_notice_number": "FRBNF33851327",
+      "bnf_catalogue_url": "https://catalogue.bnf.fr/ark:/12148/cb338513279",
+      "volumes": [
+        {
+          "volume": "T.1",
+          "digital_record": "NUMM-110272",
+          "gallica_ark": "ark:/12148/bpt6k1102726",
+          "gallica_url": "https://gallica.bnf.fr/ark%3A/12148/bpt6k1102726"
+        },
+        {
+          "volume": "T.2",
+          "digital_record": "NUMM-110273",
+          "gallica_ark": "ark:/12148/bpt6k110273k",
+          "gallica_url": "https://gallica.bnf.fr/ark%3A/12148/bpt6k110273k"
+        },
+        {
+          "volume": "T.3",
+          "digital_record": "NUMM-110274",
+          "gallica_ark": "ark:/12148/bpt6k110274z",
+          "gallica_url": "https://gallica.bnf.fr/ark%3A/12148/bpt6k110274z"
+        },
+        {
+          "volume": "T.4",
+          "digital_record": "NUMM-110275",
+          "gallica_ark": "ark:/12148/bpt6k110275b",
+          "gallica_url": "https://gallica.bnf.fr/ark%3A/12148/bpt6k110275b"
+        }
+      ],
+      "physical_microfilm_shelfmarks": [
+        "MFILM V-13992",
+        "MFILM V-13993",
+        "MFILM V-13994",
+        "MFILM V-13995"
+      ],
+      "chronological_index": {
+        "volume": "T.4",
+        "catalogue_description": "Table générale chronologique des pièces contenues dans les volumes de la collection des privilèges de la Compagnie des Indes",
+        "table_contents_examined": false,
+        "target_entry_found": false
+      },
       "source_ids": [
+        "src-bnf-recuel-collection-notice",
         "src-bnf-company-indes-collection-context",
         "src-bnf-recuel-volume1-gallica",
         "src-editions-du-net-recuel-t1",
@@ -20,15 +60,43 @@
       "target_page_locator": null,
       "access_attempts": [
         {
-          "attempted_on": "2026-11-14",
+          "volume": "T.1",
+          "attempted_on": "2026-11-15",
           "institution": "Bibliothèque nationale de France, Gallica",
-          "url": "https://gallica.bnf.fr/ark%3A/12148/bpt6k1102726.thumbnail",
+          "url": "https://gallica.bnf.fr/ark%3A/12148/bpt6k1102726",
+          "outcome": "http_403_forbidden",
+          "content_level": "access_error_no_document_text",
+          "text_examined": false
+        },
+        {
+          "volume": "T.2",
+          "attempted_on": "2026-11-15",
+          "institution": "Bibliothèque nationale de France, Gallica",
+          "url": "https://gallica.bnf.fr/ark%3A/12148/bpt6k110273k",
+          "outcome": "http_403_forbidden",
+          "content_level": "access_error_no_document_text",
+          "text_examined": false
+        },
+        {
+          "volume": "T.3",
+          "attempted_on": "2026-11-15",
+          "institution": "Bibliothèque nationale de France, Gallica",
+          "url": "https://gallica.bnf.fr/ark%3A/12148/bpt6k110274z",
+          "outcome": "http_403_forbidden",
+          "content_level": "access_error_no_document_text",
+          "text_examined": false
+        },
+        {
+          "volume": "T.4",
+          "attempted_on": "2026-11-15",
+          "institution": "Bibliothèque nationale de France, Gallica",
+          "url": "https://gallica.bnf.fr/ark%3A/12148/bpt6k110275b",
           "outcome": "http_403_forbidden",
           "content_level": "access_error_no_document_text",
           "text_examined": false
         }
       ],
-      "next_action": "Obtain a legible scan or table of contents for this volume and search for the exact title and date of the 24 February 1731 debt decree. Record page numbers only if the act is located; do not add this compilation as a decree witness until its contents are directly confirmed."
+      "next_action": "Request or obtain a legible copy of T.4 first and inspect its Table générale chronologique for the exact title/date '24 février 1731' and terms 'Louisiane' or 'dettes'. If an entry is found, record its referenced volume and page, then inspect that volume's original printed pages. If no entry is found, record the negative index search and continue with the standalone 1731 and 1733 printings. Do not promote this compilation to a decree witness until the target text is directly examined."
     }
   ]
 }

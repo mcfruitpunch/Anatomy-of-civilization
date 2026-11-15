@@ -435,15 +435,16 @@
     "title": "Company's Louisiana debt decree dated February 24, 1731 (printed in 1733)",
     "document_kind": "royal_company_debt_decree",
     "access_level": "catalogue_metadata_only",
-    "reference": "BnF Catalogue général: 1731 Imprimerie royale printing (entry 39, Acte 1731-02-24 Versailles); BnF Gallica ark:/12148/btv1b8602624n: 1733 printing; Columbia Law rare book 1505745: 1733 Paris Saugrain–Prault edition of the same 1731-02-24 act.",
+    "reference": "BnF Catalogue général: 1731 Imprimerie royale printing (entry 39, Acte 1731-02-24 Versailles); BnF Gallica ark:/12148/btv1b8602624n: 1733 printing; Columbia Law rare book 1505745: 1733 Paris Saugrain–Prault edition of the same 1731-02-24 act. BnF four-volume Recueil catalogue notice ark:/12148/cb338513279 (FRBNF33851327) is a separate later-compilation retrieval route; T.4 is catalogued with a chronological table. The four volume contents have not been examined.",
     "established": "Two bibliographically distinct printings are indexed for the same royal debt decree dated 24 February 1731: BnF lists a 1731 Imprimerie royale edition and a Gallica-linked 1733 edition, while Columbia Law catalogues a two-page 1733 Saugrain–Prault printing. This does not imply two separate laws.",
-    "limitations": "Original operative clauses of either printing were not read; Gallica scan access was denied during this pass and the 1731 catalogue result has no stable individual record link yet. No identified legal debtor, Crown assumption of corporate liabilities, debt amount, payment, or actual disbursement is proven. A 1903 exhibition listing demonstrates historical catalogued custody only; present location unverified.",
+    "limitations": "Original operative clauses of either printing were not read; Gallica scan access was denied during this pass and the 1731 catalogue result has no stable individual record link yet. No identified legal debtor, Crown assumption of corporate liabilities, debt amount, payment, or actual disbursement is proven. A 1903 exhibition listing demonstrates historical catalogued custody only; present location unverified. The BnF's stable notice for the 1755–1756 four-volume Recueil identifies four Gallica digital parts and microfilm shelfmarks, and states that T.4 contains a general chronological table. All four Gallica item links returned HTTP 403 on 15 Nov 2026; no index or volume text was examined, and the 24 Feb 1731 decree's presence in the compilation is not verified.",
     "sources": [
       "src-bnf-1733-company-debts",
       "src-columbia-1731-debt-printed-1733",
       "src-bnf-1731-company-debts-royal-print",
       "src-lhs-1903-cusachs-decree-exhibit",
-      "src-bnf-company-indes-collection-context"
+      "src-bnf-company-indes-collection-context",
+      "src-bnf-recuel-collection-notice"
     ],
     "entities": [
       "ent-french-crown",
