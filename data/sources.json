@@ -1492,7 +1492,7 @@
     "year": null,
     "publisher": "BnF Patrimoines Partagés — France-Amériques",
     "url": "https://heritage.bnf.fr/france-ameriques/en/compagnie-indes",
-    "locator": "Page opened 10 Nov 2026: links the 1731 Louisiana/Illinois retrocession decree, the 1733 Company-debt decree, and a 1755–1756 compilation. Clicking the 1733 debt entry resolves to Gallica ark:/12148/btv1b8602624n. This confirms a curated catalogue route only; it does not establish that the 1755–1756 compilation reproduces this decree or reveal operative clauses. The same collection entry links the 1755–1756 Recueil to Gallica ARK bpt6k1102726 (thumbnail endpoint); the endpoint returned HTTP 403 on 14 Nov 2026. The collection is not verified to reproduce the 24 Feb 1731 debt decree.",
+    "locator": "Page opened 10 Nov 2026: links the 1731 Louisiana/Illinois retrocession decree, the 1733 Company-debt decree, and a 1755–1756 compilation. Clicking the 1733 debt entry resolves to Gallica ark:/12148/btv1b8602624n. This confirms a curated catalogue route only; it does not establish that the 1755–1756 compilation reproduces this decree or reveal operative clauses. The same collection entry links the 1755–1756 Recueil to Gallica ARK bpt6k1102726 (thumbnail endpoint); the endpoint returned HTTP 403 on 14 Nov 2026. The collection is not verified to reproduce the 24 Feb 1731 debt decree. On 15 Nov 2026, the stable BnF collection notice ark:/12148/cb338513279 (FRBNF33851327) was examined: it describes four Boudet volumes (1755–1756), identifies the T.4 chronological table, four Gallica digital parts and four microfilm shelfmarks. This confirms a better retrieval route, not the presence of the 1731 debt arrêt in the compilation; no volume contents were read.",
     "reviewed": true
   },
   {
@@ -1553,12 +1553,12 @@
   {
     "id": "src-bnf-recuel-volume1-gallica",
     "type": "archival_digital_item_locator_not_inspected",
-    "title": "Recueil ou collection des titres concernant la Compagnie des Indes, Gallica digital item locator",
+    "title": "Recueil ou collection des titres concernant the Compagnie des Indes, T.1 Gallica digital item locator",
     "author": "Germain Dernis",
     "year": 1755,
     "publisher": "Bibliothèque nationale de France, Gallica",
-    "url": "https://gallica.bnf.fr/ark%3A/12148/bpt6k1102726.thumbnail",
-    "locator": "BnF Patrimoines Partagés collection entry links the 1755–1756 Recueil to Gallica ARK bpt6k1102726; the observed thumbnail endpoint returned HTTP 403 on 14 Nov 2026. The page scan, OCR, table of contents and volume contents were not examined. A later compilation is a candidate retrieval route only, not a verified witness of the 24 Feb 1731 debt decree.",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k1102726",
+    "locator": "BnF notice ark:/12148/cb338513279 identifies this digital part as T.1, NUMM-110272, Gallica ARK bpt6k1102726, in the four-volume 1755–1756 Boudet Recueil. The direct Gallica item link returned HTTP 403 on 15 Nov 2026. No page image, OCR, table of contents or volume content was examined. This is a candidate retrieval route only, not a verified witness of the 24 Feb 1731 debt decree.",
     "reviewed": true
   },
   {
@@ -1581,6 +1581,17 @@
     "publisher": "French Books on India",
     "url": "https://frenchbooksonindia.com/2014/11/08/1750-1760/",
     "locator": "Page updated 19 Feb 2025; the 1755 entry lists Germain Dernis's Recueil in four volumes, Paris: A. Boudet, 1755–1756, with separate Gallica links to volumes 1–4. Bibliographic index only; no volume contents examined.",
+    "reviewed": true
+  },
+  {
+    "id": "src-bnf-recuel-collection-notice",
+    "type": "institutional_bibliographic_record",
+    "title": "Recueil ou collection des titres… — BnF four-volume catalogue record",
+    "author": "France, Conseil d'État; catalogue record by Bibliothèque nationale de France",
+    "year": 1755,
+    "publisher": "Paris: impr. Boudet, 1755–1756",
+    "url": "https://catalogue.bnf.fr/ark:/12148/cb338513279",
+    "locator": "BnF bibliographic notice ARK ark:/12148/cb338513279; notice no. FRBNF33851327. Publication: Paris, impr. Boudet, 1755–1756; description: 4 volumes, in-4. The catalogue note states that T.4 contains a 'Table générale chronologique des pièces contenues dans les volumes de la collection des privilèges de la Compagnie des Indes'. Digital parts listed by the notice: T.1 NUMM-110272 / Gallica ARK bpt6k1102726; T.2 NUMM-110273 / bpt6k110273k; T.3 NUMM-110274 / bpt6k110274z; T.4 NUMM-110275 / bpt6k110275b. The notice also lists four microfilm shelfmarks, MFILM V-13992 through V-13995, without an explicit per-volume mapping in the rendered record. All four Gallica item links returned HTTP 403 on 15 Nov 2026. Catalogue metadata only: no volume pages or chronological-table entries examined; presence of the 24 Feb 1731 debt arrêt in the compilation remains unverified.",
     "reviewed": true
   }
 ]
