@@ -98,3 +98,22 @@ The Louisiana Historical Center's [Company of Indies index](https://lacolonialdo
 ## 14 November 2026 — BnF Recueil volume-one retrieval route
 
 Added a candidate later-compilation access route for the 24 February 1731 Company-debt decree. The BnF Compagnie des Indes collection page links the 1755–1756 *Recueil* to Gallica ARK `bpt6k1102726`; the observed thumbnail endpoint returned HTTP 403 on 14 November 2026. A secondary bibliography identifies the Gallica object as T. 1, but the volume's contents, table of contents and any reproduction of the 1731 decree remain unexamined. The lead is stored separately in `data/louisiana_decree_retrieval_leads.json`, not as a decree witness. See [the dated retrieval audit](v1-4-bnf-recuel-volume1-retrieval-audit-2026-11-14.md). No financial or liability fields changed.
+
+## 15 November 2026: resolve the BnF Recueil's four-volume access map (catalogue only)
+
+The [BnF's stable bibliographic notice](https://catalogue.bnf.fr/ark:/12148/cb338513279), ARK `ark:/12148/cb338513279`, notice no. `FRBNF33851327`, was opened directly. It identifies Germain Dernis's *Recueil ou collection des titres...* as a Paris, impr. Boudet publication of **1755–1756 in four volumes**. The catalogue note says **T.4 contains a “Table générale chronologique des pièces contenues dans les volumes de la collection des privilèges de la Compagnie des Indes.”**
+
+The same notice lists four digitized parts:
+- T.1 — `NUMM-110272`, Gallica ARK `bpt6k1102726`
+- T.2 — `NUMM-110273`, Gallica ARK `bpt6k110273k`
+- T.3 — `NUMM-110274`, Gallica ARK `bpt6k110274z`
+- T.4 — `NUMM-110275`, Gallica ARK `bpt6k110275b`
+
+It also lists four microfilm shelfmarks: `MFILM V-13992` through `MFILM V-13995`. The rendered catalogue extract does not explicitly map each shelfmark to an individual volume, so the atlas stores the sequence without asserting a per-volume mapping.
+
+I followed each of the four BnF “Consulter en ligne” links on 15 November 2026. All four Gallica item requests returned **HTTP 403**. The catalogue record was examined; no volume image, OCR, table of contents, or printed page was examined. The decree's presence in the compilation remains **not verified**.
+
+**Research improvement:** The next search should begin with T.4's chronological table, not assume T.1 contains the act. Request a legible T.4 scan or use the listed BnF microfilm shelfmarks; search the index for the exact act date/title and “Louisiane”/“dettes”; only then inspect the cited volume and page. Keep this later compilation as a retrieval lead, not a decree witness, until its target text is read.
+
+No liability, debtor, creditor, Crown assumption, settlement, amount, or payment is added. This is a French institutional catalogue of colonial-company legal materials, not a record of Indigenous consent or the experiences of enslaved people. Retain Choctaw Nation-authored historical context and the Louisiana Historical Center's warning that WPA-era abstracts omit many enslaved people's and women's names.
+
