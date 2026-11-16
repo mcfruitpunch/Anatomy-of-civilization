@@ -45,7 +45,7 @@ function verifyDocument(d) {
   assert(/A1-69 fol\. 20/.test(d.reference));
   assert(/24 May 1731/.test(d.reference));
   assert(/unresolved/i.test(d.established));
-  assert(/not.*directly examined/i.test(d.limitations));
+  assert(/not.*directly examined|no original.*directly examined/i.test(d.limitations));
   assert(d.sources.includes('src-saadani-2003-fch') && d.sources.includes('src-unilim-1731-retrocession'));
 }
 function verifyEvent(e) {
