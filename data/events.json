@@ -1287,7 +1287,7 @@
     "id": "evt-1731-superior-council-reorganization",
     "date": "1731-05-22",
     "title": "Royal edict reforms Louisiana Superior Council and excludes Company directors",
-    "summary": "University of Limoges research cites ANOM COL F3 242 fol.190, a 22 May 1731 royal edict reverting the Superior Council's composition to arrangements from 1716 and excluding Compagnie des Indes directors. This is a documented secondary scholarly reading of a specifically cited original law, not a full direct transcription.",
+    "summary": "Ribeaux (2026, PDF p. 8 n. 39) cites a copy of an edict dated 22 May 1731 at ANOM COL F3 242 fol. 190, reporting that the Superior Council reverted to the 1716 composition and excluded Company directors; the note says the cited text makes no mention of judges in remote places. Saadani (2003, pp. 117–118) independently describes the disappearance of the Company-representing Conseil de régie and the revocation of August 1719 provisions that had given some Company directors seats on the Superior Council. Saadani's note 3 (p. 131) also cites letters patent dated 24 May 1731 at AN, Archives de la Marine A1-69 fol. 20. The relationship between the 22 May F3 242 copy and 24 May A1-69 reference is unresolved. Scholarly archival references only; the original folios remain unread, and no individual director roster or debt/payment outcome is established.",
     "case": "retrocession1731",
     "entities": [
       "ent-french-superior-council-la",
@@ -1297,7 +1297,8 @@
     "status": "documented",
     "verification": "reviewed",
     "sources": [
-      "src-unilim-1731-retrocession"
+      "src-unilim-1731-retrocession",
+      "src-saadani-2003-fch"
     ]
   },
   {
