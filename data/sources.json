@@ -1288,13 +1288,13 @@
   },
   {
     "id": "src-unilim-1731-retrocession",
-    "type": "scholarly_article_referencing_original_royal_folio",
+    "type": "scholarly_article_with_archival_footnotes",
     "title": "Homicide, impérialisme et vengeance en Louisiane française entre 1738–1740",
-    "author": "Conflictualité research journal (University of Limoges)",
+    "author": "Alexandre Ribeaux",
     "year": 2026,
     "publisher": "Université de Limoges",
     "url": "https://www.unilim.fr/conflictualite/806",
-    "locator": "Footnotes 38–39: original 1731-01-23 retrocession decision indexed ANOM COL F3 242 fol.187; follow-up 1731-05-22 Council legal-composition decree at F3 242 fol.190 excluding Company directors from Superior Council. Research article interpreted; original folios not read.",
+    "locator": "Published online 7 April 2026; PDF pp. 7–8, notes 38–39. Note 38 cites the 23 Jan. 1731 retrocession decision at ANOM COL F3 242 fol. 187. Note 39 cites a copy of the edict dated 22 May 1731 at ANOM COL F3 242 fol. 190, says Company directors were excluded from the Superior Council, and notes that the text makes no mention of judges in remote places. Article's 1738–1740 letters are transcribed, but the cited 1731 folios were not read by the author in the passages used here or by this atlas.",
     "reviewed": true
   },
   {
@@ -1592,6 +1592,17 @@
     "publisher": "Paris: impr. Boudet, 1755–1756",
     "url": "https://catalogue.bnf.fr/ark:/12148/cb338513279",
     "locator": "BnF bibliographic notice ARK ark:/12148/cb338513279; notice no. FRBNF33851327. Publication: Paris, impr. Boudet, 1755–1756; description: 4 volumes, in-4. The catalogue note states that T.4 contains a 'Table générale chronologique des pièces contenues dans les volumes de la collection des privilèges de la Compagnie des Indes'. Digital parts listed by the notice: T.1 NUMM-110272 / Gallica ARK bpt6k1102726; T.2 NUMM-110273 / bpt6k110273k; T.3 NUMM-110274 / bpt6k110274z; T.4 NUMM-110275 / bpt6k110275b. The notice also lists four microfilm shelfmarks, MFILM V-13992 through V-13995, without an explicit per-volume mapping in the rendered record. All four Gallica item links returned HTTP 403 on 15 Nov 2026. Catalogue metadata only: no volume pages or chronological-table entries examined; presence of the 24 Feb 1731 debt arrêt in the compilation remains unverified.",
+    "reviewed": true
+  },
+  {
+    "id": "src-saadani-2003-fch",
+    "type": "scholarly_article_with_archival_references",
+    "title": "Le Gouvernement de la Louisiane Française, 1731–43: Essai d'Histoire Comparative",
+    "author": "Khalil Saadani",
+    "year": 2003,
+    "publisher": "French Colonial History, vol. 4, Michigan State University Press",
+    "url": "https://doi.org/10.1353/fch.2003.0025",
+    "locator": "Printed pp. 117–118: Company withdrawal, disappearance of the Conseil de régie, reconstitution of the Conseil supérieur under the 1716 edict, and revocation of August 1719 provisions allowing Company directors to sit there. Printed p. 131 n. 3 lists archival references including AN, Colonies A22 fols. 134–135; A23 fols. 106–107; B55 fols. 634–635; Archives de la Marine A1-69 fol. 20 (described as letters patent dated 24 May 1731); and AN, Colonies C13A13 fol. 260 (draft letters patent). Notes 5–6, pp. 131–132, cite royal instructions dated 15 and 22 May 1731. Full-text copy inspected through Academia; JSTOR stable record 41938155 confirms journal, volume, year and page range. Secondary synthesis only: cited archival folios were not directly examined.",
     "reviewed": true
   }
 ]
