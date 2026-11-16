@@ -117,3 +117,18 @@ I followed each of the four BnF “Consulter en ligne” links on 15 November 20
 
 No liability, debtor, creditor, Crown assumption, settlement, amount, or payment is added. This is a French institutional catalogue of colonial-company legal materials, not a record of Indigenous consent or the experiences of enslaved people. Retain Choctaw Nation-authored historical context and the Louisiana Historical Center's warning that WPA-era abstracts omit many enslaved people's and women's names.
 
+
+
+## 16 November 2026: 1731 Superior Council reorganization cross-check (scholarly references; originals unread)
+
+Added a second scholarly source for the post-retrocession judicial/governance change. Khalil Saadani, “Le Gouvernement de la Louisiane Française, 1731–43,” *French Colonial History* 4 (2003), pp. 117–118, describes the disappearance of the Company's *Conseil de régie* and restoration of the *Conseil supérieur* under the 1716 edict, revoking the August 1719 provisions that had allowed Company directors to sit there. Saadani's note 3 (p. 131) cites AN, Archives de la Marine A1–69 fol. 20 as letters patent dated **24 May 1731**, alongside AN Colonies A22 fols. 134–135, A23 fols. 106–107, B55 fols. 634–635 and a C13A13 fol. 260 draft. Notes 5–6 also cite royal instructions dated 15 and 22 May. The article's main text says 22 May; its note 3 lists a related letters-patent record dated 24 May.
+
+Alexandre Ribeaux, *Conflictualité* 5 (2026), PDF pp. 7–8 n. 39, cites a copy of an edict dated **22 May 1731** at ANOM COL F3 242 fol. 190, says Company directors were excluded from the Superior Council, and notes that the cited text does not mention judges in distant places. These are scholarly references; neither F3 242 fol. 190 nor A1–69 fol. 20 was read in this pass. The 22 May and 24 May records may be related copies, distinct instruments, or a citation/date discrepancy. Do not merge them until compared. The C13A13 fol. 260 item is a draft, not automatically the promulgated text.
+
+The atlas now classifies doc-025 as scholarly_reference_only, adds extract-010, and records both references without inventing a director roster, remote-judge status, asset transfer or liability. Saadani pp. 117–118 also makes a monetary-indemnity claim concerning Company withdrawal; it is retained as an unverified secondary lead only and has not been added to the financial-flow or liability ledgers.
+
+The [University of Louisiana at Lafayette Collection 329 finding aid](https://library.louisiana.edu/sites/library/files/Colonial_Louisiana_Records_COLL329.pdf), printed p. 6, confirms reel 580 contains ANOM F3 242. The reel and target folio remain unexamined. A1–69 fol. 20 must be requested separately; no microfilm mapping is asserted.
+
+Choctaw Nation's community-authored [Iti Fabvssa account](https://www.choctawnation.com/news/iti-fabvssa/fort-tombecbe-and-early-choctaw-treaties/) is retained as context for Choctaw-led diplomacy and women's roles, not as evidence of a response to the 1731 edict or Indigenous consent to French territorial administration.
+
+**Next:** obtain and compare F3 242 fol. 190 and A1–69 fol. 20; then resume the central task of transcribing the 24 February 1731 Company-debt decree. Issue #24 remains open.
