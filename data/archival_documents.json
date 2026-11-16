@@ -457,12 +457,14 @@
     "place": "French Crown / Louisiana Superior Council",
     "title": "Royal decree reforms Louisiana Superior Council, excluding Company directors",
     "document_kind": "royal_judicial_reorganization_decree",
-    "access_level": "catalogue_metadata_only",
-    "reference": "ANOM COL F3 242 fol.190, 22 May 1731; described in University of Limoges research",
-    "established": "Scholarly archival footnote identifies a dated royal decree reestablishing composition of the Superior Council under arrangements from 1716 while excluding Company directors.",
-    "limitations": "An exact original page transcription and vote/appointment rosters have not been inspected, so implementation specifics and power distribution require follow-up.",
+    "access_level": "scholarly_reference_only",
+    "reference": "ANOM COL F3 242 fol. 190, copy of edict dated 22 May 1731 (Ribeaux 2026, PDF p. 8 n. 39); Saadani 2003, pp. 117–118 and p. 131 n. 3, also cites AN, Archives de la Marine A1-69 fol. 20 as letters patent dated 24 May 1731, plus AN, Colonies A22 fols. 134–135; A23 fols. 106–107; B55 fols. 634–635; C13A13 fol. 260 (draft letters patent). These are scholarly archival locators; see extract-010.",
+    "established": "Ribeaux (2026, PDF p. 8 n. 39) cites a copy of an edict dated 22 May 1731 at ANOM COL F3 242 fol. 190 and reports that the Superior Council's composition reverted to the 1716 arrangements, excluding Company directors; the note adds that the cited text makes no mention of judges in distant places. Saadani (2003, pp. 117–118) independently describes the disappearance of the Company-representing Conseil de régie and revocation of the August 1719 provisions allowing Company directors to sit on the Superior Council. Saadani's note 3 (p. 131) cites a related set of records, including a letters-patent reference dated 24 May 1731 at AN, Archives de la Marine A1-69 fol. 20. The relationship between the 22 May F3 242 copy and the 24 May A1-69 reference remains unresolved; this is a scholarly cross-check, not direct transcription.",
+    "limitations": "No original folio or printed instrument cited here was directly examined. The 22 May 1731 date belongs to the copy cited at ANOM COL F3 242 fol. 190; Saadani's footnote separately describes a letters-patent record at AN, Archives de la Marine A1-69 fol. 20 as dated 24 May 1731. These may be related copies, distinct instruments, or a citation/date discrepancy; do not silently merge them. No individual Company directors, appointment roster, votes, detailed implementation, or continued status of judges in remote places is established. The reorganization of a French colonial court does not establish Indigenous consent or a transfer of Choctaw sovereignty. No Company property transfer, corporate debt assumption, liability, settlement, amount or payment is established.",
     "sources": [
-      "src-unilim-1731-retrocession"
+      "src-unilim-1731-retrocession",
+      "src-saadani-2003-fch",
+      "src-ull-collection-329-reel-inventory"
     ],
     "entities": [
       "ent-french-crown",
