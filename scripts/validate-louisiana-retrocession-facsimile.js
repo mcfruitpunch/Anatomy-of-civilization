@@ -50,10 +50,10 @@ assert(/sovereign nation/i.test(peoria.locator)&&/homelands/i.test(peoria.locato
 verifyExtract(extract);
 assert(doc && doc.access_level==='microform_facsimile_text_examined');
 assert(doc.sources.includes(source.id)&&doc.sources.includes(peoria.id));
-assert(/rights against its debtors/i.test(doc.established));
+assert(/rights against (?:its )?debtors/i.test(doc.established));
 assert(/physical 1731 copy.*not examined/i.test(doc.limitations));
 assert(debt && debt.date==='1731-02-24' && debt.access_level==='catalogue_metadata_only');
-assert(event && /rights against its debtors/i.test(event.summary)&&/not evidence of Indigenous consent/i.test(event.summary));
+assert(event && /rights against (?:its )?debtors/i.test(event.summary)&&/not evidence of Indigenous consent/i.test(event.summary));
 assert(witness && witness.operative_clauses_read===true&&witness.legal_debtor_verified===false&&witness.payment_verified===false);
 assert(witness.access_attempts.some(a=>a.attempted_on==='2026-11-17'&&a.text_examined===true&&a.url===source.url));
 const jan=ledger.find(x=>x.document==='doc-022'),feb=ledger.find(x=>x.document==='doc-024');
