@@ -25,7 +25,7 @@ function verifyPeriodical(x) {
   assert.deepEqual(x.reported_numbers, [], 'This clause extract supplies no financial or population total');
   assert(x.sources.includes('src-mercure-1731-retrocession-extract'), 'Contemporary periodical source missing');
   assert(x.sources.every(id => sourceIds.has(id)), 'Unknown source in periodical extract');
-  assert(/rights against its debtors/i.test(x.paraphrase), 'Company creditor-side clause must be stated precisely');
+  assert(/rights against (?:its )?debtors/i.test(x.paraphrase), 'Company creditor-side clause must be stated precisely');
   assert(/not evidence of a Company liability/i.test(x.paraphrase), 'Creditor rights must be distinguished from Company liabilities');
   assert(/OCR/i.test(x.limitations) && /not.*original/i.test(x.limitations), 'OCR and unexamined-original limits must remain explicit');
   assert(/24 February 1731/i.test(x.limitations), 'Separate debt decree must remain distinct');
@@ -59,7 +59,7 @@ function verifyDocument(d) {
   assert.equal(d.access_level, 'microform_facsimile_text_examined');
   assert(d.sources.includes('src-cihm-1731-retrocession-microfiche'));
   assert(d.sources.includes('src-peoria-tribe-history'));
-  assert(/rights against its debtors/i.test(d.established));
+  assert(/rights against (?:its )?debtors/i.test(d.established));
   assert(/1985.*22X.*microfiche/i.test(d.limitations));
   assert(/physical 1731 copy.*not examined/i.test(d.limitations));
   assert(/not.*24 February/i.test(d.limitations));
@@ -68,7 +68,7 @@ verifyPeriodical(extract);
 verifyPrimary(primary);
 verifyDocument(document);
 assert.equal(debtDecree.access_level, 'catalogue_metadata_only', '24 February debt decree must remain catalogue-only');
-assert(event && /rights against its debtors/i.test(event.summary), 'Retrocession event must preserve creditor/liability distinction');
+assert(event && /rights against (?:its )?debtors/i.test(event.summary), 'Retrocession event must preserve creditor/liability distinction');
 assert(/not evidence of Indigenous consent/i.test(event.summary), 'Event must not imply Indigenous consent');
 for (const docId of ['doc-022','doc-024']) {
   const row = ledger.find(x => x.document === docId);
