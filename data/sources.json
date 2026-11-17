@@ -1604,5 +1604,27 @@
     "url": "https://doi.org/10.1353/fch.2003.0025",
     "locator": "Printed pp. 117–118: Company withdrawal, disappearance of the Conseil de régie, reconstitution of the Conseil supérieur under the 1716 edict, and revocation of August 1719 provisions allowing Company directors to sit there. Printed p. 131 n. 3 lists archival references including AN, Colonies A22 fols. 134–135; A23 fols. 106–107; B55 fols. 634–635; Archives de la Marine A1-69 fol. 20 (described as letters patent dated 24 May 1731); and AN, Colonies C13A13 fol. 260 (draft letters patent). Notes 5–6, pp. 131–132, cite royal instructions dated 15 and 22 May 1731. Full-text copy inspected through Academia; JSTOR stable record 41938155 confirms journal, volume, year and page range. Secondary synthesis only: cited archival folios were not directly examined.",
     "reviewed": true
+  },
+  {
+    "id": "src-cihm-1731-retrocession-microfiche",
+    "type": "primary_print_microform_facsimile",
+    "title": "Arrest du Conseil d'Estat du Roy, 23 January 1731 — 1985 CIHM/ICMH microfiche reproduction",
+    "author": "France. Conseil d'État",
+    "year": 1731,
+    "publisher": "Paris: Imprimerie royale; microfiche reproduction by Canadian Institute for Historical Microreproductions / Institut canadien de microreproductions historiques, 1985",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Arrest_du_Conseil_d%27Estat_du_roy%2C_concernant_la_retrocession_faite_%C3%A0_Sa_Majest%C3%A9_par_la_Compagnie_des_Indes_%28IA_cihm_50701%29.pdf",
+    "locator": "Printed unnumbered title/first-text page and printed pp. 2–3; PDF page indices 4–6 (zero-based). CIHM/ICMH technical notes at PDF pp. 1–2 state 1985 microfiche, 22X reduction, pages discoloured and show-through, and that the filmed copy was supplied by the Seminary of Quebec Library. All three printed pages visually examined from the facsimile; the physical 1731 copy was not examined.",
+    "reviewed": true
+  },
+  {
+    "id": "src-peoria-tribe-history",
+    "type": "tribal_government_history",
+    "title": "History — Peoria Tribe of Indians of Oklahoma",
+    "author": "Peoria Tribe of Indians of Oklahoma",
+    "year": null,
+    "publisher": "Peoria Tribe of Indians of Oklahoma",
+    "url": "https://www.peoriatribe.gov/204/History",
+    "locator": "History page, opened 17 November 2026, paragraphs headed 'Peoria Tribe of Indians of Oklahoma' and 'History' (lines 25–37): the Tribe's self-description as a sovereign nation and confederation, its Illinois/Illini identity, homelands, and nineteenth-century removals. Community-authored contemporary context; it does not describe a response to the 1731 French decree.",
+    "reviewed": true
   }
 ]
