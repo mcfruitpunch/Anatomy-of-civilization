@@ -55,8 +55,9 @@ function verify(w) {
     assert(/^https:\/\//.test(a.url), 'Access attempt needs a verified HTTPS URL');
     assert(allowedOutcomes.has(a.outcome), 'Unrecognized access outcome');
     assert(allowedLevels.has(a.content_level), 'Unrecognized access evidence level');
-    if (a.text_examined === true) {
+    if (a.content_level === 'primary_print_facsimile_text_examined' || a.outcome === 'microform_facsimile_opened_and_three_printed_pages_visually_examined') {
       assert.equal(w.id, 'witness-retrocession-1731-title', 'Only the separately identified January retrocession facsimile was read');
+      assert.equal(a.text_examined, true, 'A facsimile-text access level requires an actual examination flag');
       assert.equal(a.outcome, 'microform_facsimile_opened_and_three_printed_pages_visually_examined');
       assert.equal(a.content_level, 'primary_print_facsimile_text_examined');
       assert(w.source_ids.includes('src-cihm-1731-retrocession-microfiche'));
