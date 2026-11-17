@@ -100,6 +100,9 @@ assert(html.includes('href="#excerpts"') && js.includes('renderExcerpts()'), 'So
 assert(extracts.length >= 5,'No historically attributed source readings');
 assert(extracts.every(x=>x.sources?.length && x.limitations && x.event),'Readings need event, locator and caveats');
 assert(extracts.every(x=>!x.reading_level.includes('original_folio_verified')),'No unverified direct archival transcription');
+const retrocessionPrint = extracts.find(x=>x.id==='extract-011');
+assert(retrocessionPrint && retrocessionPrint.transcription_pages?.length===3,'Three-page 1731 retrocession transcription missing');
+assert(js.includes('source-transcription') && js.includes("'retrocession1731'"),'Primary retrocession transcription is not rendered for its case');
 assert(extracts.some(x=>x.date_role === 'london_dispatch_date_not_dutch_print_date'),'News dateline qualification missing');
 assert(extracts.some(x=>x.reported_numbers.some(n=>n.unit === 'forecast_not_transaction')),'Speculation must not appear as settled trade');
 assert(extracts.some(x=>x.reported_numbers.some(n=>n.unit === 'people_reported_by_deiler')),'Historian census categories absent');
