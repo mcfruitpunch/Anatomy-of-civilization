@@ -81,3 +81,8 @@ The [Peoria Tribe of Indians of Oklahoma's community-authored history](https://w
 2. Inspect ANOM COL F3 242 fol. 187 and collate it with the printed text.
 3. Obtain the March 1731 Mercure page image and complete an image-to-image collation.
 4. **Highest-priority financial task:** obtain both pages of the **24 February 1731 Company-debt decree** (1731 Imprimerie royale or 1733 Saugrain–Prault printing), transcribe its operative clauses, and only then map debtor/creditor roles. Seek original accounts and receipts separately before recording any payment.
+
+
+## Validation audit
+
+The first PR workflow run (#90) failed in the new decree-witness validator because a negative fixture showed that a debt-decree catalogue witness could be assigned the new facsimile-text content level while its text-examined flag remained false. The validator was tightened so the facsimile outcome, evidence level, witness identity and text-examined flag must all agree; the separate February debt witnesses cannot use that access level. The corrected head is f7ef9ef85bb997e9ac07c478a7510cb364ce4076. This note records the failed first run and the exact correction rather than hiding the initial failure; the corrected full CI result is still pending.
