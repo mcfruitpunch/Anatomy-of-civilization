@@ -4,24 +4,35 @@
     "act_date": "1731-01-23",
     "document": "doc-022",
     "printing_year": 1731,
-    "witness_scope": "printed_title_page",
-    "review_level": "original_title_page_only",
-    "operative_clauses_read": false,
+    "witness_scope": "full_printed_text_microform_facsimile",
+    "review_level": "microform_facsimile_text_examined",
+    "operative_clauses_read": true,
     "legal_debtor_verified": false,
     "payment_verified": false,
     "source_ids": [
       "src-umsl-1731-decree-image",
-      "src-ull-collection-329-reel-inventory"
+      "src-ull-collection-329-reel-inventory",
+      "src-cihm-1731-retrocession-microfiche"
     ],
-    "locator": "UMSL Mercantile Library exhibition image, printed royal title page dated 23 January 1731",
-    "access_limitation": "This witness record covers the UMSL original printed title page only. Separate contemporary Mercure de France OCR extract (March 1731, pp.610–611) is now documented in extract-008, but neither its page image nor the original royal decree pages/ANOM fol.187 have been examined or collated. UL Lafayette reel 580 remains a volume-level finding aid; the specific folio frame is unverified.",
+    "locator": "CIHM/ICMH 1985 microfiche reproduction of the Seminary of Quebec Library copy; unnumbered title/first text page and printed pp. 2–3; PDF page indices 4–6 (zero-based), all visually examined.",
+    "access_limitation": "This is a 1985 22X microfiche reproduction, not examination of the physical 1731 copy. CIHM/ICMH front matter says the filmed copy was supplied by the Seminary of Quebec Library and flags discoloured/show-through pages. The three printed pages were visually examined; ANOM COL F3 242 fol.187 remains unexamined. The separate 24 February 1731 Company-debt decree is still catalogue-only.",
     "retrieval_identifiers": [
       "UMSL Mercantile Library original printed title-page image",
       "ANOM COL F3 242 fol.187 (issue #24 locator; manuscript not inspected)",
-      "UL Lafayette Collection 329, reel 580: ANOM F3 242 (volume-level finding aid only; fol.187 frame unverified)"
+      "UL Lafayette Collection 329, reel 580: ANOM F3 242 (volume-level finding aid only; fol.187 frame unverified)",
+      "CIHM/ICMH microfiche item cihm_50701 (1985), PDF page indices 4–6"
     ],
-    "next_access_action": "Obtain the original 23 January 1731 royal decree pages and a legible image of Mercure de France March 1731 pp.610–611; collate the periodical OCR against the official impression and ANOM F3 242 fol.187. The UL Lafayette finding aid does not verify the folio frame or the separate 24 February debt decree.",
-    "access_attempts": []
+    "next_access_action": "Obtain a higher-resolution scan or inspect the physical Seminary of Quebec copy and ANOM COL F3 242 fol.187; collate the three-page text with the March 1731 Mercure page images. Separately obtain both pages of the 24 February 1731 Company-debt decree.",
+    "access_attempts": [
+      {
+        "attempted_on": "2026-11-17",
+        "institution": "Canadian Institute for Historical Microreproductions (CIHM/ICMH), microfiche facsimile of Seminary of Quebec Library copy",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Arrest_du_Conseil_d%27Estat_du_roy%2C_concernant_la_retrocession_faite_%C3%A0_Sa_Majest%C3%A9_par_la_Compagnie_des_Indes_%28IA_cihm_50701%29.pdf",
+        "outcome": "microform_facsimile_opened_and_three_printed_pages_visually_examined",
+        "content_level": "primary_print_facsimile_text_examined",
+        "text_examined": true
+      }
+    ]
   },
   {
     "id": "witness-company-debt-1731-royal-print",
