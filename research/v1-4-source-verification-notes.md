@@ -132,3 +132,33 @@ The [University of Louisiana at Lafayette Collection 329 finding aid](https://li
 Choctaw Nation's community-authored [Iti Fabvssa account](https://www.choctawnation.com/news/iti-fabvssa/fort-tombecbe-and-early-choctaw-treaties/) is retained as context for Choctaw-led diplomacy and women's roles, not as evidence of a response to the 1731 edict or Indigenous consent to French territorial administration.
 
 **Next:** obtain and compare F3 242 fol. 190 and A1–69 fol. 20; then resume the central task of transcribing the 24 February 1731 Company-debt decree. Issue #24 remains open.
+
+
+## 17 November 2026 — 23 January 1731 retrocession decree: three-page printed facsimile examined
+
+**New primary-print witness, with reproduction limits.** The Canadian Institute for Historical Microreproductions / Institut canadien de microreproductions historiques (CIHM/ICMH) PDF of *Arrest du Conseil d'Estat du Roy, concernant la rétrocession faite à Sa Majesté par la Compagnie des Indes, de la concession de la Louisiane & du pays des Illinois* was opened and all three printed pages were visually examined. The title page dates the act **23 January 1731** and the colophon reads **Paris, Imprimerie royale, M. DCCXXXI**. The accessible file is a **1985 microfiche reproduction**, not the physical original: its technical notes state 22X reduction, identify the **Seminary of Quebec Library** as the source of the filmed copy, and flag discoloured/show-through pages. See the [microfiche facsimile PDF](https://upload.wikimedia.org/wikipedia/commons/7/7f/Arrest_du_Conseil_d%27Estat_du_roy%2C_concernant_la_retrocession_faite_%C3%A0_Sa_Majest%C3%A9_par_la_Compagnie_des_Indes_%28IA_cihm_50701%29.pdf), PDF page indices 4–6 (zero-based), corresponding to the unnumbered title/first-text page and printed pp. 2–3. The front matter is at PDF pp. 1–2.
+
+### What the printed decree says
+
+The first page identifies the petition as presented by the Company's directors and syndics, authorized by a Company deliberation of 22 January. On printed p. 2, the King accepts the retrocession made by the syndics and directors “pour, & au nom de ladite Compagnie” of the *propriété, Seigneurie & Justice* of Louisiana and its dependencies, together with the “pays des Sauvages Illinois”; it also lists the places, forts, buildings, artillery, arms and troops then present. The same page accepts return of the Company's exclusive-trade privilege. Printed p. 3 declares Louisiana commerce free to the King's subjects, then maintains the Company's rights against its debtors in the province, which it may exercise as it judges appropriate. The decree is signed “PHELYPEAUX” and the colophon names the Imprimerie royale.
+
+The full French transcription is stored page by page in the source_extracts data as extract-011 and rendered in the public source-reading explorer when the retrocession1731 case is selected.
+
+### Collation with the contemporary *Mercure de France* extract
+
+The March 1731 *Mercure de France*, pp. 610–611, is separately available through the [Bureau du Mercure OCR transcription](https://bureaudumercure.org/mercure/term/domain?domain=186&page=2), lines 4999–5027 of the opened page. Its entry is an abridged contemporary extract headed “AUTRE du même jour.” The key retained-rights clause agrees in substance with printed p. 3 of the royal impression: the Company is maintained in its rights against its Louisiana debtors. The periodical OCR abbreviates “Sa Majesté” as “S.M.” in places, regularizes some spellings, and differs in punctuation. It is therefore a useful contemporary textual cross-check, not a word-for-word diplomatic duplicate. The Bureau du Mercure portal warns that its contents are provisional/incomplete; its page image was not examined in this milestone.
+
+### Evidentiary distinctions
+
+- **Directly examined:** all three printed pages of the 1731 royal decree in a 1985 microfiche facsimile; the microfiche front matter; the separate Bureau du Mercure OCR extract.
+- **Not examined:** the physical 1731 copy at the Seminary of Quebec Library; ANOM COL F3 242 fol. 187; the March 1731 Mercure page image.
+- **Interpretive caution:** the phrase “sans que la Compagnie en puisse estre chargée à l’avenir” follows the return of the exclusive-trade privilege and the declaration of free trade. It should not be treated as a blanket discharge of the Company's separate debts. The same decree expressly preserves Company creditor rights against Louisiana debtors. This is a contextual reading, not a transcription of the separate 24 February debt decree.
+- **Still unknown:** no debtor, amount, collection, receipt, payment, settlement or Crown assumption of Company liabilities is identified by this 23 January instrument. The separate 24 February 1731 Company-debt decree remains catalogue-only and its operative clauses remain unread.
+
+### Affected-community context
+
+The decree's phrase “pays des Sauvages Illinois” and its language of *propriété, Seigneurie & Justice* describe the territory through French royal/Company legal categories. They do not record Indigenous consent. The [Peoria Tribe of Indians of Oklahoma's own history](https://www.peoriatribe.gov/204/History) identifies the Peoria Tribe as a sovereign nation and a confederation of Kaskaskia, Peoria, Piankashaw and Wea peoples, describes its Illinois/Illini identity and homelands, and records nineteenth-century removal. This is community-authored present-day historical context, not a direct response to the 1731 decree and not a claim to speak for every Illinois/Illini descendant nation. The decree does not identify enslaved people or prove that people were among the listed material assets; their histories require separate records and community-aware research.
+
+**Implementation:** added source records for the CIHM/ICMH facsimile and Peoria Tribe history; upgraded doc-022 to microform_facsimile_text_examined; added extract-011 with three page-level transcription segments; updated the event and witness provenance; changed only the ledger's review label to facsimile_text. paid, transfer and liable remain null. Added a dedicated validator, integrated it into the main integrity script, updated the existing witness/liability/retrocession validators, and exposed the transcription in the public explorer. The 24 February debt-decree witnesses remain unchanged and catalogue-only.
+
+**Next:** obtain a higher-resolution copy or inspect the physical Seminary of Quebec exemplar and ANOM COL F3 242 fol. 187; collate the Mercure page image. Above all, obtain both pages of the **24 February 1731 Company-debt decree** and transcribe its operative clauses before mapping any debtor or liability.

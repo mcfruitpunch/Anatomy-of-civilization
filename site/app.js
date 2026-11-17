@@ -456,9 +456,10 @@
   }
 
   function renderExcerpts() {
-    const relevant = !state.caseId || ['archives1720','francemississippi1720','publicdebt1720'].includes(state.caseId);
+    const relevant = !state.caseId || ['archives1720','francemississippi1720','publicdebt1720','retrocession1731'].includes(state.caseId);
     const entries = relevant ? D.source_extracts.filter(x =>
       matches(x.title,x.paraphrase,x.place,x.record_kind,x.limitations,
+        ...(x.transcription_pages||[]).map(p=>p.text),
         ...(x.reported_numbers||[]).map(n=>n.meaning))) : [];
     $('excerpt-count').textContent = entries.length + ' readings';
     $('excerpt-list').replaceChildren(...(entries.length ? entries.map(x => {
@@ -475,11 +476,16 @@
         make('p',{},pill(readableType(x.record_kind)),
           pill(readableType(x.reading_level),'pending')),
         make('p',{},x.paraphrase),
+        x.transcription_pages?.length ? make('details',{className:'source-transcription'},
+          make('summary',{},'Read the printed French transcription'),
+          ...x.transcription_pages.map(page=>make('section',{className:'transcription-page'},
+            make('h4',{},'Printed page '+page.printed_page_label+' · PDF page index '+page.pdf_page_index),
+            make('pre',{},page.text)))) : null,
         readings,
         make('p',{className:'small quiet'},make('strong',{},'Evidence limits: '),x.limitations),
         citations(x.sources),jump
       );
-    }) : [empty('These source readings currently cover the 1720–1721 international finance and Louisiana case.')]));
+    }) : [empty('These source readings cover the 1720–1731 finance, Louisiana and retrocession records.')]));
   }
 
   function renderCensusAudit() {

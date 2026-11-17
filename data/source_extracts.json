@@ -247,5 +247,44 @@
     ],
     "event": "evt-1731-superior-council-reorganization",
     "case": "retrocession1731"
+  },
+  {
+    "id": "extract-011",
+    "title": "Full three-page transcription of the 23 January 1731 Louisiana retrocession decree",
+    "date": "1731-01-23",
+    "date_role": "underlying_royal_act_date_not_1985_microfiche_reproduction_date",
+    "place": "Marly (Council of State); Louisiana and the Illinois country (territories named)",
+    "record_kind": "royal_retrocession_decree_primary_print_microfiche_facsimile",
+    "reading_level": "primary_print_microform_facsimile_transcription",
+    "language_original": "fr",
+    "paraphrase": "The 1731 printed royal decree, read from a 1985 CIHM/ICMH microfiche reproduction of a Seminary of Quebec Library copy, records the Company's retrocession through its syndics and directors. The King accepts the return of the property, seigneurie and justice of Louisiana and its dependencies and the country of the Illinois, along with the places, forts, buildings, artillery, arms and troops then present. The King also accepts the return of the Company's exclusive-trade privilege and declares Louisiana commerce free to all his subjects. The final operative passage expressly maintains the Company's rights against its debtors in the province, exercisable when and as the Company judges appropriate. The preceding phrase that the Company is not to be charged in future follows the return of the exclusive-trade privilege; reading it as a general discharge of the Company's separate debts would go beyond this text. The decree names no debtor, amount, collection, receipt or payment.",
+    "reported_numbers": [],
+    "transcription_pages": [
+      {
+        "printed_page_label": "unnumbered title / first text page",
+        "pdf_page_index": 4,
+        "text": "ARREST DU CONSEIL D’ESTAT DU ROY,\nConcernant la rétrocession faite à Sa Majesté par la Compagnie des Indes, de la concession de la Louisiane & du pays des Illinois.\nDu 23. Janvier 1731.\nExtrait des Registres du Conseil d’Estat.\n\nSUR la Requeste présentée au Roy par les Directeurs & Syndics de la Compagnie des Indes, à ce dûment authorisez par délibération de ladite Compagnie du 22. Janvier"
+      },
+      {
+        "printed_page_label": "2",
+        "pdf_page_index": 5,
+        "text": "dernier, tendante à ce qu’il plût à Sa Majesté accepter la rétrocession de la concession de la Province de la Louisiane, & du pays des Sauvages Illinois, pour estre réunis & incorporez à son Domaine, ensemble la rétrocession du privilege exclusif du commerce de ladite Colonie, en le déclarant libre à tous ses Sujets; à quoy, désirant pourvoir.\n\nOüy le Rapport du Sieur Orry Conseiller d’Estat, & ordinaire au Conseil Royal, Contrôleur general des Finances, SA MAJESTÉ ESTANT EN SON CONSEIL; a accepté & accepte la rétrocession à Elle faite par les Syndics & Directeurs de la Compagnie des Indes, pour, & au nom de ladite Compagnie, de la propriété, Seigneurie & Justice de la Province de la Louisiane; & de toutes ses dépendances, ensemble du pays des Sauvages Illinois, laquelle concession luy avoit esté accordée à temps ou à perpetuité, par les Edits & Arrests des mois d’Aoust & Septembre 1717. May 1719. Juillet 1720, & Juin 1725; pour estre ladite Province réunie au Domaine de Sa Majesté; ensemble de toutes les Places, Forts, Bastimens, Artillerie; Armemens, & Troupes qui y sont actuellement. Accepte pareillement la rétrocession du privilege du commerce exclusif que ladite Compagnie faisoit dans cette concession; au"
+      },
+      {
+        "printed_page_label": "3",
+        "pdf_page_index": 6,
+        "text": "moyen de quoy Sa Majesté declare le commerce de la Louisiane libre à tous ses Sujets, sans que la Compagnie en puisse estre chargée à l’avenir, sous quelque pretexte que ce soit : Maintient, Sa Majesté, ladite Compagnie dans les droits qu’elle a contre ses debiteurs de ladite Province ; qu’elle luy permet d’exercer quand & comme elle le jugera à propos. Et seront pour l’execution du present Arrest toutes Lettres necessaires expediées.\n\nFAIT au Conseil d’Estat du Roy, Sa Majesté y estant, tenu à Marly le vingt-troisieme Janvier mil sept cens trente-un. Signé PHELYPEAUX.\n\nA PARIS ;\nDE L’IMPRIMERIE ROYALE,\nM. DCCXXXI."
+      }
+    ],
+    "limitations": "The printed text was visually transcribed from the three page images in a 1985 CIHM/ICMH 22X microfiche reproduction; the microfiche front matter identifies the Seminary of Quebec Library as the source of the filmed copy and notes discoloured/show-through pages. The physical 1731 copy and ANOM COL F3 242 fol. 187 were not examined. The transcription is checked against the facsimile images and extracted OCR but is not a diplomatic transcription made by the holding library; punctuation and long-s spellings should be checked against a higher-resolution copy before critical edition use. The March 1731 Mercure de France extract (pp. 610–611) is a separate contemporary periodical abridgement/OCR and has not been collated against its page image here. This is not the separate 24 February 1731 Company-debt decree, whose operative clauses remain unread. The instrument speaks from the French Crown/Company perspective and does not record Indigenous consent; the Peoria Tribe's community-authored history is contextual and does not claim to respond to this decree. The decree does not identify enslaved people or prove that people were among the listed material assets. No debtor, amount, enforcement, collection, receipt, payment, settlement or Crown assumption of Company liabilities is established.",
+    "sources": [
+      "src-cihm-1731-retrocession-microfiche",
+      "src-umsl-1731-decree-image",
+      "src-mercure-1731-retrocession-extract",
+      "src-terrien-2020-dissertation",
+      "src-peoria-tribe-history"
+    ],
+    "event": "evt-1731-louisiana-retrocession",
+    "case": "retrocession1731"
   }
 ]
