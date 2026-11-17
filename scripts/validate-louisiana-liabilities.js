@@ -12,7 +12,7 @@ const sources = data('sources');
 const byDocument = new Map(documents.map(doc => [doc.id, doc]));
 const sourceIds = new Set(sources.map(source => source.id));
 const reviewByDocument = new Map([
-  ['doc-022', 'title_page'], // Jan 23 royal decree: original title only
+  ['doc-022', 'facsimile_text'], // Jan 23 royal decree: all printed pages read from 1985 microfiche facsimile; physical original not examined
   ['doc-021', 'catalogue'],  // Jan 24 local council dossier
   ['doc-024', 'catalogue'],  // Feb 24 debt decree: edition catalogues only
   ['doc-023', 'abstract'],   // Jan 19 1732 Salmon letter
@@ -154,4 +154,4 @@ for (const docId of ['doc-031', 'doc-032']) {
   assert.throws(() => verify({...row, payment_amount: 1}));
   assert.throws(() => verify({...row, review: 'original_note_transcribed'}));
 }
-console.log('OK: fourteen Louisiana archival leads, strict negative payment fixtures, and thumbnail-only access gate for the 1731 local Council dossier');
+console.log('OK: fourteen Louisiana archival leads; January retrocession facsimile evidence level; strict null payment/liability fixtures and thumbnail-only local Council gate');
