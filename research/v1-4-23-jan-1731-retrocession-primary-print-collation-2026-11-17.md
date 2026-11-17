@@ -86,3 +86,6 @@ The [Peoria Tribe of Indians of Oklahoma's community-authored history](https://w
 ## Validation audit
 
 The first PR workflow run (#90) failed in the new decree-witness validator because a negative fixture showed that a debt-decree catalogue witness could be assigned the new facsimile-text content level while its text-examined flag remained false. The validator was tightened so the facsimile outcome, evidence level, witness identity and text-examined flag must all agree; the separate February debt witnesses cannot use that access level. The corrected head is f7ef9ef85bb997e9ac07c478a7510cb364ce4076. This note records the failed first run and the exact correction rather than hiding the initial failure; the corrected full CI result is still pending.
+
+
+The corrected workflow run #92 passed the decree-witness gate but exposed a second overly narrow test: a document summary said 'rights against debtors in the province' while a validator required the possessive 'its debtors'. The French text uses 'ses debiteurs'; both English renderings are faithful, so the validator now accepts either without changing the transcription or the evidence claim. This is a test-language correction, not a change to the historical finding. The next full CI result is pending.
