@@ -24,7 +24,9 @@
     ],
     "current_custody_verified": false,
     "decree_text_examined": false,
-    "payment_verified": false
+    "payment_verified": false,
+    "catalogue_year": null,
+    "preface_note": null
   },
   {
     "id": "custody-lead-retrocession-1903-exhibit",
@@ -49,7 +51,9 @@
     ],
     "current_custody_verified": false,
     "decree_text_examined": false,
-    "payment_verified": false
+    "payment_verified": false,
+    "catalogue_year": null,
+    "preface_note": null
   },
   {
     "id": "catalogue-lead-company-debt-1904-exhibit",
@@ -78,6 +82,7 @@
     "preface_note": "The catalogue preface, printed p.2, thanks G. Cusachs for allowing broad selection from his collections; this general acknowledgement does not assign item 72 to him.",
     "current_custody_verified": false,
     "decree_text_examined": false,
-    "payment_verified": false
+    "payment_verified": false,
+    "catalogue_date": null
   }
 ]
