@@ -1327,7 +1327,7 @@
     "year": 1903,
     "publisher": "Louisiana Historical Society, New Orleans, 20 December 1903; public scan via Wikimedia Commons / Internet Archive",
     "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/A_catalogue_of_the_colonial_exhibit_of_the_Louisiana_historical_society_and_loan_exhibit_of_members_and_friends_%28IA_catalogueofcolon00loui%29.pdf",
-    "locator": "Printed page 17 (PDF page 19, zero-indexed page 18), items 342 and 345: lists a 23 January 1731 retrocession decree and a 24 February 1731 Company-debt decree, both credited in the 1903 loan exhibit to Mr. Cusachs. Original catalogue page visually inspected 23 October 2026. Establishes reported exhibit possession in 1903, not present custody, legal clauses or actual payment.",
+    "locator": "Printed p. 17 (PDF page index 18, zero-based), visually re-examined from the page image on 18 Nov 2026. Items 342 and 345 list, respectively, the 23 January 1731 Louisiana/Illinois retrocession decree and the 24 February 1731 Company-debt decree; both entries are credited in the catalogue's Owner column to Mr. Gaspar Cusachs. This is a 1903 loan-exhibit catalogue attribution, not proof of present custody, identity with a later digital witness, operative legal text, or payment.",
     "reviewed": true
   },
   {
@@ -1625,6 +1625,17 @@
     "publisher": "Peoria Tribe of Indians of Oklahoma",
     "url": "https://www.peoriatribe.gov/204/History",
     "locator": "History page, opened 17 November 2026, paragraphs headed 'Peoria Tribe of Indians of Oklahoma' and 'History' (lines 25–37): the Tribe's self-description as a sovereign nation and confederation, its Illinois/Illini identity, homelands, and nineteenth-century removals. Community-authored contemporary context; it does not describe a response to the 1731 French decree.",
+    "reviewed": true
+  },
+  {
+    "id": "src-exposition-francaise-1904-catalogue",
+    "type": "independent_exhibition_catalogue",
+    "title": "Exposition Française de la Louisiane, St. Louis 1904",
+    "author": "Comité de l'Exposition Française de la Louisiane (identified in the catalogue preface)",
+    "year": 1904,
+    "publisher": "St. Louis, 1904; printer not identified in the inspected title matter",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Exposition_fran%C3%A7aise_de_la_Louisiane%2C_St._Louis%2C_1904_%28IA_expositionfran00newo%29.pdf",
+    "locator": "Printed p. 21, Section I, b—Législation, item 72; PDF page index 24 (zero-based), page image visually examined 18 Nov 2026. It lists an Arrêt du Conseil d'Etat du Roy concerning payment of the Company's Louisiana debts, dated Paris, 24 February 1731. No item-level owner is supplied. The preface p. 2 thanks G. Cusachs for broad access to collections, but does not assign item 72 to him.",
     "reviewed": true
   }
 ]
