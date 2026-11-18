@@ -1,0 +1,83 @@
+[
+  {
+    "id": "custody-lead-company-debt-1903-exhibit",
+    "target_document": "doc-024",
+    "source_id": "src-lhs-1903-cusachs-decree-exhibit",
+    "catalogue_date": "1903-12-20",
+    "printed_page": 17,
+    "pdf_page_index": 18,
+    "item_number": 345,
+    "item_title": "ARREST DU CONSEIL D’ESTAT DU ROY Concernant le Payement des Dettes de la Compagnie des Indes a la Louisiane. Paris, 24 Fevrier, 1731.",
+    "item_level_owner_attribution": "Mr. Gaspar Cusachs",
+    "attribution_kind": "catalogue_owner_column",
+    "inspection_level": "page_image_visually_examined",
+    "inspection_date": "2026-11-18",
+    "established": "The 1903 Louisiana Historical Society loan-exhibit catalogue lists item 345 with the debt-decree title/date and credits the item to Mr. Gaspar Cusachs in its Owner column.",
+    "not_established": [
+      "present custody",
+      "complete chain of custody",
+      "identity with the BnF, Columbia/LLMC or any later digitized copy",
+      "operative decree text",
+      "debtor or creditor roles",
+      "liability allocation",
+      "payment or settlement"
+    ],
+    "current_custody_verified": false,
+    "decree_text_examined": false,
+    "payment_verified": false
+  },
+  {
+    "id": "custody-lead-retrocession-1903-exhibit",
+    "target_document": "doc-022",
+    "source_id": "src-lhs-1903-cusachs-decree-exhibit",
+    "catalogue_date": "1903-12-20",
+    "printed_page": 17,
+    "pdf_page_index": 18,
+    "item_number": 342,
+    "item_title": "ARREST DU CONSEIL D’ ESTAT DU ROY, concernant la retrocession faite a sa Majeste par la Compagnie des Indes de la concession de la Louisiane. Paris, 23 Janvier, 1731.",
+    "item_level_owner_attribution": "Mr. Gaspar Cusachs",
+    "attribution_kind": "catalogue_owner_column",
+    "inspection_level": "page_image_visually_examined",
+    "inspection_date": "2026-11-18",
+    "established": "The same 1903 catalogue page lists the 23 January 1731 retrocession decree as item 342 and credits it to Mr. Gaspar Cusachs.",
+    "not_established": [
+      "present custody",
+      "complete chain of custody",
+      "identity with the later CIHM/ICMH microfiche or any other digital copy",
+      "Indigenous consent to French territorial claims",
+      "operative text beyond the separately examined microfiche facsimile"
+    ],
+    "current_custody_verified": false,
+    "decree_text_examined": false,
+    "payment_verified": false
+  },
+  {
+    "id": "catalogue-lead-company-debt-1904-exhibit",
+    "target_document": "doc-024",
+    "source_id": "src-exposition-francaise-1904-catalogue",
+    "catalogue_year": 1904,
+    "printed_page": 21,
+    "pdf_page_index": 24,
+    "item_number": 72,
+    "item_title": "Arrêt du Conseil d'Etat du Roy concernant le paiement des dettes de la Compagnie de Indes à la Louisiane—Paris, 24 Février, 1731.",
+    "item_level_owner_attribution": null,
+    "attribution_kind": "none",
+    "inspection_level": "page_image_visually_examined",
+    "inspection_date": "2026-11-18",
+    "established": "The 1904 Exposition Française de la Louisiane catalogue lists item 72 in its legislation section with the same debt-decree subject and 24 February 1731 date.",
+    "not_established": [
+      "item-level owner",
+      "whether this is the same physical copy listed in 1903",
+      "present custody",
+      "complete chain of custody",
+      "operative decree text",
+      "debtor or creditor roles",
+      "liability allocation",
+      "payment or settlement"
+    ],
+    "preface_note": "The catalogue preface, printed p.2, thanks G. Cusachs for allowing broad selection from his collections; this general acknowledgement does not assign item 72 to him.",
+    "current_custody_verified": false,
+    "decree_text_examined": false,
+    "payment_verified": false
+  }
+]
