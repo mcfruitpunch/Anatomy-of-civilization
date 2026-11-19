@@ -286,5 +286,49 @@
     ],
     "event": "evt-1731-louisiana-retrocession",
     "case": "retrocession1731"
+  },
+  {
+    "id": "extract-012",
+    "title": "Duval succession account balance reported by an English index card; manuscript account unread",
+    "date": "1732-07-15",
+    "date_role": "louisiana_historical_center_record_date_not_card_reported_account_close",
+    "place": "New Orleans, French Louisiana (archive collection context)",
+    "record_kind": "institutional_index_card_summary_of_succession_account",
+    "reading_level": "institutional_index_card_transcription_not_original_manuscript",
+    "language_original": "en",
+    "paraphrase": "The first browser-accessible image for Louisiana Historical Center record 1732-07-15-01 is an English typed index card numbered #6558. Its heading reads “STATEMENT OF ACCOUNTS DUE FROM THE IND. CO.” The prose says it closes the account of François Duval, former cashier-general of the India Company, with that Company as of 15 January 1736, and reports a balance due the Company by the succession of Sr. Duval of 101,975 livres 6 sols 2 deniers. The card says the statement was signed on 15 July 1732 by Bruslé and on 15 January 1736 by Prévost. The heading suggests a different direction of debt from the prose. The four handwritten manuscript-page image derivatives were opened but not reliably transcribed. The catalogue date, account-as-of date and sign-off dates remain unreconciled.",
+    "transcription": "#6558\nYEAR 1732 JULY 15\nSTATEMENT OF ACCOUNTS DUE FROM THE IND. CO.\nStatement showing closing of account of Sr. Francois Duval, former Cashier-General of the India Company, with said Company as of 15 January 1736, showing a balance due the company by the Succession of Sr. Duval, of 101,975 livres 6 sols 2 deniers.\n(Signed) On July 15, 1732, by Bruslé.\nOn January 15, 1736, by Prevost.\nNot printed in Louisiana Historical Quarterly.",
+    "reported_numbers": [
+      {
+        "value": 101975,
+        "unit": "whole_livres_component_of_index_card_balance_not_verified",
+        "meaning": "The card's composite wording is 101,975 livres 6 sols 2 deniers; the subunits are separately preserved below and the handwritten account was not transcribed."
+      }
+    ],
+    "reported_amounts": [
+      {
+        "livres": 101975,
+        "sols": 6,
+        "deniers": 2,
+        "wording": "101,975 livres 6 sols 2 deniers",
+        "account_as_of": "1736-01-15",
+        "direction_in_prose": "balance due the Company by the succession of Sr. Duval",
+        "heading_direction": "DUE FROM THE IND. CO.",
+        "direction_status": "heading_prose_conflict",
+        "verification": "index_card_only_not_original_account"
+      }
+    ],
+    "limitations": "Only the typed English index card and four browser-accessible 800x0 manuscript image derivatives were visually examined. The card is not the original account; its author/date and its specific relationship to the WPA abstracts are not established. The LHC project says its initial index used WPA summaries from 1935–1942 and warns that those abstracts contain errors and omit many enslaved people's and women's names; this general method does not prove this particular card is a WPA abstract. The record page labels the item 15 July 1732, while the card gives an account-as-of date and second sign-off on 15 January 1736. The heading and prose conflict about debt direction. The reported balance is not a verified liability, receivable, settlement or payment. No relation to the 24 February 1731 decree is established. The card records only a colonial Company/accounting perspective and cannot stand in for Indigenous or enslaved people's experiences or consent.",
+    "sources": [
+      "src-lcd-duval-account-1732",
+      "src-lcd-indexing-method-and-wpa"
+    ],
+    "event": "evt-1732-duval-account-index-card",
+    "case": "retrocession1731",
+    "card_origin_verified": false,
+    "original_manuscript_transcribed": false,
+    "legal_liability_verified": false,
+    "payment_verified": false,
+    "financial_ledger_entry_created": false
   }
 ]
