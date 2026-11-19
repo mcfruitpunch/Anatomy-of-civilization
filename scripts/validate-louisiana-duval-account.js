@@ -38,7 +38,7 @@ function verify(x) {
   for (const field of ['card_origin_verified','original_manuscript_transcribed','legal_liability_verified','payment_verified','financial_ledger_entry_created']) assert.equal(x[field],false);
   assert(/author.*date.*not.*established/i.test(x.limitations));
   assert(/not.*payment/i.test(x.limitations));
-  assert(/women.*enslaved/i.test(x.limitations));
+  assert(/women.*enslaved|enslaved.*women/i.test(x.limitations));
   assert.equal(doc?.date,'1732-07-15');
   assert.equal(doc?.access_level,'index_card_transcribed_manuscript_images_previewed_not_transcribed');
   assert(/1736/.test(doc?.limitations||'') && /heading/i.test(doc?.limitations||''));
