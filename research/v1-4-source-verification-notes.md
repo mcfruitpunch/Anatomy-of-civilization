@@ -171,3 +171,22 @@ Two catalogue page images were visually examined, not the decree itself. The Lou
 **Evidence level:** both are visually examined exhibition-catalogue pages. The 1903 item is a historical catalogue attribution in a loan exhibit, not a verified current location or chain of custody. The 1904 item is an independent catalogue listing, not a second physical copy. The catalogues do not prove that their entries refer to the same copy or to any BnF/Columbia/LLMC witness. No operative debt clause, debtor, creditor role, liability, settlement, receipt or payment is established. doc-024 remains catalogue_metadata_only; paid, transfer and liable remain null.
 
 The new custody-lead data and validator keep 1903 item-level attribution separate from the 1904 record's null owner. Next: request the 1903 Louisiana Historical Society loan-exhibit register, accession correspondence or surviving Cusachs collection documentation for items 342 and 345, without presuming a present repository. Continue to seek both pages of the 1731 Imprimerie royale and 1733 Saugrain–Prault printings.
+
+
+## 19 November 2026 — Duval succession account: index-card transcription and unresolved 1732/1736 chronology
+
+I opened the Louisiana Historical Center's [record 1732-07-15-01](https://lacolonialdocs.org/document/2148), which the record page labels a five-page French Superior Council item dated **15 July 1732**. I opened all five browser-accessible image derivatives (asset IDs **125822, 125818, 125819, 125820 and 125821**). The first is English typed index card **#6558**; the other four are handwritten account/manuscript images. Their handwritten entries were not reliably transcribed. The derivatives are not the preservation TIFF masters. The LHC's [process note](https://www.lacolonialdocs.org/post/8/the-process) says written master scans are 600 dpi, and that initial indexing began in 2014 using WPA summaries made 1935–1942; it warns of numbering/spelling errors and significant omissions of women and enslaved people's names. The particular card's author/date and whether it is itself a WPA abstract are not established.
+
+### Index-card transcription (English; not the original account)
+
+> #6558 — YEAR 1732 JULY 15 — STATEMENT OF ACCOUNTS DUE FROM THE IND. CO. — Statement showing closing of account of Sr. Francois Duval, former Cashier-General of the India Company, with said Company as of 15 January 1736, showing a balance due the company by the Succession of Sr. Duval, of 101,975 livres 6 sols 2 deniers. (Signed) On July 15, 1732, by Bruslé. On January 15, 1736, by Prevost. Not printed in Louisiana Historical Quarterly.
+
+### What is and is not established
+
+- **Directly examined:** the LHC record page, the English index card image, and four handwritten image derivatives (visual inspection only).
+- **Index-card claim:** the card's prose reports a balance of **101,975 livres 6 sols 2 deniers** due to the Company by the succession of Sr. Duval as of 15 January 1736. The card says Bruslé signed on 15 July 1732 and Prévost on 15 January 1736.
+- **Internal conflict:** the card's heading says “DUE FROM THE IND. CO.”, while its prose says the balance was due the Company by the Duval succession. The 15 July 1732 record label, 15 January 1736 account date and two sign-off dates are not reconciled. We do not decide whether the item is composite, an account begun in 1732 was closed in 1736, or the card/catalogue contains an error.
+- **Not established:** the handwritten account's actual entries, legal debtor/creditor classification, enforceability, collectible receivable, payment, settlement, or connection to the 24 February 1731 decree. No financial-flow entry was added; the liability ledger keeps paid, transfer and liable null.
+- **Representation:** the LHC says WPA abstracts omit many women and enslaved people's names. Their absence from this English index card is not evidence of absence from the underlying pages. This is a Company accounting record and does not express Indigenous consent or the perspectives of enslaved people.
+
+The public record remains doc-029; its review level is now index_card_transcribed_manuscript_unread. extract-012 transcribes the index card only, not the underlying handwritten account. Next: obtain the preservation TIFFs or inspect them in person; resolve the card's chronology and direction conflict; compare any named claim against court orders and a separate receipt before adding any liability or payment.
