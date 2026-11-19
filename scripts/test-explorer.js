@@ -18,6 +18,7 @@ const archiveDocs = readJson('archival_documents');
 const routes = readJson('information_routes');
 const extracts = readJson('source_extracts');
 const censusAudit = readJson('census_evidence_audit');
+const liabilityLedger = readJson('louisiana_liability_ledger');
 const ids = ['search', 'case-filter', 'year-from', 'year-to', 'timeline-list',
   'event-detail', 'rel-filter', 'entity-filter', 'verified-only', 'clear-focus',
   'graph', 'entity-detail', 'network-list', 'case-list', 'system-list', 'source-list', 'domino-list', 'domino-count', 'finance-list', 'finance-count', 'ownership-list', 'ownership-count', 'comparison-list', 'comparison-count', 'archive-list', 'archive-count', 'route-list', 'excerpt-list', 'excerpt-count', 'census-audit-list', 'census-audit-count'];
@@ -136,4 +137,12 @@ assert(events.some(e=>e.id==='evt-1731-french-company-debt-decree' && e.date==='
 assert(events.some(e=>e.id==='evt-1731-superior-council-reorganization' && e.date==='1731-05-22'),'Royal court administrative reform missing');
 assert(archiveDocs.some(d=>d.id==='doc-024' && d.date==='1731-02-24'),'Bibliographic debt date conflict not corrected');
 assert(archiveDocs.some(d=>d.id==='doc-023' && d.established.includes('Youanis')),'Archival handover exceptions must be explicit');
-console.log('OK: V1.3 royal legal timeline, legacy Company debt dates and financially honest issuer/payer roles');
+const duvalCard = extracts.find(x => x.id === 'extract-012');
+assert(duvalCard && duvalCard.reading_level === 'institutional_index_card_transcription_not_original_manuscript', 'Duval index-card reading must remain distinct from original account transcription');
+assert(duvalCard.transcription.includes('101,975 livres 6 sols 2 deniers') && duvalCard.transcription.includes('DUE FROM THE IND. CO.'), 'Exact index-card amount and conflicting heading must remain visible');
+assert(duvalCard.reported_amounts?.[0]?.account_as_of === '1736-01-15' && duvalCard.reported_amounts[0].direction_status === 'heading_prose_conflict', 'Do not collapse the 1732/1736 dates or conflicting debt direction');
+assert(events.some(e => e.id === 'evt-1732-duval-account-index-card' && e.date === '1732-07-15'), 'Duval archive record date must remain separately indexed');
+const duvalRow = liabilityLedger.find(x => x.document === 'doc-029');
+assert(duvalRow && duvalRow.review === 'index_card_transcribed_manuscript_unread' && duvalRow.paid === null && duvalRow.transfer === null && duvalRow.liable === null, 'Index-card reading must not populate payment, transfer or liability');
+assert(!financial.some(f => f.sources?.includes('src-lcd-duval-account-1732')), 'Do not convert an index-card balance into a financial flow');
+console.log('OK: V1.4 debt evidence, Duval index-card chronology/direction conflict, and no invented payment/liability');
