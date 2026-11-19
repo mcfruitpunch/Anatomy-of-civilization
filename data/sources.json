@@ -1349,18 +1349,18 @@
     "year": null,
     "publisher": "Louisiana State Museum",
     "url": "https://www.lacolonialdocs.org/post/8/the-process",
-    "locator": "Digitization and Indexing paragraphs; Translation/Transcription paragraphs: initial index derived from 1930s WPA abstracts; names of enslaved people and women significantly omitted, with spelling and numbering errors. WPA abstracts are not full transcriptions; checked 24 Oct 2026.",
+    "locator": "Digitization §§1–3 and Indexing/Translation paragraphs, checked 19 Nov 2026: the project says each page is digitized front/back; written preservation scans are 600 dpi; initial indexing began in 2014 using WPA summaries produced 1935–1942; the project warns of numbering errors, inconsistent spellings and significant omissions of enslaved people's and women's names. This describes the project's general method, not proof that the specific Duval card #6558 was authored by WPA or when it was made.",
     "reviewed": true
   },
   {
     "id": "src-lcd-duval-account-1732",
-    "type": "institutional_primary_manuscript_index_not_transcription",
-    "title": "Louisiana Historical Center record 1732-07-15-01: indexed Duval succession statement of account",
+    "type": "institutional_primary_manuscript_record_with_index_card_and_image_derivatives",
+    "title": "Louisiana Historical Center record 1732-07-15-01: Duval succession account images and English index card",
     "author": "Louisiana Historical Center / Louisiana Colonial Documents Digitization Project",
     "year": null,
     "publisher": "Louisiana State Museum",
     "url": "https://lacolonialdocs.org/document/2148",
-    "locator": "French Superior Council document 1732-07-15-01, catalogued 15 July 1732, five manuscript pages, New Orleans; indexed participants Antoine Bruslé, Prévost, Company of Indies, François Duval succession. The modern record and image inventory were inspected 26 October 2026; original French account entries and the separately reported 15 January 1736 reference were NOT transcribed.",
+    "locator": "Record page opened 19 Nov 2026: French Superior Council item 1732-07-15-01, catalogue date 15 July 1732, five displayed page images, New Orleans. Five browser-accessible 800x0 image derivatives were opened: doc-img-125822.jpg (English index card #6558), doc-img-125818.jpg, doc-img-125819.jpg, doc-img-125820.jpg and doc-img-125821.jpg (four handwritten manuscript-page images). Exact observed image routes: https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-125822.jpg ; https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-125818.jpg ; https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-125819.jpg ; https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-125820.jpg ; https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-125821.jpg . The first image's typed English card reports a Duval account balance as of 15 Jan 1736; its heading says 'DUE FROM THE IND. CO.' while its prose says the balance was due the Company by the Duval succession. The four handwritten pages were visually inspected but not reliably transcribed. The card's author/date and its specific relationship to the WPA abstract series are not established. The 800x0 derivatives are not the preservation TIFF masters; the project methodology page says written master scans are 600 dpi.",
     "reviewed": true
   },
   {
