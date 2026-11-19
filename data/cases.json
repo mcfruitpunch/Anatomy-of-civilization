@@ -964,7 +964,8 @@
       "Compare the 23 January 1731 retrocession decree's clauses directly with the French legal print; the title page is inspected but operative terms remain unchecked.",
       "Read the two-page debt decree dated 24 February 1731 (printed 1733), identify rules and liable parties, and assess whether any later 1733 amendment exists separately.",
       "Inspect the May 22 1731 Superior Council composition decree at ANOM F3 242 fol.190 and identify offices reassigned from Company directors to royal officials.",
-      "Find the original 14 September 1735 card-money ordinance and signed fabrication procès-verbaux, and test the reprint's 200,000-livre ceiling and actual issuance separately from the 1731 Company debt decree."
+      "Find the original 14 September 1735 card-money ordinance and signed fabrication procès-verbaux, and test the reprint's 200,000-livre ceiling and actual issuance separately from the 1731 Company debt decree.",
+      "Resolve the Duval record's 15 July 1732 catalogue date versus the index card's 15 January 1736 account close/sign-off, and its heading/prose conflict about who owes whom; transcribe the handwritten account and seek a separate receipt or judgment before classifying the reported balance."
     ],
     "events": [
       "evt-1717-compagnie-occident",
@@ -973,7 +974,8 @@
       "evt-1732-salmon-possession",
       "evt-1731-french-company-debt-decree",
       "evt-1731-superior-council-reorganization",
-      "evt-1735-louisiana-card-money-ordinance"
+      "evt-1735-louisiana-card-money-ordinance",
+      "evt-1732-duval-account-index-card"
     ],
     "entities": [
       "ent-french-crown",

@@ -1318,5 +1318,23 @@
     "sources": [
       "src-zay-1892-louisiana-card-money-1735"
     ]
+  },
+  {
+    "id": "evt-1732-duval-account-index-card",
+    "date": "1732-07-15",
+    "date_role": "archive_catalogue_date_not_resolved_account_close",
+    "title": "LHC-indexed Duval succession account has a later 1736 closing date on its index card",
+    "summary": "The Louisiana Historical Center labels record 1732-07-15-01 as a five-page French Superior Council item dated 15 July 1732. Its first displayed image is English typed index card #6558, which says François Duval's account with the Company of Indies was closed as of 15 January 1736 and reports 101,975 livres 6 sols 2 deniers due the Company by the Duval succession. The card also says it was signed by Bruslé on 15 July 1732 and by Prévost on 15 January 1736. Its heading, 'DUE FROM THE IND. CO.', conflicts with the prose about a balance due the Company by the succession. Four handwritten image derivatives were opened but not reliably transcribed. The 1732 record date, 1736 account date and sign-off dates remain unresolved. This is not proof of a legal debtor, Company liability, collectible receivable, settlement, payment or connection to the 24 February 1731 decree. The LHC explains that initial indexes used WPA summaries and that such abstracts omit many women's and enslaved people's names; absence from this index card cannot be read as absence from the manuscript. This administrative account does not speak for Indigenous nations or enslaved people.",
+    "case": "retrocession1731",
+    "entities": [
+      "ent-compagnie-indes-france",
+      "ent-french-superior-council-la"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-lcd-duval-account-1732",
+      "src-lcd-indexing-method-and-wpa"
+    ]
   }
 ]

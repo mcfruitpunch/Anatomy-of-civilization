@@ -17,7 +17,7 @@ const reviewByDocument = new Map([
   ['doc-024', 'catalogue'],  // Feb 24 debt decree: edition catalogues only
   ['doc-023', 'abstract'],   // Jan 19 1732 Salmon letter
   ['doc-020', 'scholarship'],// Diron award: modern reading of folios
-  ['doc-029', 'catalogue'],  // July 15 1732 Duval account: indexed only; 1736 internal date unresolved
+  ['doc-029', 'index_card_transcribed_manuscript_unread'],  // English index card read; four manuscript images remain untranscribed; 1732/1736 conflict unresolved
   ['doc-019', 'abstract'],   // Sep 2 1732 ministerial letter
   ['doc-033', 'abstract'],   // Sep 30 1733 Council letter about Company notes; NOT the alleged same-day ordinance
   ['doc-030', 'abstract'],   // Mar 30 1735 Council ordinance: Company-as-creditor; original clauses unread
