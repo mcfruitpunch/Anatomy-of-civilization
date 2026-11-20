@@ -190,3 +190,14 @@ I opened the Louisiana Historical Center's [record 1732-07-15-01](https://lacolo
 - **Representation:** the LHC says WPA abstracts omit many women and enslaved people's names. Their absence from this English index card is not evidence of absence from the underlying pages. This is a Company accounting record and does not express Indigenous consent or the perspectives of enslaved people.
 
 The public record remains doc-029; its review level is now index_card_transcribed_manuscript_unread. extract-012 transcribes the index card only, not the underlying handwritten account. Next: obtain the preservation TIFFs or inspect them in person; resolve the card's chronology and direction conflict; compare any named claim against court orders and a separate receipt before adding any liability or payment.
+
+
+## 2026-11-20 — LHC RG3/RG377/RG1 accounting-source and decree-retrieval audit
+
+- Examined the LSM Historical Center's RG3 (June 2013), RG377 (August 2022) and 2024 manuscript-collections finding aids. These are catalogue/finding-aid examinations, not original-text examinations.
+- Added RG3 1852.30 (11 Dec 1725; four pages), a catalogue-described resolution concerning Company-furnished enslaved people who had not been paid for; and RG3 1852.36 (14 Oct 1726; two pages), an appointment of La Chaise and Perrault to audit Company accounts. No original pages or audit results were examined.
+- Added RG377 record 1729021501 (15 Feb 1729; Series B43:846–864; 43 sheets), whose finding-aid summary covers active/inactive debts, payment of debts of the “old company,” silver and bills, ship expenses and slave cargoes. The “old company” is not identified in the finding aid.
+- Checked the RG377 published contents list for 24 Feb 1731; no matching entry was found. The final listed item is a 28 Feb 1731 sailing instruction in Box 8. The summary says nine boxes, but no Box 9 heading appears in the published contents list. This is an unresolved inventory discrepancy, not proof the decree is absent.
+- Added RG1 as a collection-level lead: 1714–1769, 108 linear feet/216 boxes plus eight oversize boxes; the 2024 LSM guide describes creditor recovery cases, successions, commercial records and petitions by enslaved people seeking manumission. No individual cases were identified.
+- Added a UW-authenticated LLMC Digital route for Columbia record 1505745 / LLMC1338688796. Exact item availability in the UW instance is unconfirmed; this is not public access.
+- No financial-flow record, debtor identity, amount, payment, settlement, audit result or link from these earlier records to the 24 Feb 1731 decree was added. The decree remains catalogue-only.
