@@ -84,7 +84,7 @@ function validate(data) {
 
   const llmc = get('lead-llmc-1733-subscriber-access');
   assert.equal(llmc.llmc_record_id, 'LLMC1338688796');
-  assert.equal(llmc.columbia_record, '1505745');
+  assert.equal(llmc.columbia_catalogue_record, '1505745');
   assert.equal(llmc.uw_access_status, 'authenticated_UW_route');
   assert.equal(llmc.item_availability_in_uw_instance, 'not_confirmed');
   assert.equal(llmc.public_access_established, false);
