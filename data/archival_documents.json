@@ -437,9 +437,9 @@
     "title": "Company's Louisiana debt decree dated February 24, 1731 (printed in 1733)",
     "document_kind": "royal_company_debt_decree",
     "access_level": "catalogue_metadata_only",
-    "reference": "BnF Catalogue général: 1731 Imprimerie royale printing (filtered result 39, Acte 1731-02-24 Versailles); BnF Gallica ark:/12148/btv1b8602624n: 1733 printing; Columbia Law rare book 1505745: 1733 Paris Saugrain–Prault edition of the same 1731-02-24 act. Historical catalogue leads: Louisiana Historical Society, 1903 Colonial Exhibit catalogue, printed p.17, items 342 (23 Jan retrocession) and 345 (24 Feb debt decree), both credited to Mr. Gaspar Cusachs; Exposition Française de la Louisiane, 1904, printed p.21, item 72 lists the debt decree title/date without an item-level owner. BnF four-volume Recueil notice ark:/12148/cb338513279 (FRBNF33851327) remains a separate, unexamined retrieval route.",
+    "reference": "BnF Catalogue général: 1731 Imprimerie royale printing (filtered result 39, Acte 1731-02-24 Versailles); BnF Gallica ark:/12148/btv1b8602624n: 1733 printing; Columbia Law rare book 1505745: 1733 Paris Saugrain–Prault edition of the same 1731-02-24 act. Historical catalogue leads: Louisiana Historical Society, 1903 Colonial Exhibit catalogue, printed p.17, items 342 (23 Jan retrocession) and 345 (24 Feb debt decree), both credited to Mr. Gaspar Cusachs; Exposition Française de la Louisiane, 1904, printed p.21, item 72 lists the debt decree title/date without an item-level owner. BnF four-volume Recueil notice ark:/12148/cb338513279 (FRBNF33851327) remains a separate, unexamined retrieval route. Related LHC retrieval audit: RG377 accession T025.2003.112 (photocopied Library of Congress holdings; published contents list checked for 24 Feb 1731) and RG3 accessions 1852.30/1852.36; RG1 creditor/manumission collection-level lead. These are related archival routes, not identified witnesses to the 24 Feb decree. UW Libraries History Digital Collections guide lists LLMC Digital behind an authenticated UW proxy; Columbia's LLMC record 1338688796 availability in the UW instance is not confirmed. RG377 also lists 13 Aug 1729 in-kind supply terms and 30 Aug/6 Sep 1729 account-balancing/examination records (records 1729081301, 1729083001 and 1729090601); these are related financial-administration leads, not the 1731 debt decree.",
     "established": "Two bibliographically distinct printings are indexed for the same royal debt decree dated 24 February 1731: BnF lists a 1731 Imprimerie royale edition and a Gallica-linked 1733 edition, while Columbia Law catalogues a two-page 1733 Saugrain–Prault printing. This does not imply two separate laws. Separately, the 1903 Louisiana Historical Society loan-exhibit catalogue lists the 24 February decree as item 345 on printed p.17 and attributes it to Mr. Gaspar Cusachs; the same page lists the 23 January retrocession decree as item 342 with the same catalogue attribution. A 1904 Exposition Française de la Louisiane catalogue independently lists a debt decree with the same title/date as item 72 on printed p.21. These later catalogues establish historical exhibit/listing references only, not current custody, physical-copy identity, operative clauses or payment.",
-    "limitations": "Original operative clauses of either printing were not read; Gallica scan access was denied and the 1731 BnF catalogue result has no stable item-level permalink. No identified legal debtor, Crown assumption of corporate liabilities, debt amount, payment or actual disbursement is proven. The 1903 catalogue's Owner column is a historical attribution to Mr. Gaspar Cusachs, not a current location or complete chain of custody. The 1904 catalogue gives no item-level owner for item 72; its general preface thanks G. Cusachs for access to collections, but that does not justify assigning item 72 to him. The two catalogues do not prove that their entries refer to the same physical copy or to any BnF/Columbia/LLMC witness. The 1755–1756 BnF Recueil remains a separate unexamined retrieval route: its T.4 chronological table is catalogued, but no volume or index contents were read and the decree's presence in the Recueil is unverified. No debtor, amount, collection, receipt, payment, settlement or Crown assumption is established.",
+    "limitations": "Original operative clauses of either printing were not read; Gallica scan access was denied and the 1731 BnF catalogue result has no stable item-level permalink. No identified legal debtor, Crown assumption of corporate liabilities, debt amount, payment or actual disbursement is proven. The 1903 catalogue's Owner column is a historical attribution to Mr. Gaspar Cusachs, not a current location or complete chain of custody. The 1904 catalogue gives no item-level owner for item 72; its general preface thanks G. Cusachs for access to collections, but that does not justify assigning item 72 to him. The two catalogues do not prove that their entries refer to the same physical copy or to any BnF/Columbia/LLMC witness. The 1755–1756 BnF Recueil remains a separate unexamined retrieval route: its T.4 chronological table is catalogued, but no volume or index contents were read and the decree's presence in the Recueil is unverified. No debtor, amount, collection, receipt, payment, settlement or Crown assumption is established. The Louisiana State Museum Historical Center's RG377 finding aid (accession T025.2003.112) was examined: no 24 February 1731 item appears in its published contents list; the last listed item is a 28 February 1731 sailing instruction in Box 8. The summary states 9 boxes, but the online contents list has no Box 9 heading. This unresolved inventory discrepancy is not proof the decree is absent from the physical collection. RG3 audit/bookkeeping records and RG1 creditor/manumission records are related research leads only; no direct link to the 1731 decree, completed audit, actual balance, enforcement, payment or settlement is established. The UW guide confirms an authenticated LLMC Digital route, but not public access or availability of LLMC1338688796 in the UW instance. The RG377 finding aid also describes a 13 Aug 1729 order for Company-supplied enslaved people with payment terms in tobacco or local produce, plus 30 Aug and 6 Sep 1729 account-balancing/examination instructions. These are catalogue summaries only; no delivery, receipt, completed audit, account balance or payment is established, and no direct legal link to the 24 Feb 1731 decree is proven.",
     "sources": [
       "src-bnf-1733-company-debts",
       "src-columbia-1731-debt-printed-1733",
@@ -447,7 +447,11 @@
       "src-lhs-1903-cusachs-decree-exhibit",
       "src-bnf-company-indes-collection-context",
       "src-bnf-recuel-collection-notice",
-      "src-exposition-francaise-1904-catalogue"
+      "src-exposition-francaise-1904-catalogue",
+      "src-lsm-rg3-finding-aid-2013",
+      "src-lsm-rg377-finding-aid-2022",
+      "src-lsm-manuscript-collections-guide-2024",
+      "src-uw-llmc-digital-access-guide"
     ],
     "entities": [
       "ent-french-crown",
@@ -637,6 +641,92 @@
     "entities": [
       "ent-french-crown",
       "ent-salmon-edme-gatien"
+    ]
+  },
+  {
+    "id": "doc-035",
+    "date": "1725-12-11",
+    "place": "not specified in finding aid",
+    "title": "RG3 1852.30 — resolution concerning Company-furnished enslaved people not yet paid for (finding-aid abstract)",
+    "document_kind": "colonial_resolution_company_furnished_enslaved_people_not_paid",
+    "access_level": "archival_finding_aid_only",
+    "reference": "Louisiana State Museum Historical Center, French Manuscripts, Mississippi Valley, RG3, accession 1852.30; dated 11 Dec 1725; 4 pages. Collection on loan from the Louisiana Historical Society; finding aid states open for research. The 2024 LSM collection guide states RG3 has been microfilmed; reel identifier not supplied.",
+    "established": "The June 2013 RG3 finding aid describes accession 1852.30 as a resolution concerning enslaved people in Louisiana who had been furnished to residents by the Company of the Indies but had not been paid for; the abstract says those residents were prohibited from selling them. This is the finding aid's summary, not a transcription of the four-page document.",
+    "limitations": "Original four pages not examined. No individual people, price, account balance, legal debtor identity, actual enforcement, payment, settlement or connection to the 24 February 1731 decree is established. The finding aid uses colonial language that treats enslaved people as property; this administrative abstract is not their perspective. Pair this record with the RG1 petitions by enslaved people seeking manumission and community-aware scholarship; do not convert people into a neutral financial-flow entry.",
+    "sources": [
+      "src-lsm-rg3-finding-aid-2013",
+      "src-lsm-manuscript-collections-guide-2024"
+    ],
+    "entities": [
+      "ent-compagnie-indes-france"
+    ]
+  },
+  {
+    "id": "doc-036",
+    "date": "1729-02-15",
+    "place": "Paris (as stated in finding aid)",
+    "title": "RG377 1729021501 — instructions for general and special bookkeepers in Louisiana (finding-aid abstract)",
+    "document_kind": "company_bookkeeping_instructions",
+    "access_level": "archival_finding_aid_only",
+    "reference": "Louisiana State Museum Historical Center, Louisiana French Colonial Period Documents, RG377, accession T025.2003.112, record 1729021501; Series B43:846–864; 43 sheets. Finding aid says issued at Paris by the Company of the Indies; collection comprises photocopies from Library of Congress holdings and is open for research.",
+    "established": "The August 2022 RG377 finding aid describes instructions dated 15 February 1729 for general and special bookkeepers in Louisiana. Its abstract says they address cashiers, warehouse keepers, maritime trade, fortifications, company housing, active and inactive debts, ship expenses, payment of debts of the 'old company', payments in silver and bills, and slave cargoes. The phrase 'old company' is not identified in the finding aid.",
+    "limitations": "The 43 sheets and underlying Library of Congress originals were not examined. The finding-aid summary is not a transcription or financial statement. It establishes no named debtor, creditor balance, completed transaction, payment, settlement, Crown assumption or link to the 24 February 1731 decree. Do not equate 'old company' with a specific predecessor without reading the French text. The colonial accounting categories do not represent enslaved people's perspectives. The identity of the 'old company' is not established by the finding aid.",
+    "sources": [
+      "src-lsm-rg377-finding-aid-2022"
+    ],
+    "entities": [
+      "ent-compagnie-indes-france"
+    ]
+  },
+  {
+    "id": "doc-037",
+    "date": "1729-08-13",
+    "place": "Paris (as stated in finding aid)",
+    "title": "RG377 1729081301 — order for delivery of four enslaved people to Sieur D'Aquin with in-kind payment terms (finding-aid abstract)",
+    "document_kind": "company_order_for_in_kind_payment_for_enslaved_people",
+    "access_level": "archival_finding_aid_only",
+    "reference": "Louisiana State Museum Historical Center, Louisiana French Colonial Period Documents, RG377, accession T025.2003.112, record 1729081301; Series B43:868–869; 2 sheets. Finding aid says issued at Paris by the Company of the Indies.",
+    "established": "The August 2022 RG377 finding aid describes an order to deliver four enslaved people to Sieur D'Aquin, to be paid for in tobacco or other local produce at 1,000 livres each, collected from three consecutive harvests following delivery. These are catalogue-described contractual terms, not evidence of delivery or receipt.",
+    "limitations": "Finding-aid summary only; The original two sheets were not examined. No individual people are identified; no delivery, harvest collection, payment, amount paid, default, enforcement, account balance or connection to the 24 February 1731 decree is established. The livres figure is a catalogue-described price term, not a monetary payment or a verified financial flow. The colonial record treats enslaved people as property and does not convey their voices; seek related petitions and community-aware scholarship.",
+    "sources": [
+      "src-lsm-rg377-finding-aid-2022"
+    ],
+    "entities": [
+      "ent-compagnie-indes-france"
+    ]
+  },
+  {
+    "id": "doc-038",
+    "date": "1729-08-30",
+    "place": "Versailles (as stated in finding aid)",
+    "title": "RG377 1729083001 — order naming Sieur de Lorme to render and balance accounts in Louisiana (finding-aid abstract)",
+    "document_kind": "order_for_account_balancing_in_louisiana",
+    "access_level": "archival_finding_aid_only",
+    "reference": "Louisiana State Museum Historical Center, Louisiana French Colonial Period Documents, RG377, accession T025.2003.112, record 1729083001; Series B43:871–872; 3 sheets. Finding aid says issued at Versailles by CS (Council of State).",
+    "established": "The August 2022 RG377 finding aid describes an order naming Sieur de Lorme to render and balance accounts in Louisiana in place of Sieur de la Chaise and Sieur d'Auseville because they had too much to do. The item description does not specify which company or accounts.",
+    "limitations": "Finding-aid summary only; The original three sheets were not examined. The company identity, scope of accounts, completed balancing, results, balances, debtors, creditors, payments and relationship to the 14 October 1726 audit appointment or 24 February 1731 decree are not established. The company identity is not established by the finding aid.",
+    "sources": [
+      "src-lsm-rg377-finding-aid-2022"
+    ],
+    "entities": [
+      "ent-french-crown"
+    ]
+  },
+  {
+    "id": "doc-039",
+    "date": "1729-09-06",
+    "place": "Paris (as stated in finding aid)",
+    "title": "RG377 1729090601 — procedures for Sieur de Lorme to examine accounts (finding-aid abstract)",
+    "document_kind": "company_account_examination_procedures",
+    "access_level": "archival_finding_aid_only",
+    "reference": "Louisiana State Museum Historical Center, Louisiana French Colonial Period Documents, RG377, accession T025.2003.112, record 1729090601; Series B43:872–877; 12 sheets. Finding aid says issued at Paris by the Company of the Indies and contains 21 instructions.",
+    "established": "The August 2022 RG377 finding aid describes procedures governing Sieur de Lorme's examination of accounts, with 21 instructions to follow from the time he boarded La Baleyne at L'Orient. The same name and accounting subject appear in the 30 August 1729 order, but the direct relationship between the two records is not established by the finding aid.",
+    "limitations": "Finding-aid summary only; The original twelve sheets were not examined. No completed audit, findings, balance, debtor, creditor, payment, settlement or connection to the 24 February 1731 decree is established. The possible relationship to the 30 August 1729 order is a research hypothesis requiring comparison of the original French texts.",
+    "sources": [
+      "src-lsm-rg377-finding-aid-2022"
+    ],
+    "entities": [
+      "ent-compagnie-indes-france"
     ]
   }
 ]
