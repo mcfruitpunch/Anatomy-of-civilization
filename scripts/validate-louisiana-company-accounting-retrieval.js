@@ -39,6 +39,8 @@ function validate(data) {
   assert.equal(unpaid.amount_or_price_established, false);
   assert.equal(unpaid.payment_established, false);
   assert.equal(unpaid.connection_to_doc_024, 'unverified');
+  assert.equal(unpaid.microfilmed, true);
+  assert.equal(unpaid.microfilm_reel_identifier, 'not stated in the 2024 LSM guide');
   assert(/does not convey their voices/i.test(unpaid.human_context));
 
   const audit = get('lead-rg3-1726-company-account-audit-appointment');
@@ -49,6 +51,8 @@ function validate(data) {
   assert.equal(audit.original_text_examined, false);
   assert.equal(audit.completed_audit_established, false);
   assert.equal(audit.audit_results_established, false);
+  assert.equal(audit.microfilmed, true);
+  assert.equal(audit.microfilm_reel_identifier, 'not stated in the 2024 LSM guide');
 
   const books = get('lead-rg377-1729-bookkeeper-instructions');
   assert.equal(books.record_date, '1729-02-15');
