@@ -110,7 +110,7 @@ const rejectMutation = (id, mutate) => {
   const lead = bad.leads.find(x => x.id === id);
   assert(lead, 'Missing negative-test lead ' + id);
   mutate(lead);
-  assert.throws(() => validate(bad), 'Unsafe evidence promotion must be rejected: ' + id);
+  assert.throws(() => validate(bad));
 };
 rejectMutation('lead-rg377-1731-decree-inventory-check', x => { x.absence_from_physical_collection_proven = true; });
 rejectMutation('lead-rg377-1731-decree-inventory-check', x => { x.original_text_examined = true; });
