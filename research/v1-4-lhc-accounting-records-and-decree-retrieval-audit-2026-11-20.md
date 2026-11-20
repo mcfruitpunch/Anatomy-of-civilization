@@ -49,3 +49,16 @@ The Columbia Law Library catalogue identifies the two-page 1733 printing as LLMC
 5. For the standalone 1733 debt decree, use LLMC1338688796 only through a confirmed subscriber route or request a reproduction from Columbia/LLMC.
 
 No new financial-flow entry was created. The 1731 decree remains catalogue-only; no debt amount, payment, settlement or liability transfer was added.
+
+
+## Additional RG377 accounting sequence identified in the contents list
+
+The same August 2022 RG377 finding aid lists three further 1729 records directly relevant to Company accounting and credit administration:
+
+- **1729081301, 13 August 1729, Series B43:868–869, two sheets:** an order issued at Paris by the Company of the Indies to deliver four enslaved people to Sieur D'Aquin. The catalogue abstract describes payment in tobacco or other local produce at 1,000 livres each, collected from three consecutive harvests following delivery. This is a catalogue-described price/payment term only; it does not prove delivery, harvest collection or payment.
+- **1729083001, 30 August 1729, Series B43:871–872, three sheets:** an order issued at Versailles by the Council of State naming Sieur de Lorme to render and balance accounts in Louisiana in place of Sieur de la Chaise and Sieur d'Auseville because they had too much to do. The finding-aid description does not identify the company or accounts more precisely.
+- **1729090601, 6 September 1729, Series B43:872–877, twelve sheets:** procedures issued at Paris by the Company of the Indies for Sieur de Lorme to examine accounts, comprising 21 instructions from the time he boarded *La Baleyne* at L'Orient.
+
+The same person and accounting subject in the 30 August and 6 September entries suggest a possible administrative sequence, but the finding aid does not establish that the two records are legally linked or that an audit was completed. The original French sheets must be compared. The 1726 RG3 audit appointment (1852.36) is an earlier related lead, but the finding aid's generic “Company” wording does not justify assuming identical company identity or continuity of personnel.
+
+The 2024 LSM guide states that RG3 has been microfilmed; it does not provide a reel number. Request the microfilm identifier when requesting RG3 1852.30 and 1852.36.
