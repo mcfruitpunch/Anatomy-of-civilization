@@ -15,7 +15,7 @@ function validate(data) {
   assert.equal(documents.get('doc-024')?.access_level, 'catalogue_metadata_only',
     'The 1731 debt decree must remain catalogue-only until its operative text is read');
   assert.equal(ids.size, data.leads.length, 'Duplicate lead IDs');
-  assert.equal(data.leads.length, 6, 'Expected six bounded LHC/LLMC retrieval leads');
+  assert.equal(data.leads.length, 9, 'Expected nine bounded LHC/LLMC retrieval leads');
   for (const lead of data.leads) {
     assert(Array.isArray(lead.source_ids) && lead.source_ids.length > 0, lead.id + ': source IDs required');
     for (const sourceId of lead.source_ids) {
@@ -92,13 +92,42 @@ function validate(data) {
 
   const doc35 = documents.get('doc-035');
   const doc36 = documents.get('doc-036');
-  assert(doc35 && doc36, 'Both catalogue-level related documents must exist in archival_documents');
-  for (const d of [doc35, doc36]) {
+  const doc37 = documents.get('doc-037');
+  const doc38 = documents.get('doc-038');
+  const doc39 = documents.get('doc-039');
+  assert(doc35 && doc36 && doc37 && doc38 && doc39, 'All catalogue-level related documents must exist in archival_documents');
+  for (const d of [doc35, doc36, doc37, doc38, doc39]) {
     assert.equal(d.access_level, 'archival_finding_aid_only');
     assert(/finding aid|finding-aid/i.test(d.limitations), d.id + ': original text limitation required');
   }
   assert(/not.*payment|payment.*not/i.test(doc35.limitations));
   assert(/old company.*not.*(?:identified|established)|identity.*old company/i.test(doc36.limitations));
+  assert(/price term|not a monetary payment/i.test(doc37.limitations));
+  assert(/company identity.*not established|not established.*company identity/i.test(doc38.limitations));
+  assert(/possible relationship.*hypothesis|research hypothesis/i.test(doc39.limitations));
+
+  const inKind = get('lead-rg377-1729-in-kind-supply-order');
+  assert.equal(inKind.record_id, '1729081301');
+  assert.equal(inKind.series_reference, 'B43:868-869');
+  assert.equal(inKind.sheets, 2);
+  assert.equal(inKind.original_text_examined, false);
+  assert.equal(inKind.delivery_established, false);
+  assert.equal(inKind.payment_established, false);
+  assert.equal(inKind.price_term_is_not_payment, true);
+
+  const balance = get('lead-rg377-1729-lorme-account-balancing-order');
+  assert.equal(balance.record_id, '1729083001');
+  assert.equal(balance.company_identity_in_abstract, 'not_specified');
+  assert.equal(balance.completed_account_balancing_established, false);
+  assert.equal(balance.results_established, false);
+
+  const procedures = get('lead-rg377-1729-lorme-account-examination-procedures');
+  assert.equal(procedures.record_id, '1729090601');
+  assert.equal(procedures.series_reference, 'B43:872-877');
+  assert.equal(procedures.sheets, 12);
+  assert.equal(procedures.audit_completed_established, false);
+  assert.equal(procedures.audit_results_established, false);
+  assert.equal(procedures.relationship_to_1729_08_30_order, 'possible same-person/accounting sequence; not established');
   return true;
 }
 
@@ -116,6 +145,9 @@ rejectMutation('lead-rg377-1731-decree-inventory-check', x => { x.absence_from_p
 rejectMutation('lead-rg377-1731-decree-inventory-check', x => { x.original_text_examined = true; });
 rejectMutation('lead-rg3-1726-company-account-audit-appointment', x => { x.completed_audit_established = true; });
 rejectMutation('lead-rg377-1729-bookkeeper-instructions', x => { x.payments_established = true; });
+rejectMutation('lead-rg377-1729-in-kind-supply-order', x => { x.payment_established = true; });
+rejectMutation('lead-rg377-1729-lorme-account-balancing-order', x => { x.completed_account_balancing_established = true; });
+rejectMutation('lead-rg377-1729-lorme-account-examination-procedures', x => { x.audit_completed_established = true; });
 rejectMutation('lead-llmc-1733-subscriber-access', x => { x.public_access_established = true; });
 rejectMutation('lead-llmc-1733-subscriber-access', x => { x.item_availability_in_uw_instance = 'confirmed'; });
 
