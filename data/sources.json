@@ -1637,5 +1637,49 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Exposition_fran%C3%A7aise_de_la_Louisiane%2C_St._Louis%2C_1904_%28IA_expositionfran00newo%29.pdf",
     "locator": "Printed p. 21, Section I, b—Législation, item 72; PDF page index 24 (zero-based), page image visually examined 18 Nov 2026. It lists an Arrêt du Conseil d'Etat du Roy concerning payment of the Company's Louisiana debts, dated Paris, 24 February 1731. No item-level owner is supplied. The preface p. 2 thanks G. Cusachs for broad access to collections, but does not assign item 72 to him.",
     "reviewed": true
+  },
+  {
+    "id": "src-lsm-rg3-finding-aid-2013",
+    "type": "archival_finding_aid",
+    "title": "French Manuscripts, Mississippi Valley 1679–1769 (RG 3)",
+    "author": "Louisiana State Museum Historical Center",
+    "year": 2013,
+    "publisher": "Louisiana State Museum Historical Center",
+    "url": "https://crt.state.la.us/Assets/Museum/collections/historiccenter/manuscripts/RG_003.pdf",
+    "locator": "Finding aid dated June 2013, pp.1–4. Collection is on loan from the Louisiana Historical Society, 1 box/40 folders, open for research; accession 1852.30 is dated 11 Dec 1725 (4 pages) and accession 1852.36 is dated 14 Oct 1726 (2 pages). Finding-aid metadata only; neither document text was examined.",
+    "reviewed": true
+  },
+  {
+    "id": "src-lsm-rg377-finding-aid-2022",
+    "type": "archival_finding_aid",
+    "title": "Louisiana French Colonial Period Documents, RG 377 (1704–1731)",
+    "author": "Louisiana State Museum Historical Center",
+    "year": 2022,
+    "publisher": "Louisiana State Museum Historical Center",
+    "url": "https://static1.squarespace.com/static/58092328579fb31efea7a49e/t/62e947123dd395368a1a6003/1659455253461/RG_377.pdf",
+    "locator": "Finding aid dated August 2022. Descriptive summary: accession T025.2003.112, 4 linear feet/9 boxes, photocopies from Library of Congress holdings, open for research. Contents list: record 1729021501 (15 Feb 1729), Series B43:846–864, 43 sheets; final listed record 1731022801 (28 Feb 1731), Series B43:916–921, 12 sheets. No 24 Feb 1731 entry found in published contents list; summary says 9 boxes but no Box 9 heading appears. This is not proof of absence from the physical collection.",
+    "reviewed": true
+  },
+  {
+    "id": "src-lsm-manuscript-collections-guide-2024",
+    "type": "archival_collection_guide",
+    "title": "Louisiana State Museum Historical Center Manuscript Collections",
+    "author": "Louisiana State Museum Historical Center",
+    "year": 2024,
+    "publisher": "Louisiana State Museum",
+    "url": "https://louisianastatemuseum.org/sites/default/files/2024-04/LHC_ManuscriptCollections%5Benglish%5D.pdf",
+    "locator": "Current online collection guide, pp.1–2: RG1 (1714–1769; accessions 1848 and 1867; 108 linear feet, 216 boxes and 8 oversize boxes) includes creditor recovery cases, successions, commercial records and petitions by enslaved people requesting manumission. RG3 summary identifies the La Chaise/Perrault Company-account audit appointment. Collection-level description only; no individual RG1 case or manuscript examined.",
+    "reviewed": true
+  },
+  {
+    "id": "src-uw-llmc-digital-access-guide",
+    "type": "institutional_database_access_guide",
+    "title": "Digital Collections A–Z — History (LLMC Digital access route)",
+    "author": "University of Washington Libraries",
+    "year": 2026,
+    "publisher": "University of Washington Libraries",
+    "url": "https://guides.lib.uw.edu/research/history/hisdig",
+    "locator": "Page last updated 30 Oct 2026; lists LLMC Digital at the L entry and links through the UW off-campus Shibboleth proxy. This establishes an authenticated UW access route, not public access or confirmation that LLMC record 1338688796 is available in the UW instance.",
+    "reviewed": true
   }
 ]
