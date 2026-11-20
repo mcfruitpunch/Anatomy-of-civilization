@@ -1,0 +1,148 @@
+{
+  "version": "1.0",
+  "target_document": "doc-024",
+  "scope": "Related Louisiana State Museum archival access and company-accounting leads; all entries below are finding-aid or institutional access metadata, not newly examined original texts.",
+  "leads": [
+    {
+      "id": "lead-rg3-1725-company-furnished-enslaved-people",
+      "record_date": "1725-12-11",
+      "repository": "Louisiana State Museum Historical Center",
+      "collection": "French Manuscripts, Mississippi Valley",
+      "record_group": "RG3",
+      "accession": "1852.30",
+      "pages": 4,
+      "evidence_level": "finding_aid_only",
+      "finding_aid_summary": "Resolution concerning enslaved people in Louisiana furnished by the Company of the Indies to residents who had not paid; the finding-aid abstract says those residents were prohibited from selling them.",
+      "company_named_in_finding_aid": "Company of the Indies",
+      "original_text_examined": false,
+      "individuals_identified": false,
+      "amount_or_price_established": false,
+      "payment_established": false,
+      "connection_to_doc_024": "unverified",
+      "source_ids": [
+        "src-lsm-rg3-finding-aid-2013",
+        "src-lsm-manuscript-collections-guide-2024"
+      ],
+      "human_context": "The colonial finding-aid language treats enslaved people as property and does not convey their voices. The 2024 LSM guide separately identifies petitions by enslaved people requesting manumission in RG1; pair administrative orders with those petitions and community-aware scholarship.",
+      "next_action": "Request the four pages of RG3 accession 1852.30; identify the exact issuer and French wording; search RG1 for related petitions, successions and enforcement records without assuming a particular person's identity or payment."
+    },
+    {
+      "id": "lead-rg3-1726-company-account-audit-appointment",
+      "record_date": "1726-10-14",
+      "repository": "Louisiana State Museum Historical Center",
+      "collection": "French Manuscripts, Mississippi Valley",
+      "record_group": "RG3",
+      "accession": "1852.36",
+      "pages": 2,
+      "evidence_level": "finding_aid_only",
+      "finding_aid_summary": "Appointing La Chaise and Perrault to audit the accounts of the Company.",
+      "company_named_in_finding_aid": "generic_company_not_specified",
+      "original_text_examined": false,
+      "completed_audit_established": false,
+      "audit_results_established": false,
+      "source_ids": [
+        "src-lsm-rg3-finding-aid-2013",
+        "src-lsm-manuscript-collections-guide-2024"
+      ],
+      "next_action": "Request both pages; identify the appointing authority, exact company name, audit scope and whether a separate audit report or correspondence survives. Do not infer that an audit was completed."
+    },
+    {
+      "id": "lead-rg377-1729-bookkeeper-instructions",
+      "record_date": "1729-02-15",
+      "repository": "Louisiana State Museum Historical Center",
+      "collection": "Louisiana French Colonial Period Documents",
+      "record_group": "RG377",
+      "accession": "T025.2003.112",
+      "record_id": "1729021501",
+      "series_reference": "B43:846-864",
+      "sheets": 43,
+      "evidence_level": "finding_aid_only_photocopy_description",
+      "issued_by": "Company of the Indies (as finding aid states)",
+      "place": "Paris (as finding aid states)",
+      "finding_aid_summary": "Instructions for general and special bookkeepers in Louisiana; the abstract covers active/inactive debts, payment of debts of the 'old company', payments in silver and bills, ship expenses and slave cargoes.",
+      "original_text_examined": false,
+      "balances_established": false,
+      "payments_established": false,
+      "identity_of_old_company": "not_resolved",
+      "source_ids": [
+        "src-lsm-rg377-finding-aid-2022"
+      ],
+      "next_action": "Request all 43 sheets and the underlying Library of Congress series/call number; transcribe the French terms for debts, cash, bills and the 'old company' before drawing any corporate-liability conclusion."
+    },
+    {
+      "id": "lead-rg377-1731-decree-inventory-check",
+      "target_document": "doc-024",
+      "repository": "Louisiana State Museum Historical Center",
+      "collection": "Louisiana French Colonial Period Documents",
+      "record_group": "RG377",
+      "accession": "T025.2003.112",
+      "collection_date_range": "1704-1731",
+      "summary_extent": "4 linear feet; 9 boxes",
+      "copy_origin": "Photocopied from Library of Congress holdings",
+      "access_status": "open_for_research_as_finding_aid_states",
+      "published_contents_check": {
+        "search_date": "2026-11-20",
+        "terms": [
+          "February 24, 1731",
+          "February 1731",
+          "17310224"
+        ],
+        "matching_entry_found": false,
+        "summary_box_count": 9,
+        "box_9_heading_found": false,
+        "last_listed_item": {
+          "id": "1731022801",
+          "date": "1731-02-28",
+          "box": "Box 8",
+          "series_reference": "B43:916-921",
+          "sheets": 12,
+          "description": "Instructions for Sieur Kerguenalle, commander of Le Dromadaire."
+        }
+      },
+      "original_text_examined": false,
+      "absence_from_physical_collection_proven": false,
+      "source_ids": [
+        "src-lsm-rg377-finding-aid-2022"
+      ],
+      "next_action": "Ask LHC to reconcile the nine-box extent with the published contents list (which has no Box 9 heading), inspect any unlisted/ninth-box material, and confirm whether any misdated or supplemental item is the 24 February decree. Do not treat this negative catalogue search as proof of absence."
+    },
+    {
+      "id": "lead-rg1-creditor-and-manumission-records",
+      "repository": "Louisiana State Museum Historical Center",
+      "collection": "Judicial Records of the French Superior Council",
+      "record_group": "RG1",
+      "accessions": [
+        "1848",
+        "1867"
+      ],
+      "date_range": "1714-1769",
+      "extent": "108 linear feet; 216 boxes; 8 oversize boxes",
+      "evidence_level": "collection_guide_only",
+      "finding_aid_summary": "The 2024 LSM collection guide says most cases concern creditors seeking recovery of unpaid debts; it also identifies successions, commercial records and petitions by enslaved people requesting manumission.",
+      "individual_cases_identified": false,
+      "original_records_examined": false,
+      "access_status": "not_specified_in_guide",
+      "source_ids": [
+        "src-lsm-manuscript-collections-guide-2024"
+      ],
+      "human_context": "The collection may preserve both creditor-side litigation and petitions by enslaved people. Search those records as distinct legal and human experiences; do not assume a creditor index captures the people subject to colonial coercion.",
+      "next_action": "Ask the archivist to search indexes for Company of Indies, Company notes/bills, creditor suits and successions dated 1731-1736; separately identify manumission petitions and preserve petitioners' own language."
+    },
+    {
+      "id": "lead-llmc-1733-subscriber-access",
+      "target_document": "doc-024",
+      "columbia_catalogue_record": "1505745",
+      "llmc_record_id": "LLMC1338688796",
+      "institutional_route": "University of Washington Libraries lists LLMC Digital and links through its off-campus Shibboleth proxy.",
+      "uw_access_status": "authenticated_UW_route",
+      "item_availability_in_uw_instance": "not_confirmed",
+      "public_access_established": false,
+      "original_text_examined": false,
+      "source_ids": [
+        "src-columbia-1731-debt-printed-1733",
+        "src-uw-llmc-digital-access-guide"
+      ],
+      "next_action": "A UW-affiliated researcher can query LLMC Digital for 1338688796 and confirm item availability; otherwise request a reproduction through Columbia/LLMC. Do not describe this as public access or a confirmed UW copy."
+    }
+  ]
+}
