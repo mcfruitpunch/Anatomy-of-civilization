@@ -62,7 +62,9 @@
         "src-lsm-manuscript-collections-guide-2024"
       ],
       "human_context": "The colonial finding-aid language treats enslaved people as property and does not convey their voices. The 2024 LSM guide separately identifies petitions by enslaved people requesting manumission in RG1; pair administrative orders with those petitions and community-aware scholarship.",
-      "next_action": "Request the four pages of RG3 accession 1852.30; identify the exact issuer and French wording; search RG1 for related petitions, successions and enforcement records without assuming a particular person's identity or payment."
+      "next_action": "Request the four pages of RG3 accession 1852.30; identify the exact issuer and French wording; search RG1 for related petitions, successions and enforcement records without assuming a particular person's identity or payment. The 2024 LSM guide says RG3 has been microfilmed; request the reel identifier and determine whether it can be consulted or borrowed.",
+      "microfilmed": true,
+      "microfilm_reel_identifier": "not stated in the 2024 LSM guide"
     },
     {
       "id": "lead-rg3-1726-company-account-audit-appointment",
@@ -82,7 +84,9 @@
         "src-lsm-rg3-finding-aid-2013",
         "src-lsm-manuscript-collections-guide-2024"
       ],
-      "next_action": "Request both pages; identify the appointing authority, exact company name, audit scope and whether a separate audit report or correspondence survives. Do not infer that an audit was completed."
+      "next_action": "Request both pages; identify the appointing authority, exact company name, audit scope and whether a separate audit report or correspondence survives. Do not infer that an audit was completed. The 2024 LSM guide says RG3 has been microfilmed; request the reel identifier and determine whether it can be consulted or borrowed.",
+      "microfilmed": true,
+      "microfilm_reel_identifier": "not stated in the 2024 LSM guide"
     },
     {
       "id": "lead-rg377-1729-bookkeeper-instructions",
