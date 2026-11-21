@@ -7,6 +7,11 @@ const load = name => JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data
 const register = load('louisiana_company_accounting_retrieval_leads');
 const documents = new Map(load('archival_documents').map(d => [d.id, d]));
 const sources = new Map(load('sources').map(s => [s.id, s]));
+const extracts = new Map(load('source_extracts').map(x => [x.id, x]));
+const events = new Map(load('events').map(x => [x.id, x]));
+const cases = new Map(load('cases').map(x => [x.id, x]));
+const flows = load('financial_flows');
+const ledger = load('louisiana_liability_ledger');
 
 function validate(data) {
   const ids = new Set(data.leads.map(x => x.id));
@@ -15,7 +20,7 @@ function validate(data) {
   assert.equal(documents.get('doc-024')?.access_level, 'catalogue_metadata_only',
     'The 1731 debt decree must remain catalogue-only until its operative text is read');
   assert.equal(ids.size, data.leads.length, 'Duplicate lead IDs');
-  assert.equal(data.leads.length, 9, 'Expected nine bounded LHC/LLMC retrieval leads');
+  assert.equal(data.leads.length, 10, 'Expected ten bounded LHC/LLMC retrieval leads');
   for (const lead of data.leads) {
     assert(Array.isArray(lead.source_ids) && lead.source_ids.length > 0, lead.id + ': source IDs required');
     for (const sourceId of lead.source_ids) {
@@ -125,6 +130,55 @@ function validate(data) {
   assert.equal(balance.completed_account_balancing_established, false);
   assert.equal(balance.results_established, false);
 
+  const receipt = get('lead-lhc-1736-labbe-guillon-receipt');
+  assert.equal(receipt.record_id, '1736-08-20-04');
+  assert.equal(receipt.record_date, '1736-08-20');
+  assert.equal(receipt.card_number, '#6022');
+  assert.equal(receipt.displayed_pages, 3);
+  assert.equal(receipt.evidence_level, 'index_card_transcribed_manuscript_images_previewed_not_transcribed');
+  assert.equal(receipt.card_origin_verified, false);
+  assert.equal(receipt.original_manuscript_transcribed, false);
+  assert.equal(receipt.preservation_tiff_accessed, false);
+  assert.equal(receipt.payment_established, false);
+  assert.equal(receipt.debt_direction_verified, false);
+  assert.equal(receipt.connection_to_doc_024, 'not_established');
+  assert.equal(receipt.reported_debt_amount.value, 5845);
+  assert.equal(receipt.reported_debt_amount.unit, 'livres');
+  assert.equal(receipt.reported_debt_amount.verification, 'index_card_only_not_original_account');
+  assert.equal(receipt.cited_periodical.volume, 8);
+  assert.equal(receipt.cited_periodical.issue, 3);
+  assert.equal(receipt.cited_periodical.month, 'July');
+  assert.equal(receipt.cited_periodical.year, 1925);
+  assert.equal(receipt.cited_periodical.page, 489);
+  assert.equal(receipt.cited_periodical.printed_page_examined, false);
+  assert.equal(receipt.manuscript_image_urls.length, 2);
+  assert(/600 dpi TIFF/i.test(receipt.next_action));
+  assert(/not.*payment|payment.*not/i.test(receipt.next_action));
+
+  const doc27 = documents.get('doc-027');
+  assert.equal(doc27?.access_level, 'index_card_transcribed_manuscript_images_previewed_not_transcribed');
+  assert(/5845 livres/.test(doc27?.established || ''));
+  assert(/not.*payment|payment.*not/i.test(doc27?.limitations || ''));
+  const extract = extracts.get('extract-013');
+  assert.equal(extract?.reading_level, 'institutional_index_card_transcription_not_original_manuscript');
+  assert.equal(extract?.date_role, 'archive_record_date_not_verified_transaction_date');
+  assert((extract?.transcription || '').includes('Receipt to Jean Labbe'));
+  assert((extract?.transcription || '').includes('5845 livres'));
+  assert.equal(extract?.reported_numbers?.[0]?.unit, 'livres_index_card_reported_debt_not_verified');
+  for (const field of ['card_origin_verified','original_manuscript_transcribed','legal_liability_verified','payment_verified','financial_ledger_entry_created']) assert.equal(extract?.[field], false);
+  const event = events.get('evt-1736-guillon-labbe-receipt-index-card');
+  assert.equal(event?.date, '1736-08-20');
+  assert.equal(event?.date_role, 'archive_record_date_not_verified_transaction_date');
+  assert(cases.get('retrocession1731')?.events.includes(event?.id));
+  const row = ledger.find(x => x.document === 'doc-027');
+  assert.equal(row?.review, 'index_card_transcribed_manuscript_unread');
+  for (const field of ['paid','transfer','liable']) assert.equal(row?.[field], null);
+  assert(!flows.some(f => (f.sources || []).includes('src-lcd-guillon-labbe-receipt-1736')),
+    'An index card must not become a financial flow or verified payment');
+  const debtDecree = documents.get('doc-024');
+  assert.equal(debtDecree?.access_level, 'catalogue_metadata_only',
+    'The 1736 receipt cannot promote the 1731 decree to text-examined status');
+
   const procedures = get('lead-rg377-1729-lorme-account-examination-procedures');
   assert.equal(procedures.record_id, '1729090601');
   assert.equal(procedures.series_reference, 'B43:872-877');
@@ -154,5 +208,11 @@ rejectMutation('lead-rg377-1729-lorme-account-balancing-order', x => { x.complet
 rejectMutation('lead-rg377-1729-lorme-account-examination-procedures', x => { x.audit_completed_established = true; });
 rejectMutation('lead-llmc-1733-subscriber-access', x => { x.public_access_established = true; });
 rejectMutation('lead-llmc-1733-subscriber-access', x => { x.item_availability_in_uw_instance = 'confirmed'; });
+rejectMutation('lead-lhc-1736-labbe-guillon-receipt', x => { x.payment_established = true; });
+rejectMutation('lead-lhc-1736-labbe-guillon-receipt', x => { x.original_manuscript_transcribed = true; });
+rejectMutation('lead-lhc-1736-labbe-guillon-receipt', x => { x.connection_to_doc_024 = 'established'; });
+rejectMutation('lead-lhc-1736-labbe-guillon-receipt', x => { x.debt_direction_verified = true; });
+rejectMutation('lead-lhc-1736-labbe-guillon-receipt', x => { x.reported_debt_amount.verification = 'original_text_transcribed'; });
 
-console.log('OK: LHC RG3/RG377/RG1 and LLMC leads remain finding-aid or authenticated-access metadata; no decree text, audit result, payment or item-level absence is claimed');
+
+console.log('OK: LHC RG3/RG377/RG1 and LLMC leads remain finding-aid or authenticated-access metadata; no decree text, audit result, verified payment or item-level absence is claimed; the 1736 Labbé/Guillon receipt remains index-card-level');
