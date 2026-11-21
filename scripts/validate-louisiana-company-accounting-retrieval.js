@@ -157,7 +157,7 @@ function validate(data) {
 
   const doc27 = documents.get('doc-027');
   assert.equal(doc27?.access_level, 'index_card_transcribed_manuscript_images_previewed_not_transcribed');
-  assert(/5845 livres/.test(doc27?.established || ''));
+  assert(/5,845-livre/.test(doc27?.established || ''));
   assert(/not.*payment|payment.*not/i.test(doc27?.limitations || ''));
   const extract = extracts.get('extract-013');
   assert.equal(extract?.reading_level, 'institutional_index_card_transcription_not_original_manuscript');
