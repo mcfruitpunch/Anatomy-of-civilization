@@ -204,3 +204,33 @@ The public record remains doc-029; its review level is now index_card_transcribe
 
 - Further RG377 entries identified on 20 Nov 2026: 1729081301 (13 Aug 1729; Series B43:868–869; 2 sheets), an order for four enslaved people with catalogue-described in-kind payment terms of tobacco or local produce at 1,000 livres each over three harvests after delivery; 1729083001 (30 Aug 1729; B43:871–872; 3 sheets), an order naming Sieur de Lorme to render and balance Louisiana accounts; and 1729090601 (6 Sep 1729; B43:872–877; 12 sheets), 21 procedures for de Lorme to examine accounts. These are finding-aid descriptions only: no delivery, payment, completed audit, account balance or direct connection to the 1731 decree is established. The 30 Aug/6 Sep relationship remains a hypothesis for original-text comparison.
 - The 2024 LSM guide states RG3 has been microfilmed; the guide does not give a reel identifier. Request the reel number alongside RG3 accessions 1852.30 and 1852.36.
+
+
+## 21 November 2026: upgrade the 1736 Guillon–Labbé receipt lead from catalogue to index-card evidence
+
+The [Louisiana Historical Center record 1736-08-20-04](https://lacolonialdocs.org/document/2689) is dated **20 August 1736**, is attributed to the French Superior Council in New Orleans, and is categorized by the archive as **Private Documents, Receipt**. I opened the three displayed 800x0 JPEG derivatives: typed English index card **#6022** and two handwritten manuscript-page images.
+
+The card's exact summary reads:
+
+> Receipt to Jean Labbe for price of negro sold to Guillon, which was part of the 5845 livres for which Labe was indebted to the Company.
+
+The card also cites *Louisiana Historical Quarterly*, vol. 8, no. 3 (July 1925), p. 489, “2nd Doc.” The Louisiana Historical Center's [journal inventory](https://static1.squarespace.com/static/58092328579fb31efea7a49e/t/5f5a551feaa9c51a0d6442de/1599755552950/LHCLHQInventory.pdf), first table, lines 34–37, independently confirms that volume 8, no. 3 is the July 1925 issue. The printed page 489 and the two handwritten pages were **not** transcribed.
+
+### What is documented at this evidence level
+
+- The LHC record page's date, archive category, source field and indexed names.
+- The exact English index-card wording and its reported 5,845-livre indebtedness.
+- Two handwritten page-image derivatives exist and were opened; their text remains unread.
+- The card's bibliographic pointer to LHQ 8.3, July 1925, p.489, second document; the LHC inventory confirms the issue's existence.
+
+### What is not established
+
+The card does **not** verify the 5,845-livre balance, the separate sale price, payer/payee roles, the receipt's legal effect, whether money or another form of consideration was delivered, whether the price was credited to the Company's account, or whether any debt was discharged. The record date is not proven to be the sale or payment date. No link to the 24 February 1731 decree is established. No financial-flow row was created; the ledger's `paid`, `transfer` and `liable` fields remain null.
+
+The card uses a colonial term for an unnamed person and does not preserve that person's voice. The LHC [digitization and indexing method](https://www.lacolonialdocs.org/post/8/the-process) says written preservation masters are 600 dpi TIFFs and that initial indexes used WPA synoptic summaries; it warns that those abstracts omit many enslaved people's and women's names. That warning is relevant to the archive as a whole, but this specific card is **not proven to be a WPA abstract**. The original manuscript pages, not this card, must be read before interpreting the transaction.
+
+### Retrieval request now specified
+
+Request the 600 dpi preservation TIFF masters for record ID `1736_08_20_04` and ask the archivist to confirm the page/side filenames under the published convention. Obtain LHQ vol. 8, no. 3 (July 1925), p. 489, second document. Compare the 1925 printed item, the original French pages and WPA Black Book 26 (1736 August) as distinct witnesses. Determine whether the original text records a receipt, a credit against the reported debt, or another legal act. Do not connect this record to the 1731 decree unless its original wording supplies an explicit cross-reference.
+
+**Implementation:** `doc-027` now has access level `index_card_transcribed_manuscript_images_previewed_not_transcribed`; `extract-013` transcribes only the card; the ledger review level is upgraded but all payment/transfer/liability values remain null. A new retrieval lead and negative validator fixtures prevent the card from being promoted to an original transcription, a verified debt balance, a payment, or a witness to the 1731 decree.
