@@ -1681,5 +1681,27 @@
     "url": "https://guides.lib.uw.edu/research/history/hisdig",
     "locator": "Page last updated 30 Oct 2026; lists LLMC Digital at the L entry and links through the UW off-campus Shibboleth proxy. This establishes an authenticated UW access route, not public access or confirmation that LLMC record 1338688796 is available in the UW instance.",
     "reviewed": true
+  },
+  {
+    "id": "src-lcd-guillon-labbe-receipt-1736",
+    "type": "institutional_primary_manuscript_record_with_index_card_and_image_derivatives",
+    "title": "Louisiana Historical Center record 1736-08-20-04: receipt index card #6022 and two manuscript-page image derivatives",
+    "author": "Louisiana Historical Center / Louisiana Colonial Documents Digitization Project",
+    "year": null,
+    "publisher": "Louisiana State Museum",
+    "url": "https://lacolonialdocs.org/document/2689",
+    "locator": "Record page accessed 21 Nov 2026: French Superior Council source field; New Orleans; date 20 Aug 1736; three displayed pages; archive category “Private Documents, Receipt.” First image is English typed index card #6022: “Receipt to Jean Labbe for price of negro sold to Guillon, which was part of the 5845 livres for which Labe was indebted to the Company.” Observed 800x0 JPEG derivatives: index card https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-127962.jpg; two handwritten page images https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-127960.jpg and https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-127961.jpg. Both manuscript pages were opened but not reliably transcribed. The card cites Louisiana Historical Quarterly, vol. 8, no. 3 (July 1925), p. 489, second document; the LHC journal inventory confirms that issue exists but its page 489 was not examined. The LHC process page states written preservation masters are 600 dpi TIFFs and describes a document/page/side filename convention; no master TIFF was accessed and no public master-image URL is known. The card's author/date and relationship to WPA summaries are not established. Separate LHC person-index route https://lacolonialdocs.org/person/32026/for/documents/2689 also lists record 1736-08-20-04 under a Guillon entry; this is an index association only, not a personal identity or role verified from the manuscript.",
+    "reviewed": true
+  },
+  {
+    "id": "src-lcd-lhq-inventory-2020",
+    "type": "archival_periodical_inventory",
+    "title": "Louisiana Historical Center: Inventory of Louisiana Historical Quarterly journals",
+    "author": "Louisiana Historical Center",
+    "year": null,
+    "publisher": "Louisiana State Museum",
+    "url": "https://static1.squarespace.com/static/58092328579fb31efea7a49e/t/5f5a551feaa9c51a0d6442de/1599755552950/LHCLHQInventory.pdf",
+    "locator": "First table, PDF text lines 34–37: Louisiana Historical Quarterly volume 8, nos. 1–4 are listed for January, April, July and October 1925; specifically vol. 8, no. 3 is July 1925. This confirms the issue cited by LHC card #6022 exists in the Center's journal inventory. The inventory does not expose the contents of p. 489, identify the second document, or prove that the receipt was printed there; the issue page itself was not examined.",
+    "reviewed": true
   }
 ]

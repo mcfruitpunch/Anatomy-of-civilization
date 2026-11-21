@@ -24,7 +24,7 @@ const reviewByDocument = new Map([
   ['doc-031', 'catalogue'],  // Aug 6 1735 indexed promissory note; contractual roles unread
   ['doc-032', 'catalogue'],  // Sep 1 1735 indexed promissory note; contractual roles unread
   ['doc-026', 'catalogue'],  // Oct 19 1735 indexed creditors' agreement; no clauses read
-  ['doc-027', 'catalogue'],  // Aug 20 1736 indexed receipt; payer/payee unknown
+  ['doc-027', 'index_card_transcribed_manuscript_unread'],  // Aug 20 1736 card #6022 transcribed; two manuscript pages unread; no payment verified
   ['doc-028', 'catalogue'],  // May 11 1737 indexed receipt; payer/payee unknown
 ]);
 
@@ -134,7 +134,12 @@ assert.throws(() => verify({...creditLetter, review: 'original_letter_transcribe
 for (const docId of ['doc-027', 'doc-028']) {
   const row = rows.find(r => r.document === docId);
   assert(row, 'Indexed receipt lead missing: ' + docId);
-  assert.equal(row.review, 'catalogue');
+  assert.equal(row.review, docId === 'doc-027' ? 'index_card_transcribed_manuscript_unread' : 'catalogue');
+  if (docId === 'doc-027') {
+    assert.equal(byDocument.get('doc-027')?.access_level, 'index_card_transcribed_manuscript_images_previewed_not_transcribed');
+    assert(/5,845-livre/.test(byDocument.get('doc-027')?.established || ''));
+    assert(/not a verified account balance.*amount paid/i.test(byDocument.get('doc-027')?.limitations || ''));
+  }
   for (const field of ['paid', 'transfer', 'liable']) {
     assert.throws(() => verify({...row, [field]: 'Company of Indies'}));
   }
