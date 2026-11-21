@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "target_document": "doc-024",
-  "scope": "Related Louisiana State Museum archival access and company-accounting leads; all entries below are finding-aid or institutional access metadata, not newly examined original texts.",
+  "scope": "Related Louisiana State Museum archival access, finding-aid and mediated index-card leads; none of these entries is a newly transcribed original text or, without an explicit cross-reference, an identified witness to the 24 February 1731 decree.",
   "leads": [
     {
       "id": "lead-llmc-1733-subscriber-access",
@@ -219,6 +219,55 @@
         "src-lsm-rg377-finding-aid-2022"
       ],
       "next_action": "Ask LHC to reconcile the nine-box extent with the published contents list (which has no Box 9 heading), inspect any unlisted/ninth-box material, and confirm whether any misdated or supplemental item is the 24 February decree. Do not treat this negative catalogue search as proof of absence."
+    },
+    {
+      "id": "lead-lhc-1736-labbe-guillon-receipt",
+      "target_document": "doc-024",
+      "repository": "Louisiana State Museum / Louisiana Historical Center",
+      "collection": "French Superior Council records",
+      "record_id": "1736-08-20-04",
+      "record_date": "1736-08-20",
+      "record_page_url": "https://lacolonialdocs.org/document/2689",
+      "archive_category": "Private Documents, Receipt",
+      "displayed_pages": 3,
+      "card_number": "#6022",
+      "card_image_url": "https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-127962.jpg",
+      "manuscript_image_urls": [
+        "https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-127960.jpg",
+        "https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-127961.jpg"
+      ],
+      "evidence_level": "index_card_transcribed_manuscript_images_previewed_not_transcribed",
+      "card_summary": "Receipt to Jean Labbe for price of negro sold to Guillon, which was part of the 5845 livres for which Labe was indebted to the Company.",
+      "reported_debt_amount": {
+        "value": 5845,
+        "unit": "livres",
+        "verification": "index_card_only_not_original_account"
+      },
+      "card_origin_verified": false,
+      "original_manuscript_transcribed": false,
+      "preservation_tiff_accessed": false,
+      "payment_established": false,
+      "debt_direction_verified": false,
+      "connection_to_doc_024": "not_established",
+      "cited_periodical": {
+        "title": "Louisiana Historical Quarterly",
+        "volume": 8,
+        "issue": 3,
+        "month": "July",
+        "year": 1925,
+        "page": 489,
+        "document_position": "second document",
+        "issue_existence_confirmed_by_lhc_inventory": true,
+        "printed_page_examined": false
+      },
+      "source_ids": [
+        "src-lcd-guillon-labbe-receipt-1736",
+        "src-lcd-indexing-method-and-wpa",
+        "src-lcd-lhq-inventory-2020",
+        "src-lcd-company-1735-1737-index"
+      ],
+      "human_context": "The index card uses a colonial term for an unnamed person and does not preserve that person's voice. The LHC warns that WPA-era summaries omit many enslaved people's and women's names, but this specific card's origin is not established. Pair the administrative record with RG1 manumission petitions and descendant/community-aware scholarship; do not infer consent, identity or a completed payment.",
+      "next_action": "Request preservation-quality 600 dpi TIFF masters for record 1736-08-20-04 and ask the archivist to confirm the page/side filenames under the published naming convention. Obtain Louisiana Historical Quarterly vol. 8, no. 3 (July 1925), p. 489, second document, which the card cites and the LHC inventory confirms exists. Read both handwritten pages, compare the printed 1925 item, and check WPA Black Book 26 only as a separate mediated aid. Establish whether the document records a receipt, a credit, or another legal act before entering any payment or liability. Do not link it to the 24 February 1731 decree unless the original text supplies an explicit cross-reference."
     }
   ]
 }
