@@ -270,7 +270,7 @@
       "next_action": "Request preservation-quality 600 dpi TIFF masters for record 1736-08-20-04 and ask the archivist to confirm the page/side filenames under the published naming convention. Obtain Louisiana Historical Quarterly vol. 8, no. 3 (July 1925), p. 489, second document, which the card cites and the LHC inventory confirms exists. Read both handwritten pages, compare the printed 1925 item, and check WPA Black Book 26 only as a separate mediated aid. Establish whether the document records a receipt, a credit, or another legal act before entering any payment or liability. Do not enter a payment or liability from the card alone. Do not link it to the 24 February 1731 decree unless the original text supplies an explicit cross-reference.",
       "guillon_person_index_url": "https://lacolonialdocs.org/person/32026/for/documents/2689",
       "person_index_page_id": 32026,
-      "person_index_association": "This index route returns record 1736-08-20-04 under a Guillon entry; identity and role in the original receipt are not verified.",
+      "person_index_association": "This is an index association only: the person-index route returns record 1736-08-20-04 under a Guillon entry; identity and role in the original receipt are not verified.",
       "person_index_identity_verified": false
     }
   ]
