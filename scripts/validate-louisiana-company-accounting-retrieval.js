@@ -142,6 +142,9 @@ function validate(data) {
   assert.equal(receipt.payment_established, false);
   assert.equal(receipt.debt_direction_verified, false);
   assert.equal(receipt.connection_to_doc_024, 'not_established');
+  assert.equal(receipt.person_index_page_id, 32026);
+  assert.equal(receipt.person_index_identity_verified, false);
+  assert(/index association only/i.test(receipt.person_index_association));
   assert.equal(receipt.reported_debt_amount.value, 5845);
   assert.equal(receipt.reported_debt_amount.unit, 'livres');
   assert.equal(receipt.reported_debt_amount.verification, 'index_card_only_not_original_account');
@@ -157,6 +160,7 @@ function validate(data) {
 
   const doc27 = documents.get('doc-027');
   assert.equal(doc27?.access_level, 'index_card_transcribed_manuscript_images_previewed_not_transcribed');
+  assert.deepEqual(doc27?.entities, ['ent-compagnie-indes-france'], 'A repository collection is not automatically a party to a private receipt');
   assert(/5,845-livre/.test(doc27?.established || ''));
   assert(/not a verified account balance.*amount paid/i.test(doc27?.limitations || ''));
   const extract = extracts.get('extract-013');
@@ -169,6 +173,7 @@ function validate(data) {
   const event = events.get('evt-1736-guillon-labbe-receipt-index-card');
   assert.equal(event?.date, '1736-08-20');
   assert.equal(event?.date_role, 'archive_record_date_not_verified_transaction_date');
+  assert.deepEqual(event?.entities, ['ent-compagnie-indes-france']);
   assert(cases.get('retrocession1731')?.events.includes(event?.id));
   const row = ledger.find(x => x.document === 'doc-027');
   assert.equal(row?.review, 'index_card_transcribed_manuscript_unread');
