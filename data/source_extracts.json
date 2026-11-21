@@ -330,5 +330,38 @@
     "legal_liability_verified": false,
     "payment_verified": false,
     "financial_ledger_entry_created": false
+  },
+  {
+    "id": "extract-013",
+    "title": "Index card #6022 reports a 1736 receipt involving Jean Labbe, Guillon and a Company debt; manuscript unread",
+    "date": "1736-08-20",
+    "date_role": "archive_record_date_not_verified_transaction_date",
+    "place": "New Orleans, Province of Louisiana (archive record context)",
+    "record_kind": "institutional_index_card_summary_of_private_receipt",
+    "reading_level": "institutional_index_card_transcription_not_original_manuscript",
+    "language_original": "en",
+    "paraphrase": "The Louisiana Historical Center dates record 1736-08-20-04 to 20 August 1736 and categorizes it as a private receipt. Its first displayed image is typed English index card #6022. The card says a receipt to Jean Labbe concerned the price of a person the card calls “negro,” sold to Guillon, and that this formed part of the 5,845 livres for which Labe was indebted to the Company. This is an index-card report, not a transcription of the two handwritten pages. The 5,845 livres is reported indebtedness, not a verified balance or payment; the card does not establish whether the sale proceeds were received or credited to the Company.",
+    "transcription": "#6022\nYEAR 1736 AUGUST 20\nReceipt to Jean Labbe for price of negro sold to Guillon, which was part of the 5845 livres for which Labe was indebted to the Company.\n\nListed in Louisiana Historical Quarterly, Vol. 8, No. 3, P. 489- 2nd Doc. July 1925.",
+    "reported_numbers": [
+      {
+        "value": 5845,
+        "unit": "livres_index_card_reported_debt_not_verified",
+        "meaning": "The English index card says Labe was indebted to the Company for 5845 livres and says the sale price formed part of that amount. This is not a verified account balance, sale price, amount received, payment or settlement."
+      }
+    ],
+    "limitations": "Only typed English index card #6022 was transcribed. Two handwritten page derivatives were opened but not reliably transcribed; the 600 dpi preservation TIFF masters were not accessed. The card's author/date and relationship to WPA summaries are unverified. The record-page date is not proven to be the date of the underlying sale or payment. The card does not state a separate sale price, identify the enslaved person, specify a payer/payee, or prove that proceeds were remitted to or credited by the Company. The 5845 livres is a card-reported debt, not a verified balance or payment. The LHC inventory confirms Louisiana Historical Quarterly vol. 8 no. 3 (July 1925) exists, but p. 489 was not examined. The card's historical terminology and colonial account perspective do not convey the enslaved person's voice; the LHC warns that WPA-era abstracts omit many enslaved people's and women's names, but this specific card is not proven to be WPA-derived. No connection to the 24 February 1731 decree is established.",
+    "sources": [
+      "src-lcd-guillon-labbe-receipt-1736",
+      "src-lcd-company-1735-1737-index",
+      "src-lcd-indexing-method-and-wpa",
+      "src-lcd-lhq-inventory-2020"
+    ],
+    "event": "evt-1736-guillon-labbe-receipt-index-card",
+    "case": "retrocession1731",
+    "card_origin_verified": false,
+    "original_manuscript_transcribed": false,
+    "legal_liability_verified": false,
+    "payment_verified": false,
+    "financial_ledger_entry_created": false
   }
 ]
