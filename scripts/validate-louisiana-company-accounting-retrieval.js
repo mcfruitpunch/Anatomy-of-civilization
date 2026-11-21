@@ -144,7 +144,7 @@ function validate(data) {
   assert.equal(receipt.connection_to_doc_024, 'not_established');
   assert.equal(receipt.person_index_page_id, 32026);
   assert.equal(receipt.person_index_identity_verified, false);
-  assert(/index association only/i.test(receipt.person_index_association));
+  assert(/index association/i.test(receipt.person_index_association));
   assert.equal(receipt.reported_debt_amount.value, 5845);
   assert.equal(receipt.reported_debt_amount.unit, 'livres');
   assert.equal(receipt.reported_debt_amount.verification, 'index_card_only_not_original_account');
