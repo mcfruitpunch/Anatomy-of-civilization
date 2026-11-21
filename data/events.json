@@ -1336,5 +1336,24 @@
       "src-lcd-duval-account-1732",
       "src-lcd-indexing-method-and-wpa"
     ]
+  },
+  {
+    "id": "evt-1736-guillon-labbe-receipt-index-card",
+    "date": "1736-08-20",
+    "date_role": "archive_record_date_not_verified_transaction_date",
+    "title": "LHC index card describes a Company-linked receipt involving an enslaved-person sale",
+    "summary": "The Louisiana Historical Center dates record 1736-08-20-04 to 20 August 1736 and categorizes it as a private receipt. Its first displayed image is typed English index card #6022, which says: “Receipt to Jean Labbe for price of negro sold to Guillon, which was part of the 5845 livres for which Labe was indebted to the Company.” Two handwritten manuscript-page derivatives were opened but not reliably transcribed. The 5,845 livres is card-reported indebtedness, not a verified balance or amount paid; the card does not identify the enslaved person or establish whether sale proceeds were received or credited to the Company. The record date is not a verified sale/payment date, and no link to the 24 February 1731 decree is established. The LHC warns that WPA-era abstracts omit many enslaved people's and women's names, but this card's origin is not established.",
+    "case": "retrocession1731",
+    "entities": [
+      "ent-compagnie-indes-france",
+      "ent-french-superior-council-la"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-lcd-guillon-labbe-receipt-1736",
+      "src-lcd-indexing-method-and-wpa",
+      "src-lcd-lhq-inventory-2020"
+    ]
   }
 ]
