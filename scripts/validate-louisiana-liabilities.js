@@ -137,7 +137,7 @@ for (const docId of ['doc-027', 'doc-028']) {
   assert.equal(row.review, docId === 'doc-027' ? 'index_card_transcribed_manuscript_unread' : 'catalogue');
   if (docId === 'doc-027') {
     assert.equal(byDocument.get('doc-027')?.access_level, 'index_card_transcribed_manuscript_images_previewed_not_transcribed');
-    assert(/5,845 livres/.test(byDocument.get('doc-027')?.established || ''));
+    assert(/5,845-livre/.test(byDocument.get('doc-027')?.established || ''));
     assert(/not.*payment|payment.*not/i.test(byDocument.get('doc-027')?.limitations || ''));
   }
   for (const field of ['paid', 'transfer', 'liable']) {
