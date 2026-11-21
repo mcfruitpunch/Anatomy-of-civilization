@@ -14,7 +14,7 @@ I opened the Louisiana Historical Center's [record 1736-08-20-04](https://lacolo
 - Origin: New Orleans, Province of Louisiana
 - Category: Private Documents, Receipt
 - Three displayed page images
-- Indexed participants: Guillon (Jean Baptiste), Company of Indies, Hugault, Picquery, Henry, unidentified male(s), and Labbe/Labe
+- The item page lists Guillon, Company of Indies, Hugault, Picquery, Henry and Labbe/Labe. A separate LHC person-index route (page ID 32026) also returns this record under a Guillon entry; that is an index association, not a personal identity or role verified from the manuscript.
 
 The first 800x0 image is a typed English index card, **#6022**. I transcribed that card only. The other two 800x0 images are handwritten manuscript pages; I opened both, but did not reliably transcribe the French handwriting.
 
@@ -57,7 +57,7 @@ This is an inventory-level confirmation that the cited issue exists. The issue's
 
 The card says the sale price of an enslaved person sold to Guillon was part of the 5,845 livres for which Labe was indebted to the Company. It is a potentially important lead to a post-retrocession Company account or receipt. It does **not** establish that the Company received cash, that the amount was credited, that the debt was discharged, or that this record implements the 1731 decree. The 5,845 livres is not the sale price; the card does not give a separate price.
 
-The date 20 August 1736 is the archive's record date. It is not independently proven to be the date of the sale, receipt or payment. The index lists “Guillon” and the card says “Jean Labbe”; neither name is used here to construct genealogy or infer other relationships.
+The date 20 August 1736 is the archive's record date. It is not independently proven to be the date of the sale, receipt or payment. The item page lists “Guillon” and the card says “Jean Labbe”; a separate person-index route also returns the record under a Guillon entry. Neither index association is used here to construct genealogy, assert that the indexed Guillon is the same person in the receipt, or infer other relationships.
 
 The LHC's [digitization/indexing methodology](https://www.lacolonialdocs.org/post/8/the-process) states that written preservation scans are 600 dpi TIFFs, that image filenames encode document/date/page/side, and that initial indexing used WPA synoptic summaries from 1935–1942. The project warns of numbering and spelling errors and significant omissions of enslaved people's and women's names. That general warning is relevant, but the author and origin of card #6022 are not established; it must not automatically be labeled a WPA abstract. The card's omission of the enslaved person's name cannot be treated as proof that the manuscript itself omitted it.
 
