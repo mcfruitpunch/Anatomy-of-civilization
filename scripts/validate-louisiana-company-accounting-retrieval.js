@@ -20,7 +20,7 @@ function validate(data) {
   assert.equal(documents.get('doc-024')?.access_level, 'catalogue_metadata_only',
     'The 1731 debt decree must remain catalogue-only until its operative text is read');
   assert.equal(ids.size, data.leads.length, 'Duplicate lead IDs');
-  assert.equal(data.leads.length, 10, 'Expected ten bounded LHC/LLMC retrieval leads');
+  assert.equal(data.leads.length, 12, 'Expected twelve bounded LHC/HNOC/LLMC retrieval leads');
   for (const lead of data.leads) {
     assert(Array.isArray(lead.source_ids) && lead.source_ids.length > 0, lead.id + ': source IDs required');
     for (const sourceId of lead.source_ids) {
@@ -184,6 +184,35 @@ function validate(data) {
   assert.equal(debtDecree?.access_level, 'catalogue_metadata_only',
     'The 1736 receipt cannot promote the 1731 decree to text-examined status');
 
+
+  const treasuryMemo = get('lead-hnoc-1732-company-treasury-memo');
+  assert.equal(treasuryMemo.record_date, '1732-09-02');
+  assert.equal(treasuryMemo.date_status, 'estimated_by_HNOC');
+  assert.equal(treasuryMemo.series_reference, 'C 13c, 1:41');
+  assert.equal(treasuryMemo.pages, 5);
+  assert.equal(treasuryMemo.direction_from_abstract, 'Company of the Indies to French treasury (catalogue wording only)');
+  assert.equal(treasuryMemo.amount_in_abstract, false);
+  assert.equal(treasuryMemo.legal_liability_established, false);
+  assert.equal(treasuryMemo.payment_established, false);
+  assert.equal(treasuryMemo.original_text_examined, false);
+  assert.deepEqual(treasuryMemo.microfilm_reel_range, [539, 541]);
+  assert.equal(treasuryMemo.specific_reel_for_volume_1, 'not identified in the Collection 329 finding aid');
+  assert.equal(treasuryMemo.relationship_to_doc_024, 'related financial context; direct documentary link not established');
+
+  const halfReduction = get('lead-hnoc-1735-company-half-debt-reply');
+  assert.equal(halfReduction.record_date, '1735-04-20');
+  assert.equal(halfReduction.series_reference, 'C 13c, 1:318');
+  assert.equal(halfReduction.pages, 19);
+  assert.equal(halfReduction.direction_from_abstract, 'unresolved; abstract does not specify whether the debts were owed by the Company or owed to it');
+  assert.equal(halfReduction.reduction_approved_established, false);
+  assert.equal(halfReduction.reduction_executed_established, false);
+  assert.equal(halfReduction.original_text_examined, false);
+  assert.deepEqual(halfReduction.microfilm_reel_range, [539, 541]);
+  assert.equal(halfReduction.specific_reel_for_volume_1, 'not identified in the Collection 329 finding aid');
+  assert.equal(halfReduction.possible_relation_to_doc_030, 'unverified');
+  assert.equal(halfReduction.possible_relation_to_doc_033, 'unverified');
+  assert.equal(halfReduction.relationship_to_doc_024, 'related financial context; direct documentary link not established');
+
   const procedures = get('lead-rg377-1729-lorme-account-examination-procedures');
   assert.equal(procedures.record_id, '1729090601');
   assert.equal(procedures.series_reference, 'B43:872-877');
@@ -220,4 +249,4 @@ rejectMutation('lead-lhc-1736-labbe-guillon-receipt', x => { x.debt_direction_ve
 rejectMutation('lead-lhc-1736-labbe-guillon-receipt', x => { x.reported_debt_amount.verification = 'original_text_transcribed'; });
 
 
-console.log('OK: LHC RG3/RG377/RG1 and LLMC leads remain finding-aid or authenticated-access metadata; no decree text, audit result, verified payment or item-level absence is claimed; the 1736 Labbé/Guillon receipt remains index-card-level');
+console.log('OK: LHC RG3/RG377/RG1, HNOC C13c, and UL Lafayette microfilm leads remain finding-aid or authenticated-access metadata; no decree text, audit result, verified payment or item-level absence is claimed; the 1736 Labbé/Guillon receipt remains index-card-level');
