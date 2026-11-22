@@ -26,6 +26,8 @@ const reviewByDocument = new Map([
   ['doc-026', 'catalogue'],  // Oct 19 1735 indexed creditors' agreement; no clauses read
   ['doc-027', 'index_card_transcribed_manuscript_unread'],  // Aug 20 1736 card #6022 transcribed; two manuscript pages unread; no payment verified
   ['doc-028', 'catalogue'],  // May 11 1737 indexed receipt; payer/payee unknown
+  ['doc-040', 'abstract'],   // Sep 2 1732 estimated Company-to-Treasury memoir; original unread
+  ['doc-041', 'abstract'],   // Apr 20 1735 reply on half-reduction; direction unresolved
 ]);
 
 const imageAudits = data('louisiana_image_access_audit');
@@ -92,7 +94,7 @@ function verify(row) {
 }
 
 assert(Array.isArray(rows), 'Liability ledger must be an array');
-assert.equal(rows.length, reviewByDocument.size, 'All fourteen audited leads must be present');
+assert.equal(rows.length, reviewByDocument.size, 'All sixteen audited leads must be present');
 assert.equal(new Set(rows.map(row => row.document)).size, rows.length, 'Duplicate archival item');
 rows.forEach(verify);
 
@@ -159,4 +161,14 @@ for (const docId of ['doc-031', 'doc-032']) {
   assert.throws(() => verify({...row, payment_amount: 1}));
   assert.throws(() => verify({...row, review: 'original_note_transcribed'}));
 }
-console.log('OK: fourteen Louisiana archival leads; January retrocession facsimile evidence level; strict null payment/liability fixtures and thumbnail-only local Council gate');
+console.log('OK: sixteen Louisiana archival leads; January retrocession facsimile evidence level; strict null payment/liability fixtures and thumbnail-only local Council gate');
+
+// The 1732 memoir and 1735 reply remain catalogue abstracts, not adjudications or payments.
+for (const docId of ['doc-040', 'doc-041']) {
+  const row = rows.find(r => r.document === docId);
+  assert(row, 'C13c catalogue lead missing: ' + docId);
+  assert.equal(row.review, 'abstract');
+  for (const field of ['paid', 'transfer', 'liable']) assert.equal(row[field], null);
+  assert.throws(() => verify({...row, payment_amount: 1}));
+  assert.throws(() => verify({...row, review: 'original_letter_transcribed'}));
+}
