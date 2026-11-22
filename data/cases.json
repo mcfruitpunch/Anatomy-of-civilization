@@ -954,7 +954,7 @@
       },
       {
         "label": "Company financial claims point in different directions and must not be collapsed",
-        "claim": "The 23 January 1731 decree preserves the Company's rights against unnamed provincial debtors; the HNOC abstract for a separate 1732 memoir describes an amount due from the Company to the French treasury; and the HNOC abstract for a 1735 reply concerns a proposed one-half reduction of the Company's outstanding Louisiana debts but leaves direction and outcome unresolved. These are distinct instruments and catalogue descriptions, not a demonstrated net balance, a single settlement chain, or proof of payment.",
+        "claim": "The 23 January 1731 decree preserves the Company's rights against unnamed provincial debtors; the HNOC abstract for a separate 1732 memoir describes an amount due from the Company to the French treasury; and the HNOC abstract for a 1735 reply concerns a one-half reduction of the Company's outstanding Louisiana debts but leaves direction and outcome unresolved. These are distinct instruments and catalogue descriptions, not a demonstrated net balance, a single settlement chain, or proof of payment.",
         "status": "supported interpretation",
         "sources": [
           "src-cihm-1731-retrocession-microfiche",
