@@ -161,7 +161,6 @@ for (const docId of ['doc-031', 'doc-032']) {
   assert.throws(() => verify({...row, payment_amount: 1}));
   assert.throws(() => verify({...row, review: 'original_note_transcribed'}));
 }
-console.log('OK: sixteen Louisiana archival leads; January retrocession facsimile evidence level; strict null payment/liability fixtures and thumbnail-only local Council gate');
 
 // The 1732 memoir and 1735 reply remain catalogue abstracts, not adjudications or payments.
 for (const docId of ['doc-040', 'doc-041']) {
@@ -172,3 +171,5 @@ for (const docId of ['doc-040', 'doc-041']) {
   assert.throws(() => verify({...row, payment_amount: 1}));
   assert.throws(() => verify({...row, review: 'original_letter_transcribed'}));
 }
+
+console.log('OK: sixteen Louisiana archival leads; January retrocession facsimile evidence level; strict null payment/liability fixtures and thumbnail-only local Council gate');
