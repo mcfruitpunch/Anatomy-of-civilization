@@ -1,0 +1,200 @@
+{
+  "version": "1.0",
+  "purpose": "Non-transactional direction audit of Company-related claims. This is not a financial-flow ledger and does not assign an amount paid, legal liability, transfer or settlement.",
+  "claims": [
+    {
+      "id": "claim-1731-company-creditor-rights",
+      "document": "doc-022",
+      "date": "1731-01-23",
+      "date_basis": "date on all three printed pages of 1985 CIHM/ICMH microfiche reproduction",
+      "claim_direction": "company_creditor_rights_preserved_against_unnamed_provincial_debtors",
+      "creditor_or_claimant": "Company of the Indies",
+      "party_described_as_owing": "unnamed provincial debtors",
+      "decision_maker": "French Council of State",
+      "instrument_or_proceeding": "23 January 1731 royal retrocession decree",
+      "alleged_payee": null,
+      "amount_reported": {
+        "text": null,
+        "value": null,
+        "unit": null,
+        "verification": "not stated in examined decree"
+      },
+      "amount_verified": false,
+      "liability_adjudicated": false,
+      "payment_verified": false,
+      "evidence_level": "microform_facsimile_text_examined",
+      "archival_locator": "1985 CIHM/ICMH microfiche reproduction of the 1731 Imprimerie royale decree, PDF page indices 4–6; printed pp.2–3; physical original not examined.",
+      "relation_to_doc_024": "not established",
+      "source_ids": [
+        "src-cihm-1731-retrocession-microfiche"
+      ]
+    },
+    {
+      "id": "claim-1732-company-to-treasury",
+      "document": "doc-040",
+      "date": "1732-09-02",
+      "date_basis": "HNOC estimated catalogue date",
+      "claim_direction": "company_to_french_treasury_as_catalogue_abstract_describes",
+      "creditor_or_claimant": "French treasury (HNOC abstract wording)",
+      "party_described_as_owing": "Company of the Indies (HNOC abstract wording)",
+      "decision_maker": null,
+      "instrument_or_proceeding": "five-page memoir concerning amount due because of Louisiana retrocession; not an adjudication",
+      "alleged_payee": "French treasury (named in abstract; no receipt or payment verified)",
+      "amount_reported": {
+        "text": null,
+        "value": null,
+        "unit": null,
+        "verification": "no amount stated in HNOC abstract"
+      },
+      "amount_verified": false,
+      "liability_adjudicated": false,
+      "payment_verified": false,
+      "evidence_level": "catalogue_metadata_only",
+      "archival_locator": "ANOM C 13c, vol.1, fol.41; HNOC Surrey Calendar item 7589; estimated 2 September 1732; Collection 329 reels 539–541 cover C 13c vols.1–4 but exact reel/frame not mapped.",
+      "relation_to_doc_024": "not established",
+      "source_ids": [
+        "src-hnoc-1732-company-treasury-memo",
+        "src-ull-collection-329-reel-inventory"
+      ]
+    },
+    {
+      "id": "claim-1735-half-reduction",
+      "document": "doc-041",
+      "date": "1735-04-20",
+      "date_basis": "HNOC catalogue date; date appears bracketed in abstract",
+      "claim_direction": "unresolved_from_catalogue_abstract",
+      "creditor_or_claimant": null,
+      "party_described_as_owing": null,
+      "decision_maker": null,
+      "instrument_or_proceeding": "nineteen-page reply to a memoir from the Council of Louisiana concerning a proposed one-half reduction of the Company's outstanding debts in Louisiana",
+      "alleged_payee": null,
+      "amount_reported": {
+        "text": null,
+        "value": null,
+        "unit": null,
+        "verification": "no amount or debt direction stated in HNOC abstract"
+      },
+      "amount_verified": false,
+      "liability_adjudicated": false,
+      "payment_verified": false,
+      "evidence_level": "catalogue_metadata_only",
+      "archival_locator": "ANOM C 13c, vol.1, fol.318; HNOC Surrey Calendar item 8981; Collection 329 reels 539–541 cover C 13c vols.1–4 but exact reel/frame not mapped.",
+      "relation_to_doc_024": "not established",
+      "source_ids": [
+        "src-hnoc-1735-company-half-debt-reply",
+        "src-ull-collection-329-reel-inventory"
+      ]
+    },
+    {
+      "id": "claim-1735-company-creditor-ordinance",
+      "document": "doc-030",
+      "date": "1735-03-30",
+      "date_basis": "date stated in HNOC archival-calendar abstract",
+      "claim_direction": "company_as_creditor_per_catalogue_abstract",
+      "creditor_or_claimant": "Company of the Indies (HNOC abstract says debts to the Company)",
+      "party_described_as_owing": "unidentified debtors in Louisiana",
+      "decision_maker": "Superior Council of Louisiana (as HNOC catalogue identifies)",
+      "instrument_or_proceeding": "30 March 1735 Superior Council ordinance on debts to the Company and commodity acceptance prices",
+      "alleged_payee": "Company of the Indies (catalogue wording)",
+      "amount_reported": {
+        "text": null,
+        "value": null,
+        "unit": null,
+        "verification": "no aggregate amount stated in abstract"
+      },
+      "amount_verified": false,
+      "liability_adjudicated": false,
+      "payment_verified": false,
+      "evidence_level": "catalogue_metadata_only",
+      "archival_locator": "ANOM A 23:118; HNOC Surrey Calendar item 8949; three-page ordinance; original French pages unread.",
+      "relation_to_doc_024": "not established",
+      "source_ids": [
+        "src-hnoc-1735-company-debts-commodities"
+      ]
+    },
+    {
+      "id": "claim-1732-duval-index-card-direction-conflict",
+      "document": "doc-029",
+      "date": "1732-07-15",
+      "date_basis": "LHC record date; card contains later account/sign-off dates",
+      "claim_direction": "heading_prose_conflict",
+      "creditor_or_claimant": null,
+      "party_described_as_owing": null,
+      "decision_maker": null,
+      "instrument_or_proceeding": "English index card #6558 describing a succession statement; four manuscript pages not reliably transcribed",
+      "alleged_payee": null,
+      "amount_reported": {
+        "text": "101,975 livres 6 sols 2 deniers",
+        "value": null,
+        "unit": "livres/sols/deniers",
+        "verification": "index_card_only_not_original_account"
+      },
+      "amount_verified": false,
+      "liability_adjudicated": false,
+      "payment_verified": false,
+      "evidence_level": "index_card_transcribed_manuscript_unread",
+      "archival_locator": "Louisiana Historical Center record 1732-07-15-01; item page 2148; index card #6558; four handwritten manuscript pages unread.",
+      "relation_to_doc_024": "not established",
+      "source_ids": [
+        "src-lcd-indexing-method-and-wpa",
+        "src-lcd-guillon-labbe-receipt-1736"
+      ]
+    },
+    {
+      "id": "claim-1736-labbe-company-receivable-card-report",
+      "document": "doc-027",
+      "date": "1736-08-20",
+      "date_basis": "LHC record date; transaction date not verified",
+      "claim_direction": "company_receivable_reported_by_index_card",
+      "creditor_or_claimant": "Company of the Indies (index-card wording only)",
+      "party_described_as_owing": "Labe/Jean Labbe (index-card and archive-index wording; identity/role not verified from manuscript)",
+      "decision_maker": null,
+      "instrument_or_proceeding": "private receipt as LHC category; card #6022 says Labbe was indebted to Company; two handwritten pages unread",
+      "alleged_payee": null,
+      "amount_reported": {
+        "text": "5,845 livres",
+        "value": 5845,
+        "unit": "livres",
+        "verification": "index_card_only_not_original_account"
+      },
+      "amount_verified": false,
+      "liability_adjudicated": false,
+      "payment_verified": false,
+      "evidence_level": "index_card_transcribed_manuscript_images_previewed_not_transcribed",
+      "archival_locator": "Louisiana Historical Center record 1736-08-20-04; card #6022; two manuscript-page derivatives opened but not transcribed.",
+      "relation_to_doc_024": "not established",
+      "source_ids": [
+        "src-lcd-guillon-labbe-receipt-1736",
+        "src-lcd-indexing-method-and-wpa"
+      ]
+    },
+    {
+      "id": "claim-1733-company-notes-letter",
+      "document": "doc-033",
+      "date": "1733-09-30",
+      "date_basis": "HNOC archival-calendar date",
+      "claim_direction": "unresolved_company_notes_and_bills_correspondence",
+      "creditor_or_claimant": null,
+      "party_described_as_owing": null,
+      "decision_maker": null,
+      "instrument_or_proceeding": "12-page Superior Council letter to minister concerning problems caused by Company notes and bills of exchange; not the separately reported same-day ordinance",
+      "alleged_payee": null,
+      "amount_reported": {
+        "text": null,
+        "value": null,
+        "unit": null,
+        "verification": "no amount or direction established by this abstract"
+      },
+      "amount_verified": false,
+      "liability_adjudicated": false,
+      "payment_verified": false,
+      "evidence_level": "catalogue_metadata_only",
+      "archival_locator": "ANOM C 13, vol.16:166; HNOC Surrey Calendar item 8350; original French letter unread.",
+      "relation_to_doc_024": "not established",
+      "source_ids": [
+        "src-hnoc-1733-paper-credit-letter",
+        "src-surrey-1916-company-paper-credit-1731-33"
+      ]
+    }
+  ]
+}
