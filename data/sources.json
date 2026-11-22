@@ -1382,7 +1382,7 @@
     "year": 1916,
     "publisher": "Columbia University Press",
     "url": "https://commons.wikimedia.org/wiki/File:The_commerce_of_Louisiana_during_the_French_r%C3%A9gime,_1699-1763_(IA_commerceoflouisi00millrich).pdf",
-    "locator": "Chapter XIII, printed pp. 185–186; historian reports commodity prices at the royal storehouse as of 30 March 1735 and cites ANOM C13 vol.20 fols.208–212 and A vol.23, 30 March 1735. Secondary text inspected in digitized searchable reproduction, not the original ANOM manuscript; do not convert prices to paid amounts.",
+    "locator": "Chapter V, printed pp.122–123: Surrey describes Company paper-note retirement at a 50-percent discount in 1729–1731 and a separate 30 September 1733 Superior Council reduction of old paper; cites ANOM C 13, vol.16, fols.166–177 and Margry, vol.V, pp.654–655. Chapter XIII, printed pp.185–186: commodity prices at the royal storehouse as of 30 March 1735; cites ANOM C 13, vol.20, fols.208–212 and A, vol.23, 30 March 1735. Digitized searchable secondary text examined, not the original ANOM manuscripts; do not equate the 1735 C 13c 1:318 reply with the separate C 13 vol.16 paper-note records without an explicit original cross-reference or convert prices to paid amounts.",
     "reviewed": true
   },
   {
@@ -1437,7 +1437,7 @@
     "year": null,
     "publisher": "Edith Garland Dupré Library, University of Louisiana at Lafayette",
     "url": "https://library.louisiana.edu/sites/library/files/Colonial_Louisiana_Records_COLL329.pdf",
-    "locator": "Collection 329 finding aid, PDF inventory section II.L, printed p. 6: reel 574 includes ANOM A 23 (1712–1746); reel 580 includes ANOM F3 242, Code Louisiane vol. II (1724–1746). University finding aid examined 1 November 2026; neither microfilm reel nor specific folio/frame inspected.",
+    "locator": "Collection 329 finding aid: section II.F, printed p.4, lists ANOM Série C 13c, volumes 1–4 on reels 539–541; it does not map volume 1 or a specific folio to an individual reel/frame. Section II.L, printed p.6, lists ANOM A 23 on reel 574 and F3 242 on reel 580. The collection was transferred to the University Archives and Acadiana Manuscripts Collection in May 2013. Finding aid examined 22 November 2026; no microfilm reel or original folio was inspected.",
     "reviewed": true
   },
   {
@@ -1702,6 +1702,39 @@
     "publisher": "Louisiana State Museum",
     "url": "https://static1.squarespace.com/static/58092328579fb31efea7a49e/t/5f5a551feaa9c51a0d6442de/1599755552950/LHCLHQInventory.pdf",
     "locator": "First table, PDF text lines 34–37: Louisiana Historical Quarterly volume 8, nos. 1–4 are listed for January, April, July and October 1925; specifically vol. 8, no. 3 is July 1925. This confirms the issue cited by LHC card #6022 exists in the Center's journal inventory. The inventory does not expose the contents of p. 489, identify the second document, or prove that the receipt was printed there; the issue page itself was not examined.",
+    "reviewed": true
+  },
+  {
+    "id": "src-hnoc-1732-company-treasury-memo",
+    "type": "primary_archival_calendar_abstract",
+    "title": "Memoir on amount due to the French treasury by the Company of the Indies because of Louisiana retrocession (HNOC item 7589)",
+    "author": "Historic New Orleans Collection, A Guide to French Louisiana Manuscripts",
+    "year": null,
+    "publisher": "The Historic New Orleans Collection",
+    "url": "https://surrey.hnoc.org/full_notice.php?id_document=7589",
+    "locator": "Surrey Calendar item 7589; abstract [2 September 1732], 5 pp.; AC C 13c, 1:41 (updated citation ANOM, C 13c, 1:41). HNOC marks the date as estimated. Cross-citation: Library of Congress, Center for Louisiana Studies; microfilm field names Library of Congress, Center for Louisiana Studies and HNOC. The abstract says the memoir concerns an amount due the French treasury by the Company of the Indies because of retrocession. Original five pages not examined.",
+    "reviewed": true
+  },
+  {
+    "id": "src-hnoc-1735-company-half-debt-reply",
+    "type": "primary_archival_calendar_abstract",
+    "title": "Reply concerning one-half reduction of the Company's outstanding Louisiana debts (HNOC item 8981)",
+    "author": "Historic New Orleans Collection, A Guide to French Louisiana Manuscripts",
+    "year": null,
+    "publisher": "The Historic New Orleans Collection",
+    "url": "https://surrey.hnoc.org/full_notice.php?id_document=8981",
+    "locator": "Surrey Calendar item 8981; [20 April 1735], 19 pp.; AC C 13c, 1:318 (updated citation ANOM, C 13c, 1:318). Document type: answer. HNOC cross-cites Library of Congress, Center for Louisiana Studies and lists microfilm there and at HNOC. The abstract describes a reply to a memoir from the Council of Louisiana about reducing by one-half the Company's outstanding debts in Louisiana. Original 19 pages not examined; debt direction and outcome remain unresolved.",
+    "reviewed": true
+  },
+  {
+    "id": "src-ull-microform-services",
+    "type": "institutional_microform_access_guide",
+    "title": "University Libraries microform services",
+    "author": "University Libraries, University of Louisiana at Lafayette",
+    "year": null,
+    "publisher": "University of Louisiana at Lafayette",
+    "url": "https://library.louisiana.edu/collections/microforms",
+    "locator": "The service page describes microfilm readers with reading/printing features in the Reference Online Center Lab and Jefferson Caffery Reading Room, microform services during normal library hours, and the ability for users to bring outside microforms. This establishes a service route, not item-level availability, a specific reel/frame, or unrestricted public access to Collection 329.",
     "reviewed": true
   }
 ]

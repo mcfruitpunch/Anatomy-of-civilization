@@ -951,6 +951,17 @@
         "sources": [
           "src-zay-1892-louisiana-card-money-1735"
         ]
+      },
+      {
+        "label": "Company financial claims point in different directions and must not be collapsed",
+        "claim": "The 23 January 1731 decree preserves the Company's rights against unnamed provincial debtors; the HNOC abstract for a separate 1732 memoir describes an amount due from the Company to the French treasury; and the HNOC abstract for a 1735 reply concerns a one-half reduction of the Company's outstanding Louisiana debts but leaves direction and outcome unresolved. These are distinct instruments and catalogue descriptions, not a demonstrated net balance, a single settlement chain, or proof of payment.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-cihm-1731-retrocession-microfiche",
+          "src-hnoc-1732-company-treasury-memo",
+          "src-hnoc-1735-company-half-debt-reply",
+          "src-surrey-1916-louisiana-commerce-1735"
+        ]
       }
     ],
     "open_questions": [
@@ -966,7 +977,11 @@
       "Inspect the May 22 1731 Superior Council composition decree at ANOM F3 242 fol.190 and identify offices reassigned from Company directors to royal officials.",
       "Find the original 14 September 1735 card-money ordinance and signed fabrication procès-verbaux, and test the reprint's 200,000-livre ceiling and actual issuance separately from the 1731 Company debt decree.",
       "Resolve the Duval record's 15 July 1732 catalogue date versus the index card's 15 January 1736 account close/sign-off, and its heading/prose conflict about who owes whom; transcribe the handwritten account and seek a separate receipt or judgment before classifying the reported balance.",
-      "Obtain the handwritten pages and preservation TIFFs for LHC 1736-08-20-04; compare the card's cited Louisiana Historical Quarterly, vol. 8, no. 3 (July 1925), p. 489, second document; determine whether the original actually records consideration or a credit against the reported 5,845-livre debt. Do not link it to the 24 February 1731 decree without an explicit documentary cross-reference."
+      "Obtain the handwritten pages and preservation TIFFs for LHC 1736-08-20-04; compare the card's cited Louisiana Historical Quarterly, vol. 8, no. 3 (July 1925), p. 489, second document; determine whether the original actually records consideration or a credit against the reported 5,845-livre debt. Do not link it to the 24 February 1731 decree without an explicit documentary cross-reference.",
+      "Obtain and transcribe the five-page ANOM C 13c, 1:41 memoir catalogued by HNOC as item 7589 [estimated 2 September 1732], described as concerning an amount due the French treasury by the Company because of retrocession. Identify author, amount, calculation and legal status; do not treat the abstract as an adjudication or payment.",
+      "Obtain and transcribe the 19-page ANOM C 13c, 1:318 reply catalogued by HNOC as item 8981 [20 April 1735] concerning a one-half reduction of the Company's outstanding Louisiana debts. Determine debt direction, debt class, author, decision and outcome. Do not equate it with Surrey's distinct 1916 account of Company paper-note reductions citing ANOM C 13, vol.16, fols.166–177.",
+      "Compare the 20 April 1735 C 13c, 1:318 reply with the 30 March 1735 A 23:118 commodity ordinance and the 30 September 1733 C 13 vol.16:166 Company-notes correspondence only after reading the original texts; no relationship among these records is currently established.",
+      "Consult University of Louisiana at Lafayette Collection 329, reels 539–541, for ANOM C 13c volumes 1–4. Ask the archivist to identify the individual reel/frame for volume 1 folios 41 and 318; the finding aid gives only a three-reel range."
     ],
     "events": [
       "evt-1717-compagnie-occident",
@@ -977,7 +992,9 @@
       "evt-1731-superior-council-reorganization",
       "evt-1735-louisiana-card-money-ordinance",
       "evt-1732-duval-account-index-card",
-      "evt-1736-guillon-labbe-receipt-index-card"
+      "evt-1736-guillon-labbe-receipt-index-card",
+      "evt-1732-company-treasury-memo",
+      "evt-1735-company-half-debt-reply"
     ],
     "entities": [
       "ent-french-crown",

@@ -234,3 +234,17 @@ The card uses a colonial term for an unnamed person and does not preserve that p
 Request the 600 dpi preservation TIFF masters for record ID `1736_08_20_04` and ask the archivist to confirm the page/side filenames under the published convention. Obtain LHQ vol. 8, no. 3 (July 1925), p. 489, second document. Compare the 1925 printed item, the original French pages and WPA Black Book 26 (1736 August) as distinct witnesses. Determine whether the original text records a receipt, a credit against the reported debt, or another legal act. Do not connect this record to the 1731 decree unless its original wording supplies an explicit cross-reference.
 
 **Implementation:** `doc-027` now has access level `index_card_transcribed_manuscript_images_previewed_not_transcribed`; `extract-013` transcribes only the card; the ledger review level is upgraded but all payment/transfer/liability values remain null. A new retrieval lead and negative validator fixtures prevent the card from being promoted to an original transcription, a verified debt balance, a payment, or a witness to the 1731 decree.
+
+
+## 22 November 2026: C 13c Company-to-Treasury memoir and 1735 half-reduction reply
+
+The Historic New Orleans Collection's Surrey Calendar adds two separate financial-correspondence leads:
+
+- **Item 7589:** estimated [2 September 1732], 5-page memoir, ANOM C 13c 1:41, described as concerning an amount due the French treasury by the Company of the Indies because of retrocession. The abstract's direction is Company-to-Treasury, but the memoir is unread; no amount, adjudication or payment is established.
+- **Item 8981:** [20 April 1735], 19-page reply, ANOM C 13c 1:318, described as answering a Council of Louisiana memoir about a one-half reduction of the Company's outstanding Louisiana debts. The abstract does not specify whether the debts were owed by the Company or owed to it, who authored the reply, or whether a reduction was approved or executed.
+
+A new access route is now precise: the University of Louisiana at Lafayette's Collection 329 finding aid, section II.F, printed p.4, lists **ANOM C 13c volumes 1–4 on reels 539–541**. It does not map volume 1, folios 41 or 318, to an individual reel/frame. The microforms service page describes readers and scanning/copy services, but item-level access and public-access status remain unconfirmed. Ask UAAMC to identify the correct reel/frame and request the five and nineteen pages.
+
+Do not equate the 1735 C 13c 1:318 reply with Nancy Maria Miller Surrey's 1916 account (printed pp.122–123) of 50-percent reductions/retirement of Company paper notes in 1729–1733. Surrey cites ANOM C 13, vol.16, fols.166–177, a distinct series/volume. A relationship is a hypothesis until the C 13c original is read.
+
+The direction audit now distinguishes: (1) the 23 January 1731 decree's Company creditor-rights clause; (2) the 1732 memo's catalogue-described Company-to-Treasury claim; and (3) the 1735 reply's unresolved debt direction. These are not a unified balance or settlement chain. Documents doc-040 and doc-041 remain catalogue-only; no amount, liability adjudication, transfer or payment was added. No financial-flow record was created, and the 24 February 1731 debt decree remains unread.

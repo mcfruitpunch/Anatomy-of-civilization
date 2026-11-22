@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "target_document": "doc-024",
-  "scope": "Related Louisiana State Museum archival access, finding-aid and mediated index-card leads; none of these entries is a newly transcribed original text or, without an explicit cross-reference, an identified witness to the 24 February 1731 decree.",
+  "scope": "Related Louisiana State Museum/Historic New Orleans Collection archival access, catalogue, finding-aid and mediated index-card leads, plus University of Louisiana at Lafayette microfilm retrieval routes. None of these entries is a newly transcribed original text or, without an explicit cross-reference, an identified witness to the 24 February 1731 decree.",
   "leads": [
     {
       "id": "lead-llmc-1733-subscriber-access",
@@ -272,6 +272,78 @@
       "person_index_page_id": 32026,
       "person_index_association": "This is an index association only: the person-index route returns record 1736-08-20-04 under a Guillon entry; identity and role in the original receipt are not verified.",
       "person_index_identity_verified": false
+    },
+    {
+      "id": "lead-hnoc-1732-company-treasury-memo",
+      "target_document": "doc-024",
+      "repository": "Historic New Orleans Collection, Surrey Calendar; cited original series ANOM C 13c",
+      "collection": "Archives des Colonies, C 13c, volume 1 (as cited by HNOC)",
+      "record_date": "1732-09-02",
+      "date_status": "estimated_by_HNOC",
+      "document_type": "memoir",
+      "series_reference": "C 13c, 1:41",
+      "pages": 5,
+      "evidence_level": "archival_calendar_abstract_only",
+      "abstract_summary": "Memoir on an amount due the French treasury by the Company of the Indies because of Louisiana retrocession.",
+      "direction_from_abstract": "Company of the Indies to French treasury (catalogue wording only)",
+      "direction_verification": "not_verified_against_original",
+      "amount_in_abstract": false,
+      "legal_liability_established": false,
+      "payment_established": false,
+      "original_text_examined": false,
+      "microfilm_collection": "University of Louisiana at Lafayette, University Archives and Acadiana Manuscripts Collection, Colonial Louisiana Records Collection 329",
+      "microfilm_reel_range": [
+        539,
+        541
+      ],
+      "microfilm_reel_range_scope": "ANOM C 13c volumes 1–4; the finding aid does not map volume 1 to one individual reel",
+      "specific_reel_for_volume_1": "not identified in the Collection 329 finding aid",
+      "microform_service_route": "University Libraries describes microform readers and scanning/copy services; item-level access and public-access status not confirmed",
+      "relationship_to_doc_024": "related financial context; direct documentary link not established",
+      "source_ids": [
+        "src-hnoc-1732-company-treasury-memo",
+        "src-ull-collection-329-reel-inventory",
+        "src-ull-microform-services"
+      ],
+      "next_action": "Ask UAAMC/UL Lafayette to identify which of reels 539–541 contains ANOM C 13c volume 1 and whether folio 41 can be scanned. Obtain all five pages; transcribe the French; identify the author, stated amount, calculation, claimant, party described as owing, legal basis and any explicit cross-reference to the 24 February 1731 decree. Do not infer adjudication or payment from the memoir abstract."
+    },
+    {
+      "id": "lead-hnoc-1735-company-half-debt-reply",
+      "target_document": "doc-024",
+      "repository": "Historic New Orleans Collection, Surrey Calendar; cited original series ANOM C 13c",
+      "collection": "Archives des Colonies, C 13c, volume 1 (as cited by HNOC)",
+      "record_date": "1735-04-20",
+      "date_status": "HNOC catalogue date; abstract prints date in brackets",
+      "document_type": "answer",
+      "series_reference": "C 13c, 1:318",
+      "pages": 19,
+      "evidence_level": "archival_calendar_abstract_only",
+      "abstract_summary": "Reply to a memoir from the Council of Louisiana concerning reduction by one-half of the Company's outstanding debts in Louisiana.",
+      "direction_from_abstract": "unresolved; abstract does not specify whether the debts were owed by the Company or owed to it",
+      "direction_verification": "not_verified_against_original",
+      "amount_in_abstract": false,
+      "legal_liability_established": false,
+      "payment_established": false,
+      "reduction_approved_established": false,
+      "reduction_executed_established": false,
+      "original_text_examined": false,
+      "microfilm_collection": "University of Louisiana at Lafayette, University Archives and Acadiana Manuscripts Collection, Colonial Louisiana Records Collection 329",
+      "microfilm_reel_range": [
+        539,
+        541
+      ],
+      "microfilm_reel_range_scope": "ANOM C 13c volumes 1–4; the finding aid does not map volume 1 to one individual reel",
+      "specific_reel_for_volume_1": "not identified in the Collection 329 finding aid",
+      "microform_service_route": "University Libraries describes microform readers and scanning/copy services; item-level access and public-access status not confirmed",
+      "possible_relation_to_doc_030": "unverified",
+      "possible_relation_to_doc_033": "unverified",
+      "relationship_to_doc_024": "related financial context; direct documentary link not established",
+      "source_ids": [
+        "src-hnoc-1735-company-half-debt-reply",
+        "src-ull-collection-329-reel-inventory",
+        "src-ull-microform-services"
+      ],
+      "next_action": "Ask UAAMC/UL Lafayette to identify which of reels 539–541 contains ANOM C 13c volume 1 and whether folio 318 can be scanned. Obtain all 19 pages; identify the originating memoir, reply author, debt class, claim direction, requested/approved reduction, decision authority and actual outcome. Compare with Surrey 1916 pp.122–123 and C 13 vol.16 fols.166–177 only as a separate paper-money account until an original cross-reference is found."
     }
   ]
 }

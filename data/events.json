@@ -1354,5 +1354,41 @@
       "src-lcd-indexing-method-and-wpa",
       "src-lcd-lhq-inventory-2020"
     ]
+  },
+  {
+    "id": "evt-1732-company-treasury-memo",
+    "date": "1732-09-02",
+    "date_role": "estimated_catalogue_date",
+    "title": "HNOC calendar describes a memoir on an amount due from the Company to the French treasury",
+    "summary": "HNOC Surrey Calendar item 7589 describes a five-page memoir on an amount due the French treasury by the Company of the Indies because of Louisiana retrocession; HNOC explicitly marks the date 2 September 1732 as estimated. The abstract's wording describes Company-to-treasury indebtedness, but the memoir is unread and is not an adjudication. No amount, calculation, author, payment, settlement or Crown assumption is established. The UL Lafayette Collection 329 finding aid places ANOM C 13c volumes 1–4 on reels 539–541, but does not map volume 1, folio 41 to an individual reel/frame.",
+    "case": "retrocession1731",
+    "entities": [
+      "ent-compagnie-indes-france"
+    ],
+    "status": "unresolved",
+    "verification": "catalogue_only",
+    "sources": [
+      "src-hnoc-1732-company-treasury-memo",
+      "src-ull-collection-329-reel-inventory",
+      "src-ull-microform-services"
+    ]
+  },
+  {
+    "id": "evt-1735-company-half-debt-reply",
+    "date": "1735-04-20",
+    "date_role": "HNOC_catalogue_date_bracketed_in_abstract",
+    "title": "HNOC calendar describes a reply concerning one-half reduction of the Company's outstanding Louisiana debts",
+    "summary": "HNOC Surrey Calendar item 8981 describes a 19-page reply to a memoir from the Council of Louisiana concerning reduction by one-half of the Company's outstanding debts in Louisiana. The abstract does not establish whether these were debts owed by the Company or debts owed to it, who authored the reply, whether the reduction was approved, or whether any amount was paid. Do not conflate this ANOM C 13c, 1:318 item with Surrey's separate 1916 account of Company paper-note reductions citing ANOM C 13, vol.16, fols.166–177 (printed pp.122–123). Collection 329 reels 539–541 cover C 13c volumes 1–4, but the specific reel/frame for volume 1, folio 318 is not mapped.",
+    "case": "retrocession1731",
+    "entities": [
+      "ent-compagnie-indes-france"
+    ],
+    "status": "unresolved",
+    "verification": "catalogue_only",
+    "sources": [
+      "src-hnoc-1735-company-half-debt-reply",
+      "src-ull-collection-329-reel-inventory",
+      "src-ull-microform-services"
+    ]
   }
 ]

@@ -213,4 +213,5 @@ require('./validate-louisiana-governance-reorganization.js');
 require('./validate-louisiana-retrocession-facsimile.js');
 require('./validate-louisiana-duval-account.js');
 require('./validate-louisiana-company-accounting-retrieval.js');
+require('./validate-louisiana-claim-direction-audit.js');
 console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records, ' + ownership.length + ' ownership aggregates, ' + comparisons.length + ' country comparisons, ' + documents.length + ' archival document records, ' + routes.length + ' information channels, ' + extracts.length + ' attributed readings, ' + censusVersions.length + ' census source versions');

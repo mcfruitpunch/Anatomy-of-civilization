@@ -732,5 +732,43 @@
     "entities": [
       "ent-compagnie-indes-france"
     ]
+  },
+  {
+    "id": "doc-040",
+    "date": "1732-09-02",
+    "place": "not specified in the HNOC catalogue",
+    "title": "Memoir on amount due to the French treasury by the Company of the Indies following Louisiana retrocession (catalogue abstract)",
+    "document_kind": "financial_memoir_archival_calendar_abstract",
+    "access_level": "catalogue_metadata_only",
+    "reference": "Historic New Orleans Collection, Surrey Calendar item 7589: [2 September 1732], 5 pages; AC C 13c, 1:41 (updated citation ANOM, C 13c, 1:41). HNOC marks the date as estimated. The catalogue cross-cites the Library of Congress, Center for Louisiana Studies, and lists microfilm at that institution and HNOC. University of Louisiana at Lafayette Collection 329 finding aid, section II.F, printed p.4, places ANOM C 13c volumes 1–4 on reels 539–541; it does not identify which of those reels contains volume 1 or the relevant frame.",
+    "established": "The HNOC archival-calendar abstract describes a five-page memoir concerning an amount due the French treasury by the Company of the Indies because of Louisiana's retrocession. The abstract's wording describes the Company as owing the treasury. The date is explicitly marked estimated by HNOC. The abstract supplies no amount, author, calculation, ruling or payment.",
+    "limitations": "Only the HNOC archival-calendar abstract and University of Louisiana at Lafayette finding-aid/access pages were examined; the five-page French memoir was not read. The Company-to-treasury direction is catalogue-level wording, not an adjudicated liability or proof the Crown accepted the claim. No amount, calculation, author, legal basis, payment, settlement or Crown assumption is established. Collection 329 reels 539–541 cover C 13c volumes 1–4; the specific reel/frame for volume 1, folio 41 is not mapped. No connection to the 24 February 1731 debt decree or the 20 April 1735 reply is established. The French treasury is named in the abstract but is not yet modeled as a separate entity node.",
+    "sources": [
+      "src-hnoc-1732-company-treasury-memo",
+      "src-ull-collection-329-reel-inventory",
+      "src-ull-microform-services"
+    ],
+    "entities": [
+      "ent-compagnie-indes-france"
+    ]
+  },
+  {
+    "id": "doc-041",
+    "date": "1735-04-20",
+    "place": "not specified in the HNOC catalogue",
+    "title": "Reply concerning one-half reduction of the Company's outstanding Louisiana debts (catalogue abstract)",
+    "document_kind": "financial_reply_archival_calendar_abstract",
+    "access_level": "catalogue_metadata_only",
+    "reference": "Historic New Orleans Collection, Surrey Calendar item 8981: [20 April 1735], 19 pages; AC C 13c, 1:318 (updated citation ANOM, C 13c, 1:318). Document type: answer. HNOC cross-cites the Library of Congress, Center for Louisiana Studies, and lists microfilm at that institution and HNOC. University of Louisiana at Lafayette Collection 329 finding aid, section II.F, printed p.4, places ANOM C 13c volumes 1–4 on reels 539–541; it does not identify the specific reel/frame for volume 1, folio 318.",
+    "established": "The HNOC archival-calendar abstract describes a 19-page reply to a memoir from the Council of Louisiana concerning reduction by one-half of the Company's outstanding debts in Louisiana. The abstract does not identify the author of the reply, the debt class, the direction of the claims, the legal mechanism, the amount or the outcome.",
+    "limitations": "Only the HNOC archival-calendar abstract and University of Louisiana at Lafayette finding-aid/access pages were examined; the 19-page French reply was not read. Do not infer that the Company was the debtor or creditor, that a reduction was granted or implemented, or that any payment or settlement occurred. Do not equate this C 13c, 1:318 reply with Nancy Maria Miller Surrey's separate account of 50-percent reductions/retirement of Company paper notes in 1729–1733 (1916, printed pp.122–123, citing ANOM C 13, vol.16, fols.166–177); that is a different series/volume and no identity of subject is established. A relationship to the 30 March 1735 commodity ordinance (doc-030), the 30 September 1733 Company-notes letter (doc-033), or the 24 February 1731 debt decree (doc-024) remains unverified. Collection 329 reels 539–541 cover C 13c volumes 1–4; the specific reel/frame for volume 1, folio 318 is not mapped.",
+    "sources": [
+      "src-hnoc-1735-company-half-debt-reply",
+      "src-ull-collection-329-reel-inventory",
+      "src-ull-microform-services"
+    ],
+    "entities": [
+      "ent-compagnie-indes-france"
+    ]
   }
 ]
