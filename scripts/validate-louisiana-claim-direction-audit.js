@@ -23,6 +23,7 @@ function validate(data) {
     const doc = documents.get(c.document);
     assert(doc, c.id + ': unknown archival document');
     assert.equal(c.date, doc.date, c.id + ': date must match its document record');
+    assert(c.source_ids.every(id => doc.sources.includes(id)), c.id + ': audit sources must also be attached to the archival document');
     assert(c.archival_locator && c.date_basis && c.instrument_or_proceeding);
     assert(Array.isArray(c.source_ids) && c.source_ids.length);
     for (const id of c.source_ids) {
