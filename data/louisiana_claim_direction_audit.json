@@ -66,7 +66,7 @@
       "creditor_or_claimant": null,
       "party_described_as_owing": null,
       "decision_maker": null,
-      "instrument_or_proceeding": "nineteen-page reply to a memoir from the Council of Louisiana concerning a proposed one-half reduction of the Company's outstanding debts in Louisiana",
+      "instrument_or_proceeding": "nineteen-page reply to a memoir from the Council of Louisiana concerning a one-half reduction of the Company's outstanding debts in Louisiana",
       "alleged_payee": null,
       "amount_reported": {
         "text": null,
@@ -136,8 +136,8 @@
       "archival_locator": "Louisiana Historical Center record 1732-07-15-01; item page 2148; index card #6558; four handwritten manuscript pages unread.",
       "relation_to_doc_024": "not established",
       "source_ids": [
-        "src-lcd-indexing-method-and-wpa",
-        "src-lcd-guillon-labbe-receipt-1736"
+        "src-lcd-duval-account-1732",
+        "src-lcd-indexing-method-and-wpa"
       ]
     },
     {
