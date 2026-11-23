@@ -770,5 +770,24 @@
     "entities": [
       "ent-compagnie-indes-france"
     ]
+  },
+  {
+    "id": "doc-042",
+    "date": "1734-08-14",
+    "place": "New Orleans (as stated in archival catalogue)",
+    "title": "Salmon letter on Company claims for house advances and request for debt remission (catalogue record)",
+    "document_kind": "colonial_company_creditor_dispute_letter_archival_catalogue",
+    "access_level": "catalogue_metadata_only",
+    "reference": "Archives de la Nouvelle-France database item 31196; Archives nationales d'outre-mer (France), COL G1 464/10p., CABAC_PIAF_6888_CABAC_PIAF_6888; 10 images listed. Item metadata gives 14 August 1734 and New Orleans; images not transcribed.",
+    "established": "The Archives de la Nouvelle-France item record describes a French-language letter from Salmon to the minister, dated 14 August 1734 at New Orleans, in response to the minister's dispatch of 16 February 1734. Its catalogue summary says he was charged with ending disputes between the Company of the Indies and Louisiana inhabitants/concessionnaires over repayment of advances for houses, and that Salmon requested remission of half the debts because of insolvency attributed to bad years. Saadani (2008, printed pp.27–29) describes the broader Company-colonist debt disputes and later reduction proposals; the accessible excerpt does not establish that this particular letter is the same instrument discussed in every passage.",
+    "limitations": "Only the archival portal's item metadata was examined; the ten listed image pages were not transcribed. The catalogue summary is not the letter's operative wording and does not establish named debtors, individual balances, a granted remission, ministerial approval, actual payment, legal settlement or a Crown assumption. The phrase concerning advances for houses requires checking against the original French. A relationship to HNOC item 8981 (20 April 1735, ANOM C 13c, 1:318), the 30 March 1735 A 23:118 ordinance, or the 24 February 1731 debt decree is not established. Saadani's pp.27–29 are secondary synthesis; notes 33–46 are not included in the accessible preview, so the archival support for each detail has not been independently checked here. Saadani reports that later debt collection restricted debtors' sale of enslaved people and immovable property without written permission; this remains a secondary account pending examination of the ordinance and related court records. The colonial correspondence does not preserve the voices of inhabitants, enslaved people or Indigenous nations. Do not treat people as mere collateral or infer Indigenous consent from Company correspondence.",
+    "sources": [
+      "src-anom-1734-salmon-letter-catalogue",
+      "src-saadani-2008-louisiana-impasse"
+    ],
+    "entities": [
+      "ent-compagnie-indes-france",
+      "ent-salmon-edme-gatien"
+    ]
   }
 ]
