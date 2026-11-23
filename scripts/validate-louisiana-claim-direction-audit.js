@@ -76,7 +76,7 @@ function validate(data) {
   assert.equal(salmon.alleged_payee, null);
   assert.equal(salmon.liability_adjudicated, false);
   assert.equal(salmon.payment_verified, false);
-  const newSourceIds = new Set(['src-hnoc-1732-company-treasury-memo','src-hnoc-1735-company-half-debt-reply']);
+  const newSourceIds = new Set(['src-hnoc-1732-company-treasury-memo','src-hnoc-1735-company-half-debt-reply','src-anom-1734-salmon-letter-catalogue','src-saadani-2008-louisiana-impasse']);
   assert(!flows.some(f => (f.sources || []).some(id => newSourceIds.has(id))), 'Catalogue abstracts must not become financial flows');
   return true;
 }
@@ -97,4 +97,4 @@ reject('claim-1734-company-house-advance-claims', x => { x.party_described_as_ow
 reject('claim-1734-company-house-advance-claims', x => { x.amount_reported.value = 50000; });
 reject('claim-1734-company-house-advance-claims', x => { x.payment_verified = true; });
 
-console.log('OK: seven Louisiana claim-direction records; Company creditor/debtor distinctions preserved; ambiguous 1735 reply and card conflicts remain unresolved; no liability or payment promoted');
+console.log('OK: eight Louisiana claim-direction records; Company creditor/debtor distinctions preserved; ambiguous 1735 reply and card conflicts remain unresolved; no liability or payment promoted');
