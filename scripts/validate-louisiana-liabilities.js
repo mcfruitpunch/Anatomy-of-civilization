@@ -184,4 +184,4 @@ for (const docId of ['doc-040', 'doc-041']) {
   assert.throws(() => verify({...row, review: 'original_letter_transcribed'}));
 }
 
-console.log('OK: sixteen Louisiana archival leads; January retrocession facsimile evidence level; strict null payment/liability fixtures and thumbnail-only local Council gate');
+console.log('OK: seventeen Louisiana archival leads; January retrocession facsimile evidence level; strict null payment/liability fixtures and thumbnail-only local Council gate');
