@@ -1736,5 +1736,27 @@
     "url": "https://library.louisiana.edu/collections/microforms",
     "locator": "The service page describes microfilm readers with reading/printing features in the Reference Online Center Lab and Jefferson Caffery Reading Room, microform services during normal library hours, and the ability for users to bring outside microforms. This establishes a service route, not item-level availability, a specific reel/frame, or unrestricted public access to Collection 329.",
     "reviewed": true
+  },
+  {
+    "id": "src-anom-1734-salmon-letter-catalogue",
+    "type": "archival_digital_item_locator",
+    "title": "Archives de la Nouvelle-France item 31196: Salmon letter on Company house-advance claims and requested half remission",
+    "author": "Archives de la Nouvelle-France portal; item identifies Archives nationales d'outre-mer",
+    "year": null,
+    "publisher": "Archives de la Nouvelle-France / Archives nationales d'outre-mer",
+    "url": "https://nouvelle-france.org/fra/item/details?id=31196",
+    "locator": "Database item 31196; dated 14 August 1734; place New Orleans; repository Archives nationales d'outre-mer (France); reference COL G1 464/10p., CABAC_PIAF_6888_CABAC_PIAF_6888; 10 images listed. The metadata page was examined, not the ten image pages. Catalogue summary describes Salmon's response to a ministerial dispatch of 16 February 1734, Company claims for repayment of advances for houses, and Salmon's request for remission of half the debts because of insolvency after bad years.",
+    "reviewed": true
+  },
+  {
+    "id": "src-saadani-2008-louisiana-impasse",
+    "type": "historical_secondary_archival_study",
+    "title": "La Louisiane française dans l'impasse, 1731–1743",
+    "author": "Khalil Saadani",
+    "year": 2008,
+    "publisher": "Éditions L'Harmattan",
+    "url": "https://api.pageplace.de/preview/DT0400.9782296192522_A24206785/preview-9782296192522_A24206785.pdf",
+    "locator": "Accessible publisher preview, printed pp.27–29; bibliographic details cross-checked against L'Harmattan's catalogue record https://www.editions-harmattan.fr/catalogue/livre/la-louisiane-francaise-dans-limpasse/49085. Saadani discusses Company claims against Louisiana inhabitants/concessionnaires, requests for debt remission, the 30 March 1735 ordinance and collection restrictions affecting debtors' ability to sell enslaved people or immovable property. The accessible excerpt does not include notes 33–46, and the underlying archival folios for these passages were not examined here.",
+    "reviewed": true
   }
 ]
