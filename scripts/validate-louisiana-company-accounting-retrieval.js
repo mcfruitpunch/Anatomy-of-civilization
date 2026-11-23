@@ -20,7 +20,7 @@ function validate(data) {
   assert.equal(documents.get('doc-024')?.access_level, 'catalogue_metadata_only',
     'The 1731 debt decree must remain catalogue-only until its operative text is read');
   assert.equal(ids.size, data.leads.length, 'Duplicate lead IDs');
-  assert.equal(data.leads.length, 12, 'Expected twelve bounded LHC/HNOC/LLMC retrieval leads');
+  assert.equal(data.leads.length, 13, 'Expected thirteen bounded LHC/HNOC/ANOM/LLMC retrieval leads');
   for (const lead of data.leads) {
     assert(Array.isArray(lead.source_ids) && lead.source_ids.length > 0, lead.id + ': source IDs required');
     for (const sourceId of lead.source_ids) {
@@ -213,6 +213,38 @@ function validate(data) {
   assert.equal(halfReduction.possible_relation_to_doc_033, 'unverified');
   assert.equal(halfReduction.relationship_to_doc_024, 'related financial context; direct documentary link not established');
 
+
+  const salmonLead = get('lead-anom-1734-salmon-house-advance-letter');
+  assert.equal(salmonLead.context_document, 'doc-042');
+  assert.equal(salmonLead.record_id, 31196);
+  assert.equal(salmonLead.record_date, '1734-08-14');
+  assert.equal(salmonLead.archival_reference, 'COL G1 464/10p., CABAC_PIAF_6888_CABAC_PIAF_6888');
+  assert.equal(salmonLead.images_listed, 10);
+  assert.equal(salmonLead.original_text_examined, false);
+  assert.equal(salmonLead.images_transcribed, false);
+  assert.equal(salmonLead.amount_established, false);
+  assert.equal(salmonLead.remission_granted_established, false);
+  assert.equal(salmonLead.payment_established, false);
+  assert.equal(salmonLead.settlement_established, false);
+  assert.equal(salmonLead.connection_to_doc_024, 'not established');
+  assert.equal(salmonLead.possible_relation_to_doc_041, 'same broad Company-colonist debt-remission subject; direct correspondence link not established');
+  const salmonDoc = documents.get('doc-042');
+  assert.equal(salmonDoc?.access_level, 'catalogue_metadata_only');
+  assert(/ten listed image pages.*not transcribed|ten images.*not examined|images.*not transcribed/i.test(salmonDoc?.limitations || ''));
+  const salmonExtract = extracts.get('extract-014');
+  assert.equal(salmonExtract?.reading_level, 'archival_catalogue_abstract_not_original_text');
+  assert.equal(salmonExtract?.language_original, 'fr');
+  assert((salmonExtract?.transcription || '').includes('Lettre de Salmon'));
+  assert((salmonExtract?.transcription || '').includes('remise de la moitié des dettes'));
+  const salmonEvent = events.get('evt-1734-salmon-house-advance-letter');
+  assert.equal(salmonEvent?.date, '1734-08-14');
+  assert.equal(salmonEvent?.status, 'unresolved');
+  assert.equal(salmonEvent?.verification, 'catalogue_only');
+  assert(cases.get('retrocession1731')?.events.includes(salmonEvent?.id));
+  const salmonLedger = ledger.find(x => x.document === 'doc-042');
+  assert.equal(salmonLedger?.review, 'abstract');
+  for (const field of ['paid','transfer','liable']) assert.equal(salmonLedger?.[field], null);
+
   const procedures = get('lead-rg377-1729-lorme-account-examination-procedures');
   assert.equal(procedures.record_id, '1729090601');
   assert.equal(procedures.series_reference, 'B43:872-877');
@@ -242,6 +274,11 @@ rejectMutation('lead-rg377-1729-lorme-account-balancing-order', x => { x.complet
 rejectMutation('lead-rg377-1729-lorme-account-examination-procedures', x => { x.audit_completed_established = true; });
 rejectMutation('lead-llmc-1733-subscriber-access', x => { x.public_access_established = true; });
 rejectMutation('lead-llmc-1733-subscriber-access', x => { x.item_availability_in_uw_instance = 'confirmed'; });
+rejectMutation('lead-anom-1734-salmon-house-advance-letter', x => { x.original_text_examined = true; });
+rejectMutation('lead-anom-1734-salmon-house-advance-letter', x => { x.remission_granted_established = true; });
+rejectMutation('lead-anom-1734-salmon-house-advance-letter', x => { x.payment_established = true; });
+rejectMutation('lead-anom-1734-salmon-house-advance-letter', x => { x.connection_to_doc_024 = 'established'; });
+
 rejectMutation('lead-lhc-1736-labbe-guillon-receipt', x => { x.payment_established = true; });
 rejectMutation('lead-lhc-1736-labbe-guillon-receipt', x => { x.original_manuscript_transcribed = true; });
 rejectMutation('lead-lhc-1736-labbe-guillon-receipt', x => { x.connection_to_doc_024 = 'established'; });
@@ -249,4 +286,4 @@ rejectMutation('lead-lhc-1736-labbe-guillon-receipt', x => { x.debt_direction_ve
 rejectMutation('lead-lhc-1736-labbe-guillon-receipt', x => { x.reported_debt_amount.verification = 'original_text_transcribed'; });
 
 
-console.log('OK: LHC RG3/RG377/RG1, HNOC C13c, and UL Lafayette microfilm leads remain finding-aid or authenticated-access metadata; no decree text, audit result, verified payment or item-level absence is claimed; the 1736 Labbé/Guillon receipt remains index-card-level');
+console.log('OK: LHC RG3/RG377/RG1, HNOC C13c, ANOM COL G1 and UL Lafayette retrieval leads remain finding-aid or catalogue metadata; no decree text, audit result, verified payment or item-level absence is claimed; the 1734 Salmon letter remains catalogue-only and the 1736 Labbé/Guillon receipt remains index-card-level');

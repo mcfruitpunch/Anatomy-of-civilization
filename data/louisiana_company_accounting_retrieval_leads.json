@@ -344,6 +344,32 @@
         "src-ull-microform-services"
       ],
       "next_action": "Ask UAAMC/UL Lafayette to identify which of reels 539–541 contains ANOM C 13c volume 1 and whether folio 318 can be scanned. Obtain all 19 pages; identify the originating memoir, reply author, debt class, claim direction, requested/approved reduction, decision authority and actual outcome. Compare with Surrey 1916 pp.122–123 and C 13 vol.16 fols.166–177 only as a separate paper-money account until an original cross-reference is found."
+    },
+    {
+      "id": "lead-anom-1734-salmon-house-advance-letter",
+      "target_document": "doc-024",
+      "context_document": "doc-042",
+      "repository": "Archives nationales d'outre-mer (France), indexed through Archives de la Nouvelle-France",
+      "record_id": 31196,
+      "record_date": "1734-08-14",
+      "date_basis": "item metadata; letter responds to ministerial dispatch of 16 February 1734",
+      "archival_reference": "COL G1 464/10p., CABAC_PIAF_6888_CABAC_PIAF_6888",
+      "images_listed": 10,
+      "evidence_level": "archival_catalogue_only",
+      "catalogue_summary": "Salmon letter to the minister concerning disputes between the Company of the Indies and Louisiana inhabitants/concessionnaires over repayment of advances for houses; catalogue says Salmon requests remission of half the debts due to insolvency attributed to bad years.",
+      "original_text_examined": false,
+      "images_transcribed": false,
+      "amount_established": false,
+      "remission_granted_established": false,
+      "payment_established": false,
+      "settlement_established": false,
+      "connection_to_doc_024": "not established",
+      "possible_relation_to_doc_041": "same broad Company-colonist debt-remission subject; direct correspondence link not established",
+      "source_ids": [
+        "src-anom-1734-salmon-letter-catalogue",
+        "src-saadani-2008-louisiana-impasse"
+      ],
+      "next_action": "Obtain and examine all ten images or request a legible reproduction from ANOM. Transcribe the French, identify the 16 February 1734 dispatch, exact legal roles, the kind of advances called 'maison', the requested scope of remission and any decision. Compare with HNOC item 8981 (20 April 1735, C 13c 1:318) and the 30 March 1735 A 23:118 ordinance only after checking explicit references; do not infer approval or payment. Seek testimony, petitions and judicial records that show how debt collection affected inhabitants and enslaved people."
     }
   ]
 }

@@ -195,6 +195,34 @@
         "src-hnoc-1733-paper-credit-letter",
         "src-surrey-1916-company-paper-credit-1731-33"
       ]
+    },
+    {
+      "id": "claim-1734-company-house-advance-claims",
+      "document": "doc-042",
+      "date": "1734-08-14",
+      "date_basis": "Archives de la Nouvelle-France item 31196 catalogue date; letter responds to ministerial dispatch of 16 February 1734",
+      "claim_direction": "company_claim_for_repayment_of_house_advances_per_catalogue",
+      "creditor_or_claimant": "Company of the Indies (catalogue wording only)",
+      "party_described_as_owing": "Louisiana inhabitants and concessionnaires (collective catalogue wording only; individuals not identified)",
+      "decision_maker": null,
+      "instrument_or_proceeding": "Ten-image letter by Salmon to the minister; catalogue says it concerns Company claims for repayment of advances for houses and Salmon's request for remission of half the debts due to insolvency attributed to bad years.",
+      "alleged_payee": null,
+      "amount_reported": {
+        "text": null,
+        "value": null,
+        "unit": null,
+        "verification": "no amount stated in catalogue"
+      },
+      "amount_verified": false,
+      "liability_adjudicated": false,
+      "payment_verified": false,
+      "evidence_level": "archival_catalogue_metadata_only",
+      "archival_locator": "Archives nationales d'outre-mer, COL G1 464/10p., Archives de la Nouvelle-France database item 31196; ten images listed; item metadata examined, images not transcribed.",
+      "relation_to_doc_024": "related Company-colonist debt dispute; explicit cross-reference to 24 February 1731 decree not established",
+      "source_ids": [
+        "src-anom-1734-salmon-letter-catalogue",
+        "src-saadani-2008-louisiana-impasse"
+      ]
     }
   ]
 }

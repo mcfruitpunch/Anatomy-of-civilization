@@ -248,3 +248,42 @@ A new access route is now precise: the University of Louisiana at Lafayette's Co
 Do not equate the 1735 C 13c 1:318 reply with Nancy Maria Miller Surrey's 1916 account (printed pp.122–123) of 50-percent reductions/retirement of Company paper notes in 1729–1733. Surrey cites ANOM C 13, vol.16, fols.166–177, a distinct series/volume. A relationship is a hypothesis until the C 13c original is read.
 
 The direction audit now distinguishes: (1) the 23 January 1731 decree's Company creditor-rights clause; (2) the 1732 memo's catalogue-described Company-to-Treasury claim; and (3) the 1735 reply's unresolved debt direction. These are not a unified balance or settlement chain. Documents doc-040 and doc-041 remain catalogue-only; no amount, liability adjudication, transfer or payment was added. No financial-flow record was created, and the 24 February 1731 debt decree remains unread.
+
+
+## 23 November 2026: Salmon's 14 August 1734 debt-remission letter — catalogue cross-check, not original transcription
+
+**Repository state:** Starting `main` was `d177ff7e0b87531a10e41ae16b878177ba7a823e`; issue #24 remained open and no PRs were open. The 24 February 1731 debt decree remains catalogue-only and its two operative pages remain unread. This milestone adds a distinct 1734 correspondence record; it does not repeat the January 1731 retrocession facsimile transcription.
+
+### Archives de la Nouvelle-France item 31196
+
+The [Archives de la Nouvelle-France item record](https://nouvelle-france.org/fra/item/details?id=31196) identifies a French-language letter by Salmon to the minister, dated **14 August 1734**, place of writing **New Orleans**, responding to a ministerial dispatch of **16 February 1734**. It lists **10 images** and identifies the repository as the Archives nationales d'outre-mer (France), reference **COL G1 464/10p., CABAC_PIAF_6888_CABAC_PIAF_6888**.
+
+The portal's catalogue description says the minister charged Salmon with ending disputes between the Company of the Indies and Louisiana inhabitants/concessionnaires over repayment of advances for houses, and that Salmon requested remission of half the debts because of insolvency attributed to bad years. The French catalogue phrases transcribed in `extract-014` are short metadata excerpts only; the ten images were **not** examined or transcribed. The date is the catalogue's letter date, not a date of decision, remission or payment.
+
+### Secondary cross-check: Saadani (2008), printed pp.27–29
+
+Khalil Saadani, *La Louisiane française dans l'impasse, 1731–1743* (Paris: Éditions L'Harmattan, 2008), accessible preview pp.27–29, describes the wider post-retrocession disputes between the Company and Louisiana inhabitants/concessionnaires. The excerpt discusses debts owed in both directions, proposals to reduce claims, the 30 March 1735 ordinance fixing prices for produce accepted against Company debts, and later collection measures. It reports that debtors were restricted from selling enslaved people or immovable property without written permission. Bibliographic details were cross-checked against [L'Harmattan's publisher record](https://www.editions-harmattan.fr/catalogue/livre/la-louisiane-francaise-dans-limpasse/49085).
+
+This is a **secondary synthesis**, not a transcription of the 1734 letter or 1735 ordinance. The accessible excerpt does not include notes 33–46; the original folios underlying each passage were not independently checked here. Saadani's narrative is contextual corroboration of the debt-dispute setting, not proof that item 31196 is the same document as HNOC item 8981 or that a requested remission was granted.
+
+### Claim direction and unresolved relationships
+
+At catalogue level, item 31196 describes the Company as seeking repayment of house advances from inhabitants/concessionnaires. Salmon's request for a half remission is a request, not an approval. No amount, named debtor, decision, payment or settlement is recorded in the item metadata.
+
+The apparent relationship to HNOC Surrey Calendar item 8981 ([20 April 1735], ANOM C 13c, 1:318), which is catalogued as a reply concerning one-half reduction of the Company's outstanding Louisiana debts, remains **unverified**. These records differ in date and archival series (COL G1 464/10p. versus C 13c, 1:318). The 30 March 1735 A 23:118 commodity ordinance is another distinct instrument. Compare them only after reading the originals and locating an explicit cross-reference.
+
+### Human and community context
+
+The 1734 letter is a colonial administrative/creditor perspective. It does not preserve the voices of the inhabitants, enslaved people or Indigenous nations. Saadani's account of debt-collection restrictions involving enslaved people is important context, but it must be tested against the ordinance and judicial records; it is not a reason to encode people as neutral collateral. The atlas continues to distinguish French Company correspondence from community-authored Choctaw and Peoria histories and from the Louisiana Superior Council's separate manumission-petition records. No Indigenous consent is inferred from colonial correspondence.
+
+### Implementation and evidence gates
+
+- Added `doc-042` as catalogue-only and `evt-1734-salmon-house-advance-letter` as unresolved/catalogue-only.
+- Added `src-anom-1734-salmon-letter-catalogue` and `src-saadani-2008-louisiana-impasse`.
+- Added `extract-014` with short French catalogue excerpts, explicitly not original letter text.
+- Added a non-transactional claim-direction entry for Company claims to recover house advances, with no amount, named debtor or adjudicated liability.
+- Added a retrieval lead for the ten images and updated negative validators.
+- Added one abstract-level row to the review ledger; `paid`, `transfer` and `liable` remain null. No financial-flow record was created.
+- The 24 February 1731 debt decree (`doc-024`) remains `catalogue_metadata_only`; its operative text is unread.
+
+**Next retrieval:** obtain all ten images of COL G1 464/10p.; transcribe the original French; identify the 16 February 1734 dispatch and any attached accounts or decisions; then compare with C 13c, 1:318 and A 23:118 only if the originals supply direct documentary links. In parallel, continue the highest-priority task: obtain both pages of the 24 February 1731 debt decree through the Columbia/LLMC or BnF route and transcribe its operative clauses.

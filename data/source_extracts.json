@@ -363,5 +363,25 @@
     "legal_liability_verified": false,
     "payment_verified": false,
     "financial_ledger_entry_created": false
+  },
+  {
+    "id": "extract-014",
+    "title": "Catalogue description of Salmon's 14 August 1734 letter on Company house-advance claims and requested half remission",
+    "date": "1734-08-14",
+    "date_role": "archival_catalogue_date_not_verified_decision_or_payment_date",
+    "place": "New Orleans (as stated in item metadata)",
+    "record_kind": "archival_catalogue_abstract_of_colonial_company_creditor_dispute_letter",
+    "reading_level": "archival_catalogue_abstract_not_original_text",
+    "language_original": "fr",
+    "paraphrase": "Archives de la Nouvelle-France item 31196 identifies a ten-image French letter from Salmon to the minister, dated 14 August 1734 and responding to a dispatch of 16 February 1734. The catalogue describes Company claims against Louisiana inhabitants and concessionnaires for repayment of advances for houses and says Salmon requested remission of half the debts because of insolvency attributed to bad years. This is a transcription/paraphrase of the catalogue description only; the ten archival images have not been examined. Saadani (2008, printed pp.27–29) places Company-colonist debt disputes and reduction proposals in the wider post-retrocession context, but the accessible excerpt does not establish a direct documentary link to the 1734 letter or HNOC item 8981.",
+    "transcription": "Catalogue wording fragments only: “Lettre de Salmon au ministre en réponse à sa dépêche du 16 février 1734.” The item summary also says: “Salmon demande la remise de la moitié des dettes.” These are catalogue phrases, not a transcription of the letter.",
+    "reported_numbers": [],
+    "limitations": "The source is an archival portal item record, not the ten-page letter. Its summary does not establish individual debts, amounts, ministerial decision, approved remission, collection, payment, settlement or Crown assumption. The catalogue's wording about house advances must be checked against the original French. The 1734 letter is not proven to be the same correspondence as HNOC item 8981 or the 30 March 1735 ordinance, and no explicit cross-reference to the 24 February 1731 decree has been established. Saadani is a secondary synthesis; accessible preview pp.27–29 does not include the cited notes 33–46. This colonial administrative description does not preserve the experiences of inhabitants, enslaved people or Indigenous nations; pair it with judicial petitions and community-authored histories rather than treating the ledger's categories as a complete social account.",
+    "sources": [
+      "src-anom-1734-salmon-letter-catalogue",
+      "src-saadani-2008-louisiana-impasse"
+    ],
+    "event": "evt-1734-salmon-house-advance-letter",
+    "case": "retrocession1731"
   }
 ]
