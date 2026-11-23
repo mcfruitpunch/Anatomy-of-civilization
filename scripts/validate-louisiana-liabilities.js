@@ -28,6 +28,7 @@ const reviewByDocument = new Map([
   ['doc-028', 'catalogue'],  // May 11 1737 indexed receipt; payer/payee unknown
   ['doc-040', 'abstract'],   // Sep 2 1732 estimated Company-to-Treasury memoir; original unread
   ['doc-041', 'abstract'],   // Apr 20 1735 reply on half-reduction; direction unresolved
+  ['doc-042', 'abstract'],   // Aug 14 1734 Salmon letter catalogue record; requested half remission, not proof of grant
 ]);
 
 const imageAudits = data('louisiana_image_access_audit');
@@ -94,7 +95,7 @@ function verify(row) {
 }
 
 assert(Array.isArray(rows), 'Liability ledger must be an array');
-assert.equal(rows.length, reviewByDocument.size, 'All sixteen audited leads must be present');
+assert.equal(rows.length, reviewByDocument.size, 'All seventeen audited leads must be present');
 assert.equal(new Set(rows.map(row => row.document)).size, rows.length, 'Duplicate archival item');
 rows.forEach(verify);
 
@@ -111,6 +112,17 @@ assert.throws(() => verify({...rows[0], review: 'original_decree_transcribed'}))
 assert.throws(() => verify({...rows[2], review: 'title_page'}));
 // A commodity-valuation ordinance for debts TO the Company does not prove
 // produce delivery, Crown debt assumption, or payment BY the Company.
+
+const salmonRow = rows.find(r => r.document === 'doc-042');
+assert(salmonRow, '1734 Salmon catalogue letter missing from liability review');
+assert.equal(salmonRow.review, 'abstract');
+for (const field of ['paid','transfer','liable']) assert.equal(salmonRow[field], null);
+// A catalogue-described request for half remission is not proof that a remission
+// was approved, a debt discharged, or a payment made.
+assert.throws(() => verify({...salmonRow, paid: 1}));
+assert.throws(() => verify({...salmonRow, transfer: 'Company to Crown'}));
+assert.throws(() => verify({...salmonRow, liable: 'inhabitants'}));
+
 const commodityRow = rows.find(r => r.document === 'doc-030');
 assert(commodityRow, '1735 commodity ordinance missing');
 assert.equal(commodityRow.review, 'abstract');
