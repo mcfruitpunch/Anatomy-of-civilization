@@ -16,7 +16,7 @@ const allowed = [
 function validate(data) {
   assert.equal(data.version, '1.0');
   assert(/not a financial-flow ledger/i.test(data.purpose));
-  assert.equal(data.claims.length, 7);
+  assert.equal(data.claims.length, 8);
   assert.equal(new Set(data.claims.map(x => x.id)).size, data.claims.length);
   for (const c of data.claims) {
     assert.deepEqual(Object.keys(c).sort(), allowed, c.id + ': unexpected field');
@@ -65,6 +65,17 @@ function validate(data) {
   assert.equal(decree.amount_reported.value, null);
   const paper = byId('claim-1733-company-notes-letter');
   assert.equal(paper.claim_direction, 'unresolved_company_notes_and_bills_correspondence');
+
+  const salmon = byId('claim-1734-company-house-advance-claims');
+  assert.equal(salmon.document, 'doc-042');
+  assert.equal(salmon.claim_direction, 'company_claim_for_repayment_of_house_advances_per_catalogue');
+  assert.equal(salmon.creditor_or_claimant, 'Company of the Indies (catalogue wording only)');
+  assert.equal(salmon.party_described_as_owing, 'Louisiana inhabitants and concessionnaires (collective catalogue wording only; individuals not identified)');
+  assert.equal(salmon.amount_reported.value, null);
+  assert.equal(salmon.decision_maker, null);
+  assert.equal(salmon.alleged_payee, null);
+  assert.equal(salmon.liability_adjudicated, false);
+  assert.equal(salmon.payment_verified, false);
   const newSourceIds = new Set(['src-hnoc-1732-company-treasury-memo','src-hnoc-1735-company-half-debt-reply']);
   assert(!flows.some(f => (f.sources || []).some(id => newSourceIds.has(id))), 'Catalogue abstracts must not become financial flows');
   return true;
@@ -82,4 +93,8 @@ reject('claim-1735-half-reduction', x => { x.claim_direction = 'company_to_frenc
 reject('claim-1735-half-reduction', x => { x.payment_verified = true; });
 reject('claim-1736-labbe-company-receivable-card-report', x => { x.amount_verified = true; });
 reject('claim-1731-company-creditor-rights', x => { x.payment_verified = true; });
+reject('claim-1734-company-house-advance-claims', x => { x.party_described_as_owing = 'French Crown'; });
+reject('claim-1734-company-house-advance-claims', x => { x.amount_reported.value = 50000; });
+reject('claim-1734-company-house-advance-claims', x => { x.payment_verified = true; });
+
 console.log('OK: seven Louisiana claim-direction records; Company creditor/debtor distinctions preserved; ambiguous 1735 reply and card conflicts remain unresolved; no liability or payment promoted');
