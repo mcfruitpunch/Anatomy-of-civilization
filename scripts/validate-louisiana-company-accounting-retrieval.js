@@ -230,7 +230,7 @@ function validate(data) {
   assert.equal(salmonLead.possible_relation_to_doc_041, 'same broad Company-colonist debt-remission subject; direct correspondence link not established');
   const salmonDoc = documents.get('doc-042');
   assert.equal(salmonDoc?.access_level, 'catalogue_metadata_only');
-  assert(/ten images.*not examined|images.*not transcribed/i.test(salmonDoc?.limitations || ''));
+  assert(/ten listed image pages.*not transcribed|ten images.*not examined|images.*not transcribed/i.test(salmonDoc?.limitations || ''));
   const salmonExtract = extracts.get('extract-014');
   assert.equal(salmonExtract?.reading_level, 'archival_catalogue_abstract_not_original_text');
   assert.equal(salmonExtract?.language_original, 'fr');
@@ -286,4 +286,4 @@ rejectMutation('lead-lhc-1736-labbe-guillon-receipt', x => { x.debt_direction_ve
 rejectMutation('lead-lhc-1736-labbe-guillon-receipt', x => { x.reported_debt_amount.verification = 'original_text_transcribed'; });
 
 
-console.log('OK: LHC RG3/RG377/RG1, HNOC C13c, and UL Lafayette microfilm leads remain finding-aid or authenticated-access metadata; no decree text, audit result, verified payment or item-level absence is claimed; the 1736 Labbé/Guillon receipt remains index-card-level');
+console.log('OK: LHC RG3/RG377/RG1, HNOC C13c, ANOM COL G1 and UL Lafayette retrieval leads remain finding-aid or catalogue metadata; no decree text, audit result, verified payment or item-level absence is claimed; the 1734 Salmon letter remains catalogue-only and the 1736 Labbé/Guillon receipt remains index-card-level');
