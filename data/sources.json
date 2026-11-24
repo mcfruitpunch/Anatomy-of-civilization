@@ -1200,13 +1200,13 @@
   },
   {
     "id": "src-lcd-retrocession-1731",
-    "type": "digitized_primary_record_catalog_with_thumbnail_preview_links",
-    "title": "Louisiana Retrocession — original French document dated January 24, 1731",
-    "author": "Louisiana Historical Center, Louisiana Colonial Documents Digitization Project",
+    "type": "digitized_archival_copy_with_certification_and_english_summary_cards",
+    "title": "Company of the Indies register extracts on Louisiana retrocession, 22–24 January 1731 (1889 certified archival copy; LHC record 1731-01-24-03)",
+    "author": "Company of the Indies (underlying register extracts); certified by Ministry of Marine and Colonies archive officials, 20 September 1889; digitized by Louisiana Historical Center",
     "year": 1731,
     "publisher": "Louisiana Historical Center",
     "url": "https://lacolonialdocs.org/document/2003",
-    "locator": "Record 1731-01-24-03 opened 12 Nov 2026: French Superior Council, New Orleans, dated 24 Jan 1731; record page displays Pg. 1 / 24 and 48 separate Image links. Three sampled archive links (site link IDs 3, 4 and 26) resolve to small JPEG preview assets under station_thumbs_sm, not a legible full-resolution text image. Sample URLs: https://lacolonialdocs-data.s3.amazonaws.com/station_thumbs_sm/doc-img-125291.jpg ; https://lacolonialdocs-data.s3.amazonaws.com/station_thumbs_sm/doc-img-125292.jpg ; https://lacolonialdocs-data.s3.amazonaws.com/station_thumbs_sm/doc-img-125290.jpg . Metadata category: Administrative Acts, Retrocession of Louisiana; indexed names Coligny, Company of Indies, Le Redde and Orry. No operative text was transcribed; no page sequence, recto/verso structure, legal effect or final handover is inferred.",
+    "locator": "LHC record 1731-01-24-03. Twenty-four 800px derivatives examined: doc-img-125291.jpg–125294.jpg (four typed English summary cards) and doc-img-125271.jpg–125290.jpg (manuscript/certification/cover images); 24 of the record page's 48 image links inspected, without assuming recto/verso mapping. 22 January 1731 Company register extract: doc-img-125271.jpg–125282.jpg. 24 January 1731 committee deliberation and royal message: doc-img-125283.jpg–125285.jpg. 1889 copy certification: doc-img-125286.jpg–125287.jpg. The copy's internal heading names the Ministry of Marine and Colonies and 'Cartons sur la Compagnie des Indes no.1'; the LHC catalogue separately labels the source 'French Superior Council'. The underlying 1731 register and 600dpi preservation TIFFs were not examined.",
     "reviewed": true
   },
   {
@@ -1757,6 +1757,28 @@
     "publisher": "Éditions L'Harmattan",
     "url": "https://api.pageplace.de/preview/DT0400.9782296192522_A24206785/preview-9782296192522_A24206785.pdf",
     "locator": "Accessible publisher preview, printed pp.27–29; bibliographic details cross-checked against L'Harmattan's catalogue record https://www.editions-harmattan.fr/catalogue/livre/la-louisiane-francaise-dans-limpasse/49085. Saadani discusses Company claims against Louisiana inhabitants/concessionnaires, requests for debt remission, the 30 March 1735 ordinance and collection restrictions affecting debtors' ability to sell enslaved people or immovable property. The accessible excerpt does not include notes 33–46, and the underlying archival folios for these passages were not examined here.",
+    "reviewed": true
+  },
+  {
+    "id": "src-natchez-nation-official",
+    "type": "indigenous_nation_official_self_description",
+    "title": "Natchez Nation — official website",
+    "author": "Natchez Nation",
+    "year": 2023,
+    "publisher": "Natchez Nation",
+    "url": "https://natcheznation.org/",
+    "locator": "Official homepage, opened 24 November 2026, lines 8–11: the Nation identifies itself as a sovereign Native American tribe in Notchietown, Oklahoma, describes its traditional government, and states that its history extends before and after its period of interaction with the French. Contemporary community self-description; not a direct account of the 1729–1731 conflict.",
+    "reviewed": true
+  },
+  {
+    "id": "src-nps-natchez-history",
+    "type": "national_park_service_historical_context",
+    "title": "The Natchez Indians — Natchez National Historical Park",
+    "author": "National Park Service",
+    "year": 2024,
+    "publisher": "U.S. Department of the Interior",
+    "url": "https://www.nps.gov/natc/learn/historyculture/indians.htm",
+    "locator": "Natchez National Historical Park page, opened 24 November 2026, lines 23–28; describes Natchez history before French settlement, the 1729 conflict, French retaliation, and Natchez dispersal/refuge by 1731. Institutional context, not Natchez community testimony.",
     "reviewed": true
   }
 ]
