@@ -369,20 +369,24 @@
   {
     "id": "doc-021",
     "date": "1731-01-24",
-    "place": "New Orleans",
-    "title": "Local 24-page French Superior Council retrocession dossier",
-    "document_kind": "digitized_council_retrocession_document",
-    "access_level": "thumbnail_preview_links_observed_text_unread",
-    "reference": "Louisiana Historical Center record 1731-01-24-03, 24-page French Superior Council dossier, https://lacolonialdocs.org/document/2003. Record page displays Pg. 1 / 24 and 48 Image links; three sampled targets resolve to small station_thumbs_sm JPEG previews (see data/louisiana_image_access_audit.json).",
-    "established": "The Louisiana Historical Center record page identifies a French Superior Council item dated 24 January 1731, originating in New Orleans, and categorizes it as Administrative Acts, Retrocession of Louisiana. It displays 24 pages and 48 Image links; three sampled image targets are thumbnail previews. The index lists Coligny, the Company of Indies, Le Redde and Orry. This establishes archival metadata and preview-link availability, not the contents of the handwritten clauses.",
-    "limitations": "No French text was transcribed. Only three of the 48 Image links were sampled; all three returned small JPEG thumbnail previews under station_thumbs_sm, and no full-resolution page asset was verified. Do not infer that the 48 links represent recto/verso pairs or a particular page sequence. No WPA Black Book 20 crosswalk has been verified. The archive's modern category 'Retrocession of Louisiana' is not a transcription of operative language. The 24 January local record date is distinct from the 23 January royal decree and does NOT establish final Crown retrocession or an effective handover date.",
+    "place": "Company assembly location not stated; the Louisiana Historical Center record lists New Orleans as the item's origin",
+    "title": "Company of the Indies register extracts on Louisiana retrocession (22 and 24 January 1731; 1889 certified archival copy)",
+    "document_kind": "certified_archival_copy_of_company_register_extracts",
+    "access_level": "certified_archival_copy_text_examined",
+    "reference": "Louisiana Historical Center record 1731-01-24-03, https://lacolonialdocs.org/document/2003. Twenty-four 800px image derivatives corresponding to record image links 3–26 were visually examined (24 of 48 links; no recto/verso mapping inferred). Four typed English summary cards are doc-img-125291.jpg–doc-img-125294.jpg; twenty manuscript/certification/cover images are doc-img-125271.jpg–doc-img-125290.jpg. The 24 January deliberations and payment terms are on doc-img-125283.jpg–doc-img-125285.jpg; 20 September 1889 certification is on doc-img-125286.jpg–doc-img-125287.jpg.",
+    "established": "The LHC catalogue labels the item 'French Superior Council', but the copy's internal heading identifies the Ministère de la Marine et des Colonies, Bureau des Archives, and 'Cartons sur la Compagnie des Indes no.1'. Image doc-img-125271 identifies an extract from the Company's general assembly register dated 22 January 1731; doc-img-125283 is headed deliberations of the Company's general and particular committees on 24 January 1731. The 24 January extract quotes a royal message from Marly dated 22 January: the Secretary of State estimated an equivalent at 3,600,000 livres, which the King reduced and fixed at 1,450,000 livres, payable over ten years (200,000 in each of the first three years, 150,000 in each of the next three, and 100,000 in each of the final four). The Company assembly then authorized its syndics and directors to submit, for the Company, an undertaking to pay that 1,450,000-livre sum under those terms, subject to the King's order and prescribed form. The petition also presents an alternative under which the Company would retain exclusive trade while supplying 500 enslaved people per year; this is a proposed condition, not evidence of actual shipments. Images 125286–125287 contain a certification dated 20 September 1889 stating that the extracts conform to a collated copy deposited in the archives.",
+    "limitations": "The underlying 1731 Company register was not examined. The accessible witness is an 1889 certified archival copy of extracts, not the original 1731 register; the certification itself says the extracts conform to a collated copy deposited in archives. The LHC page's 'French Superior Council' source label conflicts with the document's Ministry of Marine/Company-cartons heading; custody and catalogue provenance need archivist confirmation. Only 24 of 48 image links were examined, using 800px derivatives rather than 600dpi preservation TIFFs; the remaining 24 links were not inspected. The four attached English typed summary cards are derivative and their exact crosswalk to WPA Black Book 20 is unverified; their summary reports 3,600,000 livres but omits the French copy's reduction to 1,450,000. The 1,450,000 livres is a Company-authorized submission/undertaking subject to further royal order and form, not proof of final execution, a legally adjudicated debt, receipt by the Crown, or payment of any installment. No treasury account or receipt was examined. The 24 January Company-register extract is distinct from the 23 January royal decree and the 24 February 1731 Company-debt decree; no explicit cross-reference to the latter is established. The proposed annual supply of 500 enslaved people is not an actual shipment or count. The Company's description of the Natchez conflict is a corporate colonial narrative; it does not represent Natchez political perspectives or establish that Natchez people ceased to exist. The Natchez Nation's own current self-description and NPS historical context are retained separately.",
     "sources": [
-      "src-lcd-retrocession-1731"
+      "src-lcd-retrocession-1731",
+      "src-lcd-indexing-method-and-wpa",
+      "src-natchez-nation-official",
+      "src-nps-natchez-history"
     ],
     "entities": [
       "ent-compagnie-indes-france",
-      "ent-french-superior-council-la",
-      "ent-french-crown"
+      "ent-french-crown",
+      "ent-natchez-nation",
+      "ent-enslaved-africans-french-louisiana"
     ]
   },
   {
