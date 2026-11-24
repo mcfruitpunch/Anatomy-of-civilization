@@ -859,7 +859,7 @@
     "id": "retrocession1731",
     "title": "Company Withdrawal, Royal Administration and Louisiana's Outstanding Debts (1731–1735)",
     "period": "1717–1735",
-    "summary": "The French Council issued a retrocession decree on 23 January 1731 and a separate Louisiana Company-debt decree on 24 February 1731 (the debt decree was PRINTED in 1733). A May 1731 law reorganized Louisiana's Superior Council without Company directors. In January 1732, Salmon reported taking possession of certain physical assets for the king. Legal concession, regulatory liabilities, institutional appointments and asset custody are distinct.",
+    "summary": "The French Council issued a retrocession decree on 23 January 1731 and a separate Louisiana Company-debt decree on 24 February 1731 (the debt decree was PRINTED in 1733). A May 1731 law reorganized Louisiana's Superior Council without Company directors. In January 1732, Salmon reported taking possession of certain physical assets for the king. Legal concession, regulatory liabilities, institutional appointments and asset custody are distinct. A separate 24 January Company-register extract, surviving as an 1889 certified copy, records a Company-authorized submission to pay 1,450,000 livres over ten years after the King reduced a 3,600,000-livre estimate; no formal execution or installment payment is established, and this is not the 24 February debt decree.",
     "summary_sources": [
       "src-bnf-retrocession-edict-1731",
       "src-louisiana-museum-retrocession",
@@ -867,25 +867,29 @@
       "src-bnf-1733-company-debts",
       "src-umsl-1731-decree-image",
       "src-columbia-1731-debt-printed-1733",
-      "src-unilim-1731-retrocession"
+      "src-unilim-1731-retrocession",
+      "src-lcd-retrocession-1731"
     ],
-    "decision_making": "The Company of the Indies had governed Louisiana under a concession following John Law's Company of the West in 1717. After colonial conflict and commercial losses, the Company ceded its administrative concession back to the French Crown in 1731. The surviving government decrees and 1732 Salmon letter show a process of legal withdrawal and asset handover that needed further decisions over exceptions and creditor debts. Distinct Choctaw diplomatic initiatives and contested Mobile trade rights continued across the handover. The royal retrocession document is dated 23 January 1731; an archival catalogue of a separate original debt law shows decree dated 24 February 1731 even though it was printed in a 1733 edition. A royal edict of 22 May 1731 excluded Company directors from the Superior Council.",
+    "decision_making": "The Company of the Indies had governed Louisiana under a concession following John Law's Company of the West in 1717. After colonial conflict and commercial losses, the Company ceded its administrative concession back to the French Crown in 1731. The surviving government decrees and 1732 Salmon letter show a process of legal withdrawal and asset handover that needed further decisions over exceptions and creditor debts. Distinct Choctaw diplomatic initiatives and contested Mobile trade rights continued across the handover. The royal retrocession document is dated 23 January 1731; an archival catalogue of a separate original debt law shows decree dated 24 February 1731 even though it was printed in a 1733 edition. A royal edict of 22 May 1731 excluded Company directors from the Superior Council. The 24 January 1731 Company deliberation, preserved in an 1889 certified copy, records the King's reduction of a 3,600,000-livre estimate to 1,450,000 livres and the Company's authorization for directors to submit an undertaking to pay in installments, subject to further royal order and form. This is a distinct Company-to-Crown obligation candidate, not a proven cash transfer or the separate 24 February Company-debt decree.",
     "decision_sources": [
       "src-louisiana-museum-retrocession",
       "src-bnf-retrocession-edict-1731",
       "src-hnoc-salmon-possession-1732",
       "src-musco-ellis-spring-2025",
       "src-columbia-1731-debt-printed-1733",
-      "src-unilim-1731-retrocession"
+      "src-unilim-1731-retrocession",
+      "src-lcd-retrocession-1731"
     ],
-    "consequences": "A May 1731 royal edict excluded Company directors from the Louisiana Superior Council, helping distinguish public judicial governance from former Company management. In January 1732 Salmon separately reported taking physical possession of forts, buildings and artillery for the king, with exceptions and disputes about Company merchandise. The 1731 debt decree is known from a 1733 printed edition; its text does not establish that all liabilities became Crown obligations, or that the 1732 Diron judgment was paid. People enslaved or living in sovereign Indigenous nations must not be reduced to transferable assets. A separate 14 September 1735 ordinance, preserved as an 1892 historical reprint rather than an examined original, prescribed up to 200,000 livres of Louisiana card money and rules for official recording and acceptance. The authorized ceiling is not proof of issue, circulation, redemption, or payment of the Company's debts.",
+    "consequences": "A May 1731 royal edict excluded Company directors from the Louisiana Superior Council, helping distinguish public judicial governance from former Company management. In January 1732 Salmon separately reported taking physical possession of forts, buildings and artillery for the king, with exceptions and disputes about Company merchandise. The 1731 debt decree is known from a 1733 printed edition; its text does not establish that all liabilities became Crown obligations, or that the 1732 Diron judgment was paid. People enslaved or living in sovereign Indigenous nations must not be reduced to transferable assets. A separate 14 September 1735 ordinance, preserved as an 1892 historical reprint rather than an examined original, prescribed up to 200,000 livres of Louisiana card money and rules for official recording and acceptance. The authorized ceiling is not proof of issue, circulation, redemption, or payment of the Company's debts. The Company's petition also describes an alternative arrangement under which it would retain exclusive trade while supplying 500 enslaved people annually; this is a proposed condition, not evidence of actual shipments. The Company's framing of the Natchez conflict is a corporate colonial account and must be paired with Natchez community continuity and histories of French retaliation, not treated as a complete Natchez perspective.",
     "consequences_sources": [
       "src-hnoc-salmon-possession-1732",
       "src-bnf-1733-company-debts",
       "src-hnoc-louisiana-pathfinder",
       "src-unilim-1731-retrocession",
       "src-columbia-1731-debt-printed-1733",
-      "src-zay-1892-louisiana-card-money-1735"
+      "src-zay-1892-louisiana-card-money-1735",
+      "src-natchez-nation-official",
+      "src-nps-natchez-history"
     ],
     "interpretations": [
       {
@@ -962,11 +966,30 @@
           "src-hnoc-1735-company-half-debt-reply",
           "src-surrey-1916-louisiana-commerce-1735"
         ]
+      },
+      {
+        "label": "The 24 January Company undertaking is not a verified payment or the 24 February debt decree",
+        "claim": "The 1889 certified copy of Company register extracts records the King's reduction of a 3,600,000-livre estimate to 1,450,000 livres and the Company's authorization for its directors to submit an undertaking to pay under a ten-year schedule, subject to a further royal order and prescribed form. This is evidence of a recorded Company-to-Crown submission, not proof of final execution, legal adjudication, receipt or payment; it is separate from the 24 February 1731 Company-debt decree.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-lcd-retrocession-1731",
+          "src-lcd-indexing-method-and-wpa"
+        ]
+      },
+      {
+        "label": "The Company's Natchez narrative is not a complete or final account of Natchez history",
+        "claim": "The Company register extract frames the Natchez conflict and colonial insecurity as reasons for withdrawal and discusses an alternative supply of 500 enslaved people annually if exclusive trade were retained. This is a corporate colonial perspective, not a neutral account of Natchez political aims or the consequences of French retaliation. The Natchez Nation's official site identifies a continuing sovereign Natchez community in Oklahoma; the NPS describes the 1731 dispersal and refuge. Do not treat colonial descriptions of territorial control or dispersal as evidence that Natchez people ceased to exist or consented to French claims.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-lcd-retrocession-1731",
+          "src-natchez-nation-official",
+          "src-nps-natchez-history"
+        ]
       }
     ],
     "open_questions": [
       "Read the original French 1731 Council of State retrocession decree and identify which powers, properties, exclusive trading rights and obligations transferred to the Crown on which effective date.",
-      "Compare the 24-page Louisiana Historical Center item 1731-01-24-03 with the final 1731 royal act: document chronology must not be conflated with transfer completion.",
+      "Obtain the original Company register or a higher-resolution copy of LHC item 1731-01-24-03; trace the royal implementing order and Treasury receipts for the 1,450,000-livre ten-year undertaking. The available witness is an 1889 certified copy, not the 1731 register, and no installment payment is established.",
       "Read Salmon's January 19, 1732 original letter (ANOM C13 15:31) and itemize transferred buildings, forts and artillery and reasons for the exclusions.",
       "Resolve whether 'Youanis (Yazoo)' in the Salmon abstract can refer to the same location as Choctaw Haiyowvni/Youanis or is a distinct post.",
       "Read the 1733 Company of Indies debt decree article by article: identify how legal debtors, former directors, creditors and Crown obligations are specified; no liabilities should be guessed.",
@@ -1006,7 +1029,8 @@
       "ent-french-superior-council-la",
       "ent-choctaw-nation",
       "ent-enslaved-africans-french-louisiana",
-      "ent-bernard-diron-dartaguiette"
+      "ent-bernard-diron-dartaguiette",
+      "ent-natchez-nation"
     ]
   }
 ]
