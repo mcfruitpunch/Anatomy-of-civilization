@@ -4,10 +4,10 @@
     "document": "doc-021",
     "source_id": "src-lcd-retrocession-1731",
     "record_url": "https://lacolonialdocs.org/document/2003",
-    "observed_on": "2026-11-12",
+    "observed_on": "2026-11-24",
     "record_date": "1731-01-24",
     "repository": "Louisiana Historical Center",
-    "collection": "French Superior Council",
+    "collection": "French Superior Council (LHC catalogue label); internal copy heading identifies Ministry of Marine and Colonies / Cartons sur la Compagnie des Indes no.1",
     "language": "French",
     "origin": "New Orleans, Province of Louisiana",
     "catalogue_category": "Administrative Acts, Retrocession of Louisiana",
@@ -39,9 +39,105 @@
       "Le Redde",
       "Orry"
     ],
-    "text_examined": false,
+    "text_examined": true,
     "full_resolution_asset_verified": false,
     "wpa_black_book_crosswalk_verified": false,
-    "next_action": "Request legible full-resolution images of the 24-page French record and exact original folio/page sequence from the Louisiana Historical Center; separately locate the corresponding WPA Black Book 20 entry and compare it against the French pages. Do not transcribe or infer legal effect from thumbnails."
+    "next_action": "Obtain the original Company register or higher-resolution certified copy; locate the royal implementing order and Treasury receipts for the 1,450,000-livre schedule; separately obtain the 24 February 1731 Company-debt decree. Do not treat the 1,450,000 livres as paid or merge this 24 January undertaking with the 24 February decree.",
+    "examined_image_count": 24,
+    "unexamined_image_link_count": 24,
+    "examined_image_ids": [
+      "125291",
+      "125292",
+      "125293",
+      "125294",
+      "125271",
+      "125272",
+      "125273",
+      "125274",
+      "125275",
+      "125276",
+      "125277",
+      "125278",
+      "125279",
+      "125280",
+      "125281",
+      "125282",
+      "125283",
+      "125284",
+      "125285",
+      "125286",
+      "125287",
+      "125288",
+      "125289",
+      "125290"
+    ],
+    "examined_image_derivatives": [
+      {
+        "image_id": "125271",
+        "url": "https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-125271.jpg",
+        "assessment": "Company register extract title page; Ministry of Marine and Company-cartons header; 22 January 1731."
+      },
+      {
+        "image_id": "125281",
+        "url": "https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-125281.jpg",
+        "assessment": "Company petition includes proposed alternative of supplying 500 enslaved people per year if exclusive trade were retained; not actual shipment."
+      },
+      {
+        "image_id": "125283",
+        "url": "https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-125283.jpg",
+        "assessment": "Heading identifies Company committee deliberations of 24 January 1731."
+      },
+      {
+        "image_id": "125284",
+        "url": "https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-125284.jpg",
+        "assessment": "Royal message reduces 3,600,000-livre estimate to 1,450,000 livres and gives installment schedule."
+      },
+      {
+        "image_id": "125285",
+        "url": "https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-125285.jpg",
+        "assessment": "Company assembly authorizes directors' submission to pay 1,450,000 livres, subject to royal order/form."
+      },
+      {
+        "image_id": "125286",
+        "url": "https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-125286.jpg",
+        "assessment": "20 September 1889 certification says extracts conform to a collated copy deposited in archives."
+      },
+      {
+        "image_id": "125287",
+        "url": "https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-125287.jpg",
+        "assessment": "Second ministerial certification authenticates archive official's signature, dated 20 September 1889."
+      },
+      {
+        "image_id": "125291",
+        "url": "https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-125291.jpg",
+        "assessment": "Typed English summary card No.1; derivative summary, not original French text."
+      },
+      {
+        "image_id": "125292",
+        "url": "https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-125292.jpg",
+        "assessment": "Typed English summary card No.2; derivative summary, not original French text."
+      },
+      {
+        "image_id": "125293",
+        "url": "https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-125293.jpg",
+        "assessment": "Typed English summary card No.3; derivative summary omits the King's reduction from 3,600,000 to 1,450,000 livres."
+      },
+      {
+        "image_id": "125294",
+        "url": "https://lacolonialdocs-data.s3.amazonaws.com/doc-img-800x0/doc-img-125294.jpg",
+        "assessment": "Typed English Part 2 summary card; derivative, not original French text."
+      }
+    ],
+    "transcribed_image_ids": [
+      "125281",
+      "125283",
+      "125284",
+      "125285",
+      "125286",
+      "125287"
+    ],
+    "copy_certification_date": "1889-09-20",
+    "document_internal_header": "Ministère de la Marine et des Colonies, Bureau des Archives; Cartons sur la Compagnie des Indes no.1 déposés aux archives.",
+    "provenance_conflict": "The LHC catalogue labels the source French Superior Council; the copied item's internal header identifies Ministry of Marine and Colonies / Company of the Indies cartons, and the 1889 certification refers to a collated archival copy. Underlying original register and full custody history are not established."
   }
 ]
