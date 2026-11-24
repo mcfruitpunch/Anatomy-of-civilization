@@ -383,5 +383,94 @@
     ],
     "event": "evt-1734-salmon-house-advance-letter",
     "case": "retrocession1731"
+  },
+  {
+    "id": "extract-015",
+    "title": "Company register extracts record a 1,450,000-livre undertaking after the King reduced a 3,600,000-livre estimate; 24 January 1731",
+    "date": "1731-01-24",
+    "date_role": "company_committee_deliberation_date_in_1889_certified_copy_not_copy_certification_date",
+    "place": "Company assembly location not stated; the quoted ministerial message is dated Marly, 22 January 1731",
+    "record_kind": "company_register_extract_with_1889_archival_copy_certification",
+    "reading_level": "certified_archival_copy_text_examined",
+    "language_original": "fr",
+    "paraphrase": "The Louisiana Historical Center's 24-page item 1731-01-24-03 contains an 1889 certified archival copy of extracts from Company of the Indies administrative registers. The copied heading identifies an extract of the Company's general assembly register dated 22 January 1731 and a separate heading for deliberations of the Company's general and particular committees on 24 January 1731. The latter records a royal message relayed from Marly on 22 January: the Secretary of State for the Marine estimated an equivalent at 3,600,000 livres, but the King reduced and fixed it at 1,450,000 livres, scheduled over ten years (200,000 in each of the first three years, 150,000 in each of the next three, and 100,000 in each of the final four). The Company assembly authorized its syndics and directors to submit, for the Company, an undertaking to pay the 1,450,000-livre amount under those terms, subject to a further royal order and prescribed form. This is a Company-to-Crown undertaking candidate, not proof of formal execution or payment. The preceding Company petition also describes an alternative under which the Company would retain exclusive trade while supplying 500 enslaved people per year; that is a proposed condition, not an actual shipment.",
+    "transcription_pages": [
+      {
+        "image_id": "doc-img-125271.jpg",
+        "locator": "LHC record 1731-01-24-03, 800px derivative",
+        "text": "Heading identifies an extract from the Company's general register of deliberations in general administrative assemblies, dated 22 January 1731; the copy is filed under Ministry of Marine and Colonies / Company of the Indies cartons."
+      },
+      {
+        "image_id": "doc-img-125281.jpg",
+        "locator": "LHC record 1731-01-24-03, 800px derivative",
+        "text": "The Company's alternative proposal refers to 'cinq cent nègres par an' (five hundred enslaved people per year) as a proposed supply condition if the Company retained exclusive trade; not evidence of actual shipments."
+      },
+      {
+        "image_id": "doc-img-125283.jpg",
+        "locator": "LHC record 1731-01-24-03, 800px derivative",
+        "text": "Heading: 'Délibérations prises dans les Comités Généraux et particuliers du 24 Janvier 1731.' The page records the meeting of the Company's syndics and directors and reads a letter from the Controller General dated Marly, 22 January 1731."
+      },
+      {
+        "image_id": "doc-img-125284.jpg",
+        "locator": "LHC record 1731-01-24-03, 800px derivative",
+        "text": "The royal message describes 'Trois millions six cent mille livres' as the Secretary of State's estimate and says the King reduced the sum to 'Quatorze cent cinquante mille livres seulement'. It gives a ten-year schedule: 200,000 livres in each of the first three years, 150,000 in each of the next three, and 100,000 in each of the final four."
+      },
+      {
+        "image_id": "doc-img-125285.jpg",
+        "locator": "LHC record 1731-01-24-03, 800px derivative",
+        "text": "The Company assembly authorized the syndics and directors to make, on behalf of the Company, 'leur soumission de payer la susdite somme' (their undertaking to pay the stated sum), subject to the King's order and prescribed form."
+      },
+      {
+        "image_id": "doc-img-125286.jpg",
+        "locator": "LHC record 1731-01-24-03, 800px derivative",
+        "text": "The archive certification, dated Paris, 20 September 1889, states that the extracts conform to a collated copy deposited in the archives; this identifies the surviving witness as a certified archival copy, not the original 1731 register."
+      },
+      {
+        "image_id": "doc-img-125287.jpg",
+        "locator": "LHC record 1731-01-24-03, 800px derivative",
+        "text": "A second ministerial certification dated 20 September 1889 authenticates the archive official's signature; no payment receipt or treasury account appears on this certification page."
+      }
+    ],
+    "reported_numbers": [
+      {
+        "value": 3600000,
+        "unit": "livres_as_written_not_normalized",
+        "meaning": "Secretary of State for the Marine's estimate of the equivalent in the quoted royal message; not the final amount fixed by the King."
+      },
+      {
+        "value": 1450000,
+        "unit": "livres_as_written_not_normalized",
+        "meaning": "Amount fixed by the King in the quoted message and the amount the Company assembly authorized its directors to submit to pay; no actual payment is verified."
+      },
+      {
+        "value": 200000,
+        "unit": "livres_per_year_as_written",
+        "meaning": "Scheduled for each of the first three years of the ten-year undertaking; not proof of installment payment."
+      },
+      {
+        "value": 150000,
+        "unit": "livres_per_year_as_written",
+        "meaning": "Scheduled for each of the next three years; not proof of installment payment."
+      },
+      {
+        "value": 100000,
+        "unit": "livres_per_year_as_written",
+        "meaning": "Scheduled for each of the final four years; not proof of installment payment."
+      },
+      {
+        "value": 500,
+        "unit": "enslaved_people_per_year_proposed_not_shipped",
+        "meaning": "Alternative proposed condition for retaining exclusive trade; not an actual shipment or population count."
+      }
+    ],
+    "limitations": "This is a transcription of selected legible phrases and a paraphrase from 800px image derivatives of an 1889 certified copy; the original 1731 Company register and 600dpi preservation TIFFs were not examined. Only 24 of 48 image links were inspected. The LHC catalogue's 'French Superior Council' source label conflicts with the internal Ministry of Marine / Company-cartons heading. The four attached English typed summary cards are derivative; the exact crosswalk to WPA Black Book 20 is unverified, and their summary omits the reduction from 3,600,000 to 1,450,000 livres. The 1,450,000-livre figure is a Company-authorized submission subject to further royal order/form, not proof of a final instrument, legal adjudication, receipt or payment. No treasury accounts or installment receipts were examined. The proposed 500 enslaved people per year is not an actual shipment. The Company petition's description of the Natchez conflict is a corporate colonial perspective; it does not represent Natchez political perspectives or establish that Natchez people ceased to exist. The Natchez Nation's official contemporary self-description and NPS historical context are included separately. This record is distinct from the 24 February 1731 Company-debt decree; no direct cross-reference is established.",
+    "sources": [
+      "src-lcd-retrocession-1731",
+      "src-lcd-indexing-method-and-wpa",
+      "src-natchez-nation-official",
+      "src-nps-natchez-history"
+    ],
+    "event": "evt-1731-jan-retrocession-document",
+    "case": "retrocession1731"
   }
 ]
