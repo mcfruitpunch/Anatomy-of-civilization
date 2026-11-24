@@ -157,8 +157,8 @@ routes.forEach(r => {
   else r.documents.forEach(id=>{if(!archiveIds.has(id)) errors.push(r.id+': unknown document '+id)});
   validStatus(r,r.id); cite(r,r.id,r.status==='documented');
 });
-const readingLevels = new Set(['curated_modern_translation','curated_modern_translation_and_image','historical_secondary_transcription_not_verified_against_original','archival_catalogue_abstract_not_original_text','contemporary_periodical_extract_ocr','scholarly_synthesis_with_archival_footnotes_not_original_transcription','primary_print_microform_facsimile_transcription','institutional_index_card_transcription_not_original_manuscript']);
-const allowedNumUnits = new Set(['quotation_unspecified','forecast_not_transaction','schemes_reportedly_identified','people_reported_by_deiler','people_reported_by_villiers','authorized_card_money_ceiling_livres_not_disbursed','whole_livres_component_of_index_card_balance_not_verified', 'livres_index_card_reported_debt_not_verified']);
+const readingLevels = new Set(['curated_modern_translation','curated_modern_translation_and_image','historical_secondary_transcription_not_verified_against_original','archival_catalogue_abstract_not_original_text','contemporary_periodical_extract_ocr','scholarly_synthesis_with_archival_footnotes_not_original_transcription','primary_print_microform_facsimile_transcription','institutional_index_card_transcription_not_original_manuscript','certified_archival_copy_text_examined']);
+const allowedNumUnits = new Set(['quotation_unspecified','forecast_not_transaction','schemes_reportedly_identified','people_reported_by_deiler','people_reported_by_villiers','authorized_card_money_ceiling_livres_not_disbursed','whole_livres_component_of_index_card_balance_not_verified', 'livres_index_card_reported_debt_not_verified','livres_as_written_not_normalized','livres_per_year_as_written','enslaved_people_per_year_proposed_not_shipped']);
 extracts.forEach(x => {
   validDate(x.date,x.id);
   if (!x.title || !x.date_role || !x.place || !x.record_kind || !x.paraphrase || !x.limitations || !x.language_original) errors.push(x.id + ': incomplete source reading');
