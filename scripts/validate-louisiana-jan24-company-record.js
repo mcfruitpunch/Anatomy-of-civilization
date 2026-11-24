@@ -24,7 +24,7 @@ function validate(state) {
   assert.equal(doc.date,'1731-01-24');
   assert.equal(doc.access_level,'certified_archival_copy_text_examined');
   assert(/1889 certified archival copy/i.test(doc.title));
-  assert(/original 1731 Company register was not examined/i.test(doc.limitations));
+  assert(/underlying 1731 Company register was not examined/i.test(doc.limitations));
   assert(doc.entities.includes('ent-natchez-nation'));
   assert(doc.entities.includes('ent-enslaved-africans-french-louisiana'));
   assert(!doc.entities.includes('ent-french-superior-council-la'),'Do not promote catalogue label into authorship');
@@ -43,7 +43,7 @@ function validate(state) {
   const nums=new Map(extract.reported_numbers.map(n=>[n.value,n]));
   assert(nums.has(3600000)&&nums.has(1450000)&&nums.has(500));
   assert(/estimate/.test(nums.get(3600000).meaning));
-  assert(/not evidence of actual shipments/.test(nums.get(500).meaning));
+  assert(/not an actual shipment/.test(nums.get(500).meaning));
   assert.equal(200000*3+150000*3+100000*4,1450000,'Installment schedule must sum to fixed amount');
   assert.equal(claim.document,'doc-021');
   assert.equal(claim.claim_direction,'company_authorized_submission_to_pay_french_crown_as_retrocession_equivalent');
