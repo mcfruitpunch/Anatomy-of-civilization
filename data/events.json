@@ -1237,18 +1237,22 @@
   {
     "id": "evt-1731-jan-retrocession-document",
     "date": "1731-01-24",
-    "title": "New Orleans Superior Council records document connected to Louisiana retrocession",
-    "summary": "Louisiana Historical Center digitizes a 24-page original French administrative item dated January 24, 1731 and catalogued under the retrocession of Louisiana, indexing the Company and named local parties. The handwriting remains untranscribed here; the document date is not asserted to be the operative date when the Company surrendered Louisiana.",
+    "title": "Company register extracts record the 22–24 January 1731 retrocession deliberations",
+    "summary": "The Louisiana Historical Center item 1731-01-24-03 is not an unexamined original Superior Council manuscript: its internal heading identifies Ministry of Marine and Colonies archives and Company of the Indies cartons, and its 20 September 1889 certification says the extracts conform to a collated archival copy. The copied text includes a 22 January Company register extract and 24 January deliberations of Company syndics/directors. A royal message relayed from Marly on 22 January says the Secretary of State estimated an equivalent at 3,600,000 livres, which the King reduced to 1,450,000 livres over ten years; the Company assembly authorized directors to submit an undertaking to pay under the schedule, subject to further royal order/form. The petition also describes an alternative of retaining exclusive trade while supplying 500 enslaved people annually; this was a proposal, not proof of shipments. No installment, receipt, final execution or payment is established. The LHC catalogue's 'French Superior Council' label conflicts with the copy's internal header. The Company's description of the Natchez conflict is a colonial corporate narrative; Natchez community continuity is documented separately through the Natchez Nation's official self-description.",
     "case": "retrocession1731",
     "entities": [
       "ent-compagnie-indes-france",
-      "ent-french-superior-council-la",
-      "ent-french-crown"
+      "ent-french-crown",
+      "ent-natchez-nation",
+      "ent-enslaved-africans-french-louisiana"
     ],
     "status": "documented",
     "verification": "reviewed",
     "sources": [
-      "src-lcd-retrocession-1731"
+      "src-lcd-retrocession-1731",
+      "src-lcd-indexing-method-and-wpa",
+      "src-natchez-nation-official",
+      "src-nps-natchez-history"
     ]
   },
   {
