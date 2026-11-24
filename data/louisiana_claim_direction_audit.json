@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "purpose": "Non-transactional direction audit of Company-related claims. This is not a financial-flow ledger and does not assign an amount paid, legal liability, transfer or settlement.",
+  "purpose": "Non-transactional direction audit of Company-related claims and undertakings. This is not a financial-flow ledger and does not assign an amount paid, final legal liability, transfer or settlement.",
   "claims": [
     {
       "id": "claim-1731-company-creditor-rights",
@@ -222,6 +222,33 @@
       "source_ids": [
         "src-anom-1734-salmon-letter-catalogue",
         "src-saadani-2008-louisiana-impasse"
+      ]
+    },
+    {
+      "id": "claim-1731-company-to-crown-retrocession-submission",
+      "document": "doc-021",
+      "date": "1731-01-24",
+      "date_basis": "Heading of copied Company committee deliberations: 24 January 1731; the ministerial message read at the meeting is dated Marly, 22 January 1731.",
+      "claim_direction": "company_authorized_submission_to_pay_french_crown_as_retrocession_equivalent",
+      "creditor_or_claimant": "French Crown (royal-message context; exact receiving account not specified)",
+      "party_described_as_owing": "Company of the Indies (syndics and directors authorized a submission to pay; further royal order and prescribed form remained to be supplied)",
+      "decision_maker": "King's message relayed by the Controller General on 22 January 1731; Company assembly authorization on 24 January 1731",
+      "instrument_or_proceeding": "Company committee deliberations of 24 January 1731 quoting the royal message: the Secretary of State's 3,600,000-livre estimate was reduced by the King to 1,450,000 livres; directors were authorized to submit payment in installments over ten years.",
+      "alleged_payee": "French Crown (contextual reading; no specific Treasury account named)",
+      "amount_reported": {
+        "text": "3,600,000 livres was the Secretary of State's estimate; the King reduced the amount to 1,450,000 livres, scheduled as 200,000 in each of the first three years, 150,000 in each of the next three, and 100,000 in each of the final four years.",
+        "value": 1450000,
+        "unit": "livres_as_written_not_normalized",
+        "verification": "certified_copy_transcribed_not_payment"
+      },
+      "amount_verified": false,
+      "liability_adjudicated": false,
+      "payment_verified": false,
+      "evidence_level": "1889 certified archival copy of Company register extracts text examined; original 1731 register not examined",
+      "archival_locator": "LHC record 1731-01-24-03; 800px derivatives doc-img-125283.jpg–125285.jpg contain the 24 January deliberation and amount; doc-img-125286.jpg–125287.jpg contain the 20 September 1889 certification. Twenty-four of 48 image links examined; no preservation TIFF or original 1731 register.",
+      "relation_to_doc_024": "not established; this is a 24 January Company assembly submission in the retrocession process, distinct from the 24 February 1731 Company-debt decree",
+      "source_ids": [
+        "src-lcd-retrocession-1731"
       ]
     }
   ]

@@ -913,5 +913,17 @@
       "src-hnoc-diron-1732-letter-specific"
     ],
     "verification": "reviewed"
+  },
+  {
+    "id": "ent-natchez-nation",
+    "type": "indigenous_nation",
+    "name": "Natchez Nation and Natchez descendant communities",
+    "years": "continuing",
+    "description": "Living Natchez community. The Natchez Nation's official website identifies it as a sovereign Native American tribe in Oklahoma and describes a modern history following French interaction. Colonial French accounts of dispersal, warfare or territorial control must not be treated as evidence that Natchez people ceased to exist or consented to colonial claims.",
+    "sources": [
+      "src-natchez-nation-official",
+      "src-nps-natchez-history"
+    ],
+    "verification": "reviewed"
   }
 ]

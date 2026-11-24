@@ -16,7 +16,7 @@ const allowed = [
 function validate(data) {
   assert.equal(data.version, '1.0');
   assert(/not a financial-flow ledger/i.test(data.purpose));
-  assert.equal(data.claims.length, 8);
+  assert.equal(data.claims.length, 9);
   assert.equal(new Set(data.claims.map(x => x.id)).size, data.claims.length);
   for (const c of data.claims) {
     assert.deepEqual(Object.keys(c).sort(), allowed, c.id + ': unexpected field');
@@ -34,7 +34,7 @@ function validate(data) {
     assert.equal(c.liability_adjudicated, false, c.id + ': no specific liability is adjudicated here');
     assert.equal(c.payment_verified, false, c.id + ': no payment is verified here');
     assert(c.amount_reported && Object.keys(c.amount_reported).sort().join(',') === 'text,unit,value,verification');
-    if (c.amount_reported.value !== null) assert.equal(c.amount_reported.verification, 'index_card_only_not_original_account');
+    if (c.amount_reported.value !== null) assert(['index_card_only_not_original_account','certified_copy_transcribed_not_payment'].includes(c.amount_reported.verification), c.id + ': reported amount must remain source-level and non-payment');
   }
   const byId = id => { const c = data.claims.find(x => x.id === id); assert(c, 'Missing ' + id); return c; };
   const treasury = byId('claim-1732-company-to-treasury');
@@ -76,7 +76,17 @@ function validate(data) {
   assert.equal(salmon.alleged_payee, null);
   assert.equal(salmon.liability_adjudicated, false);
   assert.equal(salmon.payment_verified, false);
-  const newSourceIds = new Set(['src-hnoc-1732-company-treasury-memo','src-hnoc-1735-company-half-debt-reply','src-anom-1734-salmon-letter-catalogue','src-saadani-2008-louisiana-impasse']);
+  const jan24 = byId('claim-1731-company-to-crown-retrocession-submission');
+  assert.equal(jan24.document, 'doc-021');
+  assert.equal(jan24.claim_direction, 'company_authorized_submission_to_pay_french_crown_as_retrocession_equivalent');
+  assert.equal(jan24.amount_reported.value, 1450000);
+  assert.equal(jan24.amount_reported.unit, 'livres_as_written_not_normalized');
+  assert.equal(jan24.amount_reported.verification, 'certified_copy_transcribed_not_payment');
+  assert.equal(jan24.amount_verified, false);
+  assert.equal(jan24.liability_adjudicated, false);
+  assert.equal(jan24.payment_verified, false);
+  assert(/not established/.test(jan24.relation_to_doc_024));
+  const newSourceIds = new Set(['src-hnoc-1732-company-treasury-memo','src-hnoc-1735-company-half-debt-reply','src-anom-1734-salmon-letter-catalogue','src-saadani-2008-louisiana-impasse','src-lcd-retrocession-1731','src-lcd-indexing-method-and-wpa']);
   assert(!flows.some(f => (f.sources || []).some(id => newSourceIds.has(id))), 'Catalogue abstracts must not become financial flows');
   return true;
 }
@@ -96,5 +106,8 @@ reject('claim-1731-company-creditor-rights', x => { x.payment_verified = true; }
 reject('claim-1734-company-house-advance-claims', x => { x.party_described_as_owing = 'French Crown'; });
 reject('claim-1734-company-house-advance-claims', x => { x.amount_reported.value = 50000; });
 reject('claim-1734-company-house-advance-claims', x => { x.payment_verified = true; });
+reject('claim-1731-company-to-crown-retrocession-submission', x => { x.amount_reported.value = 3600000; });
+reject('claim-1731-company-to-crown-retrocession-submission', x => { x.amount_verified = true; });
+reject('claim-1731-company-to-crown-retrocession-submission', x => { x.payment_verified = true; });
 
-console.log('OK: eight Louisiana claim-direction records; Company creditor/debtor distinctions preserved; ambiguous 1735 reply and card conflicts remain unresolved; no liability or payment promoted');
+console.log('OK: nine Louisiana claim-direction records; Company creditor/debtor distinctions preserved; ambiguous 1735 reply and card conflicts remain unresolved; no liability or payment promoted');

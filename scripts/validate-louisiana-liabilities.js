@@ -13,7 +13,7 @@ const byDocument = new Map(documents.map(doc => [doc.id, doc]));
 const sourceIds = new Set(sources.map(source => source.id));
 const reviewByDocument = new Map([
   ['doc-022', 'facsimile_text'], // Jan 23 royal decree: all printed pages read from 1985 microfiche facsimile; physical original not examined
-  ['doc-021', 'catalogue'],  // Jan 24 local council dossier
+  ['doc-021', 'certified_copy'],  // Jan 24 Company register extracts; 1889 certified copy text examined
   ['doc-024', 'catalogue'],  // Feb 24 debt decree: edition catalogues only
   ['doc-023', 'abstract'],   // Jan 19 1732 Salmon letter
   ['doc-020', 'scholarship'],// Diron award: modern reading of folios
@@ -36,7 +36,7 @@ const localDossier = byDocument.get('doc-021');
 const localSource = sources.find(s => s.id === 'src-lcd-retrocession-1731');
 function verifyLocalImageAudit(a) {
   assert(a && typeof a === 'object' && !Array.isArray(a), 'Local dossier access audit must be an object');
-  const keys = ['id','document','source_id','record_url','observed_on','record_date','repository','collection','language','origin','catalogue_category','page_count_displayed','image_link_count','sampled_image_links','indexed_people','text_examined','full_resolution_asset_verified','wpa_black_book_crosswalk_verified','next_action'].sort();
+  const keys = ['id','document','source_id','record_url','observed_on','record_date','repository','collection','language','origin','catalogue_category','page_count_displayed','image_link_count','sampled_image_links','indexed_people','text_examined','full_resolution_asset_verified','wpa_black_book_crosswalk_verified','next_action','examined_image_count','unexamined_image_link_count','examined_image_ids','examined_image_derivatives','transcribed_image_ids','copy_certification_date','document_internal_header','provenance_conflict'].sort();
   assert.deepEqual(Object.keys(a).sort(), keys, 'Unexpected local image-audit field');
   assert.equal(a.id, 'access-lcd-1731-01-24-03');
   assert.equal(a.document, 'doc-021');
@@ -44,7 +44,7 @@ function verifyLocalImageAudit(a) {
   assert.equal(a.record_url, localSource?.url, 'Audit must cite the exact institutional record URL');
   assert.equal(a.record_date, localDossier?.date, 'Local record date must remain distinct from the 23 January royal act');
   assert.equal(a.repository, 'Louisiana Historical Center');
-  assert.equal(a.collection, 'French Superior Council');
+  assert(/^French Superior Council/.test(a.collection), 'Preserve catalogue label while recording internal provenance discrepancy');
   assert.equal(a.language, 'French');
   assert.equal(a.origin, 'New Orleans, Province of Louisiana');
   assert.equal(a.catalogue_category, 'Administrative Acts, Retrocession of Louisiana');
@@ -60,18 +60,25 @@ function verifyLocalImageAudit(a) {
     assert(/no readable text transcription/i.test(sample.assessment), 'Thumbnail must not be treated as a transcription');
   }
   assert.deepEqual(a.indexed_people, ['Coligny','Company of Indies','Le Redde','Orry']);
-  assert.equal(a.text_examined, false, 'No original text was examined');
+  assert.equal(a.text_examined, true, 'Selected text from the 1889 certified archival copy was examined');
+  assert.equal(a.examined_image_count, 24);
+  assert.equal(a.unexamined_image_link_count, 24);
+  assert.equal(a.copy_certification_date, '1889-09-20');
+  assert(a.transcribed_image_ids.includes('125284') && a.transcribed_image_ids.includes('125285'));
+  assert(a.examined_image_derivatives.some(x => x.image_id === '125284'));
+  assert(a.examined_image_derivatives.some(x => x.image_id === '125286'));
   assert.equal(a.full_resolution_asset_verified, false, 'No full-resolution asset was verified');
   assert.equal(a.wpa_black_book_crosswalk_verified, false, 'No WPA crosswalk was verified');
-  assert(typeof a.next_action === 'string' && /full-resolution|legible/i.test(a.next_action), 'Missing precise archive retrieval step');
-  assert.equal(localDossier?.access_level, 'thumbnail_preview_links_observed_text_unread');
-  assert(/thumbnail/i.test(localDossier?.limitations || ''), 'Document limitations must disclose thumbnail-only access');
-  assert(/48 separate Image links/i.test(localSource?.locator || ''), 'Source locator must preserve observed link inventory');
+  assert(typeof a.next_action === 'string' && /full-resolution|higher-resolution|legible/i.test(a.next_action), 'Missing precise archive retrieval step');
+  assert.equal(localDossier?.access_level, 'certified_archival_copy_text_examined');
+  assert(/1889 certified archival copy/i.test(localDossier?.limitations || ''), 'Document limitations must disclose copy date and status');
+  assert(/48 image links/i.test(localSource?.locator || ''), 'Source locator must preserve observed link inventory');
 }
 assert.equal(imageAudits.length, 1, 'Expected one audited 1731 local Council image-access record');
 const localImageAudit = imageAudits[0];
 verifyLocalImageAudit(localImageAudit);
-assert.throws(() => verifyLocalImageAudit({...localImageAudit, text_examined: true}), 'Thumbnail access cannot promote original text to examined');
+assert.throws(() => verifyLocalImageAudit({...localImageAudit, text_examined: false}), 'The certified-copy text examination must remain recorded');
+assert.throws(() => verifyLocalImageAudit({...localImageAudit, examined_image_count: 48}), 'Do not claim all 48 image links were examined');
 assert.throws(() => verifyLocalImageAudit({...localImageAudit, full_resolution_asset_verified: true}), 'Unobserved full-resolution access must fail');
 assert.throws(() => verifyLocalImageAudit({...localImageAudit, record_date: '1731-01-23'}), 'Do not conflate the local record with the royal decree date');
 assert.throws(() => verifyLocalImageAudit({...localImageAudit, page_count_displayed: 23}), 'Page count must match the archive record');

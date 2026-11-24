@@ -287,3 +287,14 @@ The 1734 letter is a colonial administrative/creditor perspective. It does not p
 - The 24 February 1731 debt decree (`doc-024`) remains `catalogue_metadata_only`; its operative text is unread.
 
 **Next retrieval:** obtain all ten images of COL G1 464/10p.; transcribe the original French; identify the 16 February 1734 dispatch and any attached accounts or decisions; then compare with C 13c, 1:318 and A 23:118 only if the originals supply direct documentary links. In parallel, continue the highest-priority task: obtain both pages of the 24 February 1731 debt decree through the Columbia/LLMC or BnF route and transcribe its operative clauses.
+
+
+## 24 November 2026 — 24 January Company-register copy and retrocession consideration
+
+The Louisiana Historical Center's record 1731-01-24-03 was re-examined through 24 accessible 800px image derivatives (24 of 48 image links). The internal header identifies Ministry of Marine and Colonies archives and Company of the Indies cartons; the copy's 20 September 1889 certification says the extracts conform to a collated archival copy. This is an **1889 certified copy**, not the original 1731 Company register. The LHC catalogue's "French Superior Council" label remains a provenance discrepancy.
+
+The copied 24 January 1731 Company committee deliberation quotes a royal message dated at Marly, 22 January: the Secretary of State's 3,600,000-livre estimate was reduced by the King to 1,450,000 livres. The ten-year schedule is 200,000 in each of the first three years, 150,000 in each of the next three, and 100,000 in each of the final four. The Company assembly authorized directors to submit an undertaking to pay the 1,450,000 livres, subject to further royal order and form. This is a Company-to-Crown obligation candidate, not proof of a final implementing order or any payment. It is separate from the unread 24 February 1731 Company-debt decree.
+
+The petition also describes a proposed alternative of retaining exclusive trade while supplying 500 enslaved people annually; this is not evidence of actual shipments. The Company's Natchez narrative is a colonial corporate perspective. The atlas now pairs it with the Natchez Nation's official self-description and NPS historical context without treating colonial descriptions of dispersal as proof that Natchez people ceased to exist.
+
+See [the 24 November research dossier](v1-4-1731-jan24-company-register-copy-and-retrocession-consideration-audit-2026-11-24.md). The original 1731 register, royal implementing order, Treasury receipts and 24 February debt-decree text remain outstanding.

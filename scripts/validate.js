@@ -140,7 +140,7 @@ financial.filter(f=>f.flow_state==='policy_target_not_cash_flow').forEach(f=>{
   if (!/not evidence|NOT evidence|not a payment|not proof/i.test(f.description))
     errors.push(f.id+': fiscal target needs explicit nonpayment warning');
 });
-const archiveLevels = new Set(['curator_summary_with_images','bibliographic_record_only','museum_catalogue_description','indexed_issues_not_transcribed','ledger_series_index_only','catalogue_metadata_only','archival_finding_aid_only','historical_edited_text_not_original','contemporary_periodical_extract','thumbnail_preview_links_observed_text_unread','index_card_transcribed_manuscript_images_previewed_not_transcribed','scholarly_reference_only','microform_facsimile_text_examined']);
+const archiveLevels = new Set(['curator_summary_with_images','bibliographic_record_only','museum_catalogue_description','indexed_issues_not_transcribed','ledger_series_index_only','catalogue_metadata_only','archival_finding_aid_only','historical_edited_text_not_original','contemporary_periodical_extract','thumbnail_preview_links_observed_text_unread','index_card_transcribed_manuscript_images_previewed_not_transcribed','scholarly_reference_only','microform_facsimile_text_examined','certified_archival_copy_text_examined']);
 documents.forEach(d => {
   validDate(d.date,d.id);
   if (!d.title || !d.place || !d.document_kind || !d.reference || !d.established || !d.limitations) errors.push(d.id + ': missing archive metadata');
@@ -157,8 +157,8 @@ routes.forEach(r => {
   else r.documents.forEach(id=>{if(!archiveIds.has(id)) errors.push(r.id+': unknown document '+id)});
   validStatus(r,r.id); cite(r,r.id,r.status==='documented');
 });
-const readingLevels = new Set(['curated_modern_translation','curated_modern_translation_and_image','historical_secondary_transcription_not_verified_against_original','archival_catalogue_abstract_not_original_text','contemporary_periodical_extract_ocr','scholarly_synthesis_with_archival_footnotes_not_original_transcription','primary_print_microform_facsimile_transcription','institutional_index_card_transcription_not_original_manuscript']);
-const allowedNumUnits = new Set(['quotation_unspecified','forecast_not_transaction','schemes_reportedly_identified','people_reported_by_deiler','people_reported_by_villiers','authorized_card_money_ceiling_livres_not_disbursed','whole_livres_component_of_index_card_balance_not_verified', 'livres_index_card_reported_debt_not_verified']);
+const readingLevels = new Set(['curated_modern_translation','curated_modern_translation_and_image','historical_secondary_transcription_not_verified_against_original','archival_catalogue_abstract_not_original_text','contemporary_periodical_extract_ocr','scholarly_synthesis_with_archival_footnotes_not_original_transcription','primary_print_microform_facsimile_transcription','institutional_index_card_transcription_not_original_manuscript','certified_archival_copy_text_examined']);
+const allowedNumUnits = new Set(['quotation_unspecified','forecast_not_transaction','schemes_reportedly_identified','people_reported_by_deiler','people_reported_by_villiers','authorized_card_money_ceiling_livres_not_disbursed','whole_livres_component_of_index_card_balance_not_verified', 'livres_index_card_reported_debt_not_verified','livres_as_written_not_normalized','livres_per_year_as_written','enslaved_people_per_year_proposed_not_shipped']);
 extracts.forEach(x => {
   validDate(x.date,x.id);
   if (!x.title || !x.date_role || !x.place || !x.record_kind || !x.paraphrase || !x.limitations || !x.language_original) errors.push(x.id + ': incomplete source reading');
@@ -214,4 +214,5 @@ require('./validate-louisiana-retrocession-facsimile.js');
 require('./validate-louisiana-duval-account.js');
 require('./validate-louisiana-company-accounting-retrieval.js');
 require('./validate-louisiana-claim-direction-audit.js');
+require('./validate-louisiana-jan24-company-record.js');
 console.log('OK: ' + sources.length + ' sources, ' + events.length + ' events, ' + entities.length + ' entities, ' + rels.length + ' relationships, ' + cases.length + ' cases, ' + systems.length + ' systems, ' + dominoes.length + ' dominoes, ' + financial.length + ' financial records, ' + ownership.length + ' ownership aggregates, ' + comparisons.length + ' country comparisons, ' + documents.length + ' archival document records, ' + routes.length + ' information channels, ' + extracts.length + ' attributed readings, ' + censusVersions.length + ' census source versions');
