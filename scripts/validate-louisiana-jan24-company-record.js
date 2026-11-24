@@ -33,7 +33,7 @@ function validate(state) {
   assert(doc.sources.includes('src-nps-natchez-history'));
   const source=state.sources.get('src-lcd-retrocession-1731');
   assert(source&&source.reviewed===true&&source.url==='https://lacolonialdocs.org/document/2003');
-  assert(/doc-img-125284\.jpg/.test(source.locator));
+  assert(/125283.*125285/.test(source.locator));
   const french=extract.transcription_pages.map(p=>p.text).join('\n');
   assert(/Trois millions six cent mille livres/.test(french));
   assert(/Quatorze cent cinquante mille livres seulement/.test(french));
