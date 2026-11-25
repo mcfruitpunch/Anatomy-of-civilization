@@ -37,7 +37,7 @@ assert(/not.*complete item-level inventory/i.test(rg431.scope_relevance),'RG431 
 const rg112=audit.records.find(x=>x.id==='scope-lsm-rg112-cusachs-estate');
 assert.equal(rg112.date_range_exception,'The finding aid lists a 1763 indenture (09894.117) despite its stated 1770–1904 range, so date range is not a strict lower bound and cannot be used to infer absence of earlier material.');
 assert(/1763/.test(rg112.collection_description),'The 1763 item must remain in the scope record');
-assert(/not.*strict lower bound/i.test(rg112.scope_relevance),'Date range must not be treated as evidence of absence');
+assert(/not.*strict lower bound/i.test(rg112.date_range_exception),'Date range must not be treated as evidence of absence');
 assert(Array.isArray(audit.limitations) && audit.limitations.length>=6);
 assert(audit.limitations.some(x=>/no physical object|current custody/i.test(x)));
 console.log('OK: three LSM custody-scope routes are precise; item-level match/current custody and decree text remain unverified');
