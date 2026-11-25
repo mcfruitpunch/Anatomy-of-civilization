@@ -46,10 +46,42 @@
       "collection_description": "The 2025 finding aid describes miscellaneous letters/manuscripts, mostly 19th-century, open for research with digitized items available on request; majority gifted by the Cusachs Estate in 1930, remainder purchased in 2017. Its oversize list includes a 1763 indenture, accession 09894.117, outside the stated date range. No 1731 debt decree or connection to the 1903 exhibit copy is itemized.",
       "inspection_level": "finding_aid_text_examined",
       "inspected_on": "2026-11-25",
-      "scope_relevance": "Separate estate collection of the historical collector; a scope cross-check and possible retrieval route only, not a confirmed home for the 1731 debt decree.",
+      "scope_relevance": "Strong retrieval route for exhibit-related documentation: the finding aid lists a 1903 invitation to Gaspar Cusachs for the Louisiana Historical Society colonial-museum opening and several 1903/1904 exhibit-related invitations. These invitation records do not link RG112 to debt-decree item 345 or establish loan, ownership, or present custody.",
       "item_level_match": "not_established",
       "date_range_exception": "The finding aid lists a 1763 indenture (09894.117) despite its stated 1770–1904 range, so date range is not a strict lower bound and cannot be used to infer absence of earlier material.",
-      "next_action": "Request collection index or item-level search of RG112 accessions 09894.2–.123 and 2017.001.06–.12.5 for the 24 Feb 1731 debt decree, 1903 item 345 and any acquisition/loan documentation."
+      "next_action": "Request RG112 folders 15, 17, 18, 20 and 21 (accessions 2017.001.07.1, .07.3, .07.4a-c, .08.2 and .08.3) for scans and any attached exhibit correspondence. Search RG23 for the 1903 item 345 loan/register/disposition and ask whether it was associated with RG431/RG112; do not infer a link from invitations.",
+      "related_items": [
+        {
+          "accession": "2017.001.07.1",
+          "folder": 15,
+          "date": "1903",
+          "description": "Invitation issued to Gaspar Cusachs by the Louisiana Historical Society for opening ceremonies of the colonial museum at the Ursuline Convent."
+        },
+        {
+          "accession": "2017.001.07.3",
+          "folder": 17,
+          "date": "1903-12",
+          "description": "Invitation from the governor to a celebration of the 100th anniversary of the transfer of Louisiana from France to the United States."
+        },
+        {
+          "accession": "2017.001.07.4a-c",
+          "folder": 18,
+          "date": "1903",
+          "description": "Invitation and two tickets issued to Mr. and Mrs. Gaspar Cusachs for a costume ball at the French Opera House celebrating the Louisiana Transfer centennial."
+        },
+        {
+          "accession": "2017.001.08.2",
+          "folder": 20,
+          "date": "1904-09-16",
+          "description": "Invitation to a reception honoring a French delegate and Governor Newton C. Blanchard, given by the French Exposition of Louisiana."
+        },
+        {
+          "accession": "2017.001.08.3",
+          "folder": 21,
+          "date": "1904-09-14",
+          "description": "Invitation to Louisiana Day at the Cabildo, issued by the Louisiana State Commission for the Louisiana Purchase Exposition in St. Louis."
+        }
+      ]
     }
   ],
   "limitations": [
