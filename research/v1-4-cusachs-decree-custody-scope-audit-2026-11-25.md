@@ -69,3 +69,7 @@ Ask the archivist to return an accession, folder or item-level citation before t
 Added a separate custody-scope audit to distinguish retrieval routes and collection-level scope cross-checks from the earlier visually examined 1903/1904 catalogue records. A validator enforces source IDs, access level, dates, collection IDs, the RG112 1763 exception, and null item-level/current-custody claims. The main integrity validator invokes it.
 
 doc-024 remains catalogue metadata only; no financial-flow record was created and paid, transfer and liable remain null.
+
+## RG112 item-level exhibition invitations (additional examination, 25 Nov 2026)
+
+The 2025 finding aid's contents list, PDF p.10, itemizes five exhibition-related invitation records: folder 15, accession 2017.001.07.1 (1903 Louisiana Historical Society colonial museum opening invitation to Cusachs); folder 17, 2017.001.07.3 (December 1903 transfer-centennial invitation); folder 18, 2017.001.07.4a–c (1903 costume-ball invitation/tickets); folder 20, 2017.001.08.2 (16 September 1904 reception invitation); and folder 21, 2017.001.08.3 (14 September 1904 Louisiana Day invitation). These are invitations, not evidence that the debt decree was lent, displayed, or held in RG112. The precise folders are now a useful request route for exhibit context and related correspondence.
