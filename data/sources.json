@@ -1780,5 +1780,27 @@
     "url": "https://www.nps.gov/natc/learn/historyculture/indians.htm",
     "locator": "Natchez National Historical Park page, opened 24 November 2026, lines 23–28; describes Natchez history before French settlement, the 1729 conflict, French retaliation, and Natchez dispersal/refuge by 1731. Institutional context, not Natchez community testimony.",
     "reviewed": true
+  },
+  {
+    "id": "src-lsm-collection-inventory-2020",
+    "type": "institutional_archival_collection_inventory",
+    "title": "Louisiana State Museum Historical Center manuscript collections inventory (RG23 and RG431)",
+    "author": "Louisiana State Museum Historical Center",
+    "year": null,
+    "publisher": "Louisiana State Museum Historical Center",
+    "url": "https://static1.squarespace.com/static/58092328579fb31efea7a49e/t/5ecec9575167fa039ba9da3f/1590610266133/LHC_collectionsb.pdf",
+    "locator": "Record Group 23, printed p.10: Louisiana Historical Society (Papers of Robert Glenk), accession T025.2003.13, 6 linear feet, 6 Dec 1877–c.1939, correspondence/minutes/announcements/invitations/membership lists/committee reports; most arranged, with additional identified items placed in collection. RG431, printed pp.155–156: Gaspar Cusachs Loan, accession range 00108–7675, 1740–1925, 1.5 linear feet and one oversize box; general collection description does not itemize the 24 Feb 1731 debt decree. Inventory page images/text examined 25 Nov 2026; collection-level descriptions only.",
+    "reviewed": true
+  },
+  {
+    "id": "src-lsm-cusachs-estate-rg112-2025",
+    "type": "institutional_archival_finding_aid",
+    "title": "Gaspar Cusachs Estate Collection, RG112",
+    "author": "Louisiana State Museum Historical Center",
+    "year": 2025,
+    "publisher": "Louisiana State Museum Historical Center",
+    "url": "https://static1.squarespace.com/static/58092328579fb31efea7a49e/t/67ffceca163f713a8669dad2/1744817866371/RG_112.pdff",
+    "locator": "April 2025 finding aid, descriptive summary and acquisition information: dates 1770–1904; 2 boxes/100 folders; accession 09894.2–.123 and 2017.001.06–.12.5; collection open for research and digitized items available on request; majority gift of Cusachs Estate in 1930, remainder purchased at auction in 2017. Oversize materials list an indenture dated 1763, accession 09894.117, outside the stated date range. Finding aid examined 25 Nov 2026; it does not itemize the 24 Feb 1731 debt decree or link it to the 1903 exhibit copy.",
+    "reviewed": true
   }
 ]

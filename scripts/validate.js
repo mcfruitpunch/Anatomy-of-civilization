@@ -203,6 +203,7 @@ if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
 require('./validate-louisiana-liabilities.js');
 require('./validate-louisiana-decree-witnesses.js');
 require('./validate-louisiana-decree-custody-leads.js');
+require('./validate-louisiana-decree-custody-scope-audit.js');
 require('./validate-louisiana-archive-access-routes.js');
 require('./validate-louisiana-human-context.js');
 require('./validate-louisiana-card-money.js');
