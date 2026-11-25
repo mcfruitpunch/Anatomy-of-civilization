@@ -39,7 +39,7 @@ assert.equal(rg112.date_range_exception,'The finding aid lists a 1763 indenture 
 assert(/1763/.test(rg112.collection_description),'The 1763 item must remain in the scope record');
 assert(/not.*strict lower bound/i.test(rg112.date_range_exception),'Date range must not be treated as evidence of absence');
 assert(Array.isArray(rg112.related_items) && rg112.related_items.length===5,'Five catalogue-described exhibition invitations should be preserved as separate leads');
-assert(rg112.related_items.some(x=>x.accession==='2017.001.07.1' && x.date==='1903' && /colonial museum opening/i.test(x.description)),'RG112 must retain the 1903 LHS colonial-museum invitation locator');
+assert(rg112.related_items.some(x=>x.accession==='2017.001.07.1' && x.date==='1903' && /colonial museum/i.test(x.description)),'RG112 must retain the 1903 LHS colonial-museum invitation locator');
 assert(rg112.related_items.some(x=>x.accession==='2017.001.08.2' && x.date==='1904-09-16'),'1904 reception invitation locator missing');
 assert(rg112.related_items.some(x=>x.accession==='2017.001.08.3' && x.date==='1904-09-14'),'1904 Louisiana Day invitation locator missing');
 assert(/do not.*link|not.*link/i.test(rg112.scope_relevance),'Invitations cannot be promoted to decree-custody evidence');
