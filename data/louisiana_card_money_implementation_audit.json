@@ -1,0 +1,93 @@
+{
+  "version": "1.0",
+  "target_case": "retrocession1731",
+  "purpose": "Separate the 14 September 1735 Louisiana card-money ceiling from retrospective distribution claims, the 27 April 1744 recall declaration, Surrey's separate 30 April 1744 issue-order report, and the unresolved 1746 allowance/exchange lead. This is not a financial-flow ledger.",
+  "records": [
+    {
+      "id": "audit-1735-authorization",
+      "date": "1735-09-14",
+      "document": "doc-034",
+      "event": "evt-1735-louisiana-card-money-ordinance",
+      "source_ids": [
+        "src-zay-1892-louisiana-card-money-1735"
+      ],
+      "evidence_level": "historical_edited_text_extracted_1892_not_original",
+      "authorized_nominal_ceiling_livres": 200000,
+      "issued_quantity_verified": false,
+      "fabrication_procès_verbaux_examined": false,
+      "distribution_or_redemption_verified": false,
+      "claim": "Zay's 1892 reproduction of the ordinance authorizes up to 200,000 livres nominal card money and requires records for each fabrication. It is an authorization, not evidence of completed fabrication or issue."
+    },
+    {
+      "id": "audit-1744-27-april-retrospective-recall",
+      "date": "1744-04-27",
+      "document": "doc-043",
+      "event": "evt-1744-04-27-louisiana-card-money-recall-declaration",
+      "source_ids": [
+        "src-zay-1892-louisiana-card-money-1744-recall"
+      ],
+      "evidence_level": "later_royal_declaration_reprinted_1892_text_extracted",
+      "retrospective_distribution_asserted": true,
+      "exact_issued_quantity_verified": false,
+      "recall_order_text_examined_in_reprint": true,
+      "recall_registration_or_procès_verbaux_examined": false,
+      "redemption_execution_verified": false,
+      "claim": "The declaration says 1735 card money had been distributed for royal expenses and describes recall/redemption procedures. Because it is a later royal declaration in the same 1892 compilation, it supports a retrospective official distribution claim but not exact issuance, independent corroboration, completed recall, or payment."
+    },
+    {
+      "id": "audit-1744-30-april-secondary-order",
+      "date": "1744-04-30",
+      "document": "doc-044",
+      "event": "evt-1744-04-30-card-money-order-reported-deferred",
+      "source_ids": [
+        "src-surrey-1916-louisiana-card-money-implementation-1735-1746"
+      ],
+      "evidence_level": "secondary_synthesis_archival_locator_original_unread",
+      "reported_terms": "five-to-two basis; intended circulation two months after publication",
+      "original_order_examined": false,
+      "execution_reported_deferred_by_surrey": true,
+      "issued_quantity_verified": false,
+      "claim": "Surrey reports a separate 30 April 1744 order and says implementation was deferred. This is not the 27 April recall declaration; no original text or actual issue is verified."
+    },
+    {
+      "id": "audit-1746-200k-allowance-exchange-lead",
+      "date": "1746",
+      "document": null,
+      "event": null,
+      "source_ids": [
+        "src-surrey-1916-louisiana-card-money-implementation-1735-1746"
+      ],
+      "evidence_level": "secondary_report_archival_locator_original_unread",
+      "amount_reported_livres": 200000,
+      "amount_verified": false,
+      "exchange_or_payment_verified": false,
+      "archival_locator": "Surrey (1916), printed p.138, footnote 4: AN C13, vol.31 fol.139",
+      "claim": "Surrey reports that a 200,000-livre allowance was used in return for Spanish silver expended on fortifications at English Turn and Mobile. The underlying folio was not examined; it is unresolved which issue/allowance this describes and whether it connects to the 1735 authorization or 30 April 1744 order. No transaction or payment is recorded."
+    }
+  ],
+  "archival_retrieval_targets": [
+    {
+      "locator": "AN C, Sér. A, vol.22 fol.146; vol.23 (14 Sep 1735); AN C, Sér. C13 vol.34 fols.376–378",
+      "cited_by": "Surrey 1916, printed p.127, footnote 1",
+      "purpose": "Resolve the 1735 ordinance's production/implementation and identify fabrication procès-verbaux; exact individual record and wording not yet checked."
+    },
+    {
+      "locator": "AN C, Sér. B, vol.78 fols.42–51",
+      "cited_by": "Surrey 1916, printed p.138, footnote 1",
+      "purpose": "Examine the reported 30 April 1744 five-to-two card-money order and clarify why Surrey says implementation was deferred."
+    },
+    {
+      "locator": "AN C13, vol.31 fol.139",
+      "cited_by": "Surrey 1916, printed p.138, footnote 4",
+      "purpose": "Examine the 1746 200,000-livre allowance/exchange lead and identify its relationship, if any, to the 1735 or 1744 instruments."
+    }
+  ],
+  "unresolved_relationships": [
+    "Does the 1744 declaration's retrospective statement that 1735 cards were distributed refer to the full 200,000-livre ceiling or only some amount? It does not quantify actual issue.",
+    "Surrey says the 1735 project was realized some years later; exact implementation date and amount require the cited archives.",
+    "27 April 1744 recall declaration and 30 April 1744 issue order are separate by date and description. Their relationship, and whether the later issue order was executed, remain unresolved.",
+    "The 1746 200,000-livre allowance/exchange reference is not linked conclusively to a specific earlier instrument.",
+    "The colonial and royal statements about inhabitants' wishes are mediated administrative claims; no consultation record from Indigenous nations or enslaved people is established."
+  ],
+  "financial_flow_records_created": 0
+}

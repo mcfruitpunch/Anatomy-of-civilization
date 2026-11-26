@@ -857,8 +857,8 @@
   },
   {
     "id": "retrocession1731",
-    "title": "Company Withdrawal, Royal Administration and Louisiana's Outstanding Debts (1731–1735)",
-    "period": "1717–1735",
+    "title": "Company Withdrawal, Royal Administration, Debts and Currency (1731–1744)",
+    "period": "1717–1744",
     "summary": "The French Council issued a retrocession decree on 23 January 1731 and a separate Louisiana Company-debt decree on 24 February 1731 (the debt decree was PRINTED in 1733). A May 1731 law reorganized Louisiana's Superior Council without Company directors. In January 1732, Salmon reported taking possession of certain physical assets for the king. Legal concession, regulatory liabilities, institutional appointments and asset custody are distinct. A separate 24 January Company-register extract, surviving as an 1889 certified copy, records a Company-authorized submission to pay 1,450,000 livres over ten years after the King reduced a 3,600,000-livre estimate; no formal execution or installment payment is established, and this is not the 24 February debt decree.",
     "summary_sources": [
       "src-bnf-retrocession-edict-1731",
@@ -868,7 +868,9 @@
       "src-umsl-1731-decree-image",
       "src-columbia-1731-debt-printed-1733",
       "src-unilim-1731-retrocession",
-      "src-lcd-retrocession-1731"
+      "src-lcd-retrocession-1731",
+      "src-zay-1892-louisiana-card-money-1744-recall",
+      "src-surrey-1916-louisiana-card-money-implementation-1735-1746"
     ],
     "decision_making": "The Company of the Indies had governed Louisiana under a concession following John Law's Company of the West in 1717. After colonial conflict and commercial losses, the Company ceded its administrative concession back to the French Crown in 1731. The surviving government decrees and 1732 Salmon letter show a process of legal withdrawal and asset handover that needed further decisions over exceptions and creditor debts. Distinct Choctaw diplomatic initiatives and contested Mobile trade rights continued across the handover. The royal retrocession document is dated 23 January 1731; an archival catalogue of a separate original debt law shows decree dated 24 February 1731 even though it was printed in a 1733 edition. A royal edict of 22 May 1731 excluded Company directors from the Superior Council. The 24 January 1731 Company deliberation, preserved in an 1889 certified copy, records the King's reduction of a 3,600,000-livre estimate to 1,450,000 livres and the Company's authorization for directors to submit an undertaking to pay in installments, subject to further royal order and form. This is a distinct Company-to-Crown obligation candidate, not a proven cash transfer or the separate 24 February Company-debt decree.",
     "decision_sources": [
@@ -880,7 +882,7 @@
       "src-unilim-1731-retrocession",
       "src-lcd-retrocession-1731"
     ],
-    "consequences": "A May 1731 royal edict excluded Company directors from the Louisiana Superior Council, helping distinguish public judicial governance from former Company management. In January 1732 Salmon separately reported taking physical possession of forts, buildings and artillery for the king, with exceptions and disputes about Company merchandise. The 1731 debt decree is known from a 1733 printed edition; its text does not establish that all liabilities became Crown obligations, or that the 1732 Diron judgment was paid. People enslaved or living in sovereign Indigenous nations must not be reduced to transferable assets. A separate 14 September 1735 ordinance, preserved as an 1892 historical reprint rather than an examined original, prescribed up to 200,000 livres of Louisiana card money and rules for official recording and acceptance. The authorized ceiling is not proof of issue, circulation, redemption, or payment of the Company's debts. The Company's petition also describes an alternative arrangement under which it would retain exclusive trade while supplying 500 enslaved people annually; this is a proposed condition, not evidence of actual shipments. The Company's framing of the Natchez conflict is a corporate colonial account and must be paired with Natchez community continuity and histories of French retaliation, not treated as a complete Natchez perspective.",
+    "consequences": "A May 1731 royal edict excluded Company directors from the Louisiana Superior Council, helping distinguish public judicial governance from former Company management. In January 1732 Salmon separately reported taking physical possession of forts, buildings and artillery for the king, with exceptions and disputes about Company merchandise. The 1731 debt decree is known from a 1733 printed edition; its text does not establish that all liabilities became Crown obligations, or that the 1732 Diron judgment was paid. People enslaved or living in sovereign Indigenous nations must not be reduced to transferable assets. A separate 14 September 1735 ordinance, preserved as an 1892 historical reprint rather than an examined original, prescribed up to 200,000 livres of Louisiana card money and rules for official recording and acceptance. The authorized ceiling is not proof of issue, circulation, redemption, or payment of the Company's debts. The Company's petition also describes an alternative arrangement under which it would retain exclusive trade while supplying 500 enslaved people annually; this is a proposed condition, not evidence of actual shipments. The Company's framing of the Natchez conflict is a corporate colonial account and must be paired with Natchez community continuity and histories of French retaliation, not treated as a complete Natchez perspective. A separate royal declaration of 27 April 1744, reproduced in Zay (1892), retrospectively says the 1735 Louisiana card money had been distributed for royal expenses and orders recall of cards and treasury notes; this is not proof of the quantity issued or redemption. Surrey's 1916 archival synthesis says the 1735 project was realized some years later and separately reports a 30 April 1744 issue order deferred, plus an unresolved 1746 allowance/exchange lead. These are distinct instruments and mediated witnesses; original folios and issue/recall receipts remain unread.",
     "consequences_sources": [
       "src-hnoc-salmon-possession-1732",
       "src-bnf-1733-company-debts",
@@ -889,7 +891,9 @@
       "src-columbia-1731-debt-printed-1733",
       "src-zay-1892-louisiana-card-money-1735",
       "src-natchez-nation-official",
-      "src-nps-natchez-history"
+      "src-nps-natchez-history",
+      "src-zay-1892-louisiana-card-money-1744-recall",
+      "src-surrey-1916-louisiana-card-money-implementation-1735-1746"
     ],
     "interpretations": [
       {
@@ -985,6 +989,16 @@
           "src-natchez-nation-official",
           "src-nps-natchez-history"
         ]
+      },
+      {
+        "label": "Card-money authorization, reported distribution, recall and later issue proposal are distinct",
+        "claim": "The 14 September 1735 ordinance sets a 200,000-livre ceiling. The 27 April 1744 declaration reprinted in Zay retrospectively asserts distribution, while Surrey separately reports the 30 April 1744 five-to-two issue order as deferred and a 1746 200,000-livre exchange lead. The legal instruments and implementation claims must not be collapsed; neither total issuance nor completed redemption is verified.",
+        "status": "supported interpretation",
+        "sources": [
+          "src-zay-1892-louisiana-card-money-1735",
+          "src-zay-1892-louisiana-card-money-1744-recall",
+          "src-surrey-1916-louisiana-card-money-implementation-1735-1746"
+        ]
       }
     ],
     "open_questions": [
@@ -1019,7 +1033,9 @@
       "evt-1736-guillon-labbe-receipt-index-card",
       "evt-1732-company-treasury-memo",
       "evt-1735-company-half-debt-reply",
-      "evt-1734-salmon-house-advance-letter"
+      "evt-1734-salmon-house-advance-letter",
+      "evt-1744-04-27-louisiana-card-money-recall-declaration",
+      "evt-1744-04-30-card-money-order-reported-deferred"
     ],
     "entities": [
       "ent-french-crown",

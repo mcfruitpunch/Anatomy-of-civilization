@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const load = (n) => JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', n + '.json'), 'utf8'));
 const sources = load('sources'), events = load('events'), entities = load('entities');
-const rels = load('relationships'), cases = load('cases'), systems = load('systems'), dominoes = load('dominoes'), financial = load('financial_flows'), ownership = load('ownership_overlap'), comparisons = load('comparisons'), documents = load('archival_documents'), routes = load('information_routes'), extracts = load('source_extracts'), censusVersions = load('census_evidence_audit');
+const rels = load('relationships'), cases = load('cases'), systems = load('systems'), dominoes = load('dominoes'), financial = load('financial_flows'), ownership = load('ownership_overlap'), comparisons = load('comparisons'), documents = load('archival_documents'), routes = load('information_routes'), extracts = load('source_extracts'), censusVersions = load('census_evidence_audit'), cardMoneyImplementation = load('louisiana_card_money_implementation_audit');
 const STATUS = ['documented', 'interpretation', 'supported interpretation', 'unresolved', 'speculation'];
 const errors = [];
 const ids = (arr, name) => {
@@ -13,7 +13,7 @@ const ids = (arr, name) => {
   return s;
 };
 const S = ids(sources, 'sources'), E = ids(events, 'events'), N = ids(entities, 'entities');
-const C = ids(cases, 'cases'); ids(rels, 'relationships'); ids(systems, 'systems'); ids(dominoes, 'dominoes'); ids(financial, 'financial'); ids(ownership, 'ownership_overlap'); ids(comparisons, 'comparisons'); ids(documents, 'archival_documents'); ids(routes, 'information_routes'); ids(extracts, 'source_extracts'); ids(censusVersions, 'census_evidence_audit');
+const C = ids(cases, 'cases'); ids(rels, 'relationships'); ids(systems, 'systems'); ids(dominoes, 'dominoes'); ids(financial, 'financial'); ids(ownership, 'ownership_overlap'); ids(comparisons, 'comparisons'); ids(documents, 'archival_documents'); ids(routes, 'information_routes'); ids(extracts, 'source_extracts'); ids(censusVersions, 'census_evidence_audit'); ids(cardMoneyImplementation.records, 'louisiana_card_money_implementation_audit');
 const bySource = Object.fromEntries(sources.map(s => [s.id, s]));
 const need = (list, set, ctx) => (list || []).forEach(i => { if (!set.has(i)) errors.push(ctx + ': unknown reference ' + i); });
 const validStatus = (obj, ctx) => { if (!STATUS.includes(obj.status)) errors.push(ctx + ': bad/missing status ' + obj.status); };
@@ -207,6 +207,7 @@ require('./validate-louisiana-decree-custody-scope-audit.js');
 require('./validate-louisiana-archive-access-routes.js');
 require('./validate-louisiana-human-context.js');
 require('./validate-louisiana-card-money.js');
+require('./validate-louisiana-card-money-implementation.js');
 require('./validate-louisiana-retrocession-clause.js');
 require('./validate-place-name-disambiguations.js');
 require('./validate-louisiana-decree-retrieval-leads.js');

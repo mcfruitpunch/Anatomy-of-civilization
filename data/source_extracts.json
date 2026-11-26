@@ -472,5 +472,49 @@
     ],
     "event": "evt-1731-jan-retrocession-document",
     "case": "retrocession1731"
+  },
+  {
+    "id": "extract-016",
+    "title": "1744 declaration retrospectively reports Louisiana card-money distribution and orders recall; reprinted in 1892",
+    "date": "1744-04-27",
+    "date_role": "declaration_date_in_1892_reprint_not_original_examined",
+    "place": "Versailles; Louisiana and Canada",
+    "record_kind": "royal_declaration_reproduced_in_historical_compilation",
+    "reading_level": "historical_secondary_transcription_not_verified_against_original",
+    "language_original": "fr",
+    "paraphrase": "Zay's 1892 text reproduces a royal declaration dated 27 April 1744. It states retrospectively that the 14 September 1735 Louisiana card-money ordinance set a 200,000-livre quantity and that cards had been distributed for royal expenses and accepted for royal-store sales and treasury bills. The declaration orders holders to return Louisiana cards and treasury notes for reimbursement in bills of exchange under the wording 'à la réduction de 150 pour 100'; it provides a one-year bill term, requires returned instruments to be counted and burned with signed procès-verbaux, and makes unreturned cards/notes null after two months from registration. These are reproduced legal instructions and a retrospective official assertion, not proof of the exact quantity issued, completed return, actual reimbursement or payment.",
+    "reported_numbers": [
+      {
+        "value": 200000,
+        "unit": "authorized_card_money_ceiling_livres_not_disbursed",
+        "meaning": "1735 nominal ceiling restated in the 1744 declaration; the text asserts distribution but does not verify the exact quantity actually issued"
+      }
+    ],
+    "money_status": "retrospective_distribution_assertion_and_recall_order_execution_unverified",
+    "limitations": "Original 1744 folios, registration, recall procès-verbaux, returned cards, bills of exchange and receipts not examined. This 1744 text and the 1735 ordinance are both reproduced in the same 1892 compilation, not independent original witnesses. The reported 200,000 is the authorized ceiling, not a verified amount distributed or redeemed. Original wording of 'à la réduction de 150 pour 100' is retained without normalizing the conversion. The separate 30 April 1744 issue order described by Surrey is not this declaration. Original legal folios not examined; this reprint does not verify the 1731 Company-debt decree.",
+    "sources": [
+      "src-zay-1892-louisiana-card-money-1744-recall"
+    ],
+    "event": "evt-1744-04-27-louisiana-card-money-recall-declaration",
+    "case": "retrocession1731"
+  },
+  {
+    "id": "extract-017",
+    "title": "Surrey reports a separate 30 April 1744 card-money issue order and deferred implementation",
+    "date": "1744-04-30",
+    "date_role": "date_reported_in_surrey_1916_not_original_verified",
+    "place": "Louisiana",
+    "record_kind": "scholarly_summary_with_archival_reference",
+    "reading_level": "scholarly_synthesis_with_archival_footnotes_not_original_transcription",
+    "language_original": "fr",
+    "paraphrase": "Surrey (1916), printed p.138, reports a separate 30 April 1744 order for Louisiana card money on a five-to-two basis, intended to circulate two months after publication in the colony. She states that action was deferred because the French West Indies situation changed and war continued. Footnote 1 identifies AN C, Sér. B, vol.78 fols.42–51. This report is not a transcription of the order and does not prove that the cards were fabricated, issued or paid.",
+    "reported_numbers": [],
+    "money_status": "secondary_report_of_order_execution_deferred_not_verified",
+    "limitations": "Original folios 42–51 not examined; Surrey's scholarly interpretation and archival reference are not direct transcription. The 30 April order is kept separate from the 27 April recall declaration and the 14 September 1735 authorization. No amount issued, actual circulation, exchange, redemption or payment is established. Original folios and scholarly interpretation not examined.",
+    "sources": [
+      "src-surrey-1916-louisiana-card-money-implementation-1735-1746"
+    ],
+    "event": "evt-1744-04-30-card-money-order-reported-deferred",
+    "case": "retrocession1731"
   }
 ]
