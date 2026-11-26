@@ -1481,7 +1481,7 @@
     "year": 1892,
     "publisher": "Paris: Imprimerie nationale / Ernest Leroux; University of Toronto digitization via Wikimedia Commons",
     "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Histoire_mon%C3%A9taire_des_colonies_fran%C3%A7aises%2C_d%27apr%C3%A8s_les_documents_officiels_-_Ernest_Zay_-_%C3%89dition_1892.pdf",
-    "locator": "Printed pp. 181–183: 14 September 1735 Versailles Louisiana card-money ordinance, preamble and arts. I–VI; p. 184 begins separate 1744 declaration. Historical reprint read through digitized text extraction 3 November 2026; original 1735 signed/imprinted law not examined. BnF-derived mirror OCR at frenchbooksonindia.com reads '260 m.' in heading, while this digitization and articles I, IV, V give '200 m.'; verify original page images before diplomatic quotation.",
+    "locator": "Printed pp.181–183: 14 September 1735 Versailles Louisiana card-money ordinance, preamble and arts. I–VI. Printed pp.184–187 contain a separate royal declaration dated 27 April 1744 concerning the Louisiana/Canada card money and treasury notes; separately recorded as src-zay-1892-louisiana-card-money-1744-recall. Digitized 1892 text extraction reviewed 3 Nov and 26 Nov 2026; page images were not visually inspected in this run. Original 1735 and 1744 instruments, registrations, fabrication procès-verbaux, cards, redemption records and treasury receipts not examined. OCR mirror discrepancy in 1735 heading (260 m. vs repeated 200 m. in articles) remains an OCR issue, not a verified textual variant.",
     "reviewed": true
   },
   {
@@ -1801,6 +1801,28 @@
     "publisher": "Louisiana State Museum Historical Center",
     "url": "https://static1.squarespace.com/static/58092328579fb31efea7a49e/t/67ffceca163f713a8669dad2/1744817866371/RG_112.pdff",
     "locator": "April 2025 finding aid, descriptive summary and acquisition information: dates 1770–1904; 2 boxes/100 folders; accession 09894.2–.123 and 2017.001.06–.12.5; collection open for research and digitized items available on request; majority gift of Cusachs Estate in 1930, remainder purchased at auction in 2017. Oversize materials list an indenture dated 1763, accession 09894.117, outside the stated date range. Finding aid examined 25 Nov 2026; it does not itemize the 24 Feb 1731 debt decree or link it to the 1903 exhibit copy. Additional item-level exhibition leads, PDF p.10: folder 15, accession 2017.001.07.1, 1903 invitation to Gaspar Cusachs for Louisiana Historical Society colonial museum opening at Ursuline Convent; folder 17, 2017.001.07.3, December 1903 invitation to centennial Louisiana-transfer celebration; folder 18, 2017.001.07.4a–c, 1903 costume-ball invitation/tickets; folder 20, 2017.001.08.2, 16 Sep 1904 reception invitation; folder 21, 2017.001.08.3, 14 Sep 1904 Louisiana Day invitation. These are invitations, not evidence the debt decree was lent or present in RG112.",
+    "reviewed": true
+  },
+  {
+    "id": "src-zay-1892-louisiana-card-money-1744-recall",
+    "type": "historical_edited_primary_legal_reprint",
+    "title": "Histoire monétaire des colonies françaises, reprinting the 27 April 1744 declaration on Louisiana/Canada card money and treasury notes",
+    "author": "Ernest Zay (editor/compiler); royal declaration attributed to Louis XV",
+    "year": 1892,
+    "publisher": "Paris: Imprimerie nationale / Ernest Leroux; University of Toronto digitization via Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Histoire_mon%C3%A9taire_des_colonies_fran%C3%A7aises%2C_d%27apr%C3%A8s_les_documents_officiels_-_Ernest_Zay_-_Édition_1892.pdf",
+    "locator": "Printed pp.184–187: declaration dated 27 April 1744, concerning card money and treasury notes established in Canada and Louisiana. Text extraction reviewed 26 November 2026; page images not visually examined. This is a separate later royal instrument in the same 1892 compilation as the 1735 ordinance, not an independent eighteenth-century witness. Original 1744 printing, registration, signed recall procès-verbaux, returned cards, redemption bills and receipts not examined.",
+    "reviewed": true
+  },
+  {
+    "id": "src-surrey-1916-louisiana-card-money-implementation-1735-1746",
+    "type": "historical_secondary_archival_study",
+    "title": "The Commerce of Louisiana During the French Régime, 1699–1763 — card-money implementation and 1744 proposals",
+    "author": "Nancy Maria Miller Surrey",
+    "year": 1916,
+    "publisher": "Columbia University Press",
+    "url": "https://louisiana-anthology.org/303_download/texts/miller_surrey--commerce_of_louisiana/miller-surrye--commerceoflouisi00millrich.pdf",
+    "locator": "Chapter X, printed pp.126–127: 14 September 1735 200,000-livre card-money authorization, signature/duplicate controls, and Surrey's statement that realization came some years later; footnote p.127 cites AN C, Sér. A, vol.22 fol.146; vol.23 (14 Sep 1735); Sér. C13 vol.34 fols.376–378. Chapter XI, printed p.138: Surrey reports a separate 30 April 1744 card-money order on a five-to-two basis, planned circulation two months after promulgation, but says action was deferred; footnote cites AN C, Sér. B, vol.78 fols.42–51. The p.138 note also reports a 1746 200,000-livre allowance used in exchange for Spanish silver expended on fortifications, citing AN C13 vol.31 fol.139; relationship to the 1735 issue and April 1744 order remains unresolved. Searchable digitized text examined 26 November 2026; cited archival folios not examined.",
     "reviewed": true
   }
 ]
