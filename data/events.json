@@ -1311,7 +1311,7 @@
     "id": "evt-1735-louisiana-card-money-ordinance",
     "date": "1735-09-14",
     "title": "1735 royal ordinance authorizes Louisiana card-money ceiling after Company's withdrawal",
-    "summary": "An ordinance dated 14 September 1735, reproduced in Ernest Zay's 1892 legal-document compilation (printed pp.181–183), authorizes fabrication of up to 200,000 French livres nominal value in Louisiana card currency (arts. I and V). Articles IV and VI prescribe fabrication records, circulation, and acceptance at royal stores and for treasury bills. Its preamble claims specie previously sent by the Crown had returned to France; this is the Crown's explanation, not an independently audited flow. Neither printing, issuance, redemption, actual payments nor a settlement of Company debts is established by this authorization. The original 1735 ordinance was not independently inspected.",
+    "summary": "An ordinance dated 14 September 1735, reproduced in Ernest Zay's 1892 legal-document compilation (printed pp.181–183), authorizes fabrication of up to 200,000 French livres nominal value in Louisiana card currency (arts. I and V). Articles IV and VI prescribe fabrication records, circulation, and acceptance at royal stores and for treasury bills. A separate 27 April 1744 royal declaration reproduced in the same 1892 compilation retrospectively says the 1735 cards had been distributed for royal expenses, but does not verify the exact quantity issued or redemption. Surrey (1916, pp.126–127) cites archival records and says implementation occurred some years later; those folios remain unread. Neither issuance quantity nor settlement of Company debts is verified. The original 1735 ordinance was not independently inspected.",
     "case": "retrocession1731",
     "entities": [
       "ent-french-crown",
@@ -1411,6 +1411,36 @@
     "entities": [
       "ent-compagnie-indes-france",
       "ent-salmon-edme-gatien"
+    ]
+  },
+  {
+    "id": "evt-1744-04-27-louisiana-card-money-recall-declaration",
+    "date": "1744-04-27",
+    "title": "Royal declaration reports distributed Louisiana card money and orders recall of cards and treasury notes",
+    "summary": "The 27 April 1744 declaration reproduced in Zay (1892, pp.184–187) retrospectively says the 14 September 1735 card-money ordinance fixed 200,000 livres and that cards had been distributed for royal expenses and accepted in store sales and treasury bills. It orders recall and reimbursement under the wording 'à la réduction de 150 pour 100', signed return-counting/burning records, and a two-month deadline after registration. This is a later legal text and official retrospective assertion; original declaration, registration, recall records, cards, bills and receipts were not examined. The exact quantity issued and actual redemption remain unverified; it is distinct from Surrey's reported 30 April 1744 issue order.",
+    "case": "retrocession1731",
+    "entities": [
+      "ent-french-crown"
+    ],
+    "status": "documented",
+    "verification": "reviewed",
+    "sources": [
+      "src-zay-1892-louisiana-card-money-1744-recall"
+    ]
+  },
+  {
+    "id": "evt-1744-04-30-card-money-order-reported-deferred",
+    "date": "1744-04-30",
+    "title": "Surrey reports a separate 30 April 1744 Louisiana card-money issue order was deferred",
+    "summary": "Surrey (1916, printed p.138) reports a separate 30 April 1744 card-money order for Louisiana on a five-to-two basis, intended to circulate two months after publication; she says implementation was deferred because the French West Indies situation changed and the war continued. Footnote 1 cites AN C, Sér. B, vol.78 fols.42–51. Original folios and text were not examined. This is not the 27 April recall declaration reproduced in Zay; relationship, execution and any actual quantity issued remain unresolved.",
+    "case": "retrocession1731",
+    "entities": [
+      "ent-french-crown"
+    ],
+    "status": "interpretation",
+    "verification": "reviewed",
+    "sources": [
+      "src-surrey-1916-louisiana-card-money-implementation-1735-1746"
     ]
   }
 ]
