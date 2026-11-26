@@ -795,5 +795,39 @@
       "ent-compagnie-indes-france",
       "ent-salmon-edme-gatien"
     ]
+  },
+  {
+    "id": "doc-043",
+    "date": "1744-04-27",
+    "place": "Versailles; declaration concerns card money and treasury notes in Louisiana and Canada",
+    "title": "Royal declaration on Louisiana/Canada card money and treasury notes, reproduced in Zay (1892)",
+    "document_kind": "royal_declaration_card_money_recall_historical_reprint",
+    "access_level": "historical_edited_text_not_original",
+    "reference": "Ernest Zay, Histoire monétaire des colonies françaises (1892), printed pp.184–187; declaration dated 27 April 1744",
+    "established": "The 1892 reprint's declaration retrospectively states that the 14 September 1735 Louisiana card-money ordinance fixed a 200,000-livre quantity and that the cards had been distributed for royal expenses and accepted in store sales and treasury bills. It then orders recall of Louisiana card money and treasury notes, reimbursement in bills of exchange under the stated French phrase 'à la réduction de 150 pour 100', requires counting and burning returned instruments with signed procès-verbaux, and sets a two-month return deadline after registration. This establishes what the later reprinted declaration says, not the quantity actually issued or execution of recall/redemption.",
+    "limitations": "The original 27 April 1744 declaration, its registration, recall procès-verbaux, returned cards, exchange bills and receipts were not examined. The text is extracted from the same 1892 Zay compilation as the 1735 ordinance, so it is not an independent eighteenth-century witness. The royal retrospective statement about distribution is not a verified total issue, receipt, payment or completed redemption. Do not conflate this 27 April declaration with Surrey's separately reported 30 April 1744 card-money order. The royal text's assertion that Louisiana inhabitants desired the system is mediated official language, not independent testimony or Indigenous/enslaved people's consent.",
+    "sources": [
+      "src-zay-1892-louisiana-card-money-1744-recall"
+    ],
+    "entities": [
+      "ent-french-crown"
+    ]
+  },
+  {
+    "id": "doc-044",
+    "date": "1744-04-30",
+    "place": "Louisiana; order reported from the French royal government",
+    "title": "Separate 30 April 1744 Louisiana card-money issue order reported by Surrey; original text unread",
+    "document_kind": "royal_card_money_issue_order_secondary_reference",
+    "access_level": "scholarly_reference_only",
+    "reference": "N. M. Miller Surrey, The Commerce of Louisiana During the French Régime (1916), printed p.138 and footnote 1; AN C, Sér. B, vol.78 fols.42–51",
+    "established": "Surrey reports a separate order dated 30 April 1744 for Louisiana card money on a five-to-two basis, to be put into circulation two months after promulgation in the colony. Surrey says action was deferred because the situation in the French West Indies changed and the war continued. This is a scholarly report with an archival locator, not a transcription of the order.",
+    "limitations": "The original 30 April 1744 order and folios AN C, Sér. B, vol.78 fols.42–51 were not examined. The order is distinct in date and reported purpose from the 27 April 1744 recall declaration reproduced in Zay (1892); their relationship, execution and actual card quantity remain unresolved. Surrey's p.138 note also reports a 1746 200,000-livre allowance used in exchange for Spanish silver spent on fortifications (AN C13 vol.31 fol.139), but the specific issue/allowance and transaction record have not been verified. No payment, issuance amount, exchange or completed transaction is asserted.",
+    "sources": [
+      "src-surrey-1916-louisiana-card-money-implementation-1735-1746"
+    ],
+    "entities": [
+      "ent-french-crown"
+    ]
   }
 ]
