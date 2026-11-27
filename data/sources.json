@@ -1844,7 +1844,7 @@
     "year": null,
     "publisher": "Wikisource",
     "url": "https://fr.wikisource.org/wiki/Livre:Recueils_de_reglemens,_edits,_declaration_et_arrets_I.djvu",
-    "locator": "Book-level contents list examined: it lists colonial regulations including 1734, 1736, 1738 and 1742 entries and ends with 'Table des matières, 211'; no 24 Feb 1731 Company-debt decree title is listed in the examined Tome I contents. This is OCR/transcription of the contents, not direct visual examination of printed p.211. Wikisource's volume field labels I.djvu as 'tome 2', conflicting with Commons file metadata 'Tome 1'; title-page verification is outstanding.",
+    "locator": "Wikisource book-level contents transcription examined: it lists colonial regulations including 1734, 1736, 1738 and 1742 entries and ends with 'Table des matières, 211'; no 24 Feb 1731 Company-debt decree title is listed in the examined Tome I contents transcription. This is OCR/transcription of the contents, not direct visual examination of printed p.211. Wikisource's volume field labels I.djvu as 'tome 2', conflicting with Commons file metadata 'Tome 1'; title-page verification is outstanding.",
     "reviewed": true
   },
   {
