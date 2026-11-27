@@ -81,9 +81,11 @@ assert(!witnesses.some(x=>x.id===lead.id),'A retrieval lead cannot be promoted t
 const promote=mutate=>{const bad=structuredClone(lead);mutate(bad);return()=>validate(bad)};
 function validate(x){
   assert.deepEqual(Object.keys(x).sort(),leadKeys);
+  assert.deepEqual(x.volumes.map(v=>[v.volume,v.publication_year,v.page_count,v.source_id]),expectedVolumes);
+  assert.deepEqual(x.source_ids,['src-commons-regulations-tome1-1744','src-wikisource-regulations-tome1-contents','src-commons-regulations-tome2-1745']);
+  assert.deepEqual(Object.keys(x.toc_scope_check).sort(),tocKeys);
   assert.equal(x.target_act_presence,'not_listed_in_tome1_contents_only');
   assert.equal(x.volume_contents_examined,false);
-  assert.equal(x.volume2_contents_examined,false);
   assert.equal(x.volume2_contents_examined,false);
   assert.equal(x.target_page_locator,null);
   assert.equal(x.toc_scope_check.target_title_listed,false);
