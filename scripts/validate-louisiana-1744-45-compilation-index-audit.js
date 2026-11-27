@@ -84,6 +84,7 @@ function validate(x){
   assert.equal(x.target_act_presence,'not_listed_in_tome1_contents_only');
   assert.equal(x.volume_contents_examined,false);
   assert.equal(x.volume2_contents_examined,false);
+  assert.equal(x.volume2_contents_examined,false);
   assert.equal(x.target_page_locator,null);
   assert.equal(x.toc_scope_check.target_title_listed,false);
   assert.equal(x.toc_scope_check.printed_page_image_examined,false);
