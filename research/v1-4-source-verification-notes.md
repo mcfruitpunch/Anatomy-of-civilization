@@ -326,3 +326,6 @@ A metadata discrepancy also requires care: Wikisource's book metadata labels the
 The collection's law titles include regulation of enslavement and manumission. These titles identify colonial legal subjects, not enslaved people's lived experience or Indigenous consent. They are not used to infer a debt payment, liability, or beneficiary. Existing Choctaw, Peoria, and Natchez community-authored records remain separate and are not represented by this royal-law compilation.
 
 Repository implementation: add three provenance sources, one bounded retrieval/scope-check lead, update doc-024, and add a validator preventing this contents list from being promoted to direct text or a witness. `paid`, `transfer`, and `liable` remain null; no financial-flow record or source extract was added.
+
+
+**Validation history:** the first CI run caught that `printed_toc_page` was missing from the validator's strict key schema; a subsequent run caught a test-regex mismatch between Arabic and Roman volume labels. Both were corrected. The workflow path filter now includes individual `scripts/validate-*.js` changes so future validator edits trigger research CI. Final checks are pending.
