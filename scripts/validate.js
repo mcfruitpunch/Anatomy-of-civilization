@@ -211,6 +211,7 @@ require('./validate-louisiana-card-money-implementation.js');
 require('./validate-louisiana-retrocession-clause.js');
 require('./validate-place-name-disambiguations.js');
 require('./validate-louisiana-decree-retrieval-leads.js');
+require('./validate-louisiana-1744-45-compilation-index-audit.js');
 require('./validate-louisiana-governance-reorganization.js');
 require('./validate-louisiana-retrocession-facsimile.js');
 require('./validate-louisiana-duval-account.js');
