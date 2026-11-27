@@ -312,7 +312,7 @@ The April 2025 RG112 finding aid's contents list (PDF p.10) itemizes: folder 15 
 
 ## 27 November 2026: scope-check a separate 1744–1745 colonial-regulations compilation
 
-**New retrieval lead, not a decree witness.** A separate two-tome colonial-regulations compilation was found as public digitized files on Wikimedia Commons. Commons metadata identifies Tome I as 1744 (218 pages) and Tome II as 1745 (373 pages), and names the Bibliothèque nationale de France as source while also carrying a John Carter Brown Library collection field. These metadata fields have not been reconciled; no physical copy, title page, or page image was examined.
+**New retrieval lead, not a decree witness.** A separate two-tome colonial-regulations compilation was found as public digitized files on Wikimedia Commons. Commons metadata labels file I.djvu Tome I (1744, 218 pages) and file II.djvu Tome II (1745, 373 pages), and names the Bibliothèque nationale de France as source while also carrying a John Carter Brown Library collection field. Wikisource metadata labels I.djvu Tome II and II.djvu Tome I, so the tome designation is unresolved. No physical copy, title page, or page image was examined.
 
 - [Commons Tome I file metadata](https://commons.wikimedia.org/wiki/File:Recueils_de_reglemens,_edits,_declaration_et_arrets_I.djvu)
 - [Wikisource book-level contents transcription for Tome I](https://fr.wikisource.org/wiki/Livre:Recueils_de_reglemens,_edits,_declaration_et_arrets_I.djvu)
@@ -329,3 +329,6 @@ Repository implementation: add three provenance sources, one bounded retrieval/s
 
 
 **Validation history:** CI caught five fixture issues, corrected in the branch: `printed_toc_page` was missing from the strict key schema; a test regex mismatched Arabic/Roman volume labels; a locator assertion required 'examined' where the source wording used 'examination'; a negative fixture mutated the Tome II unexamined flag without a corresponding guard; and another changed a volume year without the validation helper checking identity. The source locator now explicitly states the printed page image was not examined, and the helper checks volume identity, provenance IDs and the Tome II flag. The workflow path filter includes individual `scripts/validate-*.js` changes so future validator edits trigger research CI. Final checks are pending.
+
+
+**Post-merge correction:** The scope result is now attached to file I.djvu, not confidently to Tome I, because Commons and Wikisource assign opposite tome labels. No title page was examined; the negative contents result is unchanged and remains limited to the file I transcription.
