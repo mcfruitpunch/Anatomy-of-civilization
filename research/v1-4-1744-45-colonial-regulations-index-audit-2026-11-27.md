@@ -73,3 +73,6 @@ PR CI exposed five test-fixture issues, all corrected: `printed_toc_page` was ab
 ## Post-merge scope-label correction
 
 After PR #59 merged, a stricter review of the two book-level records showed the contents transcription belongs to file `I.djvu`, but Commons labels that file Tome I while Wikisource labels it Tome II (and labels file II.djvu Tome I). The scope audit was corrected to refer to file identifiers and mark tome designation unresolved. The original negative contents result is unchanged; no title-page examination was performed.
+
+
+**PR #60 validation note:** The first run caught a validator regex that expected different wording than the source record's `Commons metadata labels...` phrase. The regex was updated to match the exact provenance wording; final checks are pending.
