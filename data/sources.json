@@ -1824,5 +1824,38 @@
     "url": "https://louisiana-anthology.org/303_download/texts/miller_surrey--commerce_of_louisiana/miller-surrye--commerceoflouisi00millrich.pdf",
     "locator": "Chapter X, printed pp.126–127: 14 September 1735 200,000-livre card-money authorization, signature/duplicate controls, and Surrey's statement that realization came some years later; footnote p.127 cites AN C, Sér. A, vol.22 fol.146; vol.23 (14 Sep 1735); Sér. C13 vol.34 fols.376–378. Chapter XI, printed p.138: Surrey reports a separate 30 April 1744 card-money order on a five-to-two basis, planned circulation two months after promulgation, but says action was deferred; footnote cites AN C, Sér. B, vol.78 fols.42–51. The p.138 note also reports a 1746 200,000-livre allowance used in exchange for Spanish silver expended on fortifications, citing AN C13 vol.31 fol.139; relationship to the 1735 issue and April 1744 order remains unresolved. Searchable digitized text examined 26 November 2026; cited archival folios not examined.",
     "reviewed": true
+  },
+  {
+    "id": "src-commons-regulations-tome1-1744",
+    "type": "digital_surrogate_metadata",
+    "title": "Recueils de reglemens, edits, declaration et arrets, Tome I (1744) — Commons file metadata",
+    "author": "French royal acts; digitized-file metadata on Wikimedia Commons",
+    "year": 1744,
+    "publisher": "Libraires associés, Paris; digital file on Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Recueils_de_reglemens,_edits,_declaration_et_arrets_I.djvu",
+    "locator": "Commons metadata page identifies Tome I, publication 1744, 218-page DjVu; lists Bibliothèque nationale de France as source and John Carter Brown Library as collection. These provenance fields are not reconciled and the file/page images were not downloaded or visually examined in this run. Digital-file metadata only.",
+    "reviewed": true
+  },
+  {
+    "id": "src-wikisource-regulations-tome1-contents",
+    "type": "secondary_transcription_of_catalogue_contents",
+    "title": "Book-level contents transcription for the 1744 Recueils de reglemens, Tome I",
+    "author": "Wikisource contributors; transcribed contents from the digitized book",
+    "year": null,
+    "publisher": "Wikisource",
+    "url": "https://fr.wikisource.org/wiki/Livre:Recueils_de_reglemens,_edits,_declaration_et_arrets_I.djvu",
+    "locator": "Book-level contents list examined: it lists colonial regulations including 1734, 1736, 1738 and 1742 entries and ends with 'Table des matières, 211'; no 24 Feb 1731 Company-debt decree title is listed in the examined Tome I contents. This is OCR/transcription of the contents, not direct visual examination of printed p.211. Wikisource's volume field labels I.djvu as 'tome 2', conflicting with Commons file metadata 'Tome 1'; title-page verification is outstanding.",
+    "reviewed": true
+  },
+  {
+    "id": "src-commons-regulations-tome2-1745",
+    "type": "digital_surrogate_metadata",
+    "title": "Recueils de reglemens, edits, declaration et arrets, Tome II (1745) — Commons file metadata",
+    "author": "French royal acts; digitized-file metadata on Wikimedia Commons",
+    "year": 1745,
+    "publisher": "Libraires associés, Paris; digital file on Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Recueils_de_reglemens,_edits,_declaration_et_arrets_II.djvu",
+    "locator": "Commons metadata page identifies Tome II, publication 1745, 373-page DjVu; lists Bibliothèque nationale de France as source and John Carter Brown Library as collection. No page images or contents were examined. Wikisource book metadata labels II.djvu as 'tome 1', opposite Commons; volume identification requires title-page check.",
+    "reviewed": true
   }
 ]
