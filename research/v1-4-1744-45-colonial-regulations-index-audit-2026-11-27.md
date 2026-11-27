@@ -63,3 +63,8 @@ No source extract, event, witness, or financial-flow record was created. `paid`,
 4. When the debt decree is obtained, transcribe its operative clauses, distinguish legal debtor/creditor direction, and seek separate receipts or accounts before asserting any payment.
 
 **Conclusion:** This new collection route helps avoid an unsupported assumption that the decree is in a later colonial-regulations compilation. The central 1731 legal text remains unread.
+
+
+## Validation history
+
+The first PR CI run exposed a strict-schema omission: `printed_toc_page` was present in the retrieval lead but absent from the validator's allowed-key list. The validator schema was corrected to include that locator field. The corrected branch is awaiting its triggered validation run; no merge is planned until all checks pass.
