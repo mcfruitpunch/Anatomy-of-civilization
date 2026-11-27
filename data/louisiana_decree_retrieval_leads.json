@@ -110,7 +110,9 @@
       "publisher": "Paris: Libraires associés",
       "volumes": [
         {
-          "volume": "Tome I",
+          "file": "I.djvu",
+          "commons_volume_label": "Tome I",
+          "wikisource_volume_label": "Tome II",
           "publication_year": 1744,
           "page_count": 218,
           "commons_url": "https://commons.wikimedia.org/wiki/File:Recueils_de_reglemens,_edits,_declaration_et_arrets_I.djvu",
@@ -118,7 +120,9 @@
           "source_id": "src-commons-regulations-tome1-1744"
         },
         {
-          "volume": "Tome II",
+          "file": "II.djvu",
+          "commons_volume_label": "Tome II",
+          "wikisource_volume_label": "Tome I",
           "publication_year": 1745,
           "page_count": 373,
           "commons_url": "https://commons.wikimedia.org/wiki/File:Recueils_de_reglemens,_edits,_declaration_et_arrets_II.djvu",
@@ -127,10 +131,12 @@
         }
       ],
       "toc_scope_check": {
-        "volume": "Tome I",
-        "contents_locator": "Wikisource book-level contents transcription; table of contents noted at printed p. 211",
+        "file": "I.djvu",
+        "volume_designation_resolved": false,
+        "contents_locator": "Wikisource book-level contents transcription for file I.djvu; contents table noted at printed p. 211",
         "source_id": "src-wikisource-regulations-tome1-contents",
         "contents_text_examined": true,
+        "printed_toc_page": 211,
         "printed_page_image_examined": false,
         "target_title_listed": false,
         "listed_louisiana_related_entries": [
@@ -140,20 +146,19 @@
           "1738 slave-related declaration (p. 156)",
           "1742 trade exemption ordinance (p. 205)"
         ],
-        "scope_limit": "The examined Tome I contents transcription does not list the 24 February 1731 Company-debt decree. This is not proof of absence from Tome II or from other compilations. The contents page image was not examined.",
-        "wikisource_volume_label_conflict": "Wikisource metadata labels I.djvu as Tome II and II.djvu as Tome I; Commons file metadata labels them Tome I and Tome II. Confirm against title pages.",
-        "printed_toc_page": 211
+        "scope_limit": "The examined file I.djvu contents transcription does not list the 24 February 1731 Company-debt decree. Commons labels file I.djvu Tome I; Wikisource labels it Tome II. This is not proof of absence from file II.djvu or the entire compilation. The contents page image was not examined.",
+        "volume_label_conflict": "Commons metadata labels I.djvu Tome I and II.djvu Tome II; Wikisource metadata labels I.djvu Tome II and II.djvu Tome I. Verify title pages before assigning tome numbers or page references."
       },
-      "volume2_contents_examined": false,
-      "target_act_presence": "not_listed_in_tome1_contents_only",
-      "volume_contents_examined": false,
+      "target_act_presence": "not_listed_in_file_I_contents_only",
       "target_page_locator": null,
       "source_ids": [
         "src-commons-regulations-tome1-1744",
         "src-wikisource-regulations-tome1-contents",
         "src-commons-regulations-tome2-1745"
       ],
-      "next_action": "Check the Tome II table of contents and title pages to resolve the volume-label discrepancy; the 1744–45 colonial-regulations collection is not currently an identified witness of the target decree. Prioritize the standalone 1731 Imprimerie royale and 1733 Saugrain–Prault printings, and the 1755–56 BnF Recueil T.4 chronological index, rather than assuming the decree appears in this collection."
+      "next_action": "Obtain and inspect both title pages and file II.djvu contents to resolve the volume-label discrepancy; cite this negative check only as file I.djvu contents. Prioritize the standalone 1731 Imprimerie royale and 1733 Saugrain–Prault printings, and the 1755–56 BnF Recueil T.4 chronological index rather than assuming the debt decree appears in this collection.",
+      "file_II_contents_examined": false,
+      "page_images_examined": false
     }
   ]
 }
