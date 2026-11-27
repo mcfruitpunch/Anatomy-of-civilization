@@ -141,7 +141,8 @@
           "1742 trade exemption ordinance (p. 205)"
         ],
         "scope_limit": "The examined Tome I contents transcription does not list the 24 February 1731 Company-debt decree. This is not proof of absence from Tome II or from other compilations. The contents page image was not examined.",
-        "wikisource_volume_label_conflict": "Wikisource metadata labels I.djvu as Tome II and II.djvu as Tome I; Commons file metadata labels them Tome I and Tome II. Confirm against title pages."
+        "wikisource_volume_label_conflict": "Wikisource metadata labels I.djvu as Tome II and II.djvu as Tome I; Commons file metadata labels them Tome I and Tome II. Confirm against title pages.",
+        "printed_toc_page": 211
       },
       "volume2_contents_examined": false,
       "target_act_presence": "not_listed_in_tome1_contents_only",
