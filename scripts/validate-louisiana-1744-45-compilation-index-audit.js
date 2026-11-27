@@ -57,7 +57,7 @@ assert.deepEqual(toc.listed_louisiana_related_entries,[
   '1742 trade exemption ordinance (p. 205)'
 ]);
 assert(/not proof of absence from Tome II/i.test(toc.scope_limit));
-assert(/labels I\.djvu as tome 2 and II\.djvu as tome 1/i.test(toc.wikisource_volume_label_conflict));
+assert(/labels I\.djvu as tome ii and II\.djvu as tome i/i.test(toc.wikisource_volume_label_conflict));
 assert.equal(lead.volume2_contents_examined,false);
 assert.equal(lead.target_act_presence,'not_listed_in_tome1_contents_only');
 assert.equal(lead.volume_contents_examined,false);
