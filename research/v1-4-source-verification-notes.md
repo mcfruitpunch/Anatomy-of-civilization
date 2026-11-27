@@ -332,3 +332,6 @@ Repository implementation: add three provenance sources, one bounded retrieval/s
 
 
 **Post-merge correction:** The scope result is now attached to file I.djvu, not confidently to Tome I, because Commons and Wikisource assign opposite tome labels. No title page was examined; the negative contents result is unchanged and remains limited to the file I transcription.
+
+
+**PR #60 validation:** One validator regex failed because it expected a shorter label phrase than the source record actually uses. It was corrected to match the exact `Commons metadata labels...` wording; final validation pending.
