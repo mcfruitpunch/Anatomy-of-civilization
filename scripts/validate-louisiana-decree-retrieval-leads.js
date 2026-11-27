@@ -79,12 +79,14 @@ function validateLead(item) {
   return true;
 }
 
-assert(Array.isArray(leads) && leads.length === 1, 'Expected one bounded BnF compilation retrieval lead');
-validateLead(leads[0]);
+assert(Array.isArray(leads) && leads.length === 2, 'Expected the original BnF retrieval lead plus one separate 1744–45 scope check');
+const bnfLead = leads.find(x => x.id === 'lead-bnf-recuel-volume1-1755-56');
+assert(bnfLead, 'Missing original BnF retrieval lead');
+validateLead(bnfLead);
 
 // Regression guards: catalogue metadata must never be promoted to inspected content or a located act.
 const promote = (mutate) => {
-  const bad = structuredClone(leads[0]);
+  const bad = structuredClone(bnfLead);
   mutate(bad);
   return () => validateLead(bad);
 };

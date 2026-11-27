@@ -7,6 +7,7 @@ on:
       - 'data/**'
       - 'research/**'
       - 'scripts/validate.js'
+      - 'scripts/validate-*.js'
       - 'site/**'
       - 'index.html'
       - 'scripts/test-explorer.js'

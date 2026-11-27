@@ -97,6 +97,63 @@
         }
       ],
       "next_action": "Request or obtain a legible copy of T.4 first and inspect its Table générale chronologique for the exact title/date '24 février 1731' and terms 'Louisiane' or 'dettes'. If an entry is found, record its referenced volume and page, then inspect that volume's original printed pages. If no entry is found, record the negative index search and continue with the standalone 1731 and 1733 printings. Do not promote this compilation to a decree witness until the target text is directly examined."
+    },
+    {
+      "id": "lead-commons-wikisource-1744-45-regulations-toc-check",
+      "target_document": "doc-024",
+      "lead_type": "later_compilation_scope_check",
+      "collection_title": "Recueils de reglemens, edits, declarations et arrets concernant le commerce, l'administration de la justice et la police des colonies françaises de l'Amérique, & les engagés avec le code noir et l'addition audit code",
+      "publication_dates": [
+        "1744",
+        "1745"
+      ],
+      "publisher": "Paris: Libraires associés",
+      "volumes": [
+        {
+          "volume": "Tome I",
+          "publication_year": 1744,
+          "page_count": 218,
+          "commons_url": "https://commons.wikimedia.org/wiki/File:Recueils_de_reglemens,_edits,_declaration_et_arrets_I.djvu",
+          "wikisource_url": "https://fr.wikisource.org/wiki/Livre:Recueils_de_reglemens,_edits,_declaration_et_arrets_I.djvu",
+          "source_id": "src-commons-regulations-tome1-1744"
+        },
+        {
+          "volume": "Tome II",
+          "publication_year": 1745,
+          "page_count": 373,
+          "commons_url": "https://commons.wikimedia.org/wiki/File:Recueils_de_reglemens,_edits,_declaration_et_arrets_II.djvu",
+          "wikisource_url": "https://fr.wikisource.org/wiki/Livre:Recueils_de_reglemens,_edits,_declaration_et_arrets_II.djvu",
+          "source_id": "src-commons-regulations-tome2-1745"
+        }
+      ],
+      "toc_scope_check": {
+        "volume": "Tome I",
+        "contents_locator": "Wikisource book-level contents transcription; table of contents noted at printed p. 211",
+        "source_id": "src-wikisource-regulations-tome1-contents",
+        "contents_text_examined": true,
+        "printed_page_image_examined": false,
+        "target_title_listed": false,
+        "listed_louisiana_related_entries": [
+          "1724 Louisiana Code Noir (p. 135)",
+          "1734 trade-certificate ordinance (p. 188)",
+          "1736 manumission/baptism ordinance (p. 202)",
+          "1738 slave-related declaration (p. 156)",
+          "1742 trade exemption ordinance (p. 205)"
+        ],
+        "scope_limit": "The examined Tome I contents transcription does not list the 24 February 1731 Company-debt decree. This is not proof of absence from Tome II or from other compilations. The contents page image was not examined.",
+        "wikisource_volume_label_conflict": "Wikisource metadata labels I.djvu as Tome II and II.djvu as Tome I; Commons file metadata labels them Tome I and Tome II. Confirm against title pages.",
+        "printed_toc_page": 211
+      },
+      "volume2_contents_examined": false,
+      "target_act_presence": "not_listed_in_tome1_contents_only",
+      "volume_contents_examined": false,
+      "target_page_locator": null,
+      "source_ids": [
+        "src-commons-regulations-tome1-1744",
+        "src-wikisource-regulations-tome1-contents",
+        "src-commons-regulations-tome2-1745"
+      ],
+      "next_action": "Check the Tome II table of contents and title pages to resolve the volume-label discrepancy; the 1744–45 colonial-regulations collection is not currently an identified witness of the target decree. Prioritize the standalone 1731 Imprimerie royale and 1733 Saugrain–Prault printings, and the 1755–56 BnF Recueil T.4 chronological index, rather than assuming the decree appears in this collection."
     }
   ]
 }

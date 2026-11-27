@@ -308,3 +308,24 @@ The 1903 catalogue's item 345 historically credits the 24 Feb 1731 debt decree t
 ## 25 November 2026: RG112 item-level exhibit invitations refined
 
 The April 2025 RG112 finding aid's contents list (PDF p.10) itemizes: folder 15 / 2017.001.07.1, a 1903 invitation to Gaspar Cusachs for the Louisiana Historical Society colonial museum opening at the Ursuline Convent; folder 17 / 2017.001.07.3, a December 1903 transfer-centennial invitation; folder 18 / 2017.001.07.4a–c, 1903 costume-ball invitation/tickets; folder 20 / 2017.001.08.2, 16 September 1904 reception invitation; and folder 21 / 2017.001.08.3, 14 September 1904 Louisiana Day invitation. These strengthen the RG112 retrieval route for exhibit context but do not link the 1731 decree item 345 to the estate/loan collection, prove it was displayed, or establish current custody. Request these folders and the RG23 1903 exhibit loan/disposition records separately.
+
+
+## 27 November 2026: scope-check a separate 1744–1745 colonial-regulations compilation
+
+**New retrieval lead, not a decree witness.** A separate two-tome colonial-regulations compilation was found as public digitized files on Wikimedia Commons. Commons metadata identifies Tome I as 1744 (218 pages) and Tome II as 1745 (373 pages), and names the Bibliothèque nationale de France as source while also carrying a John Carter Brown Library collection field. These metadata fields have not been reconciled; no physical copy, title page, or page image was examined.
+
+- [Commons Tome I file metadata](https://commons.wikimedia.org/wiki/File:Recueils_de_reglemens,_edits,_declaration_et_arrets_I.djvu)
+- [Wikisource book-level contents transcription for Tome I](https://fr.wikisource.org/wiki/Livre:Recueils_de_reglemens,_edits,_declaration_et_arrets_I.djvu)
+- [Commons Tome II file metadata](https://commons.wikimedia.org/wiki/File:Recueils_de_reglemens,_edits,_declaration_et_arrets_II.djvu)
+- [Wikisource book-level record for Tome II](https://fr.wikisource.org/wiki/Livre:Recueils_de_reglemens,_edits,_declaration_et_arrets_II.djvu)
+
+The Tome I contents transcription (table of contents noted at printed p.211) lists colonial regulations including the Louisiana Code Noir of 1724 (p.135), a 1734 slave-trade certificate ordinance (p.188), a 1736 manumission/baptism ordinance (p.202), a 1738 declaration about enslaved people (p.156), and a 1742 exemption ordinance connected to slave-trade products (p.205). It does **not** list the 24 February 1731 Company-debt decree in the examined contents list. This is a negative check of that contents transcription only; the page image itself was not examined, and the collection is not a comprehensive list of all royal decrees.
+
+A metadata discrepancy also requires care: Wikisource's book metadata labels the file ending I.djvu as “tome 2” and II.djvu as “tome 1”, opposite the Commons file labels. Verify both title pages before citing a volume/page. The Tome II contents have not been examined; its last Wikisource page (373) is marked not intended to be corrected and contains no transcription.
+
+The collection's law titles include regulation of enslavement and manumission. These titles identify colonial legal subjects, not enslaved people's lived experience or Indigenous consent. They are not used to infer a debt payment, liability, or beneficiary. Existing Choctaw, Peoria, and Natchez community-authored records remain separate and are not represented by this royal-law compilation.
+
+Repository implementation: add three provenance sources, one bounded retrieval/scope-check lead, update doc-024, and add a validator preventing this contents list from being promoted to direct text or a witness. `paid`, `transfer`, and `liable` remain null; no financial-flow record or source extract was added.
+
+
+**Validation history:** CI caught five fixture issues, corrected in the branch: `printed_toc_page` was missing from the strict key schema; a test regex mismatched Arabic/Roman volume labels; a locator assertion required 'examined' where the source wording used 'examination'; a negative fixture mutated the Tome II unexamined flag without a corresponding guard; and another changed a volume year without the validation helper checking identity. The source locator now explicitly states the printed page image was not examined, and the helper checks volume identity, provenance IDs and the Tome II flag. The workflow path filter includes individual `scripts/validate-*.js` changes so future validator edits trigger research CI. Final checks are pending.
