@@ -6,17 +6,17 @@
 
 ## 1. Digital file metadata
 
-### Tome I — 1744
+### File I.djvu — Commons labels Tome I (1744); Wikisource labels Tome II
 [Wikimedia Commons file metadata](https://commons.wikimedia.org/wiki/File:Recueils_de_reglemens,_edits,_declaration_et_arrets_I.djvu) identifies a 218-page DjVu, publication date 1744, and labels it Tome I. The page lists Bibliothèque nationale de France as the source and John Carter Brown Library as the collection field. These provenance fields are not reconciled; the physical copy and file pages were not examined.
 
 [Wikisource book-level record and contents transcription](https://fr.wikisource.org/wiki/Livre:Recueils_de_reglemens,_edits,_declaration_et_arrets_I.djvu).
 
-### Tome II — 1745
+### File II.djvu — Commons labels Tome II (1745); Wikisource labels Tome I
 [Wikimedia Commons file metadata](https://commons.wikimedia.org/wiki/File:Recueils_de_reglemens,_edits,_declaration_et_arrets_II.djvu) identifies a 373-page DjVu, publication date 1745, and labels it Tome II. It likewise names BnF as source and JCB in the collection field. No page image or contents transcription was examined.
 
 [Wikisource book-level record](https://fr.wikisource.org/wiki/Livre:Recueils_de_reglemens,_edits,_declaration_et_arrets_II.djvu).
 
-## 2. Contents transcription examined (Tome I only)
+## 2. Contents transcription examined (file I.djvu; tome designation unresolved)
 
 The book-level Wikisource contents transcription notes the table at printed page 211 and lists colonial-regulation entries including:
 
@@ -26,13 +26,13 @@ The book-level Wikisource contents transcription notes the table at printed page
 - 1738 declaration concerning enslaved people, p. 156.
 - 1742 exemption ordinance connected to products of the slave trade, p. 205.
 
-The **24 February 1731 Company-debt decree is not listed** in the examined Tome I contents transcription. The transcription is OCR/contents text, not direct visual examination of the printed table page. The book's scope is colonial regulations about trade, justice, police, engagés and the Code Noir; it is not a comprehensive index of all royal acts. The negative result therefore applies only to the examined contents list.
+The **24 February 1731 Company-debt decree is not listed** in the examined contents transcription for file I.djvu. Commons metadata labels this file Tome I, while Wikisource labels it Tome II; the designation remains unresolved until the title page is examined. The transcription is OCR/contents text, not direct visual examination of the printed table page. The book's scope is colonial regulations about trade, justice, police, engagés and the Code Noir; it is not a comprehensive index of all royal acts. The negative result therefore applies only to the examined file I.djvu contents list.
 
 ## 3. Volume-label discrepancy
 
-Wikisource's metadata labels the file ending `I.djvu` as “tome 2” and `II.djvu` as “tome 1”, opposite the Commons file labels. This may be metadata error, but the title pages were not examined. Do not cite a tome/page until the volume title pages and contents are checked.
+Wikisource metadata labels `I.djvu` as Tome II and `II.djvu` as Tome I, opposite Commons metadata. Neither label is confirmed by title-page examination. Do not cite a tome/page until both title pages are checked.
 
-Tome II contents were not examined. Its last Wikisource page (373) is marked “not intended to be corrected” and contains no transcription; it is not a verified contents page.
+File II.djvu contents were not examined. Its last Wikisource page (373) is marked “not intended to be corrected” and contains no transcription; it is not a verified contents page.
 
 ## 4. Evidence classification
 
@@ -57,7 +57,7 @@ No source extract, event, witness, or financial-flow record was created. `paid`,
 
 ## 7. Next access priority
 
-1. Obtain the Tome II title page and contents, and resolve the Wikisource/Commons volume-label mismatch.
+1. Obtain title pages for both files and file II.djvu contents, and resolve the Wikisource/Commons volume-label mismatch.
 2. Continue prioritizing the two operative pages of the standalone 1731 Imprimerie royale or 1733 Saugrain–Prault debt decree.
 3. For the separate 1755–1756 BnF Recueil, inspect the T.4 chronological index only if a working access route is obtained; do not presume the act appears there.
 4. When the debt decree is obtained, transcribe its operative clauses, distinguish legal debtor/creditor direction, and seek separate receipts or accounts before asserting any payment.
@@ -68,3 +68,11 @@ No source extract, event, witness, or financial-flow record was created. `paid`,
 ## Validation history
 
 PR CI exposed five test-fixture issues, all corrected: `printed_toc_page` was absent from the strict allowed-key list; the volume-label regex expected Arabic numerals while the metadata uses Roman numerals; a source-locator assertion expected 'examined' where the locator said 'examination'; one negative fixture mutated `volume2_contents_examined` without a corresponding guard; and another changed a volume year without the validation helper checking volume identity. The locator now explicitly says the page image was not examined, and the helper checks volume identities, provenance IDs, and the Tome II flag. I also expanded the workflow path filter to include individual `scripts/validate-*.js` changes, because validator-only edits had not triggered CI. The branch is awaiting its final triggered validation run; no merge is planned until all checks pass.
+
+
+## Post-merge scope-label correction
+
+After PR #59 merged, a stricter review of the two book-level records showed the contents transcription belongs to file `I.djvu`, but Commons labels that file Tome I while Wikisource labels it Tome II (and labels file II.djvu Tome I). The scope audit was corrected to refer to file identifiers and mark tome designation unresolved. The original negative contents result is unchanged; no title-page examination was performed.
+
+
+**PR #60 validation note:** The first run caught a validator regex that expected different wording than the source record's `Commons metadata labels...` phrase. The regex was updated to match the exact provenance wording; final checks are pending.
