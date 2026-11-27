@@ -16,7 +16,7 @@ const leadKeys = [
 ].sort();
 const volumeKeys = ['volume','publication_year','page_count','commons_url','wikisource_url','source_id'].sort();
 const tocKeys = [
-  'volume','contents_locator','source_id','contents_text_examined','printed_page_image_examined',
+  'volume','contents_locator','source_id','contents_text_examined','printed_toc_page','printed_page_image_examined',
   'target_title_listed','listed_louisiana_related_entries','scope_limit','wikisource_volume_label_conflict'
 ].sort();
 
